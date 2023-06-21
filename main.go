@@ -2,6 +2,11 @@ package main
 
 import (
 	"bytes"
+	"os"
+	"path/filepath"
+	"strings"
+	"time"
+
 	"github.com/go-git/go-git/v5"
 	. "github.com/go-git/go-git/v5/_examples"
 	"github.com/go-git/go-git/v5/plumbing/object"
@@ -9,17 +14,9 @@ import (
 	"github.com/pkg/errors"
 	"gomodules.xyz/sets"
 	"k8s.io/klog/v2"
-	"os"
-	"path/filepath"
-	"strings"
-	"time"
 )
 
-// Example of how to:
-// - Clone a repository into memory
-// - Get the HEAD reference
-// - Using the HEAD reference, obtain the commit this reference is pointing to
-// - Using the commit, obtain its history and print it
+// Read from Git directly
 func main() {
 	apps := map[string]AppHistory{}
 	outDir := "./library"
