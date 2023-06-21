@@ -213,9 +213,9 @@ func PrintUnifiedHistory(outDir string, apps map[string]AppHistory) error {
 
 		{
 			tags := make([]string, 0, h.KnownTags.Len())
-			for v := range h.KnownTags {
-				if _, err := semver.NewVersion(v); err == nil {
-					tags = append(tags, v)
+			for tag := range h.KnownTags {
+				if _, err := semver.NewVersion(tag); err == nil {
+					tags = append(tags, tag)
 				}
 			}
 			semvers.SortVersions(tags, func(vi, vj string) bool {
@@ -230,6 +230,26 @@ func PrintUnifiedHistory(outDir string, apps map[string]AppHistory) error {
 		}
 	}
 	return nil
+}
+
+var acceptedPreReleases = sets.NewString(
+	"",
+	"bullseye",
+	"bookworm",
+	"alpine",
+	"centos",
+	"management-alpine", // rabbitmq
+	"management",        // rabbitmq
+	"slim",              // debian
+	"jammy",             // ubuntu
+	"focal",             // ubuntu
+	"temurin",           // java
+	"openjdk",           // java
+)
+
+func SupportedPreRelease(v *semver.Version) bool {
+	_, found := acceptedPreReleases[v.Prerelease()]
+	return found
 }
 
 func ProcessRepo(apps map[string]AppHistory, dir string) error {
