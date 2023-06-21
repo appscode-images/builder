@@ -84,9 +84,10 @@ func ProcessCommit(apps map[string]AppHistory) func(c *object.Commit) error {
 				return err
 			}
 			app, err := ParseLibraryFileContent(filepath.Base(file.Name), lines)
-			if err != nil {
+			if err != nil || app == nil {
 				return err
 			}
+
 			klog.InfoS("processed", "commit", c.ID(), "file", file.Name, "blocks", len(app.Blocks))
 
 			h, found := apps[app.Name]
@@ -155,7 +156,7 @@ func PrintUnifiedHistory(outDir string, apps map[string]AppHistory) error {
 	for appName, h := range apps {
 		buf.Reset()
 		buf.WriteString("GitRepo: ")
-		buf.WriteString(h.Name)
+		buf.WriteString(h.GitRepo)
 		buf.WriteRune('\n')
 
 		for _, b := range h.Blocks {
@@ -184,7 +185,7 @@ func ProcessRepo(apps map[string]AppHistory, dir string) error {
 
 		filename := filepath.Join(dir, entry.Name())
 		app, err := ParseLibraryFile(filename)
-		if err != nil {
+		if err != nil || app == nil {
 			return err
 		}
 		klog.InfoS("processed", "file", filename, "blocks", len(app.Blocks))
@@ -354,6 +355,10 @@ func ParseLibraryFileContent(appName string, lines []string) (*App, error) {
 		app.Blocks = append(app.Blocks, *curBlock)
 	}
 
+	// eg: ./official-images/library/sourcemage
+	if app.Name == "" {
+		return nil, nil
+	}
 	return &app, nil
 }
 
