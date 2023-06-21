@@ -201,7 +201,11 @@ func PrintUnifiedHistory(outDir string, apps map[string]AppHistory) error {
 		}
 
 		filename = filepath.Join(dir, "tags.txt")
-		data = []byte(strings.Join(h.KnownTags.List(), "\n"))
+		tags := h.KnownTags.List()
+		semvers.SortVersions(tags, func(vi, vj string) bool {
+			return !semvers.Compare(vi, vj)
+		})
+		data = []byte(strings.Join(tags, "\n"))
 		err = os.WriteFile(filename, data, 0644)
 		if err != nil {
 			return errors.Wrap(err, "file: "+filename)
