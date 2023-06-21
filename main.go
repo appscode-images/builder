@@ -2,7 +2,9 @@ package main
 
 import (
 	"bufio"
+	"bytes"
 	"fmt"
+	"gomodules.xyz/sets"
 	"k8s.io/klog/v2"
 	"os"
 	"path/filepath"
@@ -16,24 +18,54 @@ import (
 )
 
 func main() {
+	apps := map[string]AppHistory{}
 	dir := "./official-images/library"
+	outDir := "./library"
 
-	entries, err := os.ReadDir(dir)
+	err := ProcessRepo(apps, dir)
 	if err != nil {
 		panic(err)
 	}
-	for _, entry := range entries {
-		if entry.IsDir() {
-			continue
+	err = os.MkdirAll(outDir, 0755)
+	if err != nil {
+		panic(err)
+	}
+
+	var buf bytes.Buffer
+	for appName, h := range apps {
+		buf.Reset()
+		buf.WriteString("GitRepo: ")
+		buf.WriteString(h.Name)
+		buf.WriteRune('\n')
+
+		for _, b := range h.Blocks {
+			buf.WriteRune('\n')
+			buf.WriteString(b.String())
 		}
 
-		filename := filepath.Join(dir, entry.Name())
-		if app, err := Parse(filename); err != nil {
-			panic(err)
-		} else {
-			klog.InfoS("processed", "file", filename, "blocks", len(app.Blocks))
+		filename := filepath.Join(outDir, appName)
+		err = os.WriteFile(filename, buf.Bytes(), 0644)
+		if err != nil {
+			panic(filename + ": " + err.Error())
 		}
 	}
+
+	//entries, err := os.ReadDir(dir)
+	//if err != nil {
+	//	panic(err)
+	//}
+	//for _, entry := range entries {
+	//	if entry.IsDir() {
+	//		continue
+	//	}
+	//
+	//	filename := filepath.Join(dir, entry.Name())
+	//	if app, err := Parse(filename); err != nil {
+	//		panic(err)
+	//	} else {
+	//		klog.InfoS("processed", "file", filename, "blocks", len(app.Blocks))
+	//	}
+	//}
 
 	//// official-images/library/postgres
 	//if app, err := Parse("./official-images/library/sl"); err != nil {
@@ -41,6 +73,75 @@ func main() {
 	//} else {
 	//	fmt.Printf("%+v\n", app)
 	//}
+}
+
+func ProcessRepo(apps map[string]AppHistory, dir string) error {
+	entries, err := os.ReadDir(dir)
+	if err != nil {
+		return err
+	}
+	for _, entry := range entries {
+		if entry.IsDir() {
+			continue
+		}
+
+		filename := filepath.Join(dir, entry.Name())
+		app, err := Parse(filename)
+		if err != nil {
+			return err
+		}
+		klog.InfoS("processed", "file", filename, "blocks", len(app.Blocks))
+
+		h, found := apps[app.Name]
+		if !found {
+			h = AppHistory{
+				Name:      app.Name,
+				GitRepo:   app.GitRepo,
+				KnownTags: sets.NewString(),
+				Blocks:    nil,
+			}
+		}
+		GatherHistory(&h, app)
+		apps[app.Name] = h
+	}
+
+	return nil
+}
+
+func GatherHistory(h *AppHistory, app *App) {
+	for _, b := range app.Blocks {
+		if nb := processBlock(h, &b); nb != nil {
+			h.Blocks = append(h.Blocks, *nb)
+		}
+	}
+}
+
+func processBlock(h *AppHistory, b *Block) *Block {
+	var result *Block
+
+	newTags := make([]string, 0, len(b.Tags))
+	for _, tag := range b.Tags {
+		if !h.KnownTags.Has(tag) {
+			newTags = append(newTags, tag)
+		}
+	}
+	if len(newTags) > 0 {
+		result = &Block{
+			Tags:          newTags,
+			Architectures: b.Architectures,
+			GitCommit:     b.GitCommit,
+			Directory:     b.Directory,
+		}
+		h.KnownTags.Insert(newTags...)
+	}
+	return result
+}
+
+type AppHistory struct {
+	Name      string
+	GitRepo   string
+	KnownTags sets.String
+	Blocks    []Block
 }
 
 type App struct {
@@ -54,6 +155,31 @@ type Block struct {
 	Architectures []string
 	GitCommit     string
 	Directory     string
+}
+
+func (b Block) String() string {
+	var buf bytes.Buffer
+	if len(b.Tags) > 0 {
+		buf.WriteString("Tags: ")
+		buf.WriteString(strings.Join(b.Tags, ","))
+		buf.WriteRune('\n')
+	}
+	if len(b.Architectures) > 0 {
+		buf.WriteString("Architectures: ")
+		buf.WriteString(strings.Join(b.Architectures, ","))
+		buf.WriteRune('\n')
+	}
+	if len(b.GitCommit) > 0 {
+		buf.WriteString("GitCommit: ")
+		buf.WriteString(b.GitCommit)
+		buf.WriteRune('\n')
+	}
+	if len(b.Directory) > 0 {
+		buf.WriteString("Directory: ")
+		buf.WriteString(b.Directory)
+		buf.WriteRune('\n')
+	}
+	return buf.String()
 }
 
 func Parse(filename string) (*App, error) {
