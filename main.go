@@ -1,7 +1,12 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
+	"k8s.io/klog/v2"
+	"os"
+	"path/filepath"
+	"strings"
 	"time"
 
 	"github.com/go-git/go-git/v5"
@@ -10,12 +15,142 @@ import (
 	"github.com/go-git/go-git/v5/storage/memory"
 )
 
+func main() {
+	dir := "./official-images/library"
+
+	entries, err := os.ReadDir(dir)
+	if err != nil {
+		panic(err)
+	}
+	for _, entry := range entries {
+		if entry.IsDir() {
+			continue
+		}
+
+		filename := filepath.Join(dir, entry.Name())
+		if app, err := Parse(filename); err != nil {
+			panic(err)
+		} else {
+			klog.InfoS("processed", "file", filename, "blocks", len(app.Blocks))
+		}
+	}
+
+	//// official-images/library/postgres
+	//if app, err := Parse("./official-images/library/sl"); err != nil {
+	//	panic(err)
+	//} else {
+	//	fmt.Printf("%+v\n", app)
+	//}
+}
+
+type App struct {
+	Name    string
+	GitRepo string
+	Blocks  []Block
+}
+
+type Block struct {
+	Tags          []string
+	Architectures []string
+	GitCommit     string
+	Directory     string
+}
+
+func Parse(filename string) (*App, error) {
+	file, err := os.Open(filename)
+	if err != nil {
+		return nil, err
+	}
+	defer func() { _ = file.Close() }()
+
+	var app App
+
+	scanner := bufio.NewScanner(file)
+	var line string
+	var curBlock *Block
+	var curProp string
+	// optionally, resize scanner's capacity for lines over 64K, see next example
+	for scanner.Scan() {
+		line = strings.TrimSpace(scanner.Text())
+		if strings.HasPrefix(line, "#") {
+			continue
+		}
+
+		if line == "" {
+			if curBlock != nil {
+				// process cur block
+				app.Blocks = append(app.Blocks, *curBlock)
+			}
+			curBlock = nil
+			curProp = ""
+			continue
+		}
+
+		before, after, found := strings.Cut(line, ":")
+		var parts []string
+		if found {
+			curProp = before
+			parts = strings.Split(after, ",")
+		} else {
+			parts = strings.Split(before, ",")
+		}
+		parts = filter(parts)
+
+		switch curProp {
+		case "GitRepo":
+			app.Name = filepath.Base(filename)
+			app.GitRepo = parts[0]
+		case "Tags":
+			if curBlock == nil {
+				curBlock = new(Block)
+			}
+			curBlock.Tags = append(curBlock.Tags, parts...)
+		case "Architectures":
+			if curBlock == nil {
+				curBlock = new(Block)
+			}
+			curBlock.Architectures = append(curBlock.Architectures, parts...)
+		case "GitCommit":
+			if curBlock == nil {
+				curBlock = new(Block)
+			}
+			curBlock.GitCommit = parts[0]
+		case "Directory":
+			if curBlock == nil {
+				curBlock = new(Block)
+			}
+			curBlock.Directory = parts[0]
+		default:
+			klog.V(5).InfoS("ignoring property", before, after)
+		}
+	}
+
+	// last block
+	if curBlock != nil {
+		// process cur block
+		app.Blocks = append(app.Blocks, *curBlock)
+	}
+
+	return &app, scanner.Err()
+}
+
+func filter(in []string) []string {
+	out := make([]string, 0, len(in))
+	for _, s := range in {
+		s = strings.TrimSpace(s)
+		if s != "" {
+			out = append(out, s)
+		}
+	}
+	return out
+}
+
 // Example of how to:
 // - Clone a repository into memory
 // - Get the HEAD reference
 // - Using the HEAD reference, obtain the commit this reference is pointing to
 // - Using the commit, obtain its history and print it
-func main() {
+func main_git() {
 	// Clones the given repository, creating the remote, the local branches
 	// and fetching the objects, everything in memory:
 	Info("git clone https://github.com/docker-library/postgres")
@@ -40,6 +175,8 @@ func main() {
 	// ... just iterates over the commits, printing it
 	err = cIter.ForEach(func(c *object.Commit) error {
 		fmt.Println(c)
+
+		c.Files()
 
 		return nil
 	})
