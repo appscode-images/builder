@@ -1,23 +1,115 @@
 package main
 
 import (
-	"bufio"
 	"bytes"
-	"fmt"
+	"github.com/go-git/go-git/v5"
+	. "github.com/go-git/go-git/v5/_examples"
+	"github.com/go-git/go-git/v5/plumbing/object"
+	"github.com/go-git/go-git/v5/storage/memory"
+	"github.com/pkg/errors"
 	"gomodules.xyz/sets"
 	"k8s.io/klog/v2"
 	"os"
 	"path/filepath"
 	"strings"
 	"time"
-
-	"github.com/go-git/go-git/v5"
-	. "github.com/go-git/go-git/v5/_examples"
-	"github.com/go-git/go-git/v5/plumbing/object"
-	"github.com/go-git/go-git/v5/storage/memory"
 )
 
+// Example of how to:
+// - Clone a repository into memory
+// - Get the HEAD reference
+// - Using the HEAD reference, obtain the commit this reference is pointing to
+// - Using the commit, obtain its history and print it
 func main() {
+	apps := map[string]AppHistory{}
+	outDir := "./library"
+
+	err := ProcessGitRepo(apps, true)
+	CheckIfError(err)
+
+	err = PrintUnifiedHistory(outDir, apps)
+	if err != nil {
+		panic(err)
+	}
+}
+
+func ProcessGitRepo(apps map[string]AppHistory, fullHistory bool) error {
+	repoURL := "https://github.com/docker-library/official-images"
+
+	// Clones the given repository, creating the remote, the local branches
+	// and fetching the objects, everything in memory:
+	Info("git clone " + repoURL)
+	r, err := git.Clone(memory.NewStorage(), nil, &git.CloneOptions{
+		URL: repoURL,
+	})
+	if err != nil {
+		return err
+	}
+
+	// Gets the HEAD history from HEAD, just like this command:
+	Info("git log")
+
+	// ... retrieves the branch pointed by HEAD
+	ref, err := r.Head()
+	if err != nil {
+		return err
+	}
+
+	// ... retrieves the commit history
+	opts := git.LogOptions{From: ref.Hash()}
+	if !fullHistory {
+		from := time.Now().UTC()
+		to := from.Add(-14 * 24 * time.Hour)
+		opts.Since = &to
+		opts.Until = &from
+	}
+	cIter, err := r.Log(&opts)
+	if err != nil {
+		return err
+	}
+
+	return cIter.ForEach(ProcessCommit(apps))
+}
+
+func ProcessCommit(apps map[string]AppHistory) func(c *object.Commit) error {
+	return func(c *object.Commit) error {
+		files, err := c.Files()
+		if err != nil {
+			return err
+		}
+		return files.ForEach(func(file *object.File) error {
+			if !strings.HasPrefix(file.Name, "library/") {
+				return nil
+			}
+
+			lines, err := file.Lines()
+			if err != nil {
+				return err
+			}
+			app, err := ParseLibraryFileContent(filepath.Base(file.Name), lines)
+			if err != nil {
+				return err
+			}
+			klog.InfoS("processed", "commit", c.ID(), "file", file.Name, "blocks", len(app.Blocks))
+
+			h, found := apps[app.Name]
+			if !found {
+				h = AppHistory{
+					Name:      app.Name,
+					GitRepo:   app.GitRepo,
+					KnownTags: sets.NewString(),
+					Blocks:    nil,
+				}
+			}
+			GatherHistory(&h, app)
+			apps[app.Name] = h
+
+			return nil
+		})
+	}
+}
+
+func main__() {
 	apps := map[string]AppHistory{}
 	dir := "./official-images/library"
 	outDir := "./library"
@@ -26,9 +118,40 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	err = os.MkdirAll(outDir, 0755)
+	err = PrintUnifiedHistory(outDir, apps)
 	if err != nil {
 		panic(err)
+	}
+
+	//entries, err := os.ReadDir(dir)
+	//if err != nil {
+	//	panic(err)
+	//}
+	//for _, entry := range entries {
+	//	if entry.IsDir() {
+	//		continue
+	//	}
+	//
+	//	filename := filepath.Join(dir, entry.Name())
+	//	if app, err := ParseLibraryFile(filename); err != nil {
+	//		panic(err)
+	//	} else {
+	//		klog.InfoS("processed", "file", filename, "blocks", len(app.Blocks))
+	//	}
+	//}
+
+	//// official-images/library/postgres
+	//if app, err := ParseLibraryFile("./official-images/library/sl"); err != nil {
+	//	panic(err)
+	//} else {
+	//	fmt.Printf("%+v\n", app)
+	//}
+}
+
+func PrintUnifiedHistory(outDir string, apps map[string]AppHistory) error {
+	err := os.MkdirAll(outDir, 0755)
+	if err != nil {
+		return err
 	}
 
 	var buf bytes.Buffer
@@ -46,33 +169,10 @@ func main() {
 		filename := filepath.Join(outDir, appName)
 		err = os.WriteFile(filename, buf.Bytes(), 0644)
 		if err != nil {
-			panic(filename + ": " + err.Error())
+			return errors.Wrap(err, "file: "+filename)
 		}
 	}
-
-	//entries, err := os.ReadDir(dir)
-	//if err != nil {
-	//	panic(err)
-	//}
-	//for _, entry := range entries {
-	//	if entry.IsDir() {
-	//		continue
-	//	}
-	//
-	//	filename := filepath.Join(dir, entry.Name())
-	//	if app, err := Parse(filename); err != nil {
-	//		panic(err)
-	//	} else {
-	//		klog.InfoS("processed", "file", filename, "blocks", len(app.Blocks))
-	//	}
-	//}
-
-	//// official-images/library/postgres
-	//if app, err := Parse("./official-images/library/sl"); err != nil {
-	//	panic(err)
-	//} else {
-	//	fmt.Printf("%+v\n", app)
-	//}
+	return nil
 }
 
 func ProcessRepo(apps map[string]AppHistory, dir string) error {
@@ -86,7 +186,7 @@ func ProcessRepo(apps map[string]AppHistory, dir string) error {
 		}
 
 		filename := filepath.Join(dir, entry.Name())
-		app, err := Parse(filename)
+		app, err := ParseLibraryFile(filename)
 		if err != nil {
 			return err
 		}
@@ -182,22 +282,22 @@ func (b Block) String() string {
 	return buf.String()
 }
 
-func Parse(filename string) (*App, error) {
-	file, err := os.Open(filename)
+func ParseLibraryFile(filename string) (*App, error) {
+	data, err := os.ReadFile(filename)
 	if err != nil {
 		return nil, err
 	}
-	defer func() { _ = file.Close() }()
+	return ParseLibraryFileContent(filepath.Base(filename), strings.Split(string(data), "\n"))
+}
 
+func ParseLibraryFileContent(appName string, lines []string) (*App, error) {
 	var app App
 
-	scanner := bufio.NewScanner(file)
-	var line string
 	var curBlock *Block
 	var curProp string
 	// optionally, resize scanner's capacity for lines over 64K, see next example
-	for scanner.Scan() {
-		line = strings.TrimSpace(scanner.Text())
+	for _, line := range lines {
+		line = strings.TrimSpace(line)
 		if strings.HasPrefix(line, "#") {
 			continue
 		}
@@ -224,7 +324,7 @@ func Parse(filename string) (*App, error) {
 
 		switch curProp {
 		case "GitRepo":
-			app.Name = filepath.Base(filename)
+			app.Name = appName
 			app.GitRepo = parts[0]
 		case "Tags":
 			if curBlock == nil {
@@ -257,7 +357,7 @@ func Parse(filename string) (*App, error) {
 		app.Blocks = append(app.Blocks, *curBlock)
 	}
 
-	return &app, scanner.Err()
+	return &app, nil
 }
 
 func filter(in []string) []string {
@@ -269,42 +369,4 @@ func filter(in []string) []string {
 		}
 	}
 	return out
-}
-
-// Example of how to:
-// - Clone a repository into memory
-// - Get the HEAD reference
-// - Using the HEAD reference, obtain the commit this reference is pointing to
-// - Using the commit, obtain its history and print it
-func main_git() {
-	// Clones the given repository, creating the remote, the local branches
-	// and fetching the objects, everything in memory:
-	Info("git clone https://github.com/docker-library/postgres")
-	r, err := git.Clone(memory.NewStorage(), nil, &git.CloneOptions{
-		URL: "https://github.com/docker-library/postgres",
-	})
-	CheckIfError(err)
-
-	// Gets the HEAD history from HEAD, just like this command:
-	Info("git log")
-
-	// ... retrieves the branch pointed by HEAD
-	ref, err := r.Head()
-	CheckIfError(err)
-
-	// ... retrieves the commit history
-	since := time.Date(2019, 1, 1, 0, 0, 0, 0, time.UTC)
-	until := time.Date(2019, 7, 30, 0, 0, 0, 0, time.UTC)
-	cIter, err := r.Log(&git.LogOptions{From: ref.Hash(), Since: &since, Until: &until})
-	CheckIfError(err)
-
-	// ... just iterates over the commits, printing it
-	err = cIter.ForEach(func(c *object.Commit) error {
-		fmt.Println(c)
-
-		c.Files()
-
-		return nil
-	})
-	CheckIfError(err)
 }

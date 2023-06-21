@@ -4,6 +4,7 @@ go 1.20
 
 require (
 	github.com/go-git/go-git/v5 v5.7.0
+	github.com/pkg/errors v0.9.1
 	gomodules.xyz/sets v0.2.1
 	k8s.io/klog/v2 v2.100.1
 )
