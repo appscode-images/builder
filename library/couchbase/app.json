@@ -1,0 +1,106 @@
+{
+  "Name": "couchbase",
+  "GitRepo": "https://github.com/couchbase/docker",
+  "KnownTags": {
+    "6.6.6": {},
+    "7.0.5": {},
+    "7.1.4": {},
+    "7.2.0": {},
+    "community": {},
+    "community-6.6.0": {},
+    "community-7.0.2": {},
+    "community-7.1.1": {},
+    "community-7.2.0": {},
+    "enterprise": {},
+    "enterprise-6.6.6": {},
+    "enterprise-7.0.5": {},
+    "enterprise-7.1.4": {},
+    "enterprise-7.2.0": {},
+    "latest": {}
+  },
+  "Blocks": [
+    {
+      "Tags": [
+        "7.2.0",
+        "enterprise-7.2.0",
+        "enterprise",
+        "latest"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8"
+      ],
+      "GitCommit": "2bd177d6887d051b6981c8c2591af6eed3ae9505",
+      "Directory": "enterprise/couchbase-server/7.2.0"
+    },
+    {
+      "Tags": [
+        "community-7.2.0",
+        "community"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8"
+      ],
+      "GitCommit": "2bd177d6887d051b6981c8c2591af6eed3ae9505",
+      "Directory": "community/couchbase-server/7.2.0"
+    },
+    {
+      "Tags": [
+        "7.1.4",
+        "enterprise-7.1.4"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8"
+      ],
+      "GitCommit": "c497eda885d5b9869ad45d0432e3b382d6b328c1",
+      "Directory": "enterprise/couchbase-server/7.1.4"
+    },
+    {
+      "Tags": [
+        "community-7.1.1"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8"
+      ],
+      "GitCommit": "bfbb82c084ca3ada6252afbbcb3ca94bb65f1e58",
+      "Directory": "community/couchbase-server/7.1.1"
+    },
+    {
+      "Tags": [
+        "7.0.5",
+        "enterprise-7.0.5"
+      ],
+      "Architectures": null,
+      "GitCommit": "ca816b6ffa5c36007bd4b3386ec24df081a00ea0",
+      "Directory": "enterprise/couchbase-server/7.0.5"
+    },
+    {
+      "Tags": [
+        "community-7.0.2"
+      ],
+      "Architectures": null,
+      "GitCommit": "aec4494ab5280caf567997d72714f57572a6315b",
+      "Directory": "community/couchbase-server/7.0.2"
+    },
+    {
+      "Tags": [
+        "6.6.6",
+        "enterprise-6.6.6"
+      ],
+      "Architectures": null,
+      "GitCommit": "8398e79a15da9eef613d0a781ec136a458ea128c",
+      "Directory": "enterprise/couchbase-server/6.6.6"
+    },
+    {
+      "Tags": [
+        "community-6.6.0"
+      ],
+      "Architectures": null,
+      "GitCommit": "aad4aa9714578906c0c993121654eaeba0bd907c",
+      "Directory": "community/couchbase-server/6.6.0"
+    }
+  ]
+}

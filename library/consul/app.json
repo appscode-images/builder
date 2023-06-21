@@ -1,0 +1,58 @@
+{
+  "Name": "consul",
+  "GitRepo": "https://github.com/hashicorp/docker-consul.git",
+  "KnownTags": {
+    "1.13": {},
+    "1.13.8": {},
+    "1.14": {},
+    "1.14.7": {},
+    "1.15": {},
+    "1.15.3": {},
+    "latest": {}
+  },
+  "Blocks": [
+    {
+      "Tags": [
+        "1.15.3",
+        "1.15",
+        "latest"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v6",
+        "arm64v8",
+        "i386"
+      ],
+      "GitCommit": "6728f1e11112016a3539eec50b8d20b27a31aa40",
+      "Directory": "0.X"
+    },
+    {
+      "Tags": [
+        "1.14.7",
+        "1.14"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v6",
+        "arm64v8",
+        "i386"
+      ],
+      "GitCommit": "36b73fb81154b668e9c1987fc7011322f33b926e",
+      "Directory": "0.X"
+    },
+    {
+      "Tags": [
+        "1.13.8",
+        "1.13"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v6",
+        "arm64v8",
+        "i386"
+      ],
+      "GitCommit": "4e3f7398868f9767d515e91a63b67294f5c97aa9",
+      "Directory": "0.X"
+    }
+  ]
+}

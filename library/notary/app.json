@@ -1,0 +1,30 @@
+{
+  "Name": "notary",
+  "GitRepo": "https://github.com/docker/notary-official-images.git",
+  "KnownTags": {
+    "server": {},
+    "server-0.7.0": {},
+    "signer": {},
+    "signer-0.7.0": {}
+  },
+  "Blocks": [
+    {
+      "Tags": [
+        "server-0.7.0",
+        "server"
+      ],
+      "Architectures": null,
+      "GitCommit": "",
+      "Directory": "notary-server"
+    },
+    {
+      "Tags": [
+        "signer-0.7.0",
+        "signer"
+      ],
+      "Architectures": null,
+      "GitCommit": "",
+      "Directory": "notary-signer"
+    }
+  ]
+}

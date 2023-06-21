@@ -1,0 +1,599 @@
+{
+  "Name": "debian",
+  "GitRepo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
+  "KnownTags": {
+    "10": {},
+    "10-slim": {},
+    "10.13": {},
+    "10.13-slim": {},
+    "11": {},
+    "11-slim": {},
+    "11.7": {},
+    "11.7-slim": {},
+    "12": {},
+    "12-slim": {},
+    "12.0": {},
+    "12.0-slim": {},
+    "bookworm": {},
+    "bookworm-20230612": {},
+    "bookworm-20230612-slim": {},
+    "bookworm-backports": {},
+    "bookworm-slim": {},
+    "bullseye": {},
+    "bullseye-20230612": {},
+    "bullseye-20230612-slim": {},
+    "bullseye-backports": {},
+    "bullseye-slim": {},
+    "buster": {},
+    "buster-20230612": {},
+    "buster-20230612-slim": {},
+    "buster-backports": {},
+    "buster-slim": {},
+    "experimental": {},
+    "experimental-20230612": {},
+    "latest": {},
+    "oldoldstable": {},
+    "oldoldstable-20230612": {},
+    "oldoldstable-20230612-slim": {},
+    "oldoldstable-backports": {},
+    "oldoldstable-slim": {},
+    "oldstable": {},
+    "oldstable-20230612": {},
+    "oldstable-20230612-slim": {},
+    "oldstable-backports": {},
+    "oldstable-slim": {},
+    "rc-buggy": {},
+    "rc-buggy-20230612": {},
+    "sid": {},
+    "sid-20230612": {},
+    "sid-20230612-slim": {},
+    "sid-slim": {},
+    "stable": {},
+    "stable-20230612": {},
+    "stable-20230612-slim": {},
+    "stable-backports": {},
+    "stable-slim": {},
+    "testing": {},
+    "testing-20230612": {},
+    "testing-20230612-slim": {},
+    "testing-backports": {},
+    "testing-slim": {},
+    "trixie": {},
+    "trixie-20230612": {},
+    "trixie-20230612-slim": {},
+    "trixie-backports": {},
+    "trixie-slim": {},
+    "unstable": {},
+    "unstable-20230612": {},
+    "unstable-20230612-slim": {},
+    "unstable-slim": {}
+  },
+  "Blocks": [
+    {
+      "Tags": [
+        "bookworm",
+        "bookworm-20230612",
+        "12.0",
+        "12",
+        "latest"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bookworm"
+    },
+    {
+      "Tags": [
+        "bookworm-backports"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bookworm/backports"
+    },
+    {
+      "Tags": [
+        "bookworm-slim",
+        "bookworm-20230612-slim",
+        "12.0-slim",
+        "12-slim"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bookworm/slim"
+    },
+    {
+      "Tags": [
+        "bullseye",
+        "bullseye-20230612",
+        "11.7",
+        "11"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bullseye"
+    },
+    {
+      "Tags": [
+        "bullseye-backports"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bullseye/backports"
+    },
+    {
+      "Tags": [
+        "bullseye-slim",
+        "bullseye-20230612-slim",
+        "11.7-slim",
+        "11-slim"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bullseye/slim"
+    },
+    {
+      "Tags": [
+        "buster",
+        "buster-20230612",
+        "10.13",
+        "10"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386"
+      ],
+      "GitCommit": "",
+      "Directory": "buster"
+    },
+    {
+      "Tags": [
+        "buster-backports"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386"
+      ],
+      "GitCommit": "",
+      "Directory": "buster/backports"
+    },
+    {
+      "Tags": [
+        "buster-slim",
+        "buster-20230612-slim",
+        "10.13-slim",
+        "10-slim"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386"
+      ],
+      "GitCommit": "",
+      "Directory": "buster/slim"
+    },
+    {
+      "Tags": [
+        "experimental",
+        "experimental-20230612"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "experimental"
+    },
+    {
+      "Tags": [
+        "oldoldstable",
+        "oldoldstable-20230612"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386"
+      ],
+      "GitCommit": "",
+      "Directory": "oldoldstable"
+    },
+    {
+      "Tags": [
+        "oldoldstable-backports"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386"
+      ],
+      "GitCommit": "",
+      "Directory": "oldoldstable/backports"
+    },
+    {
+      "Tags": [
+        "oldoldstable-slim",
+        "oldoldstable-20230612-slim"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386"
+      ],
+      "GitCommit": "",
+      "Directory": "oldoldstable/slim"
+    },
+    {
+      "Tags": [
+        "oldstable",
+        "oldstable-20230612"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oldstable"
+    },
+    {
+      "Tags": [
+        "oldstable-backports"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oldstable/backports"
+    },
+    {
+      "Tags": [
+        "oldstable-slim",
+        "oldstable-20230612-slim"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oldstable/slim"
+    },
+    {
+      "Tags": [
+        "rc-buggy",
+        "rc-buggy-20230612"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "rc-buggy"
+    },
+    {
+      "Tags": [
+        "sid",
+        "sid-20230612"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "sid"
+    },
+    {
+      "Tags": [
+        "sid-slim",
+        "sid-20230612-slim"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "sid/slim"
+    },
+    {
+      "Tags": [
+        "stable",
+        "stable-20230612"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "stable"
+    },
+    {
+      "Tags": [
+        "stable-backports"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "stable/backports"
+    },
+    {
+      "Tags": [
+        "stable-slim",
+        "stable-20230612-slim"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "stable/slim"
+    },
+    {
+      "Tags": [
+        "testing",
+        "testing-20230612"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "testing"
+    },
+    {
+      "Tags": [
+        "testing-backports"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "testing/backports"
+    },
+    {
+      "Tags": [
+        "testing-slim",
+        "testing-20230612-slim"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "testing/slim"
+    },
+    {
+      "Tags": [
+        "trixie",
+        "trixie-20230612"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "trixie"
+    },
+    {
+      "Tags": [
+        "trixie-backports"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "trixie/backports"
+    },
+    {
+      "Tags": [
+        "trixie-slim",
+        "trixie-20230612-slim"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "trixie/slim"
+    },
+    {
+      "Tags": [
+        "unstable",
+        "unstable-20230612"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "unstable"
+    },
+    {
+      "Tags": [
+        "unstable-slim",
+        "unstable-20230612-slim"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "unstable/slim"
+    }
+  ]
+}

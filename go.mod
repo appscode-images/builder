@@ -3,10 +3,12 @@ module github.com/tamalsaha/docker-tag-history
 go 1.20
 
 require (
+	github.com/Masterminds/semver/v3 v3.2.1
 	github.com/go-git/go-git/v5 v5.7.0
 	github.com/pkg/errors v0.9.1
 	gomodules.xyz/sets v0.2.1
 	k8s.io/klog/v2 v2.100.1
+	sigs.k8s.io/yaml v1.3.0
 )
 
 require (
@@ -30,4 +32,5 @@ require (
 	golang.org/x/net v0.10.0 // indirect
 	golang.org/x/sys v0.8.0 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
+	gopkg.in/yaml.v2 v2.4.0 // indirect
 )

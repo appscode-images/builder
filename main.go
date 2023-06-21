@@ -2,11 +2,13 @@ package main
 
 import (
 	"bytes"
+	"encoding/json"
 	"os"
 	"path/filepath"
 	"strings"
 	"time"
 
+	"github.com/Masterminds/semver/v3"
 	"github.com/go-git/go-git/v5"
 	. "github.com/go-git/go-git/v5/_examples"
 	"github.com/go-git/go-git/v5/plumbing/object"
@@ -14,10 +16,11 @@ import (
 	"github.com/pkg/errors"
 	"gomodules.xyz/sets"
 	"k8s.io/klog/v2"
+	"sigs.k8s.io/yaml"
 )
 
 // Read from Git directly
-func main() {
+func main_git() {
 	apps := map[string]AppHistory{}
 	outDir := "./library"
 
@@ -107,7 +110,7 @@ func ProcessCommit(apps map[string]AppHistory) func(c *object.Commit) error {
 	}
 }
 
-func main__() {
+func main() {
 	apps := map[string]AppHistory{}
 	dir := "./official-images/library"
 	outDir := "./library"
@@ -154,6 +157,12 @@ func PrintUnifiedHistory(outDir string, apps map[string]AppHistory) error {
 
 	var buf bytes.Buffer
 	for appName, h := range apps {
+		dir := filepath.Join(outDir, appName)
+		err := os.MkdirAll(dir, 0755)
+		if err != nil {
+			return err
+		}
+
 		buf.Reset()
 		buf.WriteString("GitRepo: ")
 		buf.WriteString(h.GitRepo)
@@ -164,10 +173,53 @@ func PrintUnifiedHistory(outDir string, apps map[string]AppHistory) error {
 			buf.WriteString(b.String())
 		}
 
-		filename := filepath.Join(outDir, appName)
+		filename := filepath.Join(dir, "app.txt")
 		err = os.WriteFile(filename, buf.Bytes(), 0644)
 		if err != nil {
 			return errors.Wrap(err, "file: "+filename)
+		}
+
+		filename = filepath.Join(dir, "app.json")
+		data, err := json.MarshalIndent(h, "", "  ")
+		if err != nil {
+			return errors.Wrap(err, "file: "+filename)
+		}
+		err = os.WriteFile(filename, data, 0644)
+		if err != nil {
+			return errors.Wrap(err, "file: "+filename)
+		}
+
+		filename = filepath.Join(dir, "app.yaml")
+		data, err = yaml.Marshal(h)
+		if err != nil {
+			return errors.Wrap(err, "file: "+filename)
+		}
+		err = os.WriteFile(filename, data, 0644)
+		if err != nil {
+			return errors.Wrap(err, "file: "+filename)
+		}
+
+		filename = filepath.Join(dir, "tags.txt")
+		data = []byte(strings.Join(h.KnownTags.List(), "\n"))
+		err = os.WriteFile(filename, data, 0644)
+		if err != nil {
+			return errors.Wrap(err, "file: "+filename)
+		}
+
+		{
+			tags := make([]string, 0, h.KnownTags.Len())
+			for v := range h.KnownTags {
+				if _, err := semver.NewVersion(v); err == nil {
+					tags = append(tags, v)
+				}
+			}
+
+			filename = filepath.Join(dir, "semver.txt")
+			data = []byte(strings.Join(tags, "\n"))
+			err = os.WriteFile(filename, data, 0644)
+			if err != nil {
+				return errors.Wrap(err, "file: "+filename)
+			}
 		}
 	}
 	return nil

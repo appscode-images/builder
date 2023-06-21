@@ -1,0 +1,40 @@
+{
+  "Name": "eggdrop",
+  "GitRepo": "https://github.com/eggheads/eggdrop-docker.git",
+  "KnownTags": {
+    "1.9": {},
+    "1.9.5": {},
+    "develop": {},
+    "latest": {},
+    "stable": {}
+  },
+  "Blocks": [
+    {
+      "Tags": [
+        "develop"
+      ],
+      "Architectures": [
+        "arm32v6",
+        "arm64v8",
+        "amd64"
+      ],
+      "GitCommit": "80fba087712325adc72a96265d4984c6760aff1a",
+      "Directory": "develop"
+    },
+    {
+      "Tags": [
+        "1.9",
+        "1.9.5",
+        "stable",
+        "latest"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v6",
+        "arm64v8"
+      ],
+      "GitCommit": "80fba087712325adc72a96265d4984c6760aff1a",
+      "Directory": "1.9"
+    }
+  ]
+}

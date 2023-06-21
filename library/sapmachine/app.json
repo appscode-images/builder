@@ -1,0 +1,57 @@
+{
+  "Name": "sapmachine",
+  "GitRepo": "https://github.com/SAP/SapMachine-infrastructure.git",
+  "KnownTags": {
+    "11": {},
+    "11.0.19": {},
+    "17": {},
+    "17.0.7": {},
+    "20": {},
+    "20.0.1": {},
+    "latest": {},
+    "lts": {}
+  },
+  "Blocks": [
+    {
+      "Tags": [
+        "11",
+        "11.0.19"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "c2a79726eae76118b0b204bb201920ce200d0703",
+      "Directory": "dockerfiles/official/11"
+    },
+    {
+      "Tags": [
+        "17",
+        "17.0.7",
+        "lts"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "b5e632a4b8a28d1618215983fa95859979c63280",
+      "Directory": "dockerfiles/official/17"
+    },
+    {
+      "Tags": [
+        "20",
+        "20.0.1",
+        "latest"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "2f4f203530b69b9e7b120c1f1e0d8e8baafa40f2",
+      "Directory": "dockerfiles/official/20"
+    }
+  ]
+}

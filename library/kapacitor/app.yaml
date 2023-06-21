@@ -1,0 +1,45 @@
+Blocks:
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  Directory: kapacitor/1.5
+  GitCommit: ""
+  Tags:
+  - "1.5"
+  - 1.5.9
+- Architectures: null
+  Directory: kapacitor/1.5/alpine
+  GitCommit: ""
+  Tags:
+  - 1.5-alpine
+  - 1.5.9-alpine
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: kapacitor/1.6
+  GitCommit: ""
+  Tags:
+  - "1.6"
+  - 1.6.6
+  - latest
+- Architectures: null
+  Directory: kapacitor/1.6/alpine
+  GitCommit: ""
+  Tags:
+  - 1.6-alpine
+  - 1.6.6-alpine
+  - alpine
+GitRepo: https://github.com/influxdata/influxdata-docker
+KnownTags:
+  "1.5": {}
+  1.5-alpine: {}
+  1.5.9: {}
+  1.5.9-alpine: {}
+  "1.6": {}
+  1.6-alpine: {}
+  1.6.6: {}
+  1.6.6-alpine: {}
+  alpine: {}
+  latest: {}
+Name: kapacitor
