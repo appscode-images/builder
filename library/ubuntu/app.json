@@ -2,24 +2,458 @@
   "Name": "ubuntu",
   "GitRepo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base",
   "KnownTags": {
+    "12.04": {},
+    "12.04.5": {},
+    "14.04": {},
+    "14.04.4": {},
+    "14.04.5": {},
+    "15.10": {},
+    "16.04": {},
+    "16.10": {},
+    "17.04": {},
+    "17.10": {},
+    "18.04": {},
+    "18.10": {},
+    "19.04": {},
+    "19.10": {},
     "20.04": {},
+    "20.10": {},
+    "21.04": {},
+    "21.10": {},
     "22.04": {},
     "22.10": {},
     "23.04": {},
     "23.10": {},
+    "artful": {},
+    "artful-20170511.1": {},
+    "artful-20170601": {},
+    "artful-20170619": {},
+    "artful-20170716": {},
+    "artful-20170728": {},
+    "artful-20170826": {},
+    "artful-20170916": {},
+    "artful-20171006": {},
+    "artful-20171019": {},
+    "artful-20171116": {},
+    "artful-20180112": {},
+    "artful-20180123": {},
+    "artful-20180227": {},
+    "artful-20180412": {},
+    "artful-20180417": {},
+    "artful-20180524": {},
+    "artful-20180706": {},
+    "bionic": {},
+    "bionic-20171114": {},
+    "bionic-20171214": {},
+    "bionic-20171220": {},
+    "bionic-20180125": {},
+    "bionic-20180224": {},
+    "bionic-20180410": {},
+    "bionic-20180426": {},
+    "bionic-20180526": {},
+    "bionic-20180710": {},
+    "bionic-20180724.1": {},
+    "bionic-20180821": {},
+    "bionic-20181018": {},
+    "bionic-20181112": {},
+    "bionic-20181204": {},
+    "bionic-20190122": {},
+    "bionic-20190204": {},
+    "bionic-20190307": {},
+    "bionic-20190424": {},
+    "bionic-20190515": {},
+    "bionic-20190612": {},
+    "bionic-20190718": {},
+    "bionic-20190807": {},
+    "bionic-20190912.1": {},
+    "bionic-20191010": {},
+    "bionic-20191029": {},
+    "bionic-20191202": {},
+    "bionic-20200112": {},
+    "bionic-20200219": {},
+    "bionic-20200311": {},
+    "bionic-20200403": {},
+    "bionic-20200526": {},
+    "bionic-20200630": {},
+    "bionic-20200713": {},
+    "bionic-20200807": {},
+    "bionic-20200903": {},
+    "bionic-20200921": {},
+    "bionic-20201119": {},
+    "bionic-20210118": {},
+    "bionic-20210222": {},
+    "bionic-20210325": {},
+    "bionic-20210416": {},
+    "bionic-20210512": {},
+    "bionic-20210615.1": {},
+    "bionic-20210702": {},
+    "bionic-20210723": {},
+    "bionic-20210827": {},
+    "bionic-20210930": {},
+    "bionic-20220105": {},
+    "bionic-20220128": {},
+    "bionic-20220301": {},
+    "bionic-20220315": {},
+    "bionic-20220401": {},
+    "bionic-20220415": {},
+    "bionic-20220427": {},
+    "bionic-20220531": {},
+    "bionic-20220801": {},
+    "bionic-20220829": {},
+    "bionic-20220902": {},
+    "bionic-20220913": {},
+    "bionic-20221019": {},
+    "bionic-20221130": {},
+    "bionic-20221215": {},
+    "bionic-20230126": {},
+    "bionic-20230301": {},
+    "bionic-20230308": {},
+    "bionic-20230412": {},
+    "bionic-20230530": {},
+    "cosmic": {},
+    "cosmic-20180605": {},
+    "cosmic-20180716": {},
+    "cosmic-20180725": {},
+    "cosmic-20180821": {},
+    "cosmic-20180905": {},
+    "cosmic-20181018": {},
+    "cosmic-20181114": {},
+    "cosmic-20181219": {},
+    "cosmic-20190122": {},
+    "cosmic-20190131": {},
+    "cosmic-20190311": {},
+    "cosmic-20190418": {},
+    "cosmic-20190515": {},
+    "cosmic-20190614": {},
+    "cosmic-20190719": {},
     "devel": {},
+    "disco": {},
+    "disco-20181112": {},
+    "disco-20181220": {},
+    "disco-20190118": {},
+    "disco-20190204": {},
+    "disco-20190310": {},
+    "disco-20190423": {},
+    "disco-20190515": {},
+    "disco-20190613": {},
+    "disco-20190718": {},
+    "disco-20190809": {},
+    "disco-20190913": {},
+    "disco-20191011": {},
+    "disco-20191030": {},
+    "disco-20191127": {},
+    "disco-20200114": {},
+    "eoan": {},
+    "eoan-20190508": {},
+    "eoan-20190614": {},
+    "eoan-20190717.1": {},
+    "eoan-20190813": {},
+    "eoan-20190916": {},
+    "eoan-20191017": {},
+    "eoan-20191101": {},
+    "eoan-20191127": {},
+    "eoan-20200114": {},
+    "eoan-20200207": {},
+    "eoan-20200313": {},
+    "eoan-20200410": {},
+    "eoan-20200608": {},
     "focal": {},
+    "focal-20191030": {},
+    "focal-20191129": {},
+    "focal-20200115": {},
+    "focal-20200319": {},
+    "focal-20200423": {},
+    "focal-20200606": {},
+    "focal-20200703": {},
+    "focal-20200720": {},
+    "focal-20200729": {},
+    "focal-20200916": {},
+    "focal-20200925": {},
+    "focal-20201008": {},
+    "focal-20201106": {},
+    "focal-20210119": {},
+    "focal-20210217": {},
+    "focal-20210325": {},
+    "focal-20210401": {},
+    "focal-20210416": {},
+    "focal-20210609": {},
+    "focal-20210713": {},
+    "focal-20210723": {},
+    "focal-20210827": {},
+    "focal-20210921": {},
+    "focal-20211006": {},
+    "focal-20220105": {},
+    "focal-20220113": {},
+    "focal-20220302": {},
+    "focal-20220316": {},
+    "focal-20220404": {},
+    "focal-20220415": {},
+    "focal-20220426": {},
+    "focal-20220531": {},
+    "focal-20220801": {},
+    "focal-20220826": {},
+    "focal-20220922": {},
+    "focal-20221019": {},
+    "focal-20221130": {},
+    "focal-20230126": {},
+    "focal-20230301": {},
+    "focal-20230308": {},
+    "focal-20230412": {},
     "focal-20230605": {},
+    "groovy": {},
+    "groovy-20200505": {},
+    "groovy-20200609": {},
+    "groovy-20200704": {},
+    "groovy-20200723": {},
+    "groovy-20200812": {},
+    "groovy-20200911": {},
+    "groovy-20200921": {},
+    "groovy-20201022.1": {},
+    "groovy-20201125.2": {},
+    "groovy-20210115": {},
+    "groovy-20210225": {},
+    "groovy-20210325": {},
+    "groovy-20210325.1": {},
+    "groovy-20210416": {},
+    "groovy-20210514": {},
+    "groovy-20210524": {},
+    "groovy-20210614": {},
+    "groovy-20210713": {},
+    "groovy-20210723": {},
+    "hirsute": {},
+    "hirsute-20201119": {},
+    "hirsute-20210119": {},
+    "hirsute-20210224": {},
+    "hirsute-20210401": {},
+    "hirsute-20210422": {},
+    "hirsute-20210514": {},
+    "hirsute-20210522": {},
+    "hirsute-20210602": {},
+    "hirsute-20210711": {},
+    "hirsute-20210723": {},
+    "hirsute-20210825": {},
+    "hirsute-20210917": {},
+    "hirsute-20211107": {},
+    "hirsute-20211208": {},
+    "hirsute-20220113": {},
+    "impish": {},
+    "impish-20210519": {},
+    "impish-20210606": {},
+    "impish-20210711": {},
+    "impish-20210722": {},
+    "impish-20210827": {},
+    "impish-20210928": {},
+    "impish-20211015": {},
+    "impish-20211102": {},
+    "impish-20220105": {},
+    "impish-20220128": {},
+    "impish-20220301": {},
+    "impish-20220316": {},
+    "impish-20220404": {},
+    "impish-20220415": {},
+    "impish-20220427": {},
+    "impish-20220531": {},
     "jammy": {},
+    "jammy-20211029": {},
+    "jammy-20211122": {},
+    "jammy-20220101": {},
+    "jammy-20220130": {},
+    "jammy-20220301": {},
+    "jammy-20220315": {},
+    "jammy-20220404": {},
+    "jammy-20220421": {},
+    "jammy-20220428": {},
+    "jammy-20220531": {},
+    "jammy-20220801": {},
+    "jammy-20220815": {},
+    "jammy-20221003": {},
+    "jammy-20221020": {},
+    "jammy-20221101": {},
+    "jammy-20221130": {},
+    "jammy-20230126": {},
+    "jammy-20230301": {},
+    "jammy-20230308": {},
+    "jammy-20230425": {},
+    "jammy-20230522": {},
     "jammy-20230605": {},
     "kinetic": {},
+    "kinetic-20220428": {},
+    "kinetic-20220602": {},
+    "kinetic-20220801": {},
+    "kinetic-20220830": {},
+    "kinetic-20220922": {},
+    "kinetic-20221024": {},
+    "kinetic-20221101": {},
+    "kinetic-20221130": {},
+    "kinetic-20230126": {},
+    "kinetic-20230217": {},
+    "kinetic-20230308": {},
+    "kinetic-20230412": {},
     "kinetic-20230605": {},
     "latest": {},
     "lunar": {},
+    "lunar-20221207": {},
+    "lunar-20221216": {},
+    "lunar-20230124.1": {},
+    "lunar-20230128": {},
+    "lunar-20230301": {},
+    "lunar-20230314": {},
+    "lunar-20230415": {},
+    "lunar-20230420": {},
+    "lunar-20230522": {},
     "lunar-20230615": {},
     "mantic": {},
+    "mantic-20230511.1": {},
+    "mantic-20230520": {},
     "mantic-20230607": {},
-    "rolling": {}
+    "precise": {},
+    "precise-20160624": {},
+    "precise-20160707": {},
+    "precise-20160819": {},
+    "precise-20160923.1": {},
+    "precise-20161102": {},
+    "precise-20161123": {},
+    "precise-20161209": {},
+    "precise-20170214": {},
+    "precise-20170331": {},
+    "rolling": {},
+    "trusty": {},
+    "trusty-20160624": {},
+    "trusty-20160711": {},
+    "trusty-20160802": {},
+    "trusty-20160819": {},
+    "trusty-20160914": {},
+    "trusty-20160923.1": {},
+    "trusty-20161006": {},
+    "trusty-20161101": {},
+    "trusty-20161123": {},
+    "trusty-20161214": {},
+    "trusty-20170119": {},
+    "trusty-20170214": {},
+    "trusty-20170330": {},
+    "trusty-20170602": {},
+    "trusty-20170620": {},
+    "trusty-20170719": {},
+    "trusty-20170728": {},
+    "trusty-20170817": {},
+    "trusty-20171117": {},
+    "trusty-20171207": {},
+    "trusty-20180112": {},
+    "trusty-20180123": {},
+    "trusty-20180302": {},
+    "trusty-20180412": {},
+    "trusty-20180420": {},
+    "trusty-20180531": {},
+    "trusty-20180712": {},
+    "trusty-20180807": {},
+    "trusty-20180929": {},
+    "trusty-20181115": {},
+    "trusty-20181217": {},
+    "trusty-20190122": {},
+    "trusty-20190305": {},
+    "trusty-20190425": {},
+    "trusty-20190515": {},
+    "trusty-20191107": {},
+    "trusty-20191217": {},
+    "wily": {},
+    "wily-20160602": {},
+    "wily-20160706": {},
+    "xenial": {},
+    "xenial-20160525": {},
+    "xenial-20160629": {},
+    "xenial-20160706": {},
+    "xenial-20160713": {},
+    "xenial-20160809": {},
+    "xenial-20160818": {},
+    "xenial-20160914": {},
+    "xenial-20160923.1": {},
+    "xenial-20161010": {},
+    "xenial-20161114": {},
+    "xenial-20161121": {},
+    "xenial-20161213": {},
+    "xenial-20170119": {},
+    "xenial-20170214": {},
+    "xenial-20170410": {},
+    "xenial-20170417.1": {},
+    "xenial-20170510": {},
+    "xenial-20170517.1": {},
+    "xenial-20170619": {},
+    "xenial-20170710": {},
+    "xenial-20170802": {},
+    "xenial-20170915": {},
+    "xenial-20171006": {},
+    "xenial-20171114": {},
+    "xenial-20171201": {},
+    "xenial-20180112.1": {},
+    "xenial-20180123": {},
+    "xenial-20180228": {},
+    "xenial-20180412": {},
+    "xenial-20180417": {},
+    "xenial-20180525": {},
+    "xenial-20180705": {},
+    "xenial-20180726": {},
+    "xenial-20180808": {},
+    "xenial-20181005": {},
+    "xenial-20181113": {},
+    "xenial-20181218": {},
+    "xenial-20190122": {},
+    "xenial-20190222": {},
+    "xenial-20190425": {},
+    "xenial-20190515": {},
+    "xenial-20190610": {},
+    "xenial-20190720": {},
+    "xenial-20190904": {},
+    "xenial-20191010": {},
+    "xenial-20191024": {},
+    "xenial-20191108": {},
+    "xenial-20191212": {},
+    "xenial-20200114": {},
+    "xenial-20200212": {},
+    "xenial-20200326": {},
+    "xenial-20200514": {},
+    "xenial-20200619": {},
+    "xenial-20200706": {},
+    "xenial-20200807": {},
+    "xenial-20200903": {},
+    "xenial-20200916": {},
+    "xenial-20201014": {},
+    "xenial-20201030": {},
+    "xenial-20210114": {},
+    "xenial-20210416": {},
+    "xenial-20210429": {},
+    "xenial-20210611": {},
+    "xenial-20210722": {},
+    "xenial-20210804": {},
+    "yakkety": {},
+    "yakkety-20160708": {},
+    "yakkety-20160717": {},
+    "yakkety-20160806.1": {},
+    "yakkety-20160826": {},
+    "yakkety-20160919": {},
+    "yakkety-20160923.1": {},
+    "yakkety-20161013": {},
+    "yakkety-20161104": {},
+    "yakkety-20161121": {},
+    "yakkety-20161213": {},
+    "yakkety-20170104": {},
+    "yakkety-20170224": {},
+    "yakkety-20170327": {},
+    "yakkety-20170517.1": {},
+    "yakkety-20170619": {},
+    "yakkety-20170704": {},
+    "zesty": {},
+    "zesty-20161129.1": {},
+    "zesty-20161212": {},
+    "zesty-20170118": {},
+    "zesty-20170224": {},
+    "zesty-20170411": {},
+    "zesty-20170517.1": {},
+    "zesty-20170619": {},
+    "zesty-20170703": {},
+    "zesty-20170913": {},
+    "zesty-20170915": {},
+    "zesty-20171114": {},
+    "zesty-20171122": {}
   },
   "Blocks": [
     {
@@ -104,6 +538,5574 @@
       ],
       "GitCommit": "",
       "Directory": "oci"
+    },
+    {
+      "Tags": [
+        "18.04",
+        "bionic-20230530",
+        "bionic"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oci"
+    },
+    {
+      "Tags": [
+        "focal-20230412"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oci"
+    },
+    {
+      "Tags": [
+        "jammy-20230522"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oci"
+    },
+    {
+      "Tags": [
+        "kinetic-20230412"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oci"
+    },
+    {
+      "Tags": [
+        "lunar-20230522"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oci"
+    },
+    {
+      "Tags": [
+        "mantic-20230520"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oci"
+    },
+    {
+      "Tags": [
+        "bionic-20230412"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oci"
+    },
+    {
+      "Tags": [
+        "jammy-20230425"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oci"
+    },
+    {
+      "Tags": [
+        "lunar-20230420"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oci"
+    },
+    {
+      "Tags": [
+        "mantic-20230511.1"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oci"
+    },
+    {
+      "Tags": [
+        "bionic-20230308"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oci"
+    },
+    {
+      "Tags": [
+        "jammy-20230308"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oci"
+    },
+    {
+      "Tags": [
+        "lunar-20230415"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oci"
+    },
+    {
+      "Tags": [
+        "focal-20230308"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oci"
+    },
+    {
+      "Tags": [
+        "kinetic-20230308"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oci"
+    },
+    {
+      "Tags": [
+        "lunar-20230314"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oci"
+    },
+    {
+      "Tags": [
+        "bionic-20230301"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oci"
+    },
+    {
+      "Tags": [
+        "focal-20230301"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oci"
+    },
+    {
+      "Tags": [
+        "jammy-20230301"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oci"
+    },
+    {
+      "Tags": [
+        "kinetic-20230217"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oci"
+    },
+    {
+      "Tags": [
+        "lunar-20230301"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oci"
+    },
+    {
+      "Tags": [
+        "bionic-20230126"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oci"
+    },
+    {
+      "Tags": [
+        "focal-20230126"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oci"
+    },
+    {
+      "Tags": [
+        "jammy-20230126"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oci"
+    },
+    {
+      "Tags": [
+        "kinetic-20230126"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oci"
+    },
+    {
+      "Tags": [
+        "lunar-20230128"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oci"
+    },
+    {
+      "Tags": [
+        "lunar-20230124.1"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oci"
+    },
+    {
+      "Tags": [
+        "bionic-20221215"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "focal-20221130"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "jammy-20221130"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "kinetic-20221130"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "lunar-20221216"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "14.04",
+        "trusty-20191217",
+        "trusty"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "16.04",
+        "xenial-20210804",
+        "xenial"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "bionic-20221130"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "lunar-20221207"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "bionic-20221019"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "focal-20221019"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "jammy-20221101"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "kinetic-20221101"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "jammy-20221020"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "kinetic-20221024"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "bionic-20220913"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "focal-20220922"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "jammy-20221003"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "kinetic-20220922"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "bionic-20220902"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "focal-20220826"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "jammy-20220815"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "jammy"
+    },
+    {
+      "Tags": [
+        "kinetic-20220830"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "kinetic"
+    },
+    {
+      "Tags": [
+        "bionic-20220829"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "bionic-20220801"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "focal-20220801"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "jammy-20220801"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "jammy"
+    },
+    {
+      "Tags": [
+        "kinetic-20220801"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "kinetic"
+    },
+    {
+      "Tags": [
+        "bionic-20220531"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "focal-20220531"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "21.10",
+        "impish-20220531",
+        "impish"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "impish"
+    },
+    {
+      "Tags": [
+        "jammy-20220531"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "jammy"
+    },
+    {
+      "Tags": [
+        "kinetic-20220602"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "kinetic"
+    },
+    {
+      "Tags": [
+        "bionic-20220427"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "focal-20220426"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "impish-20220427"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "impish"
+    },
+    {
+      "Tags": [
+        "jammy-20220428"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "jammy"
+    },
+    {
+      "Tags": [
+        "kinetic-20220428"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "kinetic"
+    },
+    {
+      "Tags": [
+        "bionic-20220415"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "focal-20220415"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "impish-20220415"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "impish"
+    },
+    {
+      "Tags": [
+        "jammy-20220421"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "jammy"
+    },
+    {
+      "Tags": [
+        "bionic-20220401"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "focal-20220404"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "impish-20220404"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "impish"
+    },
+    {
+      "Tags": [
+        "jammy-20220404"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "jammy"
+    },
+    {
+      "Tags": [
+        "bionic-20220315"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "focal-20220316"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "impish-20220316"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "impish"
+    },
+    {
+      "Tags": [
+        "jammy-20220315"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "jammy"
+    },
+    {
+      "Tags": [
+        "bionic-20220301"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "focal-20220302"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "impish-20220301"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "impish"
+    },
+    {
+      "Tags": [
+        "jammy-20220301"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "jammy"
+    },
+    {
+      "Tags": [
+        "bionic-20220128"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "focal-20220113"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "impish-20220128"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "impish"
+    },
+    {
+      "Tags": [
+        "jammy-20220130"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "jammy"
+    },
+    {
+      "Tags": [
+        "21.04",
+        "hirsute-20220113",
+        "hirsute"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "hirsute"
+    },
+    {
+      "Tags": [
+        "bionic-20220105"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "focal-20220105"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "hirsute-20211208"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "hirsute"
+    },
+    {
+      "Tags": [
+        "impish-20220105"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "impish"
+    },
+    {
+      "Tags": [
+        "jammy-20220101"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "jammy"
+    },
+    {
+      "Tags": [
+        "bionic-20210930"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "focal-20211006"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "hirsute-20211107"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "hirsute"
+    },
+    {
+      "Tags": [
+        "impish-20211102"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "impish"
+    },
+    {
+      "Tags": [
+        "jammy-20211122"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "jammy"
+    },
+    {
+      "Tags": [
+        "hirsute-20210917"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "hirsute"
+    },
+    {
+      "Tags": [
+        "jammy-20211029"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "jammy"
+    },
+    {
+      "Tags": [
+        "impish-20211015"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "impish"
+    },
+    {
+      "Tags": [
+        "focal-20210921"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "impish-20210928"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "impish"
+    },
+    {
+      "Tags": [
+        "bionic-20210827"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "focal-20210827"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "hirsute-20210825"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "hirsute"
+    },
+    {
+      "Tags": [
+        "impish-20210827"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "impish"
+    },
+    {
+      "Tags": [
+        "bionic-20210723"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "focal-20210723"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "hirsute-20210723"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "hirsute"
+    },
+    {
+      "Tags": [
+        "impish-20210722"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "impish"
+    },
+    {
+      "Tags": [
+        "xenial-20210722"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "20.10",
+        "groovy-20210723",
+        "groovy"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "groovy"
+    },
+    {
+      "Tags": [
+        "bionic-20210702"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "focal-20210713"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "groovy-20210713"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "groovy"
+    },
+    {
+      "Tags": [
+        "hirsute-20210711"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "hirsute"
+    },
+    {
+      "Tags": [
+        "impish-20210711"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "impish"
+    },
+    {
+      "Tags": [
+        "xenial-20210611"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "bionic-20210615.1"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "focal-20210609"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "groovy-20210614"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "groovy"
+    },
+    {
+      "Tags": [
+        "hirsute-20210602"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "hirsute"
+    },
+    {
+      "Tags": [
+        "impish-20210606"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "impish"
+    },
+    {
+      "Tags": [
+        "bionic-20210512"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "focal-20210416"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "groovy-20210524"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "groovy"
+    },
+    {
+      "Tags": [
+        "hirsute-20210522"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "hirsute"
+    },
+    {
+      "Tags": [
+        "impish-20210519"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "impish"
+    },
+    {
+      "Tags": [
+        "xenial-20210429"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "groovy-20210514"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "groovy"
+    },
+    {
+      "Tags": [
+        "hirsute-20210514"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "hirsute"
+    },
+    {
+      "Tags": [
+        "bionic-20210416"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "groovy-20210416"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "groovy"
+    },
+    {
+      "Tags": [
+        "hirsute-20210422"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "hirsute"
+    },
+    {
+      "Tags": [
+        "xenial-20210416"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "bionic-20210325"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "focal-20210401"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "groovy-20210325.1"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "groovy"
+    },
+    {
+      "Tags": [
+        "hirsute-20210401"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "hirsute"
+    },
+    {
+      "Tags": [
+        "xenial-20210114"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "focal-20210325"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "groovy-20210325"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "groovy"
+    },
+    {
+      "Tags": [
+        "hirsute-20210119"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "hirsute"
+    },
+    {
+      "Tags": [
+        "bionic-20210222"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "focal-20210217"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "groovy-20210225"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "groovy"
+    },
+    {
+      "Tags": [
+        "bionic-20210118"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "focal-20210119"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "groovy-20210115"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "groovy"
+    },
+    {
+      "Tags": [
+        "bionic-20201119"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "focal-20201106"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "groovy-20201125.2"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "groovy"
+    },
+    {
+      "Tags": [
+        "hirsute-20201119"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "hirsute"
+    },
+    {
+      "Tags": [
+        "xenial-20201030"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "bionic-20200921"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "focal-20201008"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "groovy-20201022.1"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "groovy"
+    },
+    {
+      "Tags": [
+        "xenial-20201014"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "focal-20200925"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "groovy-20200921"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "groovy"
+    },
+    {
+      "Tags": [
+        "xenial-20200916"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "bionic-20200903"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "focal-20200916"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "groovy-20200911"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "groovy"
+    },
+    {
+      "Tags": [
+        "xenial-20200903"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "bionic-20200807"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "focal-20200729"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "groovy-20200812"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "groovy"
+    },
+    {
+      "Tags": [
+        "xenial-20200807"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "bionic-20200713"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "focal-20200720"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "groovy-20200723"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "groovy"
+    },
+    {
+      "Tags": [
+        "xenial-20200706"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "bionic-20200630"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "focal-20200703"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "groovy-20200704"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "groovy"
+    },
+    {
+      "Tags": [
+        "xenial-20200619"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "19.10",
+        "eoan-20200608",
+        "eoan"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "eoan"
+    },
+    {
+      "Tags": [
+        "bionic-20200526"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "focal-20200606"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "groovy-20200609"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "groovy"
+    },
+    {
+      "Tags": [
+        "xenial-20200514"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "bionic-20200403"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "eoan-20200410"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "eoan"
+    },
+    {
+      "Tags": [
+        "focal-20200423"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "groovy-20200505"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "groovy"
+    },
+    {
+      "Tags": [
+        "xenial-20200326"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "bionic-20200311"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "eoan-20200313"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "eoan"
+    },
+    {
+      "Tags": [
+        "focal-20200319"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "xenial-20200212"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "bionic-20200219"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "eoan-20200207"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "eoan"
+    },
+    {
+      "Tags": [
+        "focal-20200115"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "bionic-20200112"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "eoan-20200114"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "eoan"
+    },
+    {
+      "Tags": [
+        "xenial-20200114"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "19.04",
+        "disco-20200114",
+        "disco"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "disco"
+    },
+    {
+      "Tags": [
+        "bionic-20191202"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "disco-20191127"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "disco"
+    },
+    {
+      "Tags": [
+        "eoan-20191127"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "eoan"
+    },
+    {
+      "Tags": [
+        "focal-20191129"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "xenial-20191212"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "bionic-20191029"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "disco-20191030"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "disco"
+    },
+    {
+      "Tags": [
+        "eoan-20191101"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "eoan"
+    },
+    {
+      "Tags": [
+        "focal-20191030"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "focal"
+    },
+    {
+      "Tags": [
+        "trusty-20190515"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "7a1a4f883de2d81351a82c86c24a0033dcae03db",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20191108"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "trusty-20191107"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "eoan-20191017"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "eoan"
+    },
+    {
+      "Tags": [
+        "xenial-20191024"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "bionic-20191010"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "disco-20191011"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "disco"
+    },
+    {
+      "Tags": [
+        "xenial-20191010"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "bionic-20190912.1"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "18.10",
+        "cosmic-20190719",
+        "cosmic"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "cosmic"
+    },
+    {
+      "Tags": [
+        "disco-20190913"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "disco"
+    },
+    {
+      "Tags": [
+        "eoan-20190916"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "eoan"
+    },
+    {
+      "Tags": [
+        "xenial-20190904"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "bionic-20190807"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "disco-20190809"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "disco"
+    },
+    {
+      "Tags": [
+        "eoan-20190813"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "eoan"
+    },
+    {
+      "Tags": [
+        "xenial-20190720"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "bionic-20190718"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "disco-20190718"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "disco"
+    },
+    {
+      "Tags": [
+        "eoan-20190717.1"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "eoan"
+    },
+    {
+      "Tags": [
+        "bionic-20190612"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "cosmic-20190614"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "cosmic"
+    },
+    {
+      "Tags": [
+        "disco-20190613"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "disco"
+    },
+    {
+      "Tags": [
+        "eoan-20190614"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "eoan"
+    },
+    {
+      "Tags": [
+        "xenial-20190610"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "bionic-20190515"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "cosmic-20190515"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "cosmic"
+    },
+    {
+      "Tags": [
+        "disco-20190515"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "disco"
+    },
+    {
+      "Tags": [
+        "eoan-20190508"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "eoan"
+    },
+    {
+      "Tags": [
+        "xenial-20190515"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "bionic-20190424"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "cosmic-20190418"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "cosmic"
+    },
+    {
+      "Tags": [
+        "disco-20190423"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "disco"
+    },
+    {
+      "Tags": [
+        "trusty-20190425"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20190425"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "bionic-20190307"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "cosmic-20190311"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "cosmic"
+    },
+    {
+      "Tags": [
+        "disco-20190310"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "disco"
+    },
+    {
+      "Tags": [
+        "trusty-20190305"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20190222"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "bionic-20190204"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "cosmic-20190131"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "cosmic"
+    },
+    {
+      "Tags": [
+        "disco-20190204"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "disco"
+    },
+    {
+      "Tags": [
+        "trusty-20190122"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20190122"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "bionic-20190122"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "cosmic-20190122"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "cosmic"
+    },
+    {
+      "Tags": [
+        "disco-20190118"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "disco"
+    },
+    {
+      "Tags": [
+        "bionic-20181204"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "cosmic-20181219"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "cosmic"
+    },
+    {
+      "Tags": [
+        "disco-20181220"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "disco"
+    },
+    {
+      "Tags": [
+        "trusty-20181217"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20181218"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "bionic-20181112"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "cosmic-20181114"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "cosmic"
+    },
+    {
+      "Tags": [
+        "disco-20181112"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "disco"
+    },
+    {
+      "Tags": [
+        "trusty-20181115"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20181113"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "bionic-20181018"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "cosmic-20181018"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "cosmic"
+    },
+    {
+      "Tags": [
+        "trusty-20180929"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20181005"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "bionic-20180821"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "cosmic-20180905"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "cosmic"
+    },
+    {
+      "Tags": [
+        "trusty-20180807"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20180808"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "cosmic-20180821"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "cosmic"
+    },
+    {
+      "Tags": [
+        "bionic-20180724.1"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "cosmic-20180725"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "cosmic"
+    },
+    {
+      "Tags": [
+        "trusty-20180712"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20180726"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "17.10",
+        "artful-20180706",
+        "artful"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "artful"
+    },
+    {
+      "Tags": [
+        "bionic-20180710"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "cosmic-20180716"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "cosmic"
+    },
+    {
+      "Tags": [
+        "xenial-20180705"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "artful-20180524"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "artful"
+    },
+    {
+      "Tags": [
+        "bionic-20180526"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "cosmic-20180605"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "cosmic"
+    },
+    {
+      "Tags": [
+        "trusty-20180531"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20180525"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "artful-20180417"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "artful"
+    },
+    {
+      "Tags": [
+        "bionic-20180426"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "trusty-20180420"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20180417"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "artful-20180412"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "artful"
+    },
+    {
+      "Tags": [
+        "bionic-20180410"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "trusty-20180412"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20180412"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "artful-20180227"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "artful"
+    },
+    {
+      "Tags": [
+        "bionic-20180224"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "trusty-20180302"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20180228"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "artful-20180123"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "artful"
+    },
+    {
+      "Tags": [
+        "bionic-20180125"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "trusty-20180123"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20180123"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "artful-20180112"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "artful"
+    },
+    {
+      "Tags": [
+        "bionic-20171220"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "trusty-20180112"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20180112.1"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "artful-20171116"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "artful"
+    },
+    {
+      "Tags": [
+        "bionic-20171214"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "trusty-20171207"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20171201"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "17.04",
+        "zesty-20171122",
+        "zesty"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "zesty"
+    },
+    {
+      "Tags": [
+        "bionic-20171114"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bionic"
+    },
+    {
+      "Tags": [
+        "trusty-20171117"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20171114"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "zesty-20171114"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "zesty"
+    },
+    {
+      "Tags": [
+        "artful-20171019"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "artful"
+    },
+    {
+      "Tags": [
+        "trusty-20170817"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20171006"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "zesty-20170915"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "zesty"
+    },
+    {
+      "Tags": [
+        "artful-20171006"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "artful"
+    },
+    {
+      "Tags": [
+        "artful-20170916"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "artful"
+    },
+    {
+      "Tags": [
+        "xenial-20170915"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "artful-20170826"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "artful"
+    },
+    {
+      "Tags": [
+        "xenial-20170802"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "zesty-20170913"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "zesty"
+    },
+    {
+      "Tags": [
+        "artful-20170728"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "artful"
+    },
+    {
+      "Tags": [
+        "trusty-20170728"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "zesty-20170703"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "zesty"
+    },
+    {
+      "Tags": [
+        "artful-20170716"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "artful"
+    },
+    {
+      "Tags": [
+        "trusty-20170719"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20170710"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "16.10",
+        "yakkety-20170704",
+        "yakkety"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "yakkety"
+    },
+    {
+      "Tags": [
+        "artful-20170619"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "artful"
+    },
+    {
+      "Tags": [
+        "trusty-20170620"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20170619"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "yakkety-20170619"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "yakkety"
+    },
+    {
+      "Tags": [
+        "zesty-20170619"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "zesty"
+    },
+    {
+      "Tags": [
+        "artful-20170601"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "artful"
+    },
+    {
+      "Tags": [
+        "trusty-20170602"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20170517.1"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "yakkety-20170517.1"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "yakkety"
+    },
+    {
+      "Tags": [
+        "zesty-20170517.1"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "zesty"
+    },
+    {
+      "Tags": [
+        "14.04.5"
+      ],
+      "Architectures": null,
+      "GitCommit": "784da92cdc6ac5fc1c42e69f878f02d2b012f7b4",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "artful-20170511.1"
+      ],
+      "Architectures": null,
+      "GitCommit": "fb06b03251856d9a3c143332398512b3895e33b6",
+      "Directory": "artful"
+    },
+    {
+      "Tags": [
+        "trusty-20170330"
+      ],
+      "Architectures": null,
+      "GitCommit": "fb06b03251856d9a3c143332398512b3895e33b6",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20170510"
+      ],
+      "Architectures": null,
+      "GitCommit": "fb06b03251856d9a3c143332398512b3895e33b6",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "yakkety-20170327"
+      ],
+      "Architectures": null,
+      "GitCommit": "fb06b03251856d9a3c143332398512b3895e33b6",
+      "Directory": "yakkety"
+    },
+    {
+      "Tags": [
+        "zesty-20170411"
+      ],
+      "Architectures": null,
+      "GitCommit": "fb06b03251856d9a3c143332398512b3895e33b6",
+      "Directory": "zesty"
+    },
+    {
+      "Tags": [
+        "xenial-20170417.1"
+      ],
+      "Architectures": null,
+      "GitCommit": "8ec739cf49ac7fb7517d9ba97b04216dc8d8459b",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "12.04.5",
+        "12.04",
+        "precise-20170331",
+        "precise"
+      ],
+      "Architectures": null,
+      "GitCommit": "8ec739cf49ac7fb7517d9ba97b04216dc8d8459b",
+      "Directory": "precise"
+    },
+    {
+      "Tags": [
+        "xenial-20170410"
+      ],
+      "Architectures": null,
+      "GitCommit": "94a6b954435615aba4beffaf62f14699083eafca",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "precise-20170214"
+      ],
+      "Architectures": null,
+      "GitCommit": "1a5cb40f41ac4829d8c301ccd2cf3b7a13687a8b",
+      "Directory": "precise"
+    },
+    {
+      "Tags": [
+        "trusty-20170214"
+      ],
+      "Architectures": null,
+      "GitCommit": "1a5cb40f41ac4829d8c301ccd2cf3b7a13687a8b",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20170214"
+      ],
+      "Architectures": null,
+      "GitCommit": "1a5cb40f41ac4829d8c301ccd2cf3b7a13687a8b",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "yakkety-20170224"
+      ],
+      "Architectures": null,
+      "GitCommit": "1a5cb40f41ac4829d8c301ccd2cf3b7a13687a8b",
+      "Directory": "yakkety"
+    },
+    {
+      "Tags": [
+        "zesty-20170224"
+      ],
+      "Architectures": null,
+      "GitCommit": "1a5cb40f41ac4829d8c301ccd2cf3b7a13687a8b",
+      "Directory": "zesty"
+    },
+    {
+      "Tags": [
+        "precise-20161209"
+      ],
+      "Architectures": null,
+      "GitCommit": "b6f1fe19228e5b6b7aed98dcba02f18088282f90",
+      "Directory": "precise"
+    },
+    {
+      "Tags": [
+        "trusty-20170119"
+      ],
+      "Architectures": null,
+      "GitCommit": "b6f1fe19228e5b6b7aed98dcba02f18088282f90",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20170119"
+      ],
+      "Architectures": null,
+      "GitCommit": "b6f1fe19228e5b6b7aed98dcba02f18088282f90",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "yakkety-20170104"
+      ],
+      "Architectures": null,
+      "GitCommit": "b6f1fe19228e5b6b7aed98dcba02f18088282f90",
+      "Directory": "yakkety"
+    },
+    {
+      "Tags": [
+        "zesty-20170118"
+      ],
+      "Architectures": null,
+      "GitCommit": "b6f1fe19228e5b6b7aed98dcba02f18088282f90",
+      "Directory": "zesty"
+    },
+    {
+      "Tags": [
+        "trusty-20161214"
+      ],
+      "Architectures": null,
+      "GitCommit": "9c78896fe39d5be95cc4a6ae6c0475599a1bc396",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20161213"
+      ],
+      "Architectures": null,
+      "GitCommit": "9c78896fe39d5be95cc4a6ae6c0475599a1bc396",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "yakkety-20161213"
+      ],
+      "Architectures": null,
+      "GitCommit": "9c78896fe39d5be95cc4a6ae6c0475599a1bc396",
+      "Directory": "yakkety"
+    },
+    {
+      "Tags": [
+        "zesty-20161212"
+      ],
+      "Architectures": null,
+      "GitCommit": "9c78896fe39d5be95cc4a6ae6c0475599a1bc396",
+      "Directory": "zesty"
+    },
+    {
+      "Tags": [
+        "precise-20161123"
+      ],
+      "Architectures": null,
+      "GitCommit": "cf9d7a2ee20c8a4706a05d1d7f1a1e25ae32ed39",
+      "Directory": "precise"
+    },
+    {
+      "Tags": [
+        "trusty-20161123"
+      ],
+      "Architectures": null,
+      "GitCommit": "cf9d7a2ee20c8a4706a05d1d7f1a1e25ae32ed39",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20161121"
+      ],
+      "Architectures": null,
+      "GitCommit": "cf9d7a2ee20c8a4706a05d1d7f1a1e25ae32ed39",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "yakkety-20161121"
+      ],
+      "Architectures": null,
+      "GitCommit": "cf9d7a2ee20c8a4706a05d1d7f1a1e25ae32ed39",
+      "Directory": "yakkety"
+    },
+    {
+      "Tags": [
+        "zesty-20161129.1"
+      ],
+      "Architectures": null,
+      "GitCommit": "cf9d7a2ee20c8a4706a05d1d7f1a1e25ae32ed39",
+      "Directory": "zesty"
+    },
+    {
+      "Tags": [
+        "precise-20161102"
+      ],
+      "Architectures": null,
+      "GitCommit": "4c7620da47ebd6e82febf6d01881943c9b219ebb",
+      "Directory": "precise"
+    },
+    {
+      "Tags": [
+        "trusty-20161101"
+      ],
+      "Architectures": null,
+      "GitCommit": "4c7620da47ebd6e82febf6d01881943c9b219ebb",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20161114"
+      ],
+      "Architectures": null,
+      "GitCommit": "4c7620da47ebd6e82febf6d01881943c9b219ebb",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "yakkety-20161104"
+      ],
+      "Architectures": null,
+      "GitCommit": "4c7620da47ebd6e82febf6d01881943c9b219ebb",
+      "Directory": "yakkety"
+    },
+    {
+      "Tags": [
+        "precise-20160923.1"
+      ],
+      "Architectures": null,
+      "GitCommit": "188bcceb999c0c465b3053efefd4e1a03d3fc47e",
+      "Directory": "precise"
+    },
+    {
+      "Tags": [
+        "trusty-20161006"
+      ],
+      "Architectures": null,
+      "GitCommit": "188bcceb999c0c465b3053efefd4e1a03d3fc47e",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20161010"
+      ],
+      "Architectures": null,
+      "GitCommit": "188bcceb999c0c465b3053efefd4e1a03d3fc47e",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "yakkety-20161013"
+      ],
+      "Architectures": null,
+      "GitCommit": "188bcceb999c0c465b3053efefd4e1a03d3fc47e",
+      "Directory": "yakkety"
+    },
+    {
+      "Tags": [
+        "trusty-20160923.1"
+      ],
+      "Architectures": null,
+      "GitCommit": "50cfe3fd07327a05e449574f0ece07a6e0bb0c76",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20160923.1"
+      ],
+      "Architectures": null,
+      "GitCommit": "50cfe3fd07327a05e449574f0ece07a6e0bb0c76",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "yakkety-20160923.1"
+      ],
+      "Architectures": null,
+      "GitCommit": "50cfe3fd07327a05e449574f0ece07a6e0bb0c76",
+      "Directory": "yakkety"
+    },
+    {
+      "Tags": [
+        "precise-20160819"
+      ],
+      "Architectures": null,
+      "GitCommit": "29349edf0456a8644d5d7a2965bc8e9cfab5302b",
+      "Directory": "precise"
+    },
+    {
+      "Tags": [
+        "trusty-20160914"
+      ],
+      "Architectures": null,
+      "GitCommit": "29349edf0456a8644d5d7a2965bc8e9cfab5302b",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20160914"
+      ],
+      "Architectures": null,
+      "GitCommit": "29349edf0456a8644d5d7a2965bc8e9cfab5302b",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "yakkety-20160919"
+      ],
+      "Architectures": null,
+      "GitCommit": "29349edf0456a8644d5d7a2965bc8e9cfab5302b",
+      "Directory": "yakkety"
+    },
+    {
+      "Tags": [
+        "trusty-20160819"
+      ],
+      "Architectures": null,
+      "GitCommit": "aec74cf404240664b289d28948d9284a4afd1181",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20160818"
+      ],
+      "Architectures": null,
+      "GitCommit": "aec74cf404240664b289d28948d9284a4afd1181",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "yakkety-20160826"
+      ],
+      "Architectures": null,
+      "GitCommit": "aec74cf404240664b289d28948d9284a4afd1181",
+      "Directory": "yakkety"
+    },
+    {
+      "Tags": [
+        "precise-20160707"
+      ],
+      "Architectures": null,
+      "GitCommit": "3485528d76452eff9e7d3b3f222bd21a966659a5",
+      "Directory": "precise"
+    },
+    {
+      "Tags": [
+        "trusty-20160802"
+      ],
+      "Architectures": null,
+      "GitCommit": "3485528d76452eff9e7d3b3f222bd21a966659a5",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20160809"
+      ],
+      "Architectures": null,
+      "GitCommit": "3485528d76452eff9e7d3b3f222bd21a966659a5",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "yakkety-20160806.1"
+      ],
+      "Architectures": null,
+      "GitCommit": "3485528d76452eff9e7d3b3f222bd21a966659a5",
+      "Directory": "yakkety"
+    },
+    {
+      "Tags": [
+        "14.04.4",
+        "trusty-20160711"
+      ],
+      "Architectures": null,
+      "GitCommit": "e68c4b0d4c860a8e0547cfea6f1b07f0adb9ff46",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20160713"
+      ],
+      "Architectures": null,
+      "GitCommit": "e68c4b0d4c860a8e0547cfea6f1b07f0adb9ff46",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "yakkety-20160717"
+      ],
+      "Architectures": null,
+      "GitCommit": "e68c4b0d4c860a8e0547cfea6f1b07f0adb9ff46",
+      "Directory": "yakkety"
+    },
+    {
+      "Tags": [
+        "15.10",
+        "wily-20160706",
+        "wily"
+      ],
+      "Architectures": null,
+      "GitCommit": "e68c4b0d4c860a8e0547cfea6f1b07f0adb9ff46",
+      "Directory": "wily"
+    },
+    {
+      "Tags": [
+        "trusty-20160624"
+      ],
+      "Architectures": null,
+      "GitCommit": "a638d604a2eb4f80015d2d4d2eb7de2b1bcbb40f",
+      "Directory": "trusty"
+    },
+    {
+      "Tags": [
+        "xenial-20160706"
+      ],
+      "Architectures": null,
+      "GitCommit": "a638d604a2eb4f80015d2d4d2eb7de2b1bcbb40f",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "yakkety-20160708"
+      ],
+      "Architectures": null,
+      "GitCommit": "a638d604a2eb4f80015d2d4d2eb7de2b1bcbb40f",
+      "Directory": "yakkety"
+    },
+    {
+      "Tags": [
+        "precise-20160624"
+      ],
+      "Architectures": null,
+      "GitCommit": "77b443d6c242daa76825dc4bac43e8aa2a710ad7",
+      "Directory": "precise"
+    },
+    {
+      "Tags": [
+        "wily-20160602"
+      ],
+      "Architectures": null,
+      "GitCommit": "77b443d6c242daa76825dc4bac43e8aa2a710ad7",
+      "Directory": "wily"
+    },
+    {
+      "Tags": [
+        "xenial-20160629"
+      ],
+      "Architectures": null,
+      "GitCommit": "77b443d6c242daa76825dc4bac43e8aa2a710ad7",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "xenial-20160525"
+      ],
+      "Architectures": null,
+      "GitCommit": "f2682b59c32241b97e904af6691e997fa9c79c91",
+      "Directory": "xenial"
+    },
+    {
+      "Tags": [
+        "hirsute-20210224"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "hirsute"
     }
   ]
 }

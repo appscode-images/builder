@@ -21,7 +21,7 @@ import (
 )
 
 // Read from Git directly
-func main_git() {
+func main() {
 	apps := map[string]AppHistory{}
 	outDir := "./library"
 
@@ -111,7 +111,7 @@ func ProcessCommit(apps map[string]AppHistory) func(c *object.Commit) error {
 	}
 }
 
-func main() {
+func main_local() {
 	apps := map[string]AppHistory{}
 	dir := "./official-images/library"
 	outDir := "./library"

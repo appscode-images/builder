@@ -1,0 +1,70 @@
+{
+  "Name": "opensuse",
+  "GitRepo": "https://github.com/openSUSE/docker-containers-build.git",
+  "KnownTags": {
+    "13.2": {},
+    "42.1": {},
+    "42.2": {},
+    "42.3": {},
+    "harlequin": {},
+    "latest": {},
+    "leap": {},
+    "tumbleweed": {}
+  },
+  "Blocks": [
+    {
+      "Tags": [
+        "42.3",
+        "latest",
+        "leap"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "0df142c37386f5be35c3355d316d7bc444825e0b",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "tumbleweed"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "2b8e47140b2a964ac827d17d4b5edd52ee22997d",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "42.2"
+      ],
+      "Architectures": [
+        "amd64"
+      ],
+      "GitCommit": "fd39ce9631c3b6a110b6c1e8e5756a20d0863a77",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "42.1"
+      ],
+      "Architectures": null,
+      "GitCommit": "28ae2ecb12d4ec628bd0ca561ae5ed6b64c1eecd",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "13.2",
+        "harlequin"
+      ],
+      "Architectures": null,
+      "GitCommit": "f1cf8438c9d72afa0d4022c27fd6ee3e47b70e4c",
+      "Directory": ""
+    }
+  ]
+}

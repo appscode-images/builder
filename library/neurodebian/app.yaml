@@ -121,8 +121,162 @@ Blocks:
   Tags:
   - sid-non-free
   - nd-non-free
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: dockerfiles/xenial
+  GitCommit: ""
+  Tags:
+  - xenial
+  - nd16.04
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: dockerfiles/xenial-non-free
+  GitCommit: ""
+  Tags:
+  - xenial-non-free
+  - nd16.04-non-free
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: dockerfiles/impish
+  GitCommit: ""
+  Tags:
+  - impish
+  - nd21.10
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: dockerfiles/impish-non-free
+  GitCommit: ""
+  Tags:
+  - impish-non-free
+  - nd21.10-non-free
+- Architectures: null
+  Directory: dockerfiles/stretch
+  GitCommit: ""
+  Tags:
+  - stretch
+  - nd90
+- Architectures: null
+  Directory: dockerfiles/stretch-non-free
+  GitCommit: ""
+  Tags:
+  - stretch-non-free
+  - nd90-non-free
+- Architectures: null
+  Directory: dockerfiles/hirsute
+  GitCommit: ""
+  Tags:
+  - hirsute
+  - nd21.04
+- Architectures: null
+  Directory: dockerfiles/hirsute-non-free
+  GitCommit: ""
+  Tags:
+  - hirsute-non-free
+  - nd21.04-non-free
+- Architectures: null
+  Directory: dockerfiles/groovy
+  GitCommit: ""
+  Tags:
+  - groovy
+  - nd20.10
+- Architectures: null
+  Directory: dockerfiles/groovy-non-free
+  GitCommit: ""
+  Tags:
+  - groovy-non-free
+  - nd20.10-non-free
+- Architectures: null
+  Directory: dockerfiles/trusty
+  GitCommit: ""
+  Tags:
+  - trusty
+  - nd14.04
+- Architectures: null
+  Directory: dockerfiles/trusty-non-free
+  GitCommit: ""
+  Tags:
+  - trusty-non-free
+  - nd14.04-non-free
+- Architectures: null
+  Directory: dockerfiles/jessie
+  GitCommit: ""
+  Tags:
+  - jessie
+  - nd80
+- Architectures: null
+  Directory: dockerfiles/jessie-non-free
+  GitCommit: ""
+  Tags:
+  - jessie-non-free
+  - nd80-non-free
+- Architectures: null
+  Directory: dockerfiles/disco
+  GitCommit: ""
+  Tags:
+  - disco
+  - nd19.04
+- Architectures: null
+  Directory: dockerfiles/disco-non-free
+  GitCommit: ""
+  Tags:
+  - disco-non-free
+  - nd19.04-non-free
+- Architectures: null
+  Directory: dockerfiles/cosmic
+  GitCommit: ""
+  Tags:
+  - cosmic
+  - nd18.10
+- Architectures: null
+  Directory: dockerfiles/cosmic-non-free
+  GitCommit: ""
+  Tags:
+  - cosmic-non-free
+  - nd18.10-non-free
+- Architectures: null
+  Directory: dockerfiles/wheezy
+  GitCommit: ""
+  Tags:
+  - wheezy
+  - nd70
+- Architectures: null
+  Directory: dockerfiles/wheezy-non-free
+  GitCommit: ""
+  Tags:
+  - wheezy-non-free
+  - nd70-non-free
+- Architectures: null
+  Directory: dockerfiles/artful
+  GitCommit: ""
+  Tags:
+  - artful
+  - nd17.10
+- Architectures: null
+  Directory: dockerfiles/artful-non-free
+  GitCommit: ""
+  Tags:
+  - artful-non-free
+  - nd17.10-non-free
+- Architectures: null
+  Directory: dockerfiles/zesty
+  GitCommit: ""
+  Tags:
+  - zesty
+  - nd17.04
+- Architectures: null
+  Directory: dockerfiles/zesty-non-free
+  GitCommit: ""
+  Tags:
+  - zesty-non-free
+  - nd17.04-non-free
 GitRepo: https://github.com/neurodebian/dockerfiles.git
 KnownTags:
+  artful: {}
+  artful-non-free: {}
   bionic: {}
   bionic-non-free: {}
   bookworm: {}
@@ -131,19 +285,55 @@ KnownTags:
   bullseye-non-free: {}
   buster: {}
   buster-non-free: {}
+  cosmic: {}
+  cosmic-non-free: {}
+  disco: {}
+  disco-non-free: {}
   focal: {}
   focal-non-free: {}
+  groovy: {}
+  groovy-non-free: {}
+  hirsute: {}
+  hirsute-non-free: {}
+  impish: {}
+  impish-non-free: {}
   jammy: {}
   jammy-non-free: {}
+  jessie: {}
+  jessie-non-free: {}
   latest: {}
   nd: {}
   nd-non-free: {}
+  nd14.04: {}
+  nd14.04-non-free: {}
+  nd16.04: {}
+  nd16.04-non-free: {}
+  nd17.04: {}
+  nd17.04-non-free: {}
+  nd17.10: {}
+  nd17.10-non-free: {}
   nd18.04: {}
   nd18.04-non-free: {}
+  nd18.10: {}
+  nd18.10-non-free: {}
+  nd19.04: {}
+  nd19.04-non-free: {}
   nd20.04: {}
   nd20.04-non-free: {}
+  nd20.10: {}
+  nd20.10-non-free: {}
+  nd21.04: {}
+  nd21.04-non-free: {}
+  nd21.10: {}
+  nd21.10-non-free: {}
   nd22.04: {}
   nd22.04-non-free: {}
+  nd70: {}
+  nd70-non-free: {}
+  nd80: {}
+  nd80-non-free: {}
+  nd90: {}
+  nd90-non-free: {}
   nd100: {}
   nd100-non-free: {}
   nd110: {}
@@ -153,4 +343,14 @@ KnownTags:
   non-free: {}
   sid: {}
   sid-non-free: {}
+  stretch: {}
+  stretch-non-free: {}
+  trusty: {}
+  trusty-non-free: {}
+  wheezy: {}
+  wheezy-non-free: {}
+  xenial: {}
+  xenial-non-free: {}
+  zesty: {}
+  zesty-non-free: {}
 Name: neurodebian

@@ -1,0 +1,1164 @@
+{
+  "Name": "owncloud",
+  "GitRepo": "https://github.com/docker-library/owncloud.git",
+  "KnownTags": {
+    "10": {},
+    "10-apache": {},
+    "10-fpm": {},
+    "10.0": {},
+    "10.0-apache": {},
+    "10.0-fpm": {},
+    "10.0.10": {},
+    "10.0.10-apache": {},
+    "10.0.10-fpm": {},
+    "10.0.2": {},
+    "10.0.2-apache": {},
+    "10.0.2-fpm": {},
+    "10.0.3": {},
+    "10.0.3-apache": {},
+    "10.0.3-fpm": {},
+    "10.0.4": {},
+    "10.0.4-apache": {},
+    "10.0.4-fpm": {},
+    "10.0.6": {},
+    "10.0.6-apache": {},
+    "10.0.6-fpm": {},
+    "10.0.7": {},
+    "10.0.7-apache": {},
+    "10.0.7-fpm": {},
+    "10.0.8": {},
+    "10.0.8-apache": {},
+    "10.0.8-fpm": {},
+    "10.0.9": {},
+    "10.0.9-apache": {},
+    "10.0.9-fpm": {},
+    "7": {},
+    "7-apache": {},
+    "7-fpm": {},
+    "7.0": {},
+    "7.0-apache": {},
+    "7.0-fpm": {},
+    "7.0.15": {},
+    "7.0.15-apache": {},
+    "7.0.15-fpm": {},
+    "8": {},
+    "8-apache": {},
+    "8-fpm": {},
+    "8.0": {},
+    "8.0-apache": {},
+    "8.0-fpm": {},
+    "8.0.13": {},
+    "8.0.13-apache": {},
+    "8.0.13-fpm": {},
+    "8.0.14": {},
+    "8.0.14-apache": {},
+    "8.0.14-fpm": {},
+    "8.0.15": {},
+    "8.0.15-apache": {},
+    "8.0.15-fpm": {},
+    "8.0.16": {},
+    "8.0.16-apache": {},
+    "8.0.16-fpm": {},
+    "8.1": {},
+    "8.1-apache": {},
+    "8.1-fpm": {},
+    "8.1.10": {},
+    "8.1.10-apache": {},
+    "8.1.10-fpm": {},
+    "8.1.11": {},
+    "8.1.11-apache": {},
+    "8.1.11-fpm": {},
+    "8.1.12": {},
+    "8.1.12-apache": {},
+    "8.1.12-fpm": {},
+    "8.1.8": {},
+    "8.1.8-apache": {},
+    "8.1.8-fpm": {},
+    "8.1.9": {},
+    "8.1.9-apache": {},
+    "8.1.9-fpm": {},
+    "8.2": {},
+    "8.2-apache": {},
+    "8.2-fpm": {},
+    "8.2.10": {},
+    "8.2.10-apache": {},
+    "8.2.10-fpm": {},
+    "8.2.11": {},
+    "8.2.11-apache": {},
+    "8.2.11-fpm": {},
+    "8.2.5": {},
+    "8.2.5-apache": {},
+    "8.2.5-fpm": {},
+    "8.2.6": {},
+    "8.2.6-apache": {},
+    "8.2.6-fpm": {},
+    "8.2.7": {},
+    "8.2.7-apache": {},
+    "8.2.7-fpm": {},
+    "8.2.8": {},
+    "8.2.8-apache": {},
+    "8.2.8-fpm": {},
+    "8.2.9": {},
+    "8.2.9-apache": {},
+    "8.2.9-fpm": {},
+    "9": {},
+    "9-apache": {},
+    "9-fpm": {},
+    "9.0": {},
+    "9.0-apache": {},
+    "9.0-fpm": {},
+    "9.0.10": {},
+    "9.0.10-apache": {},
+    "9.0.10-fpm": {},
+    "9.0.11": {},
+    "9.0.11-apache": {},
+    "9.0.11-fpm": {},
+    "9.0.2": {},
+    "9.0.2-apache": {},
+    "9.0.2-fpm": {},
+    "9.0.3": {},
+    "9.0.3-apache": {},
+    "9.0.3-fpm": {},
+    "9.0.4": {},
+    "9.0.4-apache": {},
+    "9.0.4-fpm": {},
+    "9.0.5": {},
+    "9.0.5-apache": {},
+    "9.0.5-fpm": {},
+    "9.0.6": {},
+    "9.0.6-apache": {},
+    "9.0.6-fpm": {},
+    "9.0.7": {},
+    "9.0.7-apache": {},
+    "9.0.7-fpm": {},
+    "9.0.8": {},
+    "9.0.8-apache": {},
+    "9.0.8-fpm": {},
+    "9.0.9": {},
+    "9.0.9-apache": {},
+    "9.0.9-fpm": {},
+    "9.1": {},
+    "9.1-apache": {},
+    "9.1-fpm": {},
+    "9.1.0": {},
+    "9.1.0-apache": {},
+    "9.1.0-fpm": {},
+    "9.1.1": {},
+    "9.1.1-apache": {},
+    "9.1.1-fpm": {},
+    "9.1.2": {},
+    "9.1.2-apache": {},
+    "9.1.2-fpm": {},
+    "9.1.3": {},
+    "9.1.3-apache": {},
+    "9.1.3-fpm": {},
+    "9.1.4": {},
+    "9.1.4-apache": {},
+    "9.1.4-fpm": {},
+    "9.1.5": {},
+    "9.1.5-apache": {},
+    "9.1.5-fpm": {},
+    "9.1.6": {},
+    "9.1.6-apache": {},
+    "9.1.6-fpm": {},
+    "9.1.7": {},
+    "9.1.7-apache": {},
+    "9.1.7-fpm": {},
+    "9.1.8": {},
+    "9.1.8-apache": {},
+    "9.1.8-fpm": {},
+    "apache": {},
+    "fpm": {},
+    "latest": {}
+  },
+  "Blocks": [
+    {
+      "Tags": [
+        "10.0.10-apache",
+        "10.0-apache",
+        "10-apache",
+        "apache",
+        "10.0.10",
+        "10.0",
+        "10",
+        "latest"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "df96d12ed616ac6d1e58a3e879d42dbb4f4ea3cb",
+      "Directory": "10.0/apache"
+    },
+    {
+      "Tags": [
+        "10.0.10-fpm",
+        "10.0-fpm",
+        "10-fpm",
+        "fpm"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "df96d12ed616ac6d1e58a3e879d42dbb4f4ea3cb",
+      "Directory": "10.0/fpm"
+    },
+    {
+      "Tags": [
+        "9.1.8-apache",
+        "9.1-apache",
+        "9-apache",
+        "9.1.8",
+        "9.1",
+        "9"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "df96d12ed616ac6d1e58a3e879d42dbb4f4ea3cb",
+      "Directory": "9.1/apache"
+    },
+    {
+      "Tags": [
+        "9.1.8-fpm",
+        "9.1-fpm",
+        "9-fpm"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "df96d12ed616ac6d1e58a3e879d42dbb4f4ea3cb",
+      "Directory": "9.1/fpm"
+    },
+    {
+      "Tags": [
+        "10.0.9-apache",
+        "10.0.9"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "97f7e38b9b8cc2cc22ddaec513f8a9b08f8e4578",
+      "Directory": "10.0/apache"
+    },
+    {
+      "Tags": [
+        "10.0.9-fpm"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "97f7e38b9b8cc2cc22ddaec513f8a9b08f8e4578",
+      "Directory": "10.0/fpm"
+    },
+    {
+      "Tags": [
+        "10.0.8-apache",
+        "10.0.8"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "a4e69c45fa3910d5e7f2f090cae185b58c6523dc",
+      "Directory": "10.0/apache"
+    },
+    {
+      "Tags": [
+        "10.0.8-fpm"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "a4e69c45fa3910d5e7f2f090cae185b58c6523dc",
+      "Directory": "10.0/fpm"
+    },
+    {
+      "Tags": [
+        "10.0.7-apache",
+        "10.0.7"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "fb02c1c3e9566897f46a5be0f5d130168d80bc38",
+      "Directory": "10.0/apache"
+    },
+    {
+      "Tags": [
+        "10.0.7-fpm"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "fb02c1c3e9566897f46a5be0f5d130168d80bc38",
+      "Directory": "10.0/fpm"
+    },
+    {
+      "Tags": [
+        "9.1.7-apache",
+        "9.1.7"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "9ce1e0f6736af365f284af85469d25b040666b73",
+      "Directory": "9.1/apache"
+    },
+    {
+      "Tags": [
+        "9.1.7-fpm"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "9ce1e0f6736af365f284af85469d25b040666b73",
+      "Directory": "9.1/fpm"
+    },
+    {
+      "Tags": [
+        "10.0.6-apache",
+        "10.0.6"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "df9ca81cd13cdbdf20602fb89fb01398f944858a",
+      "Directory": "10.0/apache"
+    },
+    {
+      "Tags": [
+        "10.0.6-fpm"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "df9ca81cd13cdbdf20602fb89fb01398f944858a",
+      "Directory": "10.0/fpm"
+    },
+    {
+      "Tags": [
+        "10.0.4-apache",
+        "10.0.4"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "146a37ed55bb70778feef7f4ce5a8b56b8a4b3ce",
+      "Directory": "10.0/apache"
+    },
+    {
+      "Tags": [
+        "10.0.4-fpm"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "146a37ed55bb70778feef7f4ce5a8b56b8a4b3ce",
+      "Directory": "10.0/fpm"
+    },
+    {
+      "Tags": [
+        "9.0.11-apache",
+        "9.0-apache",
+        "9.0.11",
+        "9.0"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "c98a6030224193c1fae590a3f1c1c27f6a6ed6bc",
+      "Directory": "9.0/apache"
+    },
+    {
+      "Tags": [
+        "9.0.11-fpm",
+        "9.0-fpm"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "c98a6030224193c1fae590a3f1c1c27f6a6ed6bc",
+      "Directory": "9.0/fpm"
+    },
+    {
+      "Tags": [
+        "10.0.3-apache",
+        "10.0.3"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "5c0f5a270e565410cc47046b29b04e4a5ec9e828",
+      "Directory": "10.0/apache"
+    },
+    {
+      "Tags": [
+        "10.0.3-fpm"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "5c0f5a270e565410cc47046b29b04e4a5ec9e828",
+      "Directory": "10.0/fpm"
+    },
+    {
+      "Tags": [
+        "9.1.6-apache",
+        "9.1.6"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "aad7b27a8d2dab3e417a94071d1acf6a795a2aed",
+      "Directory": "9.1/apache"
+    },
+    {
+      "Tags": [
+        "9.1.6-fpm"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "aad7b27a8d2dab3e417a94071d1acf6a795a2aed",
+      "Directory": "9.1/fpm"
+    },
+    {
+      "Tags": [
+        "9.0.10-apache",
+        "9.0.10"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "aad7b27a8d2dab3e417a94071d1acf6a795a2aed",
+      "Directory": "9.0/apache"
+    },
+    {
+      "Tags": [
+        "9.0.10-fpm"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "aad7b27a8d2dab3e417a94071d1acf6a795a2aed",
+      "Directory": "9.0/fpm"
+    },
+    {
+      "Tags": [
+        "10.0.2-apache",
+        "10.0.2"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "aad7b27a8d2dab3e417a94071d1acf6a795a2aed",
+      "Directory": "10.0/apache"
+    },
+    {
+      "Tags": [
+        "10.0.2-fpm"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "aad7b27a8d2dab3e417a94071d1acf6a795a2aed",
+      "Directory": "10.0/fpm"
+    },
+    {
+      "Tags": [
+        "8.0.16-apache",
+        "8.0-apache",
+        "8.0.16",
+        "8.0"
+      ],
+      "Architectures": null,
+      "GitCommit": "2c9fddfe6a17a2c1d631dd7a6f1c7f87763f7d10",
+      "Directory": "8.0/apache"
+    },
+    {
+      "Tags": [
+        "8.0.16-fpm",
+        "8.0-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "2c9fddfe6a17a2c1d631dd7a6f1c7f87763f7d10",
+      "Directory": "8.0/fpm"
+    },
+    {
+      "Tags": [
+        "8.1.12-apache",
+        "8.1-apache",
+        "8.1.12",
+        "8.1"
+      ],
+      "Architectures": null,
+      "GitCommit": "2e581bdb03a2961e5dad7764f59ff363da94e6fb",
+      "Directory": "8.1/apache"
+    },
+    {
+      "Tags": [
+        "8.1.12-fpm",
+        "8.1-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "2e581bdb03a2961e5dad7764f59ff363da94e6fb",
+      "Directory": "8.1/fpm"
+    },
+    {
+      "Tags": [
+        "8.2.11-apache",
+        "8.2-apache",
+        "8-apache",
+        "8.2.11",
+        "8.2",
+        "8"
+      ],
+      "Architectures": null,
+      "GitCommit": "3182c1fc072fb43c165d65de7bee16aa2374efd7",
+      "Directory": "8.2/apache"
+    },
+    {
+      "Tags": [
+        "8.2.11-fpm",
+        "8.2-fpm",
+        "8-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "3182c1fc072fb43c165d65de7bee16aa2374efd7",
+      "Directory": "8.2/fpm"
+    },
+    {
+      "Tags": [
+        "9.0.9-apache",
+        "9.0.9"
+      ],
+      "Architectures": null,
+      "GitCommit": "f6016dc858a63c398df0e6797e5b45ca0eaca336",
+      "Directory": "9.0/apache"
+    },
+    {
+      "Tags": [
+        "9.0.9-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "f6016dc858a63c398df0e6797e5b45ca0eaca336",
+      "Directory": "9.0/fpm"
+    },
+    {
+      "Tags": [
+        "9.1.5-apache",
+        "9.1.5"
+      ],
+      "Architectures": null,
+      "GitCommit": "167aa3b02320358a8cc3cdbbbc3ffb4643d6e369",
+      "Directory": "9.1/apache"
+    },
+    {
+      "Tags": [
+        "9.1.5-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "167aa3b02320358a8cc3cdbbbc3ffb4643d6e369",
+      "Directory": "9.1/fpm"
+    },
+    {
+      "Tags": [
+        "8.2.10-apache",
+        "8.2.10"
+      ],
+      "Architectures": null,
+      "GitCommit": "d7fbed06a3ff66601d5940cf865d920672a9fadf",
+      "Directory": "8.2/apache"
+    },
+    {
+      "Tags": [
+        "8.2.10-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "d7fbed06a3ff66601d5940cf865d920672a9fadf",
+      "Directory": "8.2/fpm"
+    },
+    {
+      "Tags": [
+        "9.0.8-apache",
+        "9.0.8"
+      ],
+      "Architectures": null,
+      "GitCommit": "d68839fc9d471e9776d1f51f273303e863db9e2b",
+      "Directory": "9.0/apache"
+    },
+    {
+      "Tags": [
+        "9.0.8-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "d68839fc9d471e9776d1f51f273303e863db9e2b",
+      "Directory": "9.0/fpm"
+    },
+    {
+      "Tags": [
+        "9.1.4-apache",
+        "9.1.4"
+      ],
+      "Architectures": null,
+      "GitCommit": "61f63930e743211540df45e0c32165ec043dd6f5",
+      "Directory": "9.1/apache"
+    },
+    {
+      "Tags": [
+        "9.1.4-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "61f63930e743211540df45e0c32165ec043dd6f5",
+      "Directory": "9.1/fpm"
+    },
+    {
+      "Tags": [
+        "8.1.11-apache",
+        "8.1.11"
+      ],
+      "Architectures": null,
+      "GitCommit": "11331ee6c9af343e4b25efd62135742fe4a48259",
+      "Directory": "8.1/apache"
+    },
+    {
+      "Tags": [
+        "8.1.11-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "11331ee6c9af343e4b25efd62135742fe4a48259",
+      "Directory": "8.1/fpm"
+    },
+    {
+      "Tags": [
+        "8.2.9-apache",
+        "8.2.9"
+      ],
+      "Architectures": null,
+      "GitCommit": "ff9352a1c798b21f93fdca4b31165be91e879665",
+      "Directory": "8.2/apache"
+    },
+    {
+      "Tags": [
+        "8.2.9-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "ff9352a1c798b21f93fdca4b31165be91e879665",
+      "Directory": "8.2/fpm"
+    },
+    {
+      "Tags": [
+        "9.0.7-apache",
+        "9.0.7"
+      ],
+      "Architectures": null,
+      "GitCommit": "7f7809eab60b49eca0830428d94e160a5a7d8f40",
+      "Directory": "9.0/apache"
+    },
+    {
+      "Tags": [
+        "9.0.7-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "7f7809eab60b49eca0830428d94e160a5a7d8f40",
+      "Directory": "9.0/fpm"
+    },
+    {
+      "Tags": [
+        "9.1.3-apache",
+        "9.1.3"
+      ],
+      "Architectures": null,
+      "GitCommit": "9f8859808568395b04d870673d41ec50889d09f4",
+      "Directory": "9.1/apache"
+    },
+    {
+      "Tags": [
+        "9.1.3-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "9f8859808568395b04d870673d41ec50889d09f4",
+      "Directory": "9.1/fpm"
+    },
+    {
+      "Tags": [
+        "9.0.6-apache",
+        "9.0.6"
+      ],
+      "Architectures": null,
+      "GitCommit": "375db22095df9a8d5b27f9f656eff92fcfad3b2e",
+      "Directory": "9.0/apache"
+    },
+    {
+      "Tags": [
+        "9.0.6-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "375db22095df9a8d5b27f9f656eff92fcfad3b2e",
+      "Directory": "9.0/fpm"
+    },
+    {
+      "Tags": [
+        "9.1.2-apache",
+        "9.1.2"
+      ],
+      "Architectures": null,
+      "GitCommit": "373a10dfe09623b32510f64912d2188c6395f64e",
+      "Directory": "9.1/apache"
+    },
+    {
+      "Tags": [
+        "9.1.2-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "373a10dfe09623b32510f64912d2188c6395f64e",
+      "Directory": "9.1/fpm"
+    },
+    {
+      "Tags": [
+        "8.0.15-apache",
+        "8.0.15"
+      ],
+      "Architectures": null,
+      "GitCommit": "12b61400b292cfdef89ae568f726798f197ec409",
+      "Directory": "8.0/apache"
+    },
+    {
+      "Tags": [
+        "8.0.15-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "12b61400b292cfdef89ae568f726798f197ec409",
+      "Directory": "8.0/fpm"
+    },
+    {
+      "Tags": [
+        "8.1.10-apache",
+        "8.1.10"
+      ],
+      "Architectures": null,
+      "GitCommit": "066a4f1d22f703605b00d70178dd7bb71b7d7140",
+      "Directory": "8.1/apache"
+    },
+    {
+      "Tags": [
+        "8.1.10-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "066a4f1d22f703605b00d70178dd7bb71b7d7140",
+      "Directory": "8.1/fpm"
+    },
+    {
+      "Tags": [
+        "8.2.8-apache",
+        "8.2.8"
+      ],
+      "Architectures": null,
+      "GitCommit": "f73b5dc1306f54c0744ad3dce726cbd7fb0530a7",
+      "Directory": "8.2/apache"
+    },
+    {
+      "Tags": [
+        "8.2.8-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "f73b5dc1306f54c0744ad3dce726cbd7fb0530a7",
+      "Directory": "8.2/fpm"
+    },
+    {
+      "Tags": [
+        "9.0.5-apache",
+        "9.0.5"
+      ],
+      "Architectures": null,
+      "GitCommit": "92727b0d210b489161340f740b3693eb87915e16",
+      "Directory": "9.0/apache"
+    },
+    {
+      "Tags": [
+        "9.0.5-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "92727b0d210b489161340f740b3693eb87915e16",
+      "Directory": "9.0/fpm"
+    },
+    {
+      "Tags": [
+        "9.1.1-apache",
+        "9.1.1"
+      ],
+      "Architectures": null,
+      "GitCommit": "51ba952ab82bdc0755275d31fc288af39ac1ba74",
+      "Directory": "9.1/apache"
+    },
+    {
+      "Tags": [
+        "9.1.1-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "51ba952ab82bdc0755275d31fc288af39ac1ba74",
+      "Directory": "9.1/fpm"
+    },
+    {
+      "Tags": [
+        "8.0.14-apache",
+        "8.0.14"
+      ],
+      "Architectures": null,
+      "GitCommit": "94143a2da24c5f5ca90fede12cd5bb1aa5dc1f1a",
+      "Directory": "8.0/apache"
+    },
+    {
+      "Tags": [
+        "8.0.14-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "94143a2da24c5f5ca90fede12cd5bb1aa5dc1f1a",
+      "Directory": "8.0/fpm"
+    },
+    {
+      "Tags": [
+        "8.1.9-apache",
+        "8.1.9"
+      ],
+      "Architectures": null,
+      "GitCommit": "94143a2da24c5f5ca90fede12cd5bb1aa5dc1f1a",
+      "Directory": "8.1/apache"
+    },
+    {
+      "Tags": [
+        "8.1.9-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "94143a2da24c5f5ca90fede12cd5bb1aa5dc1f1a",
+      "Directory": "8.1/fpm"
+    },
+    {
+      "Tags": [
+        "8.2.7-apache",
+        "8.2.7"
+      ],
+      "Architectures": null,
+      "GitCommit": "94143a2da24c5f5ca90fede12cd5bb1aa5dc1f1a",
+      "Directory": "8.2/apache"
+    },
+    {
+      "Tags": [
+        "8.2.7-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "94143a2da24c5f5ca90fede12cd5bb1aa5dc1f1a",
+      "Directory": "8.2/fpm"
+    },
+    {
+      "Tags": [
+        "9.0.4-apache",
+        "9.0.4"
+      ],
+      "Architectures": null,
+      "GitCommit": "94143a2da24c5f5ca90fede12cd5bb1aa5dc1f1a",
+      "Directory": "9.0/apache"
+    },
+    {
+      "Tags": [
+        "9.0.4-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "94143a2da24c5f5ca90fede12cd5bb1aa5dc1f1a",
+      "Directory": "9.0/fpm"
+    },
+    {
+      "Tags": [
+        "9.1.0-apache",
+        "9.1.0"
+      ],
+      "Architectures": null,
+      "GitCommit": "6011c09fec9dea07faae2282bdeba541a5b77a53",
+      "Directory": "9.1/apache"
+    },
+    {
+      "Tags": [
+        "9.1.0-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "6011c09fec9dea07faae2282bdeba541a5b77a53",
+      "Directory": "9.1/fpm"
+    },
+    {
+      "Tags": [
+        "8.0.13-apache",
+        "8.0.13"
+      ],
+      "Architectures": null,
+      "GitCommit": "ad635b3fe661ca61cb4ba5c23f564f3201472a1b",
+      "Directory": "8.0/apache"
+    },
+    {
+      "Tags": [
+        "8.0.13-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "ad635b3fe661ca61cb4ba5c23f564f3201472a1b",
+      "Directory": "8.0/fpm"
+    },
+    {
+      "Tags": [
+        "8.1.8-apache",
+        "8.1.8"
+      ],
+      "Architectures": null,
+      "GitCommit": "ad635b3fe661ca61cb4ba5c23f564f3201472a1b",
+      "Directory": "8.1/apache"
+    },
+    {
+      "Tags": [
+        "8.1.8-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "ad635b3fe661ca61cb4ba5c23f564f3201472a1b",
+      "Directory": "8.1/fpm"
+    },
+    {
+      "Tags": [
+        "8.2.6-apache",
+        "8.2.6"
+      ],
+      "Architectures": null,
+      "GitCommit": "ad635b3fe661ca61cb4ba5c23f564f3201472a1b",
+      "Directory": "8.2/apache"
+    },
+    {
+      "Tags": [
+        "8.2.6-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "ad635b3fe661ca61cb4ba5c23f564f3201472a1b",
+      "Directory": "8.2/fpm"
+    },
+    {
+      "Tags": [
+        "9.0.3-apache",
+        "9.0.3"
+      ],
+      "Architectures": null,
+      "GitCommit": "ad635b3fe661ca61cb4ba5c23f564f3201472a1b",
+      "Directory": "9.0/apache"
+    },
+    {
+      "Tags": [
+        "9.0.3-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "ad635b3fe661ca61cb4ba5c23f564f3201472a1b",
+      "Directory": "9.0/fpm"
+    },
+    {
+      "Tags": [
+        "8.2.5-apache",
+        "8.2.5"
+      ],
+      "Architectures": null,
+      "GitCommit": "410ebaf1fc10badfb39429091628fc3c6e894682",
+      "Directory": "8.2/apache"
+    },
+    {
+      "Tags": [
+        "8.2.5-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "410ebaf1fc10badfb39429091628fc3c6e894682",
+      "Directory": "8.2/fpm"
+    },
+    {
+      "Tags": [
+        "9.0.2-apache",
+        "9.0.2"
+      ],
+      "Architectures": null,
+      "GitCommit": "410ebaf1fc10badfb39429091628fc3c6e894682",
+      "Directory": "9.0/apache"
+    },
+    {
+      "Tags": [
+        "9.0.2-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "410ebaf1fc10badfb39429091628fc3c6e894682",
+      "Directory": "9.0/fpm"
+    },
+    {
+      "Tags": [
+        "7.0.15-apache",
+        "7.0-apache",
+        "7-apache",
+        "7.0.15",
+        "7.0",
+        "7"
+      ],
+      "Architectures": null,
+      "GitCommit": "e58cf3d60e84e8dd113337e4a4ab7e4cdb8805ff",
+      "Directory": "7.0/apache"
+    },
+    {
+      "Tags": [
+        "7.0.15-fpm",
+        "7.0-fpm",
+        "7-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "e58cf3d60e84e8dd113337e4a4ab7e4cdb8805ff",
+      "Directory": "7.0/fpm"
+    }
+  ]
+}

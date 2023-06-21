@@ -362,14 +362,581 @@ Blocks:
   Tags:
   - mantic
   - "23.10"
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: debian/bookworm/curl
+  GitCommit: 3e18c3af1f5dce6a48abf036857f9097b6bd79cc
+  Tags:
+  - testing-curl
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: debian/bookworm/scm
+  GitCommit: 84e7e46026131a108a6480e5ed2969e8acf2d4e2
+  Tags:
+  - testing-scm
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: debian/bookworm
+  GitCommit: 84e7e46026131a108a6480e5ed2969e8acf2d4e2
+  Tags:
+  - testing
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: ubuntu/xenial/curl
+  GitCommit: 93d2a6f64abe6787b7dd25c7d5322af1fa2e3f55
+  Tags:
+  - xenial-curl
+  - 16.04-curl
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: ubuntu/xenial/scm
+  GitCommit: 65d69325ad741cea6dee20781c1faaab2e003d87
+  Tags:
+  - xenial-scm
+  - 16.04-scm
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: ubuntu/xenial
+  GitCommit: 98a5ab81d47a106c458cdf90733df0ee8beea06c
+  Tags:
+  - xenial
+  - "16.04"
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: ubuntu/impish/curl
+  GitCommit: fae040f3db68991f178f0a9631a03ca9837f5647
+  Tags:
+  - impish-curl
+  - 21.10-curl
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: ubuntu/impish/scm
+  GitCommit: fae040f3db68991f178f0a9631a03ca9837f5647
+  Tags:
+  - impish-scm
+  - 21.10-scm
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: ubuntu/impish
+  GitCommit: fae040f3db68991f178f0a9631a03ca9837f5647
+  Tags:
+  - impish
+  - "21.10"
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  Directory: debian/stretch/curl
+  GitCommit: 93d2a6f64abe6787b7dd25c7d5322af1fa2e3f55
+  Tags:
+  - stretch-curl
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  Directory: debian/stretch/scm
+  GitCommit: 65d69325ad741cea6dee20781c1faaab2e003d87
+  Tags:
+  - stretch-scm
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  Directory: debian/stretch
+  GitCommit: 65d69325ad741cea6dee20781c1faaab2e003d87
+  Tags:
+  - stretch
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: ubuntu/hirsute/curl
+  GitCommit: 98a5ab81d47a106c458cdf90733df0ee8beea06c
+  Tags:
+  - hirsute-curl
+  - 21.04-curl
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: ubuntu/hirsute/scm
+  GitCommit: 98a5ab81d47a106c458cdf90733df0ee8beea06c
+  Tags:
+  - hirsute-scm
+  - 21.04-scm
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: ubuntu/hirsute
+  GitCommit: 98a5ab81d47a106c458cdf90733df0ee8beea06c
+  Tags:
+  - hirsute
+  - "21.04"
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: ubuntu/groovy/curl
+  GitCommit: 98a5ab81d47a106c458cdf90733df0ee8beea06c
+  Tags:
+  - groovy-curl
+  - 20.10-curl
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: ubuntu/groovy/scm
+  GitCommit: 65d69325ad741cea6dee20781c1faaab2e003d87
+  Tags:
+  - groovy-scm
+  - 20.10-scm
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: ubuntu/groovy
+  GitCommit: 98a5ab81d47a106c458cdf90733df0ee8beea06c
+  Tags:
+  - groovy
+  - "20.10"
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - i386
+  Directory: debian/jessie/curl
+  GitCommit: 65d69325ad741cea6dee20781c1faaab2e003d87
+  Tags:
+  - jessie-curl
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - i386
+  Directory: debian/jessie/scm
+  GitCommit: 65d69325ad741cea6dee20781c1faaab2e003d87
+  Tags:
+  - jessie-scm
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - i386
+  Directory: debian/jessie
+  GitCommit: 65d69325ad741cea6dee20781c1faaab2e003d87
+  Tags:
+  - jessie
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: ubuntu/eoan/curl
+  GitCommit: f84f6184d79f2cb7ab94c365ac4f47915e7ca2a8
+  Tags:
+  - eoan-curl
+  - 19.10-curl
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: ubuntu/eoan/scm
+  GitCommit: f84f6184d79f2cb7ab94c365ac4f47915e7ca2a8
+  Tags:
+  - eoan-scm
+  - 19.10-scm
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: ubuntu/eoan
+  GitCommit: f84f6184d79f2cb7ab94c365ac4f47915e7ca2a8
+  Tags:
+  - eoan
+  - "19.10"
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: disco/curl
+  GitCommit: dad73efaa10245757e58d28742cb7ed35fcd31f2
+  Tags:
+  - disco-curl
+  - 19.04-curl
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: disco/scm
+  GitCommit: dad73efaa10245757e58d28742cb7ed35fcd31f2
+  Tags:
+  - disco-scm
+  - 19.04-scm
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: disco
+  GitCommit: cd0058f0893008c7ffa8e9cb9d3d5208cf5f2f75
+  Tags:
+  - disco
+  - "19.04"
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: cosmic/curl
+  GitCommit: a3bdba8b3675c0f820f2ce7bd88e79e4aac2fb8c
+  Tags:
+  - cosmic-curl
+  - 18.10-curl
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: cosmic/scm
+  GitCommit: a3bdba8b3675c0f820f2ce7bd88e79e4aac2fb8c
+  Tags:
+  - cosmic-scm
+  - 18.10-scm
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: cosmic
+  GitCommit: cd0058f0893008c7ffa8e9cb9d3d5208cf5f2f75
+  Tags:
+  - cosmic
+  - "18.10"
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  Directory: trusty/curl
+  GitCommit: b0fc01aa5e3aed6820d8fed6f3301e0542fbeb36
+  Tags:
+  - trusty-curl
+  - 14.04-curl
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  Directory: trusty/scm
+  GitCommit: 1845b3f918f69b4c97912b0d4d68a5658458e84f
+  Tags:
+  - trusty-scm
+  - 14.04-scm
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  Directory: trusty
+  GitCommit: ff09b5c5288f4643056bd7938268d749e9f8a2db
+  Tags:
+  - trusty
+  - "14.04"
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - i386
+  Directory: wheezy/curl
+  GitCommit: b0fc01aa5e3aed6820d8fed6f3301e0542fbeb36
+  Tags:
+  - wheezy-curl
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - i386
+  Directory: wheezy/scm
+  GitCommit: 1845b3f918f69b4c97912b0d4d68a5658458e84f
+  Tags:
+  - wheezy-scm
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - i386
+  Directory: wheezy
+  GitCommit: ff09b5c5288f4643056bd7938268d749e9f8a2db
+  Tags:
+  - wheezy
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: artful/curl
+  GitCommit: b0fc01aa5e3aed6820d8fed6f3301e0542fbeb36
+  Tags:
+  - artful-curl
+  - 17.10-curl
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: artful/scm
+  GitCommit: 36018aca7e9637c9c04ff623625e59de12d7f161
+  Tags:
+  - artful-scm
+  - 17.10-scm
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: artful
+  GitCommit: d7da72aaf3bb93fecf5fcb7c6ff154cb0c55d1d1
+  Tags:
+  - artful
+  - "17.10"
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: zesty/curl
+  GitCommit: d662dc69f910feb241f6d0c9d2cd6cc2fb6c5e6c
+  Tags:
+  - zesty-curl
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: zesty/scm
+  GitCommit: 9aa327dcc582d5384affbc5a19672e3077489e97
+  Tags:
+  - zesty-scm
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: zesty
+  GitCommit: d7da72aaf3bb93fecf5fcb7c6ff154cb0c55d1d1
+  Tags:
+  - zesty
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: yakkety/curl
+  GitCommit: 9f60e19008458220114f1a0b6cd3710f1015d402
+  Tags:
+  - yakkety-curl
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: yakkety/scm
+  GitCommit: a94a81caf4d56853baade2cdd794dbe0c93396b2
+  Tags:
+  - yakkety-scm
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: yakkety
+  GitCommit: 587934fb063d770d0611e94b57c9dd7a38edf928
+  Tags:
+  - yakkety
+- Architectures: null
+  Directory: precise/curl
+  GitCommit: af914a5bde2a749884177393c8140384048dc5f9
+  Tags:
+  - precise-curl
+- Architectures: null
+  Directory: precise/scm
+  GitCommit: 1845b3f918f69b4c97912b0d4d68a5658458e84f
+  Tags:
+  - precise-scm
+- Architectures: null
+  Directory: precise
+  GitCommit: 587934fb063d770d0611e94b57c9dd7a38edf928
+  Tags:
+  - precise
+- Architectures: null
+  Directory: wily/curl
+  GitCommit: af914a5bde2a749884177393c8140384048dc5f9
+  Tags:
+  - wily-curl
+- Architectures: null
+  Directory: wily/scm
+  GitCommit: 1845b3f918f69b4c97912b0d4d68a5658458e84f
+  Tags:
+  - wily-scm
+- Architectures: null
+  Directory: wily
+  GitCommit: e7534be05255522954f50542ebf9c5f06485838d
+  Tags:
+  - wily
 GitRepo: https://github.com/docker-library/buildpack-deps.git
 KnownTags:
+  "14.04": {}
+  14.04-curl: {}
+  14.04-scm: {}
+  "16.04": {}
+  16.04-curl: {}
+  16.04-scm: {}
+  "17.10": {}
+  17.10-curl: {}
+  17.10-scm: {}
   "18.04": {}
   18.04-curl: {}
   18.04-scm: {}
+  "18.10": {}
+  18.10-curl: {}
+  18.10-scm: {}
+  "19.04": {}
+  19.04-curl: {}
+  19.04-scm: {}
+  "19.10": {}
+  19.10-curl: {}
+  19.10-scm: {}
   "20.04": {}
   20.04-curl: {}
   20.04-scm: {}
+  "20.10": {}
+  20.10-curl: {}
+  20.10-scm: {}
+  "21.04": {}
+  21.04-curl: {}
+  21.04-scm: {}
+  "21.10": {}
+  21.10-curl: {}
+  21.10-scm: {}
   "22.04": {}
   22.04-curl: {}
   22.04-scm: {}
@@ -382,6 +949,9 @@ KnownTags:
   "23.10": {}
   23.10-curl: {}
   23.10-scm: {}
+  artful: {}
+  artful-curl: {}
+  artful-scm: {}
   bionic: {}
   bionic-curl: {}
   bionic-scm: {}
@@ -394,13 +964,34 @@ KnownTags:
   buster: {}
   buster-curl: {}
   buster-scm: {}
+  cosmic: {}
+  cosmic-curl: {}
+  cosmic-scm: {}
   curl: {}
+  disco: {}
+  disco-curl: {}
+  disco-scm: {}
+  eoan: {}
+  eoan-curl: {}
+  eoan-scm: {}
   focal: {}
   focal-curl: {}
   focal-scm: {}
+  groovy: {}
+  groovy-curl: {}
+  groovy-scm: {}
+  hirsute: {}
+  hirsute-curl: {}
+  hirsute-scm: {}
+  impish: {}
+  impish-curl: {}
+  impish-scm: {}
   jammy: {}
   jammy-curl: {}
   jammy-scm: {}
+  jessie: {}
+  jessie-curl: {}
+  jessie-scm: {}
   kinetic: {}
   kinetic-curl: {}
   kinetic-scm: {}
@@ -417,6 +1008,9 @@ KnownTags:
   oldstable: {}
   oldstable-curl: {}
   oldstable-scm: {}
+  precise: {}
+  precise-curl: {}
+  precise-scm: {}
   scm: {}
   sid: {}
   sid-curl: {}
@@ -424,7 +1018,31 @@ KnownTags:
   stable: {}
   stable-curl: {}
   stable-scm: {}
+  stretch: {}
+  stretch-curl: {}
+  stretch-scm: {}
+  testing: {}
+  testing-curl: {}
+  testing-scm: {}
+  trusty: {}
+  trusty-curl: {}
+  trusty-scm: {}
   unstable: {}
   unstable-curl: {}
   unstable-scm: {}
+  wheezy: {}
+  wheezy-curl: {}
+  wheezy-scm: {}
+  wily: {}
+  wily-curl: {}
+  wily-scm: {}
+  xenial: {}
+  xenial-curl: {}
+  xenial-scm: {}
+  yakkety: {}
+  yakkety-curl: {}
+  yakkety-scm: {}
+  zesty: {}
+  zesty-curl: {}
+  zesty-scm: {}
 Name: buildpack-deps

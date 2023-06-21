@@ -2,14 +2,24 @@
   "Name": "ibmjava",
   "GitRepo": "https://github.com/ibmruntimes/ci.docker.git",
   "KnownTags": {
+    "11": {},
+    "11-jdk": {},
     "8": {},
     "8-jre": {},
+    "8-jre-alpine": {},
     "8-sdk": {},
+    "8-sdk-alpine": {},
     "8-sfj": {},
+    "8-sfj-alpine": {},
+    "9-sdk": {},
+    "9-sdk-alpine": {},
     "jre": {},
+    "jre-alpine": {},
     "latest": {},
     "sdk": {},
-    "sfj": {}
+    "sdk-alpine": {},
+    "sfj": {},
+    "sfj-alpine": {}
   },
   "Blocks": [
     {
@@ -52,6 +62,75 @@
       ],
       "GitCommit": "672528f0c259480073bb491193c44fc12159ab03",
       "Directory": "ibmjava/8/sdk/ubuntu"
+    },
+    {
+      "Tags": [
+        "8-jre-alpine",
+        "jre-alpine"
+      ],
+      "Architectures": [
+        "amd64"
+      ],
+      "GitCommit": "2df7f5dd5dff7effe2038d4dc1d35dddfd3ca277",
+      "Directory": "ibmjava/8/jre/alpine"
+    },
+    {
+      "Tags": [
+        "8-sfj-alpine",
+        "sfj-alpine"
+      ],
+      "Architectures": [
+        "amd64"
+      ],
+      "GitCommit": "2df7f5dd5dff7effe2038d4dc1d35dddfd3ca277",
+      "Directory": "ibmjava/8/sfj/alpine"
+    },
+    {
+      "Tags": [
+        "8-sdk-alpine",
+        "sdk-alpine"
+      ],
+      "Architectures": [
+        "amd64"
+      ],
+      "GitCommit": "2df7f5dd5dff7effe2038d4dc1d35dddfd3ca277",
+      "Directory": "ibmjava/8/sdk/alpine"
+    },
+    {
+      "Tags": [
+        "11-jdk",
+        "11"
+      ],
+      "Architectures": [
+        "amd64",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "c14f45f7de370a12d59c2aacdd0e914bd0ff3c00",
+      "Directory": "ibmjava/11/jdk/ubuntu"
+    },
+    {
+      "Tags": [
+        "9-sdk"
+      ],
+      "Architectures": [
+        "amd64",
+        "i386",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "8d11fe57d3603fcf9e014aca252b6f345eca6561",
+      "Directory": "ibmjava/9/sdk/ubuntu"
+    },
+    {
+      "Tags": [
+        "9-sdk-alpine"
+      ],
+      "Architectures": [
+        "amd64"
+      ],
+      "GitCommit": "8d11fe57d3603fcf9e014aca252b6f345eca6561",
+      "Directory": "ibmjava/9/sdk/alpine"
     }
   ]
 }

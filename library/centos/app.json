@@ -2,10 +2,55 @@
   "Name": "centos",
   "GitRepo": "https://github.com/CentOS/sig-cloud-instance-images.git",
   "KnownTags": {
+    "5": {},
+    "5.11": {},
+    "6": {},
+    "6.10": {},
+    "6.6": {},
+    "6.7": {},
+    "6.8": {},
+    "6.9": {},
     "7": {},
+    "7.0.1406": {},
+    "7.1.1503": {},
+    "7.2.1511": {},
+    "7.3.1611": {},
+    "7.4.1708": {},
+    "7.5.1804": {},
+    "7.6.1810": {},
+    "7.7.1908": {},
+    "7.8.2003": {},
     "7.9.2009": {},
+    "8": {},
+    "8.1.1911": {},
+    "8.2.2004": {},
+    "8.3.2011": {},
+    "8.4.2105": {},
+    "centos5": {},
+    "centos5.11": {},
+    "centos6": {},
+    "centos6.10": {},
+    "centos6.6": {},
+    "centos6.7": {},
+    "centos6.8": {},
+    "centos6.9": {},
     "centos7": {},
-    "centos7.9.2009": {}
+    "centos7.0.1406": {},
+    "centos7.1.1503": {},
+    "centos7.2.1511": {},
+    "centos7.3.1611": {},
+    "centos7.4.1708": {},
+    "centos7.5.1804": {},
+    "centos7.6.1810": {},
+    "centos7.7.1908": {},
+    "centos7.8.2003": {},
+    "centos7.9.2009": {},
+    "centos8": {},
+    "centos8.1.1911": {},
+    "centos8.2.2004": {},
+    "centos8.3.2011": {},
+    "centos8.4.2105": {},
+    "latest": {}
   },
   "Blocks": [
     {
@@ -23,6 +68,224 @@
         "i386"
       ],
       "GitCommit": "b2d195220e1c5b181427c3172829c23ab9cd27eb",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "latest",
+        "centos8",
+        "8",
+        "centos8.4.2105",
+        "8.4.2105"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "607af70702bacc6f46fab2ded055ab23d9113831",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "centos6",
+        "6"
+      ],
+      "Architectures": [
+        "amd64",
+        "i386"
+      ],
+      "GitCommit": "23b05f6a35520ebf338e4df918e4952830da068b",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "centos6.10",
+        "6.10"
+      ],
+      "Architectures": null,
+      "GitCommit": "da050e2fc6c28d8d72d8bf78c49537247b5ddf76",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "centos8.3.2011",
+        "8.3.2011"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "ccd17799397027acf9ee6d660e75b8fce4c852e8",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "centos7.8.2003",
+        "7.8.2003"
+      ],
+      "Architectures": [
+        "amd64"
+      ],
+      "GitCommit": "216a920c467977bbd0f456d3bc381100a88b3768",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "centos7.7.1908",
+        "7.7.1908"
+      ],
+      "Architectures": [
+        "amd64"
+      ],
+      "GitCommit": "dcf7932cbda6dd9865d50bfe969927e3e1f0c671",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "centos7.6.1810",
+        "7.6.1810"
+      ],
+      "Architectures": [
+        "amd64",
+        "ppc64le"
+      ],
+      "GitCommit": "7c2e214edced0b2f22e663ab4175a80fc93acaa9",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "centos7.5.1804",
+        "7.5.1804"
+      ],
+      "Architectures": null,
+      "GitCommit": "0cea32a0018ac2d874960d9378a9745bf92affd2",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "centos7.4.1708",
+        "7.4.1708"
+      ],
+      "Architectures": null,
+      "GitCommit": "66add29c188e42d4d855f4d4acdb2b73d547edb6",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "centos7.3.1611",
+        "7.3.1611"
+      ],
+      "Architectures": null,
+      "GitCommit": "5bbaef9f60ab9e3eeb61acec631c2d91f8714fff",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "centos7.2.1511",
+        "7.2.1511"
+      ],
+      "Architectures": null,
+      "GitCommit": "a3c59bd4e98a7f9c063d993955c8ec19c5b1ceff",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "centos7.1.1503",
+        "7.1.1503"
+      ],
+      "Architectures": null,
+      "GitCommit": "bc561dfdd671d612dbb9f92e7e17dd8009befc44",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "centos7.0.1406",
+        "7.0.1406"
+      ],
+      "Architectures": null,
+      "GitCommit": "f1d1e0bd83baef08e257da50e6fb446e4dd1b90c",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "centos6.9",
+        "6.9"
+      ],
+      "Architectures": null,
+      "GitCommit": "4f329fe087b0152df26344cecee9ba30b03b1a7b",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "centos6.8",
+        "6.8"
+      ],
+      "Architectures": null,
+      "GitCommit": "f32666d2af356ed6835942ed753a4970e18bca94",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "centos6.7",
+        "6.7"
+      ],
+      "Architectures": null,
+      "GitCommit": "d0b72df83f49da844f88aabebe3826372f675370",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "centos6.6",
+        "6.6"
+      ],
+      "Architectures": null,
+      "GitCommit": "8911843d9a6cc71aadd81e491f94618aded94f30",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "centos8.2.2004",
+        "8.2.2004"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "5125788a241618b4d37254050d0bddcbd5b7df33",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "centos8.1.1911",
+        "8.1.1911"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "52cc14a6dd2efc45265417a4690964d32cf13857",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "centos5",
+        "5"
+      ],
+      "Architectures": null,
+      "GitCommit": "4bf8330498e1c10cf365aff31d2a8a5c3254c2cf",
+      "Directory": ""
+    },
+    {
+      "Tags": [
+        "centos5.11",
+        "5.11"
+      ],
+      "Architectures": null,
+      "GitCommit": "2d0554464ae19f4fd70d1b540c8968dbe872797b",
       "Directory": ""
     }
   ]

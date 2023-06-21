@@ -32,11 +32,45 @@ Blocks:
   - 8.2-alpine
   - 8-alpine
   - alpine
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: 8.1/bullseye
+  GitCommit: f62013ad3b8a785b37b3acc2c0b0ead94aae8b95
+  Tags:
+  - 8.1.1-bullseye
+  - 8.1-bullseye
+- Architectures:
+  - amd64
+  - arm32v6
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  Directory: 8.1/alpine3.16
+  GitCommit: f62013ad3b8a785b37b3acc2c0b0ead94aae8b95
+  Tags:
+  - 8.1.1-alpine3.16
+  - 8.1-alpine3.16
+  - 8.1.1-alpine
+  - 8.1-alpine
 GitRepo: https://github.com/IdentityPython/satosa-docker.git
 KnownTags:
   8-alpine: {}
   8-alpine3.16: {}
   8-bullseye: {}
+  8.1-alpine: {}
+  8.1-alpine3.16: {}
+  8.1-bullseye: {}
+  8.1.1-alpine: {}
+  8.1.1-alpine3.16: {}
+  8.1.1-bullseye: {}
   8.2-alpine: {}
   8.2-alpine3.16: {}
   8.2-bullseye: {}

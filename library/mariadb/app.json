@@ -3,45 +3,500 @@
   "GitRepo": "https://github.com/MariaDB/mariadb-docker.git",
   "KnownTags": {
     "10": {},
+    "10-bionic": {},
+    "10-focal": {},
     "10-jammy": {},
+    "10-jessie": {},
+    "10.0": {},
+    "10.0-jessie": {},
+    "10.0-xenial": {},
+    "10.0.25": {},
+    "10.0.26": {},
+    "10.0.27": {},
+    "10.0.28": {},
+    "10.0.29": {},
+    "10.0.30": {},
+    "10.0.31": {},
+    "10.0.32": {},
+    "10.0.33": {},
+    "10.0.34": {},
+    "10.0.35": {},
+    "10.0.35-jessie": {},
+    "10.0.35-xenial": {},
+    "10.0.36": {},
+    "10.0.36-xenial": {},
+    "10.0.37": {},
+    "10.0.37-xenial": {},
+    "10.0.38": {},
+    "10.0.38-xenial": {},
+    "10.1": {},
+    "10.1-bionic": {},
+    "10.1-jessie": {},
+    "10.1.14": {},
+    "10.1.15": {},
+    "10.1.16": {},
+    "10.1.17": {},
+    "10.1.18": {},
+    "10.1.19": {},
+    "10.1.20": {},
+    "10.1.21": {},
+    "10.1.22": {},
+    "10.1.23": {},
+    "10.1.24": {},
+    "10.1.25": {},
+    "10.1.26": {},
+    "10.1.28": {},
+    "10.1.29": {},
+    "10.1.30": {},
+    "10.1.31": {},
+    "10.1.32": {},
+    "10.1.33": {},
+    "10.1.34": {},
+    "10.1.34-bionic": {},
+    "10.1.34-jessie": {},
+    "10.1.35": {},
+    "10.1.35-bionic": {},
+    "10.1.36": {},
+    "10.1.36-bionic": {},
+    "10.1.37": {},
+    "10.1.37-bionic": {},
+    "10.1.38": {},
+    "10.1.38-bionic": {},
+    "10.1.39": {},
+    "10.1.39-bionic": {},
+    "10.1.40": {},
+    "10.1.40-bionic": {},
+    "10.1.41": {},
+    "10.1.41-bionic": {},
+    "10.1.43": {},
+    "10.1.43-bionic": {},
+    "10.1.44": {},
+    "10.1.44-bionic": {},
+    "10.1.45": {},
+    "10.1.45-bionic": {},
+    "10.1.46": {},
+    "10.1.46-bionic": {},
+    "10.1.47": {},
+    "10.1.47-bionic": {},
+    "10.1.48": {},
+    "10.1.48-bionic": {},
     "10.10": {},
     "10.10-jammy": {},
+    "10.10-rc": {},
+    "10.10-rc-jammy": {},
+    "10.10.1-rc": {},
+    "10.10.1-rc-jammy": {},
+    "10.10.2": {},
+    "10.10.2-jammy": {},
+    "10.10.3": {},
+    "10.10.3-jammy": {},
+    "10.10.4": {},
+    "10.10.4-jammy": {},
     "10.10.5": {},
     "10.10.5-jammy": {},
     "10.11": {},
     "10.11-jammy": {},
+    "10.11-rc": {},
+    "10.11-rc-jammy": {},
+    "10.11.1-rc": {},
+    "10.11.1-rc-jammy": {},
+    "10.11.2": {},
+    "10.11.2-jammy": {},
+    "10.11.3": {},
+    "10.11.3-jammy": {},
     "10.11.4": {},
     "10.11.4-jammy": {},
+    "10.2": {},
+    "10.2-bionic": {},
+    "10.2-jessie": {},
+    "10.2.10": {},
+    "10.2.11": {},
+    "10.2.12": {},
+    "10.2.13": {},
+    "10.2.14": {},
+    "10.2.15": {},
+    "10.2.16": {},
+    "10.2.16-bionic": {},
+    "10.2.16-jessie": {},
+    "10.2.17": {},
+    "10.2.17-bionic": {},
+    "10.2.18": {},
+    "10.2.18-bionic": {},
+    "10.2.19": {},
+    "10.2.19-bionic": {},
+    "10.2.20": {},
+    "10.2.20-bionic": {},
+    "10.2.21": {},
+    "10.2.21-bionic": {},
+    "10.2.22": {},
+    "10.2.22-bionic": {},
+    "10.2.23": {},
+    "10.2.23-bionic": {},
+    "10.2.24": {},
+    "10.2.24-bionic": {},
+    "10.2.25": {},
+    "10.2.25-bionic": {},
+    "10.2.26": {},
+    "10.2.26-bionic": {},
+    "10.2.27": {},
+    "10.2.27-bionic": {},
+    "10.2.29": {},
+    "10.2.29-bionic": {},
+    "10.2.30": {},
+    "10.2.30-bionic": {},
+    "10.2.31": {},
+    "10.2.31-bionic": {},
+    "10.2.32": {},
+    "10.2.32-bionic": {},
+    "10.2.33": {},
+    "10.2.33-bionic": {},
+    "10.2.34": {},
+    "10.2.34-bionic": {},
+    "10.2.35": {},
+    "10.2.35-bionic": {},
+    "10.2.36": {},
+    "10.2.36-bionic": {},
+    "10.2.37": {},
+    "10.2.37-bionic": {},
+    "10.2.38": {},
+    "10.2.38-bionic": {},
+    "10.2.39": {},
+    "10.2.39-bionic": {},
+    "10.2.40": {},
+    "10.2.40-bionic": {},
+    "10.2.41": {},
+    "10.2.41-bionic": {},
+    "10.2.43": {},
+    "10.2.43-bionic": {},
+    "10.2.44": {},
+    "10.2.44-bionic": {},
+    "10.2.5": {},
+    "10.2.6": {},
+    "10.2.7": {},
+    "10.2.8": {},
+    "10.2.9": {},
+    "10.3": {},
+    "10.3-bionic": {},
+    "10.3-focal": {},
+    "10.3-jessie": {},
+    "10.3.0": {},
+    "10.3.1": {},
+    "10.3.10": {},
+    "10.3.10-bionic": {},
+    "10.3.11": {},
+    "10.3.11-bionic": {},
+    "10.3.12": {},
+    "10.3.12-bionic": {},
+    "10.3.13": {},
+    "10.3.13-bionic": {},
+    "10.3.14": {},
+    "10.3.14-bionic": {},
+    "10.3.15": {},
+    "10.3.15-bionic": {},
+    "10.3.16": {},
+    "10.3.16-bionic": {},
+    "10.3.17": {},
+    "10.3.17-bionic": {},
+    "10.3.18": {},
+    "10.3.18-bionic": {},
+    "10.3.2": {},
+    "10.3.20": {},
+    "10.3.20-bionic": {},
+    "10.3.21": {},
+    "10.3.21-bionic": {},
+    "10.3.22": {},
+    "10.3.22-bionic": {},
+    "10.3.23": {},
+    "10.3.23-bionic": {},
+    "10.3.23-focal": {},
+    "10.3.24": {},
+    "10.3.24-focal": {},
+    "10.3.25": {},
+    "10.3.25-focal": {},
+    "10.3.26": {},
+    "10.3.26-focal": {},
+    "10.3.27": {},
+    "10.3.27-focal": {},
+    "10.3.28": {},
+    "10.3.28-focal": {},
+    "10.3.29": {},
+    "10.3.29-focal": {},
+    "10.3.3": {},
+    "10.3.30": {},
+    "10.3.30-focal": {},
+    "10.3.31": {},
+    "10.3.31-focal": {},
+    "10.3.32": {},
+    "10.3.32-focal": {},
+    "10.3.34": {},
+    "10.3.34-focal": {},
+    "10.3.35": {},
+    "10.3.35-focal": {},
+    "10.3.36": {},
+    "10.3.36-focal": {},
+    "10.3.37": {},
+    "10.3.37-focal": {},
+    "10.3.38": {},
+    "10.3.38-focal": {},
+    "10.3.39": {},
+    "10.3.39-focal": {},
+    "10.3.4": {},
+    "10.3.5": {},
+    "10.3.6": {},
+    "10.3.7": {},
+    "10.3.8": {},
+    "10.3.8-bionic": {},
+    "10.3.8-jessie": {},
+    "10.3.9": {},
+    "10.3.9-bionic": {},
     "10.4": {},
+    "10.4-bionic": {},
     "10.4-focal": {},
+    "10.4.0": {},
+    "10.4.0-bionic": {},
+    "10.4.1": {},
+    "10.4.1-bionic": {},
+    "10.4.10": {},
+    "10.4.10-bionic": {},
+    "10.4.11": {},
+    "10.4.11-bionic": {},
+    "10.4.12": {},
+    "10.4.12-bionic": {},
+    "10.4.13": {},
+    "10.4.13-bionic": {},
+    "10.4.13-focal": {},
+    "10.4.14": {},
+    "10.4.14-focal": {},
+    "10.4.15": {},
+    "10.4.15-focal": {},
+    "10.4.16": {},
+    "10.4.16-focal": {},
+    "10.4.17": {},
+    "10.4.17-focal": {},
+    "10.4.18": {},
+    "10.4.18-focal": {},
+    "10.4.19": {},
+    "10.4.19-focal": {},
+    "10.4.2": {},
+    "10.4.2-bionic": {},
+    "10.4.20": {},
+    "10.4.20-focal": {},
+    "10.4.21": {},
+    "10.4.21-focal": {},
+    "10.4.22": {},
+    "10.4.22-focal": {},
+    "10.4.24": {},
+    "10.4.24-focal": {},
+    "10.4.25": {},
+    "10.4.25-focal": {},
+    "10.4.26": {},
+    "10.4.26-focal": {},
+    "10.4.27": {},
+    "10.4.27-focal": {},
+    "10.4.28": {},
+    "10.4.28-focal": {},
+    "10.4.29": {},
+    "10.4.29-focal": {},
+    "10.4.3": {},
+    "10.4.3-bionic": {},
     "10.4.30": {},
     "10.4.30-focal": {},
+    "10.4.4": {},
+    "10.4.4-bionic": {},
+    "10.4.5": {},
+    "10.4.5-bionic": {},
+    "10.4.6": {},
+    "10.4.6-bionic": {},
+    "10.4.7": {},
+    "10.4.7-bionic": {},
+    "10.4.8": {},
+    "10.4.8-bionic": {},
     "10.5": {},
+    "10.5-bionic": {},
     "10.5-focal": {},
+    "10.5.1": {},
+    "10.5.1-bionic": {},
+    "10.5.10": {},
+    "10.5.10-focal": {},
+    "10.5.11": {},
+    "10.5.11-focal": {},
+    "10.5.12": {},
+    "10.5.12-focal": {},
+    "10.5.13": {},
+    "10.5.13-focal": {},
+    "10.5.15": {},
+    "10.5.15-focal": {},
+    "10.5.16": {},
+    "10.5.16-focal": {},
+    "10.5.17": {},
+    "10.5.17-focal": {},
+    "10.5.18": {},
+    "10.5.18-focal": {},
+    "10.5.19": {},
+    "10.5.19-focal": {},
+    "10.5.2": {},
+    "10.5.2-bionic": {},
+    "10.5.20": {},
+    "10.5.20-focal": {},
     "10.5.21": {},
     "10.5.21-focal": {},
+    "10.5.3": {},
+    "10.5.3-bionic": {},
+    "10.5.3-focal": {},
+    "10.5.4": {},
+    "10.5.4-focal": {},
+    "10.5.5": {},
+    "10.5.5-focal": {},
+    "10.5.6": {},
+    "10.5.6-focal": {},
+    "10.5.7": {},
+    "10.5.7-focal": {},
+    "10.5.8": {},
+    "10.5.8-focal": {},
+    "10.5.9": {},
+    "10.5.9-focal": {},
     "10.6": {},
     "10.6-focal": {},
+    "10.6.0": {},
+    "10.6.0-focal": {},
+    "10.6.1": {},
+    "10.6.1-focal": {},
+    "10.6.10": {},
+    "10.6.10-focal": {},
+    "10.6.11": {},
+    "10.6.11-focal": {},
+    "10.6.12": {},
+    "10.6.12-focal": {},
+    "10.6.13": {},
+    "10.6.13-focal": {},
     "10.6.14": {},
     "10.6.14-focal": {},
+    "10.6.2": {},
+    "10.6.2-focal": {},
+    "10.6.3": {},
+    "10.6.3-focal": {},
+    "10.6.4": {},
+    "10.6.4-focal": {},
+    "10.6.5": {},
+    "10.6.5-focal": {},
+    "10.6.7": {},
+    "10.6.7-focal": {},
+    "10.6.8": {},
+    "10.6.8-focal": {},
+    "10.6.9": {},
+    "10.6.9-focal": {},
+    "10.7": {},
+    "10.7-focal": {},
+    "10.7.1": {},
+    "10.7.1-focal": {},
+    "10.7.3": {},
+    "10.7.3-focal": {},
+    "10.7.4": {},
+    "10.7.4-focal": {},
+    "10.7.5": {},
+    "10.7.5-focal": {},
+    "10.7.6": {},
+    "10.7.6-focal": {},
+    "10.7.7": {},
+    "10.7.7-focal": {},
+    "10.7.8": {},
+    "10.7.8-focal": {},
+    "10.8": {},
+    "10.8-focal": {},
+    "10.8-jammy": {},
+    "10.8-rc": {},
+    "10.8-rc-focal": {},
+    "10.8.2": {},
+    "10.8.2-focal": {},
+    "10.8.2-rc": {},
+    "10.8.2-rc-focal": {},
+    "10.8.3": {},
+    "10.8.3-jammy": {},
+    "10.8.4": {},
+    "10.8.4-jammy": {},
+    "10.8.5": {},
+    "10.8.5-jammy": {},
+    "10.8.6": {},
+    "10.8.6-jammy": {},
+    "10.8.7": {},
+    "10.8.7-jammy": {},
+    "10.8.8": {},
+    "10.8.8-jammy": {},
     "10.9": {},
     "10.9-jammy": {},
+    "10.9-rc": {},
+    "10.9-rc-jammy": {},
+    "10.9.1-rc": {},
+    "10.9.1-rc-jammy": {},
+    "10.9.2": {},
+    "10.9.2-jammy": {},
+    "10.9.3": {},
+    "10.9.3-jammy": {},
+    "10.9.4": {},
+    "10.9.4-jammy": {},
+    "10.9.5": {},
+    "10.9.5-jammy": {},
+    "10.9.6": {},
+    "10.9.6-jammy": {},
     "10.9.7": {},
     "10.9.7-jammy": {},
     "11": {},
     "11-jammy": {},
     "11.0": {},
     "11.0-jammy": {},
+    "11.0-rc": {},
+    "11.0-rc-jammy": {},
+    "11.0.1-rc": {},
+    "11.0.1-rc-jammy": {},
     "11.0.2": {},
     "11.0.2-jammy": {},
     "11.1-rc": {},
     "11.1-rc-jammy": {},
     "11.1.1-rc": {},
     "11.1.1-rc-jammy": {},
+    "5": {},
+    "5-trusty": {},
+    "5-wheezy": {},
+    "5.5": {},
+    "5.5-trusty": {},
+    "5.5-wheezy": {},
+    "5.5.49": {},
+    "5.5.50": {},
+    "5.5.51": {},
+    "5.5.52": {},
+    "5.5.53": {},
+    "5.5.54": {},
+    "5.5.55": {},
+    "5.5.56": {},
+    "5.5.57": {},
+    "5.5.58": {},
+    "5.5.59": {},
+    "5.5.60": {},
+    "5.5.60-trusty": {},
+    "5.5.60-wheezy": {},
+    "5.5.61": {},
+    "5.5.61-trusty": {},
+    "5.5.62": {},
+    "5.5.62-trusty": {},
+    "5.5.63": {},
+    "5.5.63-trusty": {},
+    "5.5.64": {},
+    "5.5.64-trusty": {},
+    "alpha": {},
+    "alpha-focal": {},
+    "beta": {},
+    "beta-bionic": {},
+    "beta-focal": {},
+    "bionic": {},
+    "focal": {},
     "jammy": {},
+    "jessie": {},
     "latest": {},
     "lts": {},
-    "lts-jammy": {}
+    "lts-jammy": {},
+    "rc": {},
+    "rc-bionic": {},
+    "rc-focal": {}
   },
   "Blocks": [
     {
@@ -178,6 +633,2851 @@
       ],
       "GitCommit": "e56b3a008e9c47c7199d28db6d77d2cfecde526d",
       "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "11.0.1-rc-jammy",
+        "11.0-rc-jammy",
+        "11.0.1-rc",
+        "11.0-rc"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "b1f92f6f41036992f932f339ba6074ab43809368",
+      "Directory": "11.0"
+    },
+    {
+      "Tags": [
+        "10.11.3-jammy",
+        "10.11.3"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "b1f92f6f41036992f932f339ba6074ab43809368",
+      "Directory": "10.11"
+    },
+    {
+      "Tags": [
+        "10.10.4-jammy",
+        "10.10.4"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "b1f92f6f41036992f932f339ba6074ab43809368",
+      "Directory": "10.10"
+    },
+    {
+      "Tags": [
+        "10.9.6-jammy",
+        "10.9.6"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "b1f92f6f41036992f932f339ba6074ab43809368",
+      "Directory": "10.9"
+    },
+    {
+      "Tags": [
+        "10.8.8-jammy",
+        "10.8-jammy",
+        "10.8.8",
+        "10.8"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "b1f92f6f41036992f932f339ba6074ab43809368",
+      "Directory": "10.8"
+    },
+    {
+      "Tags": [
+        "10.6.13-focal",
+        "10.6.13"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "b1f92f6f41036992f932f339ba6074ab43809368",
+      "Directory": "10.6"
+    },
+    {
+      "Tags": [
+        "10.5.20-focal",
+        "10.5.20"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "b1f92f6f41036992f932f339ba6074ab43809368",
+      "Directory": "10.5"
+    },
+    {
+      "Tags": [
+        "10.4.29-focal",
+        "10.4.29"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "b1f92f6f41036992f932f339ba6074ab43809368",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.39-focal",
+        "10.3-focal",
+        "10.3.39",
+        "10.3"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "b1f92f6f41036992f932f339ba6074ab43809368",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.11.2-jammy",
+        "10.11.2"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "29e2cbb9b2339627497fb3247942bd802ec81191",
+      "Directory": "10.11"
+    },
+    {
+      "Tags": [
+        "10.10.3-jammy",
+        "10.10.3"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "29e2cbb9b2339627497fb3247942bd802ec81191",
+      "Directory": "10.10"
+    },
+    {
+      "Tags": [
+        "10.9.5-jammy",
+        "10.9.5"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "29e2cbb9b2339627497fb3247942bd802ec81191",
+      "Directory": "10.9"
+    },
+    {
+      "Tags": [
+        "10.8.7-jammy",
+        "10.8.7"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "29e2cbb9b2339627497fb3247942bd802ec81191",
+      "Directory": "10.8"
+    },
+    {
+      "Tags": [
+        "10.7.8-focal",
+        "10.7-focal",
+        "10.7.8",
+        "10.7"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "29e2cbb9b2339627497fb3247942bd802ec81191",
+      "Directory": "10.7"
+    },
+    {
+      "Tags": [
+        "10.6.12-focal",
+        "10.6.12"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "29e2cbb9b2339627497fb3247942bd802ec81191",
+      "Directory": "10.6"
+    },
+    {
+      "Tags": [
+        "10.5.19-focal",
+        "10.5.19"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "29e2cbb9b2339627497fb3247942bd802ec81191",
+      "Directory": "10.5"
+    },
+    {
+      "Tags": [
+        "10.4.28-focal",
+        "10.4.28"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "29e2cbb9b2339627497fb3247942bd802ec81191",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.38-focal",
+        "10.3.38"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "29e2cbb9b2339627497fb3247942bd802ec81191",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.11.1-rc-jammy",
+        "10.11-rc-jammy",
+        "10.11.1-rc",
+        "10.11-rc"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "ac276eb82f0535ff1849018f46be5e5ed396bda1",
+      "Directory": "10.11"
+    },
+    {
+      "Tags": [
+        "10.10.2-jammy",
+        "10.10.2"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "56ef6d9f842e1ddf50e4359625a6e5cef1748c38",
+      "Directory": "10.10"
+    },
+    {
+      "Tags": [
+        "10.9.4-jammy",
+        "10.9.4"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "56ef6d9f842e1ddf50e4359625a6e5cef1748c38",
+      "Directory": "10.9"
+    },
+    {
+      "Tags": [
+        "10.8.6-jammy",
+        "10.8.6"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "56ef6d9f842e1ddf50e4359625a6e5cef1748c38",
+      "Directory": "10.8"
+    },
+    {
+      "Tags": [
+        "10.7.7-focal",
+        "10.7.7"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "56ef6d9f842e1ddf50e4359625a6e5cef1748c38",
+      "Directory": "10.7"
+    },
+    {
+      "Tags": [
+        "10.6.11-focal",
+        "10.6.11"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "56ef6d9f842e1ddf50e4359625a6e5cef1748c38",
+      "Directory": "10.6"
+    },
+    {
+      "Tags": [
+        "10.5.18-focal",
+        "10.5.18"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "56ef6d9f842e1ddf50e4359625a6e5cef1748c38",
+      "Directory": "10.5"
+    },
+    {
+      "Tags": [
+        "10.4.27-focal",
+        "10.4.27"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "56ef6d9f842e1ddf50e4359625a6e5cef1748c38",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.37-focal",
+        "10.3.37"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "56ef6d9f842e1ddf50e4359625a6e5cef1748c38",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.10.1-rc-jammy",
+        "10.10-rc-jammy",
+        "10.10.1-rc",
+        "10.10-rc"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "cefc4b4c1e72cb63ad66642438dbf8d84808515d",
+      "Directory": "10.10"
+    },
+    {
+      "Tags": [
+        "10.9.3-jammy",
+        "10.9.3"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "ee8996e7fd507cfbef594c0369af092e5cf9078a",
+      "Directory": "10.9"
+    },
+    {
+      "Tags": [
+        "10.8.5-jammy",
+        "10.8.5"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "ee8996e7fd507cfbef594c0369af092e5cf9078a",
+      "Directory": "10.8"
+    },
+    {
+      "Tags": [
+        "10.7.6-focal",
+        "10.7.6"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "ee8996e7fd507cfbef594c0369af092e5cf9078a",
+      "Directory": "10.7"
+    },
+    {
+      "Tags": [
+        "10.6.10-focal",
+        "10.6.10"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "ee8996e7fd507cfbef594c0369af092e5cf9078a",
+      "Directory": "10.6"
+    },
+    {
+      "Tags": [
+        "10.5.17-focal",
+        "10.5.17"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "ee8996e7fd507cfbef594c0369af092e5cf9078a",
+      "Directory": "10.5"
+    },
+    {
+      "Tags": [
+        "10.4.26-focal",
+        "10.4.26"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "ee8996e7fd507cfbef594c0369af092e5cf9078a",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.36-focal",
+        "10.3.36"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "ee8996e7fd507cfbef594c0369af092e5cf9078a",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.9.2-jammy",
+        "10.9.2"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "97e6715fb9f86010de510eef718f7341e3011c25",
+      "Directory": "10.9"
+    },
+    {
+      "Tags": [
+        "10.8.4-jammy",
+        "10.8.4"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "97e6715fb9f86010de510eef718f7341e3011c25",
+      "Directory": "10.8"
+    },
+    {
+      "Tags": [
+        "10.7.5-focal",
+        "10.7.5"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "97e6715fb9f86010de510eef718f7341e3011c25",
+      "Directory": "10.7"
+    },
+    {
+      "Tags": [
+        "10.6.9-focal",
+        "10.6.9"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "97e6715fb9f86010de510eef718f7341e3011c25",
+      "Directory": "10.6"
+    },
+    {
+      "Tags": [
+        "10.9.1-rc-jammy",
+        "10.9-rc-jammy",
+        "10.9.1-rc",
+        "10.9-rc"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+      "Directory": "10.9"
+    },
+    {
+      "Tags": [
+        "10.8.3-jammy",
+        "10.8.3"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+      "Directory": "10.8"
+    },
+    {
+      "Tags": [
+        "10.7.4-focal",
+        "10.7.4"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "c6d3396be642bbc73cd14b93e62c615e242f5a0d",
+      "Directory": "10.7"
+    },
+    {
+      "Tags": [
+        "10.6.8-focal",
+        "10.6.8"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+      "Directory": "10.6"
+    },
+    {
+      "Tags": [
+        "10.5.16-focal",
+        "10.5.16"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+      "Directory": "10.5"
+    },
+    {
+      "Tags": [
+        "10.4.25-focal",
+        "10.4.25"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.35-focal",
+        "10.3.35"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.44-bionic",
+        "10.2-bionic",
+        "10.2.44",
+        "10.2"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.8.2-rc-focal",
+        "10.8-rc-focal",
+        "10.8.2-rc",
+        "10.8-rc"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "db55d2702dfc0102364a29ab00334b6a02085ef9",
+      "Directory": "10.8"
+    },
+    {
+      "Tags": [
+        "10.7.3-focal",
+        "10-focal",
+        "focal",
+        "10.7.3"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "db55d2702dfc0102364a29ab00334b6a02085ef9",
+      "Directory": "10.7"
+    },
+    {
+      "Tags": [
+        "10.6.7-focal",
+        "10.6.7"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "db55d2702dfc0102364a29ab00334b6a02085ef9",
+      "Directory": "10.6"
+    },
+    {
+      "Tags": [
+        "10.5.15-focal",
+        "10.5.15"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "db55d2702dfc0102364a29ab00334b6a02085ef9",
+      "Directory": "10.5"
+    },
+    {
+      "Tags": [
+        "10.4.24-focal",
+        "10.4.24"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "db55d2702dfc0102364a29ab00334b6a02085ef9",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.34-focal",
+        "10.3.34"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "db55d2702dfc0102364a29ab00334b6a02085ef9",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.43-bionic",
+        "10.2.43"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "db55d2702dfc0102364a29ab00334b6a02085ef9",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.8.2-focal",
+        "10.8-focal",
+        "10.8.2"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "cd10ba6c780e49e732ca0eacb76affaac6e87d74",
+      "Directory": "10.8"
+    },
+    {
+      "Tags": [
+        "10.7.1-focal",
+        "10.7.1"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "d4efdb8951f606fe2837e9cc4db37225a5b7a621",
+      "Directory": "10.7"
+    },
+    {
+      "Tags": [
+        "10.6.5-focal",
+        "10.6.5"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "d711333929498046f354e14430cbe65e4767fc63",
+      "Directory": "10.6"
+    },
+    {
+      "Tags": [
+        "10.5.13-focal",
+        "10.5.13"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "8414e4ff9ebff49f28148a860d85131e11c049c6",
+      "Directory": "10.5"
+    },
+    {
+      "Tags": [
+        "10.4.22-focal",
+        "10.4.22"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "435a47c85a80be384524051f23cc3e8f132c31ff",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.32-focal",
+        "10.3.32"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "a98e19f16db72ff1f6148cd797a0cb53dacacef3",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.41-bionic",
+        "10.2.41"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "9c804d5875d9faa880133b7720fdf7ccf35d6393",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.6.4-focal",
+        "10.6.4"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "60caa9ea5c46b985ac6a7ebc93564a29791fca08",
+      "Directory": "10.6"
+    },
+    {
+      "Tags": [
+        "10.5.12-focal",
+        "10.5.12"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "60caa9ea5c46b985ac6a7ebc93564a29791fca08",
+      "Directory": "10.5"
+    },
+    {
+      "Tags": [
+        "10.4.21-focal",
+        "10.4.21"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "60caa9ea5c46b985ac6a7ebc93564a29791fca08",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.31-focal",
+        "10.3.31"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "60caa9ea5c46b985ac6a7ebc93564a29791fca08",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.40-bionic",
+        "10.2.40"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "60caa9ea5c46b985ac6a7ebc93564a29791fca08",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.6.3-focal",
+        "10.6.3"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "3afe9953898422c1ca6b3986dd6fa255ad10eb70",
+      "Directory": "10.6"
+    },
+    {
+      "Tags": [
+        "10.5.11-focal",
+        "10.5.11"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "3afe9953898422c1ca6b3986dd6fa255ad10eb70",
+      "Directory": "10.5"
+    },
+    {
+      "Tags": [
+        "10.4.20-focal",
+        "10.4.20"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "3afe9953898422c1ca6b3986dd6fa255ad10eb70",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.30-focal",
+        "10.3.30"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "3afe9953898422c1ca6b3986dd6fa255ad10eb70",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.39-bionic",
+        "10.2.39"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "3afe9953898422c1ca6b3986dd6fa255ad10eb70",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.6.2-focal",
+        "rc-focal",
+        "10.6.2",
+        "rc"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "465e597bfa3bd769b5f528df17426bec0724ab12",
+      "Directory": "10.6"
+    },
+    {
+      "Tags": [
+        "10.5.10-focal",
+        "10.5.10"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "710e0cd9d9197becc954e9a4c572cb97dd1d07a8",
+      "Directory": "10.5"
+    },
+    {
+      "Tags": [
+        "10.4.19-focal",
+        "10.4.19"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "710e0cd9d9197becc954e9a4c572cb97dd1d07a8",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.29-focal",
+        "10.3.29"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "710e0cd9d9197becc954e9a4c572cb97dd1d07a8",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.38-bionic",
+        "10.2.38"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "710e0cd9d9197becc954e9a4c572cb97dd1d07a8",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.6.1-focal",
+        "beta-focal",
+        "10.6.1",
+        "beta"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "2ef69de05f84aee8a141c0d37cdb5b9790ac91d9",
+      "Directory": "10.6"
+    },
+    {
+      "Tags": [
+        "10.6.0-focal",
+        "alpha-focal",
+        "10.6.0",
+        "alpha"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "8be7abacca5f19d487b137c7d8f9516d07116109",
+      "Directory": "10.6"
+    },
+    {
+      "Tags": [
+        "10.5.9-focal",
+        "10.5.9"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "5d57b119775458cd37994a0f313ea3a29603efbb",
+      "Directory": "10.5"
+    },
+    {
+      "Tags": [
+        "10.4.18-focal",
+        "10.4.18"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "74078d37c547949e762bbabdd3b684f932c7be2e",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.28-focal",
+        "10.3.28"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "ac4469cfa8e1a01093ce0a142ca0a03a5db58fce",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.37-bionic",
+        "10.2.37"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "f0e04a7e0e4b7d83691efc889865da8d6ae5f00e",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.1.48-bionic",
+        "10.1-bionic",
+        "10.1.48",
+        "10.1"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "0d197a924990af521cded73d04f113b06488844f",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.5.8-focal",
+        "10.5.8"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "58bef417cbeea4eb6b15c46b6097c3cbb99beb32",
+      "Directory": "10.5"
+    },
+    {
+      "Tags": [
+        "10.4.17-focal",
+        "10.4.17"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "8ef8085a9b9a24c440292d7e854fb2158f967210",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.27-focal",
+        "10.3.27"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "36c34c3de9f4018d5153b531d754c5ae6805f723",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.36-bionic",
+        "10.2.36"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "a6f3e998fbe25b027bbc168f8c8948be461aa127",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.5.7-focal",
+        "10.5.7"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "5aa55c25db15da23bcc75afdc1b4da0b61099dff",
+      "Directory": "10.5"
+    },
+    {
+      "Tags": [
+        "10.4.16-focal",
+        "10.4.16"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "e47d8430989ab4a61291e3b08466f9a5fb2d2663",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.26-focal",
+        "10.3.26"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "6cfc9b1b49fdf1ef8e17273c9460ba21e7052a1c",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.35-bionic",
+        "10.2.35"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "f382d0526c1daf63069ece2a96c4610807d63a7c",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.5.6-focal",
+        "10.5.6"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "0081e91ebc00c8e77f0e610de965b1d284f13135",
+      "Directory": "10.5"
+    },
+    {
+      "Tags": [
+        "10.4.15-focal",
+        "10.4.15"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "0081e91ebc00c8e77f0e610de965b1d284f13135",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.25-focal",
+        "10.3.25"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "0081e91ebc00c8e77f0e610de965b1d284f13135",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.34-bionic",
+        "10.2.34"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "0081e91ebc00c8e77f0e610de965b1d284f13135",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.1.47-bionic",
+        "10.1.47"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "0081e91ebc00c8e77f0e610de965b1d284f13135",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.5.5-focal",
+        "10.5.5"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "88ff4eed96a7662c1a06b16397592af954770070",
+      "Directory": "10.5"
+    },
+    {
+      "Tags": [
+        "10.4.14-focal",
+        "10.4.14"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "88ff4eed96a7662c1a06b16397592af954770070",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.24-focal",
+        "10.3.24"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "88ff4eed96a7662c1a06b16397592af954770070",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.33-bionic",
+        "10.2.33"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "88ff4eed96a7662c1a06b16397592af954770070",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.1.46-bionic",
+        "10.1.46"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "88ff4eed96a7662c1a06b16397592af954770070",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.5.4-focal",
+        "10.5.4"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "8ec795570021bdcf933a60d13b4631912634a5cc",
+      "Directory": "10.5"
+    },
+    {
+      "Tags": [
+        "10.4.13-focal",
+        "10.4.13"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "8ec795570021bdcf933a60d13b4631912634a5cc",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.23-focal",
+        "10.3.23"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "8ec795570021bdcf933a60d13b4631912634a5cc",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.32-bionic",
+        "10.2.32"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "8ec795570021bdcf933a60d13b4631912634a5cc",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.1.45-bionic",
+        "10.1.45"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "8ec795570021bdcf933a60d13b4631912634a5cc",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.5.3-focal",
+        "10.5.3"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "7de195f8fdb157ccb4386d95139b1ebf9ca9e12f",
+      "Directory": "10.5"
+    },
+    {
+      "Tags": [
+        "10.5.3-bionic",
+        "10.5-bionic",
+        "rc-bionic"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "1dc8ff16050abd03612148818e533fcb39332395",
+      "Directory": "10.5"
+    },
+    {
+      "Tags": [
+        "10.4.13-bionic",
+        "10.4-bionic",
+        "10-bionic",
+        "bionic"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "1dc8ff16050abd03612148818e533fcb39332395",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.23-bionic",
+        "10.3-bionic"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "1dc8ff16050abd03612148818e533fcb39332395",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.5.2-bionic",
+        "beta-bionic",
+        "10.5.2"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "48ee7746c6da7dfd372189a0d5a45a7894548cd9",
+      "Directory": "10.5"
+    },
+    {
+      "Tags": [
+        "10.4.12-bionic",
+        "10.4.12"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "48ee7746c6da7dfd372189a0d5a45a7894548cd9",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.22-bionic",
+        "10.3.22"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "48ee7746c6da7dfd372189a0d5a45a7894548cd9",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.31-bionic",
+        "10.2.31"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "48ee7746c6da7dfd372189a0d5a45a7894548cd9",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.1.44-bionic",
+        "10.1.44"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "48ee7746c6da7dfd372189a0d5a45a7894548cd9",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.5.1-bionic",
+        "10.5.1"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "17fbf28e55c357c52d5025c50d65f2ab2ab508e2",
+      "Directory": "10.5"
+    },
+    {
+      "Tags": [
+        "10.4.11-bionic",
+        "10.4.11"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "2345e98dc89edae8f11c35ad838887f45859de75",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.21-bionic",
+        "10.3.21"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "9ddcc2b4b0422a83dafc52e5574474dafc2fa9ca",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.30-bionic",
+        "10.2.30"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "f03a74b3d8fe11a1da89a6f09dcac734f30dfd50",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.1.43-bionic",
+        "10.1.43"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "ad6b97a27e6c09b81fb8d1e091b276b8ca5fff76",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.4.10-bionic",
+        "10.4.10"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "ad6b97a27e6c09b81fb8d1e091b276b8ca5fff76",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.20-bionic",
+        "10.3.20"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "ad6b97a27e6c09b81fb8d1e091b276b8ca5fff76",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.29-bionic",
+        "10.2.29"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "ad6b97a27e6c09b81fb8d1e091b276b8ca5fff76",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.4.8-bionic",
+        "10.4.8"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "ac33a49fe9b98f69ee95f39bf4493e38f9eb8852",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.18-bionic",
+        "10.3.18"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "5385ad04e294cf218d5a1ec23cacb336d1d42af2",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.27-bionic",
+        "10.2.27"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "bf675caa56e4a1b462c665d1cded137f13c33753",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.1.41-bionic",
+        "10.1.41"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "6397d9a0a376d8753325cbf59f9f580c33c5e3c4",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.4.7-bionic",
+        "10.4.7"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "a540b4bb336f8dce06cbad76d450b7aa3e142ff9",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.17-bionic",
+        "10.3.17"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "58a336f5cfeb4e33ae28e59178cb25e2ce7991e6",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.26-bionic",
+        "10.2.26"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "83aeb3c809c45819f6c0666cb9ce69f70cb49844",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.4.6-bionic",
+        "10.4.6"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "52ea3012bb04d8b62f4a6f7792baa07815467173",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.16-bionic",
+        "10.3.16"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "52ea3012bb04d8b62f4a6f7792baa07815467173",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.25-bionic",
+        "10.2.25"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "52ea3012bb04d8b62f4a6f7792baa07815467173",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.1.40-bionic",
+        "10.1.40"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "52ea3012bb04d8b62f4a6f7792baa07815467173",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.4.5-bionic",
+        "10.4.5"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "c969655b3c92a1ae3f066e506ab7b32ff4ba4582",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.15-bionic",
+        "10.3.15"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "c969655b3c92a1ae3f066e506ab7b32ff4ba4582",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.24-bionic",
+        "10.2.24"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "c969655b3c92a1ae3f066e506ab7b32ff4ba4582",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.0.38-xenial",
+        "10.0-xenial",
+        "10.0.38",
+        "10.0"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "93f1e9c9082364522c77b94e98299d7d398089f8",
+      "Directory": "10.0"
+    },
+    {
+      "Tags": [
+        "5.5.64-trusty",
+        "5.5-trusty",
+        "5-trusty",
+        "5.5.64",
+        "5.5",
+        "5"
+      ],
+      "Architectures": [
+        "amd64",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "2621ad0b229384856f43ba586e5c9f81a9b9532d",
+      "Directory": "5.5"
+    },
+    {
+      "Tags": [
+        "10.4.4-bionic",
+        "10.4.4"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "23417d54f56958b193e65ab548c34b3b336a1758",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.14-bionic",
+        "10.3.14"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "32aca58b13ee20d6514587e1a57ec9a0632fbe1d",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.23-bionic",
+        "10.2.23"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "fa087985605ca508ac661a52164db8c292c9f779",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.1.39-bionic",
+        "10.1.39"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "195b4c1448069ce769b0e0e5648b2623f6b83b66",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.1.38-bionic",
+        "10.1.38"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "93f1e9c9082364522c77b94e98299d7d398089f8",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "5.5.63-trusty",
+        "5.5.63"
+      ],
+      "Architectures": [
+        "amd64",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "93f1e9c9082364522c77b94e98299d7d398089f8",
+      "Directory": "5.5"
+    },
+    {
+      "Tags": [
+        "10.4.3-bionic",
+        "10.4.3"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "93f1e9c9082364522c77b94e98299d7d398089f8",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.13-bionic",
+        "10.3.13"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "93f1e9c9082364522c77b94e98299d7d398089f8",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.22-bionic",
+        "10.2.22"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "93f1e9c9082364522c77b94e98299d7d398089f8",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.4.2-bionic",
+        "10.4.2"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "4fd10c511f4fdf39f9e57ba72e1612084ea2b717",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.12-bionic",
+        "10.3.12"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "db27681a5753e6f22eb73b5a9575d6b833ba1238",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.21-bionic",
+        "10.2.21"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "9dcf0846746ae9c0006bee41a2c78996a35a9557",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.1.37-bionic",
+        "10.1.37"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "eac38f7d1478b2570203bf8c1ca68bea74637d9c",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.0.37-xenial",
+        "10.0.37"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "eac38f7d1478b2570203bf8c1ca68bea74637d9c",
+      "Directory": "10.0"
+    },
+    {
+      "Tags": [
+        "5.5.62-trusty",
+        "5.5.62"
+      ],
+      "Architectures": [
+        "amd64",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "eac38f7d1478b2570203bf8c1ca68bea74637d9c",
+      "Directory": "5.5"
+    },
+    {
+      "Tags": [
+        "10.4.1-bionic",
+        "10.4.1"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "7a76abcb45a945614d803d29138680976ff1305c",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.11-bionic",
+        "10.3.11"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "4d2df7be30fb608fd4ad743b74e7df80203a7dc0",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.20-bionic",
+        "10.2.20"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "82c8067d6ef01c259eb1167619a09392989b4fd9",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.2.19-bionic",
+        "10.2.19"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "eac38f7d1478b2570203bf8c1ca68bea74637d9c",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.4.0-bionic",
+        "10.4.0"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "7384b25a0196d8a7e62173781df5a5bed1eb88d2",
+      "Directory": "10.4"
+    },
+    {
+      "Tags": [
+        "10.3.10-bionic",
+        "10.3.10"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "eac38f7d1478b2570203bf8c1ca68bea74637d9c",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.18-bionic",
+        "10.2.18"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "81ad56cf6bdf82666da60d828247684fda142c03",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.1.36-bionic",
+        "10.1.36"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "c65dccaa72d6030429ebb764b10a13c955c92314",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.0.36-xenial",
+        "10.0.36"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "c65dccaa72d6030429ebb764b10a13c955c92314",
+      "Directory": "10.0"
+    },
+    {
+      "Tags": [
+        "5.5.61-trusty",
+        "5.5.61"
+      ],
+      "Architectures": [
+        "amd64",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "c65dccaa72d6030429ebb764b10a13c955c92314",
+      "Directory": "5.5"
+    },
+    {
+      "Tags": [
+        "10.3.9-bionic",
+        "10.3.9"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "c65dccaa72d6030429ebb764b10a13c955c92314",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.17-bionic",
+        "10.2.17"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "f5c3481f84205d7601cde45777f0c939c01eb7d6",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.1.35-bionic",
+        "10.1.35"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "8a25691df08c6b6dede86a50411074f4f30e495d",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.3.8-bionic",
+        "10.3.8"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "195c8432d2f434a50416dbb5ab2dec4b1978d89f",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.16-bionic",
+        "10.2.16"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "350bb5974b3cb5ee71805d2b29812a76d7c6d393",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.1.34-bionic",
+        "10.1.34"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "195c8432d2f434a50416dbb5ab2dec4b1978d89f",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.0.35-xenial",
+        "10.0.35"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "f8437ada7c617d2a6bb1c30bb30d0367b93e0ed2",
+      "Directory": "10.0"
+    },
+    {
+      "Tags": [
+        "5.5.60-trusty",
+        "5.5.60"
+      ],
+      "Architectures": [
+        "amd64",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "f8437ada7c617d2a6bb1c30bb30d0367b93e0ed2",
+      "Directory": "5.5"
+    },
+    {
+      "Tags": [
+        "10.3.8-jessie",
+        "10.3-jessie",
+        "10-jessie",
+        "jessie"
+      ],
+      "Architectures": null,
+      "GitCommit": "a7d1a184913c009c473baeb8f72385d12ae0de61",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.16-jessie",
+        "10.2-jessie"
+      ],
+      "Architectures": null,
+      "GitCommit": "1e7c5c9bb2bfde0453fb52175343a360ed346104",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.1.34-jessie",
+        "10.1-jessie"
+      ],
+      "Architectures": null,
+      "GitCommit": "12a0273332a3a0ed007ece2ae5886f7ac9c15d1b",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.0.35-jessie",
+        "10.0-jessie"
+      ],
+      "Architectures": null,
+      "GitCommit": "20b1413b646df9a45df2d4dcc5c5c89ecb42c0b1",
+      "Directory": "10.0"
+    },
+    {
+      "Tags": [
+        "5.5.60-wheezy",
+        "5.5-wheezy",
+        "5-wheezy"
+      ],
+      "Architectures": null,
+      "GitCommit": "20b1413b646df9a45df2d4dcc5c5c89ecb42c0b1",
+      "Directory": "5.5"
+    },
+    {
+      "Tags": [
+        "10.3.7"
+      ],
+      "Architectures": null,
+      "GitCommit": "9c407e44d78e10dbef48f5cfd450f84ab8a1702d",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.15"
+      ],
+      "Architectures": null,
+      "GitCommit": "20b1413b646df9a45df2d4dcc5c5c89ecb42c0b1",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.1.33"
+      ],
+      "Architectures": null,
+      "GitCommit": "20b1413b646df9a45df2d4dcc5c5c89ecb42c0b1",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.3.6"
+      ],
+      "Architectures": null,
+      "GitCommit": "20b1413b646df9a45df2d4dcc5c5c89ecb42c0b1",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.14"
+      ],
+      "Architectures": null,
+      "GitCommit": "27b1b68e3bd68f114609090ccb54318fe48d7e7e",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.1.32"
+      ],
+      "Architectures": null,
+      "GitCommit": "27b1b68e3bd68f114609090ccb54318fe48d7e7e",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.0.34"
+      ],
+      "Architectures": null,
+      "GitCommit": "ef09e6e573d40aa512dee1309437fc6a9553b7c2",
+      "Directory": "10.0"
+    },
+    {
+      "Tags": [
+        "5.5.59"
+      ],
+      "Architectures": null,
+      "GitCommit": "13319ccb3c41c7c84404e628e9b051d340e9d055",
+      "Directory": "5.5"
+    },
+    {
+      "Tags": [
+        "10.3.5"
+      ],
+      "Architectures": null,
+      "GitCommit": "0ab4688d0e6d3a81d7cd19e04db44fb499c49d6a",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.13"
+      ],
+      "Architectures": null,
+      "GitCommit": "a99e44ae93547f37c653299aff36a393d14bc9eb",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.1.31"
+      ],
+      "Architectures": null,
+      "GitCommit": "8ec32d0733772952c5bcd39691b2b830f3031fea",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.3.4"
+      ],
+      "Architectures": null,
+      "GitCommit": "25d4485e6192c1cfa2f9b12882c291258b73ed64",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.12"
+      ],
+      "Architectures": null,
+      "GitCommit": "a1f61de0bb84ed1b4a482361c6aa8b8f4398f5cc",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.1.30"
+      ],
+      "Architectures": null,
+      "GitCommit": "04e2b9adcccd3cc634d8ef92f10b2f92e2c76076",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.0.33"
+      ],
+      "Architectures": null,
+      "GitCommit": "1037a0b7ab09343e011826078fbdffb0bf465fc3",
+      "Directory": "10.0"
+    },
+    {
+      "Tags": [
+        "5.5.58"
+      ],
+      "Architectures": null,
+      "GitCommit": "1037a0b7ab09343e011826078fbdffb0bf465fc3",
+      "Directory": "5.5"
+    },
+    {
+      "Tags": [
+        "10.3.3"
+      ],
+      "Architectures": null,
+      "GitCommit": "506cd7c6b9d6c53d7b514a2c94db5d3daee832fd",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.11"
+      ],
+      "Architectures": null,
+      "GitCommit": "502ed2d6772c87fb0be3db73e6de019ea605a279",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.3.2"
+      ],
+      "Architectures": null,
+      "GitCommit": "1037a0b7ab09343e011826078fbdffb0bf465fc3",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.1.29"
+      ],
+      "Architectures": null,
+      "GitCommit": "4e117ad92a4a7c53a582b2db4a743d218ce76f36",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.2.10"
+      ],
+      "Architectures": null,
+      "GitCommit": "1037a0b7ab09343e011826078fbdffb0bf465fc3",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.1.28"
+      ],
+      "Architectures": null,
+      "GitCommit": "754b3987acb85150eae0e0bc92e6dd2edce0cb3d",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.2.9"
+      ],
+      "Architectures": null,
+      "GitCommit": "754b3987acb85150eae0e0bc92e6dd2edce0cb3d",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.0.32"
+      ],
+      "Architectures": null,
+      "GitCommit": "754b3987acb85150eae0e0bc92e6dd2edce0cb3d",
+      "Directory": "10.0"
+    },
+    {
+      "Tags": [
+        "5.5.57"
+      ],
+      "Architectures": null,
+      "GitCommit": "198f04b24ca6f668357106355b03d38d1f3234bc",
+      "Directory": "5.5"
+    },
+    {
+      "Tags": [
+        "10.3.1"
+      ],
+      "Architectures": null,
+      "GitCommit": "8bbe483d5fc132b87063db9d22132b571a778fd4",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.1.26"
+      ],
+      "Architectures": null,
+      "GitCommit": "cb4c56b1c0d827f3acd82f9b74852d424682b7f2",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.2.8"
+      ],
+      "Architectures": null,
+      "GitCommit": "e841926a0c09fb1d1d7dd79131f9d8e3a09619ec",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.3.0"
+      ],
+      "Architectures": null,
+      "GitCommit": "198f04b24ca6f668357106355b03d38d1f3234bc",
+      "Directory": "10.3"
+    },
+    {
+      "Tags": [
+        "10.2.7"
+      ],
+      "Architectures": null,
+      "GitCommit": "198f04b24ca6f668357106355b03d38d1f3234bc",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.1.25"
+      ],
+      "Architectures": null,
+      "GitCommit": "198f04b24ca6f668357106355b03d38d1f3234bc",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.0.31"
+      ],
+      "Architectures": null,
+      "GitCommit": "198f04b24ca6f668357106355b03d38d1f3234bc",
+      "Directory": "10.0"
+    },
+    {
+      "Tags": [
+        "5.5.56"
+      ],
+      "Architectures": null,
+      "GitCommit": "3c893248e104c257f4eb1f38076f4fbe043ba7ab",
+      "Directory": "5.5"
+    },
+    {
+      "Tags": [
+        "10.2.6"
+      ],
+      "Architectures": null,
+      "GitCommit": "60e0d2d15e74f6fed5b6cc0c2cab4b3f9def6e6e",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.1.24"
+      ],
+      "Architectures": null,
+      "GitCommit": "9ac6a8d627c15e7cecb59e82e3c712d8c71d209e",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.1.23"
+      ],
+      "Architectures": null,
+      "GitCommit": "352f47fdb034a359e27ef6223f252a9e75e2f596",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.2.5"
+      ],
+      "Architectures": null,
+      "GitCommit": "f76084f0f9dc13f29cce48c727440eb79b4e92fa",
+      "Directory": "10.2"
+    },
+    {
+      "Tags": [
+        "10.0.30"
+      ],
+      "Architectures": null,
+      "GitCommit": "21eed39fdd34c84ecd83cc077ad3253cfa875c5c",
+      "Directory": "10.0"
+    },
+    {
+      "Tags": [
+        "10.1.22"
+      ],
+      "Architectures": null,
+      "GitCommit": "21eed39fdd34c84ecd83cc077ad3253cfa875c5c",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "5.5.55"
+      ],
+      "Architectures": null,
+      "GitCommit": "2741b77629c3526aa20b709a53892ca9287e0859",
+      "Directory": "5.5"
+    },
+    {
+      "Tags": [
+        "5.5.54"
+      ],
+      "Architectures": null,
+      "GitCommit": "21eed39fdd34c84ecd83cc077ad3253cfa875c5c",
+      "Directory": "5.5"
+    },
+    {
+      "Tags": [
+        "10.1.21"
+      ],
+      "Architectures": null,
+      "GitCommit": "b558f64b736650b94df9a90e68ff9e3bc03d4bdb",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.0.29"
+      ],
+      "Architectures": null,
+      "GitCommit": "b8a9bd6870bb327db7b238dc6efe909e5e7b399f",
+      "Directory": "10.0"
+    },
+    {
+      "Tags": [
+        "10.1.20"
+      ],
+      "Architectures": null,
+      "GitCommit": "b26cb74f2c213b4b852067937198d924517e387f",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.0.28"
+      ],
+      "Architectures": null,
+      "GitCommit": "b26cb74f2c213b4b852067937198d924517e387f",
+      "Directory": "10.0"
+    },
+    {
+      "Tags": [
+        "5.5.53"
+      ],
+      "Architectures": null,
+      "GitCommit": "2b065acb53b18eb44e1d78a1a41f0a46f829c291",
+      "Directory": "5.5"
+    },
+    {
+      "Tags": [
+        "10.1.19"
+      ],
+      "Architectures": null,
+      "GitCommit": "2b065acb53b18eb44e1d78a1a41f0a46f829c291",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.1.18"
+      ],
+      "Architectures": null,
+      "GitCommit": "92e16504a8e9840eb70937aa2da76f38ea002718",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.0.27"
+      ],
+      "Architectures": null,
+      "GitCommit": "df62c40869408e757055ccac1141ba363ef82796",
+      "Directory": "10.0"
+    },
+    {
+      "Tags": [
+        "5.5.52"
+      ],
+      "Architectures": null,
+      "GitCommit": "9d505bb93429729bcc94439cfd47fddc830ff671",
+      "Directory": "5.5"
+    },
+    {
+      "Tags": [
+        "10.1.17"
+      ],
+      "Architectures": null,
+      "GitCommit": "7556dd6530170f6e41126423fd292dae159c272a",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "5.5.51"
+      ],
+      "Architectures": null,
+      "GitCommit": "0bcd1e2db0ef04f4abac85e2a759b04231ba60a0",
+      "Directory": "5.5"
+    },
+    {
+      "Tags": [
+        "10.1.16"
+      ],
+      "Architectures": null,
+      "GitCommit": "d969a465ee48fe10f4b532276f7337ddaaf3fc36",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.0.26"
+      ],
+      "Architectures": null,
+      "GitCommit": "d969a465ee48fe10f4b532276f7337ddaaf3fc36",
+      "Directory": "10.0"
+    },
+    {
+      "Tags": [
+        "5.5.50"
+      ],
+      "Architectures": null,
+      "GitCommit": "d969a465ee48fe10f4b532276f7337ddaaf3fc36",
+      "Directory": "5.5"
+    },
+    {
+      "Tags": [
+        "10.1.14"
+      ],
+      "Architectures": null,
+      "GitCommit": "21b143d133b2250eb473eb5492cfa38e5d094e62",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.1.15"
+      ],
+      "Architectures": null,
+      "GitCommit": "14fa9fab60856471be80afdbb4044f31d78e9a08",
+      "Directory": "10.1"
+    },
+    {
+      "Tags": [
+        "10.0.25"
+      ],
+      "Architectures": null,
+      "GitCommit": "053f101cfae5f000466464717afc5f2dc8c56284",
+      "Directory": "10.0"
+    },
+    {
+      "Tags": [
+        "5.5.49"
+      ],
+      "Architectures": null,
+      "GitCommit": "053f101cfae5f000466464717afc5f2dc8c56284",
+      "Directory": "5.5"
     }
   ]
 }
