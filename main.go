@@ -18,9 +18,9 @@ import (
 func main() {
 	// Clones the given repository, creating the remote, the local branches
 	// and fetching the objects, everything in memory:
-	Info("git clone https://github.com/src-d/go-siva")
+	Info("git clone https://github.com/docker-library/postgres")
 	r, err := git.Clone(memory.NewStorage(), nil, &git.CloneOptions{
-		URL: "https://github.com/src-d/go-siva",
+		URL: "https://github.com/docker-library/postgres",
 	})
 	CheckIfError(err)
 
