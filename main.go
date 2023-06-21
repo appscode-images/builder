@@ -14,6 +14,7 @@ import (
 	"github.com/go-git/go-git/v5/plumbing/object"
 	"github.com/go-git/go-git/v5/storage/memory"
 	"github.com/pkg/errors"
+	"gomodules.xyz/semvers"
 	"gomodules.xyz/sets"
 	"k8s.io/klog/v2"
 	"sigs.k8s.io/yaml"
@@ -213,7 +214,9 @@ func PrintUnifiedHistory(outDir string, apps map[string]AppHistory) error {
 					tags = append(tags, v)
 				}
 			}
-
+			semvers.SortVersions(tags, func(vi, vj string) bool {
+				return !semvers.Compare(vi, vj)
+			})
 			filename = filepath.Join(dir, "semver.txt")
 			data = []byte(strings.Join(tags, "\n"))
 			err = os.WriteFile(filename, data, 0644)

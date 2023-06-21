@@ -6,6 +6,7 @@ require (
 	github.com/Masterminds/semver/v3 v3.2.1
 	github.com/go-git/go-git/v5 v5.7.0
 	github.com/pkg/errors v0.9.1
+	gomodules.xyz/semvers v0.0.0-20230303232620-06e5d6048125
 	gomodules.xyz/sets v0.2.1
 	k8s.io/klog/v2 v2.100.1
 	sigs.k8s.io/yaml v1.3.0
