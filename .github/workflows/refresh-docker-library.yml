@@ -22,8 +22,8 @@ jobs:
     - name: Prepare git
       run: |
         set -x
-        git config --global user.name '1gtm'
-        git config --global user.email '1gtm@appscode.com'
+        git config --global user.name 'Tamal Saha'
+        git config --global user.email 'tamalsaha@appscode.com'
         git config --global \
           url."https://x-access-token:${GITHUB_TOKEN}@github.com".insteadOf \
           "https://github.com"
