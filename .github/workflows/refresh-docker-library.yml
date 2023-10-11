@@ -39,5 +39,6 @@ jobs:
 
     - name: Update repo
       run: |
+        git add --all
         git commit -s -a -m "update libary $(date --rfc-3339=date)"
         git push origin HEAD
