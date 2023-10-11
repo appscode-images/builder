@@ -24,11 +24,11 @@ jobs:
         set -x
         git config --global user.name '1gtm'
         git config --global user.email '1gtm@appscode.com'
-        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-        # git config --global \
-        #   url."https://x-access-token:${GITHUB_TOKEN}@github.com".insteadOf \
-        #   "https://github.com"
-        # # git remote set-url origin https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+        git config --global \
+          url."https://x-access-token:${GITHUB_TOKEN}@github.com".insteadOf \
+          "https://github.com"
+        # git remote set-url origin https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+        # git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
 
     - name: Refresh
       run: |
