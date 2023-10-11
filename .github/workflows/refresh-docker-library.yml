@@ -32,7 +32,7 @@ jobs:
 
     - name: Refresh
       run: |
-        go run cmd/refresh-docker-library/*.go
+        # go run cmd/refresh-docker-library/*.go
         date --rfc-3339=date > ./library/report.txt
 
     - name: Update repo
