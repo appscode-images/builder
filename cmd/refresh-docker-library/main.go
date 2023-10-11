@@ -3,6 +3,7 @@ package main
 import (
 	"bytes"
 	"encoding/json"
+	"github.com/appscode-images/builder/api"
 	"os"
 	"path/filepath"
 	"strings"
@@ -22,7 +23,7 @@ import (
 
 // Read from Git directly
 func main() {
-	apps := map[string]AppHistory{}
+	apps := map[string]api.AppHistory{}
 	outDir := "./library"
 
 	err := ProcessGitRepo(apps, true)
@@ -34,7 +35,7 @@ func main() {
 	}
 }
 
-func ProcessGitRepo(apps map[string]AppHistory, fullHistory bool) error {
+func ProcessGitRepo(apps map[string]api.AppHistory, fullHistory bool) error {
 	repoURL := "https://github.com/docker-library/official-images"
 
 	// Clones the given repository, creating the remote, the local branches
@@ -72,7 +73,7 @@ func ProcessGitRepo(apps map[string]AppHistory, fullHistory bool) error {
 	return cIter.ForEach(ProcessCommit(apps))
 }
 
-func ProcessCommit(apps map[string]AppHistory) func(c *object.Commit) error {
+func ProcessCommit(apps map[string]api.AppHistory) func(c *object.Commit) error {
 	return func(c *object.Commit) error {
 		files, err := c.Files()
 		if err != nil {
@@ -96,7 +97,7 @@ func ProcessCommit(apps map[string]AppHistory) func(c *object.Commit) error {
 
 			h, found := apps[app.Name]
 			if !found {
-				h = AppHistory{
+				h = api.AppHistory{
 					Name:      app.Name,
 					GitRepo:   app.GitRepo,
 					KnownTags: sets.NewString(),
@@ -112,7 +113,7 @@ func ProcessCommit(apps map[string]AppHistory) func(c *object.Commit) error {
 }
 
 func main_local() {
-	apps := map[string]AppHistory{}
+	apps := map[string]api.AppHistory{}
 	dir := "./official-images/library"
 	outDir := "./library"
 
@@ -150,7 +151,7 @@ func main_local() {
 	//}
 }
 
-func PrintUnifiedHistory(outDir string, apps map[string]AppHistory) error {
+func PrintUnifiedHistory(outDir string, apps map[string]api.AppHistory) error {
 	err := os.MkdirAll(outDir, 0755)
 	if err != nil {
 		return err
@@ -252,7 +253,7 @@ func SupportedPreRelease(v *semver.Version) bool {
 	return found
 }
 
-func ProcessRepo(apps map[string]AppHistory, dir string) error {
+func ProcessRepo(apps map[string]api.AppHistory, dir string) error {
 	entries, err := os.ReadDir(dir)
 	if err != nil {
 		return err
@@ -271,7 +272,7 @@ func ProcessRepo(apps map[string]AppHistory, dir string) error {
 
 		h, found := apps[app.Name]
 		if !found {
-			h = AppHistory{
+			h = api.AppHistory{
 				Name:      app.Name,
 				GitRepo:   app.GitRepo,
 				KnownTags: sets.NewString(),
@@ -285,7 +286,7 @@ func ProcessRepo(apps map[string]AppHistory, dir string) error {
 	return nil
 }
 
-func GatherHistory(h *AppHistory, app *App) {
+func GatherHistory(h *api.AppHistory, app *api.App) {
 	for _, b := range app.Blocks {
 		if nb := processBlock(h, &b); nb != nil {
 			h.Blocks = append(h.Blocks, *nb)
@@ -293,8 +294,8 @@ func GatherHistory(h *AppHistory, app *App) {
 	}
 }
 
-func processBlock(h *AppHistory, b *Block) *Block {
-	var result *Block
+func processBlock(h *api.AppHistory, b *api.Block) *api.Block {
+	var result *api.Block
 
 	newTags := make([]string, 0, len(b.Tags))
 	for _, tag := range b.Tags {
@@ -303,7 +304,7 @@ func processBlock(h *AppHistory, b *Block) *Block {
 		}
 	}
 	if len(newTags) > 0 {
-		result = &Block{
+		result = &api.Block{
 			Tags:          newTags,
 			Architectures: b.Architectures,
 			GitCommit:     b.GitCommit,
@@ -314,52 +315,7 @@ func processBlock(h *AppHistory, b *Block) *Block {
 	return result
 }
 
-type AppHistory struct {
-	Name      string
-	GitRepo   string
-	KnownTags sets.String
-	Blocks    []Block
-}
-
-type App struct {
-	Name    string
-	GitRepo string
-	Blocks  []Block
-}
-
-type Block struct {
-	Tags          []string
-	Architectures []string
-	GitCommit     string
-	Directory     string
-}
-
-func (b Block) String() string {
-	var buf bytes.Buffer
-	if len(b.Tags) > 0 {
-		buf.WriteString("Tags: ")
-		buf.WriteString(strings.Join(b.Tags, ","))
-		buf.WriteRune('\n')
-	}
-	if len(b.Architectures) > 0 {
-		buf.WriteString("Architectures: ")
-		buf.WriteString(strings.Join(b.Architectures, ","))
-		buf.WriteRune('\n')
-	}
-	if len(b.GitCommit) > 0 {
-		buf.WriteString("GitCommit: ")
-		buf.WriteString(b.GitCommit)
-		buf.WriteRune('\n')
-	}
-	if len(b.Directory) > 0 {
-		buf.WriteString("Directory: ")
-		buf.WriteString(b.Directory)
-		buf.WriteRune('\n')
-	}
-	return buf.String()
-}
-
-func ParseLibraryFile(filename string) (*App, error) {
+func ParseLibraryFile(filename string) (*api.App, error) {
 	data, err := os.ReadFile(filename)
 	if err != nil {
 		return nil, err
@@ -367,10 +323,10 @@ func ParseLibraryFile(filename string) (*App, error) {
 	return ParseLibraryFileContent(filepath.Base(filename), strings.Split(string(data), "\n"))
 }
 
-func ParseLibraryFileContent(appName string, lines []string) (*App, error) {
-	var app App
+func ParseLibraryFileContent(appName string, lines []string) (*api.App, error) {
+	var app api.App
 
-	var curBlock *Block
+	var curBlock *api.Block
 	var curProp string
 	// optionally, resize scanner's capacity for lines over 64K, see next example
 	for _, line := range lines {
@@ -405,22 +361,22 @@ func ParseLibraryFileContent(appName string, lines []string) (*App, error) {
 			app.GitRepo = parts[0]
 		case "Tags":
 			if curBlock == nil {
-				curBlock = new(Block)
+				curBlock = new(api.Block)
 			}
 			curBlock.Tags = append(curBlock.Tags, parts...)
 		case "Architectures":
 			if curBlock == nil {
-				curBlock = new(Block)
+				curBlock = new(api.Block)
 			}
 			curBlock.Architectures = append(curBlock.Architectures, parts...)
 		case "GitCommit":
 			if curBlock == nil {
-				curBlock = new(Block)
+				curBlock = new(api.Block)
 			}
 			curBlock.GitCommit = parts[0]
 		case "Directory":
 			if curBlock == nil {
-				curBlock = new(Block)
+				curBlock = new(api.Block)
 			}
 			curBlock.Directory = parts[0]
 		default:
