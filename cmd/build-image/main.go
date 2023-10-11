@@ -28,14 +28,25 @@ func main() {
 
 	flag.Parse()
 
-	dir, err := os.Getwd()
+	yes, err := ShouldBuild(*name, *tag)
 	if err != nil {
 		panic(err)
 	}
-	err = Build(dir, *name, *tag, time.Now())
-	if err != nil {
-		panic(err)
+	if yes {
+		dir, err := os.Getwd()
+		if err != nil {
+			panic(err)
+		}
+
+		err = Build(dir, *name, *tag, time.Now())
+		if err != nil {
+			panic(err)
+		}
 	}
+}
+
+func ShouldBuild(name, tag string) (bool, error) {
+	return false, nil
 }
 
 func Build(dir, name, tag string, t time.Time) error {
