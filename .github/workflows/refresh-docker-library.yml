@@ -32,7 +32,7 @@ jobs:
 
     - name: Refresh
       run: |
-        # go run cmd/refresh-docker-library/*.go
+        go run cmd/refresh-docker-library/*.go
         # https://stackoverflow.com/a/23930212
         cat > ./library/README.md <<- EOM
         # Docker Library
