@@ -34,6 +34,10 @@ jobs:
       run: |
         # go run cmd/refresh-docker-library/*.go
         date --rfc-3339=date > ./library/report.txt
+        # https://stackoverflow.com/a/23930212
+        cat > ./library/README.md <<- EOM
+        $(date --rfc-3339=date)
+        EOM
 
     - name: Update repo
       run: |
