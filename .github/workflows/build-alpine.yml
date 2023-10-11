@@ -1,0 +1,154 @@
+name: build-alpine
+
+on:
+  pull_request:
+    branches:
+      - "*"
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Set up Go 1.20
+        uses: actions/setup-go@v1
+        with:
+          go-version: '1.20'
+        id: go
+
+      - name: Check out code into the Go module directory
+        uses: actions/checkout@v1
+
+      - name: Prepare Host
+        run: |
+          # install yq
+          curl -fsSL -o yqq https://github.com/mikefarah/yq/releases/download/3.3.0/yq_linux_amd64
+          chmod +x yqq
+          sudo mv yqq /usr/local/bin/yqq
+          pip3 install yq
+          # install kubectl
+          curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.21.1/bin/linux/amd64/kubectl
+          chmod +x ./kubectl
+          sudo mv ./kubectl /usr/local/bin/kubectl
+
+      - name: Run checks
+        run: |
+          make ci
+
+  kubernetes:
+    name: Kubernetes
+    runs-on: ubuntu-20.04
+    needs: build
+    strategy:
+      matrix:
+        k8s: [v1.19.16, v1.20.15, v1.21.14, v1.22.17, v1.23.17, v1.24.12, v1.25.8, v1.26.3, v1.27.1]
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Install yq
+        run: |
+          curl -fsSL -o yqq https://github.com/mikefarah/yq/releases/download/3.3.0/yq_linux_amd64
+          chmod +x yqq
+          sudo mv yqq /usr/local/bin/yqq
+
+      - name: Create Kubernetes ${{ matrix.k8s }} cluster
+        id: kind
+        uses: engineerd/setup-kind@v0.5.0
+        with:
+          version: v0.17.0
+          image: kindest/node:${{ matrix.k8s }}
+
+      - name: Prepare cluster for testing
+        id: local-path
+        env:
+          USERNAME: 1gtm
+          REGISTRY_SECRET: regcred
+        run: |
+          echo "waiting for nodes to be ready ..."
+          kubectl wait --for=condition=Ready nodes --all --timeout=5m
+          kubectl get nodes
+          echo
+          echo "install helm 3"
+          pushd /usr/local/bin && sudo curl -fsSLO https://github.com/x-helm/helm/releases/latest/download/helm && sudo chmod +x helm && popd
+
+      - name: Issue License
+        env:
+          BYTEBUILDERS_LICENSE_TOKEN: ${{ secrets.BYTEBUILDERS_LICENSE_TOKEN }}
+        run: |
+          export KUBECONFIG="${HOME}/.kube/config"
+          CLUSTER_UID=$(kubectl get ns kube-system -o=jsonpath='{.metadata.uid}')
+          LICENSE_KEY=$(curl -X POST -d "name=1gtm&email=1gtm@appscode.com&product=kubedb-enterprise&cluster=${CLUSTER_UID}&tos=true&token=${BYTEBUILDERS_LICENSE_TOKEN}" https://license-issuer.appscode.com/issue-license)
+          echo "${LICENSE_KEY}" > /tmp/license.txt
+          # ref: https://github.com/mikefarah/yq/issues/230#issuecomment-487458629
+          yqq w -i ./charts/kubedb-provisioner/ci/ci-values.yaml license --tag '!!str' -- "${LICENSE_KEY}"
+          yqq w -i ./charts/kubedb-ops-manager/ci/ci-values.yaml license --tag '!!str' -- "${LICENSE_KEY}"
+          yqq w -i ./charts/kubedb-autoscaler/ci/ci-values.yaml license --tag '!!str' -- "${LICENSE_KEY}"
+          yqq w -i ./charts/kubedb-dashboard/ci/ci-values.yaml license --tag '!!str' -- "${LICENSE_KEY}"
+          yqq w -i ./charts/kubedb-schema-manager/ci/ci-values.yaml license --tag '!!str' -- "${LICENSE_KEY}"
+          yqq w -i ./charts/kubedb-webhook-server/ci/ci-values.yaml license --tag '!!str' -- "${LICENSE_KEY}"
+          yqq w -i ./charts/kubedb/ci/ci-values.yaml global.license --tag '!!str' -- "${LICENSE_KEY}"
+          yqq w -i ./charts/kubedb-one/ci/ci-values.yaml global.license --tag '!!str' -- "${LICENSE_KEY}"
+
+      - name: Test charts
+        run: |
+          export KUBECONFIG="${HOME}/.kube/config"
+          ./hack/scripts/ct.sh
+
+      - name: Check metrics configuration
+        run: |
+          # install metrics-configuration-checker
+          curl -fsSL -o metrics-configuration-checker https://github.com/kmodules/metrics-configuration-checker/releases/download/v0.0.2/metrics-configuration-checker-linux-amd64
+          chmod +x metrics-configuration-checker
+          sudo mv metrics-configuration-checker /usr/local/bin/metrics-configuration-checker
+          # check kubedb-metrics chart
+          kubectl apply -f crds/kubedb-crds.yaml
+          metrics-configuration-checker --content=./charts/kubedb-metrics/templates/
+
+      - name: Test Monitoring
+        run: |
+          export LICENSE_FILE=/tmp/license.txt
+          helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+          helm repo update
+          helm upgrade -i kube-prometheus-stack prometheus-community/kube-prometheus-stack --wait \
+            --namespace monitoring --create-namespace \
+            --set grafana.defaultDashboardsEnabled=false
+          kubectl apply -f crds/kubedb-catalog-crds.yaml
+          helm upgrade -i kubedb charts/kubedb --wait \
+            --namespace kubedb --create-namespace \
+            --set kubedb-provisioner.enabled=true \
+            --set kubedb-ops-manager.enabled=true \
+            --set kubedb-autoscaler.enabled=true \
+            --set kubedb-dashboard.enabled=true \
+            --set kubedb-schema-manager.enabled=true \
+            --set-file global.license=$LICENSE_FILE \
+            --set global.monitoring.agent=prometheus.io/operator \
+            --set global.monitoring.serviceMonitor.labels.release=kube-prometheus-stack
+          helm delete kubedb --namespace kubedb
+          kubectl apply -f crds/kubedb-catalog-crds.yaml
+          helm upgrade -i kubedb charts/kubedb --wait \
+            --namespace kubedb --create-namespace \
+            --set kubedb-provisioner.enabled=true \
+            --set kubedb-ops-manager.enabled=true \
+            --set kubedb-autoscaler.enabled=true \
+            --set kubedb-dashboard.enabled=true \
+            --set kubedb-schema-manager.enabled=true \
+            --set-file global.license=$LICENSE_FILE \
+            --set global.monitoring.agent=prometheus.io/builtin
+          helm delete kubedb --namespace kubedb
+          helm upgrade -i kubedb-opscenter charts/kubedb-opscenter --wait \
+            --namespace kubedb --create-namespace \
+            --set global.monitoring.agent=prometheus.io/operator \
+            --set global.monitoring.serviceMonitor.labels.release=kube-prometheus-stack
+          helm delete kubedb-opscenter --namespace kubedb
+          helm upgrade -i kubedb-opscenter charts/kubedb-opscenter --wait \
+            --namespace kubedb --create-namespace \
+            --set global.monitoring.agent=prometheus.io/builtin
+          helm delete kubedb-opscenter --namespace kubedb

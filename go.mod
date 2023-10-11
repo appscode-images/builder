@@ -6,6 +6,8 @@ require (
 	github.com/Masterminds/semver/v3 v3.2.1
 	github.com/go-git/go-git/v5 v5.9.0
 	github.com/pkg/errors v0.9.1
+	github.com/spf13/pflag v1.0.5
+	gomodules.xyz/go-sh v0.1.0
 	gomodules.xyz/semvers v0.0.1
 	gomodules.xyz/sets v0.2.1
 	k8s.io/klog/v2 v2.100.1
@@ -18,6 +20,7 @@ require (
 	github.com/ProtonMail/go-crypto v0.0.0-20230828082145-3c4c8a2d2371 // indirect
 	github.com/acomagu/bufpipe v1.0.4 // indirect
 	github.com/cloudflare/circl v1.3.3 // indirect
+	github.com/codegangsta/inject v0.0.0-20150114235600-33e0aa1cb7c0 // indirect
 	github.com/cyphar/filepath-securejoin v0.2.4 // indirect
 	github.com/emirpasic/gods v1.18.1 // indirect
 	github.com/go-git/gcfg v1.5.1-0.20230307220236-3a3c6141e376 // indirect
