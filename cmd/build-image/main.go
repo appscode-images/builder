@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bytes"
 	"context"
 	"fmt"
 	"github.com/appscode-images/builder/api"
@@ -13,6 +14,7 @@ import (
 	"os"
 	"path/filepath"
 	"sigs.k8s.io/yaml"
+	"strings"
 	"time"
 )
 
@@ -75,9 +77,22 @@ func Build(dir, name, tag string, t time.Time) error {
 	if err != nil {
 		return err
 	}
-	err = sh.Command("git", "checkout", "-b", tag+"-"+ts, "--track", "upstream/"+b.GitCommit).Run()
-	if err != nil {
-		return err
+
+	branch := tag + "-" + ts
+	if RemoteBranchExists(sh, branch) {
+		err = sh.Command("git", "checkout", branch, "--track", "origin/"+branch).Run()
+		if err != nil {
+			return err
+		}
+	} else {
+		err = sh.Command("git", "checkout", "-b", branch, "--track", "upstream/"+b.GitCommit).Run()
+		if err != nil {
+			return err
+		}
+		err = sh.Command("git", "push", "origin", "HEAD").Run()
+		if err != nil {
+			return err
+		}
 	}
 
 	sh.SetDir(filepath.Join("/tmp", name, b.Directory))
@@ -177,4 +192,22 @@ func ListOrgRepos(ctx context.Context, client *github.Client, owner, repo string
 		}
 		return true, nil
 	}
+}
+
+func RemoteBranchExists(sh *shell.Session, branch string) bool {
+	data, err := sh.Command("git", "ls-remote", "--heads", "origin", branch).Output()
+	if err != nil {
+		panic(err)
+	}
+	return len(bytes.TrimSpace(data)) > 0
+}
+
+func LastCommitSHA(sh *shell.Session) string {
+	// git show -s --format=%H
+	data, err := sh.Command("git", "show", "-s", "--format=%H").Output()
+	if err != nil {
+		panic(err)
+	}
+	commits := strings.Fields(string(data))
+	return commits[0]
 }
