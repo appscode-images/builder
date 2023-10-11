@@ -48,6 +48,8 @@
     "3.12.1-postgres": {},
     "3.12.10": {},
     "3.12.10-postgres": {},
+    "3.12.11": {},
+    "3.12.11-postgres": {},
     "3.12.2": {},
     "3.12.2-postgres": {},
     "3.12.3": {},
@@ -119,6 +121,8 @@
     "4.2.2": {},
     "4.2.3": {},
     "4.2.4": {},
+    "4.2.5": {},
+    "4.2.6": {},
     "develop": {},
     "develop-h2": {},
     "develop-postgres": {},
@@ -131,7 +135,7 @@
   "Blocks": [
     {
       "Tags": [
-        "3.12.10",
+        "3.12.11",
         "3.12",
         "3"
       ],
@@ -141,12 +145,12 @@
         "arm64v8",
         "ppc64le"
       ],
-      "GitCommit": "43d2ceae423b3595499a0b40255a249816490678",
-      "Directory": "3.12.10"
+      "GitCommit": "de27e28bd62ce359bae1940caf83fadc8d5108ac",
+      "Directory": "3.12.11"
     },
     {
       "Tags": [
-        "3.12.10-postgres",
+        "3.12.11-postgres",
         "3.12-postgres",
         "3-postgres"
       ],
@@ -156,8 +160,8 @@
         "arm64v8",
         "ppc64le"
       ],
-      "GitCommit": "43d2ceae423b3595499a0b40255a249816490678",
-      "Directory": "3.12.10/postgres"
+      "GitCommit": "de27e28bd62ce359bae1940caf83fadc8d5108ac",
+      "Directory": "3.12.11/postgres"
     },
     {
       "Tags": [
@@ -173,10 +177,58 @@
     },
     {
       "Tags": [
-        "4.2.4",
+        "4.2.6",
         "4.2",
         "4",
         "latest"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8"
+      ],
+      "GitCommit": "3dd8a6f569eb7755235e770f06c0f6e9659a4277",
+      "Directory": "4.2.6"
+    },
+    {
+      "Tags": [
+        "3.12.10"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "43d2ceae423b3595499a0b40255a249816490678",
+      "Directory": "3.12.10"
+    },
+    {
+      "Tags": [
+        "3.12.10-postgres"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le"
+      ],
+      "GitCommit": "43d2ceae423b3595499a0b40255a249816490678",
+      "Directory": "3.12.10/postgres"
+    },
+    {
+      "Tags": [
+        "4.2.5"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64v8"
+      ],
+      "GitCommit": "987e87e7fadefb5e2aaeb50a94617dc3a68682f5",
+      "Directory": "4.2.5"
+    },
+    {
+      "Tags": [
+        "4.2.4"
       ],
       "Architectures": [
         "amd64",

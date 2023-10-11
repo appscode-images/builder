@@ -1,6 +1,36 @@
 Blocks:
 - Architectures:
   - amd64
+  - arm64v8
+  Directory: kapacitor/1.6
+  GitCommit: ""
+  Tags:
+  - "1.6"
+  - 1.6.6
+- Architectures: null
+  Directory: kapacitor/1.6/alpine
+  GitCommit: ""
+  Tags:
+  - 1.6-alpine
+  - 1.6.6-alpine
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: kapacitor/1.7
+  GitCommit: ""
+  Tags:
+  - "1.7"
+  - 1.7.0
+  - latest
+- Architectures: null
+  Directory: kapacitor/1.7/alpine
+  GitCommit: ""
+  Tags:
+  - 1.7-alpine
+  - 1.7.0-alpine
+  - alpine
+- Architectures:
+  - amd64
   - arm32v7
   - arm64v8
   Directory: kapacitor/1.5
@@ -14,22 +44,6 @@ Blocks:
   Tags:
   - 1.5-alpine
   - 1.5.9-alpine
-- Architectures:
-  - amd64
-  - arm64v8
-  Directory: kapacitor/1.6
-  GitCommit: ""
-  Tags:
-  - "1.6"
-  - 1.6.6
-  - latest
-- Architectures: null
-  Directory: kapacitor/1.6/alpine
-  GitCommit: ""
-  Tags:
-  - 1.6-alpine
-  - 1.6.6-alpine
-  - alpine
 - Architectures:
   - amd64
   - arm64v8
@@ -541,6 +555,10 @@ KnownTags:
   1.6.5-alpine: {}
   1.6.6: {}
   1.6.6-alpine: {}
+  "1.7": {}
+  1.7-alpine: {}
+  1.7.0: {}
+  1.7.0-alpine: {}
   alpine: {}
   latest: {}
 Name: kapacitor

@@ -9,14 +9,14 @@ Blocks:
   - ppc64le
   - s390x
   Directory: apache
-  GitCommit: 0c354896c16e576f17b8f53c9c4b562b445b7d82
+  GitCommit: a504fe92ae03210bd93d35574043c690ea2b6aa5
   Tags:
-  - 4.14.2-apache
-  - 4.14-apache
+  - 4.15.1-apache
+  - 4.15-apache
   - 4-apache
   - apache
-  - 4.14.2
-  - "4.14"
+  - 4.15.1
+  - "4.15"
   - "4"
   - latest
 - Architectures:
@@ -29,10 +29,10 @@ Blocks:
   - ppc64le
   - s390x
   Directory: fpm
-  GitCommit: 0c354896c16e576f17b8f53c9c4b562b445b7d82
+  GitCommit: a504fe92ae03210bd93d35574043c690ea2b6aa5
   Tags:
-  - 4.14.2-fpm
-  - 4.14-fpm
+  - 4.15.1-fpm
+  - 4.15-fpm
   - 4-fpm
   - fpm
 - Architectures:
@@ -44,12 +44,94 @@ Blocks:
   - ppc64le
   - s390x
   Directory: fpm-alpine
-  GitCommit: 0c354896c16e576f17b8f53c9c4b562b445b7d82
+  GitCommit: a504fe92ae03210bd93d35574043c690ea2b6aa5
+  Tags:
+  - 4.15.1-fpm-alpine
+  - 4.15-fpm-alpine
+  - 4-fpm-alpine
+  - fpm-alpine
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: apache
+  GitCommit: 547d807f2f3df6948d181092a5858822ff28fc8a
+  Tags:
+  - 4.15.0-apache
+  - 4.15.0
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: fpm
+  GitCommit: 547d807f2f3df6948d181092a5858822ff28fc8a
+  Tags:
+  - 4.15.0-fpm
+- Architectures:
+  - amd64
+  - arm32v6
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: fpm-alpine
+  GitCommit: 547d807f2f3df6948d181092a5858822ff28fc8a
+  Tags:
+  - 4.15.0-fpm-alpine
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: apache
+  GitCommit: 2b172629cd0d9c14a24b08b6e5e99f1b7f36ea1d
+  Tags:
+  - 4.14.2-apache
+  - 4.14-apache
+  - 4.14.2
+  - "4.14"
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: fpm
+  GitCommit: 2b172629cd0d9c14a24b08b6e5e99f1b7f36ea1d
+  Tags:
+  - 4.14.2-fpm
+  - 4.14-fpm
+- Architectures:
+  - amd64
+  - arm32v6
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: fpm-alpine
+  GitCommit: 9e6b9e7d3fc758a65750dbb625b669d142f237aa
   Tags:
   - 4.14.2-fpm-alpine
   - 4.14-fpm-alpine
-  - 4-fpm-alpine
-  - fpm-alpine
 - Architectures:
   - amd64
   - arm32v5
@@ -2456,6 +2538,18 @@ KnownTags:
   4.14.2-apache: {}
   4.14.2-fpm: {}
   4.14.2-fpm-alpine: {}
+  "4.15": {}
+  4.15-apache: {}
+  4.15-fpm: {}
+  4.15-fpm-alpine: {}
+  4.15.0: {}
+  4.15.0-apache: {}
+  4.15.0-fpm: {}
+  4.15.0-fpm-alpine: {}
+  4.15.1: {}
+  4.15.1-apache: {}
+  4.15.1-fpm: {}
+  4.15.1-fpm-alpine: {}
   apache: {}
   fpm: {}
   fpm-alpine: {}

@@ -4,10 +4,10 @@ Blocks:
   - arm32v7
   - arm64v8
   - ppc64le
-  Directory: 3.12.10
-  GitCommit: 43d2ceae423b3595499a0b40255a249816490678
+  Directory: 3.12.11
+  GitCommit: de27e28bd62ce359bae1940caf83fadc8d5108ac
   Tags:
-  - 3.12.10
+  - 3.12.11
   - "3.12"
   - "3"
 - Architectures:
@@ -15,10 +15,10 @@ Blocks:
   - arm32v7
   - arm64v8
   - ppc64le
-  Directory: 3.12.10/postgres
-  GitCommit: 43d2ceae423b3595499a0b40255a249816490678
+  Directory: 3.12.11/postgres
+  GitCommit: de27e28bd62ce359bae1940caf83fadc8d5108ac
   Tags:
-  - 3.12.10-postgres
+  - 3.12.11-postgres
   - 3.12-postgres
   - 3-postgres
 - Architectures:
@@ -32,13 +32,45 @@ Blocks:
 - Architectures:
   - amd64
   - arm64v8
+  Directory: 4.2.6
+  GitCommit: 3dd8a6f569eb7755235e770f06c0f6e9659a4277
+  Tags:
+  - 4.2.6
+  - "4.2"
+  - "4"
+  - latest
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  Directory: 3.12.10
+  GitCommit: 43d2ceae423b3595499a0b40255a249816490678
+  Tags:
+  - 3.12.10
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  Directory: 3.12.10/postgres
+  GitCommit: 43d2ceae423b3595499a0b40255a249816490678
+  Tags:
+  - 3.12.10-postgres
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: 4.2.5
+  GitCommit: 987e87e7fadefb5e2aaeb50a94617dc3a68682f5
+  Tags:
+  - 4.2.5
+- Architectures:
+  - amd64
+  - arm64v8
   Directory: 4.2.4
   GitCommit: 3ef0cd8059c71b49b775b017c85ada9d82b113e9
   Tags:
   - 4.2.4
-  - "4.2"
-  - "4"
-  - latest
 - Architectures:
   - amd64
   - arm32v7
@@ -732,6 +764,8 @@ KnownTags:
   3.12.9-postgres: {}
   3.12.10: {}
   3.12.10-postgres: {}
+  3.12.11: {}
+  3.12.11-postgres: {}
   "4": {}
   4-alpha: {}
   "4.0": {}
@@ -751,6 +785,8 @@ KnownTags:
   4.2.2: {}
   4.2.3: {}
   4.2.4: {}
+  4.2.5: {}
+  4.2.6: {}
   develop: {}
   develop-h2: {}
   develop-postgres: {}

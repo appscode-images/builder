@@ -1,32 +1,31 @@
 Blocks:
 - Architectures: null
   Directory: percona-server-8.0
-  GitCommit: 3f666ccdf6a9eed0e0505723fbe8b4954a105c99
+  GitCommit: 565f49b8be3a1efa056fde70e10d638ad159516a
   Tags:
-  - 8.0.33-25-centos
+  - 8.0.34-26-centos
   - 8.0-centos
   - 8-centos
-  - 8.0.33-25
+  - 8.0.34-26
   - "8.0"
   - "8"
-  - ps-8.0.33-25
+  - ps-8.0.34-26
   - ps-8.0
   - ps-8
 - Architectures: null
   Directory: percona-server-5.7
-  GitCommit: f1697b98ebb86a8d684c4192fa382b00ae1860ff
+  GitCommit: a11f997b281686769392ea14aa02daee97320c51
   Tags:
-  - 5.7.35-centos
+  - 5.7.43-centos
   - 5.7-centos
   - 5-centos
   - centos
-  - 5.7.35
+  - 5.7.43
   - "5.7"
   - "5"
-  - ps-5.7.35
+  - ps-5.7.43
   - ps-5.7
   - ps-5
-  - latest
 - Architectures: null
   Directory: percona-server-5.6
   GitCommit: 4510d49bcce5cfce58a42c198d55399b144add83
@@ -38,23 +37,66 @@ Blocks:
   - ps-5.6.51-2
   - ps-5.6
 - Architectures: null
+  Directory: percona-server-mongodb-6.0
+  GitCommit: 80ab68b2d84c7c17c8cbc07edb35e35399fd0a54
+  Tags:
+  - psmdb-6.0.6
+  - psmdb-6.0
+- Architectures: null
+  Directory: percona-server-mongodb-5.0
+  GitCommit: 80ab68b2d84c7c17c8cbc07edb35e35399fd0a54
+  Tags:
+  - psmdb-5.0.18
+  - psmdb-5.0
+- Architectures: null
+  Directory: percona-server-mongodb-4.4
+  GitCommit: 80ab68b2d84c7c17c8cbc07edb35e35399fd0a54
+  Tags:
+  - psmdb-4.4.22
+  - psmdb-4.4
+- Architectures: null
+  Directory: percona-server-mongodb-4.2
+  GitCommit: 80ab68b2d84c7c17c8cbc07edb35e35399fd0a54
+  Tags:
+  - psmdb-4.2.24
+  - psmdb-4.2
+- Architectures: null
+  Directory: percona-server-8.0
+  GitCommit: 3f666ccdf6a9eed0e0505723fbe8b4954a105c99
+  Tags:
+  - 8.0.33-25-centos
+  - 8.0.33-25
+  - ps-8.0.33-25
+- Architectures: null
+  Directory: percona-server-5.7
+  GitCommit: 80ab68b2d84c7c17c8cbc07edb35e35399fd0a54
+  Tags:
+  - 5.7.39-centos
+  - 5.7.39
+  - ps-5.7.39
+- Architectures: null
+  Directory: percona-server-5.7
+  GitCommit: f1697b98ebb86a8d684c4192fa382b00ae1860ff
+  Tags:
+  - 5.7.35-centos
+  - 5.7.35
+  - ps-5.7.35
+  - latest
+- Architectures: null
   Directory: percona-server-mongodb-5.0
   GitCommit: 0003693083fc3b6a904fd83a63096705aff46cca
   Tags:
   - psmdb-5.0.10
-  - psmdb-5.0
 - Architectures: null
   Directory: percona-server-mongodb-4.4
   GitCommit: 93dc9be5c30c1da42e8f2dad03da5e17e6bc89a9
   Tags:
   - psmdb-4.4.15
-  - psmdb-4.4
 - Architectures: null
   Directory: percona-server-mongodb-4.2
   GitCommit: ee35507eeade832e18041d39ac67637202733e49
   Tags:
   - psmdb-4.2.21
-  - psmdb-4.2
 - Architectures: null
   Directory: percona-server-mongodb-4.0
   GitCommit: ef97f5cd2c747905dc6d724c245cce9f3e2ce0a1
@@ -969,6 +1011,10 @@ KnownTags:
   5.7.34-centos: {}
   5.7.35: {}
   5.7.35-centos: {}
+  5.7.39: {}
+  5.7.39-centos: {}
+  5.7.43: {}
+  5.7.43-centos: {}
   "8": {}
   8-centos: {}
   "8.0": {}
@@ -1015,6 +1061,8 @@ KnownTags:
   8.0.32-24-centos: {}
   8.0.33-25: {}
   8.0.33-25-centos: {}
+  8.0.34-26: {}
+  8.0.34-26-centos: {}
   centos: {}
   jessie: {}
   latest: {}
@@ -1041,6 +1089,8 @@ KnownTags:
   ps-5.7.33: {}
   ps-5.7.34: {}
   ps-5.7.35: {}
+  ps-5.7.39: {}
+  ps-5.7.43: {}
   ps-8: {}
   ps-8.0: {}
   ps-8.0.12-2rc1: {}
@@ -1064,6 +1114,7 @@ KnownTags:
   ps-8.0.31-23: {}
   ps-8.0.32-24: {}
   ps-8.0.33-25: {}
+  ps-8.0.34-26: {}
   psmdb-3.6: {}
   psmdb-3.6.8: {}
   psmdb-3.6.10: {}
@@ -1112,6 +1163,7 @@ KnownTags:
   psmdb-4.2.19: {}
   psmdb-4.2.20: {}
   psmdb-4.2.21: {}
+  psmdb-4.2.24: {}
   psmdb-4.4: {}
   psmdb-4.4.0: {}
   psmdb-4.4.1: {}
@@ -1125,6 +1177,7 @@ KnownTags:
   psmdb-4.4.13: {}
   psmdb-4.4.14: {}
   psmdb-4.4.15: {}
+  psmdb-4.4.22: {}
   psmdb-5.0: {}
   psmdb-5.0.2: {}
   psmdb-5.0.3: {}
@@ -1132,5 +1185,8 @@ KnownTags:
   psmdb-5.0.8: {}
   psmdb-5.0.9: {}
   psmdb-5.0.10: {}
+  psmdb-5.0.18: {}
+  psmdb-6.0: {}
+  psmdb-6.0.6: {}
   stretch: {}
 Name: percona

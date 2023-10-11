@@ -2,6 +2,98 @@ Blocks:
 - Architectures:
   - amd64
   - arm64v8
+  Directory: 5.9/ubuntu/22.04
+  GitCommit: 8e0404c7cd98072c431200fd405a214a96b0890c
+  Tags:
+  - 5.9.0
+  - "5.9"
+  - 5.9.0-jammy
+  - 5.9-jammy
+  - jammy
+  - latest
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: 5.9/ubuntu/22.04/slim
+  GitCommit: 8e0404c7cd98072c431200fd405a214a96b0890c
+  Tags:
+  - 5.9.0-slim
+  - 5.9-slim
+  - 5.9.0-jammy-slim
+  - 5.9-jammy-slim
+  - jammy-slim
+  - slim
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: 5.9/ubuntu/20.04/slim
+  GitCommit: 8e0404c7cd98072c431200fd405a214a96b0890c
+  Tags:
+  - 5.9.0-focal-slim
+  - 5.9-focal-slim
+  - focal-slim
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: 5.9/ubuntu/20.04
+  GitCommit: 8e0404c7cd98072c431200fd405a214a96b0890c
+  Tags:
+  - 5.9.0-focal
+  - 5.9-focal
+  - focal
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: 5.9/amazonlinux/2
+  GitCommit: 8e0404c7cd98072c431200fd405a214a96b0890c
+  Tags:
+  - 5.9.0-amazonlinux2
+  - 5.9-amazonlinux2
+  - amazonlinux2
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: 5.9/amazonlinux/2/slim
+  GitCommit: 8e0404c7cd98072c431200fd405a214a96b0890c
+  Tags:
+  - 5.9.0-amazonlinux2-slim
+  - 5.9-amazonlinux2-slim
+  - amazonlinux2-slim
+- Architectures: null
+  Directory: 5.9/centos/7
+  GitCommit: 8e0404c7cd98072c431200fd405a214a96b0890c
+  Tags:
+  - 5.9.0-centos7
+  - 5.9-centos7
+  - centos7
+- Architectures: null
+  Directory: 5.9/centos/7/slim
+  GitCommit: 8e0404c7cd98072c431200fd405a214a96b0890c
+  Tags:
+  - 5.9.0-centos7-slim
+  - 5.9-centos7-slim
+  - centos7-slim
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: 5.9/rhel-ubi/9
+  GitCommit: 8e0404c7cd98072c431200fd405a214a96b0890c
+  Tags:
+  - 5.9.0-rhel-ubi9
+  - 5.9-rhel-ubi9
+  - rhel-ubi9
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: 5.9/rhel-ubi/9/slim
+  GitCommit: 8e0404c7cd98072c431200fd405a214a96b0890c
+  Tags:
+  - 5.9.0-rhel-ubi9-slim
+  - 5.9-rhel-ubi9-slim
+  - rhel-ubi9-slim
+- Architectures:
+  - amd64
+  - arm64v8
   Directory: 5.8/ubuntu/22.04
   GitCommit: 0190ac8d812bfcfab0ee39d600116ab5e3243f48
   Tags:
@@ -9,8 +101,6 @@ Blocks:
   - "5.8"
   - 5.8.1-jammy
   - 5.8-jammy
-  - jammy
-  - latest
 - Architectures:
   - amd64
   - arm64v8
@@ -21,22 +111,6 @@ Blocks:
   - 5.8-slim
   - 5.8.1-jammy-slim
   - 5.8-jammy-slim
-  - jammy-slim
-  - slim
-- Architectures: null
-  Directory: 5.8/ubuntu/18.04
-  GitCommit: 0190ac8d812bfcfab0ee39d600116ab5e3243f48
-  Tags:
-  - 5.8.1-bionic
-  - 5.8-bionic
-  - bionic
-- Architectures: null
-  Directory: 5.8/ubuntu/18.04/slim
-  GitCommit: 0190ac8d812bfcfab0ee39d600116ab5e3243f48
-  Tags:
-  - 5.8.1-bionic-slim
-  - 5.8-bionic-slim
-  - bionic-slim
 - Architectures:
   - amd64
   - arm64v8
@@ -45,7 +119,6 @@ Blocks:
   Tags:
   - 5.8.1-focal-slim
   - 5.8-focal-slim
-  - focal-slim
 - Architectures:
   - amd64
   - arm64v8
@@ -54,7 +127,6 @@ Blocks:
   Tags:
   - 5.8.1-focal
   - 5.8-focal
-  - focal
 - Architectures:
   - amd64
   - arm64v8
@@ -63,7 +135,6 @@ Blocks:
   Tags:
   - 5.8.1-amazonlinux2
   - 5.8-amazonlinux2
-  - amazonlinux2
 - Architectures:
   - amd64
   - arm64v8
@@ -72,21 +143,18 @@ Blocks:
   Tags:
   - 5.8.1-amazonlinux2-slim
   - 5.8-amazonlinux2-slim
-  - amazonlinux2-slim
 - Architectures: null
   Directory: 5.8/centos/7
   GitCommit: 0190ac8d812bfcfab0ee39d600116ab5e3243f48
   Tags:
   - 5.8.1-centos7
   - 5.8-centos7
-  - centos7
 - Architectures: null
   Directory: 5.8/centos/7/slim
   GitCommit: 0190ac8d812bfcfab0ee39d600116ab5e3243f48
   Tags:
   - 5.8.1-centos7-slim
   - 5.8-centos7-slim
-  - centos7-slim
 - Architectures:
   - amd64
   - arm64v8
@@ -95,7 +163,6 @@ Blocks:
   Tags:
   - 5.8.1-rhel-ubi9
   - 5.8-rhel-ubi9
-  - rhel-ubi9
 - Architectures:
   - amd64
   - arm64v8
@@ -104,7 +171,6 @@ Blocks:
   Tags:
   - 5.8.1-rhel-ubi9-slim
   - 5.8-rhel-ubi9-slim
-  - rhel-ubi9-slim
 - Architectures:
   - amd64
   - arm64v8
@@ -125,18 +191,6 @@ Blocks:
   - 5.7-slim
   - 5.7.3-jammy-slim
   - 5.7-jammy-slim
-- Architectures: null
-  Directory: 5.7/ubuntu/18.04
-  GitCommit: f53cb8e9f11507814412fb4e9c6f0fce1f4b7552
-  Tags:
-  - 5.7.3-bionic
-  - 5.7-bionic
-- Architectures: null
-  Directory: 5.7/ubuntu/18.04/slim
-  GitCommit: f53cb8e9f11507814412fb4e9c6f0fce1f4b7552
-  Tags:
-  - 5.7.3-bionic-slim
-  - 5.7-bionic-slim
 - Architectures:
   - amd64
   - arm64v8
@@ -179,22 +233,6 @@ Blocks:
   Tags:
   - 5.7.3-centos7-slim
   - 5.7-centos7-slim
-- Architectures: null
-  Directory: 5.6/ubuntu/18.04
-  GitCommit: 1188cc86d15f9e98d90db9f98de3598d5d5f7bb2
-  Tags:
-  - 5.6.3
-  - "5.6"
-  - 5.6.3-bionic
-  - 5.6-bionic
-- Architectures: null
-  Directory: 5.6/ubuntu/18.04/slim
-  GitCommit: 1188cc86d15f9e98d90db9f98de3598d5d5f7bb2
-  Tags:
-  - 5.6.3-slim
-  - 5.6-slim
-  - 5.6.3-bionic-slim
-  - 5.6-bionic-slim
 - Architectures:
   - amd64
   - arm64v8
@@ -240,22 +278,6 @@ Blocks:
   - 5.6.3-centos7-slim
   - 5.6-centos7-slim
 - Architectures: null
-  Directory: 5.5/ubuntu/18.04
-  GitCommit: 9394b31e064cf0d80eaab08b692a2886c7aea8fe
-  Tags:
-  - 5.5.3
-  - "5.5"
-  - 5.5.3-bionic
-  - 5.5-bionic
-- Architectures: null
-  Directory: 5.5/ubuntu/18.04/slim
-  GitCommit: 9394b31e064cf0d80eaab08b692a2886c7aea8fe
-  Tags:
-  - 5.5.3-slim
-  - 5.5-slim
-  - 5.5.3-bionic-slim
-  - 5.5-bionic-slim
-- Architectures: null
   Directory: 5.5/ubuntu/20.04/slim
   GitCommit: 9394b31e064cf0d80eaab08b692a2886c7aea8fe
   Tags:
@@ -291,22 +313,6 @@ Blocks:
   Tags:
   - 5.5.3-centos7-slim
   - 5.5-centos7-slim
-- Architectures: null
-  Directory: 5.4/ubuntu/18.04
-  GitCommit: 2d2c2fb89fe6ecfd8885157eb1666ed2686503a0
-  Tags:
-  - 5.4.3
-  - "5.4"
-  - 5.4.3-bionic
-  - 5.4-bionic
-- Architectures: null
-  Directory: 5.4/ubuntu/18.04/slim
-  GitCommit: 2d2c2fb89fe6ecfd8885157eb1666ed2686503a0
-  Tags:
-  - 5.4.3-slim
-  - 5.4-slim
-  - 5.4.3-bionic-slim
-  - 5.4-bionic-slim
 - Architectures: null
   Directory: 5.4/ubuntu/20.04/slim
   GitCommit: 2d2c2fb89fe6ecfd8885157eb1666ed2686503a0
@@ -344,22 +350,6 @@ Blocks:
   - 5.4.3-centos7-slim
   - 5.4-centos7-slim
 - Architectures: null
-  Directory: 5.3/ubuntu/18.04
-  GitCommit: 2d2c2fb89fe6ecfd8885157eb1666ed2686503a0
-  Tags:
-  - 5.3.3
-  - "5.3"
-  - 5.3.3-bionic
-  - 5.3-bionic
-- Architectures: null
-  Directory: 5.3/ubuntu/18.04/slim
-  GitCommit: 2d2c2fb89fe6ecfd8885157eb1666ed2686503a0
-  Tags:
-  - 5.3.3-slim
-  - 5.3-slim
-  - 5.3.3-bionic-slim
-  - 5.3-bionic-slim
-- Architectures: null
   Directory: 5.3/ubuntu/20.04/slim
   GitCommit: 2d2c2fb89fe6ecfd8885157eb1666ed2686503a0
   Tags:
@@ -396,22 +386,6 @@ Blocks:
   - 5.3.3-centos7-slim
   - 5.3-centos7-slim
 - Architectures: null
-  Directory: 5.2/ubuntu/18.04
-  GitCommit: 2d2c2fb89fe6ecfd8885157eb1666ed2686503a0
-  Tags:
-  - 5.2.5
-  - "5.2"
-  - 5.2.5-bionic
-  - 5.2-bionic
-- Architectures: null
-  Directory: 5.2/ubuntu/18.04/slim
-  GitCommit: 2d2c2fb89fe6ecfd8885157eb1666ed2686503a0
-  Tags:
-  - 5.2.5-slim
-  - 5.2-slim
-  - 5.2.5-bionic-slim
-  - 5.2-bionic-slim
-- Architectures: null
   Directory: 5.2/ubuntu/20.04/slim
   GitCommit: 2d2c2fb89fe6ecfd8885157eb1666ed2686503a0
   Tags:
@@ -447,6 +421,112 @@ Blocks:
   Tags:
   - 5.2.5-centos7-slim
   - 5.2-centos7-slim
+- Architectures: null
+  Directory: 5.8/ubuntu/18.04
+  GitCommit: 0190ac8d812bfcfab0ee39d600116ab5e3243f48
+  Tags:
+  - 5.8.1-bionic
+  - 5.8-bionic
+  - bionic
+- Architectures: null
+  Directory: 5.8/ubuntu/18.04/slim
+  GitCommit: 0190ac8d812bfcfab0ee39d600116ab5e3243f48
+  Tags:
+  - 5.8.1-bionic-slim
+  - 5.8-bionic-slim
+  - bionic-slim
+- Architectures: null
+  Directory: 5.7/ubuntu/18.04
+  GitCommit: f53cb8e9f11507814412fb4e9c6f0fce1f4b7552
+  Tags:
+  - 5.7.3-bionic
+  - 5.7-bionic
+- Architectures: null
+  Directory: 5.7/ubuntu/18.04/slim
+  GitCommit: f53cb8e9f11507814412fb4e9c6f0fce1f4b7552
+  Tags:
+  - 5.7.3-bionic-slim
+  - 5.7-bionic-slim
+- Architectures: null
+  Directory: 5.6/ubuntu/18.04
+  GitCommit: 1188cc86d15f9e98d90db9f98de3598d5d5f7bb2
+  Tags:
+  - 5.6.3
+  - "5.6"
+  - 5.6.3-bionic
+  - 5.6-bionic
+- Architectures: null
+  Directory: 5.6/ubuntu/18.04/slim
+  GitCommit: 1188cc86d15f9e98d90db9f98de3598d5d5f7bb2
+  Tags:
+  - 5.6.3-slim
+  - 5.6-slim
+  - 5.6.3-bionic-slim
+  - 5.6-bionic-slim
+- Architectures: null
+  Directory: 5.5/ubuntu/18.04
+  GitCommit: 9394b31e064cf0d80eaab08b692a2886c7aea8fe
+  Tags:
+  - 5.5.3
+  - "5.5"
+  - 5.5.3-bionic
+  - 5.5-bionic
+- Architectures: null
+  Directory: 5.5/ubuntu/18.04/slim
+  GitCommit: 9394b31e064cf0d80eaab08b692a2886c7aea8fe
+  Tags:
+  - 5.5.3-slim
+  - 5.5-slim
+  - 5.5.3-bionic-slim
+  - 5.5-bionic-slim
+- Architectures: null
+  Directory: 5.4/ubuntu/18.04
+  GitCommit: 2d2c2fb89fe6ecfd8885157eb1666ed2686503a0
+  Tags:
+  - 5.4.3
+  - "5.4"
+  - 5.4.3-bionic
+  - 5.4-bionic
+- Architectures: null
+  Directory: 5.4/ubuntu/18.04/slim
+  GitCommit: 2d2c2fb89fe6ecfd8885157eb1666ed2686503a0
+  Tags:
+  - 5.4.3-slim
+  - 5.4-slim
+  - 5.4.3-bionic-slim
+  - 5.4-bionic-slim
+- Architectures: null
+  Directory: 5.3/ubuntu/18.04
+  GitCommit: 2d2c2fb89fe6ecfd8885157eb1666ed2686503a0
+  Tags:
+  - 5.3.3
+  - "5.3"
+  - 5.3.3-bionic
+  - 5.3-bionic
+- Architectures: null
+  Directory: 5.3/ubuntu/18.04/slim
+  GitCommit: 2d2c2fb89fe6ecfd8885157eb1666ed2686503a0
+  Tags:
+  - 5.3.3-slim
+  - 5.3-slim
+  - 5.3.3-bionic-slim
+  - 5.3-bionic-slim
+- Architectures: null
+  Directory: 5.2/ubuntu/18.04
+  GitCommit: 2d2c2fb89fe6ecfd8885157eb1666ed2686503a0
+  Tags:
+  - 5.2.5
+  - "5.2"
+  - 5.2.5-bionic
+  - 5.2-bionic
+- Architectures: null
+  Directory: 5.2/ubuntu/18.04/slim
+  GitCommit: 2d2c2fb89fe6ecfd8885157eb1666ed2686503a0
+  Tags:
+  - 5.2.5-slim
+  - 5.2-slim
+  - 5.2.5-bionic-slim
+  - 5.2-bionic-slim
 - Architectures: null
   Directory: 5.1/ubuntu/18.04
   GitCommit: 2d2c2fb89fe6ecfd8885157eb1666ed2686503a0
@@ -1809,6 +1889,18 @@ Blocks:
   GitCommit: 4aa206c264d5792491e8679fe96ca6f4754a9c87
   Tags:
   - 5.2.1-xenial-sim
+- Architectures: null
+  Directory: 5.9/ubuntu/18.04
+  GitCommit: 8e0404c7cd98072c431200fd405a214a96b0890c
+  Tags:
+  - 5.9.0-bionic
+  - 5.9-bionic
+- Architectures: null
+  Directory: 5.9/ubuntu/18.04/slim
+  GitCommit: 8e0404c7cd98072c431200fd405a214a96b0890c
+  Tags:
+  - 5.9.0-bionic-slim
+  - 5.9-bionic-slim
 GitRepo: https://github.com/apple/swift-docker.git
 KnownTags:
   "3": {}
@@ -2289,6 +2381,34 @@ KnownTags:
   5.8.1-rhel-ubi9: {}
   5.8.1-rhel-ubi9-slim: {}
   5.8.1-slim: {}
+  "5.9": {}
+  5.9-amazonlinux2: {}
+  5.9-amazonlinux2-slim: {}
+  5.9-bionic: {}
+  5.9-bionic-slim: {}
+  5.9-centos7: {}
+  5.9-centos7-slim: {}
+  5.9-focal: {}
+  5.9-focal-slim: {}
+  5.9-jammy: {}
+  5.9-jammy-slim: {}
+  5.9-rhel-ubi9: {}
+  5.9-rhel-ubi9-slim: {}
+  5.9-slim: {}
+  5.9.0: {}
+  5.9.0-amazonlinux2: {}
+  5.9.0-amazonlinux2-slim: {}
+  5.9.0-bionic: {}
+  5.9.0-bionic-slim: {}
+  5.9.0-centos7: {}
+  5.9.0-centos7-slim: {}
+  5.9.0-focal: {}
+  5.9.0-focal-slim: {}
+  5.9.0-jammy: {}
+  5.9.0-jammy-slim: {}
+  5.9.0-rhel-ubi9: {}
+  5.9.0-rhel-ubi9-slim: {}
+  5.9.0-slim: {}
   amazonlinux2: {}
   amazonlinux2-slim: {}
   bionic: {}

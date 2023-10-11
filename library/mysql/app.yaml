@@ -2,37 +2,61 @@ Blocks:
 - Architectures:
   - amd64
   - arm64v8
-  Directory: "8.0"
-  GitCommit: 1bfa4724fe112b4246672ed2b3c42142f17d5636
+  Directory: innovation
+  GitCommit: eb1850601849ef7ef77a23f017a20debc95d597c
   Tags:
-  - 8.0.33
-  - "8.0"
+  - 8.1.0
+  - "8.1"
   - "8"
+  - innovation
   - latest
-  - 8.0.33-oracle
-  - 8.0-oracle
+  - 8.1.0-oracle
+  - 8.1-oracle
   - 8-oracle
+  - innovation-oracle
   - oracle
 - Architectures:
   - amd64
+  - arm64v8
   Directory: "8.0"
-  GitCommit: 611aa464a96f69e5d4d4172b14ca829ded162b42
+  GitCommit: f4030aebf6a63d640f7085fb3e4601b4e70313c8
   Tags:
-  - 8.0.33-debian
+  - 8.0.34
+  - "8.0"
+  - 8.0.34-oracle
+  - 8.0-oracle
+- Architectures:
+  - amd64
+  Directory: "8.0"
+  GitCommit: f4030aebf6a63d640f7085fb3e4601b4e70313c8
+  Tags:
+  - 8.0.34-debian
   - 8.0-debian
+- Architectures:
+  - amd64
+  Directory: "5.7"
+  GitCommit: c13cda9c2c9d836af9b3331e8681f8cc8e0a7803
+  Tags:
+  - 5.7.43
+  - "5.7"
+  - "5"
+  - 5.7.43-oracle
+  - 5.7-oracle
+  - 5-oracle
+- Architectures:
+  - amd64
+  Directory: "8.0"
+  GitCommit: f4030aebf6a63d640f7085fb3e4601b4e70313c8
+  Tags:
   - 8-debian
   - debian
 - Architectures:
   - amd64
   Directory: "5.7"
-  GitCommit: e4bdff20153e6a05364a8fe80356dcfd502445bd
+  GitCommit: 2baf92d30620d7d123141b98988b0d42d2156351
   Tags:
   - 5.7.42
-  - "5.7"
-  - "5"
   - 5.7.42-oracle
-  - 5.7-oracle
-  - 5-oracle
 - Architectures:
   - amd64
   Directory: "5.7"
@@ -41,6 +65,20 @@ Blocks:
   - 5.7.42-debian
   - 5.7-debian
   - 5-debian
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: "8.0"
+  GitCommit: 1bfa4724fe112b4246672ed2b3c42142f17d5636
+  Tags:
+  - 8.0.33
+  - 8.0.33-oracle
+- Architectures:
+  - amd64
+  Directory: "8.0"
+  GitCommit: 611aa464a96f69e5d4d4172b14ca829ded162b42
+  Tags:
+  - 8.0.33-debian
 - Architectures:
   - amd64
   - arm64v8
@@ -665,6 +703,8 @@ KnownTags:
   5.7.42: {}
   5.7.42-debian: {}
   5.7.42-oracle: {}
+  5.7.43: {}
+  5.7.43-oracle: {}
   "8": {}
   8-debian: {}
   8-oracle: {}
@@ -712,7 +752,16 @@ KnownTags:
   8.0.33: {}
   8.0.33-debian: {}
   8.0.33-oracle: {}
+  8.0.34: {}
+  8.0.34-debian: {}
+  8.0.34-oracle: {}
+  "8.1": {}
+  8.1-oracle: {}
+  8.1.0: {}
+  8.1.0-oracle: {}
   debian: {}
+  innovation: {}
+  innovation-oracle: {}
   latest: {}
   oracle: {}
 Name: mysql

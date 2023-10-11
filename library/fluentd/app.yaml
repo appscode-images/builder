@@ -7,11 +7,35 @@ Blocks:
   - ppc64le
   - s390x
   Directory: v1.16/alpine
+  GitCommit: a4dd65768ec1819574e570716955276c9089326a
+  Tags:
+  - v1.16.2-1.1
+  - v1.16-1
+  - latest
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: v1.16/debian
+  GitCommit: a4dd65768ec1819574e570716955276c9089326a
+  Tags:
+  - v1.16.2-debian-1.1
+  - v1.16-debian-1
+- Architectures:
+  - amd64
+  - arm32v6
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: v1.16/alpine
   GitCommit: b1a4d1d1ff36c6904c7f4a5e94a09e7938dab9ef
   Tags:
   - v1.16.0-1.0
-  - v1.16-1
-  - latest
 - Architectures:
   - amd64
   - arm32v5
@@ -24,7 +48,6 @@ Blocks:
   GitCommit: b1a4d1d1ff36c6904c7f4a5e94a09e7938dab9ef
   Tags:
   - v1.16.0-debian-1.0
-  - v1.16-debian-1
 - Architectures:
   - amd64
   - arm32v6
@@ -235,4 +258,6 @@ KnownTags:
   v1.16-debian-1: {}
   v1.16.0-1.0: {}
   v1.16.0-debian-1.0: {}
+  v1.16.2-1.1: {}
+  v1.16.2-debian-1.1: {}
 Name: fluentd

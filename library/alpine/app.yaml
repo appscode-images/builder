@@ -9,9 +9,9 @@ Blocks:
   - i386
   - amd64
   Directory: ""
-  GitCommit: c025403b1536857f35630b3c7fe5aabf8b6d256a
+  GitCommit: 9f17b1fa5a5c3ea6de378b610f2eb2fdcdfb15b3
   Tags:
-  - "20230329"
+  - "20230901"
   - edge
 - Architectures:
   - arm64v8
@@ -22,9 +22,9 @@ Blocks:
   - i386
   - amd64
   Directory: ""
-  GitCommit: 66fa0fe063bbb4f03220088a4f4d8bb34db1b803
+  GitCommit: e7f8cc3aebd309337497c1e794db9aabbb9902c0
   Tags:
-  - 3.18.2
+  - 3.18.4
   - "3.18"
   - "3"
   - latest
@@ -37,10 +37,85 @@ Blocks:
   - i386
   - amd64
   Directory: ""
+  GitCommit: bb3a15580db27a6a5f75909040f98ac1ac6d39c1
+  Tags:
+  - 3.17.5
+  - "3.17"
+- Architectures:
+  - arm64v8
+  - arm32v6
+  - arm32v7
+  - ppc64le
+  - s390x
+  - i386
+  - amd64
+  Directory: ""
+  GitCommit: 6a4bd9a98102f701834ef7d6fe2215dc0b3288c2
+  Tags:
+  - 3.16.7
+  - "3.16"
+- Architectures:
+  - arm64v8
+  - arm32v6
+  - arm32v7
+  - ppc64le
+  - s390x
+  - i386
+  - amd64
+  Directory: ""
+  GitCommit: e16b9737b016b9275598e6946a677ee4205070ba
+  Tags:
+  - 3.15.10
+  - "3.15"
+- Architectures:
+  - arm64v8
+  - arm32v6
+  - arm32v7
+  - ppc64le
+  - s390x
+  - i386
+  - amd64
+  Directory: ""
+  GitCommit: 1ff397d1b9e6872e19adc93d6ede0cb638a2418a
+  Tags:
+  - 3.18.3
+- Architectures:
+  - arm64v8
+  - arm32v6
+  - arm32v7
+  - ppc64le
+  - riscv64
+  - s390x
+  - i386
+  - amd64
+  Directory: ""
+  GitCommit: c025403b1536857f35630b3c7fe5aabf8b6d256a
+  Tags:
+  - "20230329"
+- Architectures:
+  - arm64v8
+  - arm32v6
+  - arm32v7
+  - ppc64le
+  - s390x
+  - i386
+  - amd64
+  Directory: ""
+  GitCommit: 66fa0fe063bbb4f03220088a4f4d8bb34db1b803
+  Tags:
+  - 3.18.2
+- Architectures:
+  - arm64v8
+  - arm32v6
+  - arm32v7
+  - ppc64le
+  - s390x
+  - i386
+  - amd64
+  Directory: ""
   GitCommit: e229397d4700b27c523f966afbddc420674f0d34
   Tags:
   - 3.17.4
-  - "3.17"
 - Architectures:
   - arm64v8
   - arm32v6
@@ -53,7 +128,6 @@ Blocks:
   GitCommit: 9d643ac53dd82876d3f700dfb8e4edf91982f171
   Tags:
   - 3.16.6
-  - "3.16"
 - Architectures:
   - arm64v8
   - arm32v6
@@ -66,7 +140,6 @@ Blocks:
   GitCommit: 87b711179ac0b3685f8c590428bcc6470a8fd78b
   Tags:
   - 3.15.9
-  - "3.15"
 - Architectures:
   - arm64v8
   - arm32v6
@@ -1549,6 +1622,7 @@ KnownTags:
   3.15.7: {}
   3.15.8: {}
   3.15.9: {}
+  3.15.10: {}
   "3.16": {}
   3.16.0: {}
   3.16.1: {}
@@ -1557,6 +1631,7 @@ KnownTags:
   3.16.4: {}
   3.16.5: {}
   3.16.6: {}
+  3.16.7: {}
   "3.17": {}
   3.17.0: {}
   3.17.0_rc1: {}
@@ -1564,9 +1639,12 @@ KnownTags:
   3.17.2: {}
   3.17.3: {}
   3.17.4: {}
+  3.17.5: {}
   "3.18": {}
   3.18.0: {}
   3.18.2: {}
+  3.18.3: {}
+  3.18.4: {}
   "20190228": {}
   "20190408": {}
   "20190508": {}
@@ -1590,6 +1668,7 @@ KnownTags:
   "20221110": {}
   "20230208": {}
   "20230329": {}
+  "20230901": {}
   edge: {}
   latest: {}
 Name: alpine

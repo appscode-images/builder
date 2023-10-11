@@ -22,6 +22,10 @@
     "10.4.0-bookworm": {},
     "10.4.0-bullseye": {},
     "10.4.0-buster": {},
+    "10.5": {},
+    "10.5-bullseye": {},
+    "10.5.0": {},
+    "10.5.0-bullseye": {},
     "11": {},
     "11-bookworm": {},
     "11-bullseye": {},
@@ -66,6 +70,10 @@
     "13.1-bookworm": {},
     "13.1.0": {},
     "13.1.0-bookworm": {},
+    "13.2": {},
+    "13.2-bookworm": {},
+    "13.2.0": {},
+    "13.2.0-bookworm": {},
     "4": {},
     "4.8": {},
     "4.8.5": {},
@@ -150,12 +158,12 @@
   "Blocks": [
     {
       "Tags": [
-        "13.1.0",
-        "13.1",
+        "13.2.0",
+        "13.2",
         "13",
         "latest",
-        "13.1.0-bookworm",
-        "13.1-bookworm",
+        "13.2.0-bookworm",
+        "13.2-bookworm",
         "13-bookworm",
         "bookworm"
       ],
@@ -167,7 +175,7 @@
         "ppc64le",
         "s390x"
       ],
-      "GitCommit": "46628bc0702798f6ff9f923650361f46f9eb2af2",
+      "GitCommit": "af458ec8254ef7ca3344f12631e2356b20b4a7f1",
       "Directory": "13"
     },
     {
@@ -187,7 +195,7 @@
         "ppc64le",
         "s390x"
       ],
-      "GitCommit": "9677600371602a897f576cf1d85852a3a26f71af",
+      "GitCommit": "e7e43ba8177ce15f473d9a799c9e69735e4dbab4",
       "Directory": "12"
     },
     {
@@ -195,6 +203,99 @@
         "11.4.0",
         "11.4",
         "11",
+        "11.4.0-bullseye",
+        "11.4-bullseye",
+        "11-bullseye"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "e7e43ba8177ce15f473d9a799c9e69735e4dbab4",
+      "Directory": "11"
+    },
+    {
+      "Tags": [
+        "10.5.0",
+        "10.5",
+        "10",
+        "10.5.0-bullseye",
+        "10.5-bullseye",
+        "10-bullseye"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "82cd9a2f8eb0da43f9b938b92ee78d8747eb16d1",
+      "Directory": "10"
+    },
+    {
+      "Tags": [
+        "9.5.0",
+        "9.5",
+        "9",
+        "9.5.0-bullseye",
+        "9.5-bullseye",
+        "9-bullseye"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "e7e43ba8177ce15f473d9a799c9e69735e4dbab4",
+      "Directory": "9"
+    },
+    {
+      "Tags": [
+        "13.1.0",
+        "13.1",
+        "13.1.0-bookworm",
+        "13.1-bookworm"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "e7e43ba8177ce15f473d9a799c9e69735e4dbab4",
+      "Directory": "13"
+    },
+    {
+      "Tags": [
+        "10.4.0",
+        "10.4",
+        "10.4.0-bullseye",
+        "10.4-bullseye"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "e7e43ba8177ce15f473d9a799c9e69735e4dbab4",
+      "Directory": "10"
+    },
+    {
+      "Tags": [
         "11.4.0-bookworm",
         "11.4-bookworm",
         "11-bookworm"
@@ -212,9 +313,6 @@
     },
     {
       "Tags": [
-        "10.4.0",
-        "10.4",
-        "10",
         "10.4.0-bookworm",
         "10.4-bookworm",
         "10-bookworm"
@@ -232,9 +330,6 @@
     },
     {
       "Tags": [
-        "9.5.0",
-        "9.5",
-        "9",
         "9.5.0-bookworm",
         "9.5-bookworm",
         "9-bookworm"
@@ -266,57 +361,6 @@
       ],
       "GitCommit": "dfa419750ef32e01ce5715a08533397f570f1133",
       "Directory": "12"
-    },
-    {
-      "Tags": [
-        "11.4.0-bullseye",
-        "11.4-bullseye",
-        "11-bullseye"
-      ],
-      "Architectures": [
-        "amd64",
-        "arm32v5",
-        "arm32v7",
-        "arm64v8",
-        "ppc64le",
-        "s390x"
-      ],
-      "GitCommit": "9f10f9541f9736300c811cdb3f319c038a8b9c3a",
-      "Directory": "11"
-    },
-    {
-      "Tags": [
-        "10.4.0-bullseye",
-        "10.4-bullseye",
-        "10-bullseye"
-      ],
-      "Architectures": [
-        "amd64",
-        "arm32v5",
-        "arm32v7",
-        "arm64v8",
-        "ppc64le",
-        "s390x"
-      ],
-      "GitCommit": "46628bc0702798f6ff9f923650361f46f9eb2af2",
-      "Directory": "10"
-    },
-    {
-      "Tags": [
-        "9.5.0-bullseye",
-        "9.5-bullseye",
-        "9-bullseye"
-      ],
-      "Architectures": [
-        "amd64",
-        "arm32v5",
-        "arm32v7",
-        "arm64v8",
-        "ppc64le",
-        "s390x"
-      ],
-      "GitCommit": "46628bc0702798f6ff9f923650361f46f9eb2af2",
-      "Directory": "9"
     },
     {
       "Tags": [

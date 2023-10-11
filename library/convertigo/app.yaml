@@ -1,12 +1,28 @@
 Blocks:
 - Architectures:
   - amd64
+  - arm32v7
+  - arm64v8
+  Directory: docker/default
+  GitCommit: ""
+  Tags:
+  - 8.2.3
+  - "8.2"
+  - latest
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  Directory: docker/default
+  GitCommit: ""
+  Tags:
+  - 8.2.2
+- Architectures:
+  - amd64
   Directory: docker/default
   GitCommit: ""
   Tags:
   - 8.2.1
-  - "8.2"
-  - latest
 - Architectures:
   - amd64
   Directory: docker/default
@@ -550,6 +566,8 @@ KnownTags:
   "8.2": {}
   8.2.0: {}
   8.2.1: {}
+  8.2.2: {}
+  8.2.3: {}
   aks: {}
   alpine: {}
   latest: {}

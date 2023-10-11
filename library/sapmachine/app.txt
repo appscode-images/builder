@@ -1,19 +1,184 @@
 GitRepo: https://github.com/SAP/SapMachine-infrastructure.git
 
-Tags: 11,11.0.19
+Tags: 11-jre-headless-ubuntu,11-jre-headless-ubuntu-jammy,11-jre-headless-ubuntu-22.04,11.0.20.1-jre-headless-ubuntu,11.0.20.1-jre-headless-ubuntu-jammy,11.0.20.1-jre-headless-ubuntu-22.04
 Architectures: amd64,arm64v8,ppc64le
-GitCommit: c2a79726eae76118b0b204bb201920ce200d0703
-Directory: dockerfiles/official/11
+GitCommit: c1723a87e4227704b879bc0153969ee497b188c2
+Directory: dockerfiles/official/11/ubuntu/jre-headless
 
-Tags: 17,17.0.7,lts
+Tags: 11-jre-ubuntu,11-jre-ubuntu-jammy,11-jre-ubuntu-22.04,11.0.20.1-jre-ubuntu,11.0.20.1-jre-ubuntu-jammy,11.0.20.1-jre-ubuntu-22.04
 Architectures: amd64,arm64v8,ppc64le
-GitCommit: b5e632a4b8a28d1618215983fa95859979c63280
-Directory: dockerfiles/official/17
+GitCommit: c1723a87e4227704b879bc0153969ee497b188c2
+Directory: dockerfiles/official/11/ubuntu/jre
 
-Tags: 20,20.0.1,latest
+Tags: 11-jdk-headless-ubuntu,11-jdk-headless-ubuntu-jammy,11-jdk-headless-ubuntu-22.04,11.0.20.1-jdk-headless-ubuntu,11.0.20.1-jdk-headless-ubuntu-jammy,11.0.20.1-jdk-headless-ubuntu-22.04
 Architectures: amd64,arm64v8,ppc64le
-GitCommit: 2f4f203530b69b9e7b120c1f1e0d8e8baafa40f2
-Directory: dockerfiles/official/20
+GitCommit: c1723a87e4227704b879bc0153969ee497b188c2
+Directory: dockerfiles/official/11/ubuntu/jdk-headless
+
+Tags: 11-jdk-ubuntu,11-jdk-ubuntu-jammy,11-jdk-ubuntu-22.04,11.0.20.1-jdk-ubuntu,11.0.20.1-jdk-ubuntu-jammy,11.0.20.1-jdk-ubuntu-22.04,11,11-ubuntu-jammy,11-ubuntu-22.04,11.0.20.1,11.0.20.1-ubuntu-jammy,11.0.20.1-ubuntu-22.04
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: c1723a87e4227704b879bc0153969ee497b188c2
+Directory: dockerfiles/official/11/ubuntu/jdk
+
+Tags: 17-jre-headless-ubuntu,17-jre-headless-ubuntu-jammy,17-jre-headless-ubuntu-22.04,17.0.8.1-jre-headless-ubuntu,17.0.8.1-jre-headless-ubuntu-jammy,17.0.8.1-jre-headless-ubuntu-22.04
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: b2502288737bc565d44b9399c552bfebae112174
+Directory: dockerfiles/official/17/ubuntu/jre-headless
+
+Tags: 17-jre-ubuntu,17-jre-ubuntu-jammy,17-jre-ubuntu-22.04,17.0.8.1-jre-ubuntu,17.0.8.1-jre-ubuntu-jammy,17.0.8.1-jre-ubuntu-22.04
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: b2502288737bc565d44b9399c552bfebae112174
+Directory: dockerfiles/official/17/ubuntu/jre
+
+Tags: 17-jdk-headless-ubuntu,17-jdk-headless-ubuntu-jammy,17-jdk-headless-ubuntu-22.04,17.0.8.1-jdk-headless-ubuntu,17.0.8.1-jdk-headless-ubuntu-jammy,17.0.8.1-jdk-headless-ubuntu-22.04
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: b2502288737bc565d44b9399c552bfebae112174
+Directory: dockerfiles/official/17/ubuntu/jdk-headless
+
+Tags: 17-jdk-ubuntu,17-jdk-ubuntu-jammy,17-jdk-ubuntu-22.04,17.0.8.1-jdk-ubuntu,17.0.8.1-jdk-ubuntu-jammy,17.0.8.1-jdk-ubuntu-22.04,17,17-ubuntu-jammy,17-ubuntu-22.04,17.0.8.1,17.0.8.1-ubuntu-jammy,17.0.8.1-ubuntu-22.04
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: b2502288737bc565d44b9399c552bfebae112174
+Directory: dockerfiles/official/17/ubuntu/jdk
+
+Tags: 21-jre-headless-ubuntu,21-jre-headless-ubuntu-jammy,21-jre-headless-ubuntu-22.04,jre-headless-ubuntu,jre-headless-ubuntu-jammy,jre-headless-ubuntu-jammy-22.04,lts-jre-headless-ubuntu,lts-jre-headless-ubuntu-jammy,lts-jre-headless-ubuntu-22.04
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: a9fe2dafdcc3e4f728431d147ce3a3950153b4a9
+Directory: dockerfiles/official/21/ubuntu/jre-headless
+
+Tags: 21-jre-ubuntu,21-jre-ubuntu-jammy,21-jre-ubuntu-22.04,jre-ubuntu,jre-ubuntu-jammy,jre-ubuntu-jammy-22.04,lts-jre-ubuntu,lts-jre-ubuntu-jammy,lts-jre-ubuntu-22.04
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: a9fe2dafdcc3e4f728431d147ce3a3950153b4a9
+Directory: dockerfiles/official/21/ubuntu/jre
+
+Tags: 21-jdk-headless-ubuntu,21-jdk-headless-ubuntu-jammy,21-jdk-headless-ubuntu-22.04,jdk-headless-ubuntu,jdk-headless-ubuntu-jammy,jdk-headless-ubuntu-jammy-22.04,lts-jdk-headless-ubuntu,lts-jdk-headless-ubuntu-jammy,lts-jdk-headless-ubuntu-22.04
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: a9fe2dafdcc3e4f728431d147ce3a3950153b4a9
+Directory: dockerfiles/official/21/ubuntu/jdk-headless
+
+Tags: 21-jdk-ubuntu,21-jdk-ubuntu-jammy,21-jdk-ubuntu-22.04,jdk-ubuntu,jdk-ubuntu-jammy,jdk-ubuntu-jammy-22.04,lts-jdk-ubuntu,lts-jdk-ubuntu-jammy,lts-jdk-ubuntu-22.04,21,21-ubuntu-jammy,21-ubuntu-22.04,latest,ubuntu-jammy,ubuntu-22.04,lts,lts-ubuntu-jammy,lts-ubuntu-22.04
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: a9fe2dafdcc3e4f728431d147ce3a3950153b4a9
+Directory: dockerfiles/official/21/ubuntu/jdk
+
+Tags: jre-headless-ubuntu-11,jre-headless-ubuntu-11.0.20
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: 03a69c14ccf4cdb173bb67823d779770bcb44d72
+Directory: dockerfiles/official/11/ubuntu/jre-headless
+
+Tags: jre-ubuntu-11,jre-ubuntu-11.0.20
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: 03a69c14ccf4cdb173bb67823d779770bcb44d72
+Directory: dockerfiles/official/11/ubuntu/jre
+
+Tags: jdk-headless-ubuntu-11,jdk-headless-ubuntu-11.0.20
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: 03a69c14ccf4cdb173bb67823d779770bcb44d72
+Directory: dockerfiles/official/11/ubuntu/jdk-headless
+
+Tags: jdk-ubuntu-11,jdk-ubuntu-11.0.20,11.0.20
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: 03a69c14ccf4cdb173bb67823d779770bcb44d72
+Directory: dockerfiles/official/11/ubuntu/jdk
+
+Tags: jre-headless-ubuntu-17,jre-headless-ubuntu-17.0.8,jre-headless-ubuntu-lts
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: 2d4f3b8850a40a6ab8ea0322f05cc05ed19d0f4e
+Directory: dockerfiles/official/17/ubuntu/jre-headless
+
+Tags: jre-ubuntu-17,jre-ubuntu-17.0.8,jre-ubuntu-lts
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: 2d4f3b8850a40a6ab8ea0322f05cc05ed19d0f4e
+Directory: dockerfiles/official/17/ubuntu/jre
+
+Tags: jdk-headless-ubuntu-17,jdk-headless-ubuntu-17.0.8,jdk-headless-ubuntu-lts
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: 2d4f3b8850a40a6ab8ea0322f05cc05ed19d0f4e
+Directory: dockerfiles/official/17/ubuntu/jdk-headless
+
+Tags: jdk-ubuntu-17,jdk-ubuntu-17.0.8,jdk-ubuntu-lts,17.0.8
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: 2d4f3b8850a40a6ab8ea0322f05cc05ed19d0f4e
+Directory: dockerfiles/official/17/ubuntu/jdk
+
+Tags: jre-headless-ubuntu-20,jre-headless-ubuntu-20.0.2
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: d8d71766093af433437a77900cba0839781f54c1
+Directory: dockerfiles/official/20/ubuntu/jre-headless
+
+Tags: jre-ubuntu-20,jre-ubuntu-20.0.2
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: d8d71766093af433437a77900cba0839781f54c1
+Directory: dockerfiles/official/20/ubuntu/jre
+
+Tags: jdk-headless-ubuntu-20,jdk-headless-ubuntu-20.0.2
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: d8d71766093af433437a77900cba0839781f54c1
+Directory: dockerfiles/official/20/ubuntu/jdk-headless
+
+Tags: jdk-ubuntu-20,jdk-ubuntu-20.0.2,20,20.0.2
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: d8d71766093af433437a77900cba0839781f54c1
+Directory: dockerfiles/official/20/ubuntu/jdk
+
+Tags: jre-headless-ubuntu-11.0.19
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: 284381b712285fc3593a81284648ab1604f91c38
+Directory: dockerfiles/official/11/ubuntu/jre-headless
+
+Tags: jre-ubuntu-11.0.19
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: 284381b712285fc3593a81284648ab1604f91c38
+Directory: dockerfiles/official/11/ubuntu/jre
+
+Tags: jdk-headless-ubuntu-11.0.19
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: 284381b712285fc3593a81284648ab1604f91c38
+Directory: dockerfiles/official/11/ubuntu/jdk-headless
+
+Tags: jdk-ubuntu-11.0.19,11.0.19
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: 284381b712285fc3593a81284648ab1604f91c38
+Directory: dockerfiles/official/11/ubuntu/jdk
+
+Tags: jre-headless-ubuntu-17.0.7
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: ea273f4b64903125418a8b30ac55c6d9757634c8
+Directory: dockerfiles/official/17/ubuntu/jre-headless
+
+Tags: jre-ubuntu-17.0.7
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: ea273f4b64903125418a8b30ac55c6d9757634c8
+Directory: dockerfiles/official/17/ubuntu/jre
+
+Tags: jdk-headless-ubuntu-17.0.7
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: ea273f4b64903125418a8b30ac55c6d9757634c8
+Directory: dockerfiles/official/17/ubuntu/jdk-headless
+
+Tags: jdk-ubuntu-17.0.7,17.0.7
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: ea273f4b64903125418a8b30ac55c6d9757634c8
+Directory: dockerfiles/official/17/ubuntu/jdk
+
+Tags: jre-headless-ubuntu-20.0.1
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: 3d1d665c88254d2c3ae205ee47b6d924e0217893
+Directory: dockerfiles/official/20/ubuntu/jre-headless
+
+Tags: jre-ubuntu-20.0.1
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: 3d1d665c88254d2c3ae205ee47b6d924e0217893
+Directory: dockerfiles/official/20/ubuntu/jre
+
+Tags: jdk-headless-ubuntu-20.0.1
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: 3d1d665c88254d2c3ae205ee47b6d924e0217893
+Directory: dockerfiles/official/20/ubuntu/jdk-headless
+
+Tags: jdk-ubuntu-20.0.1,20.0.1
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: 3d1d665c88254d2c3ae205ee47b6d924e0217893
+Directory: dockerfiles/official/20/ubuntu/jdk
 
 Tags: 11.0.18
 Architectures: amd64,arm64v8,ppc64le

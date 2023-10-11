@@ -2,10 +2,39 @@ Blocks:
 - Architectures:
   - amd64
   - arm64v8
+  Directory: 2023.08/bookworm
+  GitCommit: 9b9e5827fb816027ae946c1d0b6ccdc9e0ee4501
+  Tags:
+  - latest
+  - "2023.08"
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: 2023.08/alpine3.18
+  GitCommit: 9b9e5827fb816027ae946c1d0b6ccdc9e0ee4501
+  Tags:
+  - alpine
+  - 2023.08-alpine
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: 2023.06/bookworm
+  GitCommit: 40594a60036aa9918d742cc942adade6edc223cd
+  Tags:
+  - "2023.06"
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: 2023.06/alpine3.18
+  GitCommit: 40594a60036aa9918d742cc942adade6edc223cd
+  Tags:
+  - 2023.06-alpine
+- Architectures:
+  - amd64
+  - arm64v8
   Directory: 2023.04/bullseye
   GitCommit: 908f33d76c1437ddfdee8596049d8a9877c03d60
   Tags:
-  - latest
   - "2023.04"
 - Architectures:
   - amd64
@@ -13,7 +42,6 @@ Blocks:
   Directory: 2023.04/alpine3.17
   GitCommit: 908f33d76c1437ddfdee8596049d8a9877c03d60
   Tags:
-  - alpine
   - 2023.04-alpine
 - Architectures:
   - amd64
@@ -149,6 +177,10 @@ KnownTags:
   2023.02-alpine: {}
   "2023.04": {}
   2023.04-alpine: {}
+  "2023.06": {}
+  2023.06-alpine: {}
+  "2023.08": {}
+  2023.08-alpine: {}
   alpine: {}
   latest: {}
 Name: rakudo-star

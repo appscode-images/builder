@@ -2,11 +2,863 @@ Blocks:
 - Architectures:
   - amd64
   Directory: 8/jdk/alpine
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 8u382-b05-jdk-alpine
+  - 8-jdk-alpine
+  - 8-alpine
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  Directory: 8/jdk/ubuntu/focal
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 8u382-b05-jdk-focal
+  - 8-jdk-focal
+  - 8-focal
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  Directory: 8/jdk/ubuntu/jammy
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 8u382-b05-jdk-jammy
+  - 8-jdk-jammy
+  - 8-jammy
+- Architectures:
+  - amd64
+  - arm64v8
+  - ppc64le
+  Directory: 8/jdk/centos
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 8u382-b05-jdk-centos7
+  - 8-jdk-centos7
+  - 8-centos7
+- Architectures:
+  - amd64
+  - arm64v8
+  - ppc64le
+  Directory: 8/jdk/ubi/ubi9-minimal
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 8u382-b05-jdk-ubi9-minimal
+  - 8-jdk-ubi9-minimal
+  - 8-ubi9-minimal
+- Architectures:
+  - windows-amd64
+  Directory: 8/jdk/windows/windowsservercore-ltsc2022
+  GitCommit: a076df4eb8dd8a60f52fbb60d9adc8e5f86c8b1a
+  Tags:
+  - 8u382-b05-jdk-windowsservercore-ltsc2022
+  - 8-jdk-windowsservercore-ltsc2022
+  - 8-windowsservercore-ltsc2022
+- Architectures:
+  - windows-amd64
+  Directory: 8/jdk/windows/nanoserver-ltsc2022
+  GitCommit: a076df4eb8dd8a60f52fbb60d9adc8e5f86c8b1a
+  Tags:
+  - 8u382-b05-jdk-nanoserver-ltsc2022
+  - 8-jdk-nanoserver-ltsc2022
+  - 8-nanoserver-ltsc2022
+- Architectures:
+  - windows-amd64
+  Directory: 8/jdk/windows/windowsservercore-1809
+  GitCommit: a076df4eb8dd8a60f52fbb60d9adc8e5f86c8b1a
+  Tags:
+  - 8u382-b05-jdk-windowsservercore-1809
+  - 8-jdk-windowsservercore-1809
+  - 8-windowsservercore-1809
+- Architectures:
+  - windows-amd64
+  Directory: 8/jdk/windows/nanoserver-1809
+  GitCommit: a076df4eb8dd8a60f52fbb60d9adc8e5f86c8b1a
+  Tags:
+  - 8u382-b05-jdk-nanoserver-1809
+  - 8-jdk-nanoserver-1809
+  - 8-nanoserver-1809
+- Architectures:
+  - amd64
+  Directory: 8/jre/alpine
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 8u382-b05-jre-alpine
+  - 8-jre-alpine
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  Directory: 8/jre/ubuntu/focal
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 8u382-b05-jre-focal
+  - 8-jre-focal
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  Directory: 8/jre/ubuntu/jammy
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 8u382-b05-jre-jammy
+  - 8-jre-jammy
+- Architectures:
+  - amd64
+  - arm64v8
+  - ppc64le
+  Directory: 8/jre/centos
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 8u382-b05-jre-centos7
+  - 8-jre-centos7
+- Architectures:
+  - amd64
+  - arm64v8
+  - ppc64le
+  Directory: 8/jre/ubi/ubi9-minimal
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 8u382-b05-jre-ubi9-minimal
+  - 8-jre-ubi9-minimal
+- Architectures:
+  - windows-amd64
+  Directory: 8/jre/windows/windowsservercore-ltsc2022
+  GitCommit: a076df4eb8dd8a60f52fbb60d9adc8e5f86c8b1a
+  Tags:
+  - 8u382-b05-jre-windowsservercore-ltsc2022
+  - 8-jre-windowsservercore-ltsc2022
+- Architectures:
+  - windows-amd64
+  Directory: 8/jre/windows/nanoserver-ltsc2022
+  GitCommit: a076df4eb8dd8a60f52fbb60d9adc8e5f86c8b1a
+  Tags:
+  - 8u382-b05-jre-nanoserver-ltsc2022
+  - 8-jre-nanoserver-ltsc2022
+- Architectures:
+  - windows-amd64
+  Directory: 8/jre/windows/windowsservercore-1809
+  GitCommit: a076df4eb8dd8a60f52fbb60d9adc8e5f86c8b1a
+  Tags:
+  - 8u382-b05-jre-windowsservercore-1809
+  - 8-jre-windowsservercore-1809
+- Architectures:
+  - windows-amd64
+  Directory: 8/jre/windows/nanoserver-1809
+  GitCommit: a076df4eb8dd8a60f52fbb60d9adc8e5f86c8b1a
+  Tags:
+  - 8u382-b05-jre-nanoserver-1809
+  - 8-jre-nanoserver-1809
+- Architectures:
+  - amd64
+  Directory: 11/jdk/alpine
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 11.0.20.1_1-jdk-alpine
+  - 11-jdk-alpine
+  - 11-alpine
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 11/jdk/ubuntu/focal
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 11.0.20.1_1-jdk-focal
+  - 11-jdk-focal
+  - 11-focal
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 11/jdk/ubuntu/jammy
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 11.0.20.1_1-jdk-jammy
+  - 11-jdk-jammy
+  - 11-jammy
+- Architectures:
+  - amd64
+  - arm64v8
+  - ppc64le
+  Directory: 11/jdk/centos
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 11.0.20.1_1-jdk-centos7
+  - 11-jdk-centos7
+  - 11-centos7
+- Architectures:
+  - amd64
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 11/jdk/ubi/ubi9-minimal
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 11.0.20.1_1-jdk-ubi9-minimal
+  - 11-jdk-ubi9-minimal
+  - 11-ubi9-minimal
+- Architectures:
+  - windows-amd64
+  Directory: 11/jdk/windows/windowsservercore-ltsc2022
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 11.0.20.1_1-jdk-windowsservercore-ltsc2022
+  - 11-jdk-windowsservercore-ltsc2022
+  - 11-windowsservercore-ltsc2022
+- Architectures:
+  - windows-amd64
+  Directory: 11/jdk/windows/nanoserver-ltsc2022
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 11.0.20.1_1-jdk-nanoserver-ltsc2022
+  - 11-jdk-nanoserver-ltsc2022
+  - 11-nanoserver-ltsc2022
+- Architectures:
+  - windows-amd64
+  Directory: 11/jdk/windows/windowsservercore-1809
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 11.0.20.1_1-jdk-windowsservercore-1809
+  - 11-jdk-windowsservercore-1809
+  - 11-windowsservercore-1809
+- Architectures:
+  - windows-amd64
+  Directory: 11/jdk/windows/nanoserver-1809
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 11.0.20.1_1-jdk-nanoserver-1809
+  - 11-jdk-nanoserver-1809
+  - 11-nanoserver-1809
+- Architectures:
+  - amd64
+  Directory: 11/jre/alpine
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 11.0.20.1_1-jre-alpine
+  - 11-jre-alpine
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 11/jre/ubuntu/focal
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 11.0.20.1_1-jre-focal
+  - 11-jre-focal
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 11/jre/ubuntu/jammy
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 11.0.20.1_1-jre-jammy
+  - 11-jre-jammy
+- Architectures:
+  - amd64
+  - arm64v8
+  - ppc64le
+  Directory: 11/jre/centos
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 11.0.20.1_1-jre-centos7
+  - 11-jre-centos7
+- Architectures:
+  - amd64
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 11/jre/ubi/ubi9-minimal
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 11.0.20.1_1-jre-ubi9-minimal
+  - 11-jre-ubi9-minimal
+- Architectures:
+  - windows-amd64
+  Directory: 11/jre/windows/windowsservercore-ltsc2022
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 11.0.20.1_1-jre-windowsservercore-ltsc2022
+  - 11-jre-windowsservercore-ltsc2022
+- Architectures:
+  - windows-amd64
+  Directory: 11/jre/windows/nanoserver-ltsc2022
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 11.0.20.1_1-jre-nanoserver-ltsc2022
+  - 11-jre-nanoserver-ltsc2022
+- Architectures:
+  - windows-amd64
+  Directory: 11/jre/windows/windowsservercore-1809
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 11.0.20.1_1-jre-windowsservercore-1809
+  - 11-jre-windowsservercore-1809
+- Architectures:
+  - windows-amd64
+  Directory: 11/jre/windows/nanoserver-1809
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 11.0.20.1_1-jre-nanoserver-1809
+  - 11-jre-nanoserver-1809
+- Architectures:
+  - amd64
+  Directory: 17/jdk/alpine
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 17.0.8.1_1-jdk-alpine
+  - 17-jdk-alpine
+  - 17-alpine
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 17/jdk/ubuntu/focal
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 17.0.8.1_1-jdk-focal
+  - 17-jdk-focal
+  - 17-focal
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 17/jdk/ubuntu/jammy
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 17.0.8.1_1-jdk-jammy
+  - 17-jdk-jammy
+  - 17-jammy
+- Architectures:
+  - amd64
+  - arm64v8
+  - ppc64le
+  Directory: 17/jdk/centos
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 17.0.8.1_1-jdk-centos7
+  - 17-jdk-centos7
+  - 17-centos7
+- Architectures:
+  - amd64
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 17/jdk/ubi/ubi9-minimal
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 17.0.8.1_1-jdk-ubi9-minimal
+  - 17-jdk-ubi9-minimal
+  - 17-ubi9-minimal
+- Architectures:
+  - windows-amd64
+  Directory: 17/jdk/windows/windowsservercore-ltsc2022
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 17.0.8.1_1-jdk-windowsservercore-ltsc2022
+  - 17-jdk-windowsservercore-ltsc2022
+  - 17-windowsservercore-ltsc2022
+- Architectures:
+  - windows-amd64
+  Directory: 17/jdk/windows/nanoserver-ltsc2022
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 17.0.8.1_1-jdk-nanoserver-ltsc2022
+  - 17-jdk-nanoserver-ltsc2022
+  - 17-nanoserver-ltsc2022
+- Architectures:
+  - windows-amd64
+  Directory: 17/jdk/windows/windowsservercore-1809
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 17.0.8.1_1-jdk-windowsservercore-1809
+  - 17-jdk-windowsservercore-1809
+  - 17-windowsservercore-1809
+- Architectures:
+  - windows-amd64
+  Directory: 17/jdk/windows/nanoserver-1809
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 17.0.8.1_1-jdk-nanoserver-1809
+  - 17-jdk-nanoserver-1809
+  - 17-nanoserver-1809
+- Architectures:
+  - amd64
+  Directory: 17/jre/alpine
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 17.0.8.1_1-jre-alpine
+  - 17-jre-alpine
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 17/jre/ubuntu/focal
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 17.0.8.1_1-jre-focal
+  - 17-jre-focal
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 17/jre/ubuntu/jammy
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 17.0.8.1_1-jre-jammy
+  - 17-jre-jammy
+- Architectures:
+  - amd64
+  - arm64v8
+  - ppc64le
+  Directory: 17/jre/centos
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 17.0.8.1_1-jre-centos7
+  - 17-jre-centos7
+- Architectures:
+  - amd64
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 17/jre/ubi/ubi9-minimal
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 17.0.8.1_1-jre-ubi9-minimal
+  - 17-jre-ubi9-minimal
+- Architectures:
+  - windows-amd64
+  Directory: 17/jre/windows/windowsservercore-ltsc2022
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 17.0.8.1_1-jre-windowsservercore-ltsc2022
+  - 17-jre-windowsservercore-ltsc2022
+- Architectures:
+  - windows-amd64
+  Directory: 17/jre/windows/nanoserver-ltsc2022
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 17.0.8.1_1-jre-nanoserver-ltsc2022
+  - 17-jre-nanoserver-ltsc2022
+- Architectures:
+  - windows-amd64
+  Directory: 17/jre/windows/windowsservercore-1809
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 17.0.8.1_1-jre-windowsservercore-1809
+  - 17-jre-windowsservercore-1809
+- Architectures:
+  - windows-amd64
+  Directory: 17/jre/windows/nanoserver-1809
+  GitCommit: 25f458a0991f58bb7ed0ec9817e026a40d559c38
+  Tags:
+  - 17.0.8.1_1-jre-nanoserver-1809
+  - 17-jre-nanoserver-1809
+- Architectures:
+  - amd64
+  Directory: 20/jdk/alpine
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 20.0.2_9-jdk-alpine
+  - 20-jdk-alpine
+  - 20-alpine
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: 20/jdk/ubuntu/jammy
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 20.0.2_9-jdk-jammy
+  - 20-jdk-jammy
+  - 20-jammy
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: 20/jdk/ubi/ubi9-minimal
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 20.0.2_9-jdk-ubi9-minimal
+  - 20-jdk-ubi9-minimal
+  - 20-ubi9-minimal
+- Architectures:
+  - windows-amd64
+  Directory: 20/jdk/windows/windowsservercore-ltsc2022
+  GitCommit: 22734cf4688ad791769df55353dfb15bba9abca5
+  Tags:
+  - 20.0.2_9-jdk-windowsservercore-ltsc2022
+  - 20-jdk-windowsservercore-ltsc2022
+  - 20-windowsservercore-ltsc2022
+- Architectures:
+  - windows-amd64
+  Directory: 20/jdk/windows/nanoserver-ltsc2022
+  GitCommit: 22734cf4688ad791769df55353dfb15bba9abca5
+  Tags:
+  - 20.0.2_9-jdk-nanoserver-ltsc2022
+  - 20-jdk-nanoserver-ltsc2022
+  - 20-nanoserver-ltsc2022
+- Architectures:
+  - windows-amd64
+  Directory: 20/jdk/windows/windowsservercore-1809
+  GitCommit: 22734cf4688ad791769df55353dfb15bba9abca5
+  Tags:
+  - 20.0.2_9-jdk-windowsservercore-1809
+  - 20-jdk-windowsservercore-1809
+  - 20-windowsservercore-1809
+- Architectures:
+  - windows-amd64
+  Directory: 20/jdk/windows/nanoserver-1809
+  GitCommit: 22734cf4688ad791769df55353dfb15bba9abca5
+  Tags:
+  - 20.0.2_9-jdk-nanoserver-1809
+  - 20-jdk-nanoserver-1809
+  - 20-nanoserver-1809
+- Architectures:
+  - amd64
+  Directory: 20/jre/alpine
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 20.0.2_9-jre-alpine
+  - 20-jre-alpine
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: 20/jre/ubuntu/jammy
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 20.0.2_9-jre-jammy
+  - 20-jre-jammy
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: 20/jre/ubi/ubi9-minimal
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 20.0.2_9-jre-ubi9-minimal
+  - 20-jre-ubi9-minimal
+- Architectures:
+  - windows-amd64
+  Directory: 20/jre/windows/windowsservercore-ltsc2022
+  GitCommit: 22734cf4688ad791769df55353dfb15bba9abca5
+  Tags:
+  - 20.0.2_9-jre-windowsservercore-ltsc2022
+  - 20-jre-windowsservercore-ltsc2022
+- Architectures:
+  - windows-amd64
+  Directory: 20/jre/windows/nanoserver-ltsc2022
+  GitCommit: 22734cf4688ad791769df55353dfb15bba9abca5
+  Tags:
+  - 20.0.2_9-jre-nanoserver-ltsc2022
+  - 20-jre-nanoserver-ltsc2022
+- Architectures:
+  - windows-amd64
+  Directory: 20/jre/windows/windowsservercore-1809
+  GitCommit: 22734cf4688ad791769df55353dfb15bba9abca5
+  Tags:
+  - 20.0.2_9-jre-windowsservercore-1809
+  - 20-jre-windowsservercore-1809
+- Architectures:
+  - windows-amd64
+  Directory: 20/jre/windows/nanoserver-1809
+  GitCommit: 22734cf4688ad791769df55353dfb15bba9abca5
+  Tags:
+  - 20.0.2_9-jre-nanoserver-1809
+  - 20-jre-nanoserver-1809
+- Architectures:
+  - amd64
+  Directory: 11/jdk/alpine
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 11.0.20_8-jdk-alpine
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 11/jdk/ubuntu/focal
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 11.0.20_8-jdk-focal
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 11/jdk/ubuntu/jammy
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 11.0.20_8-jdk-jammy
+- Architectures:
+  - amd64
+  - arm64v8
+  - ppc64le
+  Directory: 11/jdk/centos
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 11.0.20_8-jdk-centos7
+- Architectures:
+  - amd64
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 11/jdk/ubi/ubi9-minimal
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 11.0.20_8-jdk-ubi9-minimal
+- Architectures:
+  - windows-amd64
+  Directory: 11/jdk/windows/windowsservercore-ltsc2022
+  GitCommit: 7b6ee5b8da666343ab1169d6019833a94ef6eb6d
+  Tags:
+  - 11.0.20_8-jdk-windowsservercore-ltsc2022
+- Architectures:
+  - windows-amd64
+  Directory: 11/jdk/windows/nanoserver-ltsc2022
+  GitCommit: 7b6ee5b8da666343ab1169d6019833a94ef6eb6d
+  Tags:
+  - 11.0.20_8-jdk-nanoserver-ltsc2022
+- Architectures:
+  - windows-amd64
+  Directory: 11/jdk/windows/windowsservercore-1809
+  GitCommit: 7b6ee5b8da666343ab1169d6019833a94ef6eb6d
+  Tags:
+  - 11.0.20_8-jdk-windowsservercore-1809
+- Architectures:
+  - windows-amd64
+  Directory: 11/jdk/windows/nanoserver-1809
+  GitCommit: 7b6ee5b8da666343ab1169d6019833a94ef6eb6d
+  Tags:
+  - 11.0.20_8-jdk-nanoserver-1809
+- Architectures:
+  - amd64
+  Directory: 11/jre/alpine
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 11.0.20_8-jre-alpine
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 11/jre/ubuntu/focal
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 11.0.20_8-jre-focal
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 11/jre/ubuntu/jammy
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 11.0.20_8-jre-jammy
+- Architectures:
+  - amd64
+  - arm64v8
+  - ppc64le
+  Directory: 11/jre/centos
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 11.0.20_8-jre-centos7
+- Architectures:
+  - amd64
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 11/jre/ubi/ubi9-minimal
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 11.0.20_8-jre-ubi9-minimal
+- Architectures:
+  - windows-amd64
+  Directory: 11/jre/windows/windowsservercore-ltsc2022
+  GitCommit: 7b6ee5b8da666343ab1169d6019833a94ef6eb6d
+  Tags:
+  - 11.0.20_8-jre-windowsservercore-ltsc2022
+- Architectures:
+  - windows-amd64
+  Directory: 11/jre/windows/nanoserver-ltsc2022
+  GitCommit: 7b6ee5b8da666343ab1169d6019833a94ef6eb6d
+  Tags:
+  - 11.0.20_8-jre-nanoserver-ltsc2022
+- Architectures:
+  - windows-amd64
+  Directory: 11/jre/windows/windowsservercore-1809
+  GitCommit: 7b6ee5b8da666343ab1169d6019833a94ef6eb6d
+  Tags:
+  - 11.0.20_8-jre-windowsservercore-1809
+- Architectures:
+  - windows-amd64
+  Directory: 11/jre/windows/nanoserver-1809
+  GitCommit: 7b6ee5b8da666343ab1169d6019833a94ef6eb6d
+  Tags:
+  - 11.0.20_8-jre-nanoserver-1809
+- Architectures:
+  - amd64
+  Directory: 17/jdk/alpine
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 17.0.8_7-jdk-alpine
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 17/jdk/ubuntu/focal
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 17.0.8_7-jdk-focal
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 17/jdk/ubuntu/jammy
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 17.0.8_7-jdk-jammy
+- Architectures:
+  - amd64
+  - arm64v8
+  - ppc64le
+  Directory: 17/jdk/centos
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 17.0.8_7-jdk-centos7
+- Architectures:
+  - amd64
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 17/jdk/ubi/ubi9-minimal
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 17.0.8_7-jdk-ubi9-minimal
+- Architectures:
+  - windows-amd64
+  Directory: 17/jdk/windows/windowsservercore-ltsc2022
+  GitCommit: 2eabe3e4525f57d9d4e85af796fca2a2748fe907
+  Tags:
+  - 17.0.8_7-jdk-windowsservercore-ltsc2022
+- Architectures:
+  - windows-amd64
+  Directory: 17/jdk/windows/nanoserver-ltsc2022
+  GitCommit: 2eabe3e4525f57d9d4e85af796fca2a2748fe907
+  Tags:
+  - 17.0.8_7-jdk-nanoserver-ltsc2022
+- Architectures:
+  - windows-amd64
+  Directory: 17/jdk/windows/windowsservercore-1809
+  GitCommit: 2eabe3e4525f57d9d4e85af796fca2a2748fe907
+  Tags:
+  - 17.0.8_7-jdk-windowsservercore-1809
+- Architectures:
+  - windows-amd64
+  Directory: 17/jdk/windows/nanoserver-1809
+  GitCommit: 2eabe3e4525f57d9d4e85af796fca2a2748fe907
+  Tags:
+  - 17.0.8_7-jdk-nanoserver-1809
+- Architectures:
+  - amd64
+  Directory: 17/jre/alpine
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 17.0.8_7-jre-alpine
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 17/jre/ubuntu/focal
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 17.0.8_7-jre-focal
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 17/jre/ubuntu/jammy
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 17.0.8_7-jre-jammy
+- Architectures:
+  - amd64
+  - arm64v8
+  - ppc64le
+  Directory: 17/jre/centos
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 17.0.8_7-jre-centos7
+- Architectures:
+  - amd64
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 17/jre/ubi/ubi9-minimal
+  GitCommit: f308aa1a9dc0ac8775662e4c4d71840088ab076c
+  Tags:
+  - 17.0.8_7-jre-ubi9-minimal
+- Architectures:
+  - windows-amd64
+  Directory: 17/jre/windows/windowsservercore-ltsc2022
+  GitCommit: 2eabe3e4525f57d9d4e85af796fca2a2748fe907
+  Tags:
+  - 17.0.8_7-jre-windowsservercore-ltsc2022
+- Architectures:
+  - windows-amd64
+  Directory: 17/jre/windows/nanoserver-ltsc2022
+  GitCommit: 2eabe3e4525f57d9d4e85af796fca2a2748fe907
+  Tags:
+  - 17.0.8_7-jre-nanoserver-ltsc2022
+- Architectures:
+  - windows-amd64
+  Directory: 17/jre/windows/windowsservercore-1809
+  GitCommit: 2eabe3e4525f57d9d4e85af796fca2a2748fe907
+  Tags:
+  - 17.0.8_7-jre-windowsservercore-1809
+- Architectures:
+  - windows-amd64
+  Directory: 17/jre/windows/nanoserver-1809
+  GitCommit: 2eabe3e4525f57d9d4e85af796fca2a2748fe907
+  Tags:
+  - 17.0.8_7-jre-nanoserver-1809
+- Architectures:
+  - amd64
+  Directory: 8/jdk/alpine
   GitCommit: 15919f7dd6a903f0f966f484461954dcf7e28620
   Tags:
   - 8u372-b07-jdk-alpine
-  - 8-jdk-alpine
-  - 8-alpine
 - Architectures:
   - amd64
   - arm32v7
@@ -16,8 +868,6 @@ Blocks:
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 8u372-b07-jdk-focal
-  - 8-jdk-focal
-  - 8-focal
 - Architectures:
   - amd64
   - arm32v7
@@ -27,8 +877,6 @@ Blocks:
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 8u372-b07-jdk-jammy
-  - 8-jdk-jammy
-  - 8-jammy
 - Architectures:
   - amd64
   - arm64v8
@@ -37,8 +885,6 @@ Blocks:
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 8u372-b07-jdk-centos7
-  - 8-jdk-centos7
-  - 8-centos7
 - Architectures:
   - amd64
   - arm64v8
@@ -47,47 +893,36 @@ Blocks:
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 8u372-b07-jdk-ubi9-minimal
-  - 8-jdk-ubi9-minimal
-  - 8-ubi9-minimal
 - Architectures:
   - windows-amd64
   Directory: 8/jdk/windows/windowsservercore-ltsc2022
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 8u372-b07-jdk-windowsservercore-ltsc2022
-  - 8-jdk-windowsservercore-ltsc2022
-  - 8-windowsservercore-ltsc2022
 - Architectures:
   - windows-amd64
   Directory: 8/jdk/windows/nanoserver-ltsc2022
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 8u372-b07-jdk-nanoserver-ltsc2022
-  - 8-jdk-nanoserver-ltsc2022
-  - 8-nanoserver-ltsc2022
 - Architectures:
   - windows-amd64
   Directory: 8/jdk/windows/windowsservercore-1809
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 8u372-b07-jdk-windowsservercore-1809
-  - 8-jdk-windowsservercore-1809
-  - 8-windowsservercore-1809
 - Architectures:
   - windows-amd64
   Directory: 8/jdk/windows/nanoserver-1809
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 8u372-b07-jdk-nanoserver-1809
-  - 8-jdk-nanoserver-1809
-  - 8-nanoserver-1809
 - Architectures:
   - amd64
   Directory: 8/jre/alpine
   GitCommit: 15919f7dd6a903f0f966f484461954dcf7e28620
   Tags:
   - 8u372-b07-jre-alpine
-  - 8-jre-alpine
 - Architectures:
   - amd64
   - arm32v7
@@ -97,7 +932,6 @@ Blocks:
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 8u372-b07-jre-focal
-  - 8-jre-focal
 - Architectures:
   - amd64
   - arm32v7
@@ -107,7 +941,6 @@ Blocks:
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 8u372-b07-jre-jammy
-  - 8-jre-jammy
 - Architectures:
   - amd64
   - arm64v8
@@ -116,7 +949,6 @@ Blocks:
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 8u372-b07-jre-centos7
-  - 8-jre-centos7
 - Architectures:
   - amd64
   - arm64v8
@@ -125,43 +957,36 @@ Blocks:
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 8u372-b07-jre-ubi9-minimal
-  - 8-jre-ubi9-minimal
 - Architectures:
   - windows-amd64
   Directory: 8/jre/windows/windowsservercore-ltsc2022
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 8u372-b07-jre-windowsservercore-ltsc2022
-  - 8-jre-windowsservercore-ltsc2022
 - Architectures:
   - windows-amd64
   Directory: 8/jre/windows/nanoserver-ltsc2022
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 8u372-b07-jre-nanoserver-ltsc2022
-  - 8-jre-nanoserver-ltsc2022
 - Architectures:
   - windows-amd64
   Directory: 8/jre/windows/windowsservercore-1809
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 8u372-b07-jre-windowsservercore-1809
-  - 8-jre-windowsservercore-1809
 - Architectures:
   - windows-amd64
   Directory: 8/jre/windows/nanoserver-1809
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 8u372-b07-jre-nanoserver-1809
-  - 8-jre-nanoserver-1809
 - Architectures:
   - amd64
   Directory: 11/jdk/alpine
   GitCommit: 15919f7dd6a903f0f966f484461954dcf7e28620
   Tags:
   - 11.0.19_7-jdk-alpine
-  - 11-jdk-alpine
-  - 11-alpine
 - Architectures:
   - amd64
   - arm32v7
@@ -172,8 +997,6 @@ Blocks:
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 11.0.19_7-jdk-focal
-  - 11-jdk-focal
-  - 11-focal
 - Architectures:
   - amd64
   - arm32v7
@@ -184,8 +1007,6 @@ Blocks:
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 11.0.19_7-jdk-jammy
-  - 11-jdk-jammy
-  - 11-jammy
 - Architectures:
   - amd64
   - arm64v8
@@ -194,8 +1015,6 @@ Blocks:
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 11.0.19_7-jdk-centos7
-  - 11-jdk-centos7
-  - 11-centos7
 - Architectures:
   - amd64
   - arm64v8
@@ -205,47 +1024,36 @@ Blocks:
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 11.0.19_7-jdk-ubi9-minimal
-  - 11-jdk-ubi9-minimal
-  - 11-ubi9-minimal
 - Architectures:
   - windows-amd64
   Directory: 11/jdk/windows/windowsservercore-ltsc2022
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 11.0.19_7-jdk-windowsservercore-ltsc2022
-  - 11-jdk-windowsservercore-ltsc2022
-  - 11-windowsservercore-ltsc2022
 - Architectures:
   - windows-amd64
   Directory: 11/jdk/windows/nanoserver-ltsc2022
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 11.0.19_7-jdk-nanoserver-ltsc2022
-  - 11-jdk-nanoserver-ltsc2022
-  - 11-nanoserver-ltsc2022
 - Architectures:
   - windows-amd64
   Directory: 11/jdk/windows/windowsservercore-1809
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 11.0.19_7-jdk-windowsservercore-1809
-  - 11-jdk-windowsservercore-1809
-  - 11-windowsservercore-1809
 - Architectures:
   - windows-amd64
   Directory: 11/jdk/windows/nanoserver-1809
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 11.0.19_7-jdk-nanoserver-1809
-  - 11-jdk-nanoserver-1809
-  - 11-nanoserver-1809
 - Architectures:
   - amd64
   Directory: 11/jre/alpine
   GitCommit: 15919f7dd6a903f0f966f484461954dcf7e28620
   Tags:
   - 11.0.19_7-jre-alpine
-  - 11-jre-alpine
 - Architectures:
   - amd64
   - arm32v7
@@ -256,7 +1064,6 @@ Blocks:
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 11.0.19_7-jre-focal
-  - 11-jre-focal
 - Architectures:
   - amd64
   - arm32v7
@@ -267,7 +1074,6 @@ Blocks:
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 11.0.19_7-jre-jammy
-  - 11-jre-jammy
 - Architectures:
   - amd64
   - arm64v8
@@ -276,7 +1082,6 @@ Blocks:
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 11.0.19_7-jre-centos7
-  - 11-jre-centos7
 - Architectures:
   - amd64
   - arm64v8
@@ -286,43 +1091,48 @@ Blocks:
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 11.0.19_7-jre-ubi9-minimal
-  - 11-jre-ubi9-minimal
 - Architectures:
   - windows-amd64
   Directory: 11/jre/windows/windowsservercore-ltsc2022
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 11.0.19_7-jre-windowsservercore-ltsc2022
-  - 11-jre-windowsservercore-ltsc2022
 - Architectures:
   - windows-amd64
   Directory: 11/jre/windows/nanoserver-ltsc2022
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 11.0.19_7-jre-nanoserver-ltsc2022
-  - 11-jre-nanoserver-ltsc2022
 - Architectures:
   - windows-amd64
   Directory: 11/jre/windows/windowsservercore-1809
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 11.0.19_7-jre-windowsservercore-1809
-  - 11-jre-windowsservercore-1809
 - Architectures:
   - windows-amd64
   Directory: 11/jre/windows/nanoserver-1809
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 11.0.19_7-jre-nanoserver-1809
-  - 11-jre-nanoserver-1809
+- Architectures:
+  - amd64
+  Directory: 20/jdk/alpine
+  GitCommit: 22734cf4688ad791769df55353dfb15bba9abca5
+  Tags:
+  - 20.0.1_9-jdk-alpine
+- Architectures:
+  - amd64
+  Directory: 20/jre/alpine
+  GitCommit: 22734cf4688ad791769df55353dfb15bba9abca5
+  Tags:
+  - 20.0.1_9-jre-alpine
 - Architectures:
   - amd64
   Directory: 17/jdk/alpine
   GitCommit: 15919f7dd6a903f0f966f484461954dcf7e28620
   Tags:
   - 17.0.7_7-jdk-alpine
-  - 17-jdk-alpine
-  - 17-alpine
 - Architectures:
   - amd64
   - arm32v7
@@ -333,8 +1143,6 @@ Blocks:
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 17.0.7_7-jdk-focal
-  - 17-jdk-focal
-  - 17-focal
 - Architectures:
   - amd64
   - arm32v7
@@ -345,8 +1153,6 @@ Blocks:
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 17.0.7_7-jdk-jammy
-  - 17-jdk-jammy
-  - 17-jammy
 - Architectures:
   - amd64
   - arm64v8
@@ -355,8 +1161,6 @@ Blocks:
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 17.0.7_7-jdk-centos7
-  - 17-jdk-centos7
-  - 17-centos7
 - Architectures:
   - amd64
   - arm64v8
@@ -366,47 +1170,36 @@ Blocks:
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 17.0.7_7-jdk-ubi9-minimal
-  - 17-jdk-ubi9-minimal
-  - 17-ubi9-minimal
 - Architectures:
   - windows-amd64
   Directory: 17/jdk/windows/windowsservercore-ltsc2022
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 17.0.7_7-jdk-windowsservercore-ltsc2022
-  - 17-jdk-windowsservercore-ltsc2022
-  - 17-windowsservercore-ltsc2022
 - Architectures:
   - windows-amd64
   Directory: 17/jdk/windows/nanoserver-ltsc2022
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 17.0.7_7-jdk-nanoserver-ltsc2022
-  - 17-jdk-nanoserver-ltsc2022
-  - 17-nanoserver-ltsc2022
 - Architectures:
   - windows-amd64
   Directory: 17/jdk/windows/windowsservercore-1809
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 17.0.7_7-jdk-windowsservercore-1809
-  - 17-jdk-windowsservercore-1809
-  - 17-windowsservercore-1809
 - Architectures:
   - windows-amd64
   Directory: 17/jdk/windows/nanoserver-1809
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 17.0.7_7-jdk-nanoserver-1809
-  - 17-jdk-nanoserver-1809
-  - 17-nanoserver-1809
 - Architectures:
   - amd64
   Directory: 17/jre/alpine
   GitCommit: 15919f7dd6a903f0f966f484461954dcf7e28620
   Tags:
   - 17.0.7_7-jre-alpine
-  - 17-jre-alpine
 - Architectures:
   - amd64
   - arm32v7
@@ -417,7 +1210,6 @@ Blocks:
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 17.0.7_7-jre-focal
-  - 17-jre-focal
 - Architectures:
   - amd64
   - arm32v7
@@ -428,7 +1220,6 @@ Blocks:
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 17.0.7_7-jre-jammy
-  - 17-jre-jammy
 - Architectures:
   - amd64
   - arm64v8
@@ -437,7 +1228,6 @@ Blocks:
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 17.0.7_7-jre-centos7
-  - 17-jre-centos7
 - Architectures:
   - amd64
   - arm64v8
@@ -447,43 +1237,30 @@ Blocks:
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 17.0.7_7-jre-ubi9-minimal
-  - 17-jre-ubi9-minimal
 - Architectures:
   - windows-amd64
   Directory: 17/jre/windows/windowsservercore-ltsc2022
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 17.0.7_7-jre-windowsservercore-ltsc2022
-  - 17-jre-windowsservercore-ltsc2022
 - Architectures:
   - windows-amd64
   Directory: 17/jre/windows/nanoserver-ltsc2022
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 17.0.7_7-jre-nanoserver-ltsc2022
-  - 17-jre-nanoserver-ltsc2022
 - Architectures:
   - windows-amd64
   Directory: 17/jre/windows/windowsservercore-1809
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 17.0.7_7-jre-windowsservercore-1809
-  - 17-jre-windowsservercore-1809
 - Architectures:
   - windows-amd64
   Directory: 17/jre/windows/nanoserver-1809
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 17.0.7_7-jre-nanoserver-1809
-  - 17-jre-nanoserver-1809
-- Architectures:
-  - amd64
-  Directory: 20/jdk/alpine
-  GitCommit: 15919f7dd6a903f0f966f484461954dcf7e28620
-  Tags:
-  - 20.0.1_9-jdk-alpine
-  - 20-jdk-alpine
-  - 20-alpine
 - Architectures:
   - amd64
   - arm64v8
@@ -491,8 +1268,6 @@ Blocks:
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 20.0.1_9-jdk-jammy
-  - 20-jdk-jammy
-  - 20-jammy
 - Architectures:
   - amd64
   - arm64v8
@@ -500,47 +1275,30 @@ Blocks:
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 20.0.1_9-jdk-ubi9-minimal
-  - 20-jdk-ubi9-minimal
-  - 20-ubi9-minimal
 - Architectures:
   - windows-amd64
   Directory: 20/jdk/windows/windowsservercore-ltsc2022
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 20.0.1_9-jdk-windowsservercore-ltsc2022
-  - 20-jdk-windowsservercore-ltsc2022
-  - 20-windowsservercore-ltsc2022
 - Architectures:
   - windows-amd64
   Directory: 20/jdk/windows/nanoserver-ltsc2022
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 20.0.1_9-jdk-nanoserver-ltsc2022
-  - 20-jdk-nanoserver-ltsc2022
-  - 20-nanoserver-ltsc2022
 - Architectures:
   - windows-amd64
   Directory: 20/jdk/windows/windowsservercore-1809
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 20.0.1_9-jdk-windowsservercore-1809
-  - 20-jdk-windowsservercore-1809
-  - 20-windowsservercore-1809
 - Architectures:
   - windows-amd64
   Directory: 20/jdk/windows/nanoserver-1809
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 20.0.1_9-jdk-nanoserver-1809
-  - 20-jdk-nanoserver-1809
-  - 20-nanoserver-1809
-- Architectures:
-  - amd64
-  Directory: 20/jre/alpine
-  GitCommit: 15919f7dd6a903f0f966f484461954dcf7e28620
-  Tags:
-  - 20.0.1_9-jre-alpine
-  - 20-jre-alpine
 - Architectures:
   - amd64
   - arm64v8
@@ -548,7 +1306,6 @@ Blocks:
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 20.0.1_9-jre-jammy
-  - 20-jre-jammy
 - Architectures:
   - amd64
   - arm64v8
@@ -556,35 +1313,30 @@ Blocks:
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 20.0.1_9-jre-ubi9-minimal
-  - 20-jre-ubi9-minimal
 - Architectures:
   - windows-amd64
   Directory: 20/jre/windows/windowsservercore-ltsc2022
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 20.0.1_9-jre-windowsservercore-ltsc2022
-  - 20-jre-windowsservercore-ltsc2022
 - Architectures:
   - windows-amd64
   Directory: 20/jre/windows/nanoserver-ltsc2022
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 20.0.1_9-jre-nanoserver-ltsc2022
-  - 20-jre-nanoserver-ltsc2022
 - Architectures:
   - windows-amd64
   Directory: 20/jre/windows/windowsservercore-1809
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 20.0.1_9-jre-windowsservercore-1809
-  - 20-jre-windowsservercore-1809
 - Architectures:
   - windows-amd64
   Directory: 20/jre/windows/nanoserver-1809
   GitCommit: 920efae8fe37e2b8f2b288b5f7f9e67134ecad1d
   Tags:
   - 20.0.1_9-jre-nanoserver-1809
-  - 20-jre-nanoserver-1809
 - Architectures:
   - amd64
   Directory: 8/jdk/alpine
@@ -4506,6 +5258,24 @@ KnownTags:
   8u372-b07-jre-ubi9-minimal: {}
   8u372-b07-jre-windowsservercore-1809: {}
   8u372-b07-jre-windowsservercore-ltsc2022: {}
+  8u382-b05-jdk-alpine: {}
+  8u382-b05-jdk-centos7: {}
+  8u382-b05-jdk-focal: {}
+  8u382-b05-jdk-jammy: {}
+  8u382-b05-jdk-nanoserver-1809: {}
+  8u382-b05-jdk-nanoserver-ltsc2022: {}
+  8u382-b05-jdk-ubi9-minimal: {}
+  8u382-b05-jdk-windowsservercore-1809: {}
+  8u382-b05-jdk-windowsservercore-ltsc2022: {}
+  8u382-b05-jre-alpine: {}
+  8u382-b05-jre-centos7: {}
+  8u382-b05-jre-focal: {}
+  8u382-b05-jre-jammy: {}
+  8u382-b05-jre-nanoserver-1809: {}
+  8u382-b05-jre-nanoserver-ltsc2022: {}
+  8u382-b05-jre-ubi9-minimal: {}
+  8u382-b05-jre-windowsservercore-1809: {}
+  8u382-b05-jre-windowsservercore-ltsc2022: {}
   11-alpine: {}
   11-centos7: {}
   11-focal: {}
@@ -4696,6 +5466,42 @@ KnownTags:
   11.0.19_7-jre-ubi9-minimal: {}
   11.0.19_7-jre-windowsservercore-1809: {}
   11.0.19_7-jre-windowsservercore-ltsc2022: {}
+  11.0.20.1_1-jdk-alpine: {}
+  11.0.20.1_1-jdk-centos7: {}
+  11.0.20.1_1-jdk-focal: {}
+  11.0.20.1_1-jdk-jammy: {}
+  11.0.20.1_1-jdk-nanoserver-1809: {}
+  11.0.20.1_1-jdk-nanoserver-ltsc2022: {}
+  11.0.20.1_1-jdk-ubi9-minimal: {}
+  11.0.20.1_1-jdk-windowsservercore-1809: {}
+  11.0.20.1_1-jdk-windowsservercore-ltsc2022: {}
+  11.0.20.1_1-jre-alpine: {}
+  11.0.20.1_1-jre-centos7: {}
+  11.0.20.1_1-jre-focal: {}
+  11.0.20.1_1-jre-jammy: {}
+  11.0.20.1_1-jre-nanoserver-1809: {}
+  11.0.20.1_1-jre-nanoserver-ltsc2022: {}
+  11.0.20.1_1-jre-ubi9-minimal: {}
+  11.0.20.1_1-jre-windowsservercore-1809: {}
+  11.0.20.1_1-jre-windowsservercore-ltsc2022: {}
+  11.0.20_8-jdk-alpine: {}
+  11.0.20_8-jdk-centos7: {}
+  11.0.20_8-jdk-focal: {}
+  11.0.20_8-jdk-jammy: {}
+  11.0.20_8-jdk-nanoserver-1809: {}
+  11.0.20_8-jdk-nanoserver-ltsc2022: {}
+  11.0.20_8-jdk-ubi9-minimal: {}
+  11.0.20_8-jdk-windowsservercore-1809: {}
+  11.0.20_8-jdk-windowsservercore-ltsc2022: {}
+  11.0.20_8-jre-alpine: {}
+  11.0.20_8-jre-centos7: {}
+  11.0.20_8-jre-focal: {}
+  11.0.20_8-jre-jammy: {}
+  11.0.20_8-jre-nanoserver-1809: {}
+  11.0.20_8-jre-nanoserver-ltsc2022: {}
+  11.0.20_8-jre-ubi9-minimal: {}
+  11.0.20_8-jre-windowsservercore-1809: {}
+  11.0.20_8-jre-windowsservercore-ltsc2022: {}
   16-alpine: {}
   16-centos7: {}
   16-focal: {}
@@ -4876,6 +5682,42 @@ KnownTags:
   17.0.7_7-jre-ubi9-minimal: {}
   17.0.7_7-jre-windowsservercore-1809: {}
   17.0.7_7-jre-windowsservercore-ltsc2022: {}
+  17.0.8.1_1-jdk-alpine: {}
+  17.0.8.1_1-jdk-centos7: {}
+  17.0.8.1_1-jdk-focal: {}
+  17.0.8.1_1-jdk-jammy: {}
+  17.0.8.1_1-jdk-nanoserver-1809: {}
+  17.0.8.1_1-jdk-nanoserver-ltsc2022: {}
+  17.0.8.1_1-jdk-ubi9-minimal: {}
+  17.0.8.1_1-jdk-windowsservercore-1809: {}
+  17.0.8.1_1-jdk-windowsservercore-ltsc2022: {}
+  17.0.8.1_1-jre-alpine: {}
+  17.0.8.1_1-jre-centos7: {}
+  17.0.8.1_1-jre-focal: {}
+  17.0.8.1_1-jre-jammy: {}
+  17.0.8.1_1-jre-nanoserver-1809: {}
+  17.0.8.1_1-jre-nanoserver-ltsc2022: {}
+  17.0.8.1_1-jre-ubi9-minimal: {}
+  17.0.8.1_1-jre-windowsservercore-1809: {}
+  17.0.8.1_1-jre-windowsservercore-ltsc2022: {}
+  17.0.8_7-jdk-alpine: {}
+  17.0.8_7-jdk-centos7: {}
+  17.0.8_7-jdk-focal: {}
+  17.0.8_7-jdk-jammy: {}
+  17.0.8_7-jdk-nanoserver-1809: {}
+  17.0.8_7-jdk-nanoserver-ltsc2022: {}
+  17.0.8_7-jdk-ubi9-minimal: {}
+  17.0.8_7-jdk-windowsservercore-1809: {}
+  17.0.8_7-jdk-windowsservercore-ltsc2022: {}
+  17.0.8_7-jre-alpine: {}
+  17.0.8_7-jre-centos7: {}
+  17.0.8_7-jre-focal: {}
+  17.0.8_7-jre-jammy: {}
+  17.0.8_7-jre-nanoserver-1809: {}
+  17.0.8_7-jre-nanoserver-ltsc2022: {}
+  17.0.8_7-jre-ubi9-minimal: {}
+  17.0.8_7-jre-windowsservercore-1809: {}
+  17.0.8_7-jre-windowsservercore-ltsc2022: {}
   17_35-jdk-alpine: {}
   17_35-jdk-centos7: {}
   17_35-jdk-focal: {}
@@ -5077,6 +5919,20 @@ KnownTags:
   20.0.1_9-jre-ubi9-minimal: {}
   20.0.1_9-jre-windowsservercore-1809: {}
   20.0.1_9-jre-windowsservercore-ltsc2022: {}
+  20.0.2_9-jdk-alpine: {}
+  20.0.2_9-jdk-jammy: {}
+  20.0.2_9-jdk-nanoserver-1809: {}
+  20.0.2_9-jdk-nanoserver-ltsc2022: {}
+  20.0.2_9-jdk-ubi9-minimal: {}
+  20.0.2_9-jdk-windowsservercore-1809: {}
+  20.0.2_9-jdk-windowsservercore-ltsc2022: {}
+  20.0.2_9-jre-alpine: {}
+  20.0.2_9-jre-jammy: {}
+  20.0.2_9-jre-nanoserver-1809: {}
+  20.0.2_9-jre-nanoserver-ltsc2022: {}
+  20.0.2_9-jre-ubi9-minimal: {}
+  20.0.2_9-jre-windowsservercore-1809: {}
+  20.0.2_9-jre-windowsservercore-ltsc2022: {}
   20_36-jdk-alpine: {}
   20_36-jdk-jammy: {}
   20_36-jdk-nanoserver-1809: {}

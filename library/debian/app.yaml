@@ -12,8 +12,8 @@ Blocks:
   GitCommit: ""
   Tags:
   - bookworm
-  - bookworm-20230612
-  - "12.0"
+  - bookworm-20230919
+  - "12.1"
   - "12"
   - latest
 - Architectures:
@@ -42,8 +42,8 @@ Blocks:
   GitCommit: ""
   Tags:
   - bookworm-slim
-  - bookworm-20230612-slim
-  - 12.0-slim
+  - bookworm-20230919-slim
+  - 12.1-slim
   - 12-slim
 - Architectures:
   - amd64
@@ -58,7 +58,7 @@ Blocks:
   GitCommit: ""
   Tags:
   - bullseye
-  - bullseye-20230612
+  - bullseye-20230919
   - "11.7"
   - "11"
 - Architectures:
@@ -87,7 +87,7 @@ Blocks:
   GitCommit: ""
   Tags:
   - bullseye-slim
-  - bullseye-20230612-slim
+  - bullseye-20230919-slim
   - 11.7-slim
   - 11-slim
 - Architectures:
@@ -99,7 +99,7 @@ Blocks:
   GitCommit: ""
   Tags:
   - buster
-  - buster-20230612
+  - buster-20230919
   - "10.13"
   - "10"
 - Architectures:
@@ -120,7 +120,7 @@ Blocks:
   GitCommit: ""
   Tags:
   - buster-slim
-  - buster-20230612-slim
+  - buster-20230919-slim
   - 10.13-slim
   - 10-slim
 - Architectures:
@@ -137,7 +137,7 @@ Blocks:
   GitCommit: ""
   Tags:
   - experimental
-  - experimental-20230612
+  - experimental-20230919
 - Architectures:
   - amd64
   - arm32v7
@@ -147,7 +147,7 @@ Blocks:
   GitCommit: ""
   Tags:
   - oldoldstable
-  - oldoldstable-20230612
+  - oldoldstable-20230919
 - Architectures:
   - amd64
   - arm32v7
@@ -166,7 +166,7 @@ Blocks:
   GitCommit: ""
   Tags:
   - oldoldstable-slim
-  - oldoldstable-20230612-slim
+  - oldoldstable-20230919-slim
 - Architectures:
   - amd64
   - arm32v5
@@ -180,7 +180,7 @@ Blocks:
   GitCommit: ""
   Tags:
   - oldstable
-  - oldstable-20230612
+  - oldstable-20230919
 - Architectures:
   - amd64
   - arm32v5
@@ -207,7 +207,7 @@ Blocks:
   GitCommit: ""
   Tags:
   - oldstable-slim
-  - oldstable-20230612-slim
+  - oldstable-20230919-slim
 - Architectures:
   - amd64
   - arm32v5
@@ -216,12 +216,13 @@ Blocks:
   - i386
   - mips64le
   - ppc64le
+  - riscv64
   - s390x
   Directory: rc-buggy
   GitCommit: ""
   Tags:
   - rc-buggy
-  - rc-buggy-20230612
+  - rc-buggy-20230919
 - Architectures:
   - amd64
   - arm32v5
@@ -236,7 +237,7 @@ Blocks:
   GitCommit: ""
   Tags:
   - sid
-  - sid-20230612
+  - sid-20230919
 - Architectures:
   - amd64
   - arm32v5
@@ -251,7 +252,7 @@ Blocks:
   GitCommit: ""
   Tags:
   - sid-slim
-  - sid-20230612-slim
+  - sid-20230919-slim
 - Architectures:
   - amd64
   - arm32v5
@@ -265,7 +266,7 @@ Blocks:
   GitCommit: ""
   Tags:
   - stable
-  - stable-20230612
+  - stable-20230919
 - Architectures:
   - amd64
   - arm32v5
@@ -292,7 +293,7 @@ Blocks:
   GitCommit: ""
   Tags:
   - stable-slim
-  - stable-20230612-slim
+  - stable-20230919-slim
 - Architectures:
   - amd64
   - arm32v5
@@ -306,7 +307,7 @@ Blocks:
   GitCommit: ""
   Tags:
   - testing
-  - testing-20230612
+  - testing-20230919
 - Architectures:
   - amd64
   - arm32v5
@@ -333,7 +334,7 @@ Blocks:
   GitCommit: ""
   Tags:
   - testing-slim
-  - testing-20230612-slim
+  - testing-20230919-slim
 - Architectures:
   - amd64
   - arm32v5
@@ -347,7 +348,7 @@ Blocks:
   GitCommit: ""
   Tags:
   - trixie
-  - trixie-20230612
+  - trixie-20230919
 - Architectures:
   - amd64
   - arm32v5
@@ -374,7 +375,7 @@ Blocks:
   GitCommit: ""
   Tags:
   - trixie-slim
-  - trixie-20230612-slim
+  - trixie-20230919-slim
 - Architectures:
   - amd64
   - arm32v5
@@ -389,7 +390,7 @@ Blocks:
   GitCommit: ""
   Tags:
   - unstable
-  - unstable-20230612
+  - unstable-20230919
 - Architectures:
   - amd64
   - arm32v5
@@ -404,6 +405,1385 @@ Blocks:
   GitCommit: ""
   Tags:
   - unstable-slim
+  - unstable-20230919-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: bookworm
+  GitCommit: ""
+  Tags:
+  - bookworm-20230904
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: bookworm/slim
+  GitCommit: ""
+  Tags:
+  - bookworm-20230904-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: bullseye
+  GitCommit: ""
+  Tags:
+  - bullseye-20230904
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: bullseye/slim
+  GitCommit: ""
+  Tags:
+  - bullseye-20230904-slim
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  Directory: buster
+  GitCommit: ""
+  Tags:
+  - buster-20230904
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  Directory: buster/slim
+  GitCommit: ""
+  Tags:
+  - buster-20230904-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: experimental
+  GitCommit: ""
+  Tags:
+  - experimental-20230904
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  Directory: oldoldstable
+  GitCommit: ""
+  Tags:
+  - oldoldstable-20230904
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  Directory: oldoldstable/slim
+  GitCommit: ""
+  Tags:
+  - oldoldstable-20230904-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: oldstable
+  GitCommit: ""
+  Tags:
+  - oldstable-20230904
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: oldstable/slim
+  GitCommit: ""
+  Tags:
+  - oldstable-20230904-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: rc-buggy
+  GitCommit: ""
+  Tags:
+  - rc-buggy-20230904
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: sid
+  GitCommit: ""
+  Tags:
+  - sid-20230904
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: sid/slim
+  GitCommit: ""
+  Tags:
+  - sid-20230904-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: stable
+  GitCommit: ""
+  Tags:
+  - stable-20230904
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: stable/slim
+  GitCommit: ""
+  Tags:
+  - stable-20230904-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: testing
+  GitCommit: ""
+  Tags:
+  - testing-20230904
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: testing/slim
+  GitCommit: ""
+  Tags:
+  - testing-20230904-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: trixie
+  GitCommit: ""
+  Tags:
+  - trixie-20230904
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: trixie/slim
+  GitCommit: ""
+  Tags:
+  - trixie-20230904-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: unstable
+  GitCommit: ""
+  Tags:
+  - unstable-20230904
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: unstable/slim
+  GitCommit: ""
+  Tags:
+  - unstable-20230904-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: bookworm
+  GitCommit: ""
+  Tags:
+  - bookworm-20230814
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: bookworm/slim
+  GitCommit: ""
+  Tags:
+  - bookworm-20230814-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: bullseye
+  GitCommit: ""
+  Tags:
+  - bullseye-20230814
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: bullseye/slim
+  GitCommit: ""
+  Tags:
+  - bullseye-20230814-slim
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  Directory: buster
+  GitCommit: ""
+  Tags:
+  - buster-20230814
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  Directory: buster/slim
+  GitCommit: ""
+  Tags:
+  - buster-20230814-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: experimental
+  GitCommit: ""
+  Tags:
+  - experimental-20230814
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  Directory: oldoldstable
+  GitCommit: ""
+  Tags:
+  - oldoldstable-20230814
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  Directory: oldoldstable/slim
+  GitCommit: ""
+  Tags:
+  - oldoldstable-20230814-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: oldstable
+  GitCommit: ""
+  Tags:
+  - oldstable-20230814
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: oldstable/slim
+  GitCommit: ""
+  Tags:
+  - oldstable-20230814-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: rc-buggy
+  GitCommit: ""
+  Tags:
+  - rc-buggy-20230814
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: sid
+  GitCommit: ""
+  Tags:
+  - sid-20230814
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: sid/slim
+  GitCommit: ""
+  Tags:
+  - sid-20230814-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: stable
+  GitCommit: ""
+  Tags:
+  - stable-20230814
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: stable/slim
+  GitCommit: ""
+  Tags:
+  - stable-20230814-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: testing
+  GitCommit: ""
+  Tags:
+  - testing-20230814
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: testing/slim
+  GitCommit: ""
+  Tags:
+  - testing-20230814-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: trixie
+  GitCommit: ""
+  Tags:
+  - trixie-20230814
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: trixie/slim
+  GitCommit: ""
+  Tags:
+  - trixie-20230814-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: unstable
+  GitCommit: ""
+  Tags:
+  - unstable-20230814
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: unstable/slim
+  GitCommit: ""
+  Tags:
+  - unstable-20230814-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: bookworm
+  GitCommit: ""
+  Tags:
+  - bookworm-20230725
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: bookworm/slim
+  GitCommit: ""
+  Tags:
+  - bookworm-20230725-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: bullseye
+  GitCommit: ""
+  Tags:
+  - bullseye-20230725
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: bullseye/slim
+  GitCommit: ""
+  Tags:
+  - bullseye-20230725-slim
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  Directory: buster
+  GitCommit: ""
+  Tags:
+  - buster-20230725
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  Directory: buster/slim
+  GitCommit: ""
+  Tags:
+  - buster-20230725-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: experimental
+  GitCommit: ""
+  Tags:
+  - experimental-20230725
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  Directory: oldoldstable
+  GitCommit: ""
+  Tags:
+  - oldoldstable-20230725
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  Directory: oldoldstable/slim
+  GitCommit: ""
+  Tags:
+  - oldoldstable-20230725-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: oldstable
+  GitCommit: ""
+  Tags:
+  - oldstable-20230725
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: oldstable/slim
+  GitCommit: ""
+  Tags:
+  - oldstable-20230725-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: rc-buggy
+  GitCommit: ""
+  Tags:
+  - rc-buggy-20230725
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: sid
+  GitCommit: ""
+  Tags:
+  - sid-20230725
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: sid/slim
+  GitCommit: ""
+  Tags:
+  - sid-20230725-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: stable
+  GitCommit: ""
+  Tags:
+  - stable-20230725
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: stable/slim
+  GitCommit: ""
+  Tags:
+  - stable-20230725-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: testing
+  GitCommit: ""
+  Tags:
+  - testing-20230725
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: testing/slim
+  GitCommit: ""
+  Tags:
+  - testing-20230725-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: trixie
+  GitCommit: ""
+  Tags:
+  - trixie-20230725
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: trixie/slim
+  GitCommit: ""
+  Tags:
+  - trixie-20230725-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: unstable
+  GitCommit: ""
+  Tags:
+  - unstable-20230725
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: unstable/slim
+  GitCommit: ""
+  Tags:
+  - unstable-20230725-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: bookworm
+  GitCommit: ""
+  Tags:
+  - bookworm-20230703
+  - "12.0"
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: bookworm/slim
+  GitCommit: ""
+  Tags:
+  - bookworm-20230703-slim
+  - 12.0-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: bullseye
+  GitCommit: ""
+  Tags:
+  - bullseye-20230703
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: bullseye/slim
+  GitCommit: ""
+  Tags:
+  - bullseye-20230703-slim
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  Directory: buster
+  GitCommit: ""
+  Tags:
+  - buster-20230703
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  Directory: buster/slim
+  GitCommit: ""
+  Tags:
+  - buster-20230703-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: experimental
+  GitCommit: ""
+  Tags:
+  - experimental-20230703
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  Directory: oldoldstable
+  GitCommit: ""
+  Tags:
+  - oldoldstable-20230703
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  Directory: oldoldstable/slim
+  GitCommit: ""
+  Tags:
+  - oldoldstable-20230703-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: oldstable
+  GitCommit: ""
+  Tags:
+  - oldstable-20230703
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: oldstable/slim
+  GitCommit: ""
+  Tags:
+  - oldstable-20230703-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: rc-buggy
+  GitCommit: ""
+  Tags:
+  - rc-buggy-20230703
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: sid
+  GitCommit: ""
+  Tags:
+  - sid-20230703
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: sid/slim
+  GitCommit: ""
+  Tags:
+  - sid-20230703-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: stable
+  GitCommit: ""
+  Tags:
+  - stable-20230703
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: stable/slim
+  GitCommit: ""
+  Tags:
+  - stable-20230703-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: testing
+  GitCommit: ""
+  Tags:
+  - testing-20230703
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: testing/slim
+  GitCommit: ""
+  Tags:
+  - testing-20230703-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: trixie
+  GitCommit: ""
+  Tags:
+  - trixie-20230703
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: trixie/slim
+  GitCommit: ""
+  Tags:
+  - trixie-20230703-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: unstable
+  GitCommit: ""
+  Tags:
+  - unstable-20230703
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: unstable/slim
+  GitCommit: ""
+  Tags:
+  - unstable-20230703-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: bookworm
+  GitCommit: ""
+  Tags:
+  - bookworm-20230612
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: bookworm/slim
+  GitCommit: ""
+  Tags:
+  - bookworm-20230612-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: bullseye
+  GitCommit: ""
+  Tags:
+  - bullseye-20230612
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: bullseye/slim
+  GitCommit: ""
+  Tags:
+  - bullseye-20230612-slim
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  Directory: buster
+  GitCommit: ""
+  Tags:
+  - buster-20230612
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  Directory: buster/slim
+  GitCommit: ""
+  Tags:
+  - buster-20230612-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: experimental
+  GitCommit: ""
+  Tags:
+  - experimental-20230612
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  Directory: oldoldstable
+  GitCommit: ""
+  Tags:
+  - oldoldstable-20230612
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  Directory: oldoldstable/slim
+  GitCommit: ""
+  Tags:
+  - oldoldstable-20230612-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: oldstable
+  GitCommit: ""
+  Tags:
+  - oldstable-20230612
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: oldstable/slim
+  GitCommit: ""
+  Tags:
+  - oldstable-20230612-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: rc-buggy
+  GitCommit: ""
+  Tags:
+  - rc-buggy-20230612
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: sid
+  GitCommit: ""
+  Tags:
+  - sid-20230612
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: sid/slim
+  GitCommit: ""
+  Tags:
+  - sid-20230612-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: stable
+  GitCommit: ""
+  Tags:
+  - stable-20230612
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: stable/slim
+  GitCommit: ""
+  Tags:
+  - stable-20230612-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: testing
+  GitCommit: ""
+  Tags:
+  - testing-20230612
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: testing/slim
+  GitCommit: ""
+  Tags:
+  - testing-20230612-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: trixie
+  GitCommit: ""
+  Tags:
+  - trixie-20230612
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: trixie/slim
+  GitCommit: ""
+  Tags:
+  - trixie-20230612-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: unstable
+  GitCommit: ""
+  Tags:
+  - unstable-20230612
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - riscv64
+  - s390x
+  Directory: unstable/slim
+  GitCommit: ""
+  Tags:
   - unstable-20230612-slim
 - Architectures:
   - amd64
@@ -19648,6 +21028,8 @@ KnownTags:
   12-slim: {}
   "12.0": {}
   12.0-slim: {}
+  "12.1": {}
+  12.1-slim: {}
   bookworm: {}
   bookworm-20210816: {}
   bookworm-20210816-slim: {}
@@ -19715,6 +21097,16 @@ KnownTags:
   bookworm-20230522-slim: {}
   bookworm-20230612: {}
   bookworm-20230612-slim: {}
+  bookworm-20230703: {}
+  bookworm-20230703-slim: {}
+  bookworm-20230725: {}
+  bookworm-20230725-slim: {}
+  bookworm-20230814: {}
+  bookworm-20230814-slim: {}
+  bookworm-20230904: {}
+  bookworm-20230904-slim: {}
+  bookworm-20230919: {}
+  bookworm-20230919-slim: {}
   bookworm-backports: {}
   bookworm-slim: {}
   bullseye: {}
@@ -19842,6 +21234,16 @@ KnownTags:
   bullseye-20230522-slim: {}
   bullseye-20230612: {}
   bullseye-20230612-slim: {}
+  bullseye-20230703: {}
+  bullseye-20230703-slim: {}
+  bullseye-20230725: {}
+  bullseye-20230725-slim: {}
+  bullseye-20230814: {}
+  bullseye-20230814-slim: {}
+  bullseye-20230904: {}
+  bullseye-20230904-slim: {}
+  bullseye-20230919: {}
+  bullseye-20230919-slim: {}
   bullseye-backports: {}
   bullseye-slim: {}
   buster: {}
@@ -19998,6 +21400,16 @@ KnownTags:
   buster-20230522-slim: {}
   buster-20230612: {}
   buster-20230612-slim: {}
+  buster-20230703: {}
+  buster-20230703-slim: {}
+  buster-20230725: {}
+  buster-20230725-slim: {}
+  buster-20230814: {}
+  buster-20230814-slim: {}
+  buster-20230904: {}
+  buster-20230904-slim: {}
+  buster-20230919: {}
+  buster-20230919-slim: {}
   buster-backports: {}
   buster-slim: {}
   experimental: {}
@@ -20084,6 +21496,11 @@ KnownTags:
   experimental-20230502: {}
   experimental-20230522: {}
   experimental-20230612: {}
+  experimental-20230703: {}
+  experimental-20230725: {}
+  experimental-20230814: {}
+  experimental-20230904: {}
+  experimental-20230919: {}
   jessie: {}
   jessie-20170606: {}
   jessie-20170620: {}
@@ -20270,6 +21687,16 @@ KnownTags:
   oldoldstable-20220622-slim: {}
   oldoldstable-20230612: {}
   oldoldstable-20230612-slim: {}
+  oldoldstable-20230703: {}
+  oldoldstable-20230703-slim: {}
+  oldoldstable-20230725: {}
+  oldoldstable-20230725-slim: {}
+  oldoldstable-20230814: {}
+  oldoldstable-20230814-slim: {}
+  oldoldstable-20230904: {}
+  oldoldstable-20230904-slim: {}
+  oldoldstable-20230919: {}
+  oldoldstable-20230919-slim: {}
   oldoldstable-backports: {}
   oldoldstable-slim: {}
   oldstable: {}
@@ -20427,6 +21854,16 @@ KnownTags:
   oldstable-20230522-slim: {}
   oldstable-20230612: {}
   oldstable-20230612-slim: {}
+  oldstable-20230703: {}
+  oldstable-20230703-slim: {}
+  oldstable-20230725: {}
+  oldstable-20230725-slim: {}
+  oldstable-20230814: {}
+  oldstable-20230814-slim: {}
+  oldstable-20230904: {}
+  oldstable-20230904-slim: {}
+  oldstable-20230919: {}
+  oldstable-20230919-slim: {}
   oldstable-backports: {}
   oldstable-slim: {}
   rc-buggy: {}
@@ -20513,6 +21950,11 @@ KnownTags:
   rc-buggy-20230502: {}
   rc-buggy-20230522: {}
   rc-buggy-20230612: {}
+  rc-buggy-20230703: {}
+  rc-buggy-20230725: {}
+  rc-buggy-20230814: {}
+  rc-buggy-20230904: {}
+  rc-buggy-20230919: {}
   sid: {}
   sid-20170606: {}
   sid-20170620: {}
@@ -20668,6 +22110,16 @@ KnownTags:
   sid-20230522-slim: {}
   sid-20230612: {}
   sid-20230612-slim: {}
+  sid-20230703: {}
+  sid-20230703-slim: {}
+  sid-20230725: {}
+  sid-20230725-slim: {}
+  sid-20230814: {}
+  sid-20230814-slim: {}
+  sid-20230904: {}
+  sid-20230904-slim: {}
+  sid-20230919: {}
+  sid-20230919-slim: {}
   sid-slim: {}
   stable: {}
   stable-20170606: {}
@@ -20824,6 +22276,16 @@ KnownTags:
   stable-20230522-slim: {}
   stable-20230612: {}
   stable-20230612-slim: {}
+  stable-20230703: {}
+  stable-20230703-slim: {}
+  stable-20230725: {}
+  stable-20230725-slim: {}
+  stable-20230814: {}
+  stable-20230814-slim: {}
+  stable-20230904: {}
+  stable-20230904-slim: {}
+  stable-20230919: {}
+  stable-20230919-slim: {}
   stable-backports: {}
   stable-slim: {}
   stretch: {}
@@ -21102,11 +22564,31 @@ KnownTags:
   testing-20230522-slim: {}
   testing-20230612: {}
   testing-20230612-slim: {}
+  testing-20230703: {}
+  testing-20230703-slim: {}
+  testing-20230725: {}
+  testing-20230725-slim: {}
+  testing-20230814: {}
+  testing-20230814-slim: {}
+  testing-20230904: {}
+  testing-20230904-slim: {}
+  testing-20230919: {}
+  testing-20230919-slim: {}
   testing-backports: {}
   testing-slim: {}
   trixie: {}
   trixie-20230612: {}
   trixie-20230612-slim: {}
+  trixie-20230703: {}
+  trixie-20230703-slim: {}
+  trixie-20230725: {}
+  trixie-20230725-slim: {}
+  trixie-20230814: {}
+  trixie-20230814-slim: {}
+  trixie-20230904: {}
+  trixie-20230904-slim: {}
+  trixie-20230919: {}
+  trixie-20230919-slim: {}
   trixie-backports: {}
   trixie-slim: {}
   unstable: {}
@@ -21264,6 +22746,16 @@ KnownTags:
   unstable-20230522-slim: {}
   unstable-20230612: {}
   unstable-20230612-slim: {}
+  unstable-20230703: {}
+  unstable-20230703-slim: {}
+  unstable-20230725: {}
+  unstable-20230725-slim: {}
+  unstable-20230814: {}
+  unstable-20230814-slim: {}
+  unstable-20230904: {}
+  unstable-20230904-slim: {}
+  unstable-20230919: {}
+  unstable-20230919-slim: {}
   unstable-slim: {}
   wheezy: {}
   wheezy-20170606: {}

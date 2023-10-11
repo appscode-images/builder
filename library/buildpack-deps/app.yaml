@@ -163,40 +163,46 @@ Blocks:
   - unstable
 - Architectures:
   - amd64
+  - arm32v5
   - arm32v7
   - arm64v8
   - i386
+  - mips64le
   - ppc64le
   - s390x
-  Directory: ubuntu/bionic/curl
-  GitCommit: 93d6db0797f91ab674535553b7e0e762941a02d0
+  Directory: debian/trixie/curl
+  GitCommit: f4fae1079681a664db5a84c0b83621dd7c115996
   Tags:
-  - bionic-curl
-  - 18.04-curl
+  - trixie-curl
+  - testing-curl
 - Architectures:
   - amd64
+  - arm32v5
   - arm32v7
   - arm64v8
   - i386
+  - mips64le
   - ppc64le
   - s390x
-  Directory: ubuntu/bionic/scm
-  GitCommit: 65d69325ad741cea6dee20781c1faaab2e003d87
+  Directory: debian/trixie/scm
+  GitCommit: 443a8d3c6e53dbd17c55070de7de850f865ba6eb
   Tags:
-  - bionic-scm
-  - 18.04-scm
+  - trixie-scm
+  - testing-scm
 - Architectures:
   - amd64
+  - arm32v5
   - arm32v7
   - arm64v8
   - i386
+  - mips64le
   - ppc64le
   - s390x
-  Directory: ubuntu/bionic
-  GitCommit: 98a5ab81d47a106c458cdf90733df0ee8beea06c
+  Directory: debian/trixie
+  GitCommit: 443a8d3c6e53dbd17c55070de7de850f865ba6eb
   Tags:
-  - bionic
-  - "18.04"
+  - trixie
+  - testing
 - Architectures:
   - amd64
   - arm32v7
@@ -269,39 +275,6 @@ Blocks:
   - arm64v8
   - ppc64le
   - s390x
-  Directory: ubuntu/kinetic/curl
-  GitCommit: 3e18c3af1f5dce6a48abf036857f9097b6bd79cc
-  Tags:
-  - kinetic-curl
-  - 22.10-curl
-- Architectures:
-  - amd64
-  - arm32v7
-  - arm64v8
-  - ppc64le
-  - s390x
-  Directory: ubuntu/kinetic/scm
-  GitCommit: c96f4f3e1d5bc19fba5c652f57af0a35bb929718
-  Tags:
-  - kinetic-scm
-  - 22.10-scm
-- Architectures:
-  - amd64
-  - arm32v7
-  - arm64v8
-  - ppc64le
-  - s390x
-  Directory: ubuntu/kinetic
-  GitCommit: c96f4f3e1d5bc19fba5c652f57af0a35bb929718
-  Tags:
-  - kinetic
-  - "22.10"
-- Architectures:
-  - amd64
-  - arm32v7
-  - arm64v8
-  - ppc64le
-  - s390x
   Directory: ubuntu/lunar/curl
   GitCommit: 3e18c3af1f5dce6a48abf036857f9097b6bd79cc
   Tags:
@@ -364,43 +337,73 @@ Blocks:
   - "23.10"
 - Architectures:
   - amd64
-  - arm32v5
   - arm32v7
   - arm64v8
-  - i386
-  - mips64le
   - ppc64le
   - s390x
-  Directory: debian/bookworm/curl
+  Directory: ubuntu/kinetic/curl
   GitCommit: 3e18c3af1f5dce6a48abf036857f9097b6bd79cc
   Tags:
-  - testing-curl
+  - kinetic-curl
+  - 22.10-curl
 - Architectures:
   - amd64
-  - arm32v5
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: ubuntu/kinetic/scm
+  GitCommit: c96f4f3e1d5bc19fba5c652f57af0a35bb929718
+  Tags:
+  - kinetic-scm
+  - 22.10-scm
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: ubuntu/kinetic
+  GitCommit: c96f4f3e1d5bc19fba5c652f57af0a35bb929718
+  Tags:
+  - kinetic
+  - "22.10"
+- Architectures:
+  - amd64
   - arm32v7
   - arm64v8
   - i386
-  - mips64le
   - ppc64le
   - s390x
-  Directory: debian/bookworm/scm
-  GitCommit: 84e7e46026131a108a6480e5ed2969e8acf2d4e2
+  Directory: ubuntu/bionic/curl
+  GitCommit: 93d6db0797f91ab674535553b7e0e762941a02d0
   Tags:
-  - testing-scm
+  - bionic-curl
+  - 18.04-curl
 - Architectures:
   - amd64
-  - arm32v5
   - arm32v7
   - arm64v8
   - i386
-  - mips64le
   - ppc64le
   - s390x
-  Directory: debian/bookworm
-  GitCommit: 84e7e46026131a108a6480e5ed2969e8acf2d4e2
+  Directory: ubuntu/bionic/scm
+  GitCommit: 65d69325ad741cea6dee20781c1faaab2e003d87
   Tags:
-  - testing
+  - bionic-scm
+  - 18.04-scm
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: ubuntu/bionic
+  GitCommit: 98a5ab81d47a106c458cdf90733df0ee8beea06c
+  Tags:
+  - bionic
+  - "18.04"
 - Architectures:
   - amd64
   - arm32v7
@@ -1024,6 +1027,9 @@ KnownTags:
   testing: {}
   testing-curl: {}
   testing-scm: {}
+  trixie: {}
+  trixie-curl: {}
+  trixie-scm: {}
   trusty: {}
   trusty-curl: {}
   trusty-scm: {}

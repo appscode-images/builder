@@ -106,6 +106,10 @@
     "5.7.34-centos": {},
     "5.7.35": {},
     "5.7.35-centos": {},
+    "5.7.39": {},
+    "5.7.39-centos": {},
+    "5.7.43": {},
+    "5.7.43-centos": {},
     "8": {},
     "8-centos": {},
     "8.0": {},
@@ -152,6 +156,8 @@
     "8.0.32-24-centos": {},
     "8.0.33-25": {},
     "8.0.33-25-centos": {},
+    "8.0.34-26": {},
+    "8.0.34-26-centos": {},
     "centos": {},
     "jessie": {},
     "latest": {},
@@ -178,6 +184,8 @@
     "ps-5.7.33": {},
     "ps-5.7.34": {},
     "ps-5.7.35": {},
+    "ps-5.7.39": {},
+    "ps-5.7.43": {},
     "ps-8": {},
     "ps-8.0": {},
     "ps-8.0.12-2rc1": {},
@@ -201,6 +209,7 @@
     "ps-8.0.31-23": {},
     "ps-8.0.32-24": {},
     "ps-8.0.33-25": {},
+    "ps-8.0.34-26": {},
     "psmdb-3.6": {},
     "psmdb-3.6.10": {},
     "psmdb-3.6.11": {},
@@ -243,6 +252,7 @@
     "psmdb-4.2.2": {},
     "psmdb-4.2.20": {},
     "psmdb-4.2.21": {},
+    "psmdb-4.2.24": {},
     "psmdb-4.2.3": {},
     "psmdb-4.2.5": {},
     "psmdb-4.2.6": {},
@@ -256,6 +266,7 @@
     "psmdb-4.4.14": {},
     "psmdb-4.4.15": {},
     "psmdb-4.4.2": {},
+    "psmdb-4.4.22": {},
     "psmdb-4.4.3": {},
     "psmdb-4.4.4": {},
     "psmdb-4.4.5": {},
@@ -264,46 +275,48 @@
     "psmdb-4.4.9": {},
     "psmdb-5.0": {},
     "psmdb-5.0.10": {},
+    "psmdb-5.0.18": {},
     "psmdb-5.0.2": {},
     "psmdb-5.0.3": {},
     "psmdb-5.0.7": {},
     "psmdb-5.0.8": {},
     "psmdb-5.0.9": {},
+    "psmdb-6.0": {},
+    "psmdb-6.0.6": {},
     "stretch": {}
   },
   "Blocks": [
     {
       "Tags": [
-        "8.0.33-25-centos",
+        "8.0.34-26-centos",
         "8.0-centos",
         "8-centos",
-        "8.0.33-25",
+        "8.0.34-26",
         "8.0",
         "8",
-        "ps-8.0.33-25",
+        "ps-8.0.34-26",
         "ps-8.0",
         "ps-8"
       ],
       "Architectures": null,
-      "GitCommit": "3f666ccdf6a9eed0e0505723fbe8b4954a105c99",
+      "GitCommit": "565f49b8be3a1efa056fde70e10d638ad159516a",
       "Directory": "percona-server-8.0"
     },
     {
       "Tags": [
-        "5.7.35-centos",
+        "5.7.43-centos",
         "5.7-centos",
         "5-centos",
         "centos",
-        "5.7.35",
+        "5.7.43",
         "5.7",
         "5",
-        "ps-5.7.35",
+        "ps-5.7.43",
         "ps-5.7",
-        "ps-5",
-        "latest"
+        "ps-5"
       ],
       "Architectures": null,
-      "GitCommit": "f1697b98ebb86a8d684c4192fa382b00ae1860ff",
+      "GitCommit": "a11f997b281686769392ea14aa02daee97320c51",
       "Directory": "percona-server-5.7"
     },
     {
@@ -321,8 +334,74 @@
     },
     {
       "Tags": [
-        "psmdb-5.0.10",
+        "psmdb-6.0.6",
+        "psmdb-6.0"
+      ],
+      "Architectures": null,
+      "GitCommit": "80ab68b2d84c7c17c8cbc07edb35e35399fd0a54",
+      "Directory": "percona-server-mongodb-6.0"
+    },
+    {
+      "Tags": [
+        "psmdb-5.0.18",
         "psmdb-5.0"
+      ],
+      "Architectures": null,
+      "GitCommit": "80ab68b2d84c7c17c8cbc07edb35e35399fd0a54",
+      "Directory": "percona-server-mongodb-5.0"
+    },
+    {
+      "Tags": [
+        "psmdb-4.4.22",
+        "psmdb-4.4"
+      ],
+      "Architectures": null,
+      "GitCommit": "80ab68b2d84c7c17c8cbc07edb35e35399fd0a54",
+      "Directory": "percona-server-mongodb-4.4"
+    },
+    {
+      "Tags": [
+        "psmdb-4.2.24",
+        "psmdb-4.2"
+      ],
+      "Architectures": null,
+      "GitCommit": "80ab68b2d84c7c17c8cbc07edb35e35399fd0a54",
+      "Directory": "percona-server-mongodb-4.2"
+    },
+    {
+      "Tags": [
+        "8.0.33-25-centos",
+        "8.0.33-25",
+        "ps-8.0.33-25"
+      ],
+      "Architectures": null,
+      "GitCommit": "3f666ccdf6a9eed0e0505723fbe8b4954a105c99",
+      "Directory": "percona-server-8.0"
+    },
+    {
+      "Tags": [
+        "5.7.39-centos",
+        "5.7.39",
+        "ps-5.7.39"
+      ],
+      "Architectures": null,
+      "GitCommit": "80ab68b2d84c7c17c8cbc07edb35e35399fd0a54",
+      "Directory": "percona-server-5.7"
+    },
+    {
+      "Tags": [
+        "5.7.35-centos",
+        "5.7.35",
+        "ps-5.7.35",
+        "latest"
+      ],
+      "Architectures": null,
+      "GitCommit": "f1697b98ebb86a8d684c4192fa382b00ae1860ff",
+      "Directory": "percona-server-5.7"
+    },
+    {
+      "Tags": [
+        "psmdb-5.0.10"
       ],
       "Architectures": null,
       "GitCommit": "0003693083fc3b6a904fd83a63096705aff46cca",
@@ -330,8 +409,7 @@
     },
     {
       "Tags": [
-        "psmdb-4.4.15",
-        "psmdb-4.4"
+        "psmdb-4.4.15"
       ],
       "Architectures": null,
       "GitCommit": "93dc9be5c30c1da42e8f2dad03da5e17e6bc89a9",
@@ -339,8 +417,7 @@
     },
     {
       "Tags": [
-        "psmdb-4.2.21",
-        "psmdb-4.2"
+        "psmdb-4.2.21"
       ],
       "Architectures": null,
       "GitCommit": "ee35507eeade832e18041d39ac67637202733e49",

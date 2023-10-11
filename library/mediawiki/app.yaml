@@ -1,20 +1,47 @@
 Blocks:
 - Architectures: null
+  Directory: 1.40/apache
+  GitCommit: ""
+  Tags:
+  - 1.40.1
+  - "1.40"
+  - stable
+  - latest
+- Architectures: null
+  Directory: 1.40/fpm
+  GitCommit: ""
+  Tags:
+  - 1.40.1-fpm
+  - 1.40-fpm
+  - stable-fpm
+- Architectures:
+  - amd64
+  - arm32v6
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  Directory: 1.40/fpm-alpine
+  GitCommit: ""
+  Tags:
+  - 1.40.1-fpm-alpine
+  - 1.40-fpm-alpine
+  - stable-fpm-alpine
+- Architectures: null
   Directory: 1.39/apache
   GitCommit: ""
   Tags:
-  - 1.39.3
+  - 1.39.5
   - "1.39"
-  - stable
   - lts
-  - latest
+  - legacy
 - Architectures: null
   Directory: 1.39/fpm
   GitCommit: ""
   Tags:
-  - 1.39.3-fpm
+  - 1.39.5-fpm
   - 1.39-fpm
-  - stable-fpm
+  - legacy-fpm
   - lts-fpm
 - Architectures:
   - amd64
@@ -26,49 +53,22 @@ Blocks:
   Directory: 1.39/fpm-alpine
   GitCommit: ""
   Tags:
-  - 1.39.3-fpm-alpine
+  - 1.39.5-fpm-alpine
   - 1.39-fpm-alpine
-  - stable-fpm-alpine
-  - lts-fpm-alpine
-- Architectures: null
-  Directory: 1.38/apache
-  GitCommit: ""
-  Tags:
-  - 1.38.6
-  - "1.38"
-  - legacy
-- Architectures: null
-  Directory: 1.38/fpm
-  GitCommit: ""
-  Tags:
-  - 1.38.6-fpm
-  - 1.38-fpm
-  - legacy-fpm
-- Architectures:
-  - amd64
-  - arm32v6
-  - arm32v7
-  - arm64v8
-  - i386
-  - ppc64le
-  Directory: 1.38/fpm-alpine
-  GitCommit: ""
-  Tags:
-  - 1.38.6-fpm-alpine
-  - 1.38-fpm-alpine
   - legacy-fpm-alpine
+  - lts-fpm-alpine
 - Architectures: null
   Directory: 1.35/apache
   GitCommit: ""
   Tags:
-  - 1.35.10
+  - 1.35.13
   - "1.35"
   - legacylts
 - Architectures: null
   Directory: 1.35/fpm
   GitCommit: ""
   Tags:
-  - 1.35.10-fpm
+  - 1.35.13-fpm
   - 1.35-fpm
   - legacylts-fpm
 - Architectures:
@@ -81,9 +81,159 @@ Blocks:
   Directory: 1.35/fpm-alpine
   GitCommit: ""
   Tags:
-  - 1.35.10-fpm-alpine
+  - 1.35.13-fpm-alpine
   - 1.35-fpm-alpine
   - legacylts-fpm-alpine
+- Architectures: null
+  Directory: 1.40/apache
+  GitCommit: ""
+  Tags:
+  - 1.40.0
+- Architectures: null
+  Directory: 1.40/fpm
+  GitCommit: ""
+  Tags:
+  - 1.40.0-fpm
+- Architectures:
+  - amd64
+  - arm32v6
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  Directory: 1.40/fpm-alpine
+  GitCommit: ""
+  Tags:
+  - 1.40.0-fpm-alpine
+- Architectures: null
+  Directory: 1.39/apache
+  GitCommit: ""
+  Tags:
+  - 1.39.4
+- Architectures: null
+  Directory: 1.39/fpm
+  GitCommit: ""
+  Tags:
+  - 1.39.4-fpm
+- Architectures:
+  - amd64
+  - arm32v6
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  Directory: 1.39/fpm-alpine
+  GitCommit: ""
+  Tags:
+  - 1.39.4-fpm-alpine
+- Architectures: null
+  Directory: 1.35/apache
+  GitCommit: ""
+  Tags:
+  - 1.35.11
+- Architectures: null
+  Directory: 1.35/fpm
+  GitCommit: ""
+  Tags:
+  - 1.35.11-fpm
+- Architectures:
+  - amd64
+  - arm32v6
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  Directory: 1.35/fpm-alpine
+  GitCommit: ""
+  Tags:
+  - 1.35.11-fpm-alpine
+- Architectures: null
+  Directory: 1.38/apache
+  GitCommit: ""
+  Tags:
+  - 1.38.7
+  - "1.38"
+- Architectures: null
+  Directory: 1.38/fpm
+  GitCommit: ""
+  Tags:
+  - 1.38.7-fpm
+  - 1.38-fpm
+- Architectures:
+  - amd64
+  - arm32v6
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  Directory: 1.38/fpm-alpine
+  GitCommit: ""
+  Tags:
+  - 1.38.7-fpm-alpine
+  - 1.38-fpm-alpine
+- Architectures: null
+  Directory: 1.39/apache
+  GitCommit: ""
+  Tags:
+  - 1.39.3
+- Architectures: null
+  Directory: 1.39/fpm
+  GitCommit: ""
+  Tags:
+  - 1.39.3-fpm
+- Architectures:
+  - amd64
+  - arm32v6
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  Directory: 1.39/fpm-alpine
+  GitCommit: ""
+  Tags:
+  - 1.39.3-fpm-alpine
+- Architectures: null
+  Directory: 1.38/apache
+  GitCommit: ""
+  Tags:
+  - 1.38.6
+- Architectures: null
+  Directory: 1.38/fpm
+  GitCommit: ""
+  Tags:
+  - 1.38.6-fpm
+- Architectures:
+  - amd64
+  - arm32v6
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  Directory: 1.38/fpm-alpine
+  GitCommit: ""
+  Tags:
+  - 1.38.6-fpm-alpine
+- Architectures: null
+  Directory: 1.35/apache
+  GitCommit: ""
+  Tags:
+  - 1.35.10
+- Architectures: null
+  Directory: 1.35/fpm
+  GitCommit: ""
+  Tags:
+  - 1.35.10-fpm
+- Architectures:
+  - amd64
+  - arm32v6
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  Directory: 1.35/fpm-alpine
+  GitCommit: ""
+  Tags:
+  - 1.35.10-fpm-alpine
 - Architectures: null
   Directory: 1.39/apache
   GitCommit: ""
@@ -1174,6 +1324,12 @@ KnownTags:
   1.35.10: {}
   1.35.10-fpm: {}
   1.35.10-fpm-alpine: {}
+  1.35.11: {}
+  1.35.11-fpm: {}
+  1.35.11-fpm-alpine: {}
+  1.35.13: {}
+  1.35.13-fpm: {}
+  1.35.13-fpm-alpine: {}
   "1.36": {}
   1.36-fpm: {}
   1.36-fpm-alpine: {}
@@ -1231,6 +1387,9 @@ KnownTags:
   1.38.6: {}
   1.38.6-fpm: {}
   1.38.6-fpm-alpine: {}
+  1.38.7: {}
+  1.38.7-fpm: {}
+  1.38.7-fpm-alpine: {}
   "1.39": {}
   1.39-fpm: {}
   1.39-fpm-alpine: {}
@@ -1246,6 +1405,21 @@ KnownTags:
   1.39.3: {}
   1.39.3-fpm: {}
   1.39.3-fpm-alpine: {}
+  1.39.4: {}
+  1.39.4-fpm: {}
+  1.39.4-fpm-alpine: {}
+  1.39.5: {}
+  1.39.5-fpm: {}
+  1.39.5-fpm-alpine: {}
+  "1.40": {}
+  1.40-fpm: {}
+  1.40-fpm-alpine: {}
+  1.40.0: {}
+  1.40.0-fpm: {}
+  1.40.0-fpm-alpine: {}
+  1.40.1: {}
+  1.40.1-fpm: {}
+  1.40.1-fpm-alpine: {}
   latest: {}
   legacy: {}
   legacy-fpm: {}

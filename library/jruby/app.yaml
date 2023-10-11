@@ -60,13 +60,82 @@ Blocks:
 - Architectures:
   - amd64
   - arm64v8
+  Directory: 9.4/jre17
+  GitCommit: ""
+  Tags:
+  - 9.4-jre17
+  - 9.4.2-jre17
+  - 9.4.2.0-jre17
+- Architectures:
+  - amd64
+  - arm64v8
   Directory: 9.3/jre8
   GitCommit: ""
   Tags:
   - "9.3"
-  - 9.3.10
+  - 9.3.11
   - 9.3-jre
   - 9.3-jre8
+  - 9.3.11-jre
+  - 9.3.11-jre8
+  - 9.3.11.0
+  - 9.3.11.0-jre
+  - 9.3.11.0-jre8
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: 9.3/jdk8
+  GitCommit: ""
+  Tags:
+  - 9.3-jdk
+  - 9.3-jdk8
+  - 9.3.11-jdk
+  - 9.3.11-jdk8
+  - 9.3.11.0-jdk
+  - 9.3.11.0-jdk8
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: 9.3/jre11
+  GitCommit: ""
+  Tags:
+  - 9.3-jre11
+  - 9.3.11-jre11
+  - 9.3.11.0-jre11
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: 9.3/jdk11
+  GitCommit: ""
+  Tags:
+  - 9.3-jdk11
+  - 9.3.11-jdk11
+  - 9.3.11.0-jdk11
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: 9.3/jdk17
+  GitCommit: ""
+  Tags:
+  - 9.3-jdk17
+  - 9.3.11-jdk17
+  - 9.3.11.0-jdk17
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: 9.3/jre17
+  GitCommit: ""
+  Tags:
+  - 9.3-jre17
+  - 9.3.11-jre17
+  - 9.3.11.0-jre17
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: 9.3/jre8
+  GitCommit: ""
+  Tags:
+  - 9.3.10
   - 9.3.10-jre
   - 9.3.10-jre8
   - 9.3.10.0
@@ -78,8 +147,6 @@ Blocks:
   Directory: 9.3/jdk8
   GitCommit: ""
   Tags:
-  - 9.3-jdk
-  - 9.3-jdk8
   - 9.3.10-jdk
   - 9.3.10-jdk8
   - 9.3.10.0-jdk
@@ -90,7 +157,6 @@ Blocks:
   Directory: 9.3/jre11
   GitCommit: ""
   Tags:
-  - 9.3-jre11
   - 9.3.10-jre11
   - 9.3.10.0-jre11
 - Architectures:
@@ -99,7 +165,6 @@ Blocks:
   Directory: 9.3/jdk11
   GitCommit: ""
   Tags:
-  - 9.3-jdk11
   - 9.3.10-jdk11
   - 9.3.10.0-jdk11
 - Architectures:
@@ -108,9 +173,16 @@ Blocks:
   Directory: 9.3/jdk17
   GitCommit: ""
   Tags:
-  - 9.3-jdk17
   - 9.3.10-jdk17
   - 9.3.10.0-jdk17
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: 9.3/jre17
+  GitCommit: ""
+  Tags:
+  - 9.3.10-jre17
+  - 9.3.10.0-jre17
 - Architectures:
   - amd64
   - arm64v8
@@ -2935,6 +3007,7 @@ KnownTags:
   9.3-jre: {}
   9.3-jre8: {}
   9.3-jre11: {}
+  9.3-jre17: {}
   9.3.0: {}
   9.3.0-jdk: {}
   9.3.0-jdk8: {}
@@ -3087,6 +3160,7 @@ KnownTags:
   9.3.10-jre: {}
   9.3.10-jre8: {}
   9.3.10-jre11: {}
+  9.3.10-jre17: {}
   9.3.10.0: {}
   9.3.10.0-jdk: {}
   9.3.10.0-jdk8: {}
@@ -3095,6 +3169,25 @@ KnownTags:
   9.3.10.0-jre: {}
   9.3.10.0-jre8: {}
   9.3.10.0-jre11: {}
+  9.3.10.0-jre17: {}
+  9.3.11: {}
+  9.3.11-jdk: {}
+  9.3.11-jdk8: {}
+  9.3.11-jdk11: {}
+  9.3.11-jdk17: {}
+  9.3.11-jre: {}
+  9.3.11-jre8: {}
+  9.3.11-jre11: {}
+  9.3.11-jre17: {}
+  9.3.11.0: {}
+  9.3.11.0-jdk: {}
+  9.3.11.0-jdk8: {}
+  9.3.11.0-jdk11: {}
+  9.3.11.0-jdk17: {}
+  9.3.11.0-jre: {}
+  9.3.11.0-jre8: {}
+  9.3.11.0-jre11: {}
+  9.3.11.0-jre17: {}
   "9.4": {}
   9.4-jdk: {}
   9.4-jdk8: {}
@@ -3103,6 +3196,7 @@ KnownTags:
   9.4-jre: {}
   9.4-jre8: {}
   9.4-jre11: {}
+  9.4-jre17: {}
   9.4.0: {}
   9.4.0-jdk: {}
   9.4.0-jdk8: {}
@@ -3143,6 +3237,7 @@ KnownTags:
   9.4.2-jre: {}
   9.4.2-jre8: {}
   9.4.2-jre11: {}
+  9.4.2-jre17: {}
   9.4.2.0: {}
   9.4.2.0-jdk: {}
   9.4.2.0-jdk8: {}
@@ -3151,6 +3246,7 @@ KnownTags:
   9.4.2.0-jre: {}
   9.4.2.0-jre8: {}
   9.4.2.0-jre11: {}
+  9.4.2.0-jre17: {}
   9.4.3: {}
   9.4.3-jdk: {}
   9.4.3-jdk8: {}

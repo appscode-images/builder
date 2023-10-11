@@ -3,47 +3,71 @@ Blocks:
   - amd64
   - arm64v8
   Directory: pkg/docker
-  GitCommit: 92ffcb89f8e145299e837438f0a0de93d73ffede
+  GitCommit: 8c4425ccb9a413e8d0506e0254f0e84bd89a32a6
   Tags:
-  - 1.30.0-go1.20
-  - go1.20
+  - 1.31.0-go1.21
+  - go1.21
   - go1
   - go
 - Architectures:
   - amd64
   - arm64v8
   Directory: pkg/docker
-  GitCommit: 92ffcb89f8e145299e837438f0a0de93d73ffede
+  GitCommit: 8c4425ccb9a413e8d0506e0254f0e84bd89a32a6
   Tags:
-  - 1.30.0-jsc11
+  - 1.31.0-go1.20
+  - go1.20
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: pkg/docker
+  GitCommit: 8c4425ccb9a413e8d0506e0254f0e84bd89a32a6
+  Tags:
+  - 1.31.0-jsc11
   - jsc11
   - jsc
 - Architectures:
   - amd64
   - arm64v8
   Directory: pkg/docker
-  GitCommit: 92ffcb89f8e145299e837438f0a0de93d73ffede
+  GitCommit: 8c4425ccb9a413e8d0506e0254f0e84bd89a32a6
   Tags:
-  - 1.30.0-node18
-  - node18
+  - 1.31.0-node20
+  - node20
   - node
 - Architectures:
   - amd64
   - arm64v8
   Directory: pkg/docker
-  GitCommit: 92ffcb89f8e145299e837438f0a0de93d73ffede
+  GitCommit: 8c4425ccb9a413e8d0506e0254f0e84bd89a32a6
   Tags:
-  - 1.30.0-perl5.36
-  - perl5.36
+  - 1.31.0-node18
+  - node18
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: pkg/docker
+  GitCommit: 8c4425ccb9a413e8d0506e0254f0e84bd89a32a6
+  Tags:
+  - 1.31.0-perl5.38
+  - perl5.38
   - perl5
   - perl
 - Architectures:
   - amd64
   - arm64v8
   Directory: pkg/docker
-  GitCommit: 92ffcb89f8e145299e837438f0a0de93d73ffede
+  GitCommit: 8c4425ccb9a413e8d0506e0254f0e84bd89a32a6
   Tags:
-  - 1.30.0-php8.2
+  - 1.31.0-perl5.36
+  - perl5.36
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: pkg/docker
+  GitCommit: 8c4425ccb9a413e8d0506e0254f0e84bd89a32a6
+  Tags:
+  - 1.31.0-php8.2
   - php8.2
   - php8
   - php
@@ -51,9 +75,9 @@ Blocks:
   - amd64
   - arm64v8
   Directory: pkg/docker
-  GitCommit: 92ffcb89f8e145299e837438f0a0de93d73ffede
+  GitCommit: 8c4425ccb9a413e8d0506e0254f0e84bd89a32a6
   Tags:
-  - 1.30.0-python3.11
+  - 1.31.0-python3.11
   - python3.11
   - python3
   - python
@@ -61,9 +85,9 @@ Blocks:
   - amd64
   - arm64v8
   Directory: pkg/docker
-  GitCommit: 92ffcb89f8e145299e837438f0a0de93d73ffede
+  GitCommit: 8c4425ccb9a413e8d0506e0254f0e84bd89a32a6
   Tags:
-  - 1.30.0-ruby3.2
+  - 1.31.0-ruby3.2
   - ruby3.2
   - ruby3
   - ruby
@@ -71,11 +95,75 @@ Blocks:
   - amd64
   - arm64v8
   Directory: pkg/docker
+  GitCommit: 8c4425ccb9a413e8d0506e0254f0e84bd89a32a6
+  Tags:
+  - 1.31.0-wasm
+  - wasm
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: pkg/docker
+  GitCommit: 8c4425ccb9a413e8d0506e0254f0e84bd89a32a6
+  Tags:
+  - 1.31.0-minimal
+  - minimal
+  - latest
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: pkg/docker
+  GitCommit: 92ffcb89f8e145299e837438f0a0de93d73ffede
+  Tags:
+  - 1.30.0-go1.20
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: pkg/docker
+  GitCommit: 92ffcb89f8e145299e837438f0a0de93d73ffede
+  Tags:
+  - 1.30.0-jsc11
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: pkg/docker
+  GitCommit: 92ffcb89f8e145299e837438f0a0de93d73ffede
+  Tags:
+  - 1.30.0-node18
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: pkg/docker
+  GitCommit: 92ffcb89f8e145299e837438f0a0de93d73ffede
+  Tags:
+  - 1.30.0-perl5.36
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: pkg/docker
+  GitCommit: 92ffcb89f8e145299e837438f0a0de93d73ffede
+  Tags:
+  - 1.30.0-php8.2
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: pkg/docker
+  GitCommit: 92ffcb89f8e145299e837438f0a0de93d73ffede
+  Tags:
+  - 1.30.0-python3.11
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: pkg/docker
+  GitCommit: 92ffcb89f8e145299e837438f0a0de93d73ffede
+  Tags:
+  - 1.30.0-ruby3.2
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: pkg/docker
   GitCommit: 92ffcb89f8e145299e837438f0a0de93d73ffede
   Tags:
   - 1.30.0-minimal
-  - minimal
-  - latest
 - Architectures:
   - amd64
   - arm64v8
@@ -150,18 +238,33 @@ KnownTags:
   1.30.0-php8.2: {}
   1.30.0-python3.11: {}
   1.30.0-ruby3.2: {}
+  1.31.0-go1.20: {}
+  1.31.0-go1.21: {}
+  1.31.0-jsc11: {}
+  1.31.0-minimal: {}
+  1.31.0-node18: {}
+  1.31.0-node20: {}
+  1.31.0-perl5.36: {}
+  1.31.0-perl5.38: {}
+  1.31.0-php8.2: {}
+  1.31.0-python3.11: {}
+  1.31.0-ruby3.2: {}
+  1.31.0-wasm: {}
   go: {}
   go1: {}
   go1.20: {}
+  go1.21: {}
   jsc: {}
   jsc11: {}
   latest: {}
   minimal: {}
   node: {}
   node18: {}
+  node20: {}
   perl: {}
   perl5: {}
   perl5.36: {}
+  perl5.38: {}
   php: {}
   php8: {}
   php8.2: {}
@@ -171,4 +274,5 @@ KnownTags:
   ruby: {}
   ruby3: {}
   ruby3.2: {}
+  wasm: {}
 Name: unit

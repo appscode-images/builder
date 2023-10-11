@@ -7,13 +7,26 @@ Blocks:
   - i386
   - ppc64le
   - s390x
+  Directory: "2.6"
+  GitCommit: 1659442e2fe548afddf0a7356b6ca0c2348186b4
+  Tags:
+  - 2.6.5
+  - "2.6"
+  - "2"
+  - latest
+- Architectures:
+  - amd64
+  - arm32v6
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
   Directory: "2.5"
   GitCommit: 9fcccc5a4cf04e73118bb7af3f9c04f61646e1c1
   Tags:
   - 2.5.8
   - "2.5"
-  - "2"
-  - latest
 - Architectures:
   - amd64
   - arm32v6
@@ -49,11 +62,61 @@ Blocks:
   - ppc64le
   - s390x
   Directory: "2.2"
+  GitCommit: 355e5023b7b7831a7fe2db057070f8378f91ba35
+  Tags:
+  - 2.2.22
+  - "2.2"
+  - lts
+- Architectures:
+  - amd64
+  - arm32v6
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: "1.10"
+  GitCommit: 9cac6280bc40c7d606f7fd2dfce0f77fefd056a8
+  Tags:
+  - 1.10.27
+  - "1.10"
+  - "1"
+- Architectures:
+  - amd64
+  - arm32v6
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: "2.6"
+  GitCommit: 200aeac3b7e22ce8fa63cee09073b64b05d8575c
+  Tags:
+  - 2.6.4
+- Architectures:
+  - amd64
+  - arm32v6
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: "2.6"
+  GitCommit: 0ece2f4215a75bb83564adf041ed732c9cd55a78
+  Tags:
+  - 2.6.3
+- Architectures:
+  - amd64
+  - arm32v6
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: "2.2"
   GitCommit: 5dfe106ff12afcb86515db8e795adeeb397ac59a
   Tags:
   - 2.2.21
-  - "2.2"
-  - lts
 - Architectures:
   - amd64
   - arm32v6
@@ -66,8 +129,18 @@ Blocks:
   GitCommit: 88e63fbab43e2151b0743a4c6d18a9c59aa9db0c
   Tags:
   - 1.10.26
-  - "1.10"
-  - "1"
+- Architectures:
+  - amd64
+  - arm32v6
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: "2.6"
+  GitCommit: f7443a9a35a45d870d6d3e01ea2111276a1c983a
+  Tags:
+  - 2.6.2
 - Architectures:
   - amd64
   - arm32v6
@@ -1552,6 +1625,7 @@ KnownTags:
   1.10.24: {}
   1.10.25: {}
   1.10.26: {}
+  1.10.27: {}
   "2": {}
   "2.0": {}
   2.0.0-RC1: {}
@@ -1610,6 +1684,7 @@ KnownTags:
   2.2.19: {}
   2.2.20: {}
   2.2.21: {}
+  2.2.22: {}
   "2.3": {}
   2.3.0-RC1: {}
   2.3.0-RC2: {}
@@ -1636,6 +1711,11 @@ KnownTags:
   2.5.5: {}
   2.5.7: {}
   2.5.8: {}
+  "2.6": {}
+  2.6.2: {}
+  2.6.3: {}
+  2.6.4: {}
+  2.6.5: {}
   latest: {}
   lts: {}
 Name: composer

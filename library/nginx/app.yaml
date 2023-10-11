@@ -9,14 +9,14 @@ Blocks:
   - ppc64le
   - s390x
   Directory: mainline/debian
-  GitCommit: 7870605f4b93d86e898af291086d77ab9e6b96e3
+  GitCommit: 321a13a966eeff945196ddd31a629dad2aa85eda
   Tags:
-  - 1.25.1
+  - 1.25.2
   - mainline
   - "1"
   - "1.25"
   - latest
-  - 1.25.1-bookworm
+  - 1.25.2-bookworm
   - mainline-bookworm
   - 1-bookworm
   - 1.25-bookworm
@@ -31,14 +31,14 @@ Blocks:
   - ppc64le
   - s390x
   Directory: mainline/debian-perl
-  GitCommit: 7870605f4b93d86e898af291086d77ab9e6b96e3
+  GitCommit: 321a13a966eeff945196ddd31a629dad2aa85eda
   Tags:
-  - 1.25.1-perl
+  - 1.25.2-perl
   - mainline-perl
   - 1-perl
   - 1.25-perl
   - perl
-  - 1.25.1-bookworm-perl
+  - 1.25.2-bookworm-perl
   - mainline-bookworm-perl
   - 1-bookworm-perl
   - 1.25-bookworm-perl
@@ -52,18 +52,18 @@ Blocks:
   - i386
   - amd64
   Directory: mainline/alpine
-  GitCommit: 7870605f4b93d86e898af291086d77ab9e6b96e3
+  GitCommit: 4b0d808b8f320df132c154a974ebe46e9e5f5ffe
   Tags:
-  - 1.25.1-alpine
+  - 1.25.2-alpine
   - mainline-alpine
   - 1-alpine
   - 1.25-alpine
   - alpine
-  - 1.25.1-alpine3.17
-  - mainline-alpine3.17
-  - 1-alpine3.17
-  - 1.25-alpine3.17
-  - alpine3.17
+  - 1.25.2-alpine3.18
+  - mainline-alpine3.18
+  - 1-alpine3.18
+  - 1.25-alpine3.18
+  - alpine3.18
 - Architectures:
   - arm64v8
   - arm32v6
@@ -73,18 +73,18 @@ Blocks:
   - i386
   - amd64
   Directory: mainline/alpine-perl
-  GitCommit: 7870605f4b93d86e898af291086d77ab9e6b96e3
+  GitCommit: 4b0d808b8f320df132c154a974ebe46e9e5f5ffe
   Tags:
-  - 1.25.1-alpine-perl
+  - 1.25.2-alpine-perl
   - mainline-alpine-perl
   - 1-alpine-perl
   - 1.25-alpine-perl
   - alpine-perl
-  - 1.25.1-alpine3.17-perl
-  - mainline-alpine3.17-perl
-  - 1-alpine3.17-perl
-  - 1.25-alpine3.17-perl
-  - alpine3.17-perl
+  - 1.25.2-alpine3.18-perl
+  - mainline-alpine3.18-perl
+  - 1-alpine3.18-perl
+  - 1.25-alpine3.18-perl
+  - alpine3.18-perl
 - Architectures:
   - arm64v8
   - arm32v6
@@ -94,18 +94,18 @@ Blocks:
   - i386
   - amd64
   Directory: mainline/alpine-slim
-  GitCommit: 7870605f4b93d86e898af291086d77ab9e6b96e3
+  GitCommit: 4b0d808b8f320df132c154a974ebe46e9e5f5ffe
   Tags:
-  - 1.25.1-alpine-slim
+  - 1.25.2-alpine-slim
   - mainline-alpine-slim
   - 1-alpine-slim
   - 1.25-alpine-slim
   - alpine-slim
-  - 1.25.1-alpine3.17-slim
-  - mainline-alpine3.17-slim
-  - 1-alpine3.17-slim
-  - 1.25-alpine3.17-slim
-  - alpine3.17-slim
+  - 1.25.2-alpine3.18-slim
+  - mainline-alpine3.18-slim
+  - 1-alpine3.18-slim
+  - 1.25-alpine3.18-slim
+  - alpine3.18-slim
 - Architectures:
   - amd64
   - arm32v5
@@ -193,6 +193,85 @@ Blocks:
   - 1.24.0-alpine3.17-slim
   - stable-alpine3.17-slim
   - 1.24-alpine3.17-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: mainline/debian
+  GitCommit: 7870605f4b93d86e898af291086d77ab9e6b96e3
+  Tags:
+  - 1.25.1
+  - 1.25.1-bookworm
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: mainline/debian-perl
+  GitCommit: 7870605f4b93d86e898af291086d77ab9e6b96e3
+  Tags:
+  - 1.25.1-perl
+  - 1.25.1-bookworm-perl
+- Architectures:
+  - arm64v8
+  - arm32v6
+  - arm32v7
+  - ppc64le
+  - s390x
+  - i386
+  - amd64
+  Directory: mainline/alpine
+  GitCommit: 7870605f4b93d86e898af291086d77ab9e6b96e3
+  Tags:
+  - 1.25.1-alpine
+  - 1.25.1-alpine3.17
+  - mainline-alpine3.17
+  - 1-alpine3.17
+  - 1.25-alpine3.17
+  - alpine3.17
+- Architectures:
+  - arm64v8
+  - arm32v6
+  - arm32v7
+  - ppc64le
+  - s390x
+  - i386
+  - amd64
+  Directory: mainline/alpine-perl
+  GitCommit: 7870605f4b93d86e898af291086d77ab9e6b96e3
+  Tags:
+  - 1.25.1-alpine-perl
+  - 1.25.1-alpine3.17-perl
+  - mainline-alpine3.17-perl
+  - 1-alpine3.17-perl
+  - 1.25-alpine3.17-perl
+  - alpine3.17-perl
+- Architectures:
+  - arm64v8
+  - arm32v6
+  - arm32v7
+  - ppc64le
+  - s390x
+  - i386
+  - amd64
+  Directory: mainline/alpine-slim
+  GitCommit: 7870605f4b93d86e898af291086d77ab9e6b96e3
+  Tags:
+  - 1.25.1-alpine-slim
+  - 1.25.1-alpine3.17-slim
+  - mainline-alpine3.17-slim
+  - 1-alpine3.17-slim
+  - 1.25-alpine3.17-slim
+  - alpine3.17-slim
 - Architectures:
   - amd64
   - arm32v5
@@ -3661,6 +3740,9 @@ KnownTags:
   1-alpine3.17: {}
   1-alpine3.17-perl: {}
   1-alpine3.17-slim: {}
+  1-alpine3.18: {}
+  1-alpine3.18-perl: {}
+  1-alpine3.18-slim: {}
   1-bookworm: {}
   1-bookworm-perl: {}
   1-bullseye: {}
@@ -4084,6 +4166,9 @@ KnownTags:
   1.25-alpine3.17: {}
   1.25-alpine3.17-perl: {}
   1.25-alpine3.17-slim: {}
+  1.25-alpine3.18: {}
+  1.25-alpine3.18-perl: {}
+  1.25-alpine3.18-slim: {}
   1.25-bookworm: {}
   1.25-bookworm-perl: {}
   1.25-bullseye: {}
@@ -4109,12 +4194,25 @@ KnownTags:
   1.25.1-bookworm: {}
   1.25.1-bookworm-perl: {}
   1.25.1-perl: {}
+  1.25.2: {}
+  1.25.2-alpine: {}
+  1.25.2-alpine-perl: {}
+  1.25.2-alpine-slim: {}
+  1.25.2-alpine3.18: {}
+  1.25.2-alpine3.18-perl: {}
+  1.25.2-alpine3.18-slim: {}
+  1.25.2-bookworm: {}
+  1.25.2-bookworm-perl: {}
+  1.25.2-perl: {}
   alpine: {}
   alpine-perl: {}
   alpine-slim: {}
   alpine3.17: {}
   alpine3.17-perl: {}
   alpine3.17-slim: {}
+  alpine3.18: {}
+  alpine3.18-perl: {}
+  alpine3.18-slim: {}
   bookworm: {}
   bookworm-perl: {}
   bullseye: {}
@@ -4127,6 +4225,9 @@ KnownTags:
   mainline-alpine3.17: {}
   mainline-alpine3.17-perl: {}
   mainline-alpine3.17-slim: {}
+  mainline-alpine3.18: {}
+  mainline-alpine3.18-perl: {}
+  mainline-alpine3.18-slim: {}
   mainline-bookworm: {}
   mainline-bookworm-perl: {}
   mainline-bullseye: {}

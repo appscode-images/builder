@@ -7,11 +7,11 @@ Blocks:
   - ppc64le
   - s390x
   Directory: fresh/debian
-  GitCommit: f3fa117d1308e0b521d617045666b9bb284f63b7
+  GitCommit: 61eab19ea5d87528d2c6a109dce7e355ac9965fc
   Tags:
   - fresh
-  - 7.3.0
-  - "7.3"
+  - 7.4.1
+  - "7.4"
   - latest
 - Architectures:
   - amd64
@@ -21,11 +21,11 @@ Blocks:
   - ppc64le
   - s390x
   Directory: fresh/alpine
-  GitCommit: f3fa117d1308e0b521d617045666b9bb284f63b7
+  GitCommit: 61eab19ea5d87528d2c6a109dce7e355ac9965fc
   Tags:
   - fresh-alpine
-  - 7.3.0-alpine
-  - 7.3-alpine
+  - 7.4.1-alpine
+  - 7.4-alpine
   - alpine
 - Architectures:
   - amd64
@@ -35,9 +35,69 @@ Blocks:
   - ppc64le
   - s390x
   Directory: old/debian
-  GitCommit: 34226613b148a3f7ca7fd6cc232fe8fb5e38aff5
+  GitCommit: b9c04df300b4a9138c61debe495fbe56021f7550
   Tags:
   - old
+  - 7.3.0
+  - "7.3"
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: old/alpine
+  GitCommit: b9c04df300b4a9138c61debe495fbe56021f7550
+  Tags:
+  - old-alpine
+  - 7.3.0-alpine
+  - 7.3-alpine
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: stable/debian
+  GitCommit: f3be41ac5e4224615e1437334ffc16418e3e89f3
+  Tags:
+  - stable
+  - 6.0.11
+  - "6.0"
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: fresh/debian
+  GitCommit: e6e52639c72df3c5f211d9f56534479819461c44
+  Tags:
+  - 7.4.0
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: fresh/alpine
+  GitCommit: e6e52639c72df3c5f211d9f56534479819461c44
+  Tags:
+  - 7.4.0-alpine
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: old/debian
+  GitCommit: 55b410af3b8c5f596fe896fef8e0e11950a1be3b
+  Tags:
   - 7.2.1
   - "7.2"
 - Architectures:
@@ -48,24 +108,10 @@ Blocks:
   - ppc64le
   - s390x
   Directory: old/alpine
-  GitCommit: 34226613b148a3f7ca7fd6cc232fe8fb5e38aff5
+  GitCommit: 55b410af3b8c5f596fe896fef8e0e11950a1be3b
   Tags:
-  - old-alpine
   - 7.2.1-alpine
   - 7.2-alpine
-- Architectures:
-  - amd64
-  - arm32v7
-  - arm64v8
-  - i386
-  - ppc64le
-  - s390x
-  Directory: stable/debian
-  GitCommit: e7acf36bd4afd05427bc3fb251ae4b3374168f27
-  Tags:
-  - stable
-  - 6.0.11
-  - "6.0"
 - Architectures:
   - amd64
   - arm32v7
@@ -495,6 +541,12 @@ KnownTags:
   7.3-alpine: {}
   7.3.0: {}
   7.3.0-alpine: {}
+  "7.4": {}
+  7.4-alpine: {}
+  7.4.0: {}
+  7.4.0-alpine: {}
+  7.4.1: {}
+  7.4.1-alpine: {}
   alpine: {}
   fresh: {}
   fresh-alpine: {}

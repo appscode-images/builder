@@ -9,12 +9,74 @@ Blocks:
   - ppc64le
   - s390x
   Directory: debian
-  GitCommit: 663b9b815d858c94ae6224183afed602d291587e
+  GitCommit: a3a3f65ed35b33c791a86af4383b5129ab7b7721
   Tags:
-  - 1.4.4
+  - 1.4.5
   - "1.4"
   - "1"
   - latest
+  - 1.4.5-bookworm
+  - 1.4-bookworm
+  - 1-bookworm
+  - bookworm
+- Architectures:
+  - amd64
+  - arm32v6
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: alpine
+  GitCommit: a3a3f65ed35b33c791a86af4383b5129ab7b7721
+  Tags:
+  - 1.4.5-alpine
+  - 1.4-alpine
+  - 1-alpine
+  - alpine
+  - 1.4.5-alpine3.18
+  - 1.4-alpine3.18
+  - 1-alpine3.18
+  - alpine3.18
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: debian
+  GitCommit: b4d59338769521e17730ff1741c8502a9e210846
+  Tags:
+  - 1.4.4
+  - 1.4.4-bookworm
+- Architectures:
+  - amd64
+  - arm32v6
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: alpine
+  GitCommit: 105374db8e9ecf2782c5302f17464547dd5c8609
+  Tags:
+  - 1.4.4-alpine
+  - 1.4.4-alpine3.18
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: debian
+  GitCommit: 663b9b815d858c94ae6224183afed602d291587e
+  Tags:
   - 1.4.4-bullseye
   - 1.4-bullseye
   - 1-bullseye
@@ -30,10 +92,6 @@ Blocks:
   Directory: alpine
   GitCommit: 6806daa0d17eae1cd10df10ff3a533d3655ac9f8
   Tags:
-  - 1.4.4-alpine
-  - 1.4-alpine
-  - 1-alpine
-  - alpine
   - 1.4.4-alpine3.17
   - 1.4-alpine3.17
   - 1-alpine3.17
@@ -421,6 +479,8 @@ KnownTags:
   "1": {}
   1-alpine: {}
   1-alpine3.17: {}
+  1-alpine3.18: {}
+  1-bookworm: {}
   1-bullseye: {}
   "1.0": {}
   1.0-alpine: {}
@@ -459,6 +519,8 @@ KnownTags:
   "1.4": {}
   1.4-alpine: {}
   1.4-alpine3.17: {}
+  1.4-alpine3.18: {}
+  1.4-bookworm: {}
   1.4-bullseye: {}
   1.4.1: {}
   1.4.1-alpine: {}
@@ -469,9 +531,17 @@ KnownTags:
   1.4.4: {}
   1.4.4-alpine: {}
   1.4.4-alpine3.17: {}
+  1.4.4-alpine3.18: {}
+  1.4.4-bookworm: {}
   1.4.4-bullseye: {}
+  1.4.5: {}
+  1.4.5-alpine: {}
+  1.4.5-alpine3.18: {}
+  1.4.5-bookworm: {}
   alpine: {}
   alpine3.17: {}
+  alpine3.18: {}
+  bookworm: {}
   bullseye: {}
   latest: {}
 Name: irssi

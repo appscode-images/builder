@@ -1,28 +1,38 @@
 GitRepo: https://github.com/apache/solr-docker.git
 
-Tags: 9.2.1,9.2,9,latest
+Tags: 9.3.0,9.3,9,latest
 Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
-GitCommit: 989825ee6dce2f6bf7b31051f1ba053b6c4426f2
+GitCommit: 7e3be2fce98be1fe9c80be0727b4600d4b52fd0f
+Directory: 9.3
+
+Tags: 9.3.0-slim,9.3-slim,9-slim,slim
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: 7e3be2fce98be1fe9c80be0727b4600d4b52fd0f
+Directory: 9.3-slim
+
+Tags: 9.2.1,9.2
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: 7e3be2fce98be1fe9c80be0727b4600d4b52fd0f
 Directory: 9.2
 
 Tags: 9.1.1,9.1
 Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
-GitCommit: 989825ee6dce2f6bf7b31051f1ba053b6c4426f2
+GitCommit: 7e3be2fce98be1fe9c80be0727b4600d4b52fd0f
 Directory: 9.1
 
 Tags: 9.0.0,9.0
 Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
-GitCommit: 989825ee6dce2f6bf7b31051f1ba053b6c4426f2
+GitCommit: 7e3be2fce98be1fe9c80be0727b4600d4b52fd0f
 Directory: 9.0
 
 Tags: 8.11.2,8.11,8
 Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
-GitCommit: 989825ee6dce2f6bf7b31051f1ba053b6c4426f2
+GitCommit: 7e3be2fce98be1fe9c80be0727b4600d4b52fd0f
 Directory: 8.11
 
 Tags: 8.11.2-slim,8.11-slim,8-slim
 Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
-GitCommit: 989825ee6dce2f6bf7b31051f1ba053b6c4426f2
+GitCommit: 7e3be2fce98be1fe9c80be0727b4600d4b52fd0f
 Directory: 8.11-slim
 
 Tags: 9.2.0
@@ -41,11 +51,6 @@ GitCommit: b30202ad6e336baf108c7c42222df723ba338010
 Directory: 8.11
 
 Tags: 8.11.1-slim
-Architectures: amd64,arm64v8
-GitCommit: b30202ad6e336baf108c7c42222df723ba338010
-Directory: 8.11/slim
-
-Tags: slim
 Architectures: amd64,arm64v8
 GitCommit: b30202ad6e336baf108c7c42222df723ba338010
 Directory: 8.11/slim

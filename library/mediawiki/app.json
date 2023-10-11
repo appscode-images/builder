@@ -87,6 +87,12 @@
     "1.35.10": {},
     "1.35.10-fpm": {},
     "1.35.10-fpm-alpine": {},
+    "1.35.11": {},
+    "1.35.11-fpm": {},
+    "1.35.11-fpm-alpine": {},
+    "1.35.13": {},
+    "1.35.13-fpm": {},
+    "1.35.13-fpm-alpine": {},
     "1.35.2": {},
     "1.35.2-fpm": {},
     "1.35.2-fpm-alpine": {},
@@ -168,6 +174,9 @@
     "1.38.6": {},
     "1.38.6-fpm": {},
     "1.38.6-fpm-alpine": {},
+    "1.38.7": {},
+    "1.38.7-fpm": {},
+    "1.38.7-fpm-alpine": {},
     "1.39": {},
     "1.39-fpm": {},
     "1.39-fpm-alpine": {},
@@ -183,6 +192,21 @@
     "1.39.3": {},
     "1.39.3-fpm": {},
     "1.39.3-fpm-alpine": {},
+    "1.39.4": {},
+    "1.39.4-fpm": {},
+    "1.39.4-fpm-alpine": {},
+    "1.39.5": {},
+    "1.39.5-fpm": {},
+    "1.39.5-fpm-alpine": {},
+    "1.40": {},
+    "1.40-fpm": {},
+    "1.40-fpm-alpine": {},
+    "1.40.0": {},
+    "1.40.0-fpm": {},
+    "1.40.0-fpm-alpine": {},
+    "1.40.1": {},
+    "1.40.1-fpm": {},
+    "1.40.1-fpm-alpine": {},
     "latest": {},
     "legacy": {},
     "legacy-fpm": {},
@@ -202,11 +226,48 @@
   "Blocks": [
     {
       "Tags": [
-        "1.39.3",
-        "1.39",
+        "1.40.1",
+        "1.40",
         "stable",
-        "lts",
         "latest"
+      ],
+      "Architectures": null,
+      "GitCommit": "",
+      "Directory": "1.40/apache"
+    },
+    {
+      "Tags": [
+        "1.40.1-fpm",
+        "1.40-fpm",
+        "stable-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "",
+      "Directory": "1.40/fpm"
+    },
+    {
+      "Tags": [
+        "1.40.1-fpm-alpine",
+        "1.40-fpm-alpine",
+        "stable-fpm-alpine"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v6",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "1.40/fpm-alpine"
+    },
+    {
+      "Tags": [
+        "1.39.5",
+        "1.39",
+        "lts",
+        "legacy"
       ],
       "Architectures": null,
       "GitCommit": "",
@@ -214,9 +275,9 @@
     },
     {
       "Tags": [
-        "1.39.3-fpm",
+        "1.39.5-fpm",
         "1.39-fpm",
-        "stable-fpm",
+        "legacy-fpm",
         "lts-fpm"
       ],
       "Architectures": null,
@@ -225,9 +286,9 @@
     },
     {
       "Tags": [
-        "1.39.3-fpm-alpine",
+        "1.39.5-fpm-alpine",
         "1.39-fpm-alpine",
-        "stable-fpm-alpine",
+        "legacy-fpm-alpine",
         "lts-fpm-alpine"
       ],
       "Architectures": [
@@ -243,9 +304,138 @@
     },
     {
       "Tags": [
-        "1.38.6",
-        "1.38",
-        "legacy"
+        "1.35.13",
+        "1.35",
+        "legacylts"
+      ],
+      "Architectures": null,
+      "GitCommit": "",
+      "Directory": "1.35/apache"
+    },
+    {
+      "Tags": [
+        "1.35.13-fpm",
+        "1.35-fpm",
+        "legacylts-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "",
+      "Directory": "1.35/fpm"
+    },
+    {
+      "Tags": [
+        "1.35.13-fpm-alpine",
+        "1.35-fpm-alpine",
+        "legacylts-fpm-alpine"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v6",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "1.35/fpm-alpine"
+    },
+    {
+      "Tags": [
+        "1.40.0"
+      ],
+      "Architectures": null,
+      "GitCommit": "",
+      "Directory": "1.40/apache"
+    },
+    {
+      "Tags": [
+        "1.40.0-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "",
+      "Directory": "1.40/fpm"
+    },
+    {
+      "Tags": [
+        "1.40.0-fpm-alpine"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v6",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "1.40/fpm-alpine"
+    },
+    {
+      "Tags": [
+        "1.39.4"
+      ],
+      "Architectures": null,
+      "GitCommit": "",
+      "Directory": "1.39/apache"
+    },
+    {
+      "Tags": [
+        "1.39.4-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "",
+      "Directory": "1.39/fpm"
+    },
+    {
+      "Tags": [
+        "1.39.4-fpm-alpine"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v6",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "1.39/fpm-alpine"
+    },
+    {
+      "Tags": [
+        "1.35.11"
+      ],
+      "Architectures": null,
+      "GitCommit": "",
+      "Directory": "1.35/apache"
+    },
+    {
+      "Tags": [
+        "1.35.11-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "",
+      "Directory": "1.35/fpm"
+    },
+    {
+      "Tags": [
+        "1.35.11-fpm-alpine"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v6",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "1.35/fpm-alpine"
+    },
+    {
+      "Tags": [
+        "1.38.7",
+        "1.38"
       ],
       "Architectures": null,
       "GitCommit": "",
@@ -253,9 +443,8 @@
     },
     {
       "Tags": [
-        "1.38.6-fpm",
-        "1.38-fpm",
-        "legacy-fpm"
+        "1.38.7-fpm",
+        "1.38-fpm"
       ],
       "Architectures": null,
       "GitCommit": "",
@@ -263,9 +452,8 @@
     },
     {
       "Tags": [
-        "1.38.6-fpm-alpine",
-        "1.38-fpm-alpine",
-        "legacy-fpm-alpine"
+        "1.38.7-fpm-alpine",
+        "1.38-fpm-alpine"
       ],
       "Architectures": [
         "amd64",
@@ -280,9 +468,69 @@
     },
     {
       "Tags": [
-        "1.35.10",
-        "1.35",
-        "legacylts"
+        "1.39.3"
+      ],
+      "Architectures": null,
+      "GitCommit": "",
+      "Directory": "1.39/apache"
+    },
+    {
+      "Tags": [
+        "1.39.3-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "",
+      "Directory": "1.39/fpm"
+    },
+    {
+      "Tags": [
+        "1.39.3-fpm-alpine"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v6",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "1.39/fpm-alpine"
+    },
+    {
+      "Tags": [
+        "1.38.6"
+      ],
+      "Architectures": null,
+      "GitCommit": "",
+      "Directory": "1.38/apache"
+    },
+    {
+      "Tags": [
+        "1.38.6-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "",
+      "Directory": "1.38/fpm"
+    },
+    {
+      "Tags": [
+        "1.38.6-fpm-alpine"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v6",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "ppc64le"
+      ],
+      "GitCommit": "",
+      "Directory": "1.38/fpm-alpine"
+    },
+    {
+      "Tags": [
+        "1.35.10"
       ],
       "Architectures": null,
       "GitCommit": "",
@@ -290,9 +538,7 @@
     },
     {
       "Tags": [
-        "1.35.10-fpm",
-        "1.35-fpm",
-        "legacylts-fpm"
+        "1.35.10-fpm"
       ],
       "Architectures": null,
       "GitCommit": "",
@@ -300,9 +546,7 @@
     },
     {
       "Tags": [
-        "1.35.10-fpm-alpine",
-        "1.35-fpm-alpine",
-        "legacylts-fpm-alpine"
+        "1.35.10-fpm-alpine"
       ],
       "Architectures": [
         "amd64",

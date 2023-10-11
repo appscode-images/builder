@@ -9,11 +9,11 @@ Blocks:
   - ppc64le
   - s390x
   Directory: 3.3-rc/bookworm
-  GitCommit: ed1be47a38a7a24a0aa03c450549afcb592f02a8
+  GitCommit: 31c1fdba369192fe2c3cf327d7d98819edc1400b
   Tags:
-  - 3.3.0-preview1-bookworm
+  - 3.3.0-preview2-bookworm
   - 3.3-rc-bookworm
-  - 3.3.0-preview1
+  - 3.3.0-preview2
   - 3.3-rc
 - Architectures:
   - amd64
@@ -25,11 +25,11 @@ Blocks:
   - ppc64le
   - s390x
   Directory: 3.3-rc/slim-bookworm
-  GitCommit: ed1be47a38a7a24a0aa03c450549afcb592f02a8
+  GitCommit: 31c1fdba369192fe2c3cf327d7d98819edc1400b
   Tags:
-  - 3.3.0-preview1-slim-bookworm
+  - 3.3.0-preview2-slim-bookworm
   - 3.3-rc-slim-bookworm
-  - 3.3.0-preview1-slim
+  - 3.3.0-preview2-slim
   - 3.3-rc-slim
 - Architectures:
   - amd64
@@ -41,9 +41,9 @@ Blocks:
   - ppc64le
   - s390x
   Directory: 3.3-rc/bullseye
-  GitCommit: ed1be47a38a7a24a0aa03c450549afcb592f02a8
+  GitCommit: 31c1fdba369192fe2c3cf327d7d98819edc1400b
   Tags:
-  - 3.3.0-preview1-bullseye
+  - 3.3.0-preview2-bullseye
   - 3.3-rc-bullseye
 - Architectures:
   - amd64
@@ -55,9 +55,9 @@ Blocks:
   - ppc64le
   - s390x
   Directory: 3.3-rc/slim-bullseye
-  GitCommit: ed1be47a38a7a24a0aa03c450549afcb592f02a8
+  GitCommit: 31c1fdba369192fe2c3cf327d7d98819edc1400b
   Tags:
-  - 3.3.0-preview1-slim-bullseye
+  - 3.3.0-preview2-slim-bullseye
   - 3.3-rc-slim-bullseye
 - Architectures:
   - amd64
@@ -68,11 +68,11 @@ Blocks:
   - ppc64le
   - s390x
   Directory: 3.3-rc/alpine3.18
-  GitCommit: 39aa7dd5e4ebeef3f466d486f1094b09e41d6c5b
+  GitCommit: 31c1fdba369192fe2c3cf327d7d98819edc1400b
   Tags:
-  - 3.3.0-preview1-alpine3.18
+  - 3.3.0-preview2-alpine3.18
   - 3.3-rc-alpine3.18
-  - 3.3.0-preview1-alpine
+  - 3.3.0-preview2-alpine
   - 3.3-rc-alpine
 - Architectures:
   - amd64
@@ -83,9 +83,9 @@ Blocks:
   - ppc64le
   - s390x
   Directory: 3.3-rc/alpine3.17
-  GitCommit: 39aa7dd5e4ebeef3f466d486f1094b09e41d6c5b
+  GitCommit: 31c1fdba369192fe2c3cf327d7d98819edc1400b
   Tags:
-  - 3.3.0-preview1-alpine3.17
+  - 3.3.0-preview2-alpine3.17
   - 3.3-rc-alpine3.17
 - Architectures:
   - amd64
@@ -348,6 +348,85 @@ Blocks:
   - 3.0-alpine3.16
   - 3.0.6-alpine
   - 3.0-alpine
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: 3.3-rc/bookworm
+  GitCommit: ed1be47a38a7a24a0aa03c450549afcb592f02a8
+  Tags:
+  - 3.3.0-preview1-bookworm
+  - 3.3.0-preview1
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: 3.3-rc/slim-bookworm
+  GitCommit: ed1be47a38a7a24a0aa03c450549afcb592f02a8
+  Tags:
+  - 3.3.0-preview1-slim-bookworm
+  - 3.3.0-preview1-slim
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: 3.3-rc/bullseye
+  GitCommit: ed1be47a38a7a24a0aa03c450549afcb592f02a8
+  Tags:
+  - 3.3.0-preview1-bullseye
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: 3.3-rc/slim-bullseye
+  GitCommit: ed1be47a38a7a24a0aa03c450549afcb592f02a8
+  Tags:
+  - 3.3.0-preview1-slim-bullseye
+- Architectures:
+  - amd64
+  - arm32v6
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: 3.3-rc/alpine3.18
+  GitCommit: 39aa7dd5e4ebeef3f466d486f1094b09e41d6c5b
+  Tags:
+  - 3.3.0-preview1-alpine3.18
+  - 3.3.0-preview1-alpine
+- Architectures:
+  - amd64
+  - arm32v6
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: 3.3-rc/alpine3.17
+  GitCommit: 39aa7dd5e4ebeef3f466d486f1094b09e41d6c5b
+  Tags:
+  - 3.3.0-preview1-alpine3.17
 - Architectures:
   - amd64
   - arm32v7
@@ -7296,6 +7375,15 @@ KnownTags:
   3.3.0-preview1-slim-bookworm: {}
   3.3.0-preview1-slim-bullseye: {}
   3.3.0-preview1-slim-buster: {}
+  3.3.0-preview2: {}
+  3.3.0-preview2-alpine: {}
+  3.3.0-preview2-alpine3.17: {}
+  3.3.0-preview2-alpine3.18: {}
+  3.3.0-preview2-bookworm: {}
+  3.3.0-preview2-bullseye: {}
+  3.3.0-preview2-slim: {}
+  3.3.0-preview2-slim-bookworm: {}
+  3.3.0-preview2-slim-bullseye: {}
   alpine: {}
   alpine3.4: {}
   alpine3.6: {}

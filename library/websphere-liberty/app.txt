@@ -1,6 +1,6 @@
 GitRepo: https://github.com/WASdev/ci.docker.git
 
-Tags: kernel
+Tags: kernel,kernel-java8-ibmjava
 Directory: ga/latest/kernel
 
 Tags: kernel-java11-openj9
@@ -11,7 +11,7 @@ Tags: kernel-java17-openj9
 Architectures: amd64,arm64v8,ppc64le,s390x
 Directory: ga/latest/kernel
 
-Tags: full,latest
+Tags: full,latest,full-java8-ibmjava
 Directory: ga/latest/full
 
 Tags: full-java11-openj9
@@ -22,27 +22,71 @@ Tags: full-java17-openj9
 Architectures: amd64,arm64v8,ppc64le,s390x
 Directory: ga/latest/full
 
-Tags: 23.0.0.5-kernel-java8-ibmjava
-Directory: ga/23.0.0.5/kernel
+Tags: 23.0.0.9-kernel-java8-ibmjava
+Directory: ga/23.0.0.9/kernel
 
-Tags: 23.0.0.5-kernel-java11-openj9
+Tags: 23.0.0.9-kernel-java11-openj9
 Architectures: amd64,arm64v8,ppc64le,s390x
-Directory: ga/23.0.0.5/kernel
+Directory: ga/23.0.0.9/kernel
 
-Tags: 23.0.0.5-kernel-java17-openj9
+Tags: 23.0.0.9-kernel-java17-openj9
 Architectures: amd64,arm64v8,ppc64le,s390x
-Directory: ga/23.0.0.5/kernel
+Directory: ga/23.0.0.9/kernel
 
-Tags: 23.0.0.5-full-java8-ibmjava
-Directory: ga/23.0.0.5/full
+Tags: 23.0.0.9-full-java8-ibmjava
+Directory: ga/23.0.0.9/full
 
-Tags: 23.0.0.5-full-java11-openj9
+Tags: 23.0.0.9-full-java11-openj9
 Architectures: amd64,arm64v8,ppc64le,s390x
-Directory: ga/23.0.0.5/full
+Directory: ga/23.0.0.9/full
 
-Tags: 23.0.0.5-full-java17-openj9
+Tags: 23.0.0.9-full-java17-openj9
 Architectures: amd64,arm64v8,ppc64le,s390x
-Directory: ga/23.0.0.5/full
+Directory: ga/23.0.0.9/full
+
+Tags: 23.0.0.6-kernel-java8-ibmjava
+Directory: ga/23.0.0.6/kernel
+
+Tags: 23.0.0.6-kernel-java11-openj9
+Architectures: amd64,arm64v8,ppc64le,s390x
+Directory: ga/23.0.0.6/kernel
+
+Tags: 23.0.0.6-kernel-java17-openj9
+Architectures: amd64,arm64v8,ppc64le,s390x
+Directory: ga/23.0.0.6/kernel
+
+Tags: 23.0.0.6-full-java8-ibmjava
+Directory: ga/23.0.0.6/full
+
+Tags: 23.0.0.6-full-java11-openj9
+Architectures: amd64,arm64v8,ppc64le,s390x
+Directory: ga/23.0.0.6/full
+
+Tags: 23.0.0.6-full-java17-openj9
+Architectures: amd64,arm64v8,ppc64le,s390x
+Directory: ga/23.0.0.6/full
+
+Tags: 23.0.0.8-kernel-java8-ibmjava
+Directory: ga/23.0.0.8/kernel
+
+Tags: 23.0.0.8-kernel-java11-openj9
+Architectures: amd64,arm64v8,ppc64le,s390x
+Directory: ga/23.0.0.8/kernel
+
+Tags: 23.0.0.8-kernel-java17-openj9
+Architectures: amd64,arm64v8,ppc64le,s390x
+Directory: ga/23.0.0.8/kernel
+
+Tags: 23.0.0.8-full-java8-ibmjava
+Directory: ga/23.0.0.8/full
+
+Tags: 23.0.0.8-full-java11-openj9
+Architectures: amd64,arm64v8,ppc64le,s390x
+Directory: ga/23.0.0.8/full
+
+Tags: 23.0.0.8-full-java17-openj9
+Architectures: amd64,arm64v8,ppc64le,s390x
+Directory: ga/23.0.0.8/full
 
 Tags: 23.0.0.3-kernel-java8-ibmjava
 Directory: ga/23.0.0.3/kernel
@@ -65,6 +109,50 @@ Directory: ga/23.0.0.3/full
 Tags: 23.0.0.3-full-java17-openj9
 Architectures: amd64,arm64v8,ppc64le,s390x
 Directory: ga/23.0.0.3/full
+
+Tags: 23.0.0.7-kernel-java8-ibmjava
+Directory: ga/23.0.0.7/kernel
+
+Tags: 23.0.0.7-kernel-java11-openj9
+Architectures: amd64,arm64v8,ppc64le,s390x
+Directory: ga/23.0.0.7/kernel
+
+Tags: 23.0.0.7-kernel-java17-openj9
+Architectures: amd64,arm64v8,ppc64le,s390x
+Directory: ga/23.0.0.7/kernel
+
+Tags: 23.0.0.7-full-java8-ibmjava
+Directory: ga/23.0.0.7/full
+
+Tags: 23.0.0.7-full-java11-openj9
+Architectures: amd64,arm64v8,ppc64le,s390x
+Directory: ga/23.0.0.7/full
+
+Tags: 23.0.0.7-full-java17-openj9
+Architectures: amd64,arm64v8,ppc64le,s390x
+Directory: ga/23.0.0.7/full
+
+Tags: 23.0.0.5-kernel-java8-ibmjava
+Directory: ga/23.0.0.5/kernel
+
+Tags: 23.0.0.5-kernel-java11-openj9
+Architectures: amd64,arm64v8,ppc64le,s390x
+Directory: ga/23.0.0.5/kernel
+
+Tags: 23.0.0.5-kernel-java17-openj9
+Architectures: amd64,arm64v8,ppc64le,s390x
+Directory: ga/23.0.0.5/kernel
+
+Tags: 23.0.0.5-full-java8-ibmjava
+Directory: ga/23.0.0.5/full
+
+Tags: 23.0.0.5-full-java11-openj9
+Architectures: amd64,arm64v8,ppc64le,s390x
+Directory: ga/23.0.0.5/full
+
+Tags: 23.0.0.5-full-java17-openj9
+Architectures: amd64,arm64v8,ppc64le,s390x
+Directory: ga/23.0.0.5/full
 
 Tags: 22.0.0.12-kernel-java8-ibmjava
 Directory: ga/22.0.0.12/kernel

@@ -1,41 +1,241 @@
 GitRepo: https://github.com/rust-lang/docker-rust.git
 
-Tags: 1-buster,1.70-buster,1.70.0-buster,buster
+Tags: 1-buster,1.73-buster,1.73.0-buster,buster
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 97a7686492c0ef95717f3f5e93ee24186a407329
+Directory: 1.73.0/buster
+
+Tags: 1-slim-buster,1.73-slim-buster,1.73.0-slim-buster,slim-buster
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 97a7686492c0ef95717f3f5e93ee24186a407329
+Directory: 1.73.0/buster/slim
+
+Tags: 1-bullseye,1.73-bullseye,1.73.0-bullseye,bullseye
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 97a7686492c0ef95717f3f5e93ee24186a407329
+Directory: 1.73.0/bullseye
+
+Tags: 1-slim-bullseye,1.73-slim-bullseye,1.73.0-slim-bullseye,slim-bullseye
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 97a7686492c0ef95717f3f5e93ee24186a407329
+Directory: 1.73.0/bullseye/slim
+
+Tags: 1-bookworm,1.73-bookworm,1.73.0-bookworm,bookworm,1,1.73,1.73.0,latest
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 97a7686492c0ef95717f3f5e93ee24186a407329
+Directory: 1.73.0/bookworm
+
+Tags: 1-slim-bookworm,1.73-slim-bookworm,1.73.0-slim-bookworm,slim-bookworm,1-slim,1.73-slim,1.73.0-slim,slim
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 97a7686492c0ef95717f3f5e93ee24186a407329
+Directory: 1.73.0/bookworm/slim
+
+Tags: 1-alpine3.17,1.73-alpine3.17,1.73.0-alpine3.17,alpine3.17
+Architectures: amd64,arm64v8
+GitCommit: 97a7686492c0ef95717f3f5e93ee24186a407329
+Directory: 1.73.0/alpine3.17
+
+Tags: 1-alpine3.18,1.73-alpine3.18,1.73.0-alpine3.18,alpine3.18,1-alpine,1.73-alpine,1.73.0-alpine,alpine
+Architectures: amd64,arm64v8
+GitCommit: 97a7686492c0ef95717f3f5e93ee24186a407329
+Directory: 1.73.0/alpine3.18
+
+Tags: 1.72-buster,1.72.1-buster
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 109ecb71aa67ac9553a359018716dd520777ee5d
+Directory: 1.72.1/buster
+
+Tags: 1.72-slim-buster,1.72.1-slim-buster
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 109ecb71aa67ac9553a359018716dd520777ee5d
+Directory: 1.72.1/buster/slim
+
+Tags: 1.72-bullseye,1.72.1-bullseye
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 109ecb71aa67ac9553a359018716dd520777ee5d
+Directory: 1.72.1/bullseye
+
+Tags: 1.72-slim-bullseye,1.72.1-slim-bullseye
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 109ecb71aa67ac9553a359018716dd520777ee5d
+Directory: 1.72.1/bullseye/slim
+
+Tags: 1.72-bookworm,1.72.1-bookworm,1.72,1.72.1
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 109ecb71aa67ac9553a359018716dd520777ee5d
+Directory: 1.72.1/bookworm
+
+Tags: 1.72-slim-bookworm,1.72.1-slim-bookworm,1.72-slim,1.72.1-slim
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 109ecb71aa67ac9553a359018716dd520777ee5d
+Directory: 1.72.1/bookworm/slim
+
+Tags: 1.72-alpine3.17,1.72.1-alpine3.17
+Architectures: amd64,arm64v8
+GitCommit: 109ecb71aa67ac9553a359018716dd520777ee5d
+Directory: 1.72.1/alpine3.17
+
+Tags: 1.72-alpine3.18,1.72.1-alpine3.18,1.72-alpine,1.72.1-alpine
+Architectures: amd64,arm64v8
+GitCommit: 109ecb71aa67ac9553a359018716dd520777ee5d
+Directory: 1.72.1/alpine3.18
+
+Tags: 1.72.0-buster
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 5ede3cc7db4695645dfb1a9923cbafa519fb5c49
+Directory: 1.72.0/buster
+
+Tags: 1.72.0-slim-buster
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 5ede3cc7db4695645dfb1a9923cbafa519fb5c49
+Directory: 1.72.0/buster/slim
+
+Tags: 1.72.0-bullseye
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 5ede3cc7db4695645dfb1a9923cbafa519fb5c49
+Directory: 1.72.0/bullseye
+
+Tags: 1.72.0-slim-bullseye
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 5ede3cc7db4695645dfb1a9923cbafa519fb5c49
+Directory: 1.72.0/bullseye/slim
+
+Tags: 1.72.0-bookworm,1.72.0
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 5ede3cc7db4695645dfb1a9923cbafa519fb5c49
+Directory: 1.72.0/bookworm
+
+Tags: 1.72.0-slim-bookworm,1.72.0-slim
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 5ede3cc7db4695645dfb1a9923cbafa519fb5c49
+Directory: 1.72.0/bookworm/slim
+
+Tags: 1.72.0-alpine3.17
+Architectures: amd64,arm64v8
+GitCommit: 5ede3cc7db4695645dfb1a9923cbafa519fb5c49
+Directory: 1.72.0/alpine3.17
+
+Tags: 1.72.0-alpine3.18,1.72.0-alpine
+Architectures: amd64,arm64v8
+GitCommit: 5ede3cc7db4695645dfb1a9923cbafa519fb5c49
+Directory: 1.72.0/alpine3.18
+
+Tags: 1.71-buster,1.71.1-buster
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 2bb79cb08932ba4ccab9d48f9e07159095146eb7
+Directory: 1.71.1/buster
+
+Tags: 1.71-slim-buster,1.71.1-slim-buster
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 2bb79cb08932ba4ccab9d48f9e07159095146eb7
+Directory: 1.71.1/buster/slim
+
+Tags: 1.71-bullseye,1.71.1-bullseye,1.71,1.71.1
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 2bb79cb08932ba4ccab9d48f9e07159095146eb7
+Directory: 1.71.1/bullseye
+
+Tags: 1.71-slim-bullseye,1.71.1-slim-bullseye,1.71-slim,1.71.1-slim
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 2bb79cb08932ba4ccab9d48f9e07159095146eb7
+Directory: 1.71.1/bullseye/slim
+
+Tags: 1.71-bookworm,1.71.1-bookworm
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 2bb79cb08932ba4ccab9d48f9e07159095146eb7
+Directory: 1.71.1/bookworm
+
+Tags: 1.71-slim-bookworm,1.71.1-slim-bookworm
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 2bb79cb08932ba4ccab9d48f9e07159095146eb7
+Directory: 1.71.1/bookworm/slim
+
+Tags: 1.71-alpine3.17,1.71.1-alpine3.17
+Architectures: amd64,arm64v8
+GitCommit: 2bb79cb08932ba4ccab9d48f9e07159095146eb7
+Directory: 1.71.1/alpine3.17
+
+Tags: 1.71-alpine3.18,1.71.1-alpine3.18,1.71-alpine,1.71.1-alpine
+Architectures: amd64,arm64v8
+GitCommit: 2bb79cb08932ba4ccab9d48f9e07159095146eb7
+Directory: 1.71.1/alpine3.18
+
+Tags: 1.71.0-buster
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: a8a2a9d64d1f43ea377570fb938eb37384e561c0
+Directory: 1.71.0/buster
+
+Tags: 1.71.0-slim-buster
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: a8a2a9d64d1f43ea377570fb938eb37384e561c0
+Directory: 1.71.0/buster/slim
+
+Tags: 1.71.0-bullseye,1.71.0
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: a8a2a9d64d1f43ea377570fb938eb37384e561c0
+Directory: 1.71.0/bullseye
+
+Tags: 1.71.0-slim-bullseye,1.71.0-slim
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: a8a2a9d64d1f43ea377570fb938eb37384e561c0
+Directory: 1.71.0/bullseye/slim
+
+Tags: 1.71.0-bookworm
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: a8a2a9d64d1f43ea377570fb938eb37384e561c0
+Directory: 1.71.0/bookworm
+
+Tags: 1.71.0-slim-bookworm
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: a8a2a9d64d1f43ea377570fb938eb37384e561c0
+Directory: 1.71.0/bookworm/slim
+
+Tags: 1.71.0-alpine3.17
+Architectures: amd64,arm64v8
+GitCommit: a8a2a9d64d1f43ea377570fb938eb37384e561c0
+Directory: 1.71.0/alpine3.17
+
+Tags: 1.71.0-alpine3.18,1.71.0-alpine
+Architectures: amd64,arm64v8
+GitCommit: a8a2a9d64d1f43ea377570fb938eb37384e561c0
+Directory: 1.71.0/alpine3.18
+
+Tags: 1.70-buster,1.70.0-buster
 Architectures: amd64,arm32v7,arm64v8,i386
 GitCommit: dcb74d779e8a74263dc8b91d58d8ce7f3c0c805b
 Directory: 1.70.0/buster
 
-Tags: 1-slim-buster,1.70-slim-buster,1.70.0-slim-buster,slim-buster
+Tags: 1.70-slim-buster,1.70.0-slim-buster
 Architectures: amd64,arm32v7,arm64v8,i386
 GitCommit: dcb74d779e8a74263dc8b91d58d8ce7f3c0c805b
 Directory: 1.70.0/buster/slim
 
-Tags: 1-bullseye,1.70-bullseye,1.70.0-bullseye,bullseye,1,1.70,1.70.0,latest
+Tags: 1.70-bullseye,1.70.0-bullseye,1.70,1.70.0
 Architectures: amd64,arm32v7,arm64v8,i386
 GitCommit: dcb74d779e8a74263dc8b91d58d8ce7f3c0c805b
 Directory: 1.70.0/bullseye
 
-Tags: 1-slim-bullseye,1.70-slim-bullseye,1.70.0-slim-bullseye,slim-bullseye,1-slim,1.70-slim,1.70.0-slim,slim
+Tags: 1.70-slim-bullseye,1.70.0-slim-bullseye,1.70-slim,1.70.0-slim
 Architectures: amd64,arm32v7,arm64v8,i386
 GitCommit: dcb74d779e8a74263dc8b91d58d8ce7f3c0c805b
 Directory: 1.70.0/bullseye/slim
 
-Tags: 1-bookworm,1.70-bookworm,1.70.0-bookworm,bookworm
+Tags: 1.70-bookworm,1.70.0-bookworm
 Architectures: amd64,arm32v7,arm64v8,i386
 GitCommit: dcb74d779e8a74263dc8b91d58d8ce7f3c0c805b
 Directory: 1.70.0/bookworm
 
-Tags: 1-slim-bookworm,1.70-slim-bookworm,1.70.0-slim-bookworm,slim-bookworm
+Tags: 1.70-slim-bookworm,1.70.0-slim-bookworm
 Architectures: amd64,arm32v7,arm64v8,i386
 GitCommit: dcb74d779e8a74263dc8b91d58d8ce7f3c0c805b
 Directory: 1.70.0/bookworm/slim
 
-Tags: 1-alpine3.17,1.70-alpine3.17,1.70.0-alpine3.17,alpine3.17
+Tags: 1.70-alpine3.17,1.70.0-alpine3.17
 Architectures: amd64,arm64v8
 GitCommit: dcb74d779e8a74263dc8b91d58d8ce7f3c0c805b
 Directory: 1.70.0/alpine3.17
 
-Tags: 1-alpine3.18,1.70-alpine3.18,1.70.0-alpine3.18,alpine3.18,1-alpine,1.70-alpine,1.70.0-alpine,alpine
+Tags: 1.70-alpine3.18,1.70.0-alpine3.18,1.70-alpine,1.70.0-alpine
 Architectures: amd64,arm64v8
 GitCommit: dcb74d779e8a74263dc8b91d58d8ce7f3c0c805b
 Directory: 1.70.0/alpine3.18
@@ -1799,3 +1999,13 @@ Tags: 1.19.0-jessie,1.19-jessie
 Architectures: amd64,arm32v7,arm64v8,i386
 GitCommit: 8affdd6599d29fd20f987eef52234267f3c3e668
 Directory: 1.19.0/jessie
+
+Tags: 1-trixie,1.72-trixie,1.72.0-trixie,trixie
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 5ede3cc7db4695645dfb1a9923cbafa519fb5c49
+Directory: 1.72.0/trixie
+
+Tags: 1-slim-trixie,1.72-slim-trixie,1.72.0-slim-trixie,slim-trixie
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 5ede3cc7db4695645dfb1a9923cbafa519fb5c49
+Directory: 1.72.0/trixie/slim
