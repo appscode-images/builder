@@ -370,13 +370,13 @@ func ParseLibraryFileContent(appName string, lines []string) (*api.App, error) {
 
 			switch aprop {
 			case "Directory":
-				curBlock.Architectures[arch].Directory = aprop
+				curBlock.Architectures[arch].Directory = parts[0]
 			case "GitFetch":
-				curBlock.Architectures[arch].GitFetch = aprop
+				curBlock.Architectures[arch].GitFetch = parts[0]
 			case "GitCommit":
-				curBlock.Architectures[arch].GitCommit = aprop
+				curBlock.Architectures[arch].GitCommit = parts[0]
 			case "File":
-				curBlock.Architectures[arch].File = aprop
+				curBlock.Architectures[arch].File = parts[0]
 			}
 		} else {
 			switch curProp {

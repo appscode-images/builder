@@ -6,12 +6,12 @@ GitCommit: 321a13a966eeff945196ddd31a629dad2aa85eda
 Directory: mainline/debian
 
 Tags: 1.25.2-perl,mainline-perl,1-perl,1.25-perl,perl,1.25.2-bookworm-perl,mainline-bookworm-perl,1-bookworm-perl,1.25-bookworm-perl,bookworm-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 321a13a966eeff945196ddd31a629dad2aa85eda
 Directory: mainline/debian-perl
 
 Tags: 1.25.2-alpine,mainline-alpine,1-alpine,1.25-alpine,alpine,1.25.2-alpine3.18,mainline-alpine3.18,1-alpine3.18,1.25-alpine3.18,alpine3.18
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: s390x,i386,amd64,arm64v8,arm32v6,arm32v7,ppc64le
 GitCommit: 4b0d808b8f320df132c154a974ebe46e9e5f5ffe
 Directory: mainline/alpine
 
@@ -26,12 +26,12 @@ GitCommit: 4b0d808b8f320df132c154a974ebe46e9e5f5ffe
 Directory: mainline/alpine-slim
 
 Tags: 1.24.0,stable,1.24,1.24.0-bullseye,stable-bullseye,1.24-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: 1a8d87b69760693a8e33cd8a9e0c2e5f0e8b0e3c
 Directory: stable/debian
 
 Tags: 1.24.0-perl,stable-perl,1.24-perl,1.24.0-bullseye-perl,stable-bullseye-perl,1.24-bullseye-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 GitCommit: 1a8d87b69760693a8e33cd8a9e0c2e5f0e8b0e3c
 Directory: stable/debian-perl
 
@@ -41,12 +41,12 @@ GitCommit: 1a8d87b69760693a8e33cd8a9e0c2e5f0e8b0e3c
 Directory: stable/alpine
 
 Tags: 1.24.0-alpine-perl,stable-alpine-perl,1.24-alpine-perl,1.24.0-alpine3.17-perl,stable-alpine3.17-perl,1.24-alpine3.17-perl
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: arm32v7,ppc64le,s390x,i386,amd64,arm64v8,arm32v6
 GitCommit: 1a8d87b69760693a8e33cd8a9e0c2e5f0e8b0e3c
 Directory: stable/alpine-perl
 
 Tags: 1.24.0-alpine-slim,stable-alpine-slim,1.24-alpine-slim,1.24.0-alpine3.17-slim,stable-alpine3.17-slim,1.24-alpine3.17-slim
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: i386,amd64,arm64v8,arm32v6,arm32v7,ppc64le,s390x
 GitCommit: 1a8d87b69760693a8e33cd8a9e0c2e5f0e8b0e3c
 Directory: stable/alpine-slim
 
@@ -56,62 +56,62 @@ GitCommit: 7870605f4b93d86e898af291086d77ab9e6b96e3
 Directory: mainline/debian
 
 Tags: 1.25.1-perl,1.25.1-bookworm-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 GitCommit: 7870605f4b93d86e898af291086d77ab9e6b96e3
 Directory: mainline/debian-perl
 
 Tags: 1.25.1-alpine,1.25.1-alpine3.17,mainline-alpine3.17,1-alpine3.17,1.25-alpine3.17,alpine3.17
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: ppc64le,s390x,i386,amd64,arm64v8,arm32v6,arm32v7
 GitCommit: 7870605f4b93d86e898af291086d77ab9e6b96e3
 Directory: mainline/alpine
 
 Tags: 1.25.1-alpine-perl,1.25.1-alpine3.17-perl,mainline-alpine3.17-perl,1-alpine3.17-perl,1.25-alpine3.17-perl,alpine3.17-perl
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: i386,amd64,arm64v8,arm32v6,arm32v7,ppc64le,s390x
 GitCommit: 7870605f4b93d86e898af291086d77ab9e6b96e3
 Directory: mainline/alpine-perl
 
 Tags: 1.25.1-alpine-slim,1.25.1-alpine3.17-slim,mainline-alpine3.17-slim,1-alpine3.17-slim,1.25-alpine3.17-slim,alpine3.17-slim
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: i386,amd64,arm64v8,arm32v6,arm32v7,ppc64le,s390x
 GitCommit: 7870605f4b93d86e898af291086d77ab9e6b96e3
 Directory: mainline/alpine-slim
 
 Tags: 1.25.0,1.25.0-bullseye,mainline-bullseye,1-bullseye,1.25-bullseye,bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 3591b5e431af710432bd4852d9ee26eb19992776
 Directory: mainline/debian
 
 Tags: 1.25.0-perl,1.25.0-bullseye-perl,mainline-bullseye-perl,1-bullseye-perl,1.25-bullseye-perl,bullseye-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: ee6b833b5d9d1966b85a5d318efc04cf8b1c1ba5
 Directory: mainline/debian-perl
 
 Tags: 1.25.0-alpine,1.25.0-alpine3.17
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: ppc64le,s390x,i386,amd64,arm64v8,arm32v6,arm32v7
 GitCommit: 123ef33694fccfefcb7db63251b21c0496537c76
 Directory: mainline/alpine
 
 Tags: 1.25.0-alpine-perl,1.25.0-alpine3.17-perl
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: arm32v7,ppc64le,s390x,i386,amd64,arm64v8,arm32v6
 GitCommit: 123ef33694fccfefcb7db63251b21c0496537c76
 Directory: mainline/alpine-perl
 
 Tags: 1.25.0-alpine-slim,1.25.0-alpine3.17-slim
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: amd64,arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386
 GitCommit: 3591b5e431af710432bd4852d9ee26eb19992776
 Directory: mainline/alpine-slim
 
 Tags: 1.23.4,1.23,1.23.4-bullseye,1.23-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: 73a5acae6945b75b433cafd0c9318e4378e72cbb
 Directory: mainline/debian
 
 Tags: 1.23.4-perl,1.23-perl,1.23.4-bullseye-perl,1.23-bullseye-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 73a5acae6945b75b433cafd0c9318e4378e72cbb
 Directory: mainline/debian-perl
 
 Tags: 1.23.4-alpine,1.23-alpine,1.23.4-alpine3.17,1.23-alpine3.17
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: ppc64le,s390x,i386,amd64,arm64v8,arm32v6,arm32v7
 GitCommit: 73a5acae6945b75b433cafd0c9318e4378e72cbb
 Directory: mainline/alpine
 
@@ -121,27 +121,27 @@ GitCommit: 73a5acae6945b75b433cafd0c9318e4378e72cbb
 Directory: mainline/alpine-perl
 
 Tags: 1.23.4-alpine-slim,1.23-alpine-slim,1.23.4-alpine3.17-slim,1.23-alpine3.17-slim
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: amd64,arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386
 GitCommit: 73a5acae6945b75b433cafd0c9318e4378e72cbb
 Directory: mainline/alpine-slim
 
 Tags: 1.22.1,1.22,1.22.1-bullseye,1.22-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: 7f1ef355dea083761951da16ab02ea2c37addbdd
 Directory: stable/debian
 
 Tags: 1.22.1-perl,1.22-perl,1.22.1-bullseye-perl,1.22-bullseye-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 761fffeba0d867d6e80d38998073e0eaa456bb02
 Directory: stable/debian-perl
 
 Tags: 1.22.1-alpine,1.22-alpine,1.22.1-alpine3.17,1.22-alpine3.17
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: arm32v7,ppc64le,s390x,i386,amd64,arm64v8,arm32v6
 GitCommit: 7f1ef355dea083761951da16ab02ea2c37addbdd
 Directory: stable/alpine
 
 Tags: 1.22.1-alpine-perl,1.22-alpine-perl,1.22.1-alpine3.17-perl,1.22-alpine3.17-perl
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: arm32v6,arm32v7,ppc64le,s390x,i386,amd64,arm64v8
 GitCommit: 7f1ef355dea083761951da16ab02ea2c37addbdd
 Directory: stable/alpine-perl
 
@@ -151,12 +151,12 @@ GitCommit: 7f1ef355dea083761951da16ab02ea2c37addbdd
 Directory: stable/alpine-slim
 
 Tags: 1.23.3
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: 5ce65c3efd395ee2d82d32670f233140e92dba99
 Directory: mainline/debian
 
 Tags: 1.23.3-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 5ce65c3efd395ee2d82d32670f233140e92dba99
 Directory: mainline/debian-perl
 
@@ -166,127 +166,127 @@ GitCommit: 5ce65c3efd395ee2d82d32670f233140e92dba99
 Directory: mainline/alpine
 
 Tags: 1.23.3-alpine-perl
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: amd64,arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386
 GitCommit: 5ce65c3efd395ee2d82d32670f233140e92dba99
 Directory: mainline/alpine-perl
 
 Tags: 1.23.3-alpine-slim
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: s390x,i386,amd64,arm64v8,arm32v6,arm32v7,ppc64le
 GitCommit: 5ce65c3efd395ee2d82d32670f233140e92dba99
 Directory: mainline/alpine-slim
 
 Tags: 1.23.2
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: fef51235521d1cdf8b05d8cb1378a526d2abf421
 Directory: mainline/debian
 
 Tags: 1.23.2-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: fef51235521d1cdf8b05d8cb1378a526d2abf421
 Directory: mainline/debian-perl
 
 Tags: 1.23.2-alpine
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: amd64,arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386
 GitCommit: fef51235521d1cdf8b05d8cb1378a526d2abf421
 Directory: mainline/alpine
 
 Tags: 1.23.2-alpine-perl
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: i386,amd64,arm64v8,arm32v6,arm32v7,ppc64le,s390x
 GitCommit: fef51235521d1cdf8b05d8cb1378a526d2abf421
 Directory: mainline/alpine-perl
 
 Tags: 1.23.1
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: f3d86e99ba2db5d9918ede7b094fcad7b9128cd8
 Directory: mainline/debian
 
 Tags: 1.23.1-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: f3d86e99ba2db5d9918ede7b094fcad7b9128cd8
 Directory: mainline/debian-perl
 
 Tags: 1.23.1-alpine
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: s390x,i386,amd64,arm64v8,arm32v6,arm32v7,ppc64le
 GitCommit: f3d86e99ba2db5d9918ede7b094fcad7b9128cd8
 Directory: mainline/alpine
 
 Tags: 1.23.1-alpine-perl
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: s390x,i386,amd64,arm64v8,arm32v6,arm32v7,ppc64le
 GitCommit: f3d86e99ba2db5d9918ede7b094fcad7b9128cd8
 Directory: mainline/alpine-perl
 
 Tags: 1.22.0
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: f3d86e99ba2db5d9918ede7b094fcad7b9128cd8
 Directory: stable/debian
 
 Tags: 1.22.0-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: f3d86e99ba2db5d9918ede7b094fcad7b9128cd8
 Directory: stable/debian-perl
 
 Tags: 1.22.0-alpine
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: amd64,arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386
 GitCommit: f3d86e99ba2db5d9918ede7b094fcad7b9128cd8
 Directory: stable/alpine
 
 Tags: 1.22.0-alpine-perl
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: arm32v6,arm32v7,ppc64le,s390x,i386,amd64,arm64v8
 GitCommit: f3d86e99ba2db5d9918ede7b094fcad7b9128cd8
 Directory: stable/alpine-perl
 
 Tags: 1.23.0
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 GitCommit: 04226fe92cc11bed68dae464eb60fd5399daf3b1
 Directory: mainline/debian
 
 Tags: 1.23.0-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 GitCommit: 04226fe92cc11bed68dae464eb60fd5399daf3b1
 Directory: mainline/debian-perl
 
 Tags: 1.23.0-alpine
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: arm32v7,ppc64le,s390x,i386,amd64,arm64v8,arm32v6
 GitCommit: d4a47bc6602d3a1412dad48a8513b83805605ef3
 Directory: mainline/alpine
 
 Tags: 1.23.0-alpine-perl
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: i386,amd64,arm64v8,arm32v6,arm32v7,ppc64le,s390x
 GitCommit: d4a47bc6602d3a1412dad48a8513b83805605ef3
 Directory: mainline/alpine-perl
 
 Tags: 1.21.6,1.21
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: d039609e3a537df4e15a454fdb5a004d519e9a11
 Directory: mainline/debian
 
 Tags: 1.21.6-perl,1.21-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: d039609e3a537df4e15a454fdb5a004d519e9a11
 Directory: mainline/debian-perl
 
 Tags: 1.21.6-alpine,1.21-alpine
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: arm32v6,arm32v7,ppc64le,s390x,i386,amd64,arm64v8
 GitCommit: d039609e3a537df4e15a454fdb5a004d519e9a11
 Directory: mainline/alpine
 
 Tags: 1.21.6-alpine-perl,1.21-alpine-perl
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: ppc64le,s390x,i386,amd64,arm64v8,arm32v6,arm32v7
 GitCommit: d039609e3a537df4e15a454fdb5a004d519e9a11
 Directory: mainline/alpine-perl
 
 Tags: 1.20.2,1.20
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: d039609e3a537df4e15a454fdb5a004d519e9a11
 Directory: stable/debian
 
 Tags: 1.20.2-perl,1.20-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: d039609e3a537df4e15a454fdb5a004d519e9a11
 Directory: stable/debian-perl
 
 Tags: 1.20.2-alpine,1.20-alpine
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: arm32v6,arm32v7,ppc64le,s390x,i386,amd64,arm64v8
 GitCommit: d039609e3a537df4e15a454fdb5a004d519e9a11
 Directory: stable/alpine
 
@@ -296,17 +296,17 @@ GitCommit: d039609e3a537df4e15a454fdb5a004d519e9a11
 Directory: stable/alpine-perl
 
 Tags: 1.21.5
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 3a7105159a6c743188cb1c61e4186a9a59c025db
 Directory: mainline/debian
 
 Tags: 1.21.5-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 GitCommit: 3a7105159a6c743188cb1c61e4186a9a59c025db
 Directory: mainline/debian-perl
 
 Tags: 1.21.5-alpine
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: s390x,i386,amd64,arm64v8,arm32v6,arm32v7,ppc64le
 GitCommit: 01561128671d4e33c039a654fe198c6259a2514c
 Directory: mainline/alpine
 
@@ -316,27 +316,27 @@ GitCommit: 01561128671d4e33c039a654fe198c6259a2514c
 Directory: mainline/alpine-perl
 
 Tags: 1.21.4
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: ef8e9912a2de9b51ce9d1f79a5c047eb48b05fc1
 Directory: mainline/debian
 
 Tags: 1.21.4-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 GitCommit: ef8e9912a2de9b51ce9d1f79a5c047eb48b05fc1
 Directory: mainline/debian-perl
 
 Tags: 1.21.4-alpine
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: arm32v6,arm32v7,ppc64le,s390x,i386,amd64,arm64v8
 GitCommit: 57f73af83954482c647ac32724a5408bcfc1e7fd
 Directory: mainline/alpine
 
 Tags: 1.21.4-alpine-perl
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: s390x,i386,amd64,arm64v8,arm32v6,arm32v7,ppc64le
 GitCommit: 57f73af83954482c647ac32724a5408bcfc1e7fd
 Directory: mainline/alpine-perl
 
 Tags: 1.20.1
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: f3fe494531f9b157d9c09ba509e412dace54cd4f
 Directory: stable/debian
 
@@ -346,7 +346,7 @@ GitCommit: f3fe494531f9b157d9c09ba509e412dace54cd4f
 Directory: stable/debian-perl
 
 Tags: 1.20.1-alpine
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: i386,amd64,arm64v8,arm32v6,arm32v7,ppc64le,s390x
 GitCommit: f3fe494531f9b157d9c09ba509e412dace54cd4f
 Directory: stable/alpine
 
@@ -356,7 +356,7 @@ GitCommit: f3fe494531f9b157d9c09ba509e412dace54cd4f
 Directory: stable/alpine-perl
 
 Tags: 1.21.3
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: d496baf859613adfe391ca8e7615cc7ec7966621
 Directory: mainline/debian
 
@@ -366,27 +366,27 @@ GitCommit: d496baf859613adfe391ca8e7615cc7ec7966621
 Directory: mainline/debian-perl
 
 Tags: 1.21.3-alpine
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: arm32v7,ppc64le,s390x,i386,amd64,arm64v8,arm32v6
 GitCommit: d496baf859613adfe391ca8e7615cc7ec7966621
 Directory: mainline/alpine
 
 Tags: 1.21.3-alpine-perl
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: s390x,i386,amd64,arm64v8,arm32v6,arm32v7,ppc64le
 GitCommit: d496baf859613adfe391ca8e7615cc7ec7966621
 Directory: mainline/alpine-perl
 
 Tags: 1.21.1
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: f958fbacada447737319e979db45a1da49123142
 Directory: mainline/debian
 
 Tags: 1.21.1-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: f958fbacada447737319e979db45a1da49123142
 Directory: mainline/debian-perl
 
 Tags: 1.21.1-alpine
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: amd64,arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386
 GitCommit: f958fbacada447737319e979db45a1da49123142
 Directory: mainline/alpine
 
@@ -401,12 +401,12 @@ GitCommit: f3fe494531f9b157d9c09ba509e412dace54cd4f
 Directory: mainline/debian
 
 Tags: 1.21.0-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: f3fe494531f9b157d9c09ba509e412dace54cd4f
 Directory: mainline/debian-perl
 
 Tags: 1.21.0-alpine
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: ppc64le,s390x,i386,amd64,arm64v8,arm32v6,arm32v7
 GitCommit: f3fe494531f9b157d9c09ba509e412dace54cd4f
 Directory: mainline/alpine
 
@@ -416,17 +416,17 @@ GitCommit: f3fe494531f9b157d9c09ba509e412dace54cd4f
 Directory: mainline/alpine-perl
 
 Tags: 1.19.10,1.19
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 464886ab21ebe4b036ceb36d7557bf491f6d9320
 Directory: mainline/debian
 
 Tags: 1.19.10-perl,1.19-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: 464886ab21ebe4b036ceb36d7557bf491f6d9320
 Directory: mainline/debian-perl
 
 Tags: 1.19.10-alpine,1.19-alpine
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: amd64,arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386
 GitCommit: 464886ab21ebe4b036ceb36d7557bf491f6d9320
 Directory: mainline/alpine
 
@@ -436,32 +436,32 @@ GitCommit: 464886ab21ebe4b036ceb36d7557bf491f6d9320
 Directory: mainline/alpine-perl
 
 Tags: 1.20.0
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: ab8516ed3a212d8a03392567c8f55c570c839e59
 Directory: stable/debian
 
 Tags: 1.20.0-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: ab8516ed3a212d8a03392567c8f55c570c839e59
 Directory: stable/debian-perl
 
 Tags: 1.20.0-alpine
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: s390x,i386,amd64,arm64v8,arm32v6,arm32v7,ppc64le
 GitCommit: ab8516ed3a212d8a03392567c8f55c570c839e59
 Directory: stable/alpine
 
 Tags: 1.20.0-alpine-perl
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: arm32v6,arm32v7,ppc64le,s390x,i386,amd64,arm64v8
 GitCommit: ab8516ed3a212d8a03392567c8f55c570c839e59
 Directory: stable/alpine-perl
 
 Tags: 1.18.0,1.18
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 3fb70ddd7094c1fdd50cc83d432643dc10ab6243
 Directory: stable/debian
 
 Tags: 1.18.0-perl,1.18-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 3fb70ddd7094c1fdd50cc83d432643dc10ab6243
 Directory: stable/debian-perl
 
@@ -471,82 +471,82 @@ GitCommit: 3fb70ddd7094c1fdd50cc83d432643dc10ab6243
 Directory: stable/alpine
 
 Tags: 1.18.0-alpine-perl,1.18-alpine-perl
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: arm32v7,ppc64le,s390x,i386,amd64,arm64v8,arm32v6
 GitCommit: 3fb70ddd7094c1fdd50cc83d432643dc10ab6243
 Directory: stable/alpine-perl
 
 Tags: 1.19.9
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 0f300ed4ae80724c569c9694bf89014e96ab567b
 Directory: mainline/debian
 
 Tags: 1.19.9-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: 0f300ed4ae80724c569c9694bf89014e96ab567b
 Directory: mainline/debian-perl
 
 Tags: 1.19.9-alpine
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: i386,amd64,arm64v8,arm32v6,arm32v7,ppc64le,s390x
 GitCommit: 0f300ed4ae80724c569c9694bf89014e96ab567b
 Directory: mainline/alpine
 
 Tags: 1.19.9-alpine-perl
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: arm32v7,ppc64le,s390x,i386,amd64,arm64v8,arm32v6
 GitCommit: 0f300ed4ae80724c569c9694bf89014e96ab567b
 Directory: mainline/alpine-perl
 
 Tags: 1.19.8
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: dcaaf66e4464037b1a887541f39acf8182233ab8
 Directory: mainline/debian
 
 Tags: 1.19.8-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: dcaaf66e4464037b1a887541f39acf8182233ab8
 Directory: mainline/debian-perl
 
 Tags: 1.19.8-alpine
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: arm32v7,ppc64le,s390x,i386,amd64,arm64v8,arm32v6
 GitCommit: dcaaf66e4464037b1a887541f39acf8182233ab8
 Directory: mainline/alpine
 
 Tags: 1.19.8-alpine-perl
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: i386,amd64,arm64v8,arm32v6,arm32v7,ppc64le,s390x
 GitCommit: dcaaf66e4464037b1a887541f39acf8182233ab8
 Directory: mainline/alpine-perl
 
 Tags: 1.19.7
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: fa2213a76da35137a5aee565cef5095a209aeb3d
 Directory: mainline/debian
 
 Tags: 1.19.7-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: fa2213a76da35137a5aee565cef5095a209aeb3d
 Directory: mainline/debian-perl
 
 Tags: 1.19.7-alpine
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: ppc64le,s390x,i386,amd64,arm64v8,arm32v6,arm32v7
 GitCommit: fa2213a76da35137a5aee565cef5095a209aeb3d
 Directory: mainline/alpine
 
 Tags: 1.19.7-alpine-perl
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: s390x,i386,amd64,arm64v8,arm32v6,arm32v7,ppc64le
 GitCommit: fa2213a76da35137a5aee565cef5095a209aeb3d
 Directory: mainline/alpine-perl
 
 Tags: 1.19.6
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: 41156d8a36bd03b2fb36353ba31f16ada08d9e48
 Directory: mainline/debian
 
 Tags: 1.19.6-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 41156d8a36bd03b2fb36353ba31f16ada08d9e48
 Directory: mainline/debian-perl
 
 Tags: 1.19.6-alpine
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: s390x,i386,amd64,arm64v8,arm32v6,arm32v7,ppc64le
 GitCommit: 41156d8a36bd03b2fb36353ba31f16ada08d9e48
 Directory: mainline/alpine
 
@@ -556,17 +556,17 @@ GitCommit: 41156d8a36bd03b2fb36353ba31f16ada08d9e48
 Directory: mainline/alpine-perl
 
 Tags: 1.19.5
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: c411fdefd6655144f6cdab425026a8a427adc273
 Directory: mainline/debian
 
 Tags: 1.19.5-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: c411fdefd6655144f6cdab425026a8a427adc273
 Directory: mainline/debian-perl
 
 Tags: 1.19.5-alpine
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: i386,amd64,arm64v8,arm32v6,arm32v7,ppc64le,s390x
 GitCommit: c411fdefd6655144f6cdab425026a8a427adc273
 Directory: mainline/alpine
 
@@ -576,137 +576,137 @@ GitCommit: c411fdefd6655144f6cdab425026a8a427adc273
 Directory: mainline/alpine-perl
 
 Tags: 1.19.4
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: deff8fbe9d3e8613de110265aa932d84d1827acf
 Directory: mainline/buster
 
 Tags: 1.19.4-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 GitCommit: deff8fbe9d3e8613de110265aa932d84d1827acf
 Directory: mainline/buster-perl
 
 Tags: 1.19.4-alpine
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: amd64,arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386
 GitCommit: aebdace36df83690ca283405efd283bc750ff41e
 Directory: mainline/alpine
 
 Tags: 1.19.4-alpine-perl
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: amd64,arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386
 GitCommit: aebdace36df83690ca283405efd283bc750ff41e
 Directory: mainline/alpine-perl
 
 Tags: 1.19.3
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: 0dc809fa606828a78087cd0a824bed06268d73e0
 Directory: mainline/buster
 
 Tags: 1.19.3-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: 0dc809fa606828a78087cd0a824bed06268d73e0
 Directory: mainline/buster-perl
 
 Tags: 1.19.3-alpine
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: arm32v6,arm32v7,ppc64le,s390x,i386,amd64,arm64v8
 GitCommit: 0dc809fa606828a78087cd0a824bed06268d73e0
 Directory: mainline/alpine
 
 Tags: 1.19.3-alpine-perl
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: amd64,arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386
 GitCommit: 0dc809fa606828a78087cd0a824bed06268d73e0
 Directory: mainline/alpine-perl
 
 Tags: 1.19.2
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: 9774b522d4661effea57a1fbf64c883e699ac3ec
 Directory: mainline/buster
 
 Tags: 1.19.2-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: 9774b522d4661effea57a1fbf64c883e699ac3ec
 Directory: mainline/buster-perl
 
 Tags: 1.19.2-alpine
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: ppc64le,s390x,i386,amd64,arm64v8,arm32v6,arm32v7
 GitCommit: aa41ddeef871b7f0ea64a44f26d3f4aa0e6d5e7b
 Directory: mainline/alpine
 
 Tags: 1.19.2-alpine-perl
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: s390x,i386,amd64,arm64v8,arm32v6,arm32v7,ppc64le
 GitCommit: aa41ddeef871b7f0ea64a44f26d3f4aa0e6d5e7b
 Directory: mainline/alpine-perl
 
 Tags: 1.19.1
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: 793319d7251c03eccecbf27b60e0cfbbd2d1f400
 Directory: mainline/buster
 
 Tags: 1.19.1-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: 793319d7251c03eccecbf27b60e0cfbbd2d1f400
 Directory: mainline/buster-perl
 
 Tags: 1.19.1-alpine
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: ppc64le,s390x,i386,amd64,arm64v8,arm32v6,arm32v7
 GitCommit: 793319d7251c03eccecbf27b60e0cfbbd2d1f400
 Directory: mainline/alpine
 
 Tags: 1.19.1-alpine-perl
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: arm32v6,arm32v7,ppc64le,s390x,i386,amd64,arm64v8
 GitCommit: 793319d7251c03eccecbf27b60e0cfbbd2d1f400
 Directory: mainline/alpine-perl
 
 Tags: 1.19.0
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 2ef3fa66f2a434cd5e44e35a02f4ac502cf50808
 Directory: mainline/buster
 
 Tags: 1.19.0-perl
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 2ef3fa66f2a434cd5e44e35a02f4ac502cf50808
 Directory: mainline/buster-perl
 
 Tags: 1.19.0-alpine
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: s390x,i386,amd64,arm64v8,arm32v6,arm32v7,ppc64le
 GitCommit: 2ef3fa66f2a434cd5e44e35a02f4ac502cf50808
 Directory: mainline/alpine
 
 Tags: 1.19.0-alpine-perl
-Architectures: arm64v8,arm32v6,arm32v7,ppc64le,s390x,i386,amd64
+Architectures: arm32v6,arm32v7,ppc64le,s390x,i386,amd64,arm64v8
 GitCommit: 2ef3fa66f2a434cd5e44e35a02f4ac502cf50808
 Directory: mainline/alpine-perl
 
 Tags: 1.17.10,1.17
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 594ce7a8bc26c85af88495ac94d5cd0096b306f7
 Directory: mainline/buster
 
 Tags: 1.17.10-perl,1.17-perl
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: 594ce7a8bc26c85af88495ac94d5cd0096b306f7
 Directory: mainline/buster-perl
 
 Tags: 1.17.10-alpine,1.17-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 594ce7a8bc26c85af88495ac94d5cd0096b306f7
 Directory: mainline/alpine
 
 Tags: 1.17.10-alpine-perl,1.17-alpine-perl
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 594ce7a8bc26c85af88495ac94d5cd0096b306f7
 Directory: mainline/alpine-perl
 
 Tags: 1.16.1,1.16
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: f7738edec51adb47470a96ad120cd63975a9d3d0
 Directory: stable/buster
 
 Tags: 1.16.1-perl,1.16-perl
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: f7738edec51adb47470a96ad120cd63975a9d3d0
 Directory: stable/buster-perl
 
 Tags: 1.16.1-alpine,1.16-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: f7738edec51adb47470a96ad120cd63975a9d3d0
 Directory: stable/alpine
 
@@ -716,22 +716,22 @@ GitCommit: f7738edec51adb47470a96ad120cd63975a9d3d0
 Directory: stable/alpine-perl
 
 Tags: 1.17.9
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 GitCommit: 5c15613519a26c6adc244c24f814a95c786cfbc3
 Directory: mainline/buster
 
 Tags: 1.17.9-perl
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: 5c15613519a26c6adc244c24f814a95c786cfbc3
 Directory: mainline/buster-perl
 
 Tags: 1.17.9-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
 GitCommit: 5c15613519a26c6adc244c24f814a95c786cfbc3
 Directory: mainline/alpine
 
 Tags: 1.17.9-alpine-perl
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 5c15613519a26c6adc244c24f814a95c786cfbc3
 Directory: mainline/alpine-perl
 
@@ -741,22 +741,22 @@ GitCommit: 5971de30c487356d5d2a2e1a79e02b2612f9a72f
 Directory: mainline/buster
 
 Tags: 1.17.8-perl
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 5971de30c487356d5d2a2e1a79e02b2612f9a72f
 Directory: mainline/buster-perl
 
 Tags: 1.17.8-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
 GitCommit: 5971de30c487356d5d2a2e1a79e02b2612f9a72f
 Directory: mainline/alpine
 
 Tags: 1.17.8-alpine-perl
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
 GitCommit: 5971de30c487356d5d2a2e1a79e02b2612f9a72f
 Directory: mainline/alpine-perl
 
 Tags: 1.17.7
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 0f2f33169297d7571d733f3a9122e3486704c859
 Directory: mainline/buster
 
@@ -766,7 +766,7 @@ GitCommit: 0f2f33169297d7571d733f3a9122e3486704c859
 Directory: mainline/buster-perl
 
 Tags: 1.17.7-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
 GitCommit: 0f2f33169297d7571d733f3a9122e3486704c859
 Directory: mainline/alpine
 
@@ -776,7 +776,7 @@ GitCommit: 0f2f33169297d7571d733f3a9122e3486704c859
 Directory: mainline/alpine-perl
 
 Tags: 1.17.6
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: a973c221f6cedede4dab3ab36d18240c4d3e3d74
 Directory: mainline/buster
 
@@ -786,12 +786,12 @@ GitCommit: a973c221f6cedede4dab3ab36d18240c4d3e3d74
 Directory: mainline/buster-perl
 
 Tags: 1.17.6-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
 GitCommit: a973c221f6cedede4dab3ab36d18240c4d3e3d74
 Directory: mainline/alpine
 
 Tags: 1.17.6-alpine-perl
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: a973c221f6cedede4dab3ab36d18240c4d3e3d74
 Directory: mainline/alpine-perl
 
@@ -806,12 +806,12 @@ GitCommit: fe97d699daae7e04f916771ac520f7cf25ab2b27
 Directory: mainline/buster-perl
 
 Tags: 1.17.5-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: fe97d699daae7e04f916771ac520f7cf25ab2b27
 Directory: mainline/alpine
 
 Tags: 1.17.5-alpine-perl
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
 GitCommit: fe97d699daae7e04f916771ac520f7cf25ab2b27
 Directory: mainline/alpine-perl
 
@@ -821,7 +821,7 @@ GitCommit: 23a990403d6dbe102bf2c72ab2f6a239e940e3c3
 Directory: mainline/buster
 
 Tags: 1.17.4-perl
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: 23a990403d6dbe102bf2c72ab2f6a239e940e3c3
 Directory: mainline/buster-perl
 
@@ -831,12 +831,12 @@ GitCommit: 23a990403d6dbe102bf2c72ab2f6a239e940e3c3
 Directory: mainline/alpine
 
 Tags: 1.17.4-alpine-perl
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 23a990403d6dbe102bf2c72ab2f6a239e940e3c3
 Directory: mainline/alpine-perl
 
 Tags: 1.17.3
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 GitCommit: e3bbc1131a683dabf868268e62b9d3fbd250191b
 Directory: mainline/buster
 
@@ -861,17 +861,17 @@ GitCommit: c817e28dd68b6daa33265a8cb527b1c4cd723b59
 Directory: mainline/buster
 
 Tags: 1.17.2-perl
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: c817e28dd68b6daa33265a8cb527b1c4cd723b59
 Directory: mainline/buster-perl
 
 Tags: 1.17.2-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: c817e28dd68b6daa33265a8cb527b1c4cd723b59
 Directory: mainline/alpine
 
 Tags: 1.17.2-alpine-perl
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
 GitCommit: c817e28dd68b6daa33265a8cb527b1c4cd723b59
 Directory: mainline/alpine-perl
 
@@ -881,7 +881,7 @@ GitCommit: 9a052e07b2c283df9960375ee40be50c5c462a7e
 Directory: stable/stretch
 
 Tags: 1.16.0-perl
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 9a052e07b2c283df9960375ee40be50c5c462a7e
 Directory: stable/stretch-perl
 
@@ -896,27 +896,27 @@ GitCommit: 9a052e07b2c283df9960375ee40be50c5c462a7e
 Directory: stable/alpine-perl
 
 Tags: 1.17.1
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 GitCommit: f9fbfcbcb24cb1fd6d207d33e9345d3e6dbb8ff2
 Directory: mainline/stretch
 
 Tags: 1.17.1-perl
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: f9fbfcbcb24cb1fd6d207d33e9345d3e6dbb8ff2
 Directory: mainline/stretch-perl
 
 Tags: 1.17.1-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: f9fbfcbcb24cb1fd6d207d33e9345d3e6dbb8ff2
 Directory: mainline/alpine
 
 Tags: 1.17.1-alpine-perl
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
 GitCommit: f9fbfcbcb24cb1fd6d207d33e9345d3e6dbb8ff2
 Directory: mainline/alpine-perl
 
 Tags: 1.17.0
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: b749353968a57ebd9da17e12d23f1a5fb62f9de9
 Directory: mainline/stretch
 
@@ -926,22 +926,22 @@ GitCommit: b749353968a57ebd9da17e12d23f1a5fb62f9de9
 Directory: mainline/stretch-perl
 
 Tags: 1.17.0-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: b749353968a57ebd9da17e12d23f1a5fb62f9de9
 Directory: mainline/alpine
 
 Tags: 1.17.0-alpine-perl
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: b749353968a57ebd9da17e12d23f1a5fb62f9de9
 Directory: mainline/alpine-perl
 
 Tags: 1.15.12,1.15
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 GitCommit: e5123eea0d29c8d13df17d782f15679458ff899e
 Directory: mainline/stretch
 
 Tags: 1.15.12-perl,1.15-perl
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: e5123eea0d29c8d13df17d782f15679458ff899e
 Directory: mainline/stretch-perl
 
@@ -956,7 +956,7 @@ GitCommit: e5123eea0d29c8d13df17d782f15679458ff899e
 Directory: mainline/alpine-perl
 
 Tags: 1.14.2,1.14
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: b71469ab815f580ba0ad658a32e91c86f8565ed4
 Directory: stable/stretch
 
@@ -966,7 +966,7 @@ GitCommit: b71469ab815f580ba0ad658a32e91c86f8565ed4
 Directory: stable/stretch-perl
 
 Tags: 1.14.2-alpine,1.14-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
 GitCommit: 2364fdc54af554d28ef95b7be381677d10987986
 Directory: stable/alpine
 
@@ -976,7 +976,7 @@ GitCommit: 2364fdc54af554d28ef95b7be381677d10987986
 Directory: stable/alpine-perl
 
 Tags: 1.15.11
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 7d7c67f2eaa6b2b32c718ba9d93f152870513c7c
 Directory: mainline/stretch
 
@@ -1006,22 +1006,22 @@ GitCommit: 97b65112180e0c7764465aa47a974fc7af3c99ae
 Directory: mainline/stretch-perl
 
 Tags: 1.15.10-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
 GitCommit: 97b65112180e0c7764465aa47a974fc7af3c99ae
 Directory: mainline/alpine
 
 Tags: 1.15.10-alpine-perl
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 97b65112180e0c7764465aa47a974fc7af3c99ae
 Directory: mainline/alpine-perl
 
 Tags: 1.15.9
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 GitCommit: 7890fc2342613e6669ad83ceead9c81136d2cc0a
 Directory: mainline/stretch
 
 Tags: 1.15.9-perl
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: 7890fc2342613e6669ad83ceead9c81136d2cc0a
 Directory: mainline/stretch-perl
 
@@ -1031,12 +1031,12 @@ GitCommit: 7890fc2342613e6669ad83ceead9c81136d2cc0a
 Directory: mainline/alpine
 
 Tags: 1.15.9-alpine-perl
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 7890fc2342613e6669ad83ceead9c81136d2cc0a
 Directory: mainline/alpine-perl
 
 Tags: 1.15.8
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: baa050df601b5e798431a9db458e16f53b1031f6
 Directory: mainline/stretch
 
@@ -1051,12 +1051,12 @@ GitCommit: 2364fdc54af554d28ef95b7be381677d10987986
 Directory: mainline/alpine
 
 Tags: 1.15.8-alpine-perl
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 2364fdc54af554d28ef95b7be381677d10987986
 Directory: mainline/alpine-perl
 
 Tags: 1.15.7
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 GitCommit: 1fe92b86a3c3a6482c54a0858d1fcb22e591279f
 Directory: mainline/stretch
 
@@ -1066,17 +1066,17 @@ GitCommit: 1fe92b86a3c3a6482c54a0858d1fcb22e591279f
 Directory: mainline/stretch-perl
 
 Tags: 1.15.7-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 1fe92b86a3c3a6482c54a0858d1fcb22e591279f
 Directory: mainline/alpine
 
 Tags: 1.15.7-alpine-perl
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 1fe92b86a3c3a6482c54a0858d1fcb22e591279f
 Directory: mainline/alpine-perl
 
 Tags: 1.14.1
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: f4d30145c60c433966df96f618d78513fee9d322
 Directory: stable/stretch
 
@@ -1091,17 +1091,17 @@ GitCommit: f4d30145c60c433966df96f618d78513fee9d322
 Directory: stable/alpine
 
 Tags: 1.14.1-alpine-perl
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: f4d30145c60c433966df96f618d78513fee9d322
 Directory: stable/alpine-perl
 
 Tags: 1.15.6
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: f4d30145c60c433966df96f618d78513fee9d322
 Directory: mainline/stretch
 
 Tags: 1.15.6-perl
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 GitCommit: f4d30145c60c433966df96f618d78513fee9d322
 Directory: mainline/stretch-perl
 
@@ -1111,7 +1111,7 @@ GitCommit: f4d30145c60c433966df96f618d78513fee9d322
 Directory: mainline/alpine
 
 Tags: 1.15.6-alpine-perl
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
 GitCommit: f4d30145c60c433966df96f618d78513fee9d322
 Directory: mainline/alpine-perl
 
@@ -1126,7 +1126,7 @@ GitCommit: a22b9f46fe3a586b02d974f64441a4c07215dc5d
 Directory: mainline/stretch-perl
 
 Tags: 1.15.5-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
 GitCommit: a22b9f46fe3a586b02d974f64441a4c07215dc5d
 Directory: mainline/alpine
 
@@ -1141,7 +1141,7 @@ GitCommit: d377983a14b214fcae4b8e34357761282aca788f
 Directory: stable/stretch
 
 Tags: 1.14.0-perl
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: d377983a14b214fcae4b8e34357761282aca788f
 Directory: stable/stretch-perl
 
@@ -1151,12 +1151,12 @@ GitCommit: d377983a14b214fcae4b8e34357761282aca788f
 Directory: stable/alpine
 
 Tags: 1.14.0-alpine-perl
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
 GitCommit: d377983a14b214fcae4b8e34357761282aca788f
 Directory: stable/alpine-perl
 
 Tags: 1.15.4
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 866b071f099f96898563f9a003c2dbb03bb90339
 Directory: mainline/stretch
 
@@ -1166,12 +1166,12 @@ GitCommit: 866b071f099f96898563f9a003c2dbb03bb90339
 Directory: mainline/stretch-perl
 
 Tags: 1.15.4-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
 GitCommit: 3c446adddf7b04e877d5c5191b151c794c74bb58
 Directory: mainline/alpine
 
 Tags: 1.15.4-alpine-perl
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 3c446adddf7b04e877d5c5191b151c794c74bb58
 Directory: mainline/alpine-perl
 
@@ -1191,7 +1191,7 @@ GitCommit: 3b108b59619655e3bd4597a059f544afa374b7fb
 Directory: mainline/alpine
 
 Tags: 1.15.3-alpine-perl
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 3b108b59619655e3bd4597a059f544afa374b7fb
 Directory: mainline/alpine-perl
 
@@ -1206,12 +1206,12 @@ GitCommit: ddbbbdf9c410d105f82aa1b4dbf05c0021c84fd6
 Directory: mainline/stretch-perl
 
 Tags: 1.15.2-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
 GitCommit: ddbbbdf9c410d105f82aa1b4dbf05c0021c84fd6
 Directory: mainline/alpine
 
 Tags: 1.15.2-alpine-perl
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
 GitCommit: ddbbbdf9c410d105f82aa1b4dbf05c0021c84fd6
 Directory: mainline/alpine-perl
 
@@ -1241,22 +1241,22 @@ GitCommit: f603bb3632ea6df0bc9da2179c18eb322c286298
 Directory: mainline/stretch
 
 Tags: 1.15.0-perl
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: f603bb3632ea6df0bc9da2179c18eb322c286298
 Directory: mainline/stretch-perl
 
 Tags: 1.15.0-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: f603bb3632ea6df0bc9da2179c18eb322c286298
 Directory: mainline/alpine
 
 Tags: 1.15.0-alpine-perl
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
 GitCommit: f603bb3632ea6df0bc9da2179c18eb322c286298
 Directory: mainline/alpine-perl
 
 Tags: 1.13.12,1.13
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 590f9ba27d6d11da346440682891bee6694245f5
 Directory: mainline/stretch
 
@@ -1266,7 +1266,7 @@ GitCommit: 590f9ba27d6d11da346440682891bee6694245f5
 Directory: mainline/stretch-perl
 
 Tags: 1.13.12-alpine,1.13-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 590f9ba27d6d11da346440682891bee6694245f5
 Directory: mainline/alpine
 
@@ -1281,7 +1281,7 @@ GitCommit: 72ac2226580ee73c170163dbe6e4436373b6ece9
 Directory: stable/stretch
 
 Tags: 1.12.2-perl,1.12-perl
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 72ac2226580ee73c170163dbe6e4436373b6ece9
 Directory: stable/stretch-perl
 
@@ -1299,7 +1299,7 @@ GitCommit: 43943f766ed3ee0b5278e58c5c89895381b1a3b3
 Directory: mainline/stretch
 
 Tags: 1.13.11-perl
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: 43943f766ed3ee0b5278e58c5c89895381b1a3b3
 Directory: mainline/stretch-perl
 
@@ -1314,27 +1314,27 @@ GitCommit: 43943f766ed3ee0b5278e58c5c89895381b1a3b3
 Directory: mainline/alpine-perl
 
 Tags: 1.13.10
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 4f5bae5928baee89433ecb20a50283546f217dfa
 Directory: mainline/stretch
 
 Tags: 1.13.10-perl
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: 4f5bae5928baee89433ecb20a50283546f217dfa
 Directory: mainline/stretch-perl
 
 Tags: 1.13.10-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 4f5bae5928baee89433ecb20a50283546f217dfa
 Directory: mainline/alpine
 
 Tags: 1.13.10-alpine-perl
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
 GitCommit: 4f5bae5928baee89433ecb20a50283546f217dfa
 Directory: mainline/alpine-perl
 
 Tags: 1.13.9
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 GitCommit: dbd053d52727bc8db0fec704caa22b8e0d5f6c84
 Directory: mainline/stretch
 
@@ -1359,7 +1359,7 @@ GitCommit: f8fad321cf58d5cbcafa3d9fa15314b8a77b5e65
 Directory: mainline/stretch
 
 Tags: 1.13.8-perl
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: f8fad321cf58d5cbcafa3d9fa15314b8a77b5e65
 Directory: mainline/stretch-perl
 
@@ -1377,7 +1377,7 @@ GitCommit: c8bfb9b5260d4ad308deac5343b73b027f684375
 Directory: mainline/stretch
 
 Tags: 1.13.7-perl
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 GitCommit: c8bfb9b5260d4ad308deac5343b73b027f684375
 Directory: mainline/stretch-perl
 
@@ -1390,7 +1390,7 @@ GitCommit: c8bfb9b5260d4ad308deac5343b73b027f684375
 Directory: mainline/alpine-perl
 
 Tags: 1.13.6
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 GitCommit: 3ba04e37d8f9ed7709fd30bf4dc6c36554e578ac
 Directory: mainline/stretch
 
@@ -1413,7 +1413,7 @@ GitCommit: 1d2e2ccae2f6e478f628f4091d8a5c36a122a157
 Directory: mainline/stretch
 
 Tags: 1.13.5-perl
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 GitCommit: 1d2e2ccae2f6e478f628f4091d8a5c36a122a157
 Directory: mainline/stretch-perl
 
@@ -1431,7 +1431,7 @@ GitCommit: 94eb6429613179a2d30a666c30912d5f2e1d5c93
 Directory: stable/stretch
 
 Tags: 1.12.1-perl
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 94eb6429613179a2d30a666c30912d5f2e1d5c93
 Directory: stable/stretch-perl
 

@@ -1,8 +1,23 @@
 Blocks:
 - Architectures:
-  - amd64
-  - arm64v8
-  - ppc64le
+    amd64:
+      Architecture: amd64
+      Directory: x86_64/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: aarch64/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ppc64le/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
   Directory: ""
   GitCommit: 0df142c37386f5be35c3355d316d7bc444825e0b
   Tags:
@@ -10,16 +25,41 @@ Blocks:
   - latest
   - leap
 - Architectures:
-  - amd64
-  - arm64v8
-  - ppc64le
-  - s390x
+    amd64:
+      Architecture: amd64
+      Directory: x86_64/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: aarch64/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ppc64le/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: s390x/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
   Directory: ""
   GitCommit: 2b8e47140b2a964ac827d17d4b5edd52ee22997d
   Tags:
   - tumbleweed
 - Architectures:
-  - amd64
+    amd64:
+      Architecture: amd64
+      Directory: x86_64/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
   Directory: ""
   GitCommit: fd39ce9631c3b6a110b6c1e8e5756a20d0863a77
   Tags:

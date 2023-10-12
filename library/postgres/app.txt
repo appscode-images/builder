@@ -1,12 +1,12 @@
 GitRepo: https://github.com/docker-library/postgres.git
 
 Tags: 16.0,16,latest,16.0-bookworm,16-bookworm,bookworm
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 7442464585e3cd75554976cbe94819a42da10bbd
 Directory: 16/bookworm
 
 Tags: 16.0-bullseye,16-bullseye,bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: 7442464585e3cd75554976cbe94819a42da10bbd
 Directory: 16/bullseye
 
@@ -16,7 +16,7 @@ GitCommit: 6f4ae836406b010948f01fbcb400a31dca4fdf52
 Directory: 16/alpine3.18
 
 Tags: 16.0-alpine3.17,16-alpine3.17,alpine3.17
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 6f4ae836406b010948f01fbcb400a31dca4fdf52
 Directory: 16/alpine3.17
 
@@ -36,52 +36,52 @@ GitCommit: 6f4ae836406b010948f01fbcb400a31dca4fdf52
 Directory: 15/alpine3.18
 
 Tags: 15.4-alpine3.17,15-alpine3.17
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 6f4ae836406b010948f01fbcb400a31dca4fdf52
 Directory: 15/alpine3.17
 
 Tags: 14.9,14,14.9-bookworm,14-bookworm
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: 05f691067b29d8fb4211a47da37a381d58d36691
 Directory: 14/bookworm
 
 Tags: 14.9-bullseye,14-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 05f691067b29d8fb4211a47da37a381d58d36691
 Directory: 14/bullseye
 
 Tags: 14.9-alpine3.18,14-alpine3.18,14.9-alpine,14-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 6f4ae836406b010948f01fbcb400a31dca4fdf52
 Directory: 14/alpine3.18
 
 Tags: 14.9-alpine3.17,14-alpine3.17
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 6f4ae836406b010948f01fbcb400a31dca4fdf52
 Directory: 14/alpine3.17
 
 Tags: 13.12,13,13.12-bookworm,13-bookworm
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: 69cf8b8aac63224380f943bd6428f088ddfb3435
 Directory: 13/bookworm
 
 Tags: 13.12-bullseye,13-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 69cf8b8aac63224380f943bd6428f088ddfb3435
 Directory: 13/bullseye
 
 Tags: 13.12-alpine3.18,13-alpine3.18,13.12-alpine,13-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 6f4ae836406b010948f01fbcb400a31dca4fdf52
 Directory: 13/alpine3.18
 
 Tags: 13.12-alpine3.17,13-alpine3.17
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 6f4ae836406b010948f01fbcb400a31dca4fdf52
 Directory: 13/alpine3.17
 
 Tags: 12.16,12,12.16-bookworm,12-bookworm
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 9061f74afc30391adb6a1a35d4f7b605ecaa09b9
 Directory: 12/bookworm
 
@@ -101,122 +101,122 @@ GitCommit: 6f4ae836406b010948f01fbcb400a31dca4fdf52
 Directory: 12/alpine3.17
 
 Tags: 11.21-bookworm,11-bookworm
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: 16fa0f1d18f7c46f7dcac1e250b680fcb1a2e051
 Directory: 11/bookworm
 
 Tags: 11.21-bullseye,11-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 GitCommit: 16fa0f1d18f7c46f7dcac1e250b680fcb1a2e051
 Directory: 11/bullseye
 
 Tags: 11.21-alpine3.18,11-alpine3.18,11.21-alpine,11-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 6f4ae836406b010948f01fbcb400a31dca4fdf52
 Directory: 11/alpine3.18
 
 Tags: 11.21-alpine3.17,11-alpine3.17
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 6f4ae836406b010948f01fbcb400a31dca4fdf52
 Directory: 11/alpine3.17
 
 Tags: 16rc1,16rc1-bookworm
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: 2f0ed0c7e8f8b05b294740f150397eec0af8dc50
 Directory: 16/bookworm
 
 Tags: 16rc1-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 GitCommit: 2f0ed0c7e8f8b05b294740f150397eec0af8dc50
 Directory: 16/bullseye
 
 Tags: 16rc1-alpine3.18,16rc1-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 2f0ed0c7e8f8b05b294740f150397eec0af8dc50
 Directory: 16/alpine3.18
 
 Tags: 16rc1-alpine3.17
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 2f0ed0c7e8f8b05b294740f150397eec0af8dc50
 Directory: 16/alpine3.17
 
 Tags: 16beta3,16beta3-bookworm
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: ee530cc079f232f9b1045db43d8c501ee2057d6d
 Directory: 16/bookworm
 
 Tags: 16beta3-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: ee530cc079f232f9b1045db43d8c501ee2057d6d
 Directory: 16/bullseye
 
 Tags: 16beta3-alpine3.18,16beta3-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: ee530cc079f232f9b1045db43d8c501ee2057d6d
 Directory: 16/alpine3.18
 
 Tags: 16beta3-alpine3.17
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: ee530cc079f232f9b1045db43d8c501ee2057d6d
 Directory: 16/alpine3.17
 
 Tags: 16beta2,16beta2-bookworm
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 GitCommit: cba2a05c03706daf5f9a66b93a447540b62df063
 Directory: 16/bookworm
 
 Tags: 16beta2-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: cba2a05c03706daf5f9a66b93a447540b62df063
 Directory: 16/bullseye
 
 Tags: 16beta2-alpine3.18,16beta2-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: cba2a05c03706daf5f9a66b93a447540b62df063
 Directory: 16/alpine3.18
 
 Tags: 16beta2-alpine3.17
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: cba2a05c03706daf5f9a66b93a447540b62df063
 Directory: 16/alpine3.17
 
 Tags: 15.3,15.3-bookworm
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: 3fda89cc5c2e588f46ae4f1ac117114c8e6814f1
 Directory: 15/bookworm
 
 Tags: 15.3-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: a23c0e97980edae5be2cd4eb68ff1f0762d031cd
 Directory: 15/bullseye
 
 Tags: 15.3-alpine3.18,15.3-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 5ea98fe00be95fbbe642732d62af3b4dbc83f442
 Directory: 15/alpine3.18
 
 Tags: 15.3-alpine3.17
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 5ea98fe00be95fbbe642732d62af3b4dbc83f442
 Directory: 15/alpine3.17
 
 Tags: 14.8,14.8-bookworm
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 3fda89cc5c2e588f46ae4f1ac117114c8e6814f1
 Directory: 14/bookworm
 
 Tags: 14.8-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 8ff11cd5ae43e73fd84d0b2bc8aa88537fe18649
 Directory: 14/bullseye
 
 Tags: 14.8-alpine3.18,14.8-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 5ea98fe00be95fbbe642732d62af3b4dbc83f442
 Directory: 14/alpine3.18
 
 Tags: 14.8-alpine3.17
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 5ea98fe00be95fbbe642732d62af3b4dbc83f442
 Directory: 14/alpine3.17
 
@@ -226,27 +226,27 @@ GitCommit: 3fda89cc5c2e588f46ae4f1ac117114c8e6814f1
 Directory: 13/bookworm
 
 Tags: 13.11-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 43d17d5ced92f230fa8c196e746f2e2aa288e5e8
 Directory: 13/bullseye
 
 Tags: 13.11-alpine3.18,13.11-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 5ea98fe00be95fbbe642732d62af3b4dbc83f442
 Directory: 13/alpine3.18
 
 Tags: 13.11-alpine3.17
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 5ea98fe00be95fbbe642732d62af3b4dbc83f442
 Directory: 13/alpine3.17
 
 Tags: 12.15,12.15-bookworm
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 3fda89cc5c2e588f46ae4f1ac117114c8e6814f1
 Directory: 12/bookworm
 
 Tags: 12.15-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 GitCommit: d681c1da2faebccc790fffd3e71514548b458d50
 Directory: 12/bullseye
 
@@ -256,17 +256,17 @@ GitCommit: 5ea98fe00be95fbbe642732d62af3b4dbc83f442
 Directory: 12/alpine3.18
 
 Tags: 12.15-alpine3.17
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 5ea98fe00be95fbbe642732d62af3b4dbc83f442
 Directory: 12/alpine3.17
 
 Tags: 11.20-bookworm
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: 3fda89cc5c2e588f46ae4f1ac117114c8e6814f1
 Directory: 11/bookworm
 
 Tags: 11.20-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: ee629b1e31754d3aeed529a1a3610ac180f20e0b
 Directory: 11/bullseye
 
@@ -281,7 +281,7 @@ GitCommit: 5ea98fe00be95fbbe642732d62af3b4dbc83f442
 Directory: 11/alpine3.17
 
 Tags: 16beta1,16beta1-bookworm
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 3fda89cc5c2e588f46ae4f1ac117114c8e6814f1
 Directory: 16/bookworm
 
@@ -291,7 +291,7 @@ GitCommit: 4fe55381bab76d0d39195f84e00cfdd0759e65c0
 Directory: 16/bullseye
 
 Tags: 16beta1-alpine3.18,16beta1-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 4fe55381bab76d0d39195f84e00cfdd0759e65c0
 Directory: 16/alpine3.18
 
@@ -301,67 +301,67 @@ GitCommit: 4fe55381bab76d0d39195f84e00cfdd0759e65c0
 Directory: 16/alpine3.17
 
 Tags: 15.2,15.2-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 GitCommit: dd68d91377a3631b36a23f2e4795f6189db4ba12
 Directory: 15/bullseye
 
 Tags: 15.2-alpine,15.2-alpine3.17
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 25b3034e9b0155c3e71acaf650243e7d12a571c1
 Directory: 15/alpine
 
 Tags: 14.7,14.7-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: dd68d91377a3631b36a23f2e4795f6189db4ba12
 Directory: 14/bullseye
 
 Tags: 14.7-alpine,14.7-alpine3.17
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 25b3034e9b0155c3e71acaf650243e7d12a571c1
 Directory: 14/alpine
 
 Tags: 13.10,13.10-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: dd68d91377a3631b36a23f2e4795f6189db4ba12
 Directory: 13/bullseye
 
 Tags: 13.10-alpine,13.10-alpine3.17
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 25b3034e9b0155c3e71acaf650243e7d12a571c1
 Directory: 13/alpine
 
 Tags: 12.14,12.14-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: dd68d91377a3631b36a23f2e4795f6189db4ba12
 Directory: 12/bullseye
 
 Tags: 12.14-alpine,12.14-alpine3.17
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 25b3034e9b0155c3e71acaf650243e7d12a571c1
 Directory: 12/alpine
 
 Tags: 11.19-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: dd68d91377a3631b36a23f2e4795f6189db4ba12
 Directory: 11/bullseye
 
 Tags: 11.19-alpine,11.19-alpine3.17
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 25b3034e9b0155c3e71acaf650243e7d12a571c1
 Directory: 11/alpine
 
 Tags: 15.1,15.1-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: 186c93e85d4c4fcee8c300fdfd2e9991c5d3efc9
 Directory: 15/bullseye
 
 Tags: 15.1-alpine,15.1-alpine3.17
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 6ee0f2865b23484fefb785ba70b9d404f2bb0cd4
 Directory: 15/alpine
 
 Tags: 14.6,14.6-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: 186c93e85d4c4fcee8c300fdfd2e9991c5d3efc9
 Directory: 14/bullseye
 
@@ -371,27 +371,27 @@ GitCommit: 6ee0f2865b23484fefb785ba70b9d404f2bb0cd4
 Directory: 14/alpine
 
 Tags: 13.9,13.9-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: 186c93e85d4c4fcee8c300fdfd2e9991c5d3efc9
 Directory: 13/bullseye
 
 Tags: 13.9-alpine,13.9-alpine3.17
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 6ee0f2865b23484fefb785ba70b9d404f2bb0cd4
 Directory: 13/alpine
 
 Tags: 12.13,12.13-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: 186c93e85d4c4fcee8c300fdfd2e9991c5d3efc9
 Directory: 12/bullseye
 
 Tags: 12.13-alpine,12.13-alpine3.17
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 6ee0f2865b23484fefb785ba70b9d404f2bb0cd4
 Directory: 12/alpine
 
 Tags: 11.18-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: 186c93e85d4c4fcee8c300fdfd2e9991c5d3efc9
 Directory: 11/bullseye
 
@@ -401,12 +401,12 @@ GitCommit: 6ee0f2865b23484fefb785ba70b9d404f2bb0cd4
 Directory: 11/alpine
 
 Tags: 15.1-alpine3.16,15-alpine3.16,alpine3.16
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 75d0c1135e1cfd183bf7ee0970b7031986b0710d
 Directory: 15/alpine
 
 Tags: 14.6-alpine3.16,14-alpine3.16
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: e8ba287990e5e312278fc59131f8a796953dc6c4
 Directory: 14/alpine
 
@@ -416,72 +416,72 @@ GitCommit: 883b1c3f7b485153ec5d841271801ee436ec3314
 Directory: 13/alpine
 
 Tags: 12.13-alpine3.16,12-alpine3.16
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 5ca94d535d75308b16125d132048bf93172521db
 Directory: 12/alpine
 
 Tags: 11.18-alpine3.16,11-alpine3.16
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 14022440352a9e24d86cae450600ea56969d234b
 Directory: 11/alpine
 
 Tags: 10.23-bullseye,10-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: c3a0b48216491953f25344c3fef1b02ed157ff3e
 Directory: 10/bullseye
 
 Tags: 10.23-alpine,10-alpine,10.23-alpine3.16,10-alpine3.16
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: c3a0b48216491953f25344c3fef1b02ed157ff3e
 Directory: 10/alpine
 
 Tags: 15.0,15.0-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 648e5c7dc31db0e34d8dc11891ccc50641ba6e42
 Directory: 15/bullseye
 
 Tags: 15.0-alpine,15.0-alpine3.16
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 648e5c7dc31db0e34d8dc11891ccc50641ba6e42
 Directory: 15/alpine
 
 Tags: 14.5,14.5-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 GitCommit: 6928f4995329cb0795d2aa2b88ad2c21685e35f3
 Directory: 14/bullseye
 
 Tags: 14.5-alpine,14.5-alpine3.16
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 56a1986772dd0f9488d54dccb82427c0db0b0599
 Directory: 14/alpine
 
 Tags: 13.8,13.8-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 701a1643a2718b4f90846e19e5860751bb970a3b
 Directory: 13/bullseye
 
 Tags: 13.8-alpine,13.8-alpine3.16
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 701a1643a2718b4f90846e19e5860751bb970a3b
 Directory: 13/alpine
 
 Tags: 12.12,12.12-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: 5d3efd36f052338f294e7284812ad3f82a886257
 Directory: 12/bullseye
 
 Tags: 12.12-alpine,12.12-alpine3.16
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 5d3efd36f052338f294e7284812ad3f82a886257
 Directory: 12/alpine
 
 Tags: 11.17-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: bb963be60f9c7f69f011ae057782840ebd9e0988
 Directory: 11/bullseye
 
 Tags: 11.17-alpine,11.17-alpine3.16
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: bb963be60f9c7f69f011ae057782840ebd9e0988
 Directory: 11/alpine
 
@@ -496,32 +496,32 @@ GitCommit: 91cd38efaa82a8be0b1b993c11d740a668cd028e
 Directory: 10/alpine
 
 Tags: 15rc2,15rc2-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: cdd56d3b51e4b936f695e444a52eee019561ebb6
 Directory: 15/bullseye
 
 Tags: 15rc2-alpine,15rc2-alpine3.16
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: cdd56d3b51e4b936f695e444a52eee019561ebb6
 Directory: 15/alpine
 
 Tags: 15rc1,15rc1-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 66de12a7ee7b5bfa4b12405bded612e9d283a4ac
 Directory: 15/bullseye
 
 Tags: 15rc1-alpine,15rc1-alpine3.16
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 66de12a7ee7b5bfa4b12405bded612e9d283a4ac
 Directory: 15/alpine
 
 Tags: 15beta4,15beta4-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 GitCommit: 1554bd151d1578b3d0743a16764f6619874ea571
 Directory: 15/bullseye
 
 Tags: 15beta4-alpine,15beta4-alpine3.16
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 1554bd151d1578b3d0743a16764f6619874ea571
 Directory: 15/alpine
 
@@ -531,12 +531,12 @@ GitCommit: 271cf940d0b8e212d16309271d49a8fdd4f48978
 Directory: 15/bullseye
 
 Tags: 15beta3-alpine,15beta3-alpine3.16
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 271cf940d0b8e212d16309271d49a8fdd4f48978
 Directory: 15/alpine
 
 Tags: 15beta2,15beta2-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 13c3f7a50f1f98c1a1dc4567b9d5ee2c2891a6ca
 Directory: 15/bullseye
 
@@ -546,17 +546,17 @@ GitCommit: 7b8a5db5524e962cdcc02230f04c36d77d45441d
 Directory: 15/alpine
 
 Tags: 14.4,14.4-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: 2f6878ca854713264ebb27c1ba8530c884bcbca5
 Directory: 14/bullseye
 
 Tags: 14.4-alpine,14.4-alpine3.16
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 2f6878ca854713264ebb27c1ba8530c884bcbca5
 Directory: 14/alpine
 
 Tags: 13.7,13.7-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 74e51d102aede317665f2b4a9b89362135402fe7
 Directory: 13/bullseye
 
@@ -566,22 +566,22 @@ GitCommit: b979def1c4957f5c7d5b3138df3a33abef404d21
 Directory: 13/alpine
 
 Tags: 12.11,12.11-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: 74e51d102aede317665f2b4a9b89362135402fe7
 Directory: 12/bullseye
 
 Tags: 12.11-alpine,12.11-alpine3.16
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: b979def1c4957f5c7d5b3138df3a33abef404d21
 Directory: 12/alpine
 
 Tags: 11.16-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: 74e51d102aede317665f2b4a9b89362135402fe7
 Directory: 11/bullseye
 
 Tags: 11.16-alpine,11.16-alpine3.16
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: b979def1c4957f5c7d5b3138df3a33abef404d21
 Directory: 11/alpine
 
@@ -591,7 +591,7 @@ GitCommit: 74e51d102aede317665f2b4a9b89362135402fe7
 Directory: 10/bullseye
 
 Tags: 10.21-alpine,10.21-alpine3.16
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: b979def1c4957f5c7d5b3138df3a33abef404d21
 Directory: 10/alpine
 
@@ -601,42 +601,42 @@ GitCommit: 74e51d102aede317665f2b4a9b89362135402fe7
 Directory: 11/stretch
 
 Tags: 10.21,10,10.21-stretch,10-stretch
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: arm32v7,arm64v8,i386,amd64,arm32v5
 GitCommit: 74e51d102aede317665f2b4a9b89362135402fe7
 Directory: 10/stretch
 
 Tags: 15beta1,15beta1-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 74e51d102aede317665f2b4a9b89362135402fe7
 Directory: 15/bullseye
 
 Tags: 15beta1-alpine,15beta1-alpine3.16
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: b979def1c4957f5c7d5b3138df3a33abef404d21
 Directory: 15/alpine
 
 Tags: 14.3,14.3-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 4e56664f1797ba4cc0f5917b6d794792a5571b45
 Directory: 14/bullseye
 
 Tags: 14.3-alpine,14.3-alpine3.16
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 899a216e56e49ca7ab1aaae937f1220caace7ce4
 Directory: 14/alpine
 
 Tags: 15beta1-alpine3.15
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 90f8530900c29714bae8f6045c6749d5fbe527c0
 Directory: 15/alpine
 
 Tags: 14.3-alpine3.15,14-alpine3.15,alpine3.15
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 4e56664f1797ba4cc0f5917b6d794792a5571b45
 Directory: 14/alpine
 
 Tags: 13.7-alpine3.15,13-alpine3.15
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: f060d1236051da2205da24f7caa6ff5301c6be9a
 Directory: 13/alpine
 
@@ -651,42 +651,42 @@ GitCommit: e97d27525d5949b25ca70687f42f1874210452dc
 Directory: 11/alpine
 
 Tags: 10.21-alpine3.15,10-alpine3.15
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 780680ebfa85d8220627985c0a16ecfd79d44a0f
 Directory: 10/alpine
 
 Tags: 14.2,14.2-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: e8ebf74e50128123a8d0220b85e357ef2d73a7ec
 Directory: 14/bullseye
 
 Tags: 14.2-alpine,14.2-alpine3.15
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: e483778176ca34bcbe83ee17000820d4f6e64c28
 Directory: 14/alpine
 
 Tags: 13.6,13.6-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: e8ebf74e50128123a8d0220b85e357ef2d73a7ec
 Directory: 13/bullseye
 
 Tags: 13.6-alpine,13.6-alpine3.15
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: e483778176ca34bcbe83ee17000820d4f6e64c28
 Directory: 13/alpine
 
 Tags: 12.10,12.10-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: e8ebf74e50128123a8d0220b85e357ef2d73a7ec
 Directory: 12/bullseye
 
 Tags: 12.10-alpine,12.10-alpine3.15
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: e483778176ca34bcbe83ee17000820d4f6e64c28
 Directory: 12/alpine
 
 Tags: 11.15-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: e8ebf74e50128123a8d0220b85e357ef2d73a7ec
 Directory: 11/bullseye
 
@@ -701,12 +701,12 @@ GitCommit: e483778176ca34bcbe83ee17000820d4f6e64c28
 Directory: 11/alpine
 
 Tags: 10.20-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 GitCommit: e8ebf74e50128123a8d0220b85e357ef2d73a7ec
 Directory: 10/bullseye
 
 Tags: 10.20,10.20-stretch
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: arm64v8,i386,amd64,arm32v5,arm32v7
 GitCommit: e8ebf74e50128123a8d0220b85e357ef2d73a7ec
 Directory: 10/stretch
 
@@ -726,42 +726,42 @@ GitCommit: 0fa62a8a9ad6fddca3e81dea0fa22eb56b105c95
 Directory: 9.6/stretch
 
 Tags: 9.6.24-alpine,9.6-alpine,9-alpine,9.6.24-alpine3.15,9.6-alpine3.15,9-alpine3.15
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: a83005b407ee6d810413500d8a041c957fb10cf0
 Directory: 9.6/alpine
 
 Tags: 14.1,14.1-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: a83005b407ee6d810413500d8a041c957fb10cf0
 Directory: 14/bullseye
 
 Tags: 14.1-alpine,14.1-alpine3.15
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: a83005b407ee6d810413500d8a041c957fb10cf0
 Directory: 14/alpine
 
 Tags: 13.5,13.5-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: a83005b407ee6d810413500d8a041c957fb10cf0
 Directory: 13/bullseye
 
 Tags: 13.5-alpine,13.5-alpine3.15
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: a83005b407ee6d810413500d8a041c957fb10cf0
 Directory: 13/alpine
 
 Tags: 12.9,12.9-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: a83005b407ee6d810413500d8a041c957fb10cf0
 Directory: 12/bullseye
 
 Tags: 12.9-alpine,12.9-alpine3.15
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: a83005b407ee6d810413500d8a041c957fb10cf0
 Directory: 12/alpine
 
 Tags: 11.14-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: a83005b407ee6d810413500d8a041c957fb10cf0
 Directory: 11/bullseye
 
@@ -771,17 +771,17 @@ GitCommit: a83005b407ee6d810413500d8a041c957fb10cf0
 Directory: 11/stretch
 
 Tags: 11.14-alpine,11.14-alpine3.15
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: a83005b407ee6d810413500d8a041c957fb10cf0
 Directory: 11/alpine
 
 Tags: 10.19-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: a83005b407ee6d810413500d8a041c957fb10cf0
 Directory: 10/bullseye
 
 Tags: 10.19,10.19-stretch
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: arm32v7,arm64v8,i386,amd64,arm32v5
 GitCommit: a83005b407ee6d810413500d8a041c957fb10cf0
 Directory: 10/stretch
 
@@ -791,7 +791,7 @@ GitCommit: a83005b407ee6d810413500d8a041c957fb10cf0
 Directory: 10/alpine
 
 Tags: 14.1-alpine3.14,14-alpine3.14,alpine3.14
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: e331a5bb8dd2494ffd70d67eeca495ace748c8bd
 Directory: 14/alpine
 
@@ -801,22 +801,22 @@ GitCommit: e331a5bb8dd2494ffd70d67eeca495ace748c8bd
 Directory: 13/alpine
 
 Tags: 12.9-alpine3.14,12-alpine3.14
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: e331a5bb8dd2494ffd70d67eeca495ace748c8bd
 Directory: 12/alpine
 
 Tags: 11.14-alpine3.14,11-alpine3.14
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: e331a5bb8dd2494ffd70d67eeca495ace748c8bd
 Directory: 11/alpine
 
 Tags: 10.19-alpine3.14,10-alpine3.14
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: e331a5bb8dd2494ffd70d67eeca495ace748c8bd
 Directory: 10/alpine
 
 Tags: 9.6.24-alpine3.14,9.6-alpine3.14,9-alpine3.14
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: e331a5bb8dd2494ffd70d67eeca495ace748c8bd
 Directory: 9.6/alpine
 
@@ -831,7 +831,7 @@ GitCommit: edce9867844e2747021fd77bf3b0e3da560b23c7
 Directory: 14/alpine
 
 Tags: 13.4,13.4-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: edce9867844e2747021fd77bf3b0e3da560b23c7
 Directory: 13/bullseye
 
@@ -841,17 +841,17 @@ GitCommit: edce9867844e2747021fd77bf3b0e3da560b23c7
 Directory: 13/alpine
 
 Tags: 12.8,12.8-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: edce9867844e2747021fd77bf3b0e3da560b23c7
 Directory: 12/bullseye
 
 Tags: 12.8-alpine,12.8-alpine3.14
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: edce9867844e2747021fd77bf3b0e3da560b23c7
 Directory: 12/alpine
 
 Tags: 11.13-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: edce9867844e2747021fd77bf3b0e3da560b23c7
 Directory: 11/bullseye
 
@@ -861,12 +861,12 @@ GitCommit: edce9867844e2747021fd77bf3b0e3da560b23c7
 Directory: 11/stretch
 
 Tags: 11.13-alpine,11.13-alpine3.14
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: edce9867844e2747021fd77bf3b0e3da560b23c7
 Directory: 11/alpine
 
 Tags: 10.18-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: edce9867844e2747021fd77bf3b0e3da560b23c7
 Directory: 10/bullseye
 
@@ -876,107 +876,107 @@ GitCommit: edce9867844e2747021fd77bf3b0e3da560b23c7
 Directory: 10/stretch
 
 Tags: 10.18-alpine,10.18-alpine3.14
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: edce9867844e2747021fd77bf3b0e3da560b23c7
 Directory: 10/alpine
 
 Tags: 9.6.23-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: edce9867844e2747021fd77bf3b0e3da560b23c7
 Directory: 9.6/bullseye
 
 Tags: 9.6.23,9.6.23-stretch
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: arm64v8,i386,amd64,arm32v5,arm32v7
 GitCommit: edce9867844e2747021fd77bf3b0e3da560b23c7
 Directory: 9.6/stretch
 
 Tags: 9.6.23-alpine,9.6.23-alpine3.14
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: edce9867844e2747021fd77bf3b0e3da560b23c7
 Directory: 9.6/alpine
 
 Tags: 14rc1,14rc1-bullseye
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: c3bf1dd3aadab4cce10fdd8eac069080339093a1
 Directory: 14/bullseye
 
 Tags: 14rc1-alpine,14rc1-alpine3.14
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: c3bf1dd3aadab4cce10fdd8eac069080339093a1
 Directory: 14/alpine
 
 Tags: 14beta3,14beta3-buster
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: b4b726dbf1885e8e1543526ad9d250fdb2689cbb
 Directory: 14/buster
 
 Tags: 14beta3-alpine,14beta3-alpine3.14
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: b4b726dbf1885e8e1543526ad9d250fdb2689cbb
 Directory: 14/alpine
 
 Tags: 13.4-buster,13-buster,buster
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: 7f5f6da5a1976bfd2c6d989e20cef080d0d9c68f
 Directory: 13/buster
 
 Tags: 12.8-buster,12-buster
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: cf175692c137b00938f480b3ae1babae0999e05e
 Directory: 12/buster
 
 Tags: 11.13-buster,11-buster
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: 415040d370e989dd3e6010bcdee5ba2440273598
 Directory: 11/buster
 
 Tags: 10.18-buster,10-buster
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: a7a749d0ce8b8cd54c5545f6d9489d755af00659
 Directory: 10/buster
 
 Tags: 9.6.23-buster,9.6-buster,9-buster
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 32d0897216bfa477c70688b960e5a95651df8992
 Directory: 9.6/buster
 
 Tags: 14beta2,14beta2-buster
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 90892b68142fcc5ffab5e4658f52219cf450d698
 Directory: 14/buster
 
 Tags: 14beta2-alpine,14beta2-alpine3.14
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 90892b68142fcc5ffab5e4658f52219cf450d698
 Directory: 14/alpine
 
 Tags: 13.3,13.3-buster
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: 5c0e796bb660f0ae42ae8bf084470f13417b8d63
 Directory: 13/buster
 
 Tags: 13.3-alpine,13.3-alpine3.14
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 517c64f87e6661366b415df3f2273c76cea428b0
 Directory: 13/alpine
 
 Tags: 12.7,12.7-buster
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: 5c0e796bb660f0ae42ae8bf084470f13417b8d63
 Directory: 12/buster
 
 Tags: 12.7-alpine,12.7-alpine3.14
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 517c64f87e6661366b415df3f2273c76cea428b0
 Directory: 12/alpine
 
 Tags: 11.12-buster
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 5c0e796bb660f0ae42ae8bf084470f13417b8d63
 Directory: 11/buster
 
 Tags: 11.12,11.12-stretch
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: i386,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 5c0e796bb660f0ae42ae8bf084470f13417b8d63
 Directory: 11/stretch
 
@@ -986,22 +986,22 @@ GitCommit: 517c64f87e6661366b415df3f2273c76cea428b0
 Directory: 11/alpine
 
 Tags: 10.17-buster
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 GitCommit: 5c0e796bb660f0ae42ae8bf084470f13417b8d63
 Directory: 10/buster
 
 Tags: 10.17,10.17-stretch
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: arm64v8,i386,amd64,arm32v5,arm32v7
 GitCommit: 5c0e796bb660f0ae42ae8bf084470f13417b8d63
 Directory: 10/stretch
 
 Tags: 10.17-alpine,10.17-alpine3.14
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 517c64f87e6661366b415df3f2273c76cea428b0
 Directory: 10/alpine
 
 Tags: 9.6.22-buster
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: 5c0e796bb660f0ae42ae8bf084470f13417b8d63
 Directory: 9.6/buster
 
@@ -1011,22 +1011,22 @@ GitCommit: 5c0e796bb660f0ae42ae8bf084470f13417b8d63
 Directory: 9.6/stretch
 
 Tags: 9.6.22-alpine,9.6.22-alpine3.14
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 517c64f87e6661366b415df3f2273c76cea428b0
 Directory: 9.6/alpine
 
 Tags: 13.3-alpine3.13,13-alpine3.13,alpine3.13
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 4a82bbde194ff4d32e90629b0a50b9398d374c12
 Directory: 13/alpine
 
 Tags: 12.7-alpine3.13,12-alpine3.13
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 4a82bbde194ff4d32e90629b0a50b9398d374c12
 Directory: 12/alpine
 
 Tags: 11.12-alpine3.13,11-alpine3.13
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 4a82bbde194ff4d32e90629b0a50b9398d374c12
 Directory: 11/alpine
 
@@ -1036,22 +1036,22 @@ GitCommit: 4a82bbde194ff4d32e90629b0a50b9398d374c12
 Directory: 10/alpine
 
 Tags: 9.6.22-alpine3.13,9.6-alpine3.13,9-alpine3.13
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 4a82bbde194ff4d32e90629b0a50b9398d374c12
 Directory: 9.6/alpine
 
 Tags: 9.5.25,9.5
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: arm64v8,i386,amd64,arm32v5,arm32v7
 GitCommit: b122f60426e69df9d6effbda45fe2ef659c1d4f2
 Directory: 9.5
 
 Tags: 9.5.25-alpine,9.5-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 6667795da15f1a2d2791021659f2f766828a4321
 Directory: 9.5/alpine
 
 Tags: 13.2
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 7bd41786539082857396f4d1b4f1cb326ebee8de
 Directory: 13
 
@@ -1061,12 +1061,12 @@ GitCommit: a7aa19b8501df4c459dad78fd18e2b36fded9643
 Directory: 13/alpine
 
 Tags: 12.6
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 GitCommit: b349a7e67b5f434768f6ae685113e0accaed0842
 Directory: 12
 
 Tags: 12.6-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 4cec33a2ee0bbfbfa73d1ff7dd08e66cd2c74297
 Directory: 12/alpine
 
@@ -1076,7 +1076,7 @@ GitCommit: 14f13e4b399ed1848fa24c2c1f5bd40c25732bdd
 Directory: 11
 
 Tags: 11.11-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 9693709797a818a5d56dfb81ecd34a2754eba2f7
 Directory: 11/alpine
 
@@ -1091,47 +1091,47 @@ GitCommit: 1267a1f1bb39bcf97d9ae498e1edcfd864c8db1d
 Directory: 10/alpine
 
 Tags: 9.6.21
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: i386,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 11119157a345c282fea29b13d374bdea602a39ac
 Directory: 9.6
 
 Tags: 9.6.21-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 45cbba060d3674d4ff0529450267bb4656692363
 Directory: 9.6/alpine
 
 Tags: 13.1
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: ba302205a1300a5ad262ee770f7ac8a1038e8fde
 Directory: 13
 
 Tags: 13.1-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: e8cb2acbb372f0c89219792f82b0bdd2e405602f
 Directory: 13/alpine
 
 Tags: 12.5
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 GitCommit: ba302205a1300a5ad262ee770f7ac8a1038e8fde
 Directory: 12
 
 Tags: 12.5-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: e8cb2acbb372f0c89219792f82b0bdd2e405602f
 Directory: 12/alpine
 
 Tags: 11.10
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: i386,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: ba302205a1300a5ad262ee770f7ac8a1038e8fde
 Directory: 11
 
 Tags: 11.10-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: e8cb2acbb372f0c89219792f82b0bdd2e405602f
 Directory: 11/alpine
 
 Tags: 10.15
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: arm32v5,arm32v7,arm64v8,i386,amd64
 GitCommit: ba302205a1300a5ad262ee770f7ac8a1038e8fde
 Directory: 10
 
@@ -1146,7 +1146,7 @@ GitCommit: ba302205a1300a5ad262ee770f7ac8a1038e8fde
 Directory: 9.6
 
 Tags: 9.6.20-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: e8cb2acbb372f0c89219792f82b0bdd2e405602f
 Directory: 9.6/alpine
 
@@ -1156,27 +1156,27 @@ GitCommit: ba302205a1300a5ad262ee770f7ac8a1038e8fde
 Directory: 9.5
 
 Tags: 9.5.24-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: e8cb2acbb372f0c89219792f82b0bdd2e405602f
 Directory: 9.5/alpine
 
 Tags: 13.0
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 8d281112a872380578e37a92a698ce59d66473d7
 Directory: 13
 
 Tags: 13.0-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 04bf35f0c4a3f7ac41591f9b28e2de1fecb7fef4
 Directory: 13/alpine
 
 Tags: 12.4
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: bfc5d81c8f5647c690f452dc558e64fddb1802f6
 Directory: 12
 
 Tags: 12.4-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 04bf35f0c4a3f7ac41591f9b28e2de1fecb7fef4
 Directory: 12/alpine
 
@@ -1186,112 +1186,112 @@ GitCommit: bfc5d81c8f5647c690f452dc558e64fddb1802f6
 Directory: 11
 
 Tags: 11.9-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 04bf35f0c4a3f7ac41591f9b28e2de1fecb7fef4
 Directory: 11/alpine
 
 Tags: 10.14
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: arm64v8,i386,amd64,arm32v5,arm32v7
 GitCommit: bfc5d81c8f5647c690f452dc558e64fddb1802f6
 Directory: 10
 
 Tags: 10.14-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 04bf35f0c4a3f7ac41591f9b28e2de1fecb7fef4
 Directory: 10/alpine
 
 Tags: 9.6.19
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: i386,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: bfc5d81c8f5647c690f452dc558e64fddb1802f6
 Directory: 9.6
 
 Tags: 9.6.19-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 04bf35f0c4a3f7ac41591f9b28e2de1fecb7fef4
 Directory: 9.6/alpine
 
 Tags: 9.5.23
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: arm32v7,arm64v8,i386,amd64,arm32v5
 GitCommit: bfc5d81c8f5647c690f452dc558e64fddb1802f6
 Directory: 9.5
 
 Tags: 9.5.23-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 04bf35f0c4a3f7ac41591f9b28e2de1fecb7fef4
 Directory: 9.5/alpine
 
 Tags: 13-rc1
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 540012dcbb1cac905c97f95e4464e4682b11a5e9
 Directory: 13
 
 Tags: 13-rc1-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 09c342c55544feaff8740086bb98c54ad936ac60
 Directory: 13/alpine
 
 Tags: 13-beta3
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: 5e2746f8ff4b94d3b3aa56a6cd7bdbdcd88a1d64
 Directory: 13
 
 Tags: 13-beta3-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 06321b0cd97dc7e6523b1faed69b7a0d8fd3d2cc
 Directory: 13/alpine
 
 Tags: 13-beta2
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 GitCommit: 4c2e78c234a8e4293a5d6bb6a4d20421236d98d8
 Directory: 13
 
 Tags: 13-beta2-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: bb0d97951918e6d281f510adb3896da433a52bc4
 Directory: 13/alpine
 
 Tags: 12.3
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 88173efa530f1a174a7ea311c5b6ee5e383f68bd
 Directory: 12
 
 Tags: 12.3-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 1d140375b6830c65cfeaac3642c7fda6d3e1b29a
 Directory: 12/alpine
 
 Tags: 11.8
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: aa4f329a17fd82077536602da12f4264fa195b20
 Directory: 11
 
 Tags: 11.8-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 1d140375b6830c65cfeaac3642c7fda6d3e1b29a
 Directory: 11/alpine
 
 Tags: 10.13
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: f1e039c4ebd8e4691af65dfd6cf280df126039aa
 Directory: 10
 
 Tags: 10.13-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 1d140375b6830c65cfeaac3642c7fda6d3e1b29a
 Directory: 10/alpine
 
 Tags: 9.6.18
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 GitCommit: 95f4307ac7547094b5392d2a2a5aa7471301ffcb
 Directory: 9.6
 
 Tags: 9.6.18-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 1d140375b6830c65cfeaac3642c7fda6d3e1b29a
 Directory: 9.6/alpine
 
 Tags: 9.5.22
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: fa4482cec89b300589c30fc5590995a31f569a06
 Directory: 9.5
 
@@ -1301,17 +1301,17 @@ GitCommit: 1d140375b6830c65cfeaac3642c7fda6d3e1b29a
 Directory: 9.5/alpine
 
 Tags: 13-beta1
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: 682ff83c5c83f1b6f2b02caf7aa3e17a491b403a
 Directory: 13
 
 Tags: 13-beta1-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: b1f60bd4f88fa2f82aaaa304dc1476a26938cb38
 Directory: 13/alpine
 
 Tags: 12.2
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: a1420dac644b8190df5e78e80bfa9610b2f077e2
 Directory: 12
 
@@ -1321,7 +1321,7 @@ GitCommit: 33bccfcaddd0679f55ee1028c012d26cd196537d
 Directory: 12/alpine
 
 Tags: 11.7
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: a1420dac644b8190df5e78e80bfa9610b2f077e2
 Directory: 11
 
@@ -1331,17 +1331,17 @@ GitCommit: 33bccfcaddd0679f55ee1028c012d26cd196537d
 Directory: 11/alpine
 
 Tags: 10.12
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 GitCommit: a1420dac644b8190df5e78e80bfa9610b2f077e2
 Directory: 10
 
 Tags: 10.12-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 33bccfcaddd0679f55ee1028c012d26cd196537d
 Directory: 10/alpine
 
 Tags: 9.6.17
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: a1420dac644b8190df5e78e80bfa9610b2f077e2
 Directory: 9.6
 
@@ -1351,12 +1351,12 @@ GitCommit: 33bccfcaddd0679f55ee1028c012d26cd196537d
 Directory: 9.6/alpine
 
 Tags: 9.5.21
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: a1420dac644b8190df5e78e80bfa9610b2f077e2
 Directory: 9.5
 
 Tags: 9.5.21-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 33bccfcaddd0679f55ee1028c012d26cd196537d
 Directory: 9.5/alpine
 
@@ -1366,12 +1366,12 @@ GitCommit: ef7af1266db5b895a2981aeba25accf074d82a6b
 Directory: 9.4
 
 Tags: 9.4.26-alpine,9.4-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 473b58e971e2eb0351af12288dc4976bd3c591ad
 Directory: 9.4/alpine
 
 Tags: 12.1
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 0d0485cb02e526f5a240b7740b46c35404aaf13f
 Directory: 12
 
@@ -1381,17 +1381,17 @@ GitCommit: c4b019526a25d1300de77b9699d53ad187cf0dcf
 Directory: 12/alpine
 
 Tags: 11.6
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 0d0485cb02e526f5a240b7740b46c35404aaf13f
 Directory: 11
 
 Tags: 11.6-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: c4b019526a25d1300de77b9699d53ad187cf0dcf
 Directory: 11/alpine
 
 Tags: 10.11
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 0d0485cb02e526f5a240b7740b46c35404aaf13f
 Directory: 10
 
@@ -1401,52 +1401,52 @@ GitCommit: c4b019526a25d1300de77b9699d53ad187cf0dcf
 Directory: 10/alpine
 
 Tags: 9.6.16
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 0d0485cb02e526f5a240b7740b46c35404aaf13f
 Directory: 9.6
 
 Tags: 9.6.16-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: c4b019526a25d1300de77b9699d53ad187cf0dcf
 Directory: 9.6/alpine
 
 Tags: 9.5.20
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 0d0485cb02e526f5a240b7740b46c35404aaf13f
 Directory: 9.5
 
 Tags: 9.5.20-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: c4b019526a25d1300de77b9699d53ad187cf0dcf
 Directory: 9.5/alpine
 
 Tags: 9.4.25
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 0d0485cb02e526f5a240b7740b46c35404aaf13f
 Directory: 9.4
 
 Tags: 9.4.25-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: c4b019526a25d1300de77b9699d53ad187cf0dcf
 Directory: 9.4/alpine
 
 Tags: 12.0
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
 GitCommit: a8613f4cda3e932245f09c4d0f6733462b14b582
 Directory: 12
 
 Tags: 12.0-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: f08b03f05b690748660ff738975a104c19fc5500
 Directory: 12/alpine
 
 Tags: 11.5
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
 GitCommit: f19a74ec301fe755b70a822f905c8f537f67bc9a
 Directory: 11
 
 Tags: 11.5-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 0a66d53fface5ccc8274f99712ba2f382a1caf42
 Directory: 11/alpine
 
@@ -1456,47 +1456,47 @@ GitCommit: ff832cbf1e9ffe150f66f00a0837d5b59083fec9
 Directory: 10
 
 Tags: 10.10-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: cad3d8b1f7ee31f3592c2911e014e81b9b2a1c8d
 Directory: 10/alpine
 
 Tags: 9.6.15
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 3610f1e45365fb09c0fea29fa387b35f0efdb3a1
 Directory: 9.6
 
 Tags: 9.6.15-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: c552b2bcd8dd5ef822463343b461fe0e31445b9d
 Directory: 9.6/alpine
 
 Tags: 9.5.19
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 2803c9e12ac659335a394d5712e5da8cd10bdf69
 Directory: 9.5
 
 Tags: 9.5.19-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: db452338a99764f0141aae60f7267a58f665e6b7
 Directory: 9.5/alpine
 
 Tags: 9.4.24
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: dff03e96967d204b4df297e03a90086506600590
 Directory: 9.4
 
 Tags: 9.4.24-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 4b652bf95baee9cd7ef31300a4938ad72d09ad88
 Directory: 9.4/alpine
 
 Tags: 12-rc1
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 90ba599a267562442a1b3e2e058c620ede70624b
 Directory: 12
 
 Tags: 12-rc1-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 662b2e6eb359221f132b5879e3cf65a4805ce428
 Directory: 12/alpine
 
@@ -1506,32 +1506,32 @@ GitCommit: 058c5c951f6870c538cb2039e93275bee242d373
 Directory: 12
 
 Tags: 12-beta4-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 5ad8e92a81fec890f33eb077e491ea82c76ac980
 Directory: 12/alpine
 
 Tags: 12-beta3
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
 GitCommit: 75ebadd71bd54836de126f851f5edbc2bdee4201
 Directory: 12
 
 Tags: 12-beta3-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: d6e8fe3240b3d2c5d1a03f005360710812714163
 Directory: 12/alpine
 
 Tags: 12-beta2
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 87b15b6c65ba985ac958e7b35ba787422113066e
 Directory: 12
 
 Tags: 12-beta2-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: ba24350aa02996f75cf5b44eea0af082775cc8ec
 Directory: 12/alpine
 
 Tags: 11.4
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
 GitCommit: 87b15b6c65ba985ac958e7b35ba787422113066e
 Directory: 11
 
@@ -1541,32 +1541,32 @@ GitCommit: ba24350aa02996f75cf5b44eea0af082775cc8ec
 Directory: 11/alpine
 
 Tags: 10.9
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 87b15b6c65ba985ac958e7b35ba787422113066e
 Directory: 10
 
 Tags: 10.9-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: ba24350aa02996f75cf5b44eea0af082775cc8ec
 Directory: 10/alpine
 
 Tags: 9.6.14
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 87b15b6c65ba985ac958e7b35ba787422113066e
 Directory: 9.6
 
 Tags: 9.6.14-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: ba24350aa02996f75cf5b44eea0af082775cc8ec
 Directory: 9.6/alpine
 
 Tags: 9.5.18
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 87b15b6c65ba985ac958e7b35ba787422113066e
 Directory: 9.5
 
 Tags: 9.5.18-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: ba24350aa02996f75cf5b44eea0af082775cc8ec
 Directory: 9.5/alpine
 
@@ -1576,7 +1576,7 @@ GitCommit: 87b15b6c65ba985ac958e7b35ba787422113066e
 Directory: 9.4
 
 Tags: 9.4.23-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: ba24350aa02996f75cf5b44eea0af082775cc8ec
 Directory: 9.4/alpine
 
@@ -1586,7 +1586,7 @@ GitCommit: 966d1ba7a639171895acee9b33cc6b8053498d18
 Directory: 12
 
 Tags: 12-beta1-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 5992d8be755d8001474f737a44c73049c519cff3
 Directory: 12/alpine
 
@@ -1596,17 +1596,17 @@ GitCommit: cf9b6cdd64f8a81b1abf9e487886f47e4971abe2
 Directory: 11
 
 Tags: 11.3-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 5992d8be755d8001474f737a44c73049c519cff3
 Directory: 11/alpine
 
 Tags: 10.8
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: c6c3621d450c4a0a1fda7af50a71c4fe4f292946
 Directory: 10
 
 Tags: 10.8-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 5992d8be755d8001474f737a44c73049c519cff3
 Directory: 10/alpine
 
@@ -1616,37 +1616,37 @@ GitCommit: 95aa37a2b5e53c434a8bc056212ff6ac828bfad7
 Directory: 9.6
 
 Tags: 9.6.13-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 5992d8be755d8001474f737a44c73049c519cff3
 Directory: 9.6/alpine
 
 Tags: 9.5.17
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 1ba3e9e1eb9337b428189dd94ecb09feeac33a36
 Directory: 9.5
 
 Tags: 9.5.17-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 5992d8be755d8001474f737a44c73049c519cff3
 Directory: 9.5/alpine
 
 Tags: 9.4.22
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 0e8afe8b6a5db91d575ea8fcd2b57920d178f215
 Directory: 9.4
 
 Tags: 9.4.22-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 5992d8be755d8001474f737a44c73049c519cff3
 Directory: 9.4/alpine
 
 Tags: 11.2
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 85aadc08c347cd20f199902c4b8b4f736341c3b8
 Directory: 11
 
 Tags: 11.2-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 85aadc08c347cd20f199902c4b8b4f736341c3b8
 Directory: 11/alpine
 
@@ -1661,7 +1661,7 @@ GitCommit: 85aadc08c347cd20f199902c4b8b4f736341c3b8
 Directory: 10/alpine
 
 Tags: 9.6.12
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 85aadc08c347cd20f199902c4b8b4f736341c3b8
 Directory: 9.6
 
@@ -1681,27 +1681,27 @@ GitCommit: 85aadc08c347cd20f199902c4b8b4f736341c3b8
 Directory: 9.5/alpine
 
 Tags: 9.4.21
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 85aadc08c347cd20f199902c4b8b4f736341c3b8
 Directory: 9.4
 
 Tags: 9.4.21-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 85aadc08c347cd20f199902c4b8b4f736341c3b8
 Directory: 9.4/alpine
 
 Tags: 11.1
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 42f9ab3bab65fdbabbf35130c68a9869b6e82ee7
 Directory: 11
 
 Tags: 11.1-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
 GitCommit: cfac232e3cccb8f3b499b7a286ccdf6eafbde808
 Directory: 11/alpine
 
 Tags: 10.6
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 45b855af13f6a753fa77bb830c482af6a69d50da
 Directory: 10
 
@@ -1711,12 +1711,12 @@ GitCommit: cfac232e3cccb8f3b499b7a286ccdf6eafbde808
 Directory: 10/alpine
 
 Tags: 9.6.11
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 45b855af13f6a753fa77bb830c482af6a69d50da
 Directory: 9.6
 
 Tags: 9.6.11-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
 GitCommit: cfac232e3cccb8f3b499b7a286ccdf6eafbde808
 Directory: 9.6/alpine
 
@@ -1731,7 +1731,7 @@ GitCommit: cfac232e3cccb8f3b499b7a286ccdf6eafbde808
 Directory: 9.5/alpine
 
 Tags: 9.4.20
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
 GitCommit: 45b855af13f6a753fa77bb830c482af6a69d50da
 Directory: 9.4
 
@@ -1741,22 +1741,22 @@ GitCommit: cfac232e3cccb8f3b499b7a286ccdf6eafbde808
 Directory: 9.4/alpine
 
 Tags: 9.3.25,9.3
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 040949af1595f49f2242f6d1f9c42fb042b3eaed
 Directory: 9.3
 
 Tags: 9.3.25-alpine,9.3-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
 GitCommit: 4955a99b600fa0badb1e707285617a23315421af
 Directory: 9.3/alpine
 
 Tags: 11.0
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 88341a435106ea0c9a805ff305bf486f81f56e0c
 Directory: 11
 
 Tags: 11.0-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 3402e9731098e1cba778c0af82b8d6fdfc698f27
 Directory: 11/alpine
 
@@ -1766,32 +1766,32 @@ GitCommit: 6f6968e4a2ee82cc7893e12414cbb221044ed3bd
 Directory: 10
 
 Tags: 10.5-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 3f585c58df93e93b730c09a13e8904b96fa20c58
 Directory: 10/alpine
 
 Tags: 9.6.10
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 3f585c58df93e93b730c09a13e8904b96fa20c58
 Directory: 9.6
 
 Tags: 9.6.10-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 3f585c58df93e93b730c09a13e8904b96fa20c58
 Directory: 9.6/alpine
 
 Tags: 9.5.14
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 3f585c58df93e93b730c09a13e8904b96fa20c58
 Directory: 9.5
 
 Tags: 9.5.14-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 3f585c58df93e93b730c09a13e8904b96fa20c58
 Directory: 9.5/alpine
 
 Tags: 9.4.19
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 3f585c58df93e93b730c09a13e8904b96fa20c58
 Directory: 9.4
 
@@ -1801,7 +1801,7 @@ GitCommit: 3f585c58df93e93b730c09a13e8904b96fa20c58
 Directory: 9.4/alpine
 
 Tags: 9.3.24
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 3f585c58df93e93b730c09a13e8904b96fa20c58
 Directory: 9.3
 
@@ -1811,37 +1811,37 @@ GitCommit: 3f585c58df93e93b730c09a13e8904b96fa20c58
 Directory: 9.3/alpine
 
 Tags: 11-rc1
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 4b94743e2ef5ead3ce8c66f96e43f6dc9d877025
 Directory: 11
 
 Tags: 11-rc1-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: eed67ed0f33435bffd1e78d27b389e0492d30599
 Directory: 11/alpine
 
 Tags: 11-beta4
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 1acd5e225abead13b3f264e9e5a7c68598a33c67
 Directory: 11
 
 Tags: 11-beta4-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
 GitCommit: 25f99f10cb564f0a8b5c1de8a9a00a8095a587fb
 Directory: 11/alpine
 
 Tags: 11-beta3
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 3f585c58df93e93b730c09a13e8904b96fa20c58
 Directory: 11
 
 Tags: 11-beta3-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 3f585c58df93e93b730c09a13e8904b96fa20c58
 Directory: 11/alpine
 
 Tags: 11-beta2
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 56cf37a42a7647678a7e46b12e0df0942e26cc28
 Directory: 11
 
@@ -1851,27 +1851,27 @@ GitCommit: 6b2d9f0d5dde36d634d1bbcbd27a0b2ed7054f3c
 Directory: 11/alpine
 
 Tags: 10.4
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 635fd0bcb3ababc96871c9da52f10743fbae4742
 Directory: 10
 
 Tags: 10.4-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 6b2d9f0d5dde36d634d1bbcbd27a0b2ed7054f3c
 Directory: 10/alpine
 
 Tags: 9.6.9
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 635fd0bcb3ababc96871c9da52f10743fbae4742
 Directory: 9.6
 
 Tags: 9.6.9-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 34689e2a5ba1841fb09fd5a9c29ef47a022d48dc
 Directory: 9.6/alpine
 
 Tags: 9.5.13
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 635fd0bcb3ababc96871c9da52f10743fbae4742
 Directory: 9.5
 
@@ -1886,72 +1886,72 @@ GitCommit: 635fd0bcb3ababc96871c9da52f10743fbae4742
 Directory: 9.4
 
 Tags: 9.4.18-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 34689e2a5ba1841fb09fd5a9c29ef47a022d48dc
 Directory: 9.4/alpine
 
 Tags: 9.3.23
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
 GitCommit: 635fd0bcb3ababc96871c9da52f10743fbae4742
 Directory: 9.3
 
 Tags: 9.3.23-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 34689e2a5ba1841fb09fd5a9c29ef47a022d48dc
 Directory: 9.3/alpine
 
 Tags: 11-beta1
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: eff90effc6b5578be90bef93d96b3fceb1082a7c
 Directory: 11
 
 Tags: 11-beta1-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: eff90effc6b5578be90bef93d96b3fceb1082a7c
 Directory: 11/alpine
 
 Tags: 10.3
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
 GitCommit: 6fe8c15843400444e4ba6906ec6f94b0d526a678
 Directory: 10
 
 Tags: 10.3-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
 GitCommit: 6fe8c15843400444e4ba6906ec6f94b0d526a678
 Directory: 10/alpine
 
 Tags: 9.6.8
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 6fe8c15843400444e4ba6906ec6f94b0d526a678
 Directory: 9.6
 
 Tags: 9.6.8-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 6fe8c15843400444e4ba6906ec6f94b0d526a678
 Directory: 9.6/alpine
 
 Tags: 9.5.12
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 6fe8c15843400444e4ba6906ec6f94b0d526a678
 Directory: 9.5
 
 Tags: 9.5.12-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
 GitCommit: 6fe8c15843400444e4ba6906ec6f94b0d526a678
 Directory: 9.5/alpine
 
 Tags: 9.4.17
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 6fe8c15843400444e4ba6906ec6f94b0d526a678
 Directory: 9.4
 
 Tags: 9.4.17-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 6fe8c15843400444e4ba6906ec6f94b0d526a678
 Directory: 9.4/alpine
 
 Tags: 9.3.22
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 6fe8c15843400444e4ba6906ec6f94b0d526a678
 Directory: 9.3
 
@@ -1961,17 +1961,17 @@ GitCommit: 6fe8c15843400444e4ba6906ec6f94b0d526a678
 Directory: 9.3/alpine
 
 Tags: 10.2
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 674466e0d47517f4e05ec2025ae996e71b26cae9
 Directory: 10
 
 Tags: 10.2-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 86972e37db26753818b25e82ff3816ede9877e7b
 Directory: 10/alpine
 
 Tags: 9.6.7
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 7da010d82077944ce39211cc610ce58c11366360
 Directory: 9.6
 
@@ -1981,7 +1981,7 @@ GitCommit: 165ffaab649aea0797ad61739cb5c9ac69466929
 Directory: 9.6/alpine
 
 Tags: 9.5.11
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
 GitCommit: f4aa86c49b4691ea2e23934a419538df187a7f57
 Directory: 9.5
 
@@ -1991,7 +1991,7 @@ GitCommit: 8734ceed8c5e196d3d59227a59d80df8fed70126
 Directory: 9.5/alpine
 
 Tags: 9.4.16
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
 GitCommit: 93dc51c2ec5b16d3d728b7f85804ae43113006d6
 Directory: 9.4
 
@@ -2001,7 +2001,7 @@ GitCommit: dc36bbe68fb7f8c2a8b421944cb80aa73681e093
 Directory: 9.4/alpine
 
 Tags: 9.3.21
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: d8ce07a1e97e7caa1436a341ae7a2b06efb852dc
 Directory: 9.3
 
@@ -2011,7 +2011,7 @@ GitCommit: 35d59a4ae2e0b0ab25d305b7e59bef15cd732432
 Directory: 9.3/alpine
 
 Tags: 9.5.10
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 2100e76efe6b41e001ac13d248e7af206cc022ae
 Directory: 9.5
 
@@ -2026,12 +2026,12 @@ GitCommit: 1805adb0693d9602bfb19b6bf2583b311c43b749
 Directory: 10
 
 Tags: 10.1-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 1805adb0693d9602bfb19b6bf2583b311c43b749
 Directory: 10/alpine
 
 Tags: 9.6.6
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 82e8101ff612b492507f4efc2120963b29f4188d
 Directory: 9.6
 
@@ -2051,7 +2051,7 @@ GitCommit: cd2cafec4e998847fd2b10f08cc3444a2116e6d5
 Directory: 9.4/alpine
 
 Tags: 9.3.20
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 4af033ebfe50d33214c32be78c52f2693769fb14
 Directory: 9.3
 
@@ -2071,7 +2071,7 @@ GitCommit: f7dc5727b1d6b6a636350e11648845ae33477579
 Directory: 10/alpine
 
 Tags: 9.6.5
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 3b022607bec233463a3d055731fb710837978747
 Directory: 9.6
 
@@ -2081,7 +2081,7 @@ GitCommit: f7dc5727b1d6b6a636350e11648845ae33477579
 Directory: 9.6/alpine
 
 Tags: 9.5.9
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 3b022607bec233463a3d055731fb710837978747
 Directory: 9.5
 
@@ -2091,7 +2091,7 @@ GitCommit: f7dc5727b1d6b6a636350e11648845ae33477579
 Directory: 9.5/alpine
 
 Tags: 9.4.14
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
 GitCommit: 3b022607bec233463a3d055731fb710837978747
 Directory: 9.4
 
@@ -2101,7 +2101,7 @@ GitCommit: f7dc5727b1d6b6a636350e11648845ae33477579
 Directory: 9.4/alpine
 
 Tags: 9.3.19
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 3b022607bec233463a3d055731fb710837978747
 Directory: 9.3
 
@@ -2111,7 +2111,7 @@ GitCommit: f7dc5727b1d6b6a636350e11648845ae33477579
 Directory: 9.3/alpine
 
 Tags: 10-rc1
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 2ba4ac1074bc592ffa40076e5de2f94f972afb84
 Directory: 10
 
@@ -2131,7 +2131,7 @@ GitCommit: 1089a8971b43a675109ad886bf1f3b327c067fa1
 Directory: 9.2/alpine
 
 Tags: 10-beta4
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: bef8f02d1fe2bb4547280ba609f19abd20230180
 Directory: 10
 
@@ -2181,7 +2181,7 @@ GitCommit: 9d16e9e237b271da39d05d95af24724e79181b19
 Directory: 9.4/alpine
 
 Tags: 9.3.18
-Architectures: amd64,i386,ppc64le
+Architectures: ppc64le,amd64,i386
 GitCommit: ef1e190d84d5ef8c763cb96aeec3356916444efc
 Directory: 9.3
 
@@ -2191,7 +2191,7 @@ GitCommit: ce13cadcb81160cf57bce87b4131cffe36359fcd
 Directory: 9.3/alpine
 
 Tags: 9.2.22
-Architectures: amd64,i386,ppc64le
+Architectures: i386,ppc64le,amd64
 GitCommit: de4122a80157b1a0a73c14bdd4f11479011a2a51
 Directory: 9.2
 
@@ -2201,7 +2201,7 @@ GitCommit: 49a7e2bf209f8344e8240ddbc3a1368c6b72129e
 Directory: 9.2/alpine
 
 Tags: 10-beta2
-Architectures: amd64,i386,ppc64le
+Architectures: ppc64le,amd64,i386
 GitCommit: 2f0f505894f10c2e65a38591ec0cd417dbcc03e6
 Directory: 10
 
@@ -2251,7 +2251,7 @@ GitCommit: 2f0f505894f10c2e65a38591ec0cd417dbcc03e6
 Directory: 9.3/alpine
 
 Tags: 9.2.21
-Architectures: amd64,i386,ppc64le
+Architectures: ppc64le,amd64,i386
 GitCommit: 2f0f505894f10c2e65a38591ec0cd417dbcc03e6
 Directory: 9.2
 
