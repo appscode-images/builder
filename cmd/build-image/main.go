@@ -25,7 +25,9 @@ import (
 )
 
 const (
-	skew = 10 * time.Second
+	skew             = 10 * time.Second
+	KeyImageSource   = "org.opencontainers.image.source"
+	KeyImageRevision = "org.opencontainers.image.revision"
 )
 
 type ImageManifest struct {
@@ -115,8 +117,8 @@ func ShouldBuild(sh *shell.Session, ref string, libRepoURL string, b *api.Block)
 	// org.opencontainers.image.source
 	// org.opencontainers.image.revision
 
-	imgSrc := m.Annotations["org.opencontainers.image.source"]
-	imgRev := m.Annotations["org.opencontainers.image.revision"]
+	imgSrc := m.Annotations[KeyImageSource]
+	imgRev := m.Annotations[KeyImageRevision]
 	fmt.Println("ref=", ref,
 		"src= expected:", libRepoURL, " found:", imgSrc,
 		"ref= expected:", b.GitCommit, " found:", imgRev)
@@ -208,7 +210,7 @@ func getNewShell() *shell.Session {
 	return sh
 }
 
-func Build(sh *shell.Session, repoURL string, b *api.Block, name, tag, ts string) error {
+func Build(sh *shell.Session, libRepoURL string, b *api.Block, name, tag, ts string) error {
 	ctx := context.Background()
 	gh := NewGitHubClient(ctx)
 	exists, err := GitHubRepoExists(ctx, gh, api.GH_IMG_REPO_OWNER, name)
@@ -216,7 +218,7 @@ func Build(sh *shell.Session, repoURL string, b *api.Block, name, tag, ts string
 		return err
 	}
 	if !exists {
-		err = sh.Command("gh", "repo", "fork", repoURL, "--org="+api.GH_IMG_REPO_OWNER, "--fork-name="+name, "--clone=false", "--remote=false").Run()
+		err = sh.Command("gh", "repo", "fork", libRepoURL, "--org="+api.GH_IMG_REPO_OWNER, "--fork-name="+name, "--clone=false", "--remote=false").Run()
 		if err != nil {
 			return err
 		}
@@ -227,13 +229,14 @@ func Build(sh *shell.Session, repoURL string, b *api.Block, name, tag, ts string
 	if err != nil {
 		return err
 	}
-	err = sh.Command("git", "clone", fmt.Sprintf("https://github.com/%s/%s", api.GH_IMG_REPO_OWNER, name)).Run()
+	repoURL := fmt.Sprintf("https://github.com/%s/%s", api.GH_IMG_REPO_OWNER, name)
+	err = sh.Command("git", "clone", repoURL).Run()
 	if err != nil {
 		return err
 	}
 	sh.SetDir(localRepoDir)
 
-	err = sh.Command("git", "remote", "add", "upstream", repoURL).Run()
+	err = sh.Command("git", "remote", "add", "upstream", libRepoURL).Run()
 	if err != nil {
 		return err
 	}
@@ -280,7 +283,7 @@ func Build(sh *shell.Session, repoURL string, b *api.Block, name, tag, ts string
 		}
 		sh.SetDir(dockerfileDir)
 
-		img := fmt.Sprintf("%s/%s:%s_linunx_%s_%s", api.DOCKER_REGISTRY, name, tag, arch, ts)
+		img := fmt.Sprintf("%s/%s:%s_%s_linux_%s", api.DOCKER_REGISTRY, name, tag, ts, arch)
 		archImages = append(archImages, img)
 		args := []any{
 			"build", "--platform=linux/" + arch, "--load", "--pull", "-t", img,
@@ -309,6 +312,15 @@ func Build(sh *shell.Session, repoURL string, b *api.Block, name, tag, ts string
 		return err
 	}
 	err = sh.Command("docker", "manifest", "push", img).Run()
+	if err != nil {
+		return err
+	}
+
+	// > crane mutate ghcr.io/appscode-images/alpine:3.17.3_20231012 -a abc=xyz3 --tag ghcr.io/appscode-images/alpine:3.17.3_20231012
+	args = []any{"mutate", img, "--tag=" + img}
+	args = append(args, "-a", KeyImageSource+"="+repoURL)
+	args = append(args, "-a", KeyImageRevision+"="+LastCommitSHA(sh))
+	err = sh.Command("crane", args...).Run()
 	if err != nil {
 		return err
 	}
