@@ -240,7 +240,7 @@ func Build(sh *shell.Session, repoURL string, b *api.Block, name, tag, ts string
 
 	branch := tag + "-" + ts
 	if RemoteBranchExists(sh, branch) {
-		err = sh.Command("git", "checkout", branch, "--track", "origin/"+branch).Run()
+		err = sh.Command("git", "checkout", "-b", branch, "--track", "origin/"+branch).Run()
 		if err != nil {
 			return err
 		}
@@ -283,7 +283,7 @@ func Build(sh *shell.Session, repoURL string, b *api.Block, name, tag, ts string
 		img := fmt.Sprintf("%s/%s:%s_linunx_%s_%s", api.DOCKER_REGISTRY, name, tag, arch, ts)
 		archImages = append(archImages, img)
 		args := []any{
-			"build", "--arch=linux/" + arch, "--load", "--pull", "-t", img,
+			"build", "--platform=linux/" + arch, "--load", "--pull", "-t", img,
 		}
 		if info.File != "" {
 			args = append(args, "-f", info.File)
