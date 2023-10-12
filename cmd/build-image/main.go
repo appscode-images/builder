@@ -89,7 +89,6 @@ func ShouldBuild(sh *shell.Session, ref string, libRepoURL string, b *api.Block)
 	data, err := crane.Manifest(ref, crane.WithAuthFromKeychain(authn.DefaultKeychain))
 	if err != nil {
 		if IsNotFound(err) {
-			fmt.Printf("NOT_FOUND %s\n", ref)
 			return true, nil
 		}
 		return false, err
