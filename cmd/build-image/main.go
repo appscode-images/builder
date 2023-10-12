@@ -6,7 +6,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"log"
 	"net/http"
 	"os"
 	"path/filepath"
@@ -212,27 +211,29 @@ func getNewShell() *shell.Session {
 func Build(sh *shell.Session, repoURL string, b *api.Block, name, tag, ts string) error {
 	ctx := context.Background()
 	gh := NewGitHubClient(ctx)
-	exists, err := ListOrgRepos(ctx, gh, api.GH_IMG_REPO_OWNER, name)
+	exists, err := GitHubRepoExists(ctx, gh, api.GH_IMG_REPO_OWNER, name)
 	if err != nil {
 		return err
 	}
 	if !exists {
-		err = sh.Command("gh", "repo", "fork", repoURL, "--org="+api.GH_IMG_REPO_OWNER, "--clone=false", "--remote=false").Run()
+		err = sh.Command("gh", "repo", "fork", repoURL, "--org="+api.GH_IMG_REPO_OWNER, "--fork-name="+name, "--clone=false", "--remote=false").Run()
 		if err != nil {
 			return err
 		}
 	}
 
+	localRepoDir := filepath.Join("/tmp", name)
+	err = os.RemoveAll(localRepoDir)
+	if err != nil {
+		return err
+	}
 	err = sh.Command("git", "clone", fmt.Sprintf("https://github.com/%s/%s", api.GH_IMG_REPO_OWNER, name)).Run()
 	if err != nil {
 		return err
 	}
-	sh.SetDir(filepath.Join("/tmp", name))
-	err = sh.Command("gh", "remote", "add", "upstream", repoURL).Run()
-	if err != nil {
-		return err
-	}
-	err = sh.Command("gh", "fetch", "upstream").Run()
+	sh.SetDir(localRepoDir)
+
+	err = sh.Command("git", "remote", "add", "upstream", repoURL).Run()
 	if err != nil {
 		return err
 	}
@@ -244,7 +245,16 @@ func Build(sh *shell.Session, repoURL string, b *api.Block, name, tag, ts string
 			return err
 		}
 	} else {
-		err = sh.Command("git", "checkout", "-b", branch, "--track", "upstream/"+b.GitCommit).Run()
+		// https://stackoverflow.com/a/24084746
+		err = sh.Command("git", "fetch", "upstream", b.GitCommit).Run()
+		if err != nil {
+			return err
+		}
+		err = sh.Command("git", "checkout", b.GitCommit).Run()
+		if err != nil {
+			return err
+		}
+		err = sh.Command("git", "checkout", "-b", branch).Run()
 		if err != nil {
 			return err
 		}
@@ -327,7 +337,7 @@ func NewGitHubClient(ctx context.Context) *github.Client {
 	return github.NewClient(tc)
 }
 
-func ListOrgRepos(ctx context.Context, client *github.Client, owner, repo string) (bool, error) {
+func GitHubRepoExists(ctx context.Context, client *github.Client, owner, repo string) (bool, error) {
 	for {
 		_, _, err := client.Repositories.Get(ctx, owner, repo)
 		switch e := err.(type) {
@@ -339,9 +349,6 @@ func ListOrgRepos(ctx context.Context, client *github.Client, owner, repo string
 			continue
 		case *github.ErrorResponse:
 			if e.Response.StatusCode == http.StatusNotFound {
-				log.Println(err)
-				break
-			} else {
 				return false, nil
 			}
 		default:

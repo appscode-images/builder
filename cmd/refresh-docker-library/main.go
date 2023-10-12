@@ -355,32 +355,66 @@ func ParseLibraryFileContent(appName string, lines []string) (*api.App, error) {
 		}
 		parts = filter(parts)
 
-		switch curProp {
-		case "GitRepo":
-			app.Name = appName
-			app.GitRepo = parts[0]
-		case "Tags":
+		if arch, aprop, found := strings.Cut(curProp, "-"); found {
 			if curBlock == nil {
 				curBlock = new(api.Block)
 			}
-			curBlock.Tags = append(curBlock.Tags, parts...)
-		case "Architectures":
-			if curBlock == nil {
-				curBlock = new(api.Block)
+			if curBlock.Architectures == nil {
+				curBlock.Architectures = map[string]*api.ArchInfo{}
 			}
-			curBlock.Architectures = append(curBlock.Architectures, parts...)
-		case "GitCommit":
-			if curBlock == nil {
-				curBlock = new(api.Block)
+			if _, found := curBlock.Architectures[arch]; !found {
+				curBlock.Architectures[arch] = &api.ArchInfo{
+					Architecture: arch,
+				}
 			}
-			curBlock.GitCommit = parts[0]
-		case "Directory":
-			if curBlock == nil {
-				curBlock = new(api.Block)
+
+			switch aprop {
+			case "Directory":
+				curBlock.Architectures[arch].Directory = aprop
+			case "GitFetch":
+				curBlock.Architectures[arch].GitFetch = aprop
+			case "GitCommit":
+				curBlock.Architectures[arch].GitCommit = aprop
+			case "File":
+				curBlock.Architectures[arch].File = aprop
 			}
-			curBlock.Directory = parts[0]
-		default:
-			klog.V(5).InfoS("ignoring property", before, after)
+		} else {
+			switch curProp {
+			case "GitRepo":
+				app.Name = appName
+				app.GitRepo = parts[0]
+			case "Tags":
+				if curBlock == nil {
+					curBlock = new(api.Block)
+				}
+				curBlock.Tags = append(curBlock.Tags, parts...)
+			case "Architectures":
+				if curBlock == nil {
+					curBlock = new(api.Block)
+				}
+				if curBlock.Architectures == nil {
+					curBlock.Architectures = map[string]*api.ArchInfo{}
+				}
+				for _, arch := range parts {
+					if _, found := curBlock.Architectures[arch]; !found {
+						curBlock.Architectures[arch] = &api.ArchInfo{
+							Architecture: arch,
+						}
+					}
+				}
+			case "GitCommit":
+				if curBlock == nil {
+					curBlock = new(api.Block)
+				}
+				curBlock.GitCommit = parts[0]
+			case "Directory":
+				if curBlock == nil {
+					curBlock = new(api.Block)
+				}
+				curBlock.Directory = parts[0]
+			default:
+				klog.V(5).InfoS("ignoring property", before, after)
+			}
 		}
 	}
 
