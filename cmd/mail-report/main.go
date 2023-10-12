@@ -96,6 +96,9 @@ func (s Stats) String() string {
 }
 
 func (r TagReport) AutoPromote() bool {
+	if (r.Critical.Before + r.High.Before + r.Medium.Before) < 0 {
+		return true
+	}
 	return (r.Critical.Before+r.High.Before+r.Medium.Before) > 0 &&
 		r.Critical.Before >= 0 && r.Critical.After == 0 &&
 		r.High.Before >= 0 && r.High.After == 0 &&
