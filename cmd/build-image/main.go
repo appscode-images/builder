@@ -120,8 +120,8 @@ func ShouldBuild(sh *shell.Session, ref string, repoURL string, b *api.Block) (b
 }
 
 func main() {
-	var name = flag.String("name", "alpine", "Name of binary")
-	var tag = flag.String("tag", "3.18.4", "Tag to be built")
+	var name = flag.String("name", "", "Name of binary")
+	var tag = flag.String("tag", "", "Tag to be built")
 	flag.Parse()
 
 	t := time.Now()

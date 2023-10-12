@@ -169,7 +169,7 @@ jobs:
 
     - name: Build
       run: |
-        go run cmd/build-image/main.go -- --name=$name$ --tag=${{ matrix.tag }}
+        go run cmd/build-image/main.go --name=$name$ --tag=${{ matrix.tag }}
 
   report:
     name: Report
@@ -225,7 +225,7 @@ jobs:
         SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
         SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
       run: |
-        go run cmd/mail-report/main.go -- --name=$name$
+        go run cmd/mail-report/main.go --name=$name$
         # https://stackoverflow.com/a/23930212
         cat > ./library/$name$/README.md <<- EOM
         # $name$

@@ -18,7 +18,7 @@ import (
 )
 
 func main() {
-	var name = flag.String("name", "alpine", "Name of binary")
+	var name = flag.String("name", "", "Name of binary")
 	flag.Parse()
 
 	dir, err := os.Getwd()
@@ -30,8 +30,13 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	data := GenerateMarkdownReport(reports)
-	fmt.Println(string(data))
+	data := GenerateMarkdownReport(*name, reports)
+
+	readmeFile := filepath.Join(dir, "library", *name, "README.md")
+	err = os.WriteFile(readmeFile, data, 0644)
+	if err != nil {
+		panic(err)
+	}
 
 	smtp, err := mailer.NewSMTPServiceFromEnv()
 	if err != nil {
@@ -229,7 +234,16 @@ func GatherReport(dir, name string) ([]TagReport, error) {
 	return reports, nil
 }
 
-func GenerateMarkdownReport(reports []TagReport) []byte {
+func GenerateMarkdownReport(name string, reports []TagReport) []byte {
+	var buf bytes.Buffer
+	buf.WriteString("# CVE Report:" + name)
+	buf.WriteRune('\n')
+	buf.Write(generateMarkdownTable(reports))
+
+	return buf.Bytes()
+}
+
+func generateMarkdownTable(reports []TagReport) []byte {
 	var tr TagReport
 
 	data := make([][]string, 0, len(reports))

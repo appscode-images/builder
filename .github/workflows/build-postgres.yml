@@ -75,7 +75,7 @@ jobs:
 
     - name: Build
       run: |
-        go run cmd/build-image/main.go -- --name=postgres --tag=${{ matrix.tag }}
+        go run cmd/build-image/main.go --name=postgres --tag=${{ matrix.tag }}
 
   report:
     name: Report
@@ -131,7 +131,7 @@ jobs:
         SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
         SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
       run: |
-        go run cmd/mail-report/main.go -- --name=postgres
+        go run cmd/mail-report/main.go --name=postgres
         # https://stackoverflow.com/a/23930212
         cat > ./library/postgres/README.md <<- EOM
         # postgres
