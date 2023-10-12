@@ -126,6 +126,10 @@ jobs:
         sudo apt-get install -y --no-install-recommends trivy
 
     - name: Build
+      env:
+        SMTP_ADDRESS: ${{ secrets.SMTP_ADDRESS }}
+        SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+        SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
       run: |
         go run cmd/mail-report/main.go -- --name=alpine
         # https://stackoverflow.com/a/23930212
