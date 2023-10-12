@@ -32,6 +32,8 @@ type ImageManifest struct {
 	Manifests     []PlatformImageManifest `json:"manifests"`
 	Config        ImageConfig             `json:"config"`
 	Layers        []ImageLayer            `json:"layers"`
+	Annotations   map[string]string       `json:"annotations"`
+	Labels        map[string]string       `json:"labels"`
 }
 
 type PlatformImageManifest struct {
@@ -56,6 +58,21 @@ type ImageLayer struct {
 	MediaType string `json:"mediaType"`
 	Size      int    `json:"size"`
 	Digest    string `json:"digest"`
+}
+
+type T struct {
+	SchemaVersion int    `json:"schemaVersion"`
+	MediaType     string `json:"mediaType"`
+	Manifests     []struct {
+		MediaType string `json:"mediaType"`
+		Size      int    `json:"size"`
+		Digest    string `json:"digest"`
+		Platform  struct {
+			Architecture string `json:"architecture"`
+			Os           string `json:"os"`
+		} `json:"platform"`
+	} `json:"manifests"`
+	Annotations map[string]string `json:"annotations"`
 }
 
 func main() {
