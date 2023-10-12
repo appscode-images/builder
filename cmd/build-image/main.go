@@ -3,8 +3,12 @@ package main
 import (
 	"bytes"
 	"context"
+	"encoding/json"
+	"errors"
 	"fmt"
 	"github.com/appscode-images/builder/api"
+	"github.com/google/go-containerregistry/pkg/crane"
+	"github.com/google/go-containerregistry/pkg/v1/remote/transport"
 	"github.com/google/go-github/v55/github"
 	flag "github.com/spf13/pflag"
 	"golang.org/x/oauth2"
@@ -22,7 +26,75 @@ const (
 	skew = 10 * time.Second
 )
 
+type ImageManifest struct {
+	SchemaVersion int                     `json:"schemaVersion"`
+	MediaType     string                  `json:"mediaType"`
+	Manifests     []PlatformImageManifest `json:"manifests"`
+	Config        ImageConfig             `json:"config"`
+	Layers        []ImageLayer            `json:"layers"`
+}
+
+type PlatformImageManifest struct {
+	MediaType string   `json:"mediaType"`
+	Size      int      `json:"size"`
+	Digest    string   `json:"digest"`
+	Platform  Platform `json:"platform"`
+}
+
+type Platform struct {
+	Architecture string `json:"architecture"`
+	Os           string `json:"os"`
+}
+
+type ImageConfig struct {
+	MediaType string `json:"mediaType"`
+	Size      int    `json:"size"`
+	Digest    string `json:"digest"`
+}
+
+type ImageLayer struct {
+	MediaType string `json:"mediaType"`
+	Size      int    `json:"size"`
+	Digest    string `json:"digest"`
+}
+
 func main() {
+	crane_do("alpine", "3.18.4", time.Now())
+}
+
+func crane_do(name, tag string, t time.Time) error {
+	ts := t.UTC().Format("20060102")
+
+	ref := fmt.Sprintf("%s/%s:%s_%s", api.DOCKER_REGISTRY, name, tag, ts)
+
+	data, err := crane.Manifest(ref)
+	if err != nil {
+		if IsNotFound(err) {
+			fmt.Printf("NOT_FOUND %s\n", ref)
+			return nil
+		}
+		return err
+	}
+
+	var m ImageManifest
+	err = json.Unmarshal(data, &m)
+	if err != nil {
+		return err
+	}
+
+	fmt.Println(m.MediaType)
+	return nil
+}
+
+func IsNotFound(err error) bool {
+	var terr *transport.Error
+	if errors.As(err, &terr) {
+		return terr.StatusCode == http.StatusNotFound //&& terr.StatusCode != http.StatusForbidden {
+	}
+	return false
+}
+
+func main_() {
 	var name *string = flag.String("name", "", "Name of binary")
 	var tag *string = flag.String("tag", "", "Tag to be built")
 
