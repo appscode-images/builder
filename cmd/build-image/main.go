@@ -6,6 +6,13 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"log"
+	"net/http"
+	"os"
+	"path/filepath"
+	"strings"
+	"time"
+
 	"github.com/appscode-images/builder/api"
 	"github.com/google/go-containerregistry/pkg/authn"
 	"github.com/google/go-containerregistry/pkg/crane"
@@ -15,13 +22,7 @@ import (
 	"golang.org/x/oauth2"
 	shell "gomodules.xyz/go-sh"
 	"kubeops.dev/scanner/apis/trivy"
-	"log"
-	"net/http"
-	"os"
-	"path/filepath"
 	"sigs.k8s.io/yaml"
-	"strings"
-	"time"
 )
 
 const (
