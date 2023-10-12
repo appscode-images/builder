@@ -63,12 +63,12 @@ type ImageLayer struct {
 	Digest    string `json:"digest"`
 }
 
-func main() {
+func main__() {
 	sh := getNewShell()
 	ts := time.Now().UTC().Format("20060102")
 
 	name := "alpine"
-	tag := "3.18.4"
+	tag := "3.17.3"
 	ref := fmt.Sprintf("%s/%s:%s_%s", api.DOCKER_REGISTRY, name, tag, ts)
 	ref = "cgr.dev/chainguard/ruby"
 
@@ -168,10 +168,9 @@ func scan(sh *shell.Session, img string) (*trivy.SingleReport, error) {
 	return &r, nil
 }
 
-func main_() {
-	var name *string = flag.String("name", "", "Name of binary")
-	var tag *string = flag.String("tag", "", "Tag to be built")
-
+func main() {
+	var name = flag.String("name", "alpine", "Name of binary")
+	var tag = flag.String("tag", "3.17.3", "Tag to be built")
 	flag.Parse()
 
 	t := time.Now()
@@ -183,18 +182,17 @@ func main_() {
 	if err != nil {
 		panic(err)
 	}
-	repoURL, b, err := FindBlock(dir, *name, *tag)
+	libRepoURL, b, err := FindBlock(dir, *name, *tag)
 	if err != nil {
 		panic(err)
 	}
 
-	yes, err := ShouldBuild(sh, ref, repoURL, b)
+	yes, err := ShouldBuild(sh, ref, libRepoURL, b)
 	if err != nil {
 		panic(err)
 	}
 	if yes {
-
-		err = Build(repoURL, b, *name, *tag, t)
+		err = Build(sh, libRepoURL, b, *name, *tag, ts)
 		if err != nil {
 			panic(err)
 		}
@@ -212,11 +210,7 @@ func getNewShell() *shell.Session {
 	return sh
 }
 
-func Build(repoURL string, b *api.Block, name, tag string, t time.Time) error {
-	ts := t.UTC().Format("20060102")
-
-	sh := getNewShell()
-
+func Build(sh *shell.Session, repoURL string, b *api.Block, name, tag, ts string) error {
 	ctx := context.Background()
 	gh := NewGitHubClient(ctx)
 	exists, err := ListOrgRepos(ctx, gh, api.GH_IMG_REPO_OWNER, name)
