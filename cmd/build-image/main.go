@@ -112,8 +112,17 @@ func ShouldBuild(sh *shell.Session, ref string, libRepoURL string, b *api.Block)
 		}
 	}
 
-	fmt.Println(m.MediaType)
-	return nil
+	// https://github.com/opencontainers/image-spec/blob/main/annotations.md#pre-defined-annotation-keys
+	// org.opencontainers.image.source
+	// org.opencontainers.image.revision
+
+	imgSrc := m.Annotations["org.opencontainers.image.source"]
+	imgRev := m.Annotations["org.opencontainers.image.revision"]
+	fmt.Println("ref=", ref,
+		"src= expected:", libRepoURL, " found:", imgSrc,
+		"ref= expected:", b.GitCommit, " found:", imgRev)
+	return imgSrc != libRepoURL ||
+		imgRev != b.GitCommit, nil
 }
 
 func SummarizeReport(report *trivy.SingleReport) map[string]int {
@@ -169,17 +178,22 @@ func main_() {
 	ref := fmt.Sprintf("%s/%s:%s_%s", api.DOCKER_REGISTRY, *name, *tag, ts)
 	sh := getNewShell()
 
-	yes, err := ShouldBuild(sh, ref)
+	dir, err := os.Getwd()
+	if err != nil {
+		panic(err)
+	}
+	repoURL, b, err := FindBlock(dir, *name, *tag)
+	if err != nil {
+		panic(err)
+	}
+
+	yes, err := ShouldBuild(sh, ref, repoURL, b)
 	if err != nil {
 		panic(err)
 	}
 	if yes {
-		dir, err := os.Getwd()
-		if err != nil {
-			panic(err)
-		}
 
-		err = Build(dir, *name, *tag, t)
+		err = Build(repoURL, b, *name, *tag, t)
 		if err != nil {
 			panic(err)
 		}
@@ -197,15 +211,10 @@ func getNewShell() *shell.Session {
 	return sh
 }
 
-func Build(dir, name, tag string, t time.Time) error {
+func Build(repoURL string, b *api.Block, name, tag string, t time.Time) error {
 	ts := t.UTC().Format("20060102")
 
 	sh := getNewShell()
-
-	repoURL, b, err := FindBlock(dir, name, tag)
-	if err != nil {
-		return err
-	}
 
 	ctx := context.Background()
 	gh := NewGitHubClient(ctx)
