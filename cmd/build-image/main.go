@@ -1,26 +1,22 @@
 package main
 
 import (
-	"bytes"
 	"context"
 	"encoding/json"
 	"errors"
 	"fmt"
+	"github.com/appscode-images/builder/lib"
 	"net/http"
 	"os"
 	"path/filepath"
-	"strings"
 	"time"
 
 	"github.com/appscode-images/builder/api"
 	"github.com/google/go-containerregistry/pkg/authn"
 	"github.com/google/go-containerregistry/pkg/crane"
 	"github.com/google/go-containerregistry/pkg/v1/remote/transport"
-	"github.com/google/go-github/v55/github"
 	flag "github.com/spf13/pflag"
-	"golang.org/x/oauth2"
 	shell "gomodules.xyz/go-sh"
-	"kubeops.dev/scanner/apis/trivy"
 	"sigs.k8s.io/yaml"
 )
 
@@ -65,7 +61,7 @@ type ImageLayer struct {
 }
 
 func main__() {
-	sh := getNewShell()
+	sh := lib.NewShell()
 	ts := time.Now().UTC().Format("20060102")
 
 	name := "alpine"
@@ -101,11 +97,11 @@ func ShouldBuild(sh *shell.Session, ref string, repoURL string, b *api.Block) (b
 		return false, err
 	}
 
-	report, err := scan(sh, ref)
+	report, err := lib.Scan(sh, ref)
 	if err != nil {
 		return false, err
 	}
-	riskOccurrence := SummarizeReport(report)
+	riskOccurrence := lib.SummarizeReport(report)
 	// Total: 0 (UNKNOWN: 0, LOW: 0, MEDIUM: 0, HIGH: 0, CRITICAL: 0)
 	for _, occurrence := range riskOccurrence {
 		if occurrence > 0 {
@@ -126,46 +122,12 @@ func ShouldBuild(sh *shell.Session, ref string, repoURL string, b *api.Block) (b
 		imgRev != b.GitCommit, nil
 }
 
-func SummarizeReport(report *trivy.SingleReport) map[string]int {
-	riskOccurrence := map[string]int{} // risk -> occurrence
-
-	for _, rpt := range report.Results {
-		for _, tv := range rpt.Vulnerabilities {
-			riskOccurrence[tv.Severity]++
-		}
-	}
-
-	return riskOccurrence
-}
-
 func IsNotFound(err error) bool {
 	var terr *transport.Error
 	if errors.As(err, &terr) {
 		return terr.StatusCode == http.StatusNotFound //&& terr.StatusCode != http.StatusForbidden {
 	}
 	return false
-}
-
-// trivy image ubuntu --security-checks vuln --format json --quiet
-func scan(sh *shell.Session, img string) (*trivy.SingleReport, error) {
-	args := []any{
-		"image",
-		img,
-		"--security-checks", "vuln",
-		"--format", "json",
-		// "--quiet",
-	}
-	out, err := sh.Command("trivy", args...).Output()
-	if err != nil {
-		return nil, err
-	}
-
-	var r trivy.SingleReport
-	err = trivy.JSON.Unmarshal(out, &r)
-	if err != nil {
-		return nil, err
-	}
-	return &r, nil
 }
 
 func main() {
@@ -176,7 +138,7 @@ func main() {
 	t := time.Now()
 	ts := t.UTC().Format("20060102")
 	ref := fmt.Sprintf("%s/%s:%s_%s", api.DOCKER_REGISTRY, *name, *tag, ts)
-	sh := getNewShell()
+	sh := lib.NewShell()
 
 	dir, err := os.Getwd()
 	if err != nil {
@@ -200,21 +162,10 @@ func main() {
 	}
 }
 
-func getNewShell() *shell.Session {
-	sh := shell.NewSession()
-	sh.SetDir("/tmp")
-	sh.SetEnv("GITHUB_TOKEN", os.Getenv("GITHUB_TOKEN"))
-
-	sh.ShowCMD = true
-	sh.Stdout = os.Stdout
-	sh.Stderr = os.Stderr
-	return sh
-}
-
 func Build(sh *shell.Session, libRepoURL, repoURL string, b *api.Block, name, tag, ts string) error {
 	ctx := context.Background()
-	gh := NewGitHubClient(ctx)
-	exists, err := GitHubRepoExists(ctx, gh, api.GH_IMG_REPO_OWNER, name)
+	gh := lib.NewGitHubClient(ctx)
+	exists, err := lib.GitHubRepoExists(ctx, gh, api.GH_IMG_REPO_OWNER, name)
 	if err != nil {
 		return err
 	}
@@ -242,7 +193,7 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, b *api.Block, name, ta
 	}
 
 	branch := tag + "-" + ts
-	if RemoteBranchExists(sh, branch) {
+	if lib.RemoteBranchExists(sh, branch) {
 		err = sh.Command("git", "checkout", "-b", branch, "--track", "origin/"+branch).Run()
 		if err != nil {
 			return err
@@ -319,7 +270,7 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, b *api.Block, name, ta
 	// > crane mutate ghcr.io/appscode-images/alpine:3.17.3_20231012 -a abc=xyz3 --tag ghcr.io/appscode-images/alpine:3.17.3_20231012
 	args = []any{"mutate", img, "--tag=" + img}
 	args = append(args, "-a", KeyImageSource+"="+repoURL)
-	args = append(args, "-a", KeyImageRevision+"="+LastCommitSHA(sh))
+	args = append(args, "-a", KeyImageRevision+"="+lib.LastCommitSHA(sh))
 	err = sh.Command("crane", args...).Run()
 	if err != nil {
 		return err
@@ -356,53 +307,4 @@ func contains(arr []string, s string) bool {
 		}
 	}
 	return false
-}
-
-func NewGitHubClient(ctx context.Context) *github.Client {
-	ts := oauth2.StaticTokenSource(
-		&oauth2.Token{AccessToken: os.Getenv("GITHUB_TOKEN")},
-	)
-	tc := oauth2.NewClient(ctx, ts)
-	return github.NewClient(tc)
-}
-
-func GitHubRepoExists(ctx context.Context, client *github.Client, owner, repo string) (bool, error) {
-	for {
-		_, _, err := client.Repositories.Get(ctx, owner, repo)
-		switch e := err.(type) {
-		case *github.RateLimitError:
-			time.Sleep(time.Until(e.Rate.Reset.Time.Add(skew)))
-			continue
-		case *github.AbuseRateLimitError:
-			time.Sleep(e.GetRetryAfter())
-			continue
-		case *github.ErrorResponse:
-			if e.Response.StatusCode == http.StatusNotFound {
-				return false, nil
-			}
-		default:
-			if e != nil {
-				return false, err
-			}
-		}
-		return true, nil
-	}
-}
-
-func RemoteBranchExists(sh *shell.Session, branch string) bool {
-	data, err := sh.Command("git", "ls-remote", "--heads", "origin", branch).Output()
-	if err != nil {
-		panic(err)
-	}
-	return len(bytes.TrimSpace(data)) > 0
-}
-
-func LastCommitSHA(sh *shell.Session) string {
-	// git show -s --format=%H
-	data, err := sh.Command("git", "show", "-s", "--format=%H").Output()
-	if err != nil {
-		panic(err)
-	}
-	commits := strings.Fields(string(data))
-	return commits[0]
 }
