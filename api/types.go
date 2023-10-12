@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"fmt"
 	"gomodules.xyz/sets"
+	"sort"
 	"strings"
 )
 
@@ -64,6 +65,8 @@ func (b Block) String() string {
 				buf.WriteString(fmt.Sprintf("%s-File: %s\n", arch, info.File))
 			}
 		}
+		sort.Strings(archs)
+
 		buf.WriteString("Architectures: ")
 		buf.WriteString(strings.Join(archs, ","))
 		buf.WriteRune('\n')
