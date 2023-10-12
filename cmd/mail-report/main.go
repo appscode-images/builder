@@ -97,7 +97,7 @@ func (s Stats) String() string {
 
 func (r TagReport) AutoPromote() bool {
 	if (r.Critical.Before + r.High.Before + r.Medium.Before) < 0 {
-		return true
+		return true // no previous image
 	}
 	return (r.Critical.Before+r.High.Before+r.Medium.Before) > 0 &&
 		r.Critical.Before >= 0 && r.Critical.After == 0 &&
