@@ -89,6 +89,53 @@ jobs:
       with:
         go-version: '1.21'
 
+    # https://stackoverflow.com/a/58393457
+    - name: Prepare git
+      run: |
+        set -x
+        git config --global user.name '1gtm'
+        git config --global user.email '1gtm@appscode.com'
+        git config --global \
+          url."https://x-access-token:${GITHUB_TOKEN}@github.com".insteadOf \
+          "https://github.com"
+        # git remote set-url origin https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+        # git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+
+    - name: Set up QEMU
+      id: qemu
+      uses: docker/setup-qemu-action@v1
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v1
+
+    - name: Log in to the GitHub Container registry
+      uses: docker/login-action@v2
+      with:
+        registry: ghcr.io
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Install trivy
+      run: |
+        # wget https://github.com/aquasecurity/trivy/releases/download/v0.18.3/trivy_0.18.3_Linux-64bit.deb
+        # sudo dpkg -i trivy_0.18.3_Linux-64bit.deb
+        sudo apt-get install -y --no-install-recommends wget apt-transport-https gnupg lsb-release
+        wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | sudo apt-key add -
+        echo deb https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main | sudo tee -a /etc/apt/sources.list.d/trivy.list
+        sudo apt-get update
+        sudo apt-get install -y --no-install-recommends trivy
+
     - name: Build
       run: |
         go run cmd/mail-report/main.go -- --name=alpine
+        # https://stackoverflow.com/a/23930212
+        cat > ./library/alpine/README.md <<- EOM
+        # alpine
+        Last Updated: $(date --rfc-3339=date)
+        EOM
+
+    - name: Update repo
+      run: |
+        git add --all
+        git commit -s -a -m "update alpine images $(date --rfc-3339=date)"
+        git push origin HEAD
