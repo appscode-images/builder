@@ -1,15 +1,15 @@
 GitRepo: https://github.com/CentOS/sig-cloud-instance-images.git
 
 Tags: centos7,7,centos7.9.2009,7.9.2009
+arm32v7-GitCommit: 8022ae6d18ddf031b1b3a80549eeb46d1deb6dcd
+arm32v7-GitFetch: refs/heads/CentOS-7armhfp
 arm64v8-GitCommit: 02ea5808a8a155bad28677dd5857c8d382027e14
 arm64v8-GitFetch: refs/heads/CentOS-7-aarch64
 ppc64le-GitCommit: a8e4f3da8300d18da4c0e5256d64763965e66810
 ppc64le-GitFetch: refs/heads/CentOS-7-ppc64le
 i386-GitCommit: 206003c215684a869a686cf9ea5f9697e577c546
 i386-GitFetch: refs/heads/CentOS-7-i386
-arm32v7-GitCommit: 8022ae6d18ddf031b1b3a80549eeb46d1deb6dcd
-arm32v7-GitFetch: refs/heads/CentOS-7armhfp
-Architectures: arm64v8,ppc64le,i386,amd64,arm32v7
+Architectures: arm32v7,arm64v8,ppc64le,i386,amd64
 GitCommit: b2d195220e1c5b181427c3172829c23ab9cd27eb
 
 Tags: latest,centos8,8,centos8.4.2105,8.4.2105
@@ -17,7 +17,7 @@ arm64v8-GitCommit: e79ccf67325a31bf0bb79a8a0e82d3d8a4de2da8
 arm64v8-GitFetch: refs/heads/CentOS-8-aarch64
 ppc64le-GitCommit: 76f876b31bb82108a1acf2cee1032c1d2ebc3bd9
 ppc64le-GitFetch: refs/heads/CentOS-8-ppc64le
-Architectures: arm64v8,ppc64le,amd64
+Architectures: amd64,arm64v8,ppc64le
 GitCommit: 607af70702bacc6f46fab2ded055ab23d9113831
 
 Tags: centos6,6
@@ -34,7 +34,7 @@ arm64v8-GitCommit: 88b3ec90d3e01f637cab87ad124e8917f60839af
 arm64v8-GitFetch: refs/heads/CentOS-8-aarch64
 ppc64le-GitCommit: cf1c88f0b706f6c6192e4e80ec8ec5be5c499eaa
 ppc64le-GitFetch: refs/heads/CentOS-8-ppc64le
-Architectures: arm64v8,ppc64le,amd64
+Architectures: amd64,arm64v8,ppc64le
 GitCommit: ccd17799397027acf9ee6d660e75b8fce4c852e8
 
 Tags: centos7.8.2003,7.8.2003
@@ -48,7 +48,7 @@ GitCommit: dcf7932cbda6dd9865d50bfe969927e3e1f0c671
 Tags: centos7.6.1810,7.6.1810
 ppc64le-GitCommit: c3f4c6a2687b6cd88ea39dcd4bcb751fe6482442
 ppc64le-GitFetch: refs/heads/CentOS-7.6.1810ppc64le
-Architectures: ppc64le,amd64
+Architectures: amd64,ppc64le
 GitCommit: 7c2e214edced0b2f22e663ab4175a80fc93acaa9
 
 Tags: centos7.5.1804,7.5.1804

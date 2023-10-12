@@ -13,7 +13,7 @@ arm64v8-GitCommit: e21f7b51dee45dbcea532cbbbae68da7428c7916
 arm64v8-GitFetch: refs/heads/Rocky-9.2.20230513-Minimal-aarch64
 s390x-GitCommit: 275f589f6bcc73828387dc3f1d9d1fc45fef1b07
 s390x-GitFetch: refs/heads/Rocky-9.2.20230513-Minimal-s390x
-Architectures: arm64v8,s390x,amd64
+Architectures: amd64,arm64v8,s390x
 GitCommit: 7be807edccbbb7b64872f1a6b6c24cc2edabf3bd
 
 Tags: 8.8.20230518,8.8,8
@@ -29,13 +29,13 @@ Architectures: arm64v8,amd64
 GitCommit: 62c9ffd4470199b37a57ac260d1368ad239d476c
 
 Tags: 9.1.20230215,9.1
+ppc64le-GitCommit: 0aee39d093db7f0732854729a0e46bc8092bf607
+ppc64le-GitFetch: refs/heads/Rocky-9.1.20230215-Base-ppc64le
 arm64v8-GitCommit: a44de1cb9192969dacd996beb22c152020908532
 arm64v8-GitFetch: refs/heads/Rocky-9.1.20230215-Base-aarch64
 s390x-GitCommit: 3bd8af8923fd7b0611f1599e347897a6cb9c156b
 s390x-GitFetch: refs/heads/Rocky-9.1.20230215-Base-s390x
-ppc64le-GitCommit: 0aee39d093db7f0732854729a0e46bc8092bf607
-ppc64le-GitFetch: refs/heads/Rocky-9.1.20230215-Base-ppc64le
-Architectures: arm64v8,s390x,ppc64le,amd64
+Architectures: ppc64le,amd64,arm64v8,s390x
 GitCommit: c554918c3fb7432f70802459ee942fead8121cae
 
 Tags: 9.1.20230215-minimal,9.1-minimal
@@ -45,7 +45,7 @@ s390x-GitCommit: db6eddbb6b6cd097f625a014dcd50a9f152720d2
 s390x-GitFetch: refs/heads/Rocky-9.1.20230215-Minimal-s390x
 ppc64le-GitCommit: 4e11f6cf490d560b37bc6b9dffff204d2bc6e5b3
 ppc64le-GitFetch: refs/heads/Rocky-9.1.20230215-Minimal-ppc64le
-Architectures: arm64v8,s390x,ppc64le,amd64
+Architectures: amd64,arm64v8,s390x,ppc64le
 GitCommit: 957dce1794c27b8fc1666f7e283db2ba7ef5b182
 
 Tags: 8.7.20230215,8.7
@@ -151,7 +151,7 @@ GitCommit: 478daae7943db91ad41ef244a3767b90fb1d2521
 Tags: latest
 arm64v8-GitCommit: 411d541689cc277f778ce5a0aa260d5a82dd83f3
 arm64v8-GitFetch: refs/heads/Rocky-8.6.20220707-Base-aarch64
-Architectures: arm64v8,amd64
+Architectures: amd64,arm64v8
 GitCommit: 09dbe262451ff0e93fe50df95f6811b234d3d509
 
 Tags: 8.5.20220308
@@ -163,5 +163,5 @@ GitCommit: 82660c9c8d02077321bf6b12bd6aa512dbfce4fc
 Tags: 8.5
 arm64v8-GitCommit: df726710f2d759478bea1f06946eb168f4cff17a
 arm64v8-GitFetch: refs/heads/Rocky-8.5-aarch64
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 GitCommit: eee13752a34b9195c97d0bce92c05a838484eee8

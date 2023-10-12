@@ -1,11 +1,11 @@
 GitRepo: https://github.com/amazonlinux/container-images.git
 
 Tags: 2023,latest,2023.2.20230920.1
-arm64v8-GitCommit: da06108429da71749dfb1ed777d0bf4e066585e5
-arm64v8-GitFetch: refs/heads/al2023-arm64
 amd64-GitCommit: 414b5d5f6254ca8a674e04cc2f5e0e334ac77f14
 amd64-GitFetch: refs/heads/al2023
-Architectures: arm64v8,amd64
+arm64v8-GitCommit: da06108429da71749dfb1ed777d0bf4e066585e5
+arm64v8-GitFetch: refs/heads/al2023-arm64
+Architectures: amd64,arm64v8
 
 Tags: 2,2.0.20230912.0
 amd64-GitCommit: 758d8663f71fe6d9c26dc42a366eabdf024458ca
@@ -58,18 +58,18 @@ amd64-GitFetch: refs/heads/2018.03
 Architectures: amd64
 
 Tags: 2023.1.20230725.0
-amd64-GitCommit: 309a1ec082a5ea420a3801781f91a7796764143d
-amd64-GitFetch: refs/heads/al2023
 arm64v8-GitCommit: c6a5ca6c1fb14888aa39f502b242ebff3a03d3a2
 arm64v8-GitFetch: refs/heads/al2023-arm64
-Architectures: amd64,arm64v8
+amd64-GitCommit: 309a1ec082a5ea420a3801781f91a7796764143d
+amd64-GitFetch: refs/heads/al2023
+Architectures: arm64v8,amd64
 
 Tags: 2.0.20230727.0
-amd64-GitCommit: 0270a0f82bb7e12190531be44d4516fd6274181a
-amd64-GitFetch: refs/heads/amzn2
 arm64v8-GitCommit: a4753e780fbd1d2a844e38ad94d6964cd3f596f4
 arm64v8-GitFetch: refs/heads/amzn2-arm64
-Architectures: amd64,arm64v8
+amd64-GitCommit: 0270a0f82bb7e12190531be44d4516fd6274181a
+amd64-GitFetch: refs/heads/amzn2
+Architectures: arm64v8,amd64
 
 Tags: 2018.03.0.20230724.0
 amd64-GitCommit: 4000dd6f1d663b0609563b9662398f6d83d88475
@@ -103,11 +103,11 @@ arm64v8-GitFetch: refs/heads/al2023-arm64
 Architectures: amd64,arm64v8
 
 Tags: 2.0.20230628.0
-amd64-GitCommit: 0df7bde196fbf207d36ade9bdbbf1b8ed493051f
-amd64-GitFetch: refs/heads/amzn2
 arm64v8-GitCommit: 4254b1296ebebb8c458d6dea704f6f3c47fe4090
 arm64v8-GitFetch: refs/heads/amzn2-arm64
-Architectures: amd64,arm64v8
+amd64-GitCommit: 0df7bde196fbf207d36ade9bdbbf1b8ed493051f
+amd64-GitFetch: refs/heads/amzn2
+Architectures: arm64v8,amd64
 
 Tags: 2018.03.0.20230628.0
 amd64-GitCommit: 18405b44cfe8a9e24a023ea3ccecd7b41cba827f
@@ -191,11 +191,11 @@ amd64-GitFetch: refs/heads/2018.03
 Architectures: amd64
 
 Tags: 2.0.20230418.0
-amd64-GitCommit: 8bd72a51cb5cdb1ccee4b9c6ed0120794cc63388
-amd64-GitFetch: refs/heads/amzn2
 arm64v8-GitCommit: faeb719c935672aa8c7988a733fd220436d99d27
 arm64v8-GitFetch: refs/heads/amzn2-arm64
-Architectures: amd64,arm64v8
+amd64-GitCommit: 8bd72a51cb5cdb1ccee4b9c6ed0120794cc63388
+amd64-GitFetch: refs/heads/amzn2
+Architectures: arm64v8,amd64
 
 Tags: 2018.03.0.20230419.0
 amd64-GitCommit: 9a31073361b306f3cf92e9dfe8cd76192e04d2f7
@@ -203,11 +203,11 @@ amd64-GitFetch: refs/heads/2018.03
 Architectures: amd64
 
 Tags: 2023.0.20230322.0
-arm64v8-GitCommit: 7865f83b98d21f5a8713160cd5653f38b89a629e
-arm64v8-GitFetch: refs/heads/al2023-arm64
 amd64-GitCommit: 292aeb369bf259202dae0fefee00210edb3dcd54
 amd64-GitFetch: refs/heads/al2023
-Architectures: arm64v8,amd64
+arm64v8-GitCommit: 7865f83b98d21f5a8713160cd5653f38b89a629e
+arm64v8-GitFetch: refs/heads/al2023-arm64
+Architectures: amd64,arm64v8
 
 Tags: 2.0.20230320.0
 amd64-GitCommit: 8bd6e8ab85a58c9bc06cc0b6a8bd94ed47d5b89d
@@ -222,11 +222,11 @@ amd64-GitFetch: refs/heads/2018.03
 Architectures: amd64
 
 Tags: 2.0.20230307.0
-amd64-GitCommit: 9d4c7e1fbf1426dd0c7f21141c20e605d8695a00
-amd64-GitFetch: refs/heads/amzn2
 arm64v8-GitCommit: e3e4818ceb2a784847a65414d6e73b8a06b46804
 arm64v8-GitFetch: refs/heads/amzn2-arm64
-Architectures: amd64,arm64v8
+amd64-GitCommit: 9d4c7e1fbf1426dd0c7f21141c20e605d8695a00
+amd64-GitFetch: refs/heads/amzn2
+Architectures: arm64v8,amd64
 
 Tags: 2018.03.0.20230306.1
 amd64-GitCommit: dc3df0616bebef55e5890e320f62d2ef407c54d0
@@ -291,11 +291,11 @@ amd64-GitFetch: refs/heads/2018.03
 Architectures: amd64
 
 Tags: 2022.0.20230118.3,2022
-arm64v8-GitCommit: 40d063d4db18d8b62afbb080d75bd5fa6994d78e
-arm64v8-GitFetch: refs/heads/al2022-arm64
 amd64-GitCommit: 8f394a73f3747b9f1c80e98b65d1f845b2c36e36
 amd64-GitFetch: refs/heads/al2022
-Architectures: arm64v8,amd64
+arm64v8-GitCommit: 40d063d4db18d8b62afbb080d75bd5fa6994d78e
+arm64v8-GitFetch: refs/heads/al2022-arm64
+Architectures: amd64,arm64v8
 
 Tags: 2022.0.20230118.3-with-sources,2022-with-sources,devel-with-sources
 amd64-GitCommit: 87e3b7a4ed4bbdeba86d64cd68fbefe3f5d7acc2
@@ -305,11 +305,11 @@ arm64v8-GitFetch: refs/heads/al2022-arm64-with-sources
 Architectures: amd64,arm64v8
 
 Tags: 2.0.20230119.1
-arm64v8-GitCommit: fe9ce6ed22a3ca487bf4fd0826c453bec40803ab
-arm64v8-GitFetch: refs/heads/amzn2-arm64
 amd64-GitCommit: 8cd3a1d4d2516e33d3b26247120ecfc8d9d01d07
 amd64-GitFetch: refs/heads/amzn2
-Architectures: arm64v8,amd64
+arm64v8-GitCommit: fe9ce6ed22a3ca487bf4fd0826c453bec40803ab
+arm64v8-GitFetch: refs/heads/amzn2-arm64
+Architectures: amd64,arm64v8
 
 Tags: 2.0.20230119.1-with-sources
 amd64-GitCommit: b5c54379aea40f6d9a0d50af4677399d0defff7b
@@ -329,11 +329,11 @@ amd64-GitFetch: refs/heads/2018.03-with-sources
 Architectures: amd64
 
 Tags: 2022.0.20221207.4
-arm64v8-GitCommit: b68a0d87dafee8f62bbc7923734eb11d7610cbf6
-arm64v8-GitFetch: refs/heads/al2022-arm64
 amd64-GitCommit: 423528b1be8f280af50b6fe8c2cfa296b05e995f
 amd64-GitFetch: refs/heads/al2022
-Architectures: arm64v8,amd64
+arm64v8-GitCommit: b68a0d87dafee8f62bbc7923734eb11d7610cbf6
+arm64v8-GitFetch: refs/heads/al2022-arm64
+Architectures: amd64,arm64v8
 
 Tags: 2022.0.20221207.4-with-sources
 amd64-GitCommit: 8b3c53739a3853a701caa4ff99732c3b8325c5b4
@@ -488,18 +488,18 @@ arm64v8-GitFetch: refs/heads/al2022-arm64
 Architectures: amd64,arm64v8
 
 Tags: 2022.0.20220928.0-with-sources
-amd64-GitCommit: 29e827cc03ae829154e598aa8ace1282a4d6f8aa
-amd64-GitFetch: refs/heads/al2022-with-sources
 arm64v8-GitCommit: 91d5c184765cd99a4c7fb9bea122a5ff212904b4
 arm64v8-GitFetch: refs/heads/al2022-arm64-with-sources
-Architectures: amd64,arm64v8
+amd64-GitCommit: 29e827cc03ae829154e598aa8ace1282a4d6f8aa
+amd64-GitFetch: refs/heads/al2022-with-sources
+Architectures: arm64v8,amd64
 
 Tags: 2022.0.20220831.1
-amd64-GitCommit: b930e5823acf593b6931f810c5808679ed51957d
-amd64-GitFetch: refs/heads/al2022
 arm64v8-GitCommit: 9cf6477c0994dbd661ccd79562958e0df7ff063a
 arm64v8-GitFetch: refs/heads/al2022-arm64
-Architectures: amd64,arm64v8
+amd64-GitCommit: b930e5823acf593b6931f810c5808679ed51957d
+amd64-GitFetch: refs/heads/al2022
+Architectures: arm64v8,amd64
 
 Tags: 2022.0.20220831.1-with-sources
 amd64-GitCommit: 424b626658141641f77a87728997c08f3793ce51
@@ -509,11 +509,11 @@ arm64v8-GitFetch: refs/heads/al2022-arm64-with-sources
 Architectures: amd64,arm64v8
 
 Tags: 2.0.20220805.0
-amd64-GitCommit: 26415c9039fa9d560723c416da68a95c96b25af3
-amd64-GitFetch: refs/heads/amzn2
 arm64v8-GitCommit: 31437e8f307ec31577af1c2b9e1c2a0c9003c4ef
 arm64v8-GitFetch: refs/heads/amzn2-arm64
-Architectures: amd64,arm64v8
+amd64-GitCommit: 26415c9039fa9d560723c416da68a95c96b25af3
+amd64-GitFetch: refs/heads/amzn2
+Architectures: arm64v8,amd64
 
 Tags: 2.0.20220805.0-with-sources
 amd64-GitCommit: f763826f20f7e26a2b3448f2a544660db2f5a530
@@ -523,18 +523,18 @@ arm64v8-GitFetch: refs/heads/amzn2-arm64-with-sources
 Architectures: amd64,arm64v8
 
 Tags: 2022.0.20220824.0
-amd64-GitCommit: 31b15da23a0fba96228a9fbf3f5b1e2e23499ae7
-amd64-GitFetch: refs/heads/al2022
 arm64v8-GitCommit: 1ece04f535c4e93ac855f05524bb1542b631afdb
 arm64v8-GitFetch: refs/heads/al2022-arm64
-Architectures: amd64,arm64v8
+amd64-GitCommit: 31b15da23a0fba96228a9fbf3f5b1e2e23499ae7
+amd64-GitFetch: refs/heads/al2022
+Architectures: arm64v8,amd64
 
 Tags: 2022.0.20220824.0-with-sources
-amd64-GitCommit: 38403cf163163bcd3bad0dbcc468cb6f6f4224a7
-amd64-GitFetch: refs/heads/al2022-with-sources
 arm64v8-GitCommit: f2c50f4c045c12108dd7250ea5e9218fd88592f2
 arm64v8-GitFetch: refs/heads/al2022-arm64-with-sources
-Architectures: amd64,arm64v8
+amd64-GitCommit: 38403cf163163bcd3bad0dbcc468cb6f6f4224a7
+amd64-GitFetch: refs/heads/al2022-with-sources
+Architectures: arm64v8,amd64
 
 Tags: 2022.0.20220817.0
 amd64-GitCommit: 0b0494117a599cb5424917a6a3c13af9b60e9586
@@ -544,11 +544,11 @@ arm64v8-GitFetch: refs/heads/al2022-arm64
 Architectures: amd64,arm64v8
 
 Tags: 2022.0.20220817.0-with-sources
-arm64v8-GitCommit: ab194ce5ed08dcc56b2fe09f53b294b7e6e51f6c
-arm64v8-GitFetch: refs/heads/al2022-arm64-with-sources
 amd64-GitCommit: b96483cf1aec246d1f60b2fa151061b0304ee2c5
 amd64-GitFetch: refs/heads/al2022-with-sources
-Architectures: arm64v8,amd64
+arm64v8-GitCommit: ab194ce5ed08dcc56b2fe09f53b294b7e6e51f6c
+arm64v8-GitFetch: refs/heads/al2022-arm64-with-sources
+Architectures: amd64,arm64v8
 
 Tags: 2.0.20220719.0
 amd64-GitCommit: e957a37db9824b86caf27e30c7a625e75278b1d7
@@ -558,11 +558,11 @@ arm64v8-GitFetch: refs/heads/amzn2-arm64
 Architectures: amd64,arm64v8
 
 Tags: 2.0.20220719.0-with-sources
-arm64v8-GitCommit: bc8afbbf8f243bd61ad99486b7beb4ad70b75be0
-arm64v8-GitFetch: refs/heads/amzn2-arm64-with-sources
 amd64-GitCommit: e66b28907f1ecaabd20c3799b295fdffbd23d9e0
 amd64-GitFetch: refs/heads/amzn2-with-sources
-Architectures: arm64v8,amd64
+arm64v8-GitCommit: bc8afbbf8f243bd61ad99486b7beb4ad70b75be0
+arm64v8-GitFetch: refs/heads/amzn2-arm64-with-sources
+Architectures: amd64,arm64v8
 
 Tags: 2018.03.0.20220705.1
 amd64-GitCommit: 1a4122f26c166f6a4fb08f9ba1a18e6298553863
@@ -575,11 +575,11 @@ amd64-GitFetch: refs/heads/2018.03-with-sources
 Architectures: amd64
 
 Tags: 2022.0.20220728.1
-amd64-GitCommit: d994363e8bd6af4292115b0f9744c077d1fb6340
-amd64-GitFetch: refs/heads/al2022
 arm64v8-GitCommit: c63b633bea3e29c6fff5164475c446578130b6f9
 arm64v8-GitFetch: refs/heads/al2022-arm64
-Architectures: amd64,arm64v8
+amd64-GitCommit: d994363e8bd6af4292115b0f9744c077d1fb6340
+amd64-GitFetch: refs/heads/al2022
+Architectures: arm64v8,amd64
 
 Tags: 2022.0.20220728.1-with-sources
 amd64-GitCommit: 82741b3e35ed5a2b17b36010d1f8e4896608c6d6
@@ -596,11 +596,11 @@ arm64v8-GitFetch: refs/heads/amzn2-arm64
 Architectures: amd64,arm64v8
 
 Tags: 2.0.20220606.1-with-sources
-amd64-GitCommit: 5a5b6a174313cfcc9b257cbfb3edcae37a8dd186
-amd64-GitFetch: refs/heads/amzn2-with-sources
 arm64v8-GitCommit: 31e8c3ce20300fda6123e190cf579315e26f843e
 arm64v8-GitFetch: refs/heads/amzn2-arm64-with-sources
-Architectures: amd64,arm64v8
+amd64-GitCommit: 5a5b6a174313cfcc9b257cbfb3edcae37a8dd186
+amd64-GitFetch: refs/heads/amzn2-with-sources
+Architectures: arm64v8,amd64
 
 Tags: 2018.03.0.20220609.0
 amd64-GitCommit: 7a44cc6ff549a6b4abc33d73bca88eae66c31ddc
@@ -634,11 +634,11 @@ arm64v8-GitFetch: refs/heads/al2022-arm64
 Architectures: amd64,arm64v8
 
 Tags: 2022.0.20220531.0-with-sources
-arm64v8-GitCommit: 100a28d4911310f37577a153ce1c71fe89365c29
-arm64v8-GitFetch: refs/heads/al2022-arm64-with-sources
 amd64-GitCommit: 2d7d38ccc34b7ac70ea95338e436ab2db778f6e7
 amd64-GitFetch: refs/heads/al2022-with-sources
-Architectures: arm64v8,amd64
+arm64v8-GitCommit: 100a28d4911310f37577a153ce1c71fe89365c29
+arm64v8-GitFetch: refs/heads/al2022-arm64-with-sources
+Architectures: amd64,arm64v8
 
 Tags: 2022.0.20220504.1
 amd64-GitCommit: c82726861f7bb251c75a9af7011010e57d08d82f
@@ -665,18 +665,18 @@ amd64-GitFetch: refs/heads/2018.03-with-sources
 Architectures: amd64
 
 Tags: 2.0.20220426.0
-arm64v8-GitCommit: dce821d6adae5aef9952036e36ad84c95dcc92b3
-arm64v8-GitFetch: refs/heads/amzn2-arm64
 amd64-GitCommit: 7f5bc7447a2d475aea0383912f6abce963e04223
 amd64-GitFetch: refs/heads/amzn2
-Architectures: arm64v8,amd64
+arm64v8-GitCommit: dce821d6adae5aef9952036e36ad84c95dcc92b3
+arm64v8-GitFetch: refs/heads/amzn2-arm64
+Architectures: amd64,arm64v8
 
 Tags: 2.0.20220426.0-with-sources
-amd64-GitCommit: 9e7db79f3c6d8599246d8432508337b3e9acf555
-amd64-GitFetch: refs/heads/amzn2-with-sources
 arm64v8-GitCommit: 13791a82b9dbe5092626d1278096302491f9095f
 arm64v8-GitFetch: refs/heads/amzn2-arm64-with-sources
-Architectures: amd64,arm64v8
+amd64-GitCommit: 9e7db79f3c6d8599246d8432508337b3e9acf555
+amd64-GitFetch: refs/heads/amzn2-with-sources
+Architectures: arm64v8,amd64
 
 Tags: 2022.0.20220419.0
 amd64-GitCommit: a07530f75eac5d4bfa71afb95df813f5b9fd051f
@@ -724,11 +724,11 @@ arm64v8-GitFetch: refs/heads/al2022-arm64
 Architectures: amd64,arm64v8
 
 Tags: 2022.0.20220315.0-with-sources
-amd64-GitCommit: 87d9d1a07c4e5afd1f72df96f1c824a9facd15cc
-amd64-GitFetch: refs/heads/al2022-with-sources
 arm64v8-GitCommit: 2c8a2941ab6c41f375b8bb245779d0ebdcb07c31
 arm64v8-GitFetch: refs/heads/al2022-arm64-with-sources
-Architectures: amd64,arm64v8
+amd64-GitCommit: 87d9d1a07c4e5afd1f72df96f1c824a9facd15cc
+amd64-GitFetch: refs/heads/al2022-with-sources
+Architectures: arm64v8,amd64
 
 Tags: 2018.03.0.20220315.0
 amd64-GitCommit: 69a756c313a87302ea529a7c2d911b65081fe5e1
@@ -814,18 +814,18 @@ arm64v8-GitFetch: refs/heads/al2022-arm64
 Architectures: amd64,arm64v8
 
 Tags: 2022.0.20220202.0-with-sources
-amd64-GitCommit: 644870f2e04d8eb9c7e4e0ca3d7e99a111c98105
-amd64-GitFetch: refs/heads/al2022-with-sources
 arm64v8-GitCommit: 372ba653bf7ddb8f33751a0e13000969a53afc70
 arm64v8-GitFetch: refs/heads/al2022-arm64-with-sources
-Architectures: amd64,arm64v8
+amd64-GitCommit: 644870f2e04d8eb9c7e4e0ca3d7e99a111c98105
+amd64-GitFetch: refs/heads/al2022-with-sources
+Architectures: arm64v8,amd64
 
 Tags: 2.0.20220121.0
-arm64v8-GitCommit: 6e262a8568ece87090233ce6d286de3fdc1ba83c
-arm64v8-GitFetch: refs/heads/amzn2-arm64
 amd64-GitCommit: 1d895245266e631838273c3f684a6bac4297b042
 amd64-GitFetch: refs/heads/amzn2
-Architectures: arm64v8,amd64
+arm64v8-GitCommit: 6e262a8568ece87090233ce6d286de3fdc1ba83c
+arm64v8-GitFetch: refs/heads/amzn2-arm64
+Architectures: amd64,arm64v8
 
 Tags: 2.0.20220121.0-with-sources
 amd64-GitCommit: db972c0e3a2106bfcb5c1d226b36935aa1952b9f
@@ -924,11 +924,11 @@ arm64v8-GitFetch: refs/heads/amzn2-arm64
 Architectures: amd64,arm64v8
 
 Tags: 2.0.20211001.0-with-sources
-arm64v8-GitCommit: 5059f12bce3bf4af18e1b4a405f6317886557b2a
-arm64v8-GitFetch: refs/heads/amzn2-arm64-with-sources
 amd64-GitCommit: 8fe832ee342779f64c3cac7fad793cba7bc2b635
 amd64-GitFetch: refs/heads/amzn2-with-sources
-Architectures: arm64v8,amd64
+arm64v8-GitCommit: 5059f12bce3bf4af18e1b4a405f6317886557b2a
+arm64v8-GitFetch: refs/heads/amzn2-arm64-with-sources
+Architectures: amd64,arm64v8
 
 Tags: 2.0.20210813.1
 amd64-GitCommit: e23cdb4dbfd3b72257b02ad7a747a8920a5d65b9
@@ -993,18 +993,18 @@ amd64-GitFetch: refs/heads/2018.03-with-sources
 Architectures: amd64
 
 Tags: 2.0.20210617.0
-arm64v8-GitCommit: c7746089cbbc3e535c045a518896d679edb4b905
-arm64v8-GitFetch: refs/heads/amzn2-arm64
 amd64-GitCommit: a0fca3351cb85df91417b9c0030f5d5f91dfb808
 amd64-GitFetch: refs/heads/amzn2
-Architectures: arm64v8,amd64
+arm64v8-GitCommit: c7746089cbbc3e535c045a518896d679edb4b905
+arm64v8-GitFetch: refs/heads/amzn2-arm64
+Architectures: amd64,arm64v8
 
 Tags: 2.0.20210617.0-with-sources
-arm64v8-GitCommit: 6ad87cd19ecc5c12fbd0e110f1e382328451d782
-arm64v8-GitFetch: refs/heads/amzn2-arm64-with-sources
 amd64-GitCommit: 91a1759eddd8da6439eba7c00f7e97e6a4da1bd1
 amd64-GitFetch: refs/heads/amzn2-with-sources
-Architectures: arm64v8,amd64
+arm64v8-GitCommit: 6ad87cd19ecc5c12fbd0e110f1e382328451d782
+arm64v8-GitFetch: refs/heads/amzn2-arm64-with-sources
+Architectures: amd64,arm64v8
 
 Tags: 2.0.20210525.0
 amd64-GitCommit: 23aa3f990835b6e742f37e1b85df2b8c8894760b
@@ -1028,11 +1028,11 @@ amd64-GitFetch: refs/heads/amzn2
 Architectures: arm64v8,amd64
 
 Tags: 2.0.20210421.0-with-sources
-arm64v8-GitCommit: 0f4368397c145df45cb1273b37c86ab088889d10
-arm64v8-GitFetch: refs/heads/amzn2-arm64-with-sources
 amd64-GitCommit: e72cb97b74ee2fd1208659acfc9918416f107312
 amd64-GitFetch: refs/heads/amzn2-with-sources
-Architectures: arm64v8,amd64
+arm64v8-GitCommit: 0f4368397c145df45cb1273b37c86ab088889d10
+arm64v8-GitFetch: refs/heads/amzn2-arm64-with-sources
+Architectures: amd64,arm64v8
 
 Tags: 2018.03.0.20210408.0
 amd64-GitCommit: e6a92d956a01831339b480ab87d3497d307c1dda
@@ -1045,11 +1045,11 @@ amd64-GitFetch: refs/heads/2018.03-with-sources
 Architectures: amd64
 
 Tags: 2.0.20210326.0
-arm64v8-GitCommit: 7bb74de7a2f9f4d4010d41030d223ee585cade0c
-arm64v8-GitFetch: refs/heads/amzn2-arm64
 amd64-GitCommit: 6034adc97679e1ac7fa88c499405699326436304
 amd64-GitFetch: refs/heads/amzn2
-Architectures: arm64v8,amd64
+arm64v8-GitCommit: 7bb74de7a2f9f4d4010d41030d223ee585cade0c
+arm64v8-GitFetch: refs/heads/amzn2-arm64
+Architectures: amd64,arm64v8
 
 Tags: 2.0.20210326.0-with-sources
 amd64-GitCommit: 54c655c48433d8277b9b5190935806eba541c6ee
@@ -1069,11 +1069,11 @@ amd64-GitFetch: refs/heads/2018.03-with-sources
 Architectures: amd64
 
 Tags: 2.0.20210219.0
-arm64v8-GitCommit: 54ea3e6143b0ca1d3d27493c3a3bb5193bff000b
-arm64v8-GitFetch: refs/heads/amzn2-arm64
 amd64-GitCommit: 5ec502b06d356315b689c5aa3b3cb27c81d216ec
 amd64-GitFetch: refs/heads/amzn2
-Architectures: arm64v8,amd64
+arm64v8-GitCommit: 54ea3e6143b0ca1d3d27493c3a3bb5193bff000b
+arm64v8-GitFetch: refs/heads/amzn2-arm64
+Architectures: amd64,arm64v8
 
 Tags: 2.0.20210219.0-with-sources
 amd64-GitCommit: eb7cd9d5e954b189fbf0e2a42a7d1b2b2529a393
@@ -1100,11 +1100,11 @@ arm64v8-GitFetch: refs/heads/amzn2-arm64
 Architectures: amd64,arm64v8
 
 Tags: 2.0.20210126.0-with-sources
-arm64v8-GitCommit: 47b4ba56fd768b3ff9e55ff3795766c7fa0630a0
-arm64v8-GitFetch: refs/heads/amzn2-arm64-with-sources
 amd64-GitCommit: 14a690152e4a514dda18221da3af1d45af57f73d
 amd64-GitFetch: refs/heads/amzn2-with-sources
-Architectures: arm64v8,amd64
+arm64v8-GitCommit: 47b4ba56fd768b3ff9e55ff3795766c7fa0630a0
+arm64v8-GitFetch: refs/heads/amzn2-arm64-with-sources
+Architectures: amd64,arm64v8
 
 Tags: 2.0.20201218.1
 amd64-GitCommit: 584b9a3f1611acf52224ae4697bef392e7711956
@@ -1114,11 +1114,11 @@ arm64v8-GitFetch: refs/heads/amzn2-arm64
 Architectures: amd64,arm64v8
 
 Tags: 2.0.20201218.1-with-sources
-amd64-GitCommit: 50b4e736c72d0bde26f198b08a43319c23009dd8
-amd64-GitFetch: refs/heads/amzn2-with-sources
 arm64v8-GitCommit: 4130674edffef34464773e216ff0f84722e29861
 arm64v8-GitFetch: refs/heads/amzn2-arm64-with-sources
-Architectures: amd64,arm64v8
+amd64-GitCommit: 50b4e736c72d0bde26f198b08a43319c23009dd8
+amd64-GitFetch: refs/heads/amzn2-with-sources
+Architectures: arm64v8,amd64
 
 Tags: 2018.03.0.20201209.1
 amd64-GitCommit: 78075a2c6ac2675f023549e8fe1ea6d4eb95f544
@@ -1155,18 +1155,18 @@ amd64-GitFetch: refs/heads/2018.03-with-sources
 Architectures: amd64
 
 Tags: 2.0.20200722.0
-amd64-GitCommit: 03d54f8c4d522bf712cffd6c8f9aafba0a875e78
-amd64-GitFetch: refs/heads/amzn2
 arm64v8-GitCommit: 650192a3ab80308eb62de93f80f6032aa55d236c
 arm64v8-GitFetch: refs/heads/amzn2-arm64
-Architectures: amd64,arm64v8
+amd64-GitCommit: 03d54f8c4d522bf712cffd6c8f9aafba0a875e78
+amd64-GitFetch: refs/heads/amzn2
+Architectures: arm64v8,amd64
 
 Tags: 2.0.20200722.0-with-sources
-amd64-GitCommit: 1e7349845e029a2e6afe6dc473ef17d052e3546f
-amd64-GitFetch: refs/heads/amzn2-with-sources
 arm64v8-GitCommit: 9175100222f8737fc84e9391d1fab14573175267
 arm64v8-GitFetch: refs/heads/amzn2-arm64-with-sources
-Architectures: amd64,arm64v8
+amd64-GitCommit: 1e7349845e029a2e6afe6dc473ef17d052e3546f
+amd64-GitFetch: refs/heads/amzn2-with-sources
+Architectures: arm64v8,amd64
 
 Tags: 2018.03.0.20200602.1
 amd64-GitCommit: f10932e08c75457eeb372bf1cc47ea2a4b8e98c8
@@ -1186,11 +1186,11 @@ arm64v8-GitFetch: refs/heads/amzn2-arm64
 Architectures: amd64,arm64v8
 
 Tags: 2.0.20200602.0-with-sources
-arm64v8-GitCommit: 4d6fb5796b13e9403ddc189d2aa24d42aad6bc50
-arm64v8-GitFetch: refs/heads/amzn2-arm64-with-sources
 amd64-GitCommit: 44f2f688760cdc532b14783c78f69a74a8a9b011
 amd64-GitFetch: refs/heads/amzn2-with-sources
-Architectures: arm64v8,amd64
+arm64v8-GitCommit: 4d6fb5796b13e9403ddc189d2aa24d42aad6bc50
+arm64v8-GitFetch: refs/heads/amzn2-arm64-with-sources
+Architectures: amd64,arm64v8
 
 Tags: 2.0.20200406.0
 amd64-GitCommit: 92466cbdf8600e425701459dba31a31aa53415e7
@@ -1200,11 +1200,11 @@ arm64v8-GitFetch: refs/heads/amzn2-arm64
 Architectures: amd64,arm64v8
 
 Tags: 2.0.20200406.0-with-sources
-arm64v8-GitCommit: 8ae0ac209947f5fa96c21f4b41387dd4da008d67
-arm64v8-GitFetch: refs/heads/amzn2-arm64-with-sources
 amd64-GitCommit: d686ee33d867fddd67595fb5d0df581b23ebfdfe
 amd64-GitFetch: refs/heads/amzn2-with-sources
-Architectures: arm64v8,amd64
+arm64v8-GitCommit: 8ae0ac209947f5fa96c21f4b41387dd4da008d67
+arm64v8-GitFetch: refs/heads/amzn2-arm64-with-sources
+Architectures: amd64,arm64v8
 
 Tags: 2018.03.0.20200318.1
 amd64-GitCommit: 3209338a28f4fa5f0a189e517c0809d095c777d8
@@ -1286,11 +1286,11 @@ arm64v8-GitFetch: refs/heads/amzn2-arm64
 Architectures: amd64,arm64v8
 
 Tags: 2.0.20191016.0-with-sources
-amd64-GitCommit: f09f12331dc25c7e1e3669585db74e477a0b762e
-amd64-GitFetch: refs/heads/amzn2-with-sources
 arm64v8-GitCommit: b12bb09d2a04bf451403e99e0b95975d75907980
 arm64v8-GitFetch: refs/heads/amzn2-arm64-with-sources
-Architectures: amd64,arm64v8
+amd64-GitCommit: f09f12331dc25c7e1e3669585db74e477a0b762e
+amd64-GitFetch: refs/heads/amzn2-with-sources
+Architectures: arm64v8,amd64
 
 Tags: 2.0.20190823.1
 amd64-GitCommit: 5cad81cf824efef29c3c9a0d0a995dd8b73abf22
@@ -1379,11 +1379,11 @@ arm64v8-GitFetch: refs/heads/amzn2-arm64-with-sources
 Architectures: amd64,arm64v8
 
 Tags: 2.0.20190212
-amd64-GitCommit: 2005a6a2839e438f4f728900ac021f0dd27ad60f
-amd64-GitFetch: refs/heads/amzn2
 arm64v8-GitCommit: 4d5459b704ac292217c034466e1347f9d3d1555a
 arm64v8-GitFetch: refs/heads/amzn2-arm64
-Architectures: amd64,arm64v8
+amd64-GitCommit: 2005a6a2839e438f4f728900ac021f0dd27ad60f
+amd64-GitFetch: refs/heads/amzn2
+Architectures: arm64v8,amd64
 
 Tags: 2.0.20190212-with-sources
 amd64-GitCommit: 3afa3b0ade59ef31a72c2331329eecb82a7a8ba2
@@ -1441,11 +1441,11 @@ amd64-GitFetch: refs/heads/2018.03-with-sources
 Architectures: amd64
 
 Tags: 2.0.20181114
-amd64-GitCommit: 3de85bea51cc97f74263a12825564db727b55996
-amd64-GitFetch: refs/heads/amzn2
 arm64v8-GitCommit: 14959a2fbe9917c11d80c790055ef1adae6bb950
 arm64v8-GitFetch: refs/heads/amzn2-arm64
-Architectures: amd64,arm64v8
+amd64-GitCommit: 3de85bea51cc97f74263a12825564db727b55996
+amd64-GitFetch: refs/heads/amzn2
+Architectures: arm64v8,amd64
 GitCommit: f5382475bb163a79163c2ce9c6d314d6b44f3146
 
 Tags: 2.0.20181114-with-sources

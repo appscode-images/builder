@@ -1,12 +1,12 @@
 GitRepo: https://github.com/docker-library/rabbitmq.git
 
 Tags: 3.13.0-beta.6,3.13-rc
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
 GitCommit: 6e5870068747ebef1d00134c52bd9a8e41cb2b4b
 Directory: 3.13-rc/ubuntu
 
 Tags: 3.13.0-beta.6-management,3.13-rc-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
 GitCommit: 80011d74327aea3ddd460b189c6533c1f177f48f
 Directory: 3.13-rc/ubuntu/management
 
@@ -16,7 +16,7 @@ GitCommit: 6e5870068747ebef1d00134c52bd9a8e41cb2b4b
 Directory: 3.13-rc/alpine
 
 Tags: 3.13.0-beta.6-management-alpine,3.13-rc-management-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 80011d74327aea3ddd460b189c6533c1f177f48f
 Directory: 3.13-rc/alpine/management
 
@@ -26,7 +26,7 @@ GitCommit: 6e5870068747ebef1d00134c52bd9a8e41cb2b4b
 Directory: 3.12/ubuntu
 
 Tags: 3.12.6-management,3.12-management,3-management,management
-Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: c30652127ae871535b7ec8ecda8046948a52ab79
 Directory: 3.12/ubuntu/management
 
@@ -36,7 +36,7 @@ GitCommit: 6e5870068747ebef1d00134c52bd9a8e41cb2b4b
 Directory: 3.12/alpine
 
 Tags: 3.12.6-management-alpine,3.12-management-alpine,3-management-alpine,management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: c30652127ae871535b7ec8ecda8046948a52ab79
 Directory: 3.12/alpine/management
 
@@ -46,12 +46,12 @@ GitCommit: 6e5870068747ebef1d00134c52bd9a8e41cb2b4b
 Directory: 3.11/ubuntu
 
 Tags: 3.11.23-management,3.11-management
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.11/ubuntu/management
 
 Tags: 3.11.23-alpine,3.11-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 6e5870068747ebef1d00134c52bd9a8e41cb2b4b
 Directory: 3.11/alpine
 
@@ -61,102 +61,102 @@ GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.11/alpine/management
 
 Tags: 3.10.25,3.10
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
 GitCommit: 6e5870068747ebef1d00134c52bd9a8e41cb2b4b
 Directory: 3.10/ubuntu
 
 Tags: 3.10.25-management,3.10-management
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.10/ubuntu/management
 
 Tags: 3.10.25-alpine,3.10-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 6e5870068747ebef1d00134c52bd9a8e41cb2b4b
 Directory: 3.10/alpine
 
 Tags: 3.10.25-management-alpine,3.10-management-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.10/alpine/management
 
 Tags: 3.9.29,3.9
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
 GitCommit: 6e5870068747ebef1d00134c52bd9a8e41cb2b4b
 Directory: 3.9/ubuntu
 
 Tags: 3.9.29-management,3.9-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.9/ubuntu/management
 
 Tags: 3.9.29-alpine,3.9-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 6e5870068747ebef1d00134c52bd9a8e41cb2b4b
 Directory: 3.9/alpine
 
 Tags: 3.9.29-management-alpine,3.9-management-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.9/alpine/management
 
 Tags: 3.12.5
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: 5e5a04952e02dab153005a6e59d50deb99847e56
 Directory: 3.12/ubuntu
 
 Tags: 3.12.5-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
 GitCommit: c30652127ae871535b7ec8ecda8046948a52ab79
 Directory: 3.12/ubuntu/management
 
 Tags: 3.12.5-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 5e5a04952e02dab153005a6e59d50deb99847e56
 Directory: 3.12/alpine
 
 Tags: 3.12.5-management-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: c30652127ae871535b7ec8ecda8046948a52ab79
 Directory: 3.12/alpine/management
 
 Tags: 3.12.4
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
 GitCommit: af4b3006dd089278d45b5e925f54403314e50b18
 Directory: 3.12/ubuntu
 
 Tags: 3.12.4-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
 GitCommit: c30652127ae871535b7ec8ecda8046948a52ab79
 Directory: 3.12/ubuntu/management
 
 Tags: 3.12.4-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: af4b3006dd089278d45b5e925f54403314e50b18
 Directory: 3.12/alpine
 
 Tags: 3.12.4-management-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: c30652127ae871535b7ec8ecda8046948a52ab79
 Directory: 3.12/alpine/management
 
 Tags: 3.11.22
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: 24bfe1c0303506838e7b9c6d50ac42c1655c6473
 Directory: 3.11/ubuntu
 
 Tags: 3.11.22-management
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
+Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.11/ubuntu/management
 
 Tags: 3.11.22-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 24bfe1c0303506838e7b9c6d50ac42c1655c6473
 Directory: 3.11/alpine
 
 Tags: 3.11.22-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.11/alpine/management
 
@@ -166,12 +166,12 @@ GitCommit: cad64a21990ac10bee474e8cf102f17ec57fd821
 Directory: 3.13-rc/ubuntu
 
 Tags: 3.13.0-beta.5-management
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: 80011d74327aea3ddd460b189c6533c1f177f48f
 Directory: 3.13-rc/ubuntu/management
 
 Tags: 3.13.0-beta.5-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: cad64a21990ac10bee474e8cf102f17ec57fd821
 Directory: 3.13-rc/alpine
 
@@ -181,12 +181,12 @@ GitCommit: 80011d74327aea3ddd460b189c6533c1f177f48f
 Directory: 3.13-rc/alpine/management
 
 Tags: 3.13.0-beta.4
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
 GitCommit: 05bc72cdc91d9c85319d917ea749ae7f82792adc
 Directory: 3.13-rc/ubuntu
 
 Tags: 3.13.0-beta.4-management
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: 80011d74327aea3ddd460b189c6533c1f177f48f
 Directory: 3.13-rc/ubuntu/management
 
@@ -196,57 +196,57 @@ GitCommit: 05bc72cdc91d9c85319d917ea749ae7f82792adc
 Directory: 3.13-rc/alpine
 
 Tags: 3.13.0-beta.4-management-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 80011d74327aea3ddd460b189c6533c1f177f48f
 Directory: 3.13-rc/alpine/management
 
 Tags: 3.12.3
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
 GitCommit: 274d0a537ffb64d3748bbd94064fb603b58c03ba
 Directory: 3.12/ubuntu
 
 Tags: 3.12.3-management
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: c30652127ae871535b7ec8ecda8046948a52ab79
 Directory: 3.12/ubuntu/management
 
 Tags: 3.12.3-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 274d0a537ffb64d3748bbd94064fb603b58c03ba
 Directory: 3.12/alpine
 
 Tags: 3.12.3-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: c30652127ae871535b7ec8ecda8046948a52ab79
 Directory: 3.12/alpine/management
 
 Tags: 3.11.21
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: 98f3966e2b5be9f9dc81ff0d345101ad79c2e864
 Directory: 3.11/ubuntu
 
 Tags: 3.11.21-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.11/ubuntu/management
 
 Tags: 3.11.21-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 98f3966e2b5be9f9dc81ff0d345101ad79c2e864
 Directory: 3.11/alpine
 
 Tags: 3.11.21-management-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.11/alpine/management
 
 Tags: 3.12.2
-Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
 GitCommit: 2a34299995bd94fa478bb688ec6ea1ca0dfb3f76
 Directory: 3.12/ubuntu
 
 Tags: 3.12.2-management
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: c30652127ae871535b7ec8ecda8046948a52ab79
 Directory: 3.12/ubuntu/management
 
@@ -256,27 +256,27 @@ GitCommit: 2a34299995bd94fa478bb688ec6ea1ca0dfb3f76
 Directory: 3.12/alpine
 
 Tags: 3.12.2-management-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: c30652127ae871535b7ec8ecda8046948a52ab79
 Directory: 3.12/alpine/management
 
 Tags: 3.11.20
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
 GitCommit: 2a34299995bd94fa478bb688ec6ea1ca0dfb3f76
 Directory: 3.11/ubuntu
 
 Tags: 3.11.20-management
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.11/ubuntu/management
 
 Tags: 3.11.20-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 2a34299995bd94fa478bb688ec6ea1ca0dfb3f76
 Directory: 3.11/alpine
 
 Tags: 3.11.20-management-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.11/alpine/management
 
@@ -286,22 +286,22 @@ GitCommit: 2a34299995bd94fa478bb688ec6ea1ca0dfb3f76
 Directory: 3.13-rc/ubuntu
 
 Tags: 3.13.0-beta.3-management
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: 80011d74327aea3ddd460b189c6533c1f177f48f
 Directory: 3.13-rc/ubuntu/management
 
 Tags: 3.13.0-beta.3-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 2a34299995bd94fa478bb688ec6ea1ca0dfb3f76
 Directory: 3.13-rc/alpine
 
 Tags: 3.13.0-beta.3-management-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 80011d74327aea3ddd460b189c6533c1f177f48f
 Directory: 3.13-rc/alpine/management
 
 Tags: 3.13.0-beta.2
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: 80011d74327aea3ddd460b189c6533c1f177f48f
 Directory: 3.13-rc/ubuntu
 
@@ -311,62 +311,62 @@ GitCommit: 80011d74327aea3ddd460b189c6533c1f177f48f
 Directory: 3.13-rc/ubuntu/management
 
 Tags: 3.13.0-beta.2-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 80011d74327aea3ddd460b189c6533c1f177f48f
 Directory: 3.13-rc/alpine
 
 Tags: 3.13.0-beta.2-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 80011d74327aea3ddd460b189c6533c1f177f48f
 Directory: 3.13-rc/alpine/management
 
 Tags: 3.12.2-beta.1,3.12-rc
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: ab0188c3c2114781aa4a4c826457b9c2bdf692ef
 Directory: 3.12-rc/ubuntu
 
 Tags: 3.12.2-beta.1-management,3.12-rc-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
 GitCommit: ab0188c3c2114781aa4a4c826457b9c2bdf692ef
 Directory: 3.12-rc/ubuntu/management
 
 Tags: 3.12.2-beta.1-alpine,3.12-rc-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: ab0188c3c2114781aa4a4c826457b9c2bdf692ef
 Directory: 3.12-rc/alpine
 
 Tags: 3.12.2-beta.1-management-alpine,3.12-rc-management-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: ab0188c3c2114781aa4a4c826457b9c2bdf692ef
 Directory: 3.12-rc/alpine/management
 
 Tags: 3.12.1
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: faaae425d4266dfef0c9ab24e3c3b334855a40e5
 Directory: 3.12/ubuntu
 
 Tags: 3.12.1-management
-Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: c30652127ae871535b7ec8ecda8046948a52ab79
 Directory: 3.12/ubuntu/management
 
 Tags: 3.12.1-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: faaae425d4266dfef0c9ab24e3c3b334855a40e5
 Directory: 3.12/alpine
 
 Tags: 3.12.1-management-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: c30652127ae871535b7ec8ecda8046948a52ab79
 Directory: 3.12/alpine/management
 
 Tags: 3.11.19
-Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
 GitCommit: 3992197c002b7dd9e19f7682eacd9cc749ac03fe
 Directory: 3.11/ubuntu
 
 Tags: 3.11.19-management
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.11/ubuntu/management
 
@@ -376,22 +376,22 @@ GitCommit: 3992197c002b7dd9e19f7682eacd9cc749ac03fe
 Directory: 3.11/alpine
 
 Tags: 3.11.19-management-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.11/alpine/management
 
 Tags: 3.10.24
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
 GitCommit: 3992197c002b7dd9e19f7682eacd9cc749ac03fe
 Directory: 3.10/ubuntu
 
 Tags: 3.10.24-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.10/ubuntu/management
 
 Tags: 3.10.24-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 3992197c002b7dd9e19f7682eacd9cc749ac03fe
 Directory: 3.10/alpine
 
@@ -401,12 +401,12 @@ GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.10/alpine/management
 
 Tags: 3.12.0
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: 0192a912d656a74b27e8d3ebe0df1aa0d08dd92c
 Directory: 3.12/ubuntu
 
 Tags: 3.12.0-management
-Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: c30652127ae871535b7ec8ecda8046948a52ab79
 Directory: 3.12/ubuntu/management
 
@@ -426,37 +426,37 @@ GitCommit: 0192a912d656a74b27e8d3ebe0df1aa0d08dd92c
 Directory: 3.11/ubuntu
 
 Tags: 3.11.18-management
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
-GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
-Directory: 3.11/ubuntu/management
-
-Tags: 3.11.18-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
-GitCommit: 0192a912d656a74b27e8d3ebe0df1aa0d08dd92c
-Directory: 3.11/alpine
-
-Tags: 3.11.18-management-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
-GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
-Directory: 3.11/alpine/management
-
-Tags: 3.11.17
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
-GitCommit: c30652127ae871535b7ec8ecda8046948a52ab79
-Directory: 3.11/ubuntu
-
-Tags: 3.11.17-management
 Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.11/ubuntu/management
 
+Tags: 3.11.18-alpine
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+GitCommit: 0192a912d656a74b27e8d3ebe0df1aa0d08dd92c
+Directory: 3.11/alpine
+
+Tags: 3.11.18-management-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
+Directory: 3.11/alpine/management
+
+Tags: 3.11.17
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: c30652127ae871535b7ec8ecda8046948a52ab79
+Directory: 3.11/ubuntu
+
+Tags: 3.11.17-management
+Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
+GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
+Directory: 3.11/ubuntu/management
+
 Tags: 3.11.17-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: c30652127ae871535b7ec8ecda8046948a52ab79
 Directory: 3.11/alpine
 
 Tags: 3.11.17-management-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.11/alpine/management
 
@@ -466,67 +466,67 @@ GitCommit: c30652127ae871535b7ec8ecda8046948a52ab79
 Directory: 3.10/ubuntu
 
 Tags: 3.10.23-management
-Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.10/ubuntu/management
 
 Tags: 3.10.23-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: c30652127ae871535b7ec8ecda8046948a52ab79
 Directory: 3.10/alpine
 
 Tags: 3.10.23-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.10/alpine/management
 
 Tags: 3.12.0-rc.4
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
 GitCommit: 2466fb116a22441798f38838f4f1d00980b0f348
 Directory: 3.12-rc/ubuntu
 
 Tags: 3.12.0-rc.4-management
-Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.12-rc/ubuntu/management
 
 Tags: 3.12.0-rc.4-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 2466fb116a22441798f38838f4f1d00980b0f348
 Directory: 3.12-rc/alpine
 
 Tags: 3.12.0-rc.4-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.12-rc/alpine/management
 
 Tags: 3.12.0-rc.3
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
 GitCommit: d4a5dd93da59ff2d187bf9ee646496af737ac10f
 Directory: 3.12-rc/ubuntu
 
 Tags: 3.12.0-rc.3-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.12-rc/ubuntu/management
 
 Tags: 3.12.0-rc.3-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: d4a5dd93da59ff2d187bf9ee646496af737ac10f
 Directory: 3.12-rc/alpine
 
 Tags: 3.12.0-rc.3-management-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.12-rc/alpine/management
 
 Tags: 3.11.16
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
 GitCommit: c38ceb4d79f6d775973792da78e71e52d3c99ab9
 Directory: 3.11/ubuntu
 
 Tags: 3.11.16-management
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.11/ubuntu/management
 
@@ -536,7 +536,7 @@ GitCommit: c38ceb4d79f6d775973792da78e71e52d3c99ab9
 Directory: 3.11/alpine
 
 Tags: 3.11.16-management-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.11/alpine/management
 
@@ -551,7 +551,7 @@ GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.10/ubuntu/management
 
 Tags: 3.10.22-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 559818693cad2b11238e59e0ae9e8dc537e9cf00
 Directory: 3.10/alpine
 
@@ -561,7 +561,7 @@ GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.10/alpine/management
 
 Tags: 3.12.0-rc.2
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: c0b2f923c9606ce2581869344928f0146241e099
 Directory: 3.12-rc/ubuntu
 
@@ -576,32 +576,32 @@ GitCommit: c0b2f923c9606ce2581869344928f0146241e099
 Directory: 3.12-rc/alpine
 
 Tags: 3.12.0-rc.2-management-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.12-rc/alpine/management
 
 Tags: 3.12.0-rc.1
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: 6445a8d1b16de9188bccfb0b29ab0cf448eadbb3
 Directory: 3.12-rc/ubuntu
 
 Tags: 3.12.0-rc.1-management
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.12-rc/ubuntu/management
 
 Tags: 3.12.0-rc.1-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 559818693cad2b11238e59e0ae9e8dc537e9cf00
 Directory: 3.12-rc/alpine
 
 Tags: 3.12.0-rc.1-management-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.12-rc/alpine/management
 
 Tags: 3.11.15
-Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: 8de237303dee7eece27df0c56a13cf97714341d4
 Directory: 3.11/ubuntu
 
@@ -611,12 +611,12 @@ GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.11/ubuntu/management
 
 Tags: 3.11.15-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 559818693cad2b11238e59e0ae9e8dc537e9cf00
 Directory: 3.11/alpine
 
 Tags: 3.11.15-management-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.11/alpine/management
 
@@ -626,27 +626,27 @@ GitCommit: 3ea9ce9d8236ae6b6c8a8a592d8eee16bd11589d
 Directory: 3.11/ubuntu
 
 Tags: 3.11.14-management
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.11/ubuntu/management
 
 Tags: 3.11.14-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 3ea9ce9d8236ae6b6c8a8a592d8eee16bd11589d
 Directory: 3.11/alpine
 
 Tags: 3.11.14-management-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.11/alpine/management
 
 Tags: 3.10.21
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: f87b6cbcbe25573ea37f58d2449af3bfcedfa122
 Directory: 3.10/ubuntu
 
 Tags: 3.10.21-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.10/ubuntu/management
 
@@ -661,42 +661,42 @@ GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.10/alpine/management
 
 Tags: 3.10.20
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: e83ba26490c576005582578379678ecbbe6913fb
 Directory: 3.10/ubuntu
 
 Tags: 3.10.20-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.10/ubuntu/management
 
 Tags: 3.10.20-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: e83ba26490c576005582578379678ecbbe6913fb
 Directory: 3.10/alpine
 
 Tags: 3.10.20-management-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.10/alpine/management
 
 Tags: 3.11.13
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
 GitCommit: acf81d56afb65945351ada4056a7a6cc6b7afcdc
 Directory: 3.11/ubuntu
 
 Tags: 3.11.13-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.11/ubuntu/management
 
 Tags: 3.11.13-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: acf81d56afb65945351ada4056a7a6cc6b7afcdc
 Directory: 3.11/alpine
 
 Tags: 3.11.13-management-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.11/alpine/management
 
@@ -706,22 +706,22 @@ GitCommit: fb2d010b5ba1205250722d5e1febc62ee7a98d76
 Directory: 3.12-rc/ubuntu
 
 Tags: 3.12.0-beta.8-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.12-rc/ubuntu/management
 
 Tags: 3.12.0-beta.8-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: fb2d010b5ba1205250722d5e1febc62ee7a98d76
 Directory: 3.12-rc/alpine
 
 Tags: 3.12.0-beta.8-management-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.12-rc/alpine/management
 
 Tags: 3.12.0-beta.6
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: 6bce1f24efb19c3a8b4120759cac58f34e8203e3
 Directory: 3.12-rc/ubuntu
 
@@ -731,7 +731,7 @@ GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.12-rc/ubuntu/management
 
 Tags: 3.12.0-beta.6-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 6bce1f24efb19c3a8b4120759cac58f34e8203e3
 Directory: 3.12-rc/alpine
 
@@ -746,7 +746,7 @@ GitCommit: 954b05e8e8a352116a25085c06fb1d8a9b49302a
 Directory: 3.12-rc/ubuntu
 
 Tags: 3.12.0-beta.5-management
-Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.12-rc/ubuntu/management
 
@@ -756,12 +756,12 @@ GitCommit: 954b05e8e8a352116a25085c06fb1d8a9b49302a
 Directory: 3.12-rc/alpine
 
 Tags: 3.12.0-beta.5-management-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.12-rc/alpine/management
 
 Tags: 3.12.0-beta.3
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
 GitCommit: 6a960c02c9b01998514f7bb4e100f9dabfdcaca3
 Directory: 3.12-rc/ubuntu
 
@@ -771,47 +771,47 @@ GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.12-rc/ubuntu/management
 
 Tags: 3.12.0-beta.3-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 6a960c02c9b01998514f7bb4e100f9dabfdcaca3
 Directory: 3.12-rc/alpine
 
 Tags: 3.12.0-beta.3-management-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.12-rc/alpine/management
 
 Tags: 3.11.11
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.11/ubuntu
 
 Tags: 3.11.11-management
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.11/ubuntu/management
 
 Tags: 3.11.11-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.11/alpine
 
 Tags: 3.11.11-management-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: b41c10aaddc91da62f96994ab62e9d1ea590c455
 Directory: 3.11/alpine/management
 
 Tags: 3.12.0-beta.2
-Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: ca55cfc9bcb9dd0a7c7abebd9191d0a38e90ad8c
 Directory: 3.12-rc/ubuntu
 
 Tags: 3.12.0-beta.2-management
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
+Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
 GitCommit: 1bc76ab8a311cf03d40c95ac9aedd6d9473d048f
 Directory: 3.12-rc/ubuntu/management
 
 Tags: 3.12.0-beta.2-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: ca55cfc9bcb9dd0a7c7abebd9191d0a38e90ad8c
 Directory: 3.12-rc/alpine
 
@@ -831,97 +831,97 @@ GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/ubuntu/management
 
 Tags: 3.10.19-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 608d785d094ed95085f90e1058dfeeaa6eb75039
 Directory: 3.10/alpine
 
 Tags: 3.10.19-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/alpine/management
 
 Tags: 3.11.10
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
 GitCommit: 608d785d094ed95085f90e1058dfeeaa6eb75039
 Directory: 3.11/ubuntu
 
 Tags: 3.11.10-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: 65eb19295b7975c4614d6071fb3fc6a1b86282a1
 Directory: 3.11/ubuntu/management
 
 Tags: 3.11.10-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 608d785d094ed95085f90e1058dfeeaa6eb75039
 Directory: 3.11/alpine
 
 Tags: 3.11.10-management-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 65eb19295b7975c4614d6071fb3fc6a1b86282a1
 Directory: 3.11/alpine/management
 
 Tags: 3.12.0-beta.1
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: 92cf3ab7107d78127192516c4011d2daef036700
 Directory: 3.12-rc/ubuntu
 
 Tags: 3.12.0-beta.1-management
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: 1bc76ab8a311cf03d40c95ac9aedd6d9473d048f
 Directory: 3.12-rc/ubuntu/management
 
 Tags: 3.12.0-beta.1-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 92cf3ab7107d78127192516c4011d2daef036700
 Directory: 3.12-rc/alpine
 
 Tags: 3.12.0-beta.1-management-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 1bc76ab8a311cf03d40c95ac9aedd6d9473d048f
 Directory: 3.12-rc/alpine/management
 
 Tags: 3.9.28
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: 92cf3ab7107d78127192516c4011d2daef036700
 Directory: 3.9/ubuntu
 
 Tags: 3.9.28-management
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/ubuntu/management
 
 Tags: 3.9.28-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 92cf3ab7107d78127192516c4011d2daef036700
 Directory: 3.9/alpine
 
 Tags: 3.9.28-management-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine/management
 
 Tags: 3.11.9
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
 GitCommit: 1f1974a3ed053cf20116746a6c3cd64fc1896d23
 Directory: 3.11/ubuntu
 
 Tags: 3.11.9-management
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: 65eb19295b7975c4614d6071fb3fc6a1b86282a1
 Directory: 3.11/ubuntu/management
 
 Tags: 3.11.9-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 1f1974a3ed053cf20116746a6c3cd64fc1896d23
 Directory: 3.11/alpine
 
 Tags: 3.11.9-management-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 65eb19295b7975c4614d6071fb3fc6a1b86282a1
 Directory: 3.11/alpine/management
 
 Tags: 3.10.18
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
 GitCommit: 0fece9e37e716ee72ed8873238c7c9f3f85e3737
 Directory: 3.10/ubuntu
 
@@ -931,27 +931,27 @@ GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/ubuntu/management
 
 Tags: 3.10.18-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 0fece9e37e716ee72ed8873238c7c9f3f85e3737
 Directory: 3.10/alpine
 
 Tags: 3.10.18-management-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/alpine/management
 
 Tags: 3.11.8
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
 GitCommit: 5c961954162b5e6ecb0e173e34a8c7bbcdc9d3d3
 Directory: 3.11/ubuntu
 
 Tags: 3.11.8-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: 65eb19295b7975c4614d6071fb3fc6a1b86282a1
 Directory: 3.11/ubuntu/management
 
 Tags: 3.11.8-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 5c961954162b5e6ecb0e173e34a8c7bbcdc9d3d3
 Directory: 3.11/alpine
 
@@ -961,27 +961,27 @@ GitCommit: 65eb19295b7975c4614d6071fb3fc6a1b86282a1
 Directory: 3.11/alpine/management
 
 Tags: 3.10.17
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: 019574ecad13805af60bba9fe60861c89a8ec162
 Directory: 3.10/ubuntu
 
 Tags: 3.10.17-management
-Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/ubuntu/management
 
 Tags: 3.10.17-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 019574ecad13805af60bba9fe60861c89a8ec162
 Directory: 3.10/alpine
 
 Tags: 3.10.17-management-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/alpine/management
 
 Tags: 3.11.7
-Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: 951163e34b4d4fd5f033ebcd6eebeb4c46f53db9
 Directory: 3.11/ubuntu
 
@@ -991,27 +991,27 @@ GitCommit: 65eb19295b7975c4614d6071fb3fc6a1b86282a1
 Directory: 3.11/ubuntu/management
 
 Tags: 3.11.7-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 951163e34b4d4fd5f033ebcd6eebeb4c46f53db9
 Directory: 3.11/alpine
 
 Tags: 3.11.7-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 65eb19295b7975c4614d6071fb3fc6a1b86282a1
 Directory: 3.11/alpine/management
 
 Tags: 3.10.14
-Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
+Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
 GitCommit: 2667503316c08b40e10b0c43d54d71bfe5f194b8
 Directory: 3.10/ubuntu
 
 Tags: 3.10.14-management
-Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
+Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
 GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/ubuntu/management
 
 Tags: 3.10.14-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 2667503316c08b40e10b0c43d54d71bfe5f194b8
 Directory: 3.10/alpine
 
@@ -1026,42 +1026,42 @@ GitCommit: 83e0a9443ab2b30c3121acd2d6ae0190962d7ba5
 Directory: 3.9/ubuntu
 
 Tags: 3.9.27-management
-Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/ubuntu/management
 
 Tags: 3.9.27-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 83e0a9443ab2b30c3121acd2d6ae0190962d7ba5
 Directory: 3.9/alpine
 
 Tags: 3.9.27-management-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine/management
 
 Tags: 3.11.6
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
 GitCommit: a74a786356f12d59b2b19cfe0b1c9d1c78bb6f9c
 Directory: 3.11/ubuntu
 
 Tags: 3.11.6-management
-Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
+Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
 GitCommit: 65eb19295b7975c4614d6071fb3fc6a1b86282a1
 Directory: 3.11/ubuntu/management
 
 Tags: 3.11.6-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: a74a786356f12d59b2b19cfe0b1c9d1c78bb6f9c
 Directory: 3.11/alpine
 
 Tags: 3.11.6-management-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 65eb19295b7975c4614d6071fb3fc6a1b86282a1
 Directory: 3.11/alpine/management
 
 Tags: 3.10.13
-Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
 GitCommit: 5d66324218c46b8e2f80487086972d24ccfae9bb
 Directory: 3.10/ubuntu
 
@@ -1071,7 +1071,7 @@ GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/ubuntu/management
 
 Tags: 3.10.13-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 5d66324218c46b8e2f80487086972d24ccfae9bb
 Directory: 3.10/alpine
 
@@ -1081,22 +1081,22 @@ GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/alpine/management
 
 Tags: 3.11.5
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
 GitCommit: eb98ea3aee0df586882c4118c74b870f11072bbf
 Directory: 3.11/ubuntu
 
 Tags: 3.11.5-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 GitCommit: 65eb19295b7975c4614d6071fb3fc6a1b86282a1
 Directory: 3.11/ubuntu/management
 
 Tags: 3.11.5-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: eb98ea3aee0df586882c4118c74b870f11072bbf
 Directory: 3.11/alpine
 
 Tags: 3.11.5-management-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 65eb19295b7975c4614d6071fb3fc6a1b86282a1
 Directory: 3.11/alpine/management
 
@@ -1106,22 +1106,22 @@ GitCommit: 3db783ab9350944e83f1b49d34dcf5de81060804
 Directory: 3.11/ubuntu
 
 Tags: 3.11.4-management
-Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: 65eb19295b7975c4614d6071fb3fc6a1b86282a1
 Directory: 3.11/ubuntu/management
 
 Tags: 3.11.4-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: f9d66be3f9ec1fdf46afe8c4a0f256b712502545
 Directory: 3.11/alpine
 
 Tags: 3.11.4-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 65eb19295b7975c4614d6071fb3fc6a1b86282a1
 Directory: 3.11/alpine/management
 
 Tags: 3.10.12
-Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
 GitCommit: 71ae749340242da89429510fb93249f334fd80bc
 Directory: 3.10/ubuntu
 
@@ -1131,22 +1131,22 @@ GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/ubuntu/management
 
 Tags: 3.10.12-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: f9d66be3f9ec1fdf46afe8c4a0f256b712502545
 Directory: 3.10/alpine
 
 Tags: 3.10.12-management-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/alpine/management
 
 Tags: 3.9.26
-Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: c9ff662db9bd80e965f821bb3add6fa5f8c84ac7
 Directory: 3.9/ubuntu
 
 Tags: 3.9.26-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/ubuntu/management
 
@@ -1156,47 +1156,47 @@ GitCommit: f9d66be3f9ec1fdf46afe8c4a0f256b712502545
 Directory: 3.9/alpine
 
 Tags: 3.9.26-management-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine/management
 
 Tags: 3.11.3
-Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
 GitCommit: 25e6264d4e6029a042e88843b10fcc60c80652c8
 Directory: 3.11/ubuntu
 
 Tags: 3.11.3-management
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
+Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
 GitCommit: 65eb19295b7975c4614d6071fb3fc6a1b86282a1
 Directory: 3.11/ubuntu/management
 
 Tags: 3.11.3-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 25e6264d4e6029a042e88843b10fcc60c80652c8
 Directory: 3.11/alpine
 
 Tags: 3.11.3-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 65eb19295b7975c4614d6071fb3fc6a1b86282a1
 Directory: 3.11/alpine/management
 
 Tags: 3.10.11
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
 GitCommit: 2d633b92e36b492f9c256948269f8fbed622f769
 Directory: 3.10/ubuntu
 
 Tags: 3.10.11-management
-Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/ubuntu/management
 
 Tags: 3.10.11-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 2d633b92e36b492f9c256948269f8fbed622f769
 Directory: 3.10/alpine
 
 Tags: 3.10.11-management-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/alpine/management
 
@@ -1206,82 +1206,82 @@ GitCommit: 9a7af4b06a712d387b1a944e9d98913aa224c9e2
 Directory: 3.9/ubuntu
 
 Tags: 3.9.25-management
-Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/ubuntu/management
 
 Tags: 3.9.25-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 9a7af4b06a712d387b1a944e9d98913aa224c9e2
 Directory: 3.9/alpine
 
 Tags: 3.9.25-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine/management
 
 Tags: 3.11.2
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
 GitCommit: 67c76c7669d5bf30a09e4f2083f316586ee8aec0
 Directory: 3.11/ubuntu
 
 Tags: 3.11.2-management
-Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: 65eb19295b7975c4614d6071fb3fc6a1b86282a1
 Directory: 3.11/ubuntu/management
 
 Tags: 3.11.2-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 67c76c7669d5bf30a09e4f2083f316586ee8aec0
 Directory: 3.11/alpine
 
 Tags: 3.11.2-management-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 65eb19295b7975c4614d6071fb3fc6a1b86282a1
 Directory: 3.11/alpine/management
 
 Tags: 3.10.10
-Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
+Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
 GitCommit: ef0119d941863cecffe09ccd493357aad42fb349
 Directory: 3.10/ubuntu
 
 Tags: 3.10.10-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
 GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/ubuntu/management
 
 Tags: 3.10.10-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: ef0119d941863cecffe09ccd493357aad42fb349
 Directory: 3.10/alpine
 
 Tags: 3.10.10-management-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/alpine/management
 
 Tags: 3.9.24
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 GitCommit: 53cd8a9aef90196c985ec3ccad0eb375ba33d6f9
 Directory: 3.9/ubuntu
 
 Tags: 3.9.24-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/ubuntu/management
 
 Tags: 3.9.24-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 53cd8a9aef90196c985ec3ccad0eb375ba33d6f9
 Directory: 3.9/alpine
 
 Tags: 3.9.24-management-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine/management
 
 Tags: 3.11.1
-Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 GitCommit: b42daca81a4ec6b58f25411faa761de38e6d803b
 Directory: 3.11/ubuntu
 
@@ -1291,22 +1291,22 @@ GitCommit: 65eb19295b7975c4614d6071fb3fc6a1b86282a1
 Directory: 3.11/ubuntu/management
 
 Tags: 3.11.1-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: b42daca81a4ec6b58f25411faa761de38e6d803b
 Directory: 3.11/alpine
 
 Tags: 3.11.1-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 65eb19295b7975c4614d6071fb3fc6a1b86282a1
 Directory: 3.11/alpine/management
 
 Tags: 3.10.9
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
 GitCommit: 027946dcc252a0caae3cc32c0e4692a292bf9c0e
 Directory: 3.10/ubuntu
 
 Tags: 3.10.9-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
 GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/ubuntu/management
 
@@ -1316,12 +1316,12 @@ GitCommit: 027946dcc252a0caae3cc32c0e4692a292bf9c0e
 Directory: 3.10/alpine
 
 Tags: 3.10.9-management-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/alpine/management
 
 Tags: 3.9.23
-Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
+Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
 GitCommit: 6889979f517c7ea3a7bd54bb88864dc8c29d327c
 Directory: 3.9/ubuntu
 
@@ -1331,97 +1331,97 @@ GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/ubuntu/management
 
 Tags: 3.9.23-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 6889979f517c7ea3a7bd54bb88864dc8c29d327c
 Directory: 3.9/alpine
 
 Tags: 3.9.23-management-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine/management
 
 Tags: 3.11.0
-Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: d3f7e6670723ced1c4169cf64d86de2678550de8
 Directory: 3.11/ubuntu
 
 Tags: 3.11.0-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 GitCommit: 65eb19295b7975c4614d6071fb3fc6a1b86282a1
 Directory: 3.11/ubuntu/management
 
 Tags: 3.11.0-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: d3f7e6670723ced1c4169cf64d86de2678550de8
 Directory: 3.11/alpine
 
 Tags: 3.11.0-management-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 65eb19295b7975c4614d6071fb3fc6a1b86282a1
 Directory: 3.11/alpine/management
 
 Tags: 3.10.8
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
 GitCommit: 5c12896e9bb300a38f9436fb18cba286f1b3c02b
 Directory: 3.10/ubuntu
 
 Tags: 3.10.8-management
-Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/ubuntu/management
 
 Tags: 3.10.8-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 5c12896e9bb300a38f9436fb18cba286f1b3c02b
 Directory: 3.10/alpine
 
 Tags: 3.10.8-management-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/alpine/management
 
 Tags: 3.9.22
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
 GitCommit: 62b837a84aee6b89ea2fe97ed33419f41fa6ff9c
 Directory: 3.9/ubuntu
 
 Tags: 3.9.22-management
-Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
+Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/ubuntu/management
 
 Tags: 3.9.22-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 62b837a84aee6b89ea2fe97ed33419f41fa6ff9c
 Directory: 3.9/alpine
 
 Tags: 3.9.22-management-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine/management
 
 Tags: 3.11.0-rc.1,3.11-rc
-Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: 957fa310f884d82777a4c145e194d50abab7cd3e
 Directory: 3.11-rc/ubuntu
 
 Tags: 3.11.0-rc.1-management,3.11-rc-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 GitCommit: 957fa310f884d82777a4c145e194d50abab7cd3e
 Directory: 3.11-rc/ubuntu/management
 
 Tags: 3.11.0-rc.1-alpine,3.11-rc-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 957fa310f884d82777a4c145e194d50abab7cd3e
 Directory: 3.11-rc/alpine
 
 Tags: 3.11.0-rc.1-management-alpine,3.11-rc-management-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 957fa310f884d82777a4c145e194d50abab7cd3e
 Directory: 3.11-rc/alpine/management
 
 Tags: 3.10.7
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 GitCommit: e3e84ca4cae306b2c199d6e529c17fd303cb54f5
 Directory: 3.10/ubuntu
 
@@ -1431,7 +1431,7 @@ GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/ubuntu/management
 
 Tags: 3.10.7-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: e3e84ca4cae306b2c199d6e529c17fd303cb54f5
 Directory: 3.10/alpine
 
@@ -1446,87 +1446,87 @@ GitCommit: fcfb714413fcf356e2c4984d204beb0b61da4449
 Directory: 3.10/ubuntu
 
 Tags: 3.10.6-management
-Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
+Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
 GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/ubuntu/management
 
 Tags: 3.10.6-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: fcfb714413fcf356e2c4984d204beb0b61da4449
 Directory: 3.10/alpine
 
 Tags: 3.10.6-management-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/alpine/management
 
 Tags: 3.9.21
-Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: d95bef7ee15122097ff8093e30bd8db2bb61936b
 Directory: 3.9/ubuntu
 
 Tags: 3.9.21-management
-Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/ubuntu/management
 
 Tags: 3.9.21-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: d95bef7ee15122097ff8093e30bd8db2bb61936b
 Directory: 3.9/alpine
 
 Tags: 3.9.21-management-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine/management
 
 Tags: 3.10.5
-Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: bccf0d0b257383de0f3a668395a433ad5857d1f6
 Directory: 3.10/ubuntu
 
 Tags: 3.10.5-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
 GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/ubuntu/management
 
 Tags: 3.10.5-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: bccf0d0b257383de0f3a668395a433ad5857d1f6
 Directory: 3.10/alpine
 
 Tags: 3.10.5-management-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/alpine/management
 
 Tags: 3.9.20
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
 GitCommit: 9d7e90cb0df835bf7b3b2c946954361a6795ec0c
 Directory: 3.9/ubuntu
 
 Tags: 3.9.20-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/ubuntu/management
 
 Tags: 3.9.20-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 9d7e90cb0df835bf7b3b2c946954361a6795ec0c
 Directory: 3.9/alpine
 
 Tags: 3.9.20-management-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine/management
 
 Tags: 3.8.34,3.8
-Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: 556adfcd5e57319650d88a4d1b3bd36ca41b33dc
 Directory: 3.8/ubuntu
 
 Tags: 3.8.34-management,3.8-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/ubuntu/management
 
@@ -1536,22 +1536,22 @@ GitCommit: 556adfcd5e57319650d88a4d1b3bd36ca41b33dc
 Directory: 3.8/alpine
 
 Tags: 3.8.34-management-alpine,3.8-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/alpine/management
 
 Tags: 3.10.2
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
 GitCommit: b273808985c229036651be0f39b8dd40f3ab9371
 Directory: 3.10/ubuntu
 
 Tags: 3.10.2-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/ubuntu/management
 
 Tags: 3.10.2-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 650d68093885196f810730172740aa8182b7be57
 Directory: 3.10/alpine
 
@@ -1561,32 +1561,32 @@ GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/alpine/management
 
 Tags: 3.9.19
-Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: e1fd408fef228900fa8a9f8b4d0ab816b2a03750
 Directory: 3.9/ubuntu
 
 Tags: 3.9.19-management
-Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/ubuntu/management
 
 Tags: 3.9.19-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: e1fd408fef228900fa8a9f8b4d0ab816b2a03750
 Directory: 3.9/alpine
 
 Tags: 3.9.19-management-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine/management
 
 Tags: 3.8.33
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: de4f040f08f4479b93b00ef0547c22c0c6bf5fa4
 Directory: 3.8/ubuntu
 
 Tags: 3.8.33-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/ubuntu/management
 
@@ -1596,32 +1596,32 @@ GitCommit: de4f040f08f4479b93b00ef0547c22c0c6bf5fa4
 Directory: 3.8/alpine
 
 Tags: 3.8.33-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/alpine/management
 
 Tags: 3.9.18
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
 GitCommit: f44b729eebd85076f5ab32bdb7a400f240fa5543
 Directory: 3.9/ubuntu
 
 Tags: 3.9.18-management
-Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/ubuntu/management
 
 Tags: 3.9.18-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 650d68093885196f810730172740aa8182b7be57
 Directory: 3.9/alpine
 
 Tags: 3.9.18-management-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine/management
 
 Tags: 3.8.32
-Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: bdcb5a2f50c546feda2eef155472328aae7547f0
 Directory: 3.8/ubuntu
 
@@ -1631,7 +1631,7 @@ GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/ubuntu/management
 
 Tags: 3.8.32-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 650d68093885196f810730172740aa8182b7be57
 Directory: 3.8/alpine
 
@@ -1641,37 +1641,37 @@ GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/alpine/management
 
 Tags: 3.10.1
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: 20237cd25be1ad127ddfa1c491fb7f5dda209010
 Directory: 3.10/ubuntu
 
 Tags: 3.10.1-management
-Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
+Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
 GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/ubuntu/management
 
 Tags: 3.10.1-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 20237cd25be1ad127ddfa1c491fb7f5dda209010
 Directory: 3.10/alpine
 
 Tags: 3.10.1-management-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/alpine/management
 
 Tags: 3.9.17
-Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: 8f86cbbfc8d0fc806df58ee696d9d0953fb92a86
 Directory: 3.9/ubuntu
 
 Tags: 3.9.17-management
-Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/ubuntu/management
 
 Tags: 3.9.17-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 8f86cbbfc8d0fc806df58ee696d9d0953fb92a86
 Directory: 3.9/alpine
 
@@ -1681,27 +1681,27 @@ GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine/management
 
 Tags: 3.8.31
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: 298dd4fd4fb5310ca4c5f033c2b6f2e8f3bc9bce
 Directory: 3.8/ubuntu
 
 Tags: 3.8.31-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/ubuntu/management
 
 Tags: 3.8.31-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 298dd4fd4fb5310ca4c5f033c2b6f2e8f3bc9bce
 Directory: 3.8/alpine
 
 Tags: 3.8.31-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/alpine/management
 
 Tags: 3.10.0
-Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
 GitCommit: 89b0f2b279f66b8bd8352ad0f1046d70dd44451f
 Directory: 3.10/ubuntu
 
@@ -1711,17 +1711,17 @@ GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/ubuntu/management
 
 Tags: 3.10.0-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 89b0f2b279f66b8bd8352ad0f1046d70dd44451f
 Directory: 3.10/alpine
 
 Tags: 3.10.0-management-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 6e226fe8e99702c8726d5e7d5c5864e69548048d
 Directory: 3.10/alpine/management
 
 Tags: 3.9.16
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
 GitCommit: 7cefe056b5fc2e0cbeb5fac1cd02a75aacefaaf8
 Directory: 3.9/ubuntu
 
@@ -1731,37 +1731,37 @@ GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/ubuntu/management
 
 Tags: 3.9.16-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 7cefe056b5fc2e0cbeb5fac1cd02a75aacefaaf8
 Directory: 3.9/alpine
 
 Tags: 3.9.16-management-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine/management
 
 Tags: 3.8.30
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
+Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
 GitCommit: 254f0cb93fd7e0c7f7a149a87ba76b11d9b4852f
 Directory: 3.8/ubuntu
 
 Tags: 3.8.30-management
-Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/ubuntu/management
 
 Tags: 3.8.30-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 254f0cb93fd7e0c7f7a149a87ba76b11d9b4852f
 Directory: 3.8/alpine
 
 Tags: 3.8.30-management-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/alpine/management
 
 Tags: 3.10.0-rc.6,3.10-rc
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
 GitCommit: 1e71ba8632dd3fbad8ea94d25ca45b8f8e3bf871
 Directory: 3.10-rc/ubuntu
 
@@ -1776,12 +1776,12 @@ GitCommit: 1e71ba8632dd3fbad8ea94d25ca45b8f8e3bf871
 Directory: 3.10-rc/alpine
 
 Tags: 3.10.0-rc.6-management-alpine,3.10-rc-management-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: b00aa90cc6b16b7e67e18f336d5fd9ef2bde5165
 Directory: 3.10-rc/alpine/management
 
 Tags: 3.10.0-rc.5
-Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: 0e5c6e73cc2c94e5701d219efe964414dd2b10e5
 Directory: 3.10-rc/ubuntu
 
@@ -1791,92 +1791,92 @@ GitCommit: b00aa90cc6b16b7e67e18f336d5fd9ef2bde5165
 Directory: 3.10-rc/ubuntu/management
 
 Tags: 3.10.0-rc.5-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 0e5c6e73cc2c94e5701d219efe964414dd2b10e5
 Directory: 3.10-rc/alpine
 
 Tags: 3.10.0-rc.5-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: b00aa90cc6b16b7e67e18f336d5fd9ef2bde5165
 Directory: 3.10-rc/alpine/management
 
 Tags: 3.10.0-rc.4
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
 GitCommit: 35795b133a1e9014a3b51ea4482deb1fb5e52077
 Directory: 3.10-rc/ubuntu
 
 Tags: 3.10.0-rc.4-management
-Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
 GitCommit: b00aa90cc6b16b7e67e18f336d5fd9ef2bde5165
 Directory: 3.10-rc/ubuntu/management
 
 Tags: 3.10.0-rc.4-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 35795b133a1e9014a3b51ea4482deb1fb5e52077
 Directory: 3.10-rc/alpine
 
 Tags: 3.10.0-rc.4-management-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: b00aa90cc6b16b7e67e18f336d5fd9ef2bde5165
 Directory: 3.10-rc/alpine/management
 
 Tags: 3.9.15
-Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: 0676cac114b88ef648ce5075de11fdc23e2530c9
 Directory: 3.9/ubuntu
 
 Tags: 3.9.15-management
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/ubuntu/management
 
 Tags: 3.9.15-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 0676cac114b88ef648ce5075de11fdc23e2530c9
 Directory: 3.9/alpine
 
 Tags: 3.9.15-management-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine/management
 
 Tags: 3.8.29
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 GitCommit: 621302422d8981d6a2416468938ccaa9a023375f
 Directory: 3.8/ubuntu
 
 Tags: 3.8.29-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/ubuntu/management
 
 Tags: 3.8.29-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 621302422d8981d6a2416468938ccaa9a023375f
 Directory: 3.8/alpine
 
 Tags: 3.8.29-management-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/alpine/management
 
 Tags: 3.10.0-rc.3
-Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
 GitCommit: e58ee8cd32e3d3d35fd6c6d6b040a93e27315373
 Directory: 3.10-rc/ubuntu
 
 Tags: 3.10.0-rc.3-management
-Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: b00aa90cc6b16b7e67e18f336d5fd9ef2bde5165
 Directory: 3.10-rc/ubuntu/management
 
 Tags: 3.10.0-rc.3-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: e58ee8cd32e3d3d35fd6c6d6b040a93e27315373
 Directory: 3.10-rc/alpine
 
 Tags: 3.10.0-rc.3-management-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: b00aa90cc6b16b7e67e18f336d5fd9ef2bde5165
 Directory: 3.10-rc/alpine/management
 
@@ -1886,27 +1886,27 @@ GitCommit: b93ca8c80f5865a58748e0a9e61f9f1e5b4c54cc
 Directory: 3.9/ubuntu
 
 Tags: 3.9.14-management
-Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/ubuntu/management
 
 Tags: 3.9.14-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: b93ca8c80f5865a58748e0a9e61f9f1e5b4c54cc
 Directory: 3.9/alpine
 
 Tags: 3.9.14-management-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine/management
 
 Tags: 3.8.28
-Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
 GitCommit: e8b28471913c8876a7b920a28aa7e66bed93ae07
 Directory: 3.8/ubuntu
 
 Tags: 3.8.28-management
-Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/ubuntu/management
 
@@ -1916,82 +1916,82 @@ GitCommit: e8b28471913c8876a7b920a28aa7e66bed93ae07
 Directory: 3.8/alpine
 
 Tags: 3.8.28-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/alpine/management
 
 Tags: 3.10.0-rc.1
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 GitCommit: 4915acc37abe53887788e022ffec8f15f7cd68f0
 Directory: 3.10-rc/ubuntu
 
 Tags: 3.10.0-rc.1-management
-Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
 GitCommit: b00aa90cc6b16b7e67e18f336d5fd9ef2bde5165
 Directory: 3.10-rc/ubuntu/management
 
 Tags: 3.10.0-rc.1-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 4915acc37abe53887788e022ffec8f15f7cd68f0
 Directory: 3.10-rc/alpine
 
 Tags: 3.10.0-rc.1-management-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: b00aa90cc6b16b7e67e18f336d5fd9ef2bde5165
 Directory: 3.10-rc/alpine/management
 
 Tags: 3.10.0-beta.5
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
 GitCommit: baaf5d063b34ce818993fa04bf8bb9de8d3a8994
 Directory: 3.10-rc/ubuntu
 
 Tags: 3.10.0-beta.5-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
 GitCommit: b00aa90cc6b16b7e67e18f336d5fd9ef2bde5165
 Directory: 3.10-rc/ubuntu/management
 
 Tags: 3.10.0-beta.5-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: baaf5d063b34ce818993fa04bf8bb9de8d3a8994
 Directory: 3.10-rc/alpine
 
 Tags: 3.10.0-beta.5-management-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: b00aa90cc6b16b7e67e18f336d5fd9ef2bde5165
 Directory: 3.10-rc/alpine/management
 
 Tags: 3.10.0-beta.4
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 GitCommit: 162017bb977c4e5826b34bf903c61bedb52c246d
 Directory: 3.10-rc/ubuntu
 
 Tags: 3.10.0-beta.4-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 GitCommit: b00aa90cc6b16b7e67e18f336d5fd9ef2bde5165
 Directory: 3.10-rc/ubuntu/management
 
 Tags: 3.10.0-beta.4-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 162017bb977c4e5826b34bf903c61bedb52c246d
 Directory: 3.10-rc/alpine
 
 Tags: 3.10.0-beta.4-management-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: b00aa90cc6b16b7e67e18f336d5fd9ef2bde5165
 Directory: 3.10-rc/alpine/management
 
 Tags: 3.9.13
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
+Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
 GitCommit: 99fffd58a22a408ba6b10f65a04010ef9e61e483
 Directory: 3.9/ubuntu
 
 Tags: 3.9.13-management
-Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/ubuntu/management
 
 Tags: 3.9.13-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 99fffd58a22a408ba6b10f65a04010ef9e61e483
 Directory: 3.9/alpine
 
@@ -2001,17 +2001,17 @@ GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine/management
 
 Tags: 3.8.27
-Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
+Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
 GitCommit: 074a2108c984a0f668321275f339a316418f7ca7
 Directory: 3.8/ubuntu
 
 Tags: 3.8.27-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/ubuntu/management
 
 Tags: 3.8.27-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 074a2108c984a0f668321275f339a316418f7ca7
 Directory: 3.8/alpine
 
@@ -2021,27 +2021,27 @@ GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/alpine/management
 
 Tags: 3.9.12
-Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: eb4800c1ee1f0e380462b547cd2bd58e5edb1bd3
 Directory: 3.9/ubuntu
 
 Tags: 3.9.12-management
-Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/ubuntu/management
 
 Tags: 3.9.12-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: eb4800c1ee1f0e380462b547cd2bd58e5edb1bd3
 Directory: 3.9/alpine
 
 Tags: 3.9.12-management-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine/management
 
 Tags: 3.9.11
-Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: 844403953ac5d3d1a2e6029e85b779df9a105d58
 Directory: 3.9/ubuntu
 
@@ -2051,17 +2051,17 @@ GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/ubuntu/management
 
 Tags: 3.9.11-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 844403953ac5d3d1a2e6029e85b779df9a105d58
 Directory: 3.9/alpine
 
 Tags: 3.9.11-management-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine/management
 
 Tags: 3.8.26
-Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: eb49905dccfa2b6ac6fb97e1aeb220c30984ce6b
 Directory: 3.8/ubuntu
 
@@ -2071,72 +2071,72 @@ GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/ubuntu/management
 
 Tags: 3.8.26-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: eb49905dccfa2b6ac6fb97e1aeb220c30984ce6b
 Directory: 3.8/alpine
 
 Tags: 3.8.26-management-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/alpine/management
 
 Tags: 3.9.10
-Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: 5ec7771d821917f6839d682ab04101f4d87a8daf
 Directory: 3.9/ubuntu
 
 Tags: 3.9.10-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/ubuntu/management
 
 Tags: 3.9.10-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 4b78ecfaf2e2223e9e874268c4903ec51a9ff515
 Directory: 3.9/alpine
 
 Tags: 3.9.10-management-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine/management
 
 Tags: 3.9.9
-Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 GitCommit: 3dfa5300285cfd418309e11748defe66737e4b68
 Directory: 3.9/ubuntu
 
 Tags: 3.9.9-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/ubuntu/management
 
 Tags: 3.9.9-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 3dfa5300285cfd418309e11748defe66737e4b68
 Directory: 3.9/alpine
 
 Tags: 3.9.9-management-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine/management
 
 Tags: 3.8.25
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
 GitCommit: 78df7f9ed67fbd7fd6d50969d49a1ad72c45dd05
 Directory: 3.8/ubuntu
 
 Tags: 3.8.25-management
-Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/ubuntu/management
 
 Tags: 3.8.25-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 78df7f9ed67fbd7fd6d50969d49a1ad72c45dd05
 Directory: 3.8/alpine
 
 Tags: 3.8.25-management-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/alpine/management
 
@@ -2146,12 +2146,12 @@ GitCommit: 6f032ec196489ee65888bcd48733bc06442dcd80
 Directory: 3.8/ubuntu
 
 Tags: 3.8.24-management
-Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/ubuntu/management
 
 Tags: 3.8.24-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 6f032ec196489ee65888bcd48733bc06442dcd80
 Directory: 3.8/alpine
 
@@ -2161,7 +2161,7 @@ GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/alpine/management
 
 Tags: 3.9.8
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
 GitCommit: e51b409bfb2dc4239fd4e80f1ce27ad9b5d01920
 Directory: 3.9/ubuntu
 
@@ -2176,17 +2176,17 @@ GitCommit: e51b409bfb2dc4239fd4e80f1ce27ad9b5d01920
 Directory: 3.9/alpine
 
 Tags: 3.9.8-management-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine/management
 
 Tags: 3.8.23
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
 GitCommit: b7ccbf3166eb10bce14fcbcc889ff66af7500066
 Directory: 3.8/ubuntu
 
 Tags: 3.8.23-management
-Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/ubuntu/management
 
@@ -2196,37 +2196,37 @@ GitCommit: b7ccbf3166eb10bce14fcbcc889ff66af7500066
 Directory: 3.8/alpine
 
 Tags: 3.8.23-management-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/alpine/management
 
 Tags: 3.9.7
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
 GitCommit: bf1387720b58d9c3930fb8424061f656361bbc08
 Directory: 3.9/ubuntu
 
 Tags: 3.9.7-management
-Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/ubuntu/management
 
 Tags: 3.9.7-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: bf1387720b58d9c3930fb8424061f656361bbc08
 Directory: 3.9/alpine
 
 Tags: 3.9.7-management-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine/management
 
 Tags: 3.9.5
-Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: d2f70fd1fba3df8412273e50f5be17a5d710d943
 Directory: 3.9/ubuntu
 
 Tags: 3.9.5-management
-Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/ubuntu/management
 
@@ -2241,12 +2241,12 @@ GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine/management
 
 Tags: 3.8.22
-Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
 GitCommit: d04d464d217e6c5e9d8d47e80b45d3382e0bfb3f
 Directory: 3.8/ubuntu
 
 Tags: 3.8.22-management
-Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
+Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/ubuntu/management
 
@@ -2256,37 +2256,37 @@ GitCommit: d04d464d217e6c5e9d8d47e80b45d3382e0bfb3f
 Directory: 3.8/alpine
 
 Tags: 3.8.22-management-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/alpine/management
 
 Tags: 3.8.21
-Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
+Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
 GitCommit: b6abcc8293d34c13594d04767c3123cc961968a9
 Directory: 3.8/ubuntu
 
 Tags: 3.8.21-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/ubuntu/management
 
 Tags: 3.8.21-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: b6abcc8293d34c13594d04767c3123cc961968a9
 Directory: 3.8/alpine
 
 Tags: 3.8.21-management-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/alpine/management
 
 Tags: 3.9.4
-Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: fa2f5ed3589f24f37d4448fa0428150884bc0db2
 Directory: 3.9/ubuntu
 
 Tags: 3.9.4-management
-Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/ubuntu/management
 
@@ -2296,27 +2296,27 @@ GitCommit: fa2f5ed3589f24f37d4448fa0428150884bc0db2
 Directory: 3.9/alpine
 
 Tags: 3.9.4-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine/management
 
 Tags: 3.9.3
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
 GitCommit: cd44d4e7a4335ae137c1723772e2a777f0466d67
 Directory: 3.9/ubuntu
 
 Tags: 3.9.3-management
-Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/ubuntu/management
 
 Tags: 3.9.3-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: cd44d4e7a4335ae137c1723772e2a777f0466d67
 Directory: 3.9/alpine
 
 Tags: 3.9.3-management-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine/management
 
@@ -2326,7 +2326,7 @@ GitCommit: d61b9499e455ece270681c59e7e20185a900980b
 Directory: 3.9/ubuntu
 
 Tags: 3.9.2-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/ubuntu/management
 
@@ -2336,17 +2336,17 @@ GitCommit: d61b9499e455ece270681c59e7e20185a900980b
 Directory: 3.9/alpine
 
 Tags: 3.9.2-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine/management
 
 Tags: 3.8.20
-Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 GitCommit: ead9727b17c2e1eb0fc18e628200e20941997e7b
 Directory: 3.8/ubuntu
 
 Tags: 3.8.20-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/ubuntu/management
 
@@ -2356,22 +2356,22 @@ GitCommit: ead9727b17c2e1eb0fc18e628200e20941997e7b
 Directory: 3.8/alpine
 
 Tags: 3.8.20-management-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/alpine/management
 
 Tags: 3.9.1
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 GitCommit: b596ec78ad5b2cdc2986a65a4a5fb9728316d069
 Directory: 3.9/ubuntu
 
 Tags: 3.9.1-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/ubuntu/management
 
 Tags: 3.9.1-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: b596ec78ad5b2cdc2986a65a4a5fb9728316d069
 Directory: 3.9/alpine
 
@@ -2381,47 +2381,47 @@ GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine/management
 
 Tags: 3.8.19
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
 GitCommit: b596ec78ad5b2cdc2986a65a4a5fb9728316d069
 Directory: 3.8/ubuntu
 
 Tags: 3.8.19-management
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
+Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/ubuntu/management
 
 Tags: 3.8.19-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: b596ec78ad5b2cdc2986a65a4a5fb9728316d069
 Directory: 3.8/alpine
 
 Tags: 3.8.19-management-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.8/alpine/management
 
 Tags: 3.9.0
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/ubuntu
 
 Tags: 3.9.0-management
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/ubuntu/management
 
 Tags: 3.9.0-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine
 
 Tags: 3.9.0-management-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: b07819f873e5a68b2bb54e01f0caa41c26b277f3
 Directory: 3.9/alpine/management
 
 Tags: 3.9.0-rc.2,3.9-rc
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: 9331f6a8c3f6484d15ff1498f3d82a886f168617
 Directory: 3.9-rc/ubuntu
 
@@ -2431,27 +2431,27 @@ GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.9-rc/ubuntu/management
 
 Tags: 3.9.0-rc.2-alpine,3.9-rc-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 9331f6a8c3f6484d15ff1498f3d82a886f168617
 Directory: 3.9-rc/alpine
 
 Tags: 3.9.0-rc.2-management-alpine,3.9-rc-management-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.9-rc/alpine/management
 
 Tags: 3.9.0-rc.1
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: 01c0a8401843ca403cb90ea627a7ebccefbe755d
 Directory: 3.9-rc/ubuntu
 
 Tags: 3.9.0-rc.1-management
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.9-rc/ubuntu/management
 
 Tags: 3.9.0-rc.1-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 01c0a8401843ca403cb90ea627a7ebccefbe755d
 Directory: 3.9-rc/alpine
 
@@ -2461,22 +2461,22 @@ GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.9-rc/alpine/management
 
 Tags: 3.9.0-beta.2
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
 GitCommit: 59789a4a764d3fcf63be8651c05dbfcecfa7ac10
 Directory: 3.9-rc/ubuntu
 
 Tags: 3.9.0-beta.2-management
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.9-rc/ubuntu/management
 
 Tags: 3.9.0-beta.2-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 59789a4a764d3fcf63be8651c05dbfcecfa7ac10
 Directory: 3.9-rc/alpine
 
 Tags: 3.9.0-beta.2-management-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 0d1c84a50aa69305b2fa3e98632a206d3d2a3f9f
 Directory: 3.9-rc/alpine/management
 
@@ -2486,12 +2486,12 @@ GitCommit: 20914d6baab98dead804ee050fe5271cf1098369
 Directory: 3.8-rc/ubuntu
 
 Tags: 3.8.19-rc.1-management,3.8-rc-management
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8-rc/ubuntu/management
 
 Tags: 3.8.19-rc.1-alpine,3.8-rc-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 20914d6baab98dead804ee050fe5271cf1098369
 Directory: 3.8-rc/alpine
 
@@ -2506,12 +2506,12 @@ GitCommit: 5414666458771b001884ac5c5691bf84b8e6748d
 Directory: 3.8/ubuntu
 
 Tags: 3.8.18-management
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
+Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8/ubuntu/management
 
 Tags: 3.8.18-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 5414666458771b001884ac5c5691bf84b8e6748d
 Directory: 3.8/alpine
 
@@ -2521,27 +2521,27 @@ GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8/alpine/management
 
 Tags: 3.8.18-beta.1
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
 GitCommit: a740fcd4414566d8abc39386fdd3b2dedff2fba9
 Directory: 3.8-rc/ubuntu
 
 Tags: 3.8.18-beta.1-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8-rc/ubuntu/management
 
 Tags: 3.8.18-beta.1-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: a740fcd4414566d8abc39386fdd3b2dedff2fba9
 Directory: 3.8-rc/alpine
 
 Tags: 3.8.18-beta.1-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8-rc/alpine/management
 
 Tags: 3.8.17
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
 GitCommit: d630cc389ee11f88a061a0c35e3aa7a928435293
 Directory: 3.8/ubuntu
 
@@ -2551,12 +2551,12 @@ GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8/ubuntu/management
 
 Tags: 3.8.17-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: d630cc389ee11f88a061a0c35e3aa7a928435293
 Directory: 3.8/alpine
 
 Tags: 3.8.17-management-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8/alpine/management
 
@@ -2566,17 +2566,17 @@ GitCommit: a922f4573d2f0a13e8656a7ff7e06f9ace3316e3
 Directory: 3.8-rc/ubuntu
 
 Tags: 3.8.17-rc.2-management
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8-rc/ubuntu/management
 
 Tags: 3.8.17-rc.2-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: a922f4573d2f0a13e8656a7ff7e06f9ace3316e3
 Directory: 3.8-rc/alpine
 
 Tags: 3.8.17-rc.2-management-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8-rc/alpine/management
 
@@ -2586,27 +2586,27 @@ GitCommit: cc2d7ce2009578e7f8113fc1dbc6d86c0340d9a2
 Directory: 3.8/ubuntu
 
 Tags: 3.8.16-management
-Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8/ubuntu/management
 
 Tags: 3.8.16-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: cc2d7ce2009578e7f8113fc1dbc6d86c0340d9a2
 Directory: 3.8/alpine
 
 Tags: 3.8.16-management-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8/alpine/management
 
 Tags: 3.8.17-rc.1
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
 GitCommit: 10626fbe4fd6ef72a8d736d4d3274dca18c4945e
 Directory: 3.8-rc/ubuntu
 
 Tags: 3.8.17-rc.1-management
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8-rc/ubuntu/management
 
@@ -2616,22 +2616,22 @@ GitCommit: 10626fbe4fd6ef72a8d736d4d3274dca18c4945e
 Directory: 3.8-rc/alpine
 
 Tags: 3.8.17-rc.1-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8-rc/alpine/management
 
 Tags: 3.8.15
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: cefa168001245c0d4a8af8aae988bbe5506bb03f
 Directory: 3.8/ubuntu
 
 Tags: 3.8.15-management
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8/ubuntu/management
 
 Tags: 3.8.15-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: cefa168001245c0d4a8af8aae988bbe5506bb03f
 Directory: 3.8/alpine
 
@@ -2646,22 +2646,22 @@ GitCommit: fcb9d26a671581a665e257aa8b7a1ea0dff5344a
 Directory: 3.8-rc/ubuntu
 
 Tags: 3.8.15-rc.3-management
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8-rc/ubuntu/management
 
 Tags: 3.8.15-rc.3-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: fcb9d26a671581a665e257aa8b7a1ea0dff5344a
 Directory: 3.8-rc/alpine
 
 Tags: 3.8.15-rc.3-management-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8-rc/alpine/management
 
 Tags: 3.8.14
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 06aa7a5fb49fbc81e4264bf259ddde888d120b75
 Directory: 3.8/ubuntu
 
@@ -2671,12 +2671,12 @@ GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8/ubuntu/management
 
 Tags: 3.8.14-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 06aa7a5fb49fbc81e4264bf259ddde888d120b75
 Directory: 3.8/alpine
 
 Tags: 3.8.14-management-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8/alpine/management
 
@@ -2691,37 +2691,37 @@ GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8-rc/ubuntu/management
 
 Tags: 3.8.15-rc.2-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 8983f3a2000b26a5658fccc99ee9fa3d66760d76
 Directory: 3.8-rc/alpine
 
 Tags: 3.8.15-rc.2-management-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8-rc/alpine/management
 
 Tags: 3.8.13
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 7ea471658122957d52283a4e2e3e1b6006d41823
 Directory: 3.8/ubuntu
 
 Tags: 3.8.13-management
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8/ubuntu/management
 
 Tags: 3.8.13-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 7ea471658122957d52283a4e2e3e1b6006d41823
 Directory: 3.8/alpine
 
 Tags: 3.8.13-management-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8/alpine/management
 
 Tags: 3.8.12
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: 6fe3632c4d052c2f8be26f4670224d5234642ccb
 Directory: 3.8/ubuntu
 
@@ -2731,22 +2731,22 @@ GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8/ubuntu/management
 
 Tags: 3.8.12-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 6fe3632c4d052c2f8be26f4670224d5234642ccb
 Directory: 3.8/alpine
 
 Tags: 3.8.12-management-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8/alpine/management
 
 Tags: 3.8.12-rc.3
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: fa38ea2b55e55ddcbefeb8907a8572e6a5bb5e5a
 Directory: 3.8-rc/ubuntu
 
 Tags: 3.8.12-rc.3-management
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8-rc/ubuntu/management
 
@@ -2756,7 +2756,7 @@ GitCommit: fa38ea2b55e55ddcbefeb8907a8572e6a5bb5e5a
 Directory: 3.8-rc/alpine
 
 Tags: 3.8.12-rc.3-management-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8-rc/alpine/management
 
@@ -2766,7 +2766,7 @@ GitCommit: 6d24429a1a07f6fe71b74b59712ec9cd5e6d7b79
 Directory: 3.8/ubuntu
 
 Tags: 3.8.11-management
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8/ubuntu/management
 
@@ -2786,7 +2786,7 @@ GitCommit: 496f4b6b3e52a3e71812e698cda34796f9668c9a
 Directory: 3.8-rc/ubuntu
 
 Tags: 3.8.12-rc.1-management
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8-rc/ubuntu/management
 
@@ -2796,7 +2796,7 @@ GitCommit: 496f4b6b3e52a3e71812e698cda34796f9668c9a
 Directory: 3.8-rc/alpine
 
 Tags: 3.8.12-rc.1-management-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8-rc/alpine/management
 
@@ -2806,7 +2806,7 @@ GitCommit: 2ee8b3bdeefbea1544326ccf2aadf1ae067659b1
 Directory: 3.8-rc/ubuntu
 
 Tags: 3.8.12-beta.1-management
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8-rc/ubuntu/management
 
@@ -2816,22 +2816,22 @@ GitCommit: 2ee8b3bdeefbea1544326ccf2aadf1ae067659b1
 Directory: 3.8-rc/alpine
 
 Tags: 3.8.12-beta.1-management-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8-rc/alpine/management
 
 Tags: 3.8.10
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 0dd15492099d2d57ea3a55910c21381ce0e2e258
 Directory: 3.8/ubuntu
 
 Tags: 3.8.10-management
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8/ubuntu/management
 
 Tags: 3.8.10-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 0dd15492099d2d57ea3a55910c21381ce0e2e258
 Directory: 3.8/alpine
 
@@ -2841,127 +2841,127 @@ GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8/alpine/management
 
 Tags: 3.8.10-rc.6
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 26394ade45d4751c020d8283151e47b7e4e6f9ec
 Directory: 3.8-rc/ubuntu
 
 Tags: 3.8.10-rc.6-management
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8-rc/ubuntu/management
 
 Tags: 3.8.10-rc.6-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 26394ade45d4751c020d8283151e47b7e4e6f9ec
 Directory: 3.8-rc/alpine
 
 Tags: 3.8.10-rc.6-management-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
-GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
-Directory: 3.8-rc/alpine/management
-
-Tags: 3.8.9
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
-GitCommit: b3e6547ddd34594b2d371fe0f0b270a16c1dc622
-Directory: 3.8/ubuntu
-
-Tags: 3.8.9-management
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
-GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
-Directory: 3.8/ubuntu/management
-
-Tags: 3.8.9-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
-GitCommit: b3e6547ddd34594b2d371fe0f0b270a16c1dc622
-Directory: 3.8/alpine
-
-Tags: 3.8.9-management-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
-GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
-Directory: 3.8/alpine/management
-
-Tags: 3.8.10-rc.5
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
-GitCommit: 630036862655d3d1af27104052634b8751e35ac2
-Directory: 3.8-rc/ubuntu
-
-Tags: 3.8.10-rc.5-management
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
-GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
-Directory: 3.8-rc/ubuntu/management
-
-Tags: 3.8.10-rc.5-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
-GitCommit: 630036862655d3d1af27104052634b8751e35ac2
-Directory: 3.8-rc/alpine
-
-Tags: 3.8.10-rc.5-management-alpine
 Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8-rc/alpine/management
 
-Tags: 3.8.10-beta.1
+Tags: 3.8.9
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+GitCommit: b3e6547ddd34594b2d371fe0f0b270a16c1dc622
+Directory: 3.8/ubuntu
+
+Tags: 3.8.9-management
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
+Directory: 3.8/ubuntu/management
+
+Tags: 3.8.9-alpine
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+GitCommit: b3e6547ddd34594b2d371fe0f0b270a16c1dc622
+Directory: 3.8/alpine
+
+Tags: 3.8.9-management-alpine
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
+Directory: 3.8/alpine/management
+
+Tags: 3.8.10-rc.5
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+GitCommit: 630036862655d3d1af27104052634b8751e35ac2
+Directory: 3.8-rc/ubuntu
+
+Tags: 3.8.10-rc.5-management
 Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
+Directory: 3.8-rc/ubuntu/management
+
+Tags: 3.8.10-rc.5-alpine
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+GitCommit: 630036862655d3d1af27104052634b8751e35ac2
+Directory: 3.8-rc/alpine
+
+Tags: 3.8.10-rc.5-management-alpine
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
+Directory: 3.8-rc/alpine/management
+
+Tags: 3.8.10-beta.1
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 GitCommit: 0e59f96860d646b2f2c5972af8155fcf871ecfcc
 Directory: 3.8-rc/ubuntu
 
 Tags: 3.8.10-beta.1-management
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8-rc/ubuntu/management
 
 Tags: 3.8.10-beta.1-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 0e59f96860d646b2f2c5972af8155fcf871ecfcc
 Directory: 3.8-rc/alpine
 
 Tags: 3.8.10-beta.1-management-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 7e63843da6bfb191ddee6dbe3dd7ec0df36ae70b
 Directory: 3.8-rc/alpine/management
 
 Tags: 3.8.8
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: d6dfd9c1a3ab39d55acf53e8c42860ff77d4680a
 Directory: 3.8/ubuntu
 
 Tags: 3.8.8-management
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 888638927482f86af6e88bebb67423926cb1112f
 Directory: 3.8/ubuntu/management
 
 Tags: 3.8.8-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: d6dfd9c1a3ab39d55acf53e8c42860ff77d4680a
 Directory: 3.8/alpine
 
 Tags: 3.8.8-management-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 888638927482f86af6e88bebb67423926cb1112f
 Directory: 3.8/alpine/management
 
 Tags: 3.8.7
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: be3ec8479e17a62efe55d18dd9d5dae37721afba
 Directory: 3.8/ubuntu
 
 Tags: 3.8.7-management
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 888638927482f86af6e88bebb67423926cb1112f
 Directory: 3.8/ubuntu/management
 
 Tags: 3.8.7-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: be3ec8479e17a62efe55d18dd9d5dae37721afba
 Directory: 3.8/alpine
 
 Tags: 3.8.7-management-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 888638927482f86af6e88bebb67423926cb1112f
 Directory: 3.8/alpine/management
 
 Tags: 3.7.28,3.7
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: 7257ddb5361d42bc5a952b6d2e357fc623131627
 Directory: 3.7/ubuntu
 
@@ -2971,7 +2971,7 @@ GitCommit: bf2c73df6ee8475ac30c9773a8128852450ea518
 Directory: 3.7/ubuntu/management
 
 Tags: 3.7.28-alpine,3.7-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 7257ddb5361d42bc5a952b6d2e357fc623131627
 Directory: 3.7/alpine
 
@@ -2981,12 +2981,12 @@ GitCommit: bf2c73df6ee8475ac30c9773a8128852450ea518
 Directory: 3.7/alpine/management
 
 Tags: 3.8.6
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 0c7faaf0fdcd1cf88b1299f85fc2d09af791e62b
 Directory: 3.8/ubuntu
 
 Tags: 3.8.6-management
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 13d43346f3c0b4de9a15c9589ecdf8b3e22b689c
 Directory: 3.8/ubuntu/management
 
@@ -2996,7 +2996,7 @@ GitCommit: 0c7faaf0fdcd1cf88b1299f85fc2d09af791e62b
 Directory: 3.8/alpine
 
 Tags: 3.8.6-management-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 13d43346f3c0b4de9a15c9589ecdf8b3e22b689c
 Directory: 3.8/alpine/management
 
@@ -3006,12 +3006,12 @@ GitCommit: e07d999b4f7e2c60459d79e504a4e008b86681ff
 Directory: 3.7/ubuntu
 
 Tags: 3.7.27-management
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: bf2c73df6ee8475ac30c9773a8128852450ea518
 Directory: 3.7/ubuntu/management
 
 Tags: 3.7.27-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: e07d999b4f7e2c60459d79e504a4e008b86681ff
 Directory: 3.7/alpine
 
@@ -3021,17 +3021,17 @@ GitCommit: bf2c73df6ee8475ac30c9773a8128852450ea518
 Directory: 3.7/alpine/management
 
 Tags: 3.8.6-rc.1
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 GitCommit: a999b78c07e4e717876edfc8170a44d5d34cc5f8
 Directory: 3.8-rc/ubuntu
 
 Tags: 3.8.6-rc.1-management
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 GitCommit: 13ec1c85a0882184b0bbaab2216822e7a3718d30
 Directory: 3.8-rc/ubuntu/management
 
 Tags: 3.8.6-rc.1-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: a999b78c07e4e717876edfc8170a44d5d34cc5f8
 Directory: 3.8-rc/alpine
 
@@ -3041,27 +3041,27 @@ GitCommit: 13ec1c85a0882184b0bbaab2216822e7a3718d30
 Directory: 3.8-rc/alpine/management
 
 Tags: 3.8.5
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 6c780661c0d9fe667a8a6f5c9edc2a267aa38c85
 Directory: 3.8/ubuntu
 
 Tags: 3.8.5-management
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 13d43346f3c0b4de9a15c9589ecdf8b3e22b689c
 Directory: 3.8/ubuntu/management
 
 Tags: 3.8.5-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 6c780661c0d9fe667a8a6f5c9edc2a267aa38c85
 Directory: 3.8/alpine
 
 Tags: 3.8.5-management-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 13d43346f3c0b4de9a15c9589ecdf8b3e22b689c
 Directory: 3.8/alpine/management
 
 Tags: 3.7.27-rc.1,3.7-rc
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: f7a967c34a3f5670869cbcbee153d4d6298f6c2f
 Directory: 3.7-rc/ubuntu
 
@@ -3071,7 +3071,7 @@ GitCommit: 817847dd5566c5d0526d7b654f19c45c91f3289d
 Directory: 3.7-rc/ubuntu/management
 
 Tags: 3.7.27-rc.1-alpine,3.7-rc-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: f7a967c34a3f5670869cbcbee153d4d6298f6c2f
 Directory: 3.7-rc/alpine
 
@@ -3081,42 +3081,42 @@ GitCommit: 817847dd5566c5d0526d7b654f19c45c91f3289d
 Directory: 3.7-rc/alpine/management
 
 Tags: 3.7.26
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: c58a834b652cb3d60a0f75cf757eb5662a3bcdc1
 Directory: 3.7/ubuntu
 
 Tags: 3.7.26-management
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: bf2c73df6ee8475ac30c9773a8128852450ea518
 Directory: 3.7/ubuntu/management
 
 Tags: 3.7.26-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: c58a834b652cb3d60a0f75cf757eb5662a3bcdc1
 Directory: 3.7/alpine
 
 Tags: 3.7.26-management-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: bf2c73df6ee8475ac30c9773a8128852450ea518
 Directory: 3.7/alpine/management
 
 Tags: 3.8.5-rc.1
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: ca825ec6e24c0688b0ce069696b57301193668ee
 Directory: 3.8-rc/ubuntu
 
 Tags: 3.8.5-rc.1-management
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 13ec1c85a0882184b0bbaab2216822e7a3718d30
 Directory: 3.8-rc/ubuntu/management
 
 Tags: 3.8.5-rc.1-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: ca825ec6e24c0688b0ce069696b57301193668ee
 Directory: 3.8-rc/alpine
 
 Tags: 3.8.5-rc.1-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 13ec1c85a0882184b0bbaab2216822e7a3718d30
 Directory: 3.8-rc/alpine/management
 
@@ -3131,37 +3131,37 @@ GitCommit: 13d43346f3c0b4de9a15c9589ecdf8b3e22b689c
 Directory: 3.8/ubuntu/management
 
 Tags: 3.8.4-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 88ac0b2054040237276a30c1494d2b29030889f0
 Directory: 3.8/alpine
 
 Tags: 3.8.4-management-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 13d43346f3c0b4de9a15c9589ecdf8b3e22b689c
 Directory: 3.8/alpine/management
 
 Tags: 3.8.4-rc.3
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: fa268f0763da9cb08a185120989dd3dc755b8a76
 Directory: 3.8-rc/ubuntu
 
 Tags: 3.8.4-rc.3-management
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 13ec1c85a0882184b0bbaab2216822e7a3718d30
 Directory: 3.8-rc/ubuntu/management
 
 Tags: 3.8.4-rc.3-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: fa268f0763da9cb08a185120989dd3dc755b8a76
 Directory: 3.8-rc/alpine
 
 Tags: 3.8.4-rc.3-management-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 13ec1c85a0882184b0bbaab2216822e7a3718d30
 Directory: 3.8-rc/alpine/management
 
 Tags: 3.8.3
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 7aa93f2563dd6558322b2f7b4b813003be7e0816
 Directory: 3.8/ubuntu
 
@@ -3171,87 +3171,87 @@ GitCommit: af5f6ff9a3916d89be6d190d562d247ae12ffa73
 Directory: 3.8/ubuntu/management
 
 Tags: 3.8.3-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 7aa93f2563dd6558322b2f7b4b813003be7e0816
 Directory: 3.8/alpine
 
 Tags: 3.8.3-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: af5f6ff9a3916d89be6d190d562d247ae12ffa73
 Directory: 3.8/alpine/management
 
 Tags: 3.7.25
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 GitCommit: 0f1f78a32ba879b7d2e3481faa56c9031f3f77d2
 Directory: 3.7/ubuntu
 
 Tags: 3.7.25-management
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: bf2c73df6ee8475ac30c9773a8128852450ea518
 Directory: 3.7/ubuntu/management
 
 Tags: 3.7.25-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 0f1f78a32ba879b7d2e3481faa56c9031f3f77d2
 Directory: 3.7/alpine
 
 Tags: 3.7.25-management-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: bf2c73df6ee8475ac30c9773a8128852450ea518
 Directory: 3.7/alpine/management
 
 Tags: 3.7.24
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: 7219c8ef44fbc3d7eb0b9f5a6c6514c5cafe0402
 Directory: 3.7/ubuntu
 
 Tags: 3.7.24-management
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7/ubuntu/management
 
 Tags: 3.7.24-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 7219c8ef44fbc3d7eb0b9f5a6c6514c5cafe0402
 Directory: 3.7/alpine
 
 Tags: 3.7.24-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/alpine/management
 
 Tags: 3.8.3-rc.2
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 GitCommit: 365d8d47398e9b7cdfa9ba286ad2859cf83bc47b
 Directory: 3.8-rc/ubuntu
 
 Tags: 3.8.3-rc.2-management
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/ubuntu/management
 
 Tags: 3.8.3-rc.2-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 365d8d47398e9b7cdfa9ba286ad2859cf83bc47b
 Directory: 3.8-rc/alpine
 
 Tags: 3.8.3-rc.2-management-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/alpine/management
 
 Tags: 3.8.2
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 GitCommit: a2c15b5b5a8bbe49f4c4752d0095417f4b304332
 Directory: 3.8/ubuntu
 
 Tags: 3.8.2-management
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: af5f6ff9a3916d89be6d190d562d247ae12ffa73
 Directory: 3.8/ubuntu/management
 
 Tags: 3.8.2-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: a2c15b5b5a8bbe49f4c4752d0095417f4b304332
 Directory: 3.8/alpine
 
@@ -3261,37 +3261,37 @@ GitCommit: af5f6ff9a3916d89be6d190d562d247ae12ffa73
 Directory: 3.8/alpine/management
 
 Tags: 3.8.3-rc.1
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 GitCommit: 860c6229fdb04ab9e68b9b7e528b2afefab1efc3
 Directory: 3.8-rc/ubuntu
 
 Tags: 3.8.3-rc.1-management
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/ubuntu/management
 
 Tags: 3.8.3-rc.1-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 860c6229fdb04ab9e68b9b7e528b2afefab1efc3
 Directory: 3.8-rc/alpine
 
 Tags: 3.8.3-rc.1-management-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/alpine/management
 
 Tags: 3.8.3-beta.3
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 7caeb2c27b6a509485127f299a7ad3764ff68928
 Directory: 3.8-rc/ubuntu
 
 Tags: 3.8.3-beta.3-management
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/ubuntu/management
 
 Tags: 3.8.3-beta.3-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 7caeb2c27b6a509485127f299a7ad3764ff68928
 Directory: 3.8-rc/alpine
 
@@ -3301,27 +3301,27 @@ GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/alpine/management
 
 Tags: 3.7.24-rc.2
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 9859dc76960e21fefdcc79518e1b41867c428417
 Directory: 3.7-rc/ubuntu
 
 Tags: 3.7.24-rc.2-management
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7-rc/ubuntu/management
 
 Tags: 3.7.24-rc.2-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 9859dc76960e21fefdcc79518e1b41867c428417
 Directory: 3.7-rc/alpine
 
 Tags: 3.7.24-rc.2-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: da06cbdbe9e89305b2650a782af06f96004a894e
 Directory: 3.7-rc/alpine/management
 
 Tags: 3.7.23
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 5ac035e224e3ddc7082cd8c8bea2a63417043d05
 Directory: 3.7/ubuntu
 
@@ -3331,47 +3331,47 @@ GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7/ubuntu/management
 
 Tags: 3.7.23-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 5ac035e224e3ddc7082cd8c8bea2a63417043d05
 Directory: 3.7/alpine
 
 Tags: 3.7.23-management-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/alpine/management
 
 Tags: 3.7.24-rc.1
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 GitCommit: bc714d731b5076d5fcf098aae818caa18a18266a
 Directory: 3.7-rc/ubuntu
 
 Tags: 3.7.24-rc.1-management
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7-rc/ubuntu/management
 
 Tags: 3.7.24-rc.1-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: bc714d731b5076d5fcf098aae818caa18a18266a
 Directory: 3.7-rc/alpine
 
 Tags: 3.7.24-rc.1-management-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: da06cbdbe9e89305b2650a782af06f96004a894e
 Directory: 3.7-rc/alpine/management
 
 Tags: 3.8.3-beta.2
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: cd44bc3cdd10a5438aed436447c85ef689d76054
 Directory: 3.8-rc/ubuntu
 
 Tags: 3.8.3-beta.2-management
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/ubuntu/management
 
 Tags: 3.8.3-beta.2-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: cd44bc3cdd10a5438aed436447c85ef689d76054
 Directory: 3.8-rc/alpine
 
@@ -3381,7 +3381,7 @@ GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/alpine/management
 
 Tags: 3.7.24-beta.1
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 GitCommit: 52e744d86c39bd939aa1d1e7627c555c70e1380b
 Directory: 3.7-rc/ubuntu
 
@@ -3391,72 +3391,72 @@ GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7-rc/ubuntu/management
 
 Tags: 3.7.24-beta.1-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 52e744d86c39bd939aa1d1e7627c555c70e1380b
 Directory: 3.7-rc/alpine
 
 Tags: 3.7.24-beta.1-management-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: da06cbdbe9e89305b2650a782af06f96004a894e
 Directory: 3.7-rc/alpine/management
 
 Tags: 3.7.23-rc.1
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: b095c942c15b076727ccc9fdbeb3bed27628a10c
 Directory: 3.7-rc/ubuntu
 
 Tags: 3.7.23-rc.1-management
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7-rc/ubuntu/management
 
 Tags: 3.7.23-rc.1-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: b095c942c15b076727ccc9fdbeb3bed27628a10c
 Directory: 3.7-rc/alpine
 
 Tags: 3.7.23-rc.1-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: da06cbdbe9e89305b2650a782af06f96004a894e
 Directory: 3.7-rc/alpine/management
 
 Tags: 3.7.22
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 1f8ab85549615647c535da2a8ca2a0d22136ad35
 Directory: 3.7/ubuntu
 
 Tags: 3.7.22-management
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7/ubuntu/management
 
 Tags: 3.7.22-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 1f8ab85549615647c535da2a8ca2a0d22136ad35
 Directory: 3.7/alpine
 
 Tags: 3.7.22-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/alpine/management
 
 Tags: 3.8.2-rc.1
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 GitCommit: 3cec79ba9a0a37776b4466d3be1abd60454e1ec9
 Directory: 3.8-rc/ubuntu
 
 Tags: 3.8.2-rc.1-management
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/ubuntu/management
 
 Tags: 3.8.2-rc.1-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 3cec79ba9a0a37776b4466d3be1abd60454e1ec9
 Directory: 3.8-rc/alpine
 
 Tags: 3.8.2-rc.1-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/alpine/management
 
@@ -3466,42 +3466,42 @@ GitCommit: e58e2d5ba7fd4e4a8047f45837060da901a06fde
 Directory: 3.8/ubuntu
 
 Tags: 3.8.1-management
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: af5f6ff9a3916d89be6d190d562d247ae12ffa73
 Directory: 3.8/ubuntu/management
 
 Tags: 3.8.1-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: e58e2d5ba7fd4e4a8047f45837060da901a06fde
 Directory: 3.8/alpine
 
 Tags: 3.8.1-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: af5f6ff9a3916d89be6d190d562d247ae12ffa73
 Directory: 3.8/alpine/management
 
 Tags: 3.7.22-rc.1
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 GitCommit: 7129682dc04e080e20ec7a963e3a6f777b95218f
 Directory: 3.7-rc/ubuntu
 
 Tags: 3.7.22-rc.1-management
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7-rc/ubuntu/management
 
 Tags: 3.7.22-rc.1-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 7129682dc04e080e20ec7a963e3a6f777b95218f
 Directory: 3.7-rc/alpine
 
 Tags: 3.7.22-rc.1-management-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: da06cbdbe9e89305b2650a782af06f96004a894e
 Directory: 3.7-rc/alpine/management
 
 Tags: 3.7.21
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: eb3256136809408f58be851338316b6d2ee83946
 Directory: 3.7/ubuntu
 
@@ -3511,12 +3511,12 @@ GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7/ubuntu/management
 
 Tags: 3.7.21-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: eb3256136809408f58be851338316b6d2ee83946
 Directory: 3.7/alpine
 
 Tags: 3.7.21-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/alpine/management
 
@@ -3531,12 +3531,12 @@ GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/ubuntu/management
 
 Tags: 3.8.1-rc.1-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: b23250aeabba626efc06cb1d1e3a3871bf319baf
 Directory: 3.8-rc/alpine
 
 Tags: 3.8.1-rc.1-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/alpine/management
 
@@ -3546,37 +3546,37 @@ GitCommit: a0bf95f11c0b2e757847f19e4ce4943fdd63e327
 Directory: 3.8/ubuntu
 
 Tags: 3.8.0-management
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 GitCommit: af5f6ff9a3916d89be6d190d562d247ae12ffa73
 Directory: 3.8/ubuntu/management
 
 Tags: 3.8.0-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: a0bf95f11c0b2e757847f19e4ce4943fdd63e327
 Directory: 3.8/alpine
 
 Tags: 3.8.0-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: af5f6ff9a3916d89be6d190d562d247ae12ffa73
 Directory: 3.8/alpine/management
 
 Tags: 3.7.20
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 GitCommit: 16e8c4e3e29c3e316ea2caa94572b6b476004c88
 Directory: 3.7/ubuntu
 
 Tags: 3.7.20-management
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7/ubuntu/management
 
 Tags: 3.7.20-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 16e8c4e3e29c3e316ea2caa94572b6b476004c88
 Directory: 3.7/alpine
 
 Tags: 3.7.20-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/alpine/management
 
@@ -3586,7 +3586,7 @@ GitCommit: 8bbb3c698d3a16883f8000e82e6b76fa3aaddf91
 Directory: 3.8-rc/ubuntu
 
 Tags: 3.8.1-beta.2-management
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/ubuntu/management
 
@@ -3606,97 +3606,97 @@ GitCommit: 78996bc1c3ffdf298c6151f1ff15935afcc66841
 Directory: 3.8-rc/ubuntu
 
 Tags: 3.8.1-beta.1-management
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/ubuntu/management
 
 Tags: 3.8.1-beta.1-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 78996bc1c3ffdf298c6151f1ff15935afcc66841
 Directory: 3.8-rc/alpine
 
 Tags: 3.8.1-beta.1-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/alpine/management
 
 Tags: 3.7.20-rc.1
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: dd228054dee7f7ff343fd31e410c0f451d910ac9
 Directory: 3.7-rc/ubuntu
 
 Tags: 3.7.20-rc.1-management
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7-rc/ubuntu/management
 
 Tags: 3.7.20-rc.1-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: dd228054dee7f7ff343fd31e410c0f451d910ac9
 Directory: 3.7-rc/alpine
 
 Tags: 3.7.20-rc.1-management-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: da06cbdbe9e89305b2650a782af06f96004a894e
 Directory: 3.7-rc/alpine/management
 
 Tags: 3.7.19
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 GitCommit: d76928ec3b631df325366ee322e516bb94379016
 Directory: 3.7/ubuntu
 
 Tags: 3.7.19-management
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7/ubuntu/management
 
 Tags: 3.7.19-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: d76928ec3b631df325366ee322e516bb94379016
 Directory: 3.7/alpine
 
 Tags: 3.7.19-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/alpine/management
 
 Tags: 3.7.20-beta.1
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 1e090d573910c57cc203c4f0b1327f524107ced5
 Directory: 3.7-rc/ubuntu
 
 Tags: 3.7.20-beta.1-management
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7-rc/ubuntu/management
 
 Tags: 3.7.20-beta.1-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 1e090d573910c57cc203c4f0b1327f524107ced5
 Directory: 3.7-rc/alpine
 
 Tags: 3.7.20-beta.1-management-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: da06cbdbe9e89305b2650a782af06f96004a894e
 Directory: 3.7-rc/alpine/management
 
 Tags: 3.7.18
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: 95838592f42af01b475fdb26a71052af235094d6
 Directory: 3.7/ubuntu
 
 Tags: 3.7.18-management
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7/ubuntu/management
 
 Tags: 3.7.18-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 95838592f42af01b475fdb26a71052af235094d6
 Directory: 3.7/alpine
 
 Tags: 3.7.18-management-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/alpine/management
 
@@ -3706,22 +3706,22 @@ GitCommit: 95838592f42af01b475fdb26a71052af235094d6
 Directory: 3.8-rc/ubuntu
 
 Tags: 3.8.0-rc.3-management
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/ubuntu/management
 
 Tags: 3.8.0-rc.3-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 95838592f42af01b475fdb26a71052af235094d6
 Directory: 3.8-rc/alpine
 
 Tags: 3.8.0-rc.3-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/alpine/management
 
 Tags: 3.8.0-rc.2
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 GitCommit: fb3a168bf8efaf644cc8dbfc10f12e74f050f02d
 Directory: 3.8-rc/ubuntu
 
@@ -3731,27 +3731,27 @@ GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/ubuntu/management
 
 Tags: 3.8.0-rc.2-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: fb3a168bf8efaf644cc8dbfc10f12e74f050f02d
 Directory: 3.8-rc/alpine
 
 Tags: 3.8.0-rc.2-management-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/alpine/management
 
 Tags: 3.8.0-rc.1
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 1a66e87e730aca0a82c1547511546799944bca0b
 Directory: 3.8-rc/ubuntu
 
 Tags: 3.8.0-rc.1-management
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/ubuntu/management
 
 Tags: 3.8.0-rc.1-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 1a66e87e730aca0a82c1547511546799944bca0b
 Directory: 3.8-rc/alpine
 
@@ -3761,17 +3761,17 @@ GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/alpine/management
 
 Tags: 3.7.18-beta.1
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: f5ce17a6eb0b4076ee47426a303817679f695ab3
 Directory: 3.7-rc/ubuntu
 
 Tags: 3.7.18-beta.1-management
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7-rc/ubuntu/management
 
 Tags: 3.7.18-beta.1-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: f5ce17a6eb0b4076ee47426a303817679f695ab3
 Directory: 3.7-rc/alpine
 
@@ -3786,32 +3786,32 @@ GitCommit: 5d021ba01f152c68ec0ce7563431f44a3425e307
 Directory: 3.7/ubuntu
 
 Tags: 3.7.17-management
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7/ubuntu/management
 
 Tags: 3.7.17-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 5d021ba01f152c68ec0ce7563431f44a3425e307
 Directory: 3.7/alpine
 
 Tags: 3.7.17-management-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/alpine/management
 
 Tags: 3.8.0-beta.7
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 8a5c57be054b3bbe8b93cda97c05cb0fb485ca7f
 Directory: 3.8-rc/ubuntu
 
 Tags: 3.8.0-beta.7-management
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/ubuntu/management
 
 Tags: 3.8.0-beta.7-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: b8db35af32c1afb7e8b32e3b64d24bf0e04aac16
 Directory: 3.8-rc/alpine
 
@@ -3826,27 +3826,27 @@ GitCommit: 2ec310b5a0703baa81b67582cc6778a27363aace
 Directory: 3.8-rc/ubuntu
 
 Tags: 3.8.0-beta.6-management
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/ubuntu/management
 
 Tags: 3.8.0-beta.6-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
 GitCommit: 2ec310b5a0703baa81b67582cc6778a27363aace
 Directory: 3.8-rc/alpine
 
 Tags: 3.8.0-beta.6-management-alpine
-Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
 GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/alpine/management
 
 Tags: 3.8.0-beta.5
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: d38a86acf3433c51359bd6da62668588a4660e2b
 Directory: 3.8-rc/ubuntu
 
 Tags: 3.8.0-beta.5-management
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/ubuntu/management
 
@@ -3856,22 +3856,22 @@ GitCommit: d38a86acf3433c51359bd6da62668588a4660e2b
 Directory: 3.8-rc/alpine
 
 Tags: 3.8.0-beta.5-management-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
 GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/alpine/management
 
 Tags: 3.7.17-rc.2
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: 7a2c773cd4d1b96bbec73f7a71be062b884cdf84
 Directory: 3.7-rc/ubuntu
 
 Tags: 3.7.17-rc.2-management
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7-rc/ubuntu/management
 
 Tags: 3.7.17-rc.2-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
+Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
 GitCommit: 7a2c773cd4d1b96bbec73f7a71be062b884cdf84
 Directory: 3.7-rc/alpine
 
@@ -3881,42 +3881,42 @@ GitCommit: da06cbdbe9e89305b2650a782af06f96004a894e
 Directory: 3.7-rc/alpine/management
 
 Tags: 3.7.16
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: d38a86acf3433c51359bd6da62668588a4660e2b
 Directory: 3.7/ubuntu
 
 Tags: 3.7.16-management
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7/ubuntu/management
 
 Tags: 3.7.16-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
+Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
 GitCommit: d38a86acf3433c51359bd6da62668588a4660e2b
 Directory: 3.7/alpine
 
 Tags: 3.7.16-management-alpine
-Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
+Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
 GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/alpine/management
 
 Tags: 3.7.17-rc.1
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 GitCommit: ed480de4b514d9b52afb4e67044b6ad2b865c395
 Directory: 3.7-rc/ubuntu
 
 Tags: 3.7.17-rc.1-management
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7-rc/ubuntu/management
 
 Tags: 3.7.17-rc.1-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
 GitCommit: ed480de4b514d9b52afb4e67044b6ad2b865c395
 Directory: 3.7-rc/alpine
 
 Tags: 3.7.17-rc.1-management-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: da06cbdbe9e89305b2650a782af06f96004a894e
 Directory: 3.7-rc/alpine/management
 
@@ -3926,7 +3926,7 @@ GitCommit: d38a86acf3433c51359bd6da62668588a4660e2b
 Directory: 3.7-rc/ubuntu
 
 Tags: 3.7.17-beta.1-management
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7-rc/ubuntu/management
 
@@ -3936,12 +3936,12 @@ GitCommit: d38a86acf3433c51359bd6da62668588a4660e2b
 Directory: 3.7-rc/alpine
 
 Tags: 3.7.17-beta.1-management-alpine
-Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
 GitCommit: da06cbdbe9e89305b2650a782af06f96004a894e
 Directory: 3.7-rc/alpine/management
 
 Tags: 3.8.0-beta.4
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 1ddf81675fc05dcb315283a4cf33b71a1248224c
 Directory: 3.8-rc/ubuntu
 
@@ -3951,17 +3951,17 @@ GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/ubuntu/management
 
 Tags: 3.8.0-beta.4-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
 GitCommit: 1ddf81675fc05dcb315283a4cf33b71a1248224c
 Directory: 3.8-rc/alpine
 
 Tags: 3.8.0-beta.4-management-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
+Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
 GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/alpine/management
 
 Tags: 3.7.16-rc.3
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 417a82a983d575a4dad9df75aaad3e963c0e9c2f
 Directory: 3.7-rc/ubuntu
 
@@ -3971,17 +3971,17 @@ GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7-rc/ubuntu/management
 
 Tags: 3.7.16-rc.3-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 417a82a983d575a4dad9df75aaad3e963c0e9c2f
 Directory: 3.7-rc/alpine
 
 Tags: 3.7.16-rc.3-management-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
+Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
 GitCommit: da06cbdbe9e89305b2650a782af06f96004a894e
 Directory: 3.7-rc/alpine/management
 
 Tags: 3.7.15
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 GitCommit: 7fa749a7be00243709c5a8acc2e9c33d9cd82093
 Directory: 3.7/ubuntu
 
@@ -3991,32 +3991,32 @@ GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7/ubuntu/management
 
 Tags: 3.7.15-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
+Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 7fa749a7be00243709c5a8acc2e9c33d9cd82093
 Directory: 3.7/alpine
 
 Tags: 3.7.15-management-alpine
-Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
+Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/alpine/management
 
 Tags: 3.7.15-beta.1
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 01e2a1a77260bc9e1c6001ba1a61323791b1dfcc
 Directory: 3.7-rc/ubuntu
 
 Tags: 3.7.15-beta.1-management
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7-rc/ubuntu/management
 
 Tags: 3.7.15-beta.1-alpine
-Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
 GitCommit: 01e2a1a77260bc9e1c6001ba1a61323791b1dfcc
 Directory: 3.7-rc/alpine
 
 Tags: 3.7.15-beta.1-management-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: da06cbdbe9e89305b2650a782af06f96004a894e
 Directory: 3.7-rc/alpine/management
 
@@ -4026,32 +4026,32 @@ GitCommit: 7289bc5e9d408054876a918b20e3a93e0618a45a
 Directory: 3.7/ubuntu
 
 Tags: 3.7.14-management
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7/ubuntu/management
 
 Tags: 3.7.14-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
 GitCommit: 7289bc5e9d408054876a918b20e3a93e0618a45a
 Directory: 3.7/alpine
 
 Tags: 3.7.14-management-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/alpine/management
 
 Tags: 3.8.0-beta.3
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 GitCommit: fbc4fecb9b5139c0ae22b512d75a948bce4b93e9
 Directory: 3.8-rc/ubuntu
 
 Tags: 3.8.0-beta.3-management
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/ubuntu/management
 
 Tags: 3.8.0-beta.3-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: fbc4fecb9b5139c0ae22b512d75a948bce4b93e9
 Directory: 3.8-rc/alpine
 
@@ -4061,22 +4061,22 @@ GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/alpine/management
 
 Tags: 3.7.14-rc.1
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 22bead22b2f9ed0d38f65d571edaa338524747bb
 Directory: 3.7-rc/ubuntu
 
 Tags: 3.7.14-rc.1-management
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7-rc/ubuntu/management
 
 Tags: 3.7.14-rc.1-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 22bead22b2f9ed0d38f65d571edaa338524747bb
 Directory: 3.7-rc/alpine
 
 Tags: 3.7.14-rc.1-management-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
 GitCommit: da06cbdbe9e89305b2650a782af06f96004a894e
 Directory: 3.7-rc/alpine/management
 
@@ -4086,12 +4086,12 @@ GitCommit: c8c861253a8cb47f56acabc030e78f8fa432d580
 Directory: 3.7/ubuntu
 
 Tags: 3.7.13-management
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7/ubuntu/management
 
 Tags: 3.7.13-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
 GitCommit: c8c861253a8cb47f56acabc030e78f8fa432d580
 Directory: 3.7/alpine
 
@@ -4101,7 +4101,7 @@ GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/alpine/management
 
 Tags: 3.8.0-beta.2
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 GitCommit: a7f1cedb9e4ca45eeaf1e4454aab4ae92c18f0d8
 Directory: 3.8-rc/ubuntu
 
@@ -4116,7 +4116,7 @@ GitCommit: a7f1cedb9e4ca45eeaf1e4454aab4ae92c18f0d8
 Directory: 3.8-rc/alpine
 
 Tags: 3.8.0-beta.2-management-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
 GitCommit: 3a5957b93e31661739a9018bc2ae5d20f1bfae59
 Directory: 3.8-rc/alpine/management
 
@@ -4126,57 +4126,57 @@ GitCommit: f6ff7c3746a345dfb28100b9c22f79fca2e84ed7
 Directory: 3.7-rc/ubuntu
 
 Tags: 3.7.13-rc.2-management
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
-GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
-Directory: 3.7-rc/ubuntu/management
-
-Tags: 3.7.13-rc.2-alpine
-Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
-GitCommit: f6ff7c3746a345dfb28100b9c22f79fca2e84ed7
-Directory: 3.7-rc/alpine
-
-Tags: 3.7.13-rc.2-management-alpine
-Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
-GitCommit: da06cbdbe9e89305b2650a782af06f96004a894e
-Directory: 3.7-rc/alpine/management
-
-Tags: 3.7.12
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
-GitCommit: a7f1cedb9e4ca45eeaf1e4454aab4ae92c18f0d8
-Directory: 3.7/ubuntu
-
-Tags: 3.7.12-management
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
-GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
-Directory: 3.7/ubuntu/management
-
-Tags: 3.7.12-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
-GitCommit: a7f1cedb9e4ca45eeaf1e4454aab4ae92c18f0d8
-Directory: 3.7/alpine
-
-Tags: 3.7.12-management-alpine
-Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
-GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
-Directory: 3.7/alpine/management
-
-Tags: 3.7.13-beta.1
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
-GitCommit: f37d5ef612c106d1b1cc7d9891afdc170dc64116
-Directory: 3.7-rc/ubuntu
-
-Tags: 3.7.13-beta.1-management
 Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7-rc/ubuntu/management
 
-Tags: 3.7.13-beta.1-alpine
+Tags: 3.7.13-rc.2-alpine
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+GitCommit: f6ff7c3746a345dfb28100b9c22f79fca2e84ed7
+Directory: 3.7-rc/alpine
+
+Tags: 3.7.13-rc.2-management-alpine
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
+GitCommit: da06cbdbe9e89305b2650a782af06f96004a894e
+Directory: 3.7-rc/alpine/management
+
+Tags: 3.7.12
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+GitCommit: a7f1cedb9e4ca45eeaf1e4454aab4ae92c18f0d8
+Directory: 3.7/ubuntu
+
+Tags: 3.7.12-management
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
+Directory: 3.7/ubuntu/management
+
+Tags: 3.7.12-alpine
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
+GitCommit: a7f1cedb9e4ca45eeaf1e4454aab4ae92c18f0d8
+Directory: 3.7/alpine
+
+Tags: 3.7.12-management-alpine
 Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
+Directory: 3.7/alpine/management
+
+Tags: 3.7.13-beta.1
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+GitCommit: f37d5ef612c106d1b1cc7d9891afdc170dc64116
+Directory: 3.7-rc/ubuntu
+
+Tags: 3.7.13-beta.1-management
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
+Directory: 3.7-rc/ubuntu/management
+
+Tags: 3.7.13-beta.1-alpine
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
 GitCommit: f37d5ef612c106d1b1cc7d9891afdc170dc64116
 Directory: 3.7-rc/alpine
 
 Tags: 3.7.13-beta.1-management-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: da06cbdbe9e89305b2650a782af06f96004a894e
 Directory: 3.7-rc/alpine/management
 
@@ -4186,12 +4186,12 @@ GitCommit: 820e85707b885356d3697fa89cfb2538b2e6c53d
 Directory: 3.7.9/ubuntu
 
 Tags: 3.7.9-management
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 820e85707b885356d3697fa89cfb2538b2e6c53d
 Directory: 3.7.9/ubuntu/management
 
 Tags: 3.7.9-alpine
-Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 820e85707b885356d3697fa89cfb2538b2e6c53d
 Directory: 3.7.9/alpine
 
@@ -4206,17 +4206,17 @@ GitCommit: 735d96f0b6b3381ee5d7c058abbe83c70ce970de
 Directory: 3.7-rc/ubuntu
 
 Tags: 3.7.12-rc.2-management
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7-rc/ubuntu/management
 
 Tags: 3.7.12-rc.2-alpine
-Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
+Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
 GitCommit: 735d96f0b6b3381ee5d7c058abbe83c70ce970de
 Directory: 3.7-rc/alpine
 
 Tags: 3.7.12-rc.2-management-alpine
-Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
 GitCommit: da06cbdbe9e89305b2650a782af06f96004a894e
 Directory: 3.7-rc/alpine/management
 
@@ -4226,22 +4226,22 @@ GitCommit: a2fb2ac48e6f8cad601be05c3faf4e7d68d43051
 Directory: 3.7/ubuntu
 
 Tags: 3.7.11-management
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7/ubuntu/management
 
 Tags: 3.7.11-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: a2fb2ac48e6f8cad601be05c3faf4e7d68d43051
 Directory: 3.7/alpine
 
 Tags: 3.7.11-management-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/alpine/management
 
 Tags: 3.7.11-rc.2
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 GitCommit: 8a623bb9420b8bfb1cbad2467abb48db26e7ddbc
 Directory: 3.7-rc/ubuntu
 
@@ -4251,37 +4251,37 @@ GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7-rc/ubuntu/management
 
 Tags: 3.7.11-rc.2-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
 GitCommit: 8a623bb9420b8bfb1cbad2467abb48db26e7ddbc
 Directory: 3.7-rc/alpine
 
 Tags: 3.7.11-rc.2-management-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: da06cbdbe9e89305b2650a782af06f96004a894e
 Directory: 3.7-rc/alpine/management
 
 Tags: 3.7.10
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: a51c5ad7333baae15f609e9fcbac1400d02b96a6
 Directory: 3.7/ubuntu
 
 Tags: 3.7.10-management
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 GitCommit: f22c0b266cfeb8cb6d776f9e6a961908c2557ad3
 Directory: 3.7/ubuntu/management
 
 Tags: 3.7.10-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: a51c5ad7333baae15f609e9fcbac1400d02b96a6
 Directory: 3.7/alpine
 
 Tags: 3.7.10-management-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
 GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/alpine/management
 
 Tags: 3.7.8
-Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 1a8fd1c6ee027baafb7144c24ad3c995ba5e0d24
 Directory: 3.7/debian
 
@@ -4291,27 +4291,27 @@ GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/debian/management
 
 Tags: 3.7.8-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
+Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
 GitCommit: 1a8fd1c6ee027baafb7144c24ad3c995ba5e0d24
 Directory: 3.7/alpine
 
 Tags: 3.7.8-management-alpine
-Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/alpine/management
 
 Tags: 3.6.16,3.6
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
+Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 1a8fd1c6ee027baafb7144c24ad3c995ba5e0d24
 Directory: 3.6/debian
 
 Tags: 3.6.16-management,3.6-management
-Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
 GitCommit: b9eda3e4665c24db70a9a290fddf33bc5c567b10
 Directory: 3.6/debian/management
 
 Tags: 3.6.16-alpine,3.6-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
 GitCommit: 1a8fd1c6ee027baafb7144c24ad3c995ba5e0d24
 Directory: 3.6/alpine
 
@@ -4321,22 +4321,22 @@ GitCommit: b9eda3e4665c24db70a9a290fddf33bc5c567b10
 Directory: 3.6/alpine/management
 
 Tags: 3.7.7
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
+Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 13c512c0250e86d1b1a48200daa8d041d24b1894
 Directory: 3.7/debian
 
 Tags: 3.7.7-management
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
+Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/debian/management
 
 Tags: 3.7.7-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 13c512c0250e86d1b1a48200daa8d041d24b1894
 Directory: 3.7/alpine
 
 Tags: 3.7.7-management-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
+Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
 GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/alpine/management
 
@@ -4351,7 +4351,7 @@ GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/debian/management
 
 Tags: 3.7.6-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: fa1276bb5252c429d38fded8995aa3bbcac029ff
 Directory: 3.7/alpine
 
@@ -4361,12 +4361,12 @@ GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/alpine/management
 
 Tags: 3.7.5
-Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 75bbd3f7ae9c106a23b0f10809d45690045f805a
 Directory: 3.7/debian
 
 Tags: 3.7.5-management
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/debian/management
 
@@ -4376,17 +4376,17 @@ GitCommit: d7096266dfb047fce1eff89bd759e3ab55d779f3
 Directory: 3.7/alpine
 
 Tags: 3.7.5-management-alpine
-Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
 GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/alpine/management
 
 Tags: 3.6.16-rc.1,3.6-rc
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 087a9cf6059d4a71962819cb808ee8b71929790f
 Directory: 3.6-rc/debian
 
 Tags: 3.6.16-rc.1-management,3.6-rc-management
-Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 087a9cf6059d4a71962819cb808ee8b71929790f
 Directory: 3.6-rc/debian/management
 
@@ -4401,12 +4401,12 @@ GitCommit: 087a9cf6059d4a71962819cb808ee8b71929790f
 Directory: 3.6-rc/alpine/management
 
 Tags: 3.6.15
-Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
+Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: da82eb0f68ed89a876fc44e915f20fc1e6e6bd8d
 Directory: 3.6/debian
 
 Tags: 3.6.15-management
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
 GitCommit: b9eda3e4665c24db70a9a290fddf33bc5c567b10
 Directory: 3.6/debian/management
 
@@ -4416,37 +4416,37 @@ GitCommit: d7096266dfb047fce1eff89bd759e3ab55d779f3
 Directory: 3.6/alpine
 
 Tags: 3.6.15-management-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
 GitCommit: b9eda3e4665c24db70a9a290fddf33bc5c567b10
 Directory: 3.6/alpine/management
 
 Tags: 3.7.5-rc.1
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
+Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 0480b1954a18b45eb0d403e59d0cb9844b4f466f
 Directory: 3.7-rc/debian
 
 Tags: 3.7.5-rc.1-management
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: da06cbdbe9e89305b2650a782af06f96004a894e
 Directory: 3.7-rc/debian/management
 
 Tags: 3.7.5-rc.1-alpine
-Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
 GitCommit: d018942c63a8f9c1cb4a84930b74eb142640f1ce
 Directory: 3.7-rc/alpine
 
 Tags: 3.7.5-rc.1-management-alpine
-Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
 GitCommit: da06cbdbe9e89305b2650a782af06f96004a894e
 Directory: 3.7-rc/alpine/management
 
 Tags: 3.7.4
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 1a37166704d2ca7c386980387e81615985d5db47
 Directory: 3.7/debian
 
 Tags: 3.7.4-management
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/debian/management
 
@@ -4466,7 +4466,7 @@ GitCommit: 828d5ed824b9c49a9696755a3872c3d45ac81bd8
 Directory: 3.7-rc/debian
 
 Tags: 3.7.4-rc.4-management
-Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: da06cbdbe9e89305b2650a782af06f96004a894e
 Directory: 3.7-rc/debian/management
 
@@ -4476,12 +4476,12 @@ GitCommit: ef175ca799b6cee50f04e464271a610cbd3d2e69
 Directory: 3.7-rc/alpine
 
 Tags: 3.7.4-rc.4-management-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
 GitCommit: da06cbdbe9e89305b2650a782af06f96004a894e
 Directory: 3.7-rc/alpine/management
 
 Tags: 3.7.3
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
+Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: b5543df2789c16d8ea1c2119484378d4c23baa6c
 Directory: 3.7/debian
 
@@ -4491,57 +4491,57 @@ GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/debian/management
 
 Tags: 3.7.3-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: b5543df2789c16d8ea1c2119484378d4c23baa6c
 Directory: 3.7/alpine
 
 Tags: 3.7.3-management-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/alpine/management
 
 Tags: 3.7.4-rc.3
-Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 5c01b8ad083e4eb79dcc2da1fdfa1733d4b36950
 Directory: 3.7-rc/debian
 
 Tags: 3.7.4-rc.3-management
-Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: da06cbdbe9e89305b2650a782af06f96004a894e
 Directory: 3.7-rc/debian/management
 
 Tags: 3.7.4-rc.3-alpine
-Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 3777da3ba1bbface12c22a8200f38629a6c41642
 Directory: 3.7-rc/alpine
 
 Tags: 3.7.4-rc.3-management-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
 GitCommit: da06cbdbe9e89305b2650a782af06f96004a894e
 Directory: 3.7-rc/alpine/management
 
 Tags: 3.7.4-rc.1
-Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
+Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 65c42bf5ceda842b857c9fc4afc88378563c6be6
 Directory: 3.7-rc/debian
 
 Tags: 3.7.4-rc.1-management
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: da06cbdbe9e89305b2650a782af06f96004a894e
 Directory: 3.7-rc/debian/management
 
 Tags: 3.7.4-rc.1-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
 GitCommit: 65c42bf5ceda842b857c9fc4afc88378563c6be6
 Directory: 3.7-rc/alpine
 
 Tags: 3.7.4-rc.1-management-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
 GitCommit: da06cbdbe9e89305b2650a782af06f96004a894e
 Directory: 3.7-rc/alpine/management
 
 Tags: 3.7.3-rc.2
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: eb92a062fe8ef5f33ac9a9bfd8b1fa0201dabf4b
 Directory: 3.7-rc/debian
 
@@ -4556,37 +4556,37 @@ GitCommit: dd7f0e66ae7b6eb8d7002a3e7fd6713e6a9cc2f3
 Directory: 3.7-rc/alpine
 
 Tags: 3.7.3-rc.2-management-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
 GitCommit: 501a83a7b54f4b151e6ad9eae37602b964b1f5d0
 Directory: 3.7-rc/alpine/management
 
 Tags: 3.7.2
-Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 79b144f64991538d29f8c071270d157a5bf7a9b7
 Directory: 3.7/debian
 
 Tags: 3.7.2-management
-Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/debian/management
 
 Tags: 3.7.2-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
 GitCommit: 31a69457c8adbe0d7fe7e33afeaa95e4faf2b73e
 Directory: 3.7/alpine
 
 Tags: 3.7.2-management-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
 GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/alpine/management
 
 Tags: 3.7.3-rc.1
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: dab7fec58190fd07f000fa08b7f7de793895c373
 Directory: 3.7-rc/debian
 
 Tags: 3.7.3-rc.1-management
-Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 501a83a7b54f4b151e6ad9eae37602b964b1f5d0
 Directory: 3.7-rc/debian/management
 
@@ -4596,17 +4596,17 @@ GitCommit: 501a83a7b54f4b151e6ad9eae37602b964b1f5d0
 Directory: 3.7-rc/alpine
 
 Tags: 3.7.3-rc.1-management-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
 GitCommit: 501a83a7b54f4b151e6ad9eae37602b964b1f5d0
 Directory: 3.7-rc/alpine/management
 
 Tags: 3.6.15-rc.1
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: f1b33563bcaf75a9f5cdb670570e173fda52092a
 Directory: 3.6-rc/debian
 
 Tags: 3.6.15-rc.1-management
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: f1b33563bcaf75a9f5cdb670570e173fda52092a
 Directory: 3.6-rc/debian/management
 
@@ -4616,52 +4616,52 @@ GitCommit: f1b33563bcaf75a9f5cdb670570e173fda52092a
 Directory: 3.6-rc/alpine
 
 Tags: 3.6.15-rc.1-management-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: f1b33563bcaf75a9f5cdb670570e173fda52092a
 Directory: 3.6-rc/alpine/management
 
 Tags: 3.6.14
-Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
 GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.6/debian
 
 Tags: 3.6.14-management
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: b9eda3e4665c24db70a9a290fddf33bc5c567b10
 Directory: 3.6/debian/management
 
 Tags: 3.6.14-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
 GitCommit: 2558d958a0ab9c38f58ad616e387063b33bb229c
 Directory: 3.6/alpine
 
 Tags: 3.6.14-management-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
+Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
 GitCommit: b9eda3e4665c24db70a9a290fddf33bc5c567b10
 Directory: 3.6/alpine/management
 
 Tags: 3.7.1
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
 GitCommit: dc9451b8f990b9578327d14ee3c68556d2533c5f
 Directory: 3.7/debian
 
 Tags: 3.7.1-management
-Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/debian/management
 
 Tags: 3.7.1-alpine
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: dc9451b8f990b9578327d14ee3c68556d2533c5f
 Directory: 3.7/alpine
 
 Tags: 3.7.1-management-alpine
-Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
 GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/alpine/management
 
 Tags: 3.7.0
-Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: c282d486e67439a8192b01a85ce4ce2679c27e1e
 Directory: 3.7/debian
 
@@ -4671,27 +4671,27 @@ GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/debian/management
 
 Tags: 3.7.0-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
+Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
 GitCommit: c282d486e67439a8192b01a85ce4ce2679c27e1e
 Directory: 3.7/alpine
 
 Tags: 3.7.0-management-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 4b2b11c59ee65c2a09616b163d4572559a86bb7b
 Directory: 3.7/alpine/management
 
 Tags: 3.6.12
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 57baaf4a1a4a20a710b24800739652d29e94e7c9
 Directory: 3.6/debian
 
 Tags: 3.6.12-management
-Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 79277042564875d55e4b05a60c65b6eb46651a94
 Directory: 3.6/debian/management
 
 Tags: 3.6.12-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 7872457525eb343df072a50c89189406436fbfa5
 Directory: 3.6/alpine
 
@@ -4706,7 +4706,7 @@ GitCommit: 7d76799247764423a69438f72961ef0581788e07
 Directory: 3.6/debian
 
 Tags: 3.6.11-management
-Architectures: arm32v7,arm64v8,i386,s390x,amd64,arm32v5
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,s390x
 GitCommit: 79277042564875d55e4b05a60c65b6eb46651a94
 Directory: 3.6/debian/management
 
@@ -4721,12 +4721,12 @@ GitCommit: 79277042564875d55e4b05a60c65b6eb46651a94
 Directory: 3.6/alpine/management
 
 Tags: 3.6.10
-Architectures: amd64,arm32v5,arm32v7,i386,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,i386
 GitCommit: 7eed5476d6153d05e5a0245ccfe28d893b0b369e
 Directory: 3.6/debian
 
 Tags: 3.6.10-management
-Architectures: i386,s390x,amd64,arm32v5,arm32v7
+Architectures: amd64,arm32v5,arm32v7,i386,s390x
 GitCommit: 79277042564875d55e4b05a60c65b6eb46651a94
 Directory: 3.6/debian/management
 
@@ -4833,21 +4833,21 @@ GitCommit: dc712681dcaeadb0371be66be5e96563be364e5d
 Directory: management
 
 Tags: 3.7.5-beta.3
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 0977d2ac490940afec494bba80f84d4a01cbb432
 Directory: 3.7-rc/debian
 
 Tags: 3.7.5-beta.3-management
-Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: da06cbdbe9e89305b2650a782af06f96004a894e
 Directory: 3.7-rc/debian/management
 
 Tags: 3.7.5-beta.3-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
 GitCommit: 771280a145bd45d8d0bead90132be745131af0d5
 Directory: 3.7-rc/alpine
 
 Tags: 3.7.5-beta.3-management-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: da06cbdbe9e89305b2650a782af06f96004a894e
 Directory: 3.7-rc/alpine/management
