@@ -13,6 +13,7 @@ import (
 	flag "github.com/spf13/pflag"
 	"golang.org/x/oauth2"
 	shell "gomodules.xyz/go-sh"
+	"kubeops.dev/scanner/apis/trivy"
 	"log"
 	"net/http"
 	"os"
@@ -112,6 +113,28 @@ func IsNotFound(err error) bool {
 	return false
 }
 
+// trivy image ubuntu --security-checks vuln --format json --quiet
+func scan(sh *shell.Session, img string) (*trivy.SingleReport, error) {
+	args := []any{
+		"image",
+		img,
+		"--security-checks", "vuln",
+		"--format", "json",
+		// "--quiet",
+	}
+	out, err := sh.Command("trivy", args...).Output()
+	if err != nil {
+		return nil, err
+	}
+
+	var r trivy.SingleReport
+	err = trivy.JSON.Unmarshal(out, &r)
+	if err != nil {
+		return nil, err
+	}
+	return &r, nil
+}
+
 func main_() {
 	var name *string = flag.String("name", "", "Name of binary")
 	var tag *string = flag.String("tag", "", "Tag to be built")
@@ -139,13 +162,21 @@ func ShouldBuild(name, tag string) (bool, error) {
 	return false, nil
 }
 
+func getNewShell() *shell.Session {
+	sh := shell.NewSession()
+	sh.SetDir("/tmp")
+	sh.SetEnv("GITHUB_TOKEN", os.Getenv("GITHUB_TOKEN"))
+
+	sh.ShowCMD = true
+	sh.Stdout = os.Stdout
+	sh.Stderr = os.Stderr
+	return sh
+}
+
 func Build(dir, name, tag string, t time.Time) error {
 	ts := t.UTC().Format("20060102")
 
-	sh := shell.NewSession()
-	sh.ShowCMD = true
-	sh.SetDir("/tmp")
-	sh.SetEnv("GITHUB_TOKEN", os.Getenv("GITHUB_TOKEN"))
+	sh := getNewShell()
 
 	repoURL, b, err := FindBlock(dir, name, tag)
 	if err != nil {
