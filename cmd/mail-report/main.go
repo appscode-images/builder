@@ -4,8 +4,10 @@ import (
 	"bytes"
 	"fmt"
 	"os"
+	"path/filepath"
 	"sort"
 	"strconv"
+	"strings"
 	"time"
 
 	"github.com/appscode-images/builder/api"
@@ -50,6 +52,20 @@ func main() {
 	err = m.SendMail(smtp, "tamal@appscode.com", "", nil)
 	if err != nil {
 		panic(err)
+	}
+
+	autoPromoteTags := make([]string, 0, len(reports))
+	for _, report := range reports {
+		if report.AutoPromote() {
+			autoPromoteTags = append(autoPromoteTags, report.Tag)
+		}
+	}
+	if len(autoPromoteTags) > 0 {
+		filename := filepath.Join(dir, "library", *name, "promote_tags.txt")
+		err = os.WriteFile(filename, []byte(strings.Join(autoPromoteTags, "\n")), 0644)
+		if err != nil {
+			panic(err)
+		}
 	}
 }
 
