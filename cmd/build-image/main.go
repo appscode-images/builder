@@ -264,15 +264,32 @@ func Build(sh *shell.Session, repoURL string, b *api.Block, name, tag, ts string
 		}
 	}
 
-	sh.SetDir(filepath.Join("/tmp", name, b.Directory))
-
 	// https://github.com/kubedb/mysql-init-docker/blob/release-8.0.31/Makefile
 
 	var archImages []any
-	for _, arch := range api.PLATFORM_ARCHS {
+	for arch, info := range b.Architectures {
+		if !contains(api.PLATFORM_ARCHS, arch) {
+			continue
+		}
+
+		dockerfileDir := filepath.Join("/tmp", name)
+		if info.Directory != "" {
+			dockerfileDir = filepath.Join("/tmp", name, info.Directory)
+		} else if b.Directory != "" {
+			dockerfileDir = filepath.Join("/tmp", name, b.Directory)
+		}
+		sh.SetDir(dockerfileDir)
+
 		img := fmt.Sprintf("%s/%s:%s_linunx_%s_%s", api.DOCKER_REGISTRY, name, tag, arch, ts)
 		archImages = append(archImages, img)
-		err = sh.Command("docker", "build", "--arch=linux/"+arch, "--load", "--pull", "-t", img, ".").Run()
+		args := []any{
+			"build", "--arch=linux/" + arch, "--load", "--pull", "-t", img,
+		}
+		if info.File != "" {
+			args = append(args, "-f", info.File)
+		}
+		args = append(args, ".")
+		err = sh.Command("docker", args...).Run()
 		if err != nil {
 			return err
 		}
