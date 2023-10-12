@@ -1,28 +1,28 @@
 GitRepo: https://github.com/docker-library/hello-world.git
 
 Tags: linux
-riscv64-Directory: riscv64/hello-world
-riscv64-GitCommit: 3fb6ebca4163bf5b9cc496ac3e8f11cb1e754aee
-arm32v7-Directory: arm32v7/hello-world
-arm32v7-GitCommit: 3fb6ebca4163bf5b9cc496ac3e8f11cb1e754aee
-arm32v5-Directory: arm32v5/hello-world
-arm32v5-GitCommit: 3fb6ebca4163bf5b9cc496ac3e8f11cb1e754aee
 arm64v8-Directory: arm64v8/hello-world
 arm64v8-GitCommit: 3fb6ebca4163bf5b9cc496ac3e8f11cb1e754aee
-i386-Directory: i386/hello-world
-i386-GitCommit: 3fb6ebca4163bf5b9cc496ac3e8f11cb1e754aee
 mips64le-Directory: mips64le/hello-world
 mips64le-GitCommit: 3fb6ebca4163bf5b9cc496ac3e8f11cb1e754aee
 ppc64le-Directory: ppc64le/hello-world
 ppc64le-GitCommit: 3fb6ebca4163bf5b9cc496ac3e8f11cb1e754aee
-s390x-Directory: s390x/hello-world
-s390x-GitCommit: 3fb6ebca4163bf5b9cc496ac3e8f11cb1e754aee
+riscv64-Directory: riscv64/hello-world
+riscv64-GitCommit: 3fb6ebca4163bf5b9cc496ac3e8f11cb1e754aee
 amd64-Directory: amd64/hello-world
 amd64-GitCommit: 3fb6ebca4163bf5b9cc496ac3e8f11cb1e754aee
-Architectures: riscv64,arm32v7,arm32v5,arm64v8,i386,mips64le,ppc64le,s390x,amd64
+arm32v7-Directory: arm32v7/hello-world
+arm32v7-GitCommit: 3fb6ebca4163bf5b9cc496ac3e8f11cb1e754aee
+i386-Directory: i386/hello-world
+i386-GitCommit: 3fb6ebca4163bf5b9cc496ac3e8f11cb1e754aee
+s390x-Directory: s390x/hello-world
+s390x-GitCommit: 3fb6ebca4163bf5b9cc496ac3e8f11cb1e754aee
+arm32v5-Directory: arm32v5/hello-world
+arm32v5-GitCommit: 3fb6ebca4163bf5b9cc496ac3e8f11cb1e754aee
+Architectures: arm64v8,mips64le,ppc64le,riscv64,amd64,arm32v7,i386,s390x,arm32v5
 
 Tags: nanoserver-ltsc2022
-Architectures: windows,windows-amd64
+Architectures: windows-amd64,windows
 
 Tags: nanoserver-1809
 Architectures: windows-amd64,windows
@@ -31,7 +31,7 @@ Tags: nanoserver-1803
 Architectures: windows-amd64,windows
 
 Tags: nanoserver-sac2016
-Architectures: windows,windows-amd64
+Architectures: windows-amd64,windows
 
 Tags: nanoserver-1709
 Architectures: windows-amd64,windows
@@ -40,11 +40,9 @@ Tags: nanoserver
 Architectures: windows-amd64,windows
 
 Tags: nanoserver1709
-Architectures: windows-amd64,windows
+Architectures: windows,windows-amd64
 
 Tags: latest
-amd64-Directory: amd64/hello-world
-amd64-GitCommit: 7d0ee592e4ed60e2da9d59331e16ecdcadc1ed87
 arm32v5-Directory: arm32v5/hello-world
 arm32v5-GitCommit: 7d0ee592e4ed60e2da9d59331e16ecdcadc1ed87
 arm32v7-Directory: arm32v7/hello-world
@@ -57,4 +55,6 @@ ppc64le-Directory: ppc64le/hello-world
 ppc64le-GitCommit: 7d0ee592e4ed60e2da9d59331e16ecdcadc1ed87
 s390x-Directory: s390x/hello-world
 s390x-GitCommit: 7d0ee592e4ed60e2da9d59331e16ecdcadc1ed87
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+amd64-Directory: amd64/hello-world
+amd64-GitCommit: 7d0ee592e4ed60e2da9d59331e16ecdcadc1ed87
+Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64

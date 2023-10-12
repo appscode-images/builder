@@ -1,10 +1,6 @@
 GitRepo: https://github.com/docker-library/hello-world.git
 
 Tags: linux
-arm32v5-Directory: arm32v5/hello-seattle
-arm32v5-GitCommit: b715c35271f1d18832480bde75fe17b93db26414
-arm32v7-Directory: arm32v7/hello-seattle
-arm32v7-GitCommit: b715c35271f1d18832480bde75fe17b93db26414
 arm64v8-Directory: arm64v8/hello-seattle
 arm64v8-GitCommit: b715c35271f1d18832480bde75fe17b93db26414
 i386-Directory: i386/hello-seattle
@@ -15,7 +11,11 @@ s390x-Directory: s390x/hello-seattle
 s390x-GitCommit: b715c35271f1d18832480bde75fe17b93db26414
 amd64-Directory: amd64/hello-seattle
 amd64-GitCommit: b715c35271f1d18832480bde75fe17b93db26414
-Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+arm32v5-Directory: arm32v5/hello-seattle
+arm32v5-GitCommit: b715c35271f1d18832480bde75fe17b93db26414
+arm32v7-Directory: arm32v7/hello-seattle
+arm32v7-GitCommit: b715c35271f1d18832480bde75fe17b93db26414
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
 
 Tags: nanoserver-sac2016
 Architectures: windows-amd64,windows
@@ -36,12 +36,6 @@ Tags: nanoserver1709
 Architectures: windows-amd64,windows
 
 Tags: latest
-i386-Directory: i386/hello-seattle
-i386-GitCommit: c0f93c30814d7a2487648efc712dc031a89bac79
-ppc64le-Directory: ppc64le/hello-seattle
-ppc64le-GitCommit: 7d0ee592e4ed60e2da9d59331e16ecdcadc1ed87
-s390x-Directory: s390x/hello-seattle
-s390x-GitCommit: 7d0ee592e4ed60e2da9d59331e16ecdcadc1ed87
 amd64-Directory: amd64/hello-seattle
 amd64-GitCommit: 7d0ee592e4ed60e2da9d59331e16ecdcadc1ed87
 arm32v5-Directory: arm32v5/hello-seattle
@@ -50,4 +44,10 @@ arm32v7-Directory: arm32v7/hello-seattle
 arm32v7-GitCommit: 7d0ee592e4ed60e2da9d59331e16ecdcadc1ed87
 arm64v8-Directory: arm64v8/hello-seattle
 arm64v8-GitCommit: 7d0ee592e4ed60e2da9d59331e16ecdcadc1ed87
-Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
+i386-Directory: i386/hello-seattle
+i386-GitCommit: c0f93c30814d7a2487648efc712dc031a89bac79
+ppc64le-Directory: ppc64le/hello-seattle
+ppc64le-GitCommit: 7d0ee592e4ed60e2da9d59331e16ecdcadc1ed87
+s390x-Directory: s390x/hello-seattle
+s390x-GitCommit: 7d0ee592e4ed60e2da9d59331e16ecdcadc1ed87
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x

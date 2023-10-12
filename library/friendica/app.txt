@@ -1,7 +1,7 @@
 GitRepo: https://github.com/friendica/docker.git
 
 Tags: 2023.05-apache,apache,stable-apache,2023.05,latest,stable
-Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: 74b970887dc7bd2f9127282c86fc6133728cbd71
 Directory: 2023.05/apache
 
@@ -11,47 +11,47 @@ GitCommit: 74b970887dc7bd2f9127282c86fc6133728cbd71
 Directory: 2023.05/fpm
 
 Tags: 2023.05-fpm-alpine,fpm-alpine,stable-fpm-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 74b970887dc7bd2f9127282c86fc6133728cbd71
 Directory: 2023.05/fpm-alpine
 
 Tags: 2023.09-dev-apache,dev-apache,2023.09-dev,dev
-Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: 74b970887dc7bd2f9127282c86fc6133728cbd71
 Directory: 2023.09-dev/apache
 
 Tags: 2023.09-dev-fpm,dev-fpm
-Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 74b970887dc7bd2f9127282c86fc6133728cbd71
 Directory: 2023.09-dev/fpm
 
 Tags: 2023.09-dev-fpm-alpine,dev-fpm-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 74b970887dc7bd2f9127282c86fc6133728cbd71
 Directory: 2023.09-dev/fpm-alpine
 
 Tags: 2023.09-rc-apache,rc-apache,2023.09-rc,rc
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 GitCommit: 19498098d2b4cf7e3849cfa62b5143a4201000b4
 Directory: 2023.09-rc/apache
 
 Tags: 2023.09-rc-fpm,rc-fpm
-Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: 19498098d2b4cf7e3849cfa62b5143a4201000b4
 Directory: 2023.09-rc/fpm
 
 Tags: 2023.09-rc-fpm-alpine,rc-fpm-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 19498098d2b4cf7e3849cfa62b5143a4201000b4
 Directory: 2023.09-rc/fpm-alpine
 
 Tags: 2023.04-apache,2023.04
-Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 50bf32a75375fce99f6f10dcf8285be5ffe7c435
 Directory: 2023.04/apache
 
 Tags: 2023.04-fpm
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 50bf32a75375fce99f6f10dcf8285be5ffe7c435
 Directory: 2023.04/fpm
 
@@ -61,17 +61,17 @@ GitCommit: 50bf32a75375fce99f6f10dcf8285be5ffe7c435
 Directory: 2023.04/fpm-alpine
 
 Tags: 2023.05-rc-apache,2023.05-rc
-Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 50bf32a75375fce99f6f10dcf8285be5ffe7c435
 Directory: 2023.05-rc/apache
 
 Tags: 2023.05-rc-fpm
-Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 50bf32a75375fce99f6f10dcf8285be5ffe7c435
 Directory: 2023.05-rc/fpm
 
 Tags: 2023.05-rc-fpm-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: 50bf32a75375fce99f6f10dcf8285be5ffe7c435
 Directory: 2023.05-rc/fpm-alpine
 
@@ -81,62 +81,62 @@ GitCommit: 50bf32a75375fce99f6f10dcf8285be5ffe7c435
 Directory: 2023.06-dev/apache
 
 Tags: 2023.06-dev-fpm
-Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
+Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 50bf32a75375fce99f6f10dcf8285be5ffe7c435
 Directory: 2023.06-dev/fpm
 
 Tags: 2023.06-dev-fpm-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 50bf32a75375fce99f6f10dcf8285be5ffe7c435
 Directory: 2023.06-dev/fpm-alpine
 
 Tags: 2023.01-apache,2023.01
-Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: cea40a56f39360ab342c3bfb1533e13c661596cd
 Directory: 2023.01/apache
 
 Tags: 2023.01-fpm
-Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: cea40a56f39360ab342c3bfb1533e13c661596cd
 Directory: 2023.01/fpm
 
 Tags: 2023.01-fpm-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: cea40a56f39360ab342c3bfb1533e13c661596cd
 Directory: 2023.01/fpm-alpine
 
 Tags: 2023.03-dev-apache,2023.03-dev
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: cea40a56f39360ab342c3bfb1533e13c661596cd
 Directory: 2023.03-dev/apache
 
 Tags: 2023.03-dev-fpm
-Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: cea40a56f39360ab342c3bfb1533e13c661596cd
 Directory: 2023.03-dev/fpm
 
 Tags: 2023.03-dev-fpm-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: cea40a56f39360ab342c3bfb1533e13c661596cd
 Directory: 2023.03-dev/fpm-alpine
 
 Tags: 2023.03-rc-apache,2023.03-rc
-Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
+Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 6bae8ca82083ebe5d4b5f61def6c00e597deccfd
 Directory: 2023.03-rc/apache
 
 Tags: 2023.03-rc-fpm
-Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 6bae8ca82083ebe5d4b5f61def6c00e597deccfd
 Directory: 2023.03-rc/fpm
 
 Tags: 2023.03-rc-fpm-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 6bae8ca82083ebe5d4b5f61def6c00e597deccfd
 Directory: 2023.03-rc/fpm-alpine
 
 Tags: 2022.12-apache,2022.12
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: d4c80286df956393b364a37c2471dc501c0373a1
 Directory: 2022.12/apache
 
@@ -146,17 +146,17 @@ GitCommit: d4c80286df956393b364a37c2471dc501c0373a1
 Directory: 2022.12/fpm
 
 Tags: 2022.12-fpm-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: d4c80286df956393b364a37c2471dc501c0373a1
 Directory: 2022.12/fpm-alpine
 
 Tags: 2022.10-apache,2022.10
-Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 39791e62fd6ea0b19ac10663c0913a3cb149dc0f
 Directory: 2022.10/apache
 
 Tags: 2022.10-fpm
-Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: 39791e62fd6ea0b19ac10663c0913a3cb149dc0f
 Directory: 2022.10/fpm
 
@@ -166,57 +166,57 @@ GitCommit: 39791e62fd6ea0b19ac10663c0913a3cb149dc0f
 Directory: 2022.10/fpm-alpine
 
 Tags: 2022.12-dev-apache,2022.12-dev
-Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: 10d5fff6b424b084ee3f43fd65ea054611337ba8
 Directory: 2022.12-dev/apache
 
 Tags: 2022.12-dev-fpm
-Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 10d5fff6b424b084ee3f43fd65ea054611337ba8
 Directory: 2022.12-dev/fpm
 
 Tags: 2022.12-dev-fpm-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 10d5fff6b424b084ee3f43fd65ea054611337ba8
 Directory: 2022.12-dev/fpm-alpine
 
 Tags: 2022.12-rc-apache,2022.12-rc
-Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 8d8dd753496bb3c7cf8034a9b813e4a3f2035156
 Directory: 2022.12-rc/apache
 
 Tags: 2022.12-rc-fpm
-Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: 8d8dd753496bb3c7cf8034a9b813e4a3f2035156
 Directory: 2022.12-rc/fpm
 
 Tags: 2022.12-rc-fpm-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 8d8dd753496bb3c7cf8034a9b813e4a3f2035156
 Directory: 2022.12-rc/fpm-alpine
 
 Tags: 2022.03-apache,2022.03
-Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 227a2dd78bdd6f6dcc102bdd62fd423953fe85f4
 Directory: 2022.03/apache
 
 Tags: 2022.03-fpm
-Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: 227a2dd78bdd6f6dcc102bdd62fd423953fe85f4
 Directory: 2022.03/fpm
 
 Tags: 2022.03-fpm-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 227a2dd78bdd6f6dcc102bdd62fd423953fe85f4
 Directory: 2022.03/fpm-alpine
 
 Tags: 2022.06-apache,2022.06
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: 227a2dd78bdd6f6dcc102bdd62fd423953fe85f4
 Directory: 2022.06/apache
 
 Tags: 2022.06-fpm
-Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: 227a2dd78bdd6f6dcc102bdd62fd423953fe85f4
 Directory: 2022.06/fpm
 
@@ -226,12 +226,12 @@ GitCommit: 227a2dd78bdd6f6dcc102bdd62fd423953fe85f4
 Directory: 2022.06/fpm-alpine
 
 Tags: 2022.09-dev-apache,2022.09-dev
-Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 GitCommit: 227a2dd78bdd6f6dcc102bdd62fd423953fe85f4
 Directory: 2022.09-dev/apache
 
 Tags: 2022.09-dev-fpm
-Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: 227a2dd78bdd6f6dcc102bdd62fd423953fe85f4
 Directory: 2022.09-dev/fpm
 
@@ -241,22 +241,22 @@ GitCommit: 227a2dd78bdd6f6dcc102bdd62fd423953fe85f4
 Directory: 2022.09-dev/fpm-alpine
 
 Tags: 2022.09-rc-apache,2022.09-rc
-Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: 227a2dd78bdd6f6dcc102bdd62fd423953fe85f4
 Directory: 2022.09-rc/apache
 
 Tags: 2022.09-rc-fpm
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 227a2dd78bdd6f6dcc102bdd62fd423953fe85f4
 Directory: 2022.09-rc/fpm
 
 Tags: 2022.09-rc-fpm-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 227a2dd78bdd6f6dcc102bdd62fd423953fe85f4
 Directory: 2022.09-rc/fpm-alpine
 
 Tags: 2021.09-apache,2021.09
-Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: b16c56d2dae58c57db1b999d76d8c5834426717b
 Directory: 2021.09/apache
 
@@ -266,12 +266,12 @@ GitCommit: b16c56d2dae58c57db1b999d76d8c5834426717b
 Directory: 2021.09/fpm
 
 Tags: 2021.09-fpm-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: b16c56d2dae58c57db1b999d76d8c5834426717b
 Directory: 2021.09/fpm-alpine
 
 Tags: 2022.02-apache,2022.02
-Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: b16c56d2dae58c57db1b999d76d8c5834426717b
 Directory: 2022.02/apache
 
@@ -286,22 +286,22 @@ GitCommit: b16c56d2dae58c57db1b999d76d8c5834426717b
 Directory: 2022.02/fpm-alpine
 
 Tags: 2022.05-dev-apache,2022.05-dev
-Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: b16c56d2dae58c57db1b999d76d8c5834426717b
 Directory: 2022.05-dev/apache
 
 Tags: 2022.05-dev-fpm
-Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: b16c56d2dae58c57db1b999d76d8c5834426717b
 Directory: 2022.05-dev/fpm
 
 Tags: 2022.05-dev-fpm-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: b16c56d2dae58c57db1b999d76d8c5834426717b
 Directory: 2022.05-dev/fpm-alpine
 
 Tags: 2022.05-rc-apache,2022.05-rc
-Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: a6fbe76784f75a1bb5c4c16f394a1f620832b30e
 Directory: 2022.05-rc/apache
 
@@ -311,17 +311,17 @@ GitCommit: a6fbe76784f75a1bb5c4c16f394a1f620832b30e
 Directory: 2022.05-rc/fpm
 
 Tags: 2022.05-rc-fpm-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: a6fbe76784f75a1bb5c4c16f394a1f620832b30e
 Directory: 2022.05-rc/fpm-alpine
 
 Tags: 2021.12-dev-apache,2021.12-dev
-Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 GitCommit: 933e3c5604ff01fe6a2a4d3a23b92effe5e152b0
 Directory: 2021.12-dev/apache
 
 Tags: 2021.12-dev-fpm
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: 933e3c5604ff01fe6a2a4d3a23b92effe5e152b0
 Directory: 2021.12-dev/fpm
 
@@ -331,12 +331,12 @@ GitCommit: 933e3c5604ff01fe6a2a4d3a23b92effe5e152b0
 Directory: 2021.12-dev/fpm-alpine
 
 Tags: 2021.12-rc-apache,2021.12-rc
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 GitCommit: 933e3c5604ff01fe6a2a4d3a23b92effe5e152b0
 Directory: 2021.12-rc/apache
 
 Tags: 2021.12-rc-fpm
-Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: 933e3c5604ff01fe6a2a4d3a23b92effe5e152b0
 Directory: 2021.12-rc/fpm
 
@@ -346,52 +346,52 @@ GitCommit: 933e3c5604ff01fe6a2a4d3a23b92effe5e152b0
 Directory: 2021.12-rc/fpm-alpine
 
 Tags: 2021.04-apache,2021.04
-Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: 77afe291c17b9c9ab8bb734b7d3ad1f903a76c14
 Directory: 2021.04/apache
 
 Tags: 2021.04-fpm
-Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: 77afe291c17b9c9ab8bb734b7d3ad1f903a76c14
 Directory: 2021.04/fpm
 
 Tags: 2021.04-fpm-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 77afe291c17b9c9ab8bb734b7d3ad1f903a76c14
 Directory: 2021.04/fpm-alpine
 
 Tags: 2021.07-apache,2021.07
-Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 77afe291c17b9c9ab8bb734b7d3ad1f903a76c14
 Directory: 2021.07/apache
 
 Tags: 2021.07-fpm
-Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 77afe291c17b9c9ab8bb734b7d3ad1f903a76c14
 Directory: 2021.07/fpm
 
 Tags: 2021.07-fpm-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 77afe291c17b9c9ab8bb734b7d3ad1f903a76c14
 Directory: 2021.07/fpm-alpine
 
 Tags: 2021.09-dev-apache,2021.09-dev
-Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: 5d30c0b12af65c86dc0d108d63444bb04856ad7f
 Directory: 2021.09-dev/apache
 
 Tags: 2021.09-dev-fpm
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: 5d30c0b12af65c86dc0d108d63444bb04856ad7f
 Directory: 2021.09-dev/fpm
 
 Tags: 2021.09-dev-fpm-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 5d30c0b12af65c86dc0d108d63444bb04856ad7f
 Directory: 2021.09-dev/fpm-alpine
 
 Tags: 2021.09-rc-apache,2021.09-rc
-Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: 5d30c0b12af65c86dc0d108d63444bb04856ad7f
 Directory: 2021.09-rc/apache
 
@@ -401,32 +401,32 @@ GitCommit: 5d30c0b12af65c86dc0d108d63444bb04856ad7f
 Directory: 2021.09-rc/fpm
 
 Tags: 2021.09-rc-fpm-alpine
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 5d30c0b12af65c86dc0d108d63444bb04856ad7f
 Directory: 2021.09-rc/fpm-alpine
 
 Tags: 2020.09-apache,2020.09
-Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
+Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 8de8251f810c1cefd2c0fa24fb83767547510a9a
 Directory: 2020.09/apache
 
 Tags: 2020.09-fpm
-Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: 8de8251f810c1cefd2c0fa24fb83767547510a9a
 Directory: 2020.09/fpm
 
 Tags: 2020.09-fpm-alpine
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 8de8251f810c1cefd2c0fa24fb83767547510a9a
 Directory: 2020.09/fpm-alpine
 
 Tags: 2021.01-apache,2021.01
-Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: 8de8251f810c1cefd2c0fa24fb83767547510a9a
 Directory: 2021.01/apache
 
 Tags: 2021.01-fpm
-Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 8de8251f810c1cefd2c0fa24fb83767547510a9a
 Directory: 2021.01/fpm
 
@@ -436,57 +436,57 @@ GitCommit: 8de8251f810c1cefd2c0fa24fb83767547510a9a
 Directory: 2021.01/fpm-alpine
 
 Tags: 2021.06-dev-apache,2021.06-dev
-Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 9e22de455afc8ba9a39b3b17316f613e2b4d0df8
 Directory: 2021.06-dev/apache
 
 Tags: 2021.06-dev-fpm
-Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: 9e22de455afc8ba9a39b3b17316f613e2b4d0df8
 Directory: 2021.06-dev/fpm
 
 Tags: 2021.06-dev-fpm-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 GitCommit: 9e22de455afc8ba9a39b3b17316f613e2b4d0df8
 Directory: 2021.06-dev/fpm-alpine
 
 Tags: 2021.06-rc-apache,2021.06-rc
-Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: 0efa3647e8b4efa2994501c5470345f29faa5bc5
 Directory: 2021.06-rc/apache
 
 Tags: 2021.06-rc-fpm
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: 0efa3647e8b4efa2994501c5470345f29faa5bc5
 Directory: 2021.06-rc/fpm
 
 Tags: 2021.06-rc-fpm-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 0efa3647e8b4efa2994501c5470345f29faa5bc5
 Directory: 2021.06-rc/fpm-alpine
 
 Tags: 2021.03-dev-apache,2021.03-dev
-Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: 88db303a9ad22024d505b28390af384e28a5a624
 Directory: 2021.03-dev/apache
 
 Tags: 2021.03-dev-fpm
-Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: 88db303a9ad22024d505b28390af384e28a5a624
 Directory: 2021.03-dev/fpm
 
 Tags: 2021.03-dev-fpm-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 88db303a9ad22024d505b28390af384e28a5a624
 Directory: 2021.03-dev/fpm-alpine
 
 Tags: 2021.03-rc-apache,2021.03-rc
-Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
+Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 88db303a9ad22024d505b28390af384e28a5a624
 Directory: 2021.03-rc/apache
 
 Tags: 2021.03-rc-fpm
-Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: 88db303a9ad22024d505b28390af384e28a5a624
 Directory: 2021.03-rc/fpm
 
@@ -496,17 +496,17 @@ GitCommit: 88db303a9ad22024d505b28390af384e28a5a624
 Directory: 2021.03-rc/fpm-alpine
 
 Tags: 2020.12-dev-apache,2020.12-dev
-Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: faf083b86951a3e5dd5a44a98fcffbb612354753
 Directory: 2020.12-dev/apache
 
 Tags: 2020.12-dev-fpm
-Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 GitCommit: faf083b86951a3e5dd5a44a98fcffbb612354753
 Directory: 2020.12-dev/fpm
 
 Tags: 2020.12-dev-fpm-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 GitCommit: faf083b86951a3e5dd5a44a98fcffbb612354753
 Directory: 2020.12-dev/fpm-alpine
 
@@ -521,12 +521,12 @@ GitCommit: 58f18457637a6df280c4c661e789c79d57536a17
 Directory: 2020.12-rc/fpm
 
 Tags: 2020.12-rc-fpm-alpine
-Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 GitCommit: 58f18457637a6df280c4c661e789c79d57536a17
 Directory: 2020.12-rc/fpm-alpine
 
 Tags: 2020.07-apache,2020.07
-Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 81b8476b4b0fd01bef248712a8f27cd03cea1561
 Directory: 2020.07/apache
 
@@ -536,7 +536,7 @@ GitCommit: 81b8476b4b0fd01bef248712a8f27cd03cea1561
 Directory: 2020.07/fpm
 
 Tags: 2020.07-fpm-alpine
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 81b8476b4b0fd01bef248712a8f27cd03cea1561
 Directory: 2020.07/fpm-alpine
 
@@ -546,22 +546,22 @@ GitCommit: 7c8ec59f3284a84e19f818b030c5f320f3d4a164
 Directory: 2020.09-dev/apache
 
 Tags: 2020.09-dev-fpm
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 7c8ec59f3284a84e19f818b030c5f320f3d4a164
 Directory: 2020.09-dev/fpm
 
 Tags: 2020.09-dev-fpm-alpine
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 7c8ec59f3284a84e19f818b030c5f320f3d4a164
 Directory: 2020.09-dev/fpm-alpine
 
 Tags: 2020.09-rc-apache,2020.09-rc
-Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: 7c8ec59f3284a84e19f818b030c5f320f3d4a164
 Directory: 2020.09-rc/apache
 
 Tags: 2020.09-rc-fpm
-Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: 7c8ec59f3284a84e19f818b030c5f320f3d4a164
 Directory: 2020.09-rc/fpm
 
@@ -571,12 +571,12 @@ GitCommit: 7c8ec59f3284a84e19f818b030c5f320f3d4a164
 Directory: 2020.09-rc/fpm-alpine
 
 Tags: 2020.03-apache,2020.03
-Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
+Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: f79c7efc7b150cec6f18462f9f06bf274cd57863
 Directory: 2020.03/apache
 
 Tags: 2020.03-fpm
-Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le
 GitCommit: f79c7efc7b150cec6f18462f9f06bf274cd57863
 Directory: 2020.03/fpm
 
@@ -586,12 +586,12 @@ GitCommit: f79c7efc7b150cec6f18462f9f06bf274cd57863
 Directory: 2020.03/fpm-alpine
 
 Tags: 2020.06-dev-apache,2020.06-dev
-Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 GitCommit: 67af709a0d16c0d2c0bd58cd88a0adfb799e784d
 Directory: 2020.06-dev/apache
 
 Tags: 2020.06-dev-fpm
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 GitCommit: 67af709a0d16c0d2c0bd58cd88a0adfb799e784d
 Directory: 2020.06-dev/fpm
 
@@ -601,17 +601,17 @@ GitCommit: 7fe1de658d8e3fb2bb9c7bd8c76d7856a6f62745
 Directory: 2020.06-dev/fpm-alpine
 
 Tags: 2020.06-rc-apache,2020.06-rc
-Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
+Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 67af709a0d16c0d2c0bd58cd88a0adfb799e784d
 Directory: 2020.06-rc/apache
 
 Tags: 2020.06-rc-fpm
-Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 GitCommit: 67af709a0d16c0d2c0bd58cd88a0adfb799e784d
 Directory: 2020.06-rc/fpm
 
 Tags: 2020.06-rc-fpm-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 7fe1de658d8e3fb2bb9c7bd8c76d7856a6f62745
 Directory: 2020.06-rc/fpm-alpine
 
@@ -621,12 +621,12 @@ GitCommit: 210790d4094baab6ad959e0dbcff75e9eb7cbb79
 Directory: 2019.12/apache
 
 Tags: 2019.12-fpm
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm64v8,i386,ppc64le,amd64,arm32v5,arm32v7
 GitCommit: 210790d4094baab6ad959e0dbcff75e9eb7cbb79
 Directory: 2019.12/fpm
 
 Tags: 2019.12-fpm-alpine
-Architectures: ppc64le,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: arm32v7,arm64v8,i386,ppc64le,amd64,arm32v6
 GitCommit: 9e25e43fb98fce36fceb0e12083d73add47acee5
 Directory: 2019.12/fpm-alpine
 
@@ -636,32 +636,32 @@ GitCommit: 210790d4094baab6ad959e0dbcff75e9eb7cbb79
 Directory: 2020.03-dev/apache
 
 Tags: 2020.03-dev-fpm
-Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,amd64
+Architectures: arm64v8,i386,ppc64le,amd64,arm32v5,arm32v7
 GitCommit: 210790d4094baab6ad959e0dbcff75e9eb7cbb79
 Directory: 2020.03-dev/fpm
 
 Tags: 2020.03-dev-fpm-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: i386,ppc64le,amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 9e25e43fb98fce36fceb0e12083d73add47acee5
 Directory: 2020.03-dev/fpm-alpine
 
 Tags: 2020.03-rc-apache,2020.03-rc
-Architectures: arm32v7,arm64v8,i386,ppc64le,amd64,arm32v5
+Architectures: ppc64le,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: fb1e117ea9da78ba73e301313dfeba5751f67c32
 Directory: 2020.03-rc/apache
 
 Tags: 2020.03-rc-fpm
-Architectures: arm32v7,arm64v8,i386,ppc64le,amd64,arm32v5
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
 GitCommit: fb1e117ea9da78ba73e301313dfeba5751f67c32
 Directory: 2020.03-rc/fpm
 
 Tags: 2020.03-rc-fpm-alpine
-Architectures: i386,ppc64le,amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm64v8,i386,ppc64le,amd64,arm32v6,arm32v7
 GitCommit: fb1e117ea9da78ba73e301313dfeba5751f67c32
 Directory: 2020.03-rc/fpm-alpine
 
 Tags: 2019.09-apache,2019.09
-Architectures: arm32v7,arm64v8,i386,ppc64le,amd64,arm32v5
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 7a74b4c0b9348987cd7595de2e1200c1d83cfe8d
 Directory: 2019.09/apache
 
@@ -671,7 +671,7 @@ GitCommit: 7a74b4c0b9348987cd7595de2e1200c1d83cfe8d
 Directory: 2019.09/fpm
 
 Tags: 2019.09-fpm-alpine
-Architectures: ppc64le,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 7a74b4c0b9348987cd7595de2e1200c1d83cfe8d
 Directory: 2019.09/fpm-alpine
 
@@ -681,22 +681,22 @@ GitCommit: 7a74b4c0b9348987cd7595de2e1200c1d83cfe8d
 Directory: 2019.12-dev/apache
 
 Tags: 2019.12-dev-fpm
-Architectures: arm64v8,i386,ppc64le,amd64,arm32v5,arm32v7
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 7a74b4c0b9348987cd7595de2e1200c1d83cfe8d
 Directory: 2019.12-dev/fpm
 
 Tags: 2019.12-dev-fpm-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm32v7,arm64v8,i386,ppc64le,amd64,arm32v6
 GitCommit: 7a74b4c0b9348987cd7595de2e1200c1d83cfe8d
 Directory: 2019.12-dev/fpm-alpine
 
 Tags: 2019.12-rc-apache,2019.12-rc
-Architectures: arm64v8,i386,ppc64le,amd64,arm32v5,arm32v7
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 7a74b4c0b9348987cd7595de2e1200c1d83cfe8d
 Directory: 2019.12-rc/apache
 
 Tags: 2019.12-rc-fpm
-Architectures: arm64v8,i386,ppc64le,amd64,arm32v5,arm32v7
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 7a74b4c0b9348987cd7595de2e1200c1d83cfe8d
 Directory: 2019.12-rc/fpm
 
@@ -706,16 +706,16 @@ GitCommit: 7a74b4c0b9348987cd7595de2e1200c1d83cfe8d
 Directory: 2019.12-rc/fpm-alpine
 
 Tags: 2020.07-1-apache,2020.07-1
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 GitCommit: 81b8476b4b0fd01bef248712a8f27cd03cea1561
 Directory: 2020.07-1/apache
 
 Tags: 2020.07-1-fpm
-Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: 81b8476b4b0fd01bef248712a8f27cd03cea1561
 Directory: 2020.07-1/fpm
 
 Tags: 2020.07-1-fpm-alpine
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 81b8476b4b0fd01bef248712a8f27cd03cea1561
 Directory: 2020.07-1/fpm-alpine

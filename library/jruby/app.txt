@@ -9,11 +9,11 @@ Architectures: amd64,arm64v8
 Directory: 9.4/jdk8
 
 Tags: 9.4-jre11,9.4.3-jre11,9.4.3.0-jre11
-Architectures: arm64v8,amd64
+Architectures: amd64,arm64v8
 Directory: 9.4/jre11
 
 Tags: 9.4-jdk11,9.4.3-jdk11,9.4.3.0-jdk11
-Architectures: arm64v8,amd64
+Architectures: amd64,arm64v8
 Directory: 9.4/jdk11
 
 Tags: 9.4-jdk17,9.4.3-jdk17,9.4.3.0-jdk17
@@ -37,7 +37,7 @@ Architectures: amd64,arm64v8
 Directory: 9.3/jre11
 
 Tags: 9.3-jdk11,9.3.11-jdk11,9.3.11.0-jdk11
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 Directory: 9.3/jdk11
 
 Tags: 9.3-jdk17,9.3.11-jdk17,9.3.11.0-jdk17
@@ -49,7 +49,7 @@ Architectures: amd64,arm64v8
 Directory: 9.3/jre17
 
 Tags: 9.3.10,9.3.10-jre,9.3.10-jre8,9.3.10.0,9.3.10.0-jre,9.3.10.0-jre8
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 Directory: 9.3/jre8
 
 Tags: 9.3.10-jdk,9.3.10-jdk8,9.3.10.0-jdk,9.3.10.0-jdk8
@@ -81,11 +81,11 @@ Architectures: amd64,arm64v8
 Directory: 9.4/jdk8
 
 Tags: 9.4.2-jre11,9.4.2.0-jre11
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 Directory: 9.4/jre11
 
 Tags: 9.4.2-jdk11,9.4.2.0-jdk11
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 Directory: 9.4/jdk11
 
 Tags: 9.4.2-jdk17,9.4.2.0-jdk17
@@ -101,7 +101,7 @@ Architectures: amd64,arm64v8
 Directory: 9.4/jdk8
 
 Tags: 9.4.1-jre11,9.4.1.0-jre11
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 Directory: 9.4/jre11
 
 Tags: 9.4.1-jdk11,9.4.1.0-jdk11
@@ -121,7 +121,7 @@ Architectures: amd64,arm64v8
 Directory: 9.4/jdk8
 
 Tags: 9.4.0-jre11,9.4.0.0-jre11
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 Directory: 9.4/jre11
 
 Tags: 9.4.0-jdk11,9.4.0.0-jdk11
@@ -201,11 +201,11 @@ Architectures: amd64,arm64v8
 Directory: 9.3/jre8
 
 Tags: 9.3.7-jdk,9.3.7-jdk8,9.3.7.0-jdk,9.3.7.0-jdk8
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 Directory: 9.3/jdk8
 
 Tags: 9.3.7-jre11,9.3.7.0-jre11
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 Directory: 9.3/jre11
 
 Tags: 9.3.7-jdk11,9.3.7.0-jdk11
@@ -217,7 +217,7 @@ Architectures: amd64,arm64v8
 Directory: 9.3/jdk17
 
 Tags: 9.3.6,9.3.6-jre,9.3.6-jre8,9.3.6.0,9.3.6.0-jre,9.3.6.0-jre8
-Architectures: arm64v8,amd64
+Architectures: amd64,arm64v8
 Directory: 9.3/jre8
 
 Tags: 9.3.6-jdk,9.3.6-jdk8,9.3.6.0-jdk,9.3.6.0-jdk8
@@ -671,17 +671,17 @@ Architectures: amd64,arm64v8,ppc64le,s390x
 Directory: 9000/alpine-jdk
 
 Tags: 9.1-alpine,9.1.17-alpine,9.1.17.0-alpine,9.1-jre-alpine,9.1.17-jre-alpine,9.1.17.0-jre-alpine
-Architectures: amd64,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm64v8,ppc64le
 GitCommit: 8bc3fe27670a851953345182fe12f14f5e708383
 Directory: 9000/alpine-jre
 
 Tags: 9.1-jdk-alpine,9.1.17-jdk-alpine,9.1.17.0-jdk-alpine
-Architectures: ppc64le,s390x,amd64,arm64v8
+Architectures: amd64,arm64v8,ppc64le,s390x
 GitCommit: 8bc3fe27670a851953345182fe12f14f5e708383
 Directory: 9000/alpine-jdk
 
 Tags: 9.2.6,9.2.6-jre,9.2.6.0,9.2.6.0-jre
-Architectures: arm32v5,arm64v8,ppc64le,s390x,amd64,i386
+Architectures: i386,arm32v5,arm64v8,ppc64le,s390x,amd64
 Directory: 9000/jre
 
 Tags: 9.2.6-alpine,9.2.6-jre-alpine,9.2.6.0-alpine,9.2.6.0-jre-alpine
@@ -689,7 +689,7 @@ Architectures: amd64,arm64v8,ppc64le,s390x
 Directory: 9000/alpine-jre
 
 Tags: 9.2.6-jdk,9.2.6.0-jdk
-Architectures: amd64,i386,arm32v5,arm64v8,ppc64le,s390x
+Architectures: arm32v5,arm64v8,ppc64le,s390x,amd64,i386
 Directory: 9000/jdk
 
 Tags: 9.2.6-jdk-alpine,9.2.6.0-jdk-alpine
@@ -697,27 +697,27 @@ Architectures: amd64,arm64v8,ppc64le,s390x
 Directory: 9000/alpine-jdk
 
 Tags: 9.2.6-onbuild,9.2.6.0-onbuild
-Architectures: amd64,i386,arm32v5,arm64v8,ppc64le,s390x
+Architectures: i386,arm32v5,arm64v8,ppc64le,s390x,amd64
 Directory: 9000/onbuild
 
 Tags: 9.2.5
-Architectures: arm64v8,ppc64le,s390x,amd64,i386,arm32v5
-Directory: 9000/jre
-
-Tags: 9.2.5-jre,9.2.5.0,9.2.5.0-jre
 Architectures: amd64,i386,arm32v5,arm64v8,ppc64le,s390x
 Directory: 9000/jre
 
+Tags: 9.2.5-jre,9.2.5.0,9.2.5.0-jre
+Architectures: arm64v8,ppc64le,s390x,amd64,i386,arm32v5
+Directory: 9000/jre
+
 Tags: 9.2.5-alpine,9.2.5-jre-alpine,9.2.5.0-alpine,9.2.5.0-jre-alpine
-Architectures: amd64,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm64v8
 Directory: 9000/alpine-jre
 
 Tags: 9.2.5-jdk,9.2.5.0-jdk
-Architectures: arm64v8,ppc64le,s390x,amd64,i386,arm32v5
+Architectures: arm32v5,arm64v8,ppc64le,s390x,amd64,i386
 Directory: 9000/jdk
 
 Tags: 9.2.5-jdk-alpine,9.2.5.0-jdk-alpine
-Architectures: amd64,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm64v8
 Directory: 9000/alpine-jdk
 
 Tags: 9.2.5-onbuild,9.2.5.0-onbuild
@@ -725,7 +725,7 @@ Architectures: s390x,amd64,i386,arm32v5,arm64v8,ppc64le
 Directory: 9000/onbuild
 
 Tags: 9.2.5.1,9.2.5.1-jre
-Architectures: ppc64le,s390x,amd64,i386,arm32v5,arm64v8
+Architectures: arm64v8,ppc64le,s390x,amd64,i386,arm32v5
 Directory: 9000/jre
 
 Tags: 9.2.5.1-alpine,9.2.5.1-jre-alpine
@@ -733,7 +733,7 @@ Architectures: amd64,arm64v8,ppc64le,s390x
 Directory: 9000/alpine-jre
 
 Tags: 9.2.5.1-jdk
-Architectures: arm64v8,ppc64le,s390x,amd64,i386,arm32v5
+Architectures: amd64,i386,arm32v5,arm64v8,ppc64le,s390x
 Directory: 9000/jdk
 
 Tags: 9.2.5.1-jdk-alpine
@@ -741,11 +741,11 @@ Architectures: amd64,arm64v8,ppc64le,s390x
 Directory: 9000/alpine-jdk
 
 Tags: 9.2.5.1-onbuild
-Architectures: i386,arm32v5,arm64v8,ppc64le,s390x,amd64
+Architectures: arm64v8,ppc64le,s390x,amd64,i386,arm32v5
 Directory: 9000/onbuild
 
 Tags: 9.2.4,9.2.4-jre,9.2.4.1,9.2.4.1-jre
-Architectures: amd64,i386,arm32v5,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,i386,arm32v5,arm64v8,ppc64le
 Directory: 9000/jre
 
 Tags: 9.2.4-alpine,9.2.4-jre-alpine,9.2.4.1-alpine,9.2.4.1-jre-alpine
@@ -757,11 +757,11 @@ Architectures: amd64,i386,arm32v5,arm64v8,ppc64le,s390x
 Directory: 9000/jdk
 
 Tags: 9.2.4-jdk-alpine,9.2.4.1-jdk-alpine
-Architectures: amd64,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm64v8
 Directory: 9000/alpine-jdk
 
 Tags: 9.2.4-onbuild,9.2.4.1-onbuild
-Architectures: arm32v5,arm64v8,ppc64le,s390x,amd64,i386
+Architectures: ppc64le,s390x,amd64,i386,arm32v5,arm64v8
 Directory: 9000/onbuild
 
 Tags: 9.2.4.0,9.2.4.0-jre
@@ -769,35 +769,35 @@ Architectures: arm64v8,ppc64le,s390x,amd64,i386,arm32v5
 Directory: 9000/jre
 
 Tags: 9.2.4.0-alpine,9.2.4.0-jre-alpine
-Architectures: arm64v8,ppc64le,s390x,amd64
+Architectures: amd64,arm64v8,ppc64le,s390x
 Directory: 9000/alpine-jre
 
 Tags: 9.2.4.0-jdk
-Architectures: s390x,amd64,i386,arm32v5,arm64v8,ppc64le
+Architectures: amd64,i386,arm32v5,arm64v8,ppc64le,s390x
 Directory: 9000/jdk
 
 Tags: 9.2.4.0-jdk-alpine
-Architectures: arm64v8,ppc64le,s390x,amd64
+Architectures: amd64,arm64v8,ppc64le,s390x
 Directory: 9000/alpine-jdk
 
 Tags: 9.2.4.0-onbuild
-Architectures: ppc64le,s390x,amd64,i386,arm32v5,arm64v8
+Architectures: amd64,i386,arm32v5,arm64v8,ppc64le,s390x
 Directory: 9000/onbuild
 
 Tags: 9.2.3,9.2.3-jre,9.2.3.0,9.2.3.0-jre
-Architectures: arm64v8,ppc64le,s390x,amd64,i386,arm32v5
+Architectures: i386,arm32v5,arm64v8,ppc64le,s390x,amd64
 Directory: 9000/jre
 
 Tags: 9.2.3-alpine,9.2.3-jre-alpine,9.2.3.0-alpine,9.2.3.0-jre-alpine
-Architectures: s390x,amd64,arm64v8,ppc64le
+Architectures: amd64,arm64v8,ppc64le,s390x
 Directory: 9000/alpine-jre
 
 Tags: 9.2.3-jdk,9.2.3.0-jdk
-Architectures: s390x,amd64,i386,arm32v5,arm64v8,ppc64le
+Architectures: i386,arm32v5,arm64v8,ppc64le,s390x,amd64
 Directory: 9000/jdk
 
 Tags: 9.2.3-jdk-alpine,9.2.3.0-jdk-alpine
-Architectures: s390x,amd64,arm64v8,ppc64le
+Architectures: amd64,arm64v8,ppc64le,s390x
 Directory: 9000/alpine-jdk
 
 Tags: 9.2.3-onbuild,9.2.3.0-onbuild
@@ -805,7 +805,7 @@ Architectures: i386,arm32v5,arm64v8,ppc64le,s390x,amd64
 Directory: 9000/onbuild
 
 Tags: 9.2.2,9.2.2-jre,9.2.2.0,9.2.2.0-jre
-Architectures: s390x,amd64,i386,arm32v5,arm64v8,ppc64le
+Architectures: amd64,i386,arm32v5,arm64v8,ppc64le,s390x
 Directory: 9000/jre
 
 Tags: 9.2.2-alpine,9.2.2-jre-alpine,9.2.2.0-alpine,9.2.2.0-jre-alpine
@@ -813,23 +813,23 @@ Architectures: amd64,arm64v8,ppc64le,s390x
 Directory: 9000/alpine-jre
 
 Tags: 9.2.2-jdk,9.2.2.0-jdk
-Architectures: amd64,i386,arm32v5,arm64v8,ppc64le,s390x
+Architectures: i386,arm32v5,arm64v8,ppc64le,s390x,amd64
 Directory: 9000/jdk
 
 Tags: 9.2.2-jdk-alpine,9.2.2.0-jdk-alpine
-Architectures: amd64,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm64v8
 Directory: 9000/alpine-jdk
 
 Tags: 9.2.2-onbuild,9.2.2.0-onbuild
-Architectures: amd64,i386,arm32v5,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,i386,arm32v5,arm64v8,ppc64le
 Directory: 9000/onbuild
 
 Tags: 9.2.0,9.2.0-jre,9.2.0.0,9.2.0.0-jre
-Architectures: ppc64le,s390x,amd64,i386,arm32v5,arm64v8
+Architectures: i386,arm32v5,arm64v8,ppc64le,s390x,amd64
 Directory: 9000/jre
 
 Tags: 9.2.0-alpine,9.2.0-jre-alpine,9.2.0.0-alpine,9.2.0.0-jre-alpine
-Architectures: s390x,amd64,arm64v8,ppc64le
+Architectures: amd64,arm64v8,ppc64le,s390x
 Directory: 9000/alpine-jre
 
 Tags: 9.2.0-jdk,9.2.0.0-jdk
@@ -837,15 +837,15 @@ Architectures: amd64,i386,arm32v5,arm64v8,ppc64le,s390x
 Directory: 9000/jdk
 
 Tags: 9.2.0-jdk-alpine,9.2.0.0-jdk-alpine
-Architectures: arm64v8,ppc64le,s390x,amd64
+Architectures: s390x,amd64,arm64v8,ppc64le
 Directory: 9000/alpine-jdk
 
 Tags: 9.2.0-onbuild,9.2.0.0-onbuild
-Architectures: i386,arm32v5,arm64v8,ppc64le,s390x,amd64
+Architectures: s390x,amd64,i386,arm32v5,arm64v8,ppc64le
 Directory: 9000/onbuild
 
 Tags: 9.1-onbuild,9.1.17-onbuild,9.1.17.0-onbuild
-Architectures: amd64,i386,arm32v5,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,i386,arm32v5,arm64v8,ppc64le
 Directory: 9000/onbuild
 
 Tags: 9.1.16,9.1.16-jre,9.1.16.0,9.1.16.0-jre
@@ -857,7 +857,7 @@ Architectures: amd64,arm64v8,ppc64le,s390x
 Directory: 9000/alpine-jre
 
 Tags: 9.1.16-jdk,9.1.16.0-jdk
-Architectures: amd64,i386,arm32v5,arm64v8,ppc64le,s390x
+Architectures: i386,arm32v5,arm64v8,ppc64le,s390x,amd64
 Directory: 9000/jdk
 
 Tags: 9.1.16-jdk-alpine,9.1.16.0-jdk-alpine
@@ -865,7 +865,7 @@ Architectures: amd64,arm64v8,ppc64le,s390x
 Directory: 9000/alpine-jdk
 
 Tags: 9.1.16-onbuild,9.1.16.0-onbuild
-Architectures: amd64,i386,arm32v5,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,i386,arm32v5,arm64v8,ppc64le
 Directory: 9000/onbuild
 
 Tags: 9.1.15,9.1.15-jre,9.1.15.0,9.1.15.0-jre
@@ -885,11 +885,11 @@ Architectures: amd64,arm64v8,ppc64le,s390x
 Directory: 9000/alpine-jdk
 
 Tags: 9.1.15-onbuild,9.1.15.0-onbuild
-Architectures: amd64,i386,arm32v5,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,i386,arm32v5
 Directory: 9000/onbuild
 
 Tags: 9.1.14,9.1.14-jre,9.1.14.0,9.1.14.0-jre
-Architectures: amd64,i386,arm32v5,arm64v8,ppc64le,s390x
+Architectures: i386,arm32v5,arm64v8,ppc64le,s390x,amd64
 Directory: 9000/jre
 
 Tags: 9.1.14-alpine,9.1.14-jre-alpine,9.1.14.0-alpine,9.1.14.0-jre-alpine
@@ -897,31 +897,31 @@ Architectures: amd64,arm64v8,ppc64le,s390x
 Directory: 9000/alpine-jre
 
 Tags: 9.1.14-jdk,9.1.14.0-jdk
-Architectures: arm32v5,arm64v8,ppc64le,s390x,amd64,i386
+Architectures: s390x,amd64,i386,arm32v5,arm64v8,ppc64le
 Directory: 9000/jdk
 
 Tags: 9.1.14-jdk-alpine,9.1.14.0-jdk-alpine
-Architectures: amd64,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm64v8
 Directory: 9000/alpine-jdk
 
 Tags: 9.1.14-onbuild,9.1.14.0-onbuild
-Architectures: ppc64le,s390x,amd64,i386,arm32v5,arm64v8
+Architectures: s390x,amd64,i386,arm32v5,arm64v8,ppc64le
 Directory: 9000/onbuild
 
 Tags: 9.1.13,9.1.13-jre,9.1.13.0,9.1.13.0-jre
-Architectures: s390x,amd64,i386,arm32v5,arm64v8,ppc64le
+Architectures: arm64v8,ppc64le,s390x,amd64,i386,arm32v5
 Directory: 9000/jre
 
 Tags: 9.1.13-alpine,9.1.13-jre-alpine,9.1.13.0-alpine,9.1.13.0-jre-alpine
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
 Directory: 9000/alpine-jre
 
 Tags: 9.1.13-jdk,9.1.13.0-jdk
-Architectures: i386,arm32v5,arm64v8,ppc64le,s390x,amd64
+Architectures: arm64v8,ppc64le,s390x,amd64,i386,arm32v5
 Directory: 9000/jdk
 
 Tags: 9.1.13-jdk-alpine,9.1.13.0-jdk-alpine
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
 Directory: 9000/alpine-jdk
 
 Tags: 9.1.13-onbuild,9.1.13.0-onbuild
@@ -929,15 +929,15 @@ Architectures: amd64,i386,arm32v5,arm64v8,ppc64le,s390x
 Directory: 9000/onbuild
 
 Tags: 1.7,1.7.27,1.7-jre,1.7.27-jre
-Architectures: i386,arm32v6,arm64v8,ppc64le,s390x,amd64
+Architectures: amd64,i386,arm32v6,arm64v8,ppc64le,s390x
 Directory: 1.7/jre
 
 Tags: 1.7-jdk,1.7.27-jdk
-Architectures: amd64,i386,arm32v6,arm64v8,ppc64le,s390x
+Architectures: i386,arm32v6,arm64v8,ppc64le,s390x,amd64
 Directory: 1.7/jdk
 
 Tags: 1.7-onbuild,1.7.27-onbuild
-Architectures: s390x,amd64,i386,arm32v6,arm64v8,ppc64le
+Architectures: i386,arm32v6,arm64v8,ppc64le,s390x,amd64
 Directory: 1.7/onbuild
 
 Tags: 9.1.12,9.1.12-jre,9.1.12.0,9.1.12.0-jre
