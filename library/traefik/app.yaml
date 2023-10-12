@@ -25,10 +25,10 @@ Blocks:
 - Architectures:
   - windows-amd64
   Directory: windows/1809
-  GitCommit: 03f1cd9c3350bdf9090136b01acc0e3fd2616600
+  GitCommit: 71a4619eca4f504c7034876c171626c1755944f3
   Tags:
-  - v2.10.4-windowsservercore-1809
-  - 2.10.4-windowsservercore-1809
+  - v2.10.5-windowsservercore-1809
+  - 2.10.5-windowsservercore-1809
   - v2.10-windowsservercore-1809
   - 2.10-windowsservercore-1809
   - saintmarcelin-windowsservercore-1809
@@ -39,14 +39,31 @@ Blocks:
   - arm64v8
   - s390x
   Directory: alpine
-  GitCommit: 03f1cd9c3350bdf9090136b01acc0e3fd2616600
+  GitCommit: 71a4619eca4f504c7034876c171626c1755944f3
   Tags:
-  - v2.10.4
-  - 2.10.4
+  - v2.10.5
+  - 2.10.5
   - v2.10
   - "2.10"
   - saintmarcelin
   - latest
+- Architectures:
+  - windows-amd64
+  Directory: windows/1809
+  GitCommit: 03f1cd9c3350bdf9090136b01acc0e3fd2616600
+  Tags:
+  - v2.10.4-windowsservercore-1809
+  - 2.10.4-windowsservercore-1809
+- Architectures:
+  - amd64
+  - arm32v6
+  - arm64v8
+  - s390x
+  Directory: alpine
+  GitCommit: 03f1cd9c3350bdf9090136b01acc0e3fd2616600
+  Tags:
+  - v2.10.4
+  - 2.10.4
 - Architectures:
   - windows-amd64
   Directory: windows/1809
@@ -4875,6 +4892,8 @@ KnownTags:
   2.10.3-windowsservercore-1809: {}
   2.10.4: {}
   2.10.4-windowsservercore-1809: {}
+  2.10.5: {}
+  2.10.5-windowsservercore-1809: {}
   "3.0": {}
   3.0-windowsservercore-1809: {}
   3.0.0-beta1: {}
@@ -5512,6 +5531,8 @@ KnownTags:
   v2.10.3-windowsservercore-1809: {}
   v2.10.4: {}
   v2.10.4-windowsservercore-1809: {}
+  v2.10.5: {}
+  v2.10.5-windowsservercore-1809: {}
   v3.0: {}
   v3.0-windowsservercore-1809: {}
   v3.0.0-beta1: {}

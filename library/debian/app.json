@@ -50,12 +50,16 @@
     "11.6-slim": {},
     "11.7": {},
     "11.7-slim": {},
+    "11.8": {},
+    "11.8-slim": {},
     "12": {},
     "12-slim": {},
     "12.0": {},
     "12.0-slim": {},
     "12.1": {},
     "12.1-slim": {},
+    "12.2": {},
+    "12.2-slim": {},
     "7": {},
     "7-slim": {},
     "7.10": {},
@@ -175,6 +179,8 @@
     "bookworm-20230904-slim": {},
     "bookworm-20230919": {},
     "bookworm-20230919-slim": {},
+    "bookworm-20231009": {},
+    "bookworm-20231009-slim": {},
     "bookworm-backports": {},
     "bookworm-slim": {},
     "bullseye": {},
@@ -312,6 +318,8 @@
     "bullseye-20230904-slim": {},
     "bullseye-20230919": {},
     "bullseye-20230919-slim": {},
+    "bullseye-20231009": {},
+    "bullseye-20231009-slim": {},
     "bullseye-backports": {},
     "bullseye-slim": {},
     "buster": {},
@@ -478,6 +486,8 @@
     "buster-20230904-slim": {},
     "buster-20230919": {},
     "buster-20230919-slim": {},
+    "buster-20231009": {},
+    "buster-20231009-slim": {},
     "buster-backports": {},
     "buster-slim": {},
     "experimental": {},
@@ -569,6 +579,7 @@
     "experimental-20230814": {},
     "experimental-20230904": {},
     "experimental-20230919": {},
+    "experimental-20231009": {},
     "jessie": {},
     "jessie-20170606": {},
     "jessie-20170620": {},
@@ -765,6 +776,8 @@
     "oldoldstable-20230904-slim": {},
     "oldoldstable-20230919": {},
     "oldoldstable-20230919-slim": {},
+    "oldoldstable-20231009": {},
+    "oldoldstable-20231009-slim": {},
     "oldoldstable-backports": {},
     "oldoldstable-slim": {},
     "oldstable": {},
@@ -932,6 +945,8 @@
     "oldstable-20230904-slim": {},
     "oldstable-20230919": {},
     "oldstable-20230919-slim": {},
+    "oldstable-20231009": {},
+    "oldstable-20231009-slim": {},
     "oldstable-backports": {},
     "oldstable-slim": {},
     "rc-buggy": {},
@@ -1023,6 +1038,7 @@
     "rc-buggy-20230814": {},
     "rc-buggy-20230904": {},
     "rc-buggy-20230919": {},
+    "rc-buggy-20231009": {},
     "sid": {},
     "sid-20170606": {},
     "sid-20170620": {},
@@ -1188,6 +1204,8 @@
     "sid-20230904-slim": {},
     "sid-20230919": {},
     "sid-20230919-slim": {},
+    "sid-20231009": {},
+    "sid-20231009-slim": {},
     "sid-slim": {},
     "stable": {},
     "stable-20170606": {},
@@ -1354,6 +1372,8 @@
     "stable-20230904-slim": {},
     "stable-20230919": {},
     "stable-20230919-slim": {},
+    "stable-20231009": {},
+    "stable-20231009-slim": {},
     "stable-backports": {},
     "stable-slim": {},
     "stretch": {},
@@ -1642,6 +1662,8 @@
     "testing-20230904-slim": {},
     "testing-20230919": {},
     "testing-20230919-slim": {},
+    "testing-20231009": {},
+    "testing-20231009-slim": {},
     "testing-backports": {},
     "testing-slim": {},
     "trixie": {},
@@ -1657,6 +1679,8 @@
     "trixie-20230904-slim": {},
     "trixie-20230919": {},
     "trixie-20230919-slim": {},
+    "trixie-20231009": {},
+    "trixie-20231009-slim": {},
     "trixie-backports": {},
     "trixie-slim": {},
     "unstable": {},
@@ -1824,6 +1848,8 @@
     "unstable-20230904-slim": {},
     "unstable-20230919": {},
     "unstable-20230919-slim": {},
+    "unstable-20231009": {},
+    "unstable-20231009-slim": {},
     "unstable-slim": {},
     "wheezy": {},
     "wheezy-20170606": {},
@@ -1857,8 +1883,8 @@
     {
       "Tags": [
         "bookworm",
-        "bookworm-20230919",
-        "12.1",
+        "bookworm-20231009",
+        "12.2",
         "12",
         "latest"
       ],
@@ -1895,8 +1921,8 @@
     {
       "Tags": [
         "bookworm-slim",
-        "bookworm-20230919-slim",
-        "12.1-slim",
+        "bookworm-20231009-slim",
+        "12.2-slim",
         "12-slim"
       ],
       "Architectures": [
@@ -1915,8 +1941,8 @@
     {
       "Tags": [
         "bullseye",
-        "bullseye-20230919",
-        "11.7",
+        "bullseye-20231009",
+        "11.8",
         "11"
       ],
       "Architectures": [
@@ -1952,8 +1978,8 @@
     {
       "Tags": [
         "bullseye-slim",
-        "bullseye-20230919-slim",
-        "11.7-slim",
+        "bullseye-20231009-slim",
+        "11.8-slim",
         "11-slim"
       ],
       "Architectures": [
@@ -1972,7 +1998,7 @@
     {
       "Tags": [
         "buster",
-        "buster-20230919",
+        "buster-20231009",
         "10.13",
         "10"
       ],
@@ -2001,7 +2027,7 @@
     {
       "Tags": [
         "buster-slim",
-        "buster-20230919-slim",
+        "buster-20231009-slim",
         "10.13-slim",
         "10-slim"
       ],
@@ -2017,7 +2043,7 @@
     {
       "Tags": [
         "experimental",
-        "experimental-20230919"
+        "experimental-20231009"
       ],
       "Architectures": [
         "amd64",
@@ -2036,7 +2062,7 @@
     {
       "Tags": [
         "oldoldstable",
-        "oldoldstable-20230919"
+        "oldoldstable-20231009"
       ],
       "Architectures": [
         "amd64",
@@ -2063,7 +2089,7 @@
     {
       "Tags": [
         "oldoldstable-slim",
-        "oldoldstable-20230919-slim"
+        "oldoldstable-20231009-slim"
       ],
       "Architectures": [
         "amd64",
@@ -2077,7 +2103,7 @@
     {
       "Tags": [
         "oldstable",
-        "oldstable-20230919"
+        "oldstable-20231009"
       ],
       "Architectures": [
         "amd64",
@@ -2112,7 +2138,7 @@
     {
       "Tags": [
         "oldstable-slim",
-        "oldstable-20230919-slim"
+        "oldstable-20231009-slim"
       ],
       "Architectures": [
         "amd64",
@@ -2130,7 +2156,7 @@
     {
       "Tags": [
         "rc-buggy",
-        "rc-buggy-20230919"
+        "rc-buggy-20231009"
       ],
       "Architectures": [
         "amd64",
@@ -2149,7 +2175,7 @@
     {
       "Tags": [
         "sid",
-        "sid-20230919"
+        "sid-20231009"
       ],
       "Architectures": [
         "amd64",
@@ -2168,7 +2194,7 @@
     {
       "Tags": [
         "sid-slim",
-        "sid-20230919-slim"
+        "sid-20231009-slim"
       ],
       "Architectures": [
         "amd64",
@@ -2187,7 +2213,7 @@
     {
       "Tags": [
         "stable",
-        "stable-20230919"
+        "stable-20231009"
       ],
       "Architectures": [
         "amd64",
@@ -2222,7 +2248,7 @@
     {
       "Tags": [
         "stable-slim",
-        "stable-20230919-slim"
+        "stable-20231009-slim"
       ],
       "Architectures": [
         "amd64",
@@ -2240,7 +2266,7 @@
     {
       "Tags": [
         "testing",
-        "testing-20230919"
+        "testing-20231009"
       ],
       "Architectures": [
         "amd64",
@@ -2275,7 +2301,7 @@
     {
       "Tags": [
         "testing-slim",
-        "testing-20230919-slim"
+        "testing-20231009-slim"
       ],
       "Architectures": [
         "amd64",
@@ -2293,7 +2319,7 @@
     {
       "Tags": [
         "trixie",
-        "trixie-20230919"
+        "trixie-20231009"
       ],
       "Architectures": [
         "amd64",
@@ -2328,7 +2354,7 @@
     {
       "Tags": [
         "trixie-slim",
-        "trixie-20230919-slim"
+        "trixie-20231009-slim"
       ],
       "Architectures": [
         "amd64",
@@ -2346,7 +2372,7 @@
     {
       "Tags": [
         "unstable",
-        "unstable-20230919"
+        "unstable-20231009"
       ],
       "Architectures": [
         "amd64",
@@ -2365,6 +2391,374 @@
     {
       "Tags": [
         "unstable-slim",
+        "unstable-20231009-slim"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "unstable/slim"
+    },
+    {
+      "Tags": [
+        "bookworm-20230919",
+        "12.1"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bookworm"
+    },
+    {
+      "Tags": [
+        "bookworm-20230919-slim",
+        "12.1-slim"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bookworm/slim"
+    },
+    {
+      "Tags": [
+        "bullseye-20230919",
+        "11.7"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bullseye"
+    },
+    {
+      "Tags": [
+        "bullseye-20230919-slim",
+        "11.7-slim"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "bullseye/slim"
+    },
+    {
+      "Tags": [
+        "buster-20230919"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386"
+      ],
+      "GitCommit": "",
+      "Directory": "buster"
+    },
+    {
+      "Tags": [
+        "buster-20230919-slim"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386"
+      ],
+      "GitCommit": "",
+      "Directory": "buster/slim"
+    },
+    {
+      "Tags": [
+        "experimental-20230919"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "experimental"
+    },
+    {
+      "Tags": [
+        "oldoldstable-20230919"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386"
+      ],
+      "GitCommit": "",
+      "Directory": "oldoldstable"
+    },
+    {
+      "Tags": [
+        "oldoldstable-20230919-slim"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v7",
+        "arm64v8",
+        "i386"
+      ],
+      "GitCommit": "",
+      "Directory": "oldoldstable/slim"
+    },
+    {
+      "Tags": [
+        "oldstable-20230919"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oldstable"
+    },
+    {
+      "Tags": [
+        "oldstable-20230919-slim"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "oldstable/slim"
+    },
+    {
+      "Tags": [
+        "rc-buggy-20230919"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "rc-buggy"
+    },
+    {
+      "Tags": [
+        "sid-20230919"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "sid"
+    },
+    {
+      "Tags": [
+        "sid-20230919-slim"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "sid/slim"
+    },
+    {
+      "Tags": [
+        "stable-20230919"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "stable"
+    },
+    {
+      "Tags": [
+        "stable-20230919-slim"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "stable/slim"
+    },
+    {
+      "Tags": [
+        "testing-20230919"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "testing"
+    },
+    {
+      "Tags": [
+        "testing-20230919-slim"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "testing/slim"
+    },
+    {
+      "Tags": [
+        "trixie-20230919"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "trixie"
+    },
+    {
+      "Tags": [
+        "trixie-20230919-slim"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "trixie/slim"
+    },
+    {
+      "Tags": [
+        "unstable-20230919"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm32v5",
+        "arm32v7",
+        "arm64v8",
+        "i386",
+        "mips64le",
+        "ppc64le",
+        "riscv64",
+        "s390x"
+      ],
+      "GitCommit": "",
+      "Directory": "unstable"
+    },
+    {
+      "Tags": [
         "unstable-20230919-slim"
       ],
       "Architectures": [

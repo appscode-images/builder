@@ -5,7 +5,7 @@ Blocks:
   - arm64v8
   - ppc64le
   Directory: jdk8
-  GitCommit: 66c1c4133dadcd3db4d320cf6680838f7d91e92b
+  GitCommit: 0ea910f18590ad895816749d064dc14c77c435e3
   Tags:
   - 4.0.15-jdk8
   - 4.0-jdk8
@@ -20,7 +20,7 @@ Blocks:
   - ppc64le
   - s390x
   Directory: jdk11
-  GitCommit: 66c1c4133dadcd3db4d320cf6680838f7d91e92b
+  GitCommit: 0ea910f18590ad895816749d064dc14c77c435e3
   Tags:
   - 4.0.15-jdk11
   - 4.0-jdk11
@@ -31,7 +31,7 @@ Blocks:
 - Architectures:
   - amd64
   Directory: jdk11-alpine
-  GitCommit: 66c1c4133dadcd3db4d320cf6680838f7d91e92b
+  GitCommit: 0ea910f18590ad895816749d064dc14c77c435e3
   Tags:
   - 4.0.15-jdk11-alpine
   - 4.0-jdk11-alpine
@@ -43,7 +43,7 @@ Blocks:
   - ppc64le
   - s390x
   Directory: jdk17
-  GitCommit: 66c1c4133dadcd3db4d320cf6680838f7d91e92b
+  GitCommit: 0ea910f18590ad895816749d064dc14c77c435e3
   Tags:
   - 4.0.15-jdk17
   - 4.0-jdk17
@@ -68,7 +68,7 @@ Blocks:
 - Architectures:
   - amd64
   Directory: jdk17-alpine
-  GitCommit: 66c1c4133dadcd3db4d320cf6680838f7d91e92b
+  GitCommit: 0ea910f18590ad895816749d064dc14c77c435e3
   Tags:
   - 4.0.15-jdk17-alpine
   - 4.0-jdk17-alpine
@@ -80,6 +80,27 @@ Blocks:
   - 4-alpine
   - jdk-alpine
   - alpine
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: jdk21
+  GitCommit: 0ea910f18590ad895816749d064dc14c77c435e3
+  Tags:
+  - 4.0.15-jdk21
+  - 4.0-jdk21
+  - jdk21
+  - 4.0.15-jdk21-jammy
+  - 4.0-jdk21-jammy
+  - jdk21-jammy
+- Architectures:
+  - amd64
+  - arm64v8
+  Directory: jdk21-alpine
+  GitCommit: 0ea910f18590ad895816749d064dc14c77c435e3
+  Tags:
+  - 4.0.15-jdk21-alpine
+  - 4.0-jdk21-alpine
+  - jdk21-alpine
 - Architectures:
   - amd64
   - arm32v7
@@ -6296,6 +6317,9 @@ KnownTags:
   4.0-jdk18: {}
   4.0-jdk18-alpine: {}
   4.0-jdk18-jammy: {}
+  4.0-jdk21: {}
+  4.0-jdk21-alpine: {}
+  4.0-jdk21-jammy: {}
   4.0-jre: {}
   4.0-jre8: {}
   4.0-jre11: {}
@@ -6587,6 +6611,9 @@ KnownTags:
   4.0.15-jdk17: {}
   4.0.15-jdk17-alpine: {}
   4.0.15-jdk17-jammy: {}
+  4.0.15-jdk21: {}
+  4.0.15-jdk21-alpine: {}
+  4.0.15-jdk21-jammy: {}
   alpine: {}
   jammy: {}
   jdk: {}
@@ -6610,6 +6637,9 @@ KnownTags:
   jdk17: {}
   jdk17-alpine: {}
   jdk17-jammy: {}
+  jdk21: {}
+  jdk21-alpine: {}
+  jdk21-jammy: {}
   jre: {}
   jre-alpine: {}
   jre7: {}

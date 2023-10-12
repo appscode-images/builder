@@ -132,11 +132,11 @@ Blocks:
   - ppc64le
   - s390x
   Directory: 18/alpine3.17
-  GitCommit: ce9bfa282b62ece538fef25b954ade4401a7c8c7
+  GitCommit: 5803273beedb045fe6ad8be0a8fdab94681d2b2c
   Tags:
   - 18-alpine3.17
   - 18.18-alpine3.17
-  - 18.18.0-alpine3.17
+  - 18.18.1-alpine3.17
   - hydrogen-alpine3.17
   - lts-alpine3.17
 - Architectures:
@@ -147,14 +147,14 @@ Blocks:
   - ppc64le
   - s390x
   Directory: 18/alpine3.18
-  GitCommit: ce9bfa282b62ece538fef25b954ade4401a7c8c7
+  GitCommit: 5803273beedb045fe6ad8be0a8fdab94681d2b2c
   Tags:
   - 18-alpine
   - 18-alpine3.18
   - 18.18-alpine
   - 18.18-alpine3.18
-  - 18.18.0-alpine
-  - 18.18.0-alpine3.18
+  - 18.18.1-alpine
+  - 18.18.1-alpine3.18
   - hydrogen-alpine
   - hydrogen-alpine3.18
   - lts-alpine
@@ -166,14 +166,14 @@ Blocks:
   - ppc64le
   - s390x
   Directory: 18/bookworm
-  GitCommit: ce9bfa282b62ece538fef25b954ade4401a7c8c7
+  GitCommit: 5803273beedb045fe6ad8be0a8fdab94681d2b2c
   Tags:
   - "18"
   - 18-bookworm
   - "18.18"
   - 18.18-bookworm
-  - 18.18.0
-  - 18.18.0-bookworm
+  - 18.18.1
+  - 18.18.1-bookworm
   - hydrogen
   - hydrogen-bookworm
   - lts
@@ -186,14 +186,14 @@ Blocks:
   - ppc64le
   - s390x
   Directory: 18/bookworm-slim
-  GitCommit: ce9bfa282b62ece538fef25b954ade4401a7c8c7
+  GitCommit: 5803273beedb045fe6ad8be0a8fdab94681d2b2c
   Tags:
   - 18-bookworm-slim
   - 18-slim
   - 18.18-bookworm-slim
   - 18.18-slim
-  - 18.18.0-bookworm-slim
-  - 18.18.0-slim
+  - 18.18.1-bookworm-slim
+  - 18.18.1-slim
   - hydrogen-bookworm-slim
   - hydrogen-slim
   - lts-bookworm-slim
@@ -205,11 +205,11 @@ Blocks:
   - ppc64le
   - s390x
   Directory: 18/bullseye
-  GitCommit: ce9bfa282b62ece538fef25b954ade4401a7c8c7
+  GitCommit: 5803273beedb045fe6ad8be0a8fdab94681d2b2c
   Tags:
   - 18-bullseye
   - 18.18-bullseye
-  - 18.18.0-bullseye
+  - 18.18.1-bullseye
   - hydrogen-bullseye
   - lts-bullseye
 - Architectures:
@@ -219,11 +219,11 @@ Blocks:
   - ppc64le
   - s390x
   Directory: 18/bullseye-slim
-  GitCommit: ce9bfa282b62ece538fef25b954ade4401a7c8c7
+  GitCommit: 5803273beedb045fe6ad8be0a8fdab94681d2b2c
   Tags:
   - 18-bullseye-slim
   - 18.18-bullseye-slim
-  - 18.18.0-bullseye-slim
+  - 18.18.1-bullseye-slim
   - hydrogen-bullseye-slim
   - lts-bullseye-slim
 - Architectures:
@@ -231,11 +231,11 @@ Blocks:
   - arm32v7
   - arm64v8
   Directory: 18/buster
-  GitCommit: ce9bfa282b62ece538fef25b954ade4401a7c8c7
+  GitCommit: 5803273beedb045fe6ad8be0a8fdab94681d2b2c
   Tags:
   - 18-buster
   - 18.18-buster
-  - 18.18.0-buster
+  - 18.18.1-buster
   - hydrogen-buster
   - lts-buster
 - Architectures:
@@ -243,13 +243,94 @@ Blocks:
   - arm32v7
   - arm64v8
   Directory: 18/buster-slim
-  GitCommit: ce9bfa282b62ece538fef25b954ade4401a7c8c7
+  GitCommit: 5803273beedb045fe6ad8be0a8fdab94681d2b2c
   Tags:
   - 18-buster-slim
   - 18.18-buster-slim
-  - 18.18.0-buster-slim
+  - 18.18.1-buster-slim
   - hydrogen-buster-slim
   - lts-buster-slim
+- Architectures:
+  - amd64
+  - arm32v6
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 18/alpine3.17
+  GitCommit: ce9bfa282b62ece538fef25b954ade4401a7c8c7
+  Tags:
+  - 18.18.0-alpine3.17
+- Architectures:
+  - amd64
+  - arm32v6
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 18/alpine3.18
+  GitCommit: ce9bfa282b62ece538fef25b954ade4401a7c8c7
+  Tags:
+  - 18.18.0-alpine
+  - 18.18.0-alpine3.18
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 18/bookworm
+  GitCommit: ce9bfa282b62ece538fef25b954ade4401a7c8c7
+  Tags:
+  - 18.18.0
+  - 18.18.0-bookworm
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 18/bookworm-slim
+  GitCommit: ce9bfa282b62ece538fef25b954ade4401a7c8c7
+  Tags:
+  - 18.18.0-bookworm-slim
+  - 18.18.0-slim
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 18/bullseye
+  GitCommit: ce9bfa282b62ece538fef25b954ade4401a7c8c7
+  Tags:
+  - 18.18.0-bullseye
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  - ppc64le
+  - s390x
+  Directory: 18/bullseye-slim
+  GitCommit: ce9bfa282b62ece538fef25b954ade4401a7c8c7
+  Tags:
+  - 18.18.0-bullseye-slim
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  Directory: 18/buster
+  GitCommit: ce9bfa282b62ece538fef25b954ade4401a7c8c7
+  Tags:
+  - 18.18.0-buster
+- Architectures:
+  - amd64
+  - arm32v7
+  - arm64v8
+  Directory: 18/buster-slim
+  GitCommit: ce9bfa282b62ece538fef25b954ade4401a7c8c7
+  Tags:
+  - 18.18.0-buster-slim
 - Architectures:
   - amd64
   - arm32v6
@@ -33537,6 +33618,17 @@ KnownTags:
   18.18.0-buster: {}
   18.18.0-buster-slim: {}
   18.18.0-slim: {}
+  18.18.1: {}
+  18.18.1-alpine: {}
+  18.18.1-alpine3.17: {}
+  18.18.1-alpine3.18: {}
+  18.18.1-bookworm: {}
+  18.18.1-bookworm-slim: {}
+  18.18.1-bullseye: {}
+  18.18.1-bullseye-slim: {}
+  18.18.1-buster: {}
+  18.18.1-buster-slim: {}
+  18.18.1-slim: {}
   "19": {}
   19-alpine: {}
   19-alpine3.15: {}

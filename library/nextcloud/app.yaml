@@ -103,15 +103,15 @@ Blocks:
   - ppc64le
   - s390x
   Directory: 27/apache
-  GitCommit: fef9785e235f1ff05f9a4c2eb81b5f46155ef917
+  GitCommit: 3f2d22d4208ff1ff975a96a00fcf8cdbe6fdf41f
   Tags:
-  - 27.1.1-apache
+  - 27.1.2-apache
   - 27.1-apache
   - 27-apache
   - apache
   - stable-apache
   - production-apache
-  - 27.1.1
+  - 27.1.2
   - "27.1"
   - "27"
   - latest
@@ -127,9 +127,9 @@ Blocks:
   - ppc64le
   - s390x
   Directory: 27/fpm
-  GitCommit: fef9785e235f1ff05f9a4c2eb81b5f46155ef917
+  GitCommit: 3f2d22d4208ff1ff975a96a00fcf8cdbe6fdf41f
   Tags:
-  - 27.1.1-fpm
+  - 27.1.2-fpm
   - 27.1-fpm
   - 27-fpm
   - fpm
@@ -144,14 +144,53 @@ Blocks:
   - ppc64le
   - s390x
   Directory: 27/fpm-alpine
-  GitCommit: fef9785e235f1ff05f9a4c2eb81b5f46155ef917
+  GitCommit: 3f2d22d4208ff1ff975a96a00fcf8cdbe6fdf41f
   Tags:
-  - 27.1.1-fpm-alpine
+  - 27.1.2-fpm-alpine
   - 27.1-fpm-alpine
   - 27-fpm-alpine
   - fpm-alpine
   - stable-fpm-alpine
   - production-fpm-alpine
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: 27/apache
+  GitCommit: fef9785e235f1ff05f9a4c2eb81b5f46155ef917
+  Tags:
+  - 27.1.1-apache
+  - 27.1.1
+- Architectures:
+  - amd64
+  - arm32v5
+  - arm32v7
+  - arm64v8
+  - i386
+  - mips64le
+  - ppc64le
+  - s390x
+  Directory: 27/fpm
+  GitCommit: fef9785e235f1ff05f9a4c2eb81b5f46155ef917
+  Tags:
+  - 27.1.1-fpm
+- Architectures:
+  - amd64
+  - arm32v6
+  - arm32v7
+  - arm64v8
+  - i386
+  - ppc64le
+  - s390x
+  Directory: 27/fpm-alpine
+  GitCommit: fef9785e235f1ff05f9a4c2eb81b5f46155ef917
+  Tags:
+  - 27.1.1-fpm-alpine
 - Architectures:
   - amd64
   - arm32v5
@@ -13422,10 +13461,6 @@ KnownTags:
   13.0.1-rc-apache: {}
   13.0.1-rc-fpm: {}
   13.0.1-rc-fpm-alpine: {}
-  13.0.1RC1: {}
-  13.0.1RC1-apache: {}
-  13.0.1RC1-fpm: {}
-  13.0.1RC1-fpm-alpine: {}
   13.0.2: {}
   13.0.2-apache: {}
   13.0.2-fpm: {}
@@ -13562,6 +13597,10 @@ KnownTags:
   13.0.12RC1-apache: {}
   13.0.12RC1-fpm: {}
   13.0.12RC1-fpm-alpine: {}
+  13.0.1RC1: {}
+  13.0.1RC1-apache: {}
+  13.0.1RC1-fpm: {}
+  13.0.1RC1-fpm-alpine: {}
   "14": {}
   14-apache: {}
   14-beta: {}
@@ -13630,10 +13669,6 @@ KnownTags:
   14.0.1-rc-apache: {}
   14.0.1-rc-fpm: {}
   14.0.1-rc-fpm-alpine: {}
-  14.0.1RC1: {}
-  14.0.1RC1-apache: {}
-  14.0.1RC1-fpm: {}
-  14.0.1RC1-fpm-alpine: {}
   14.0.2: {}
   14.0.2-apache: {}
   14.0.2-fpm: {}
@@ -13774,6 +13809,10 @@ KnownTags:
   14.0.14RC1-apache: {}
   14.0.14RC1-fpm: {}
   14.0.14RC1-fpm-alpine: {}
+  14.0.1RC1: {}
+  14.0.1RC1-apache: {}
+  14.0.1RC1-fpm: {}
+  14.0.1RC1-fpm-alpine: {}
   "15": {}
   15-apache: {}
   15-beta: {}
@@ -13838,6 +13877,14 @@ KnownTags:
   15.0.1-rc-apache: {}
   15.0.1-rc-fpm: {}
   15.0.1-rc-fpm-alpine: {}
+  15.0.1RC1: {}
+  15.0.1RC1-apache: {}
+  15.0.1RC1-fpm: {}
+  15.0.1RC1-fpm-alpine: {}
+  15.0.1RC2: {}
+  15.0.1RC2-apache: {}
+  15.0.1RC2-fpm: {}
+  15.0.1RC2-fpm-alpine: {}
   15.0.2: {}
   15.0.2-apache: {}
   15.0.2-fpm: {}
@@ -13962,14 +14009,6 @@ KnownTags:
   15.0.14RC1-apache: {}
   15.0.14RC1-fpm: {}
   15.0.14RC1-fpm-alpine: {}
-  15.0.1RC1: {}
-  15.0.1RC1-apache: {}
-  15.0.1RC1-fpm: {}
-  15.0.1RC1-fpm-alpine: {}
-  15.0.1RC2: {}
-  15.0.1RC2-apache: {}
-  15.0.1RC2-fpm: {}
-  15.0.1RC2-fpm-alpine: {}
   "16": {}
   16-alpha: {}
   16-alpha-apache: {}
@@ -15238,6 +15277,10 @@ KnownTags:
   27.1.1-apache: {}
   27.1.1-fpm: {}
   27.1.1-fpm-alpine: {}
+  27.1.2: {}
+  27.1.2-apache: {}
+  27.1.2-fpm: {}
+  27.1.2-fpm-alpine: {}
   apache: {}
   beta: {}
   beta-apache: {}
