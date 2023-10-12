@@ -7,6 +7,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/appscode-images/builder/api"
+	"github.com/google/go-containerregistry/pkg/authn"
 	"github.com/google/go-containerregistry/pkg/crane"
 	"github.com/google/go-containerregistry/pkg/v1/remote/transport"
 	"github.com/google/go-github/v55/github"
@@ -61,48 +62,70 @@ type ImageLayer struct {
 	Digest    string `json:"digest"`
 }
 
-type T struct {
-	SchemaVersion int    `json:"schemaVersion"`
-	MediaType     string `json:"mediaType"`
-	Manifests     []struct {
-		MediaType string `json:"mediaType"`
-		Size      int    `json:"size"`
-		Digest    string `json:"digest"`
-		Platform  struct {
-			Architecture string `json:"architecture"`
-			Os           string `json:"os"`
-		} `json:"platform"`
-	} `json:"manifests"`
-	Annotations map[string]string `json:"annotations"`
-}
-
 func main() {
-	crane_do("alpine", "3.18.4", time.Now())
-}
+	sh := getNewShell()
+	ts := time.Now().UTC().Format("20060102")
 
-func crane_do(name, tag string, t time.Time) error {
-	ts := t.UTC().Format("20060102")
-
+	name := "alpine"
+	tag := "3.18.4"
 	ref := fmt.Sprintf("%s/%s:%s_%s", api.DOCKER_REGISTRY, name, tag, ts)
 	ref = "cgr.dev/chainguard/ruby"
 
-	data, err := crane.Manifest(ref)
+	dir, err := os.Getwd()
+	if err != nil {
+		panic(err)
+	}
+
+	repoURL, b, err := FindBlock(dir, name, tag)
+	if err != nil {
+		panic(err)
+	}
+
+	ShouldBuild(sh, ref, repoURL, b)
+}
+
+func ShouldBuild(sh *shell.Session, ref string, libRepoURL string, b *api.Block) (bool, error) {
+	data, err := crane.Manifest(ref, crane.WithAuthFromKeychain(authn.DefaultKeychain))
 	if err != nil {
 		if IsNotFound(err) {
 			fmt.Printf("NOT_FOUND %s\n", ref)
-			return nil
+			return true, nil
 		}
-		return err
+		return false, err
 	}
 
 	var m ImageManifest
 	err = json.Unmarshal(data, &m)
 	if err != nil {
-		return err
+		return false, err
+	}
+
+	report, err := scan(sh, ref)
+	if err != nil {
+		return false, err
+	}
+	riskOccurrence := SummarizeReport(report)
+	// Total: 0 (UNKNOWN: 0, LOW: 0, MEDIUM: 0, HIGH: 0, CRITICAL: 0)
+	for _, occurrence := range riskOccurrence {
+		if occurrence > 0 {
+			return true, nil
+		}
 	}
 
 	fmt.Println(m.MediaType)
 	return nil
+}
+
+func SummarizeReport(report *trivy.SingleReport) map[string]int {
+	riskOccurrence := map[string]int{} // risk -> occurrence
+
+	for _, rpt := range report.Results {
+		for _, tv := range rpt.Vulnerabilities {
+			riskOccurrence[tv.Severity]++
+		}
+	}
+
+	return riskOccurrence
 }
 
 func IsNotFound(err error) bool {
@@ -141,7 +164,12 @@ func main_() {
 
 	flag.Parse()
 
-	yes, err := ShouldBuild(*name, *tag)
+	t := time.Now()
+	ts := t.UTC().Format("20060102")
+	ref := fmt.Sprintf("%s/%s:%s_%s", api.DOCKER_REGISTRY, *name, *tag, ts)
+	sh := getNewShell()
+
+	yes, err := ShouldBuild(sh, ref)
 	if err != nil {
 		panic(err)
 	}
@@ -151,15 +179,11 @@ func main_() {
 			panic(err)
 		}
 
-		err = Build(dir, *name, *tag, time.Now())
+		err = Build(dir, *name, *tag, t)
 		if err != nil {
 			panic(err)
 		}
 	}
-}
-
-func ShouldBuild(name, tag string) (bool, error) {
-	return false, nil
 }
 
 func getNewShell() *shell.Session {
