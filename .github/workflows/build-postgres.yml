@@ -1,10 +1,10 @@
-name: build-alpine
+name: build-postgres
 
 on:
   workflow_dispatch:
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.head_ref || github.ref }}-build-alpine
+  group: ${{ github.workflow }}-${{ github.head_ref || github.ref }}-build-postgres
   cancel-in-progress: true
 
 jobs:
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        tag: [3.18, 3.17, 3.16, 3.15]
+        tag: [16.0-alpine, 15.4-alpine, 15.3-alpine, 15.2-alpine, 15.1-alpine, 15.0-alpine]
     steps:
     - uses: actions/checkout@v3
 
@@ -75,7 +75,7 @@ jobs:
 
     - name: Build
       run: |
-        go run cmd/build-image/main.go -- --name=alpine --tag=${{ matrix.tag }}
+        go run cmd/build-image/main.go -- --name=postgres --tag=${{ matrix.tag }}
 
   report:
     name: Report
@@ -131,15 +131,15 @@ jobs:
         SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
         SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
       run: |
-        go run cmd/mail-report/main.go -- --name=alpine
+        go run cmd/mail-report/main.go -- --name=postgres
         # https://stackoverflow.com/a/23930212
-        cat > ./library/alpine/README.md <<- EOM
-        # alpine
+        cat > ./library/postgres/README.md <<- EOM
+        # postgres
         Last Updated: $(date --rfc-3339=date)
         EOM
 
     - name: Update repo
       run: |
         git add --all
-        git commit -s -a -m "update alpine images $(date --rfc-3339=date)"
+        git commit -s -a -m "update postgres images $(date --rfc-3339=date)"
         git push origin HEAD
