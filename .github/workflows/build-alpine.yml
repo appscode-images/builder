@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        tag: [3.18.4, 3.17.3$]
+        tag: [3.18.4, 3.17.3]
     steps:
     - uses: actions/checkout@v3
 

@@ -72,10 +72,6 @@ func GenerateWorkflows(dir string) error {
 
 		wfYAML := strings.ReplaceAll(wf, "$name$", entry.Name())
 		wfYAML = strings.ReplaceAll(wfYAML, "$tags$", strings.Join(tags, ", "))
-		wfYAML, err = formatYAML(wfYAML)
-		if err != nil {
-			return err
-		}
 		if err := os.WriteFile(wfFile, []byte(wfYAML), 0644); err != nil {
 			return err
 		}
