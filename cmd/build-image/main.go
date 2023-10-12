@@ -83,6 +83,7 @@ func crane_do(name, tag string, t time.Time) error {
 	ts := t.UTC().Format("20060102")
 
 	ref := fmt.Sprintf("%s/%s:%s_%s", api.DOCKER_REGISTRY, name, tag, ts)
+	ref = "cgr.dev/chainguard/ruby"
 
 	data, err := crane.Manifest(ref)
 	if err != nil {
