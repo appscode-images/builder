@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        tag: [3.18.4, 3.17.5]
+        tag: [3.18.4]
     steps:
     - uses: actions/checkout@v3
 
@@ -48,10 +48,21 @@ jobs:
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Install Trivy
+    - name: Install crane
+      run: |
+        VERSION=$(curl -s "https://api.github.com/repos/google/go-containerregistry/releases/latest" | jq -r '.tag_name')
+        OS=Linux
+        ARCH=x86_64
+        curl -sL "https://github.com/google/go-containerregistry/releases/download/${VERSION}/go-containerregistry_${OS}_${ARCH}.tar.gz" > go-containerregistry.tar.gz
+        tar -zxvf go-containerregistry.tar.gz -C /usr/local/bin/ crane
+
+    - name: Install trivy
       run: |
         wget https://github.com/aquasecurity/trivy/releases/download/v0.18.3/trivy_0.18.3_Linux-64bit.deb
         sudo dpkg -i trivy_0.18.3_Linux-64bit.deb
+
+      # - name: Setup upterm session
+      #   uses: lhotari/action-upterm@v1
 
     - name: Build
       run: |
