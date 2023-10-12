@@ -86,7 +86,7 @@ func main__() {
 	ShouldBuild(sh, ref, repoURL, b)
 }
 
-func ShouldBuild(sh *shell.Session, ref string, libRepoURL string, b *api.Block) (bool, error) {
+func ShouldBuild(sh *shell.Session, ref string, repoURL string, b *api.Block) (bool, error) {
 	data, err := crane.Manifest(ref, crane.WithAuthFromKeychain(authn.DefaultKeychain))
 	if err != nil {
 		if IsNotFound(err) {
@@ -120,9 +120,9 @@ func ShouldBuild(sh *shell.Session, ref string, libRepoURL string, b *api.Block)
 	imgSrc := m.Annotations[KeyImageSource]
 	imgRev := m.Annotations[KeyImageRevision]
 	fmt.Println("ref=", ref,
-		"src= expected:", libRepoURL, " found:", imgSrc,
+		"src= expected:", repoURL, " found:", imgSrc,
 		"ref= expected:", b.GitCommit, " found:", imgRev)
-	return imgSrc != libRepoURL ||
+	return imgSrc != repoURL ||
 		imgRev != b.GitCommit, nil
 }
 
@@ -170,7 +170,7 @@ func scan(sh *shell.Session, img string) (*trivy.SingleReport, error) {
 
 func main() {
 	var name = flag.String("name", "alpine", "Name of binary")
-	var tag = flag.String("tag", "3.17.3", "Tag to be built")
+	var tag = flag.String("tag", "3.18.4", "Tag to be built")
 	flag.Parse()
 
 	t := time.Now()
@@ -186,13 +186,14 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+	repoURL := fmt.Sprintf("https://github.com/%s/%s", api.GH_IMG_REPO_OWNER, *name)
 
-	yes, err := ShouldBuild(sh, ref, libRepoURL, b)
+	yes, err := ShouldBuild(sh, ref, repoURL, b)
 	if err != nil {
 		panic(err)
 	}
 	if yes {
-		err = Build(sh, libRepoURL, b, *name, *tag, ts)
+		err = Build(sh, libRepoURL, repoURL, b, *name, *tag, ts)
 		if err != nil {
 			panic(err)
 		}
@@ -210,7 +211,7 @@ func getNewShell() *shell.Session {
 	return sh
 }
 
-func Build(sh *shell.Session, libRepoURL string, b *api.Block, name, tag, ts string) error {
+func Build(sh *shell.Session, libRepoURL, repoURL string, b *api.Block, name, tag, ts string) error {
 	ctx := context.Background()
 	gh := NewGitHubClient(ctx)
 	exists, err := GitHubRepoExists(ctx, gh, api.GH_IMG_REPO_OWNER, name)
@@ -229,7 +230,6 @@ func Build(sh *shell.Session, libRepoURL string, b *api.Block, name, tag, ts str
 	if err != nil {
 		return err
 	}
-	repoURL := fmt.Sprintf("https://github.com/%s/%s", api.GH_IMG_REPO_OWNER, name)
 	err = sh.Command("git", "clone", repoURL).Run()
 	if err != nil {
 		return err

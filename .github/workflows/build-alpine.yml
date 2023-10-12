@@ -4,7 +4,7 @@ on:s
   workflow_dispatch:
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.head_ref || github.ref }}
+  group: ${{ github.workflow }}-${{ github.head_ref || github.ref }}-build-alpine
   cancel-in-progress: true
 
 jobs:
