@@ -5,12 +5,14 @@ import (
 	"fmt"
 	"os"
 	"sort"
+	"strconv"
 	"time"
 
 	"github.com/appscode-images/builder/api"
 	"github.com/appscode-images/builder/lib"
 	"github.com/olekukonko/tablewriter"
 	flag "github.com/spf13/pflag"
+	"gomodules.xyz/mailer"
 )
 
 func main() {
@@ -28,6 +30,27 @@ func main() {
 	}
 	data := GenerateMarkdownReport(reports)
 	fmt.Println(string(data))
+
+	smtp, err := mailer.NewSMTPServiceFromEnv()
+	if err != nil {
+		panic(err)
+	}
+	m := mailer.Mailer{
+		Sender:          "tamal@appscode.com",
+		BCC:             "",
+		ReplyTo:         "",
+		Subject:         "CVE report: " + *name,
+		Body:            string(data),
+		Plaintext:       true,
+		Params:          nil,
+		AttachmentBytes: nil,
+		GDriveFiles:     nil,
+		GoogleDocIds:    nil,
+	}
+	err = m.SendMail(smtp, "tamal@appscode.com", "", nil)
+	if err != nil {
+		panic(err)
+	}
 }
 
 type TagReport struct {
@@ -46,7 +69,14 @@ type Stats struct {
 }
 
 func (s Stats) String() string {
-	return fmt.Sprintf("%d -> %d", s.Before, s.After)
+	b, a := "?", "?"
+	if s.Before >= 0 {
+		b = strconv.Itoa(s.Before)
+	}
+	if s.After >= 0 {
+		a = strconv.Itoa(s.After)
+	}
+	return fmt.Sprintf("%s -> %s", b, a)
 }
 
 func (r TagReport) AutoPromote() bool {
@@ -136,6 +166,12 @@ func GatherReport(dir, name string) ([]TagReport, error) {
 					tagReport.Unknown.Before = count
 				}
 			}
+		} else {
+			tagReport.Critical.Before = -1
+			tagReport.High.Before = -1
+			tagReport.Medium.Before = -1
+			tagReport.Low.Before = -1
+			tagReport.Unknown.Before = -1
 		}
 
 		tsRef := fmt.Sprintf("%s/%s:%s_%s", api.DOCKER_REGISTRY, name, tag, ts)
@@ -160,7 +196,14 @@ func GatherReport(dir, name string) ([]TagReport, error) {
 					tagReport.Unknown.After = count
 				}
 			}
+		} else {
+			tagReport.Critical.After = -1
+			tagReport.High.After = -1
+			tagReport.Medium.After = -1
+			tagReport.Low.After = -1
+			tagReport.Unknown.After = -1
 		}
+
 		reports = append(reports, tagReport)
 	}
 
