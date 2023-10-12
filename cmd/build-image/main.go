@@ -3,10 +3,8 @@ package main
 import (
 	"context"
 	"encoding/json"
-	"errors"
 	"fmt"
 	"github.com/appscode-images/builder/lib"
-	"net/http"
 	"os"
 	"path/filepath"
 	"time"
@@ -14,7 +12,6 @@ import (
 	"github.com/appscode-images/builder/api"
 	"github.com/google/go-containerregistry/pkg/authn"
 	"github.com/google/go-containerregistry/pkg/crane"
-	"github.com/google/go-containerregistry/pkg/v1/remote/transport"
 	flag "github.com/spf13/pflag"
 	shell "gomodules.xyz/go-sh"
 	"sigs.k8s.io/yaml"
@@ -85,7 +82,7 @@ func main__() {
 func ShouldBuild(sh *shell.Session, ref string, repoURL string, b *api.Block) (bool, error) {
 	data, err := crane.Manifest(ref, crane.WithAuthFromKeychain(authn.DefaultKeychain))
 	if err != nil {
-		if IsNotFound(err) {
+		if lib.ImageNotFound(err) {
 			return true, nil
 		}
 		return false, err
@@ -120,14 +117,6 @@ func ShouldBuild(sh *shell.Session, ref string, repoURL string, b *api.Block) (b
 		"ref= expected:", b.GitCommit, " found:", imgRev)
 	return imgSrc != repoURL ||
 		imgRev != b.GitCommit, nil
-}
-
-func IsNotFound(err error) bool {
-	var terr *transport.Error
-	if errors.As(err, &terr) {
-		return terr.StatusCode == http.StatusNotFound //&& terr.StatusCode != http.StatusForbidden {
-	}
-	return false
 }
 
 func main() {

@@ -1,8 +1,13 @@
 package lib
 
 import (
+	"errors"
+	"github.com/google/go-containerregistry/pkg/authn"
+	"github.com/google/go-containerregistry/pkg/crane"
+	"github.com/google/go-containerregistry/pkg/v1/remote/transport"
 	shell "gomodules.xyz/go-sh"
 	"kubeops.dev/scanner/apis/trivy"
+	"net/http"
 )
 
 // trivy image ubuntu --security-checks vuln --format json --quiet
@@ -37,4 +42,23 @@ func SummarizeReport(report *trivy.SingleReport) map[string]int {
 	}
 
 	return riskOccurrence
+}
+
+func ImageExists(ref string) (bool, error) {
+	_, err := crane.Manifest(ref, crane.WithAuthFromKeychain(authn.DefaultKeychain))
+	if err != nil {
+		if ImageNotFound(err) {
+			return false, nil
+		}
+		return false, err
+	}
+	return true, nil
+}
+
+func ImageNotFound(err error) bool {
+	var terr *transport.Error
+	if errors.As(err, &terr) {
+		return terr.StatusCode == http.StatusNotFound //&& terr.StatusCode != http.StatusForbidden {
+	}
+	return false
 }

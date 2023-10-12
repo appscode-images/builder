@@ -115,42 +115,50 @@ func GatherReport(dir, name string) ([]TagReport, error) {
 		}
 
 		ref := fmt.Sprintf("%s/%s:%s", api.DOCKER_REGISTRY, name, tag)
-		report, err := lib.Scan(sh, ref)
-		if err != nil {
+		if found, err := lib.ImageExists(ref); err != nil {
 			return nil, err
-		}
-		for sev, count := range lib.SummarizeReport(report) {
-			switch sev {
-			case "CRITICAL":
-				tagReport.Critical.Before = count
-			case "HIGH":
-				tagReport.High.Before = count
-			case "MEDIUM":
-				tagReport.Medium.Before = count
-			case "LOW":
-				tagReport.Low.Before = count
-			case "UNKNOWN":
-				tagReport.Unknown.Before = count
+		} else if found {
+			report, err := lib.Scan(sh, ref)
+			if err != nil {
+				return nil, err
+			}
+			for sev, count := range lib.SummarizeReport(report) {
+				switch sev {
+				case "CRITICAL":
+					tagReport.Critical.Before = count
+				case "HIGH":
+					tagReport.High.Before = count
+				case "MEDIUM":
+					tagReport.Medium.Before = count
+				case "LOW":
+					tagReport.Low.Before = count
+				case "UNKNOWN":
+					tagReport.Unknown.Before = count
+				}
 			}
 		}
 
 		tsRef := fmt.Sprintf("%s/%s:%s_%s", api.DOCKER_REGISTRY, name, tag, ts)
-		tsReport, err := lib.Scan(sh, tsRef)
-		if err != nil {
+		if found, err := lib.ImageExists(tsRef); err != nil {
 			return nil, err
-		}
-		for sev, count := range lib.SummarizeReport(tsReport) {
-			switch sev {
-			case "CRITICAL":
-				tagReport.Critical.After = count
-			case "HIGH":
-				tagReport.High.After = count
-			case "MEDIUM":
-				tagReport.Medium.After = count
-			case "LOW":
-				tagReport.Low.After = count
-			case "UNKNOWN":
-				tagReport.Unknown.After = count
+		} else if found {
+			tsReport, err := lib.Scan(sh, tsRef)
+			if err != nil {
+				return nil, err
+			}
+			for sev, count := range lib.SummarizeReport(tsReport) {
+				switch sev {
+				case "CRITICAL":
+					tagReport.Critical.After = count
+				case "HIGH":
+					tagReport.High.After = count
+				case "MEDIUM":
+					tagReport.Medium.After = count
+				case "LOW":
+					tagReport.Low.After = count
+				case "UNKNOWN":
+					tagReport.Unknown.After = count
+				}
 			}
 		}
 		reports = append(reports, tagReport)
