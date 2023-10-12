@@ -1,6 +1,10 @@
 GitRepo: https://github.com/docker-library/hello-world.git
 
 Tags: linux
+s390x-Directory: s390x/hola-mundo
+s390x-GitCommit: b715c35271f1d18832480bde75fe17b93db26414
+amd64-Directory: amd64/hola-mundo
+amd64-GitCommit: b715c35271f1d18832480bde75fe17b93db26414
 arm32v5-Directory: arm32v5/hola-mundo
 arm32v5-GitCommit: b715c35271f1d18832480bde75fe17b93db26414
 arm32v7-Directory: arm32v7/hola-mundo
@@ -11,11 +15,7 @@ i386-Directory: i386/hola-mundo
 i386-GitCommit: b715c35271f1d18832480bde75fe17b93db26414
 ppc64le-Directory: ppc64le/hola-mundo
 ppc64le-GitCommit: b715c35271f1d18832480bde75fe17b93db26414
-s390x-Directory: s390x/hola-mundo
-s390x-GitCommit: b715c35271f1d18832480bde75fe17b93db26414
-amd64-Directory: amd64/hola-mundo
-amd64-GitCommit: b715c35271f1d18832480bde75fe17b93db26414
-Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
 
 Tags: nanoserver-sac2016
 Architectures: windows-amd64,windows
@@ -24,7 +24,7 @@ Tags: nanoserver-1709
 Architectures: windows-amd64,windows
 
 Tags: nanoserver-1803
-Architectures: windows-amd64,windows
+Architectures: windows,windows-amd64
 
 Tags: nanoserver-1809
 Architectures: windows-amd64,windows
@@ -36,10 +36,6 @@ Tags: nanoserver1709
 Architectures: windows-amd64,windows
 
 Tags: latest
-amd64-Directory: amd64/hola-mundo
-amd64-GitCommit: 7d0ee592e4ed60e2da9d59331e16ecdcadc1ed87
-arm32v5-Directory: arm32v5/hola-mundo
-arm32v5-GitCommit: 7d0ee592e4ed60e2da9d59331e16ecdcadc1ed87
 arm32v7-Directory: arm32v7/hola-mundo
 arm32v7-GitCommit: 7d0ee592e4ed60e2da9d59331e16ecdcadc1ed87
 arm64v8-Directory: arm64v8/hola-mundo
@@ -50,4 +46,8 @@ ppc64le-Directory: ppc64le/hola-mundo
 ppc64le-GitCommit: 7d0ee592e4ed60e2da9d59331e16ecdcadc1ed87
 s390x-Directory: s390x/hola-mundo
 s390x-GitCommit: 7d0ee592e4ed60e2da9d59331e16ecdcadc1ed87
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+amd64-Directory: amd64/hola-mundo
+amd64-GitCommit: 7d0ee592e4ed60e2da9d59331e16ecdcadc1ed87
+arm32v5-Directory: arm32v5/hola-mundo
+arm32v5-GitCommit: 7d0ee592e4ed60e2da9d59331e16ecdcadc1ed87
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5

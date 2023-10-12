@@ -6,17 +6,17 @@ GitCommit: ff78b7b5f1f0830aa327380eb396dea53380b517
 Directory: 24/cli
 
 Tags: 24.0.6-dind,24.0-dind,24-dind,dind,24.0.6-dind-alpine3.18,24.0.6,24.0,24,latest,24.0.6-alpine3.18
-Architectures: arm64v8,amd64,arm32v6,arm32v7
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 12a4554648b671111eaf4cf4636cb1d6310c65e1
 Directory: 24/dind
 
 Tags: 24.0.6-dind-rootless,24.0-dind-rootless,24-dind-rootless,dind-rootless
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 GitCommit: 12a4554648b671111eaf4cf4636cb1d6310c65e1
 Directory: 24/dind-rootless
 
 Tags: 24.0.6-git,24.0-git,24-git,git
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v6,arm32v7,arm64v8,amd64
 GitCommit: 6964fd52030c2e6e9e0943eaac07d78c9841fbb3
 Directory: 24/git
 
@@ -36,7 +36,7 @@ GitCommit: 134b3a2752690da62402fb33fe8db929e29d1434
 Directory: 23/cli
 
 Tags: 23.0.6-dind,23.0-dind,23-dind,23.0.6-dind-alpine3.18,23.0.6,23.0,23,23.0.6-alpine3.18
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 GitCommit: 09a8b6a03e9ab630f0f62cce43df38a285f80826
 Directory: 23/dind
 
@@ -151,7 +151,7 @@ GitCommit: 12b164a60b5eb485f3343f7f9c67f1d4ebe19e60
 Directory: 24/windows/windowsservercore-1809
 
 Tags: 24.0.2-cli,24.0.2-cli-alpine3.18
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 GitCommit: 49df3ea7f5626d756abcf90928c68bf354a1c961
 Directory: 24/cli
 
@@ -181,7 +181,7 @@ GitCommit: 49df3ea7f5626d756abcf90928c68bf354a1c961
 Directory: 24/windows/windowsservercore-1809
 
 Tags: 24.0.1-cli,24.0.1-cli-alpine3.18
-Architectures: arm64v8,amd64
+Architectures: amd64,arm64v8
 GitCommit: 3ed3a49381cdce562ce1833284af80f24b29f10e
 Directory: 24/cli
 
@@ -221,7 +221,7 @@ GitCommit: 6964fd52030c2e6e9e0943eaac07d78c9841fbb3
 Directory: 24/dind
 
 Tags: 24.0.0-dind-rootless
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 GitCommit: 6964fd52030c2e6e9e0943eaac07d78c9841fbb3
 Directory: 24/dind-rootless
 
@@ -301,7 +301,7 @@ GitCommit: 7bdd5e0d531739e1e329c939bd6d24baaffd4570
 Directory: 20.10/windows/windowsservercore-1809
 
 Tags: 24.0.0-rc.3-cli,24.0.0-rc.3-cli-alpine3.18
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 GitCommit: 9c900889e373ba8160632a6f02139be7e2c6b355
 Directory: 24-rc/cli
 
@@ -316,7 +316,7 @@ GitCommit: 9c900889e373ba8160632a6f02139be7e2c6b355
 Directory: 24-rc/dind-rootless
 
 Tags: 24.0.0-rc.3-git
-Architectures: arm64v8,amd64
+Architectures: amd64,arm64v8
 GitCommit: fcb9d855506a0c0394908bf8ff88377b2dda0bb1
 Directory: 24-rc/git
 
@@ -331,7 +331,7 @@ GitCommit: 9c900889e373ba8160632a6f02139be7e2c6b355
 Directory: 24-rc/windows/windowsservercore-1809
 
 Tags: 24.0.0-rc.2-cli,24.0.0-rc.2-cli-alpine3.18
-Architectures: arm64v8,amd64
+Architectures: amd64,arm64v8
 GitCommit: 1e7a4c385eee982a26601ba6279ae6e6b52ea8d8
 Directory: 24-rc/cli
 
@@ -346,7 +346,7 @@ GitCommit: 56f5570b1f62e904a26cf4b96df0d440e2c49a7a
 Directory: 24-rc/dind-rootless
 
 Tags: 24.0.0-rc.2-git
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 GitCommit: fcb9d855506a0c0394908bf8ff88377b2dda0bb1
 Directory: 24-rc/git
 
@@ -386,12 +386,12 @@ GitCommit: 7bdd5e0d531739e1e329c939bd6d24baaffd4570
 Directory: 20.10/cli
 
 Tags: 20.10.24-dind-alpine3.17
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 GitCommit: d71ed6659319c2608be2290c581787d2d4779ef2
 Directory: 20.10/dind
 
 Tags: 24.0.0-rc.1-cli,24.0.0-rc.1-cli-alpine3.17
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 GitCommit: 89b91f8164bd6a6bce035a1b8915df566994fb84
 Directory: 24-rc/cli
 
@@ -466,7 +466,7 @@ GitCommit: 14430eaf8c84f5ea481b8e481f6222b85709a497
 Directory: 24-rc/dind-rootless
 
 Tags: 24.0.0-beta.2-git
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 GitCommit: fcb9d855506a0c0394908bf8ff88377b2dda0bb1
 Directory: 24-rc/git
 
@@ -481,7 +481,7 @@ GitCommit: c93aa758850cc2dd621276187291aaac4eee9cf2
 Directory: 24-rc/windows/windowsservercore-1809
 
 Tags: 23.0.4-cli,23.0.4-cli-alpine3.17
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 GitCommit: 3c553b828db84d13fc1b06eaa1d86bd7e7eb060d
 Directory: 23.0/cli
 
@@ -511,7 +511,7 @@ GitCommit: 3c553b828db84d13fc1b06eaa1d86bd7e7eb060d
 Directory: 23.0/windows/windowsservercore-1809
 
 Tags: 23.0.3-cli,23.0.3-cli-alpine3.17
-Architectures: arm64v8,amd64
+Architectures: amd64,arm64v8
 GitCommit: 3f5aa9dfb44948d1493342e168a1d5d650b45bd7
 Directory: 23.0/cli
 
@@ -521,7 +521,7 @@ GitCommit: 3f5aa9dfb44948d1493342e168a1d5d650b45bd7
 Directory: 23.0/dind
 
 Tags: 23.0.3-dind-rootless
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 GitCommit: 3f5aa9dfb44948d1493342e168a1d5d650b45bd7
 Directory: 23.0/dind-rootless
 
@@ -541,7 +541,7 @@ GitCommit: 3f5aa9dfb44948d1493342e168a1d5d650b45bd7
 Directory: 23.0/windows/windowsservercore-1809
 
 Tags: 24.0.0-beta.1-cli,24.0.0-beta.1-cli-alpine3.17
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 GitCommit: 0e00a29925ead3f1ba1ccb77895db4963d10ad47
 Directory: 24-rc/cli
 
@@ -551,12 +551,12 @@ GitCommit: 43c75565e6fa4dcf3abadc51cb1c7c044aae1ef2
 Directory: 24-rc/dind
 
 Tags: 24.0.0-beta.1-dind-rootless
-Architectures: arm64v8,amd64
+Architectures: amd64,arm64v8
 GitCommit: 43c75565e6fa4dcf3abadc51cb1c7c044aae1ef2
 Directory: 24-rc/dind-rootless
 
 Tags: 24.0.0-beta.1-git
-Architectures: arm64v8,amd64
+Architectures: amd64,arm64v8
 GitCommit: 43c75565e6fa4dcf3abadc51cb1c7c044aae1ef2
 Directory: 24-rc/git
 
@@ -636,7 +636,7 @@ GitCommit: 561e8f7f0ace0ef7cf85d24ec50c77865c397109
 Directory: 23.0/cli
 
 Tags: 23.0.1-dind,23.0.1-dind-alpine3.17,23.0.1,23.0.1-alpine3.17
-Architectures: arm64v8,amd64
+Architectures: amd64,arm64v8
 GitCommit: 94129ecd12de7acbc9d5a15d25d535ee091770b1
 Directory: 23.0/dind
 
@@ -736,7 +736,7 @@ GitCommit: 7a7c807686f54b67646bc75d2c81a68f9a906dbd
 Directory: 23.0-rc/dind-rootless
 
 Tags: 23.0.0-rc.3-git
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 GitCommit: c608944bf9422f7cd70951b9519866495b81e76d
 Directory: 23.0-rc/git
 
@@ -756,7 +756,7 @@ GitCommit: 6b2478f8067b8896a2597a658363dbd794412dc2
 Directory: 23.0-rc/cli
 
 Tags: 23.0.0-rc.2-dind,23.0.0-rc.2-dind-alpine3.17,23.0.0-rc.2,23.0.0-rc.2-alpine3.17
-Architectures: arm64v8,amd64
+Architectures: amd64,arm64v8
 GitCommit: 5ecac9af14c03e24685e478f1c8ddd7f156883d4
 Directory: 23.0-rc/dind
 
@@ -791,12 +791,12 @@ GitCommit: 32a92d275e8aa2edd2a99ad55e56a106e48601d6
 Directory: 20.10/dind
 
 Tags: 20.10.22-dind-rootless
-Architectures: arm64v8,amd64
+Architectures: amd64,arm64v8
 GitCommit: 32a92d275e8aa2edd2a99ad55e56a106e48601d6
 Directory: 20.10/dind-rootless
 
 Tags: 20.10.22-git
-Architectures: arm64v8,amd64
+Architectures: amd64,arm64v8
 GitCommit: f23a2bea97f6d7ec563bc316302fb8edf620ec5b
 Directory: 20.10/git
 
@@ -816,7 +816,7 @@ GitCommit: 0997ca7ad1d7892324d84951d55192d5ef629bcc
 Directory: 23.0-rc/cli
 
 Tags: 23.0.0-rc.1-dind,23.0.0-rc.1-dind-alpine3.17,23.0.0-rc.1,23.0.0-rc.1-alpine3.17
-Architectures: arm64v8,amd64
+Architectures: amd64,arm64v8
 GitCommit: 023a45d6e2a9009fdf01da87499c6f9ca6e27bef
 Directory: 23.0-rc/dind
 
@@ -846,7 +846,7 @@ GitCommit: 7dc92d7c5555cedf97411b179c617ef2781a06bd
 Directory: 23.0-rc/cli
 
 Tags: 23.0.0-beta.1-dind,23.0.0-beta.1-dind-alpine3.17,23.0.0-beta.1,23.0.0-beta.1-alpine3.17
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 GitCommit: c608944bf9422f7cd70951b9519866495b81e76d
 Directory: 23.0-rc/dind
 
@@ -911,7 +911,7 @@ GitCommit: fbd3c1d965c8587efde1bef2d31459e54c28372e
 Directory: 22.06-rc/dind
 
 Tags: 22.06.0-beta.0-dind-rootless,22.06-rc-dind-rootless
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 GitCommit: 1f37025ef2b9b70706d8e11cc3552830e4524758
 Directory: 22.06-rc/dind-rootless
 
@@ -941,7 +941,7 @@ GitCommit: fbd3c1d965c8587efde1bef2d31459e54c28372e
 Directory: 22.06-rc/dind
 
 Tags: 20.10.21-cli-alpine3.16,20.10.21-alpine3.16
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 GitCommit: 6028daf0c4c6f93606e961346ca1cf8226745312
 Directory: 20.10/cli
 
@@ -1016,7 +1016,7 @@ GitCommit: 2fc53e853187b5f5ba0c4696189ce7abc6b62a1d
 Directory: 20.10/cli
 
 Tags: 20.10.18-dind,20.10.18-dind-alpine3.16
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 GitCommit: c13cbee1cfd9d7582f7b2e9f958cf24e39b64715
 Directory: 20.10/dind
 
@@ -1041,7 +1041,7 @@ GitCommit: c13cbee1cfd9d7582f7b2e9f958cf24e39b64715
 Directory: 20.10/windows/windowsservercore-1809
 
 Tags: 20.10.17-cli,20.10.17-cli-alpine3.16,20.10.17,20.10.17-alpine3.16
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 GitCommit: 46a5fa097f8b9995cdab2270f0ffa623c243c3d2
 Directory: 20.10/cli
 
@@ -1086,7 +1086,7 @@ GitCommit: ca257b920303ae46cff2a8399471318ad48d67b4
 Directory: 20.10/dind-rootless
 
 Tags: 20.10.16-git
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 GitCommit: 387e351394bfad74bceebf8303c6c8e39c3d4ed4
 Directory: 20.10/git
 
@@ -1121,7 +1121,7 @@ GitCommit: 0efba9e3cd4537de89ba54de2ad8acc5e3b1759f
 Directory: 20.10/dind
 
 Tags: 20.10.15-dind-rootless
-Architectures: arm64v8,amd64
+Architectures: amd64,arm64v8
 GitCommit: 51f3e36ac5300d2e8734d2995d600ca4681d5c38
 Directory: 20.10/dind-rootless
 
@@ -1186,7 +1186,7 @@ GitCommit: 39b574a3813ec7c3f82157639f03b7c2af925bb4
 Directory: 20.10/dind-rootless
 
 Tags: 20.10.13-git
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 GitCommit: 387e351394bfad74bceebf8303c6c8e39c3d4ed4
 Directory: 20.10/git
 
@@ -1211,12 +1211,12 @@ GitCommit: 0efba9e3cd4537de89ba54de2ad8acc5e3b1759f
 Directory: 20.10/dind
 
 Tags: 20.10.12-dind-rootless
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 GitCommit: 16d77b9b3258873b79b8c997d5e2b90c5533b85e
 Directory: 20.10/dind-rootless
 
 Tags: 20.10.12-git
-Architectures: arm64v8,amd64
+Architectures: amd64,arm64v8
 GitCommit: 387e351394bfad74bceebf8303c6c8e39c3d4ed4
 Directory: 20.10/git
 
@@ -1251,7 +1251,7 @@ GitCommit: 8baa881aab85f8398d2edbbcc0da4bd1f556dd98
 Directory: 20.10/dind
 
 Tags: 20.10.11-dind-rootless
-Architectures: arm64v8,amd64
+Architectures: amd64,arm64v8
 GitCommit: 5c42a7382f317ef94c16eb264ff9337ef4b9a260
 Directory: 20.10/dind-rootless
 
@@ -1296,7 +1296,7 @@ GitCommit: f76814e807ad2d9d76b0ec50ec8e623a5fdb72e7
 Directory: 20.10-rc
 
 Tags: 20.10.10-rc1-dind,20.10-rc-dind,20.10.10-rc1-dind-alpine3.14
-Architectures: arm64v8,amd64
+Architectures: amd64,arm64v8
 GitCommit: f76814e807ad2d9d76b0ec50ec8e623a5fdb72e7
 Directory: 20.10-rc/dind
 
@@ -1316,7 +1316,7 @@ GitCommit: f76814e807ad2d9d76b0ec50ec8e623a5fdb72e7
 Directory: 20.10-rc/windows/windowsservercore-1809
 
 Tags: 20.10.9,20.10.9-alpine3.14
-Architectures: arm64v8,amd64
+Architectures: amd64,arm64v8
 GitCommit: 8b8d62e7eb791b060cc75cb2956724a1bdc5484b
 Directory: 20.10
 
@@ -1326,7 +1326,7 @@ GitCommit: 8baa881aab85f8398d2edbbcc0da4bd1f556dd98
 Directory: 20.10/dind
 
 Tags: 20.10.9-dind-rootless
-Architectures: arm64v8,amd64
+Architectures: amd64,arm64v8
 GitCommit: 8b8d62e7eb791b060cc75cb2956724a1bdc5484b
 Directory: 20.10/dind-rootless
 
@@ -1356,7 +1356,7 @@ GitCommit: 83e4de3bc2aac346e2f76129b1a3a556c1e1bb95
 Directory: 20.10/dind-rootless
 
 Tags: 20.10.8-git
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 GitCommit: 387e351394bfad74bceebf8303c6c8e39c3d4ed4
 Directory: 20.10/git
 
@@ -1381,7 +1381,7 @@ GitCommit: 835c371c516ebdf67adc0c76bbfb38bf9d3e586c
 Directory: 19.03
 
 Tags: 19.03.15-dind,19.03-dind,19-dind,19.03.15-dind-alpine3.13
-Architectures: amd64,arm64v8
+Architectures: arm64v8,amd64
 GitCommit: 8baa881aab85f8398d2edbbcc0da4bd1f556dd98
 Directory: 19.03/dind
 
@@ -1401,17 +1401,17 @@ GitCommit: 279ba9c93e8e26a15171645bd511ea8476c4706e
 Directory: 20.10
 
 Tags: 20.10.7-dind
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,amd64,arm32v6
 GitCommit: 8baa881aab85f8398d2edbbcc0da4bd1f556dd98
 Directory: 20.10/dind
 
 Tags: 20.10.7-dind-rootless
-Architectures: arm64v8,amd64
+Architectures: amd64,arm64v8
 GitCommit: 2ab877f315206028bb9352d86e28c71b25723bf2
 Directory: 20.10/dind-rootless
 
 Tags: 20.10.7-git
-Architectures: arm32v7,arm64v8,amd64,arm32v6
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 387e351394bfad74bceebf8303c6c8e39c3d4ed4
 Directory: 20.10/git
 
@@ -1426,7 +1426,7 @@ GitCommit: f6a0c427f0354dcf5870c430c72c8f1d6b4e6d5e
 Directory: 20.10
 
 Tags: 20.10.6-dind
-Architectures: arm64v8,amd64,arm32v6,arm32v7
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 30d7b9bf7663c96fcd888bd75e9aaa547a808a23
 Directory: 20.10/dind
 
@@ -1441,7 +1441,7 @@ GitCommit: 387e351394bfad74bceebf8303c6c8e39c3d4ed4
 Directory: 20.10/git
 
 Tags: 20.10.5
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,amd64,arm32v6
 GitCommit: 9728dce92752348ac2623bcf96436f1a89e15dd3
 Directory: 20.10
 
@@ -1466,7 +1466,7 @@ GitCommit: d60bf352d0e0e0e9783984138dcac2508b3a281f
 Directory: 20.10
 
 Tags: 20.10.4-dind
-Architectures: arm32v7,arm64v8,amd64,arm32v6
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 094faa88f437cafef7aeb0cc36e75b59046cc4b9
 Directory: 20.10/dind
 
@@ -1476,12 +1476,12 @@ GitCommit: d60bf352d0e0e0e9783984138dcac2508b3a281f
 Directory: 20.10/dind-rootless
 
 Tags: 20.10.4-git
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,amd64,arm32v6
 GitCommit: 387e351394bfad74bceebf8303c6c8e39c3d4ed4
 Directory: 20.10/git
 
 Tags: 20.10.3
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm64v8,amd64,arm32v6,arm32v7
 GitCommit: ec5d64f9611da8f8b19c9c5c4acc04b9397174e6
 Directory: 20.10
 
@@ -1496,17 +1496,17 @@ GitCommit: ec5d64f9611da8f8b19c9c5c4acc04b9397174e6
 Directory: 20.10/dind-rootless
 
 Tags: 20.10.3-git
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,amd64,arm32v6
 GitCommit: 387e351394bfad74bceebf8303c6c8e39c3d4ed4
 Directory: 20.10/git
 
 Tags: 20.10.2
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v6,arm32v7,arm64v8,amd64
 GitCommit: 72ed002682df9e778da1fc8f0aa2ea1a0b9a3986
 Directory: 20.10
 
 Tags: 20.10.2-dind
-Architectures: arm32v6,arm32v7,arm64v8,amd64
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 094faa88f437cafef7aeb0cc36e75b59046cc4b9
 Directory: 20.10/dind
 
@@ -1521,7 +1521,7 @@ GitCommit: 387e351394bfad74bceebf8303c6c8e39c3d4ed4
 Directory: 20.10/git
 
 Tags: 19.03.14
-Architectures: arm32v7,arm64v8,amd64,arm32v6
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: c8b077bfbab07a33ba5c80e5d4987fba8bbdd67b
 Directory: 19.03
 
@@ -1541,12 +1541,12 @@ GitCommit: 12d1c2763b54d29137ec448a3e4ad1a9aefae1a0
 Directory: 19.03/git
 
 Tags: 20.10.1
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm64v8,amd64,arm32v6,arm32v7
 GitCommit: a7534626601bce99a23f0496a3f659616522ed22
 Directory: 20.10
 
 Tags: 20.10.1-dind
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,amd64,arm32v6
 GitCommit: 094faa88f437cafef7aeb0cc36e75b59046cc4b9
 Directory: 20.10/dind
 
@@ -1561,7 +1561,7 @@ GitCommit: 387e351394bfad74bceebf8303c6c8e39c3d4ed4
 Directory: 20.10/git
 
 Tags: 20.10.0
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v6,arm32v7,arm64v8,amd64
 GitCommit: 387e351394bfad74bceebf8303c6c8e39c3d4ed4
 Directory: 20.10
 
@@ -1581,12 +1581,12 @@ GitCommit: 387e351394bfad74bceebf8303c6c8e39c3d4ed4
 Directory: 20.10/git
 
 Tags: 20.10.0-rc2
-Architectures: arm32v6,arm32v7,arm64v8,amd64
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: bf1c9f5393c9c60460567a8e8bdf1b0d0e41acbc
 Directory: 20.10-rc
 
 Tags: 20.10.0-rc2-dind
-Architectures: arm32v6,arm32v7,arm64v8,amd64
+Architectures: arm64v8,amd64,arm32v6,arm32v7
 GitCommit: b1d2628005e12e79079c025c3653cba248d6f264
 Directory: 20.10-rc/dind
 
@@ -1606,7 +1606,7 @@ GitCommit: c8b077bfbab07a33ba5c80e5d4987fba8bbdd67b
 Directory: 19.03
 
 Tags: stable-dind
-Architectures: arm32v6,arm32v7,arm64v8,amd64
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: b1d2628005e12e79079c025c3653cba248d6f264
 Directory: 19.03/dind
 
@@ -1616,7 +1616,7 @@ GitCommit: c8b077bfbab07a33ba5c80e5d4987fba8bbdd67b
 Directory: 19.03/dind-rootless
 
 Tags: stable-git
-Architectures: arm32v7,arm64v8,amd64,arm32v6
+Architectures: arm64v8,amd64,arm32v6,arm32v7
 GitCommit: 12d1c2763b54d29137ec448a3e4ad1a9aefae1a0
 Directory: 19.03/git
 
@@ -1626,7 +1626,7 @@ GitCommit: d4b2a80dc1f742ffcb6b94187069cca731652967
 Directory: 20.10-rc
 
 Tags: 20.10.0-rc1-dind
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,amd64,arm32v6
 GitCommit: b1d2628005e12e79079c025c3653cba248d6f264
 Directory: 20.10-rc/dind
 
@@ -1661,12 +1661,12 @@ GitCommit: 12d1c2763b54d29137ec448a3e4ad1a9aefae1a0
 Directory: 19.03/git
 
 Tags: 20.10.0-beta1
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,amd64,arm32v6
 GitCommit: b6597f7fc1294f4ee3345576f06889d2ff773a8d
 Directory: 20.10-rc
 
 Tags: 20.10.0-beta1-dind
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm64v8,amd64,arm32v6,arm32v7
 GitCommit: b1d2628005e12e79079c025c3653cba248d6f264
 Directory: 20.10-rc/dind
 
@@ -1676,7 +1676,7 @@ GitCommit: eaae683d362a40f118cde7f7be936b27289d0817
 Directory: 20.10-rc/dind-rootless
 
 Tags: 20.10.0-beta1-git
-Architectures: arm32v6,arm32v7,arm64v8,amd64
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: b6597f7fc1294f4ee3345576f06889d2ff773a8d
 Directory: 20.10-rc/git
 
@@ -1686,7 +1686,7 @@ GitCommit: 12d1c2763b54d29137ec448a3e4ad1a9aefae1a0
 Directory: 19.03
 
 Tags: test-dind
-Architectures: arm32v7,arm64v8,amd64,arm32v6
+Architectures: arm64v8,amd64,arm32v6,arm32v7
 GitCommit: 12d1c2763b54d29137ec448a3e4ad1a9aefae1a0
 Directory: 19.03/dind
 
@@ -1696,7 +1696,7 @@ GitCommit: 12d1c2763b54d29137ec448a3e4ad1a9aefae1a0
 Directory: 19.03/dind-rootless
 
 Tags: test-git
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm64v8,amd64,arm32v6,arm32v7
 GitCommit: 12d1c2763b54d29137ec448a3e4ad1a9aefae1a0
 Directory: 19.03/git
 
@@ -1706,7 +1706,7 @@ GitCommit: 184d0e7687beb67e227d1ce2e0ab79a357613566
 Directory: 19.03-rc
 
 Tags: 19.03.13-beta2-dind,19.03-rc-dind
-Architectures: arm32v7,arm64v8,amd64,arm32v6
+Architectures: arm32v6,arm32v7,arm64v8,amd64
 GitCommit: 4f5b0cb5438527c6913a943ae07b4d2b1eaa8393
 Directory: 19.03-rc/dind
 
@@ -1721,12 +1721,12 @@ GitCommit: 7a67842e7ff12c1426ae6a67ac1b7a701b51f3df
 Directory: 19.03-rc/git
 
 Tags: 19.03.12
-Architectures: arm32v7,arm64v8,amd64,arm32v6
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 86f7f4b563c7c6fe4620c5a8d82694a78f41989f
 Directory: 19.03
 
 Tags: 19.03.12-dind
-Architectures: arm32v7,arm64v8,amd64,arm32v6
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 93c19dff54de9876f736b3aa8026be5ad5987388
 Directory: 19.03/dind
 
@@ -1746,7 +1746,7 @@ GitCommit: 4f5b0cb5438527c6913a943ae07b4d2b1eaa8393
 Directory: 19.03-rc
 
 Tags: 19.03.13-beta1-dind
-Architectures: arm64v8,amd64,arm32v6,arm32v7
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 4f5b0cb5438527c6913a943ae07b4d2b1eaa8393
 Directory: 19.03-rc/dind
 
@@ -1766,7 +1766,7 @@ GitCommit: eb305f71421bf772cfac2a46571280ff90f60033
 Directory: 19.03
 
 Tags: 19.03.11-dind
-Architectures: arm32v6,arm32v7,arm64v8,amd64
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: a73d96e731e2dd5d6822c99a9af4dcbfbbedb2be
 Directory: 19.03/dind
 
@@ -1786,7 +1786,7 @@ GitCommit: 23814eff7f7e45a8fb5898740cabf24e377c64c4
 Directory: 19.03
 
 Tags: 19.03.10-dind
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm64v8,amd64,arm32v6,arm32v7
 GitCommit: a73d96e731e2dd5d6822c99a9af4dcbfbbedb2be
 Directory: 19.03/dind
 
@@ -1816,12 +1816,12 @@ GitCommit: 25c81c65fe4e971ff75e67df38e8b9970b523f6e
 Directory: 19.03/dind-rootless
 
 Tags: 19.03.9-git
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm64v8,amd64,arm32v6,arm32v7
 GitCommit: 7a67842e7ff12c1426ae6a67ac1b7a701b51f3df
 Directory: 19.03/git
 
 Tags: 19.03.8
-Architectures: arm32v6,arm32v7,arm64v8,amd64
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 0bab8e3d0ebe6dc4b7a122bb1d0b2e017925c50d
 Directory: 19.03
 
@@ -1856,7 +1856,7 @@ GitCommit: cd0099524944dd1ad368421ec042e0ec9ef53a47
 Directory: 19.03/dind-rootless
 
 Tags: 19.03.7-git
-Architectures: arm32v6,arm32v7,arm64v8,amd64
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 7a67842e7ff12c1426ae6a67ac1b7a701b51f3df
 Directory: 19.03/git
 
@@ -1881,12 +1881,12 @@ GitCommit: 7a67842e7ff12c1426ae6a67ac1b7a701b51f3df
 Directory: 19.03/git
 
 Tags: 19.03.6-rc2
-Architectures: arm32v7,arm64v8,amd64,arm32v6
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: df26619941aa386d4b446f2e07a080d71da22640
 Directory: 19.03-rc
 
 Tags: 19.03.6-rc2-dind
-Architectures: arm64v8,amd64,arm32v6,arm32v7
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 4d5e4e2fcd2c5279a747e9ac221fb2442da53dec
 Directory: 19.03-rc/dind
 
@@ -1896,17 +1896,17 @@ GitCommit: cd0099524944dd1ad368421ec042e0ec9ef53a47
 Directory: 19.03-rc/dind-rootless
 
 Tags: 19.03.6-rc2-git
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm64v8,amd64,arm32v6,arm32v7
 GitCommit: 7a67842e7ff12c1426ae6a67ac1b7a701b51f3df
 Directory: 19.03-rc/git
 
 Tags: 19.03.5
-Architectures: arm32v6,arm32v7,arm64v8,amd64
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: a4b5e1b043432fc16fbe983a4bb2e1a004db2aca
 Directory: 19.03
 
 Tags: 19.03.5-dind
-Architectures: arm32v6,arm32v7,arm64v8,amd64
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 4d5e4e2fcd2c5279a747e9ac221fb2442da53dec
 Directory: 19.03/dind
 
@@ -1936,7 +1936,7 @@ GitCommit: cd0099524944dd1ad368421ec042e0ec9ef53a47
 Directory: 19.03-rc/dind-rootless
 
 Tags: 19.03.6-rc1-git
-Architectures: arm32v7,arm64v8,amd64,arm32v6
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 7a67842e7ff12c1426ae6a67ac1b7a701b51f3df
 Directory: 19.03-rc/git
 
@@ -1946,7 +1946,7 @@ GitCommit: 5962a31de0ccebb93826e621dd9844daaae3d3a0
 Directory: 19.03-rc
 
 Tags: 19.03.5-rc1-dind
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v6,arm32v7,arm64v8,amd64
 GitCommit: 92d278e671f32a9ee4a3c0668e46a41f4a3b74b0
 Directory: 19.03-rc/dind
 
@@ -1961,12 +1961,12 @@ GitCommit: 98ffef81ebfa7601a9ed2f0bf56d78f426bf253c
 Directory: 19.03-rc/git
 
 Tags: 19.03.4
-Architectures: arm32v7,arm64v8,amd64,arm32v6
+Architectures: arm64v8,amd64,arm32v6,arm32v7
 GitCommit: 4dd3f3fe1f263ea74cdc8bed6091008cf62ab751
 Directory: 19.03
 
 Tags: 19.03.4-dind
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,amd64,arm32v6
 GitCommit: 92d278e671f32a9ee4a3c0668e46a41f4a3b74b0
 Directory: 19.03/dind
 
@@ -1981,12 +1981,12 @@ GitCommit: 4975dca2dd357705c5613045348402ab664ccdf0
 Directory: 19.03/git
 
 Tags: 19.03.5-beta2
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,amd64,arm32v6
 GitCommit: b3cd7c227ec0d1713229a74547628afeb27c2456
 Directory: 19.03-rc
 
 Tags: 19.03.5-beta2-dind
-Architectures: arm32v7,arm64v8,amd64,arm32v6
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 92d278e671f32a9ee4a3c0668e46a41f4a3b74b0
 Directory: 19.03-rc/dind
 
@@ -2016,17 +2016,17 @@ GitCommit: c01ffa41486f70c34f020c769bc5bddf106367ea
 Directory: 19.03-rc/dind-rootless
 
 Tags: 19.03.5-beta1-git
-Architectures: arm32v7,arm64v8,amd64,arm32v6
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 98ffef81ebfa7601a9ed2f0bf56d78f426bf253c
 Directory: 19.03-rc/git
 
 Tags: 19.03.4-rc1
-Architectures: arm32v7,arm64v8,amd64,arm32v6
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 7029ccd48e2460d9f0af5536e71f91e6aa5dc195
 Directory: 19.03-rc
 
 Tags: 19.03.4-rc1-dind
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v6,arm32v7,arm64v8,amd64
 GitCommit: 92d278e671f32a9ee4a3c0668e46a41f4a3b74b0
 Directory: 19.03-rc/dind
 
@@ -2041,12 +2041,12 @@ GitCommit: 98ffef81ebfa7601a9ed2f0bf56d78f426bf253c
 Directory: 19.03-rc/git
 
 Tags: 19.03.3
-Architectures: arm64v8,amd64,arm32v6,arm32v7
+Architectures: arm32v7,arm64v8,amd64,arm32v6
 GitCommit: 26776e4ba14319287192459ed1f5a1fef30aa5e8
 Directory: 19.03
 
 Tags: 19.03.3-dind
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v6,arm32v7,arm64v8,amd64
 GitCommit: 92d278e671f32a9ee4a3c0668e46a41f4a3b74b0
 Directory: 19.03/dind
 
@@ -2056,7 +2056,7 @@ GitCommit: c01ffa41486f70c34f020c769bc5bddf106367ea
 Directory: 19.03/dind-rootless
 
 Tags: 19.03.3-git
-Architectures: arm32v7,arm64v8,amd64,arm32v6
+Architectures: arm64v8,amd64,arm32v6,arm32v7
 GitCommit: 4975dca2dd357705c5613045348402ab664ccdf0
 Directory: 19.03/git
 
@@ -2076,12 +2076,12 @@ GitCommit: c01ffa41486f70c34f020c769bc5bddf106367ea
 Directory: 19.03-rc/dind-rootless
 
 Tags: 19.03.3-rc1-git
-Architectures: arm32v6,arm32v7,arm64v8,amd64
+Architectures: arm64v8,amd64,arm32v6,arm32v7
 GitCommit: 98ffef81ebfa7601a9ed2f0bf56d78f426bf253c
 Directory: 19.03-rc/git
 
 Tags: 19.03.2
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm64v8,amd64,arm32v6,arm32v7
 GitCommit: eb1b8297d29bb1fb2208c98f41c1ff4c053c4173
 Directory: 19.03
 
@@ -2096,12 +2096,12 @@ GitCommit: c01ffa41486f70c34f020c769bc5bddf106367ea
 Directory: 19.03/dind-rootless
 
 Tags: 19.03.2-git
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm64v8,amd64,arm32v6,arm32v7
 GitCommit: 4975dca2dd357705c5613045348402ab664ccdf0
 Directory: 19.03/git
 
 Tags: 19.03.3-beta2
-Architectures: arm64v8,amd64,arm32v6,arm32v7
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: b46944d11838bbe43db28889252ac03d592cb8c4
 Directory: 19.03-rc
 
@@ -2116,12 +2116,12 @@ GitCommit: c01ffa41486f70c34f020c769bc5bddf106367ea
 Directory: 19.03-rc/dind-rootless
 
 Tags: 19.03.3-beta2-git
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,amd64,arm32v6
 GitCommit: 98ffef81ebfa7601a9ed2f0bf56d78f426bf253c
 Directory: 19.03-rc/git
 
 Tags: 19.03.3-beta1
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm64v8,amd64,arm32v6,arm32v7
 GitCommit: 05aca4c5f05b578344b9e06164ee1eae7ac6f92b
 Directory: 19.03-rc
 
@@ -2161,12 +2161,12 @@ GitCommit: a3f6a1391bb548d59c2f53beba88ffef925025f0
 Directory: 18.09-rc
 
 Tags: 18.09.9-rc1-dind,18.09-rc-dind
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v6,arm32v7,arm64v8,amd64
 GitCommit: 92d278e671f32a9ee4a3c0668e46a41f4a3b74b0
 Directory: 18.09-rc/dind
 
 Tags: 18.09.9-rc1-git,18.09-rc-git
-Architectures: arm32v7,arm64v8,amd64,arm32v6
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 341e19641e58cccff1453653425fc56c07e8944d
 Directory: 18.09-rc/git
 
@@ -2176,12 +2176,12 @@ GitCommit: c01ffa41486f70c34f020c769bc5bddf106367ea
 Directory: 18.09
 
 Tags: 18.09.8-dind
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v6,arm32v7,arm64v8,amd64
 GitCommit: 92d278e671f32a9ee4a3c0668e46a41f4a3b74b0
 Directory: 18.09/dind
 
 Tags: 18.09.8-git
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,amd64,arm32v6
 GitCommit: 91bbc4f7b06c06020d811dafb2266bcd7cf6c06d
 Directory: 18.09/git
 
@@ -2191,7 +2191,7 @@ GitCommit: 7cbf400bd054450f47eff0001a73744bcfc6f349
 Directory: 19.03-rc
 
 Tags: 19.03.2-rc1-dind
-Architectures: arm32v7,arm64v8,amd64,arm32v6
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 92d278e671f32a9ee4a3c0668e46a41f4a3b74b0
 Directory: 19.03-rc/dind
 
@@ -2206,7 +2206,7 @@ GitCommit: 98ffef81ebfa7601a9ed2f0bf56d78f426bf253c
 Directory: 19.03-rc/git
 
 Tags: 19.03.1
-Architectures: arm32v6,arm32v7,arm64v8,amd64
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: c01ffa41486f70c34f020c769bc5bddf106367ea
 Directory: 19.03
 
@@ -2241,7 +2241,7 @@ GitCommit: c01ffa41486f70c34f020c769bc5bddf106367ea
 Directory: 19.03-rc/dind-rootless
 
 Tags: 19.03.2-beta1-git
-Architectures: arm64v8,amd64,arm32v6,arm32v7
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 98ffef81ebfa7601a9ed2f0bf56d78f426bf253c
 Directory: 19.03-rc/git
 
@@ -2251,12 +2251,12 @@ GitCommit: 1dc473d09158fb4752e1176f4ef26e1fcb6e2ad4
 Directory: 18.09-rc
 
 Tags: 18.09.9-beta1-dind
-Architectures: arm32v6,arm32v7,arm64v8,amd64
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 92d278e671f32a9ee4a3c0668e46a41f4a3b74b0
 Directory: 18.09-rc/dind
 
 Tags: 18.09.9-beta1-git
-Architectures: arm32v6,arm32v7,arm64v8,amd64
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 341e19641e58cccff1453653425fc56c07e8944d
 Directory: 18.09-rc/git
 
@@ -2266,17 +2266,17 @@ GitCommit: 4975dca2dd357705c5613045348402ab664ccdf0
 Directory: 19.03
 
 Tags: 19.03.0-dind
-Architectures: arm32v7,arm64v8,amd64,arm32v6
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 306841553919fba3de31766c2ba44b9e2cc5e2ec
 Directory: 19.03/dind
 
 Tags: 19.03.0-git
-Architectures: arm32v7,arm64v8,amd64,arm32v6
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 4975dca2dd357705c5613045348402ab664ccdf0
 Directory: 19.03/git
 
 Tags: 19.03.0-rc3
-Architectures: arm32v6,arm32v7,arm64v8,amd64
+Architectures: arm64v8,amd64,arm32v6,arm32v7
 GitCommit: cad4d26d9d84c3701e8fcfc922145b569f8dfc22
 Directory: 19.03-rc
 
@@ -2286,7 +2286,7 @@ GitCommit: 6438624ec99b859db87dcef2cc75f5a961d1903c
 Directory: 19.03-rc/dind
 
 Tags: 19.03.0-rc3-git
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm64v8,amd64,arm32v6,arm32v7
 GitCommit: 98ffef81ebfa7601a9ed2f0bf56d78f426bf253c
 Directory: 19.03-rc/git
 
@@ -2301,27 +2301,27 @@ GitCommit: 27471a8b93e980bd4c51464ee933ed90fd36bf97
 Directory: 18.09/dind
 
 Tags: 18.09.7-git
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,amd64,arm32v6
 GitCommit: 91bbc4f7b06c06020d811dafb2266bcd7cf6c06d
 Directory: 18.09/git
 
 Tags: 18.09.7-rc1
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm64v8,amd64,arm32v6,arm32v7
 GitCommit: 27f587ca757da9522c599db55dfdb46ee291dd1b
 Directory: 18.09-rc
 
 Tags: 18.09.7-rc1-dind
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,amd64,arm32v6
 GitCommit: 27471a8b93e980bd4c51464ee933ed90fd36bf97
 Directory: 18.09-rc/dind
 
 Tags: 18.09.7-rc1-git
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm64v8,amd64,arm32v6,arm32v7
 GitCommit: 341e19641e58cccff1453653425fc56c07e8944d
 Directory: 18.09-rc/git
 
 Tags: 18.09.6
-Architectures: arm32v6,arm32v7,arm64v8,amd64
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: cdcff675cecbae122cbae49ed6e17fa78bb6116a
 Directory: 18.09
 
@@ -2331,7 +2331,7 @@ GitCommit: 27471a8b93e980bd4c51464ee933ed90fd36bf97
 Directory: 18.09/dind
 
 Tags: 18.09.6-git
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm64v8,amd64,arm32v6,arm32v7
 GitCommit: 91bbc4f7b06c06020d811dafb2266bcd7cf6c06d
 Directory: 18.09/git
 
@@ -2341,27 +2341,27 @@ GitCommit: 6001c15038b05149a83dcc17e1bbeedc92979f6d
 Directory: 19.03-rc
 
 Tags: 19.03.0-rc2-dind
-Architectures: arm32v7,arm64v8,amd64,arm32v6
+Architectures: amd64,arm32v6,arm32v7,arm64v8
 GitCommit: 27471a8b93e980bd4c51464ee933ed90fd36bf97
 Directory: 19.03-rc/dind
 
 Tags: 19.03.0-rc2-git
-Architectures: amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v6,arm32v7,arm64v8,amd64
 GitCommit: 98ffef81ebfa7601a9ed2f0bf56d78f426bf253c
 Directory: 19.03-rc/git
 
 Tags: 18.06.3-ce,18.06.3,18.06,edge
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
 GitCommit: 0ea1769704a07017fd9a876590de2feb434d33e2
 Directory: 18.06
 
 Tags: 18.06.3-ce-dind,18.06.3-dind,18.06-dind,edge-dind
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 27471a8b93e980bd4c51464ee933ed90fd36bf97
 Directory: 18.06/dind
 
 Tags: 18.06.3-ce-git,18.06.3-git,18.06-git,edge-git
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 595ad0c92090937dcb7c200900fb97e36d36c412
 Directory: 18.06/git
 
@@ -2371,7 +2371,7 @@ GitCommit: 3d316f5dbf349eb1d04c5d24f4794dc68570c45e
 Directory: 19.03-rc
 
 Tags: 19.03.0-beta5-dind
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
 GitCommit: 27471a8b93e980bd4c51464ee933ed90fd36bf97
 Directory: 19.03-rc/dind
 
@@ -2381,37 +2381,37 @@ GitCommit: 98ffef81ebfa7601a9ed2f0bf56d78f426bf253c
 Directory: 19.03-rc/git
 
 Tags: 19.03.0-beta4
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: d655120e0c43606ceb01840d37c3919d4f1fc255
 Directory: 19.03-rc
 
 Tags: 19.03.0-beta4-dind
-Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: 27471a8b93e980bd4c51464ee933ed90fd36bf97
 Directory: 19.03-rc/dind
 
 Tags: 19.03.0-beta4-git
-Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: 98ffef81ebfa7601a9ed2f0bf56d78f426bf253c
 Directory: 19.03-rc/git
 
 Tags: 19.03.0-beta3
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: 1b50c312fcc657c152da1d6d72c4b554055c729a
 Directory: 19.03-rc
 
 Tags: 19.03.0-beta3-dind
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
 GitCommit: 27471a8b93e980bd4c51464ee933ed90fd36bf97
 Directory: 19.03-rc/dind
 
 Tags: 19.03.0-beta3-git
-Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: 98ffef81ebfa7601a9ed2f0bf56d78f426bf253c
 Directory: 19.03-rc/git
 
 Tags: 18.09.6-rc1
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: b20492b90e3bca0f07d1eabe9434818aec3baf42
 Directory: 18.09-rc
 
@@ -2421,17 +2421,17 @@ GitCommit: 27471a8b93e980bd4c51464ee933ed90fd36bf97
 Directory: 18.09-rc/dind
 
 Tags: 18.09.6-rc1-git
-Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: 341e19641e58cccff1453653425fc56c07e8944d
 Directory: 18.09-rc/git
 
 Tags: 18.09.5
-Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 69ab1f338fbbdc57fa6dae39308bcd2fc98560a8
 Directory: 18.09
 
 Tags: 18.09.5-dind
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: 27471a8b93e980bd4c51464ee933ed90fd36bf97
 Directory: 18.09/dind
 
@@ -2441,32 +2441,32 @@ GitCommit: 91bbc4f7b06c06020d811dafb2266bcd7cf6c06d
 Directory: 18.09/git
 
 Tags: 19.03.0-beta2
-Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: a923d44d0fe9b53f73c979fef5206bac0f5f37e7
 Directory: 19.03-rc
 
 Tags: 19.03.0-beta2-dind
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
 GitCommit: 27471a8b93e980bd4c51464ee933ed90fd36bf97
 Directory: 19.03-rc/dind
 
 Tags: 19.03.0-beta2-git
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 98ffef81ebfa7601a9ed2f0bf56d78f426bf253c
 Directory: 19.03-rc/git
 
 Tags: 19.03.0-beta1
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: 98ffef81ebfa7601a9ed2f0bf56d78f426bf253c
 Directory: 19.03-rc
 
 Tags: 19.03.0-beta1-dind
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
 GitCommit: 27471a8b93e980bd4c51464ee933ed90fd36bf97
 Directory: 19.03-rc/dind
 
 Tags: 19.03.0-beta1-git
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: 98ffef81ebfa7601a9ed2f0bf56d78f426bf253c
 Directory: 19.03-rc/git
 
@@ -2476,7 +2476,7 @@ GitCommit: 341e19641e58cccff1453653425fc56c07e8944d
 Directory: 18.09-rc
 
 Tags: 18.09.5-rc1-dind
-Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 341e19641e58cccff1453653425fc56c07e8944d
 Directory: 18.09-rc/dind
 
@@ -2491,12 +2491,12 @@ GitCommit: 3d71bbc03dfd209ef7cc14380e235731daf2690a
 Directory: 18.09
 
 Tags: 18.09.4-dind
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 65fab2cd767c10f22ee66afa919eda80dbdc8872
 Directory: 18.09/dind
 
 Tags: 18.09.4-git
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
 GitCommit: 91bbc4f7b06c06020d811dafb2266bcd7cf6c06d
 Directory: 18.09/git
 
@@ -2506,7 +2506,7 @@ GitCommit: 6e5ccf3c71e86b98bb75600b4309ccf1bc87775e
 Directory: 18.09-rc
 
 Tags: 18.09.4-rc1-dind
-Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
+Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
 GitCommit: 6e5ccf3c71e86b98bb75600b4309ccf1bc87775e
 Directory: 18.09-rc/dind
 
@@ -2516,7 +2516,7 @@ GitCommit: 6e5ccf3c71e86b98bb75600b4309ccf1bc87775e
 Directory: 18.09-rc/git
 
 Tags: 18.09.3
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: 7411f18388ff3cc475f8b866cd2561f6b7822541
 Directory: 18.09
 
@@ -2531,7 +2531,7 @@ GitCommit: 91bbc4f7b06c06020d811dafb2266bcd7cf6c06d
 Directory: 18.09/git
 
 Tags: 18.09.3-rc1
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
 GitCommit: 0ea1769704a07017fd9a876590de2feb434d33e2
 Directory: 18.09-rc
 
@@ -2541,37 +2541,37 @@ GitCommit: 42a505379852819393f6a904eef3b1943070bf56
 Directory: 18.09-rc/dind
 
 Tags: 18.09.3-rc1-git
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: 42a505379852819393f6a904eef3b1943070bf56
 Directory: 18.09-rc/git
 
 Tags: 18.09.2
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
 GitCommit: 0ea1769704a07017fd9a876590de2feb434d33e2
 Directory: 18.09
 
 Tags: 18.09.2-dind
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 65fab2cd767c10f22ee66afa919eda80dbdc8872
 Directory: 18.09/dind
 
 Tags: 18.09.2-git
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: 91bbc4f7b06c06020d811dafb2266bcd7cf6c06d
 Directory: 18.09/git
 
 Tags: 18.06.2-ce,18.06.2
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: c2943e9a0803eea85526f63510a0a8c1e38630d5
 Directory: 18.06
 
 Tags: 18.06.2-ce-dind,18.06.2-dind
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
 GitCommit: 65fab2cd767c10f22ee66afa919eda80dbdc8872
 Directory: 18.06/dind
 
 Tags: 18.06.2-ce-git,18.06.2-git
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: 595ad0c92090937dcb7c200900fb97e36d36c412
 Directory: 18.06/git
 
@@ -2586,47 +2586,47 @@ GitCommit: 65fab2cd767c10f22ee66afa919eda80dbdc8872
 Directory: 18.09/dind
 
 Tags: 18.09.1-git
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 91bbc4f7b06c06020d811dafb2266bcd7cf6c06d
 Directory: 18.09/git
 
 Tags: 18.06.1-ce,18.06.1
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: fe2ca76a21fdc02cbb4974246696ee1b4a7839dd
 Directory: 18.06
 
 Tags: 18.06.1-ce-dind,18.06.1-dind
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: 65fab2cd767c10f22ee66afa919eda80dbdc8872
 Directory: 18.06/dind
 
 Tags: 18.06.1-ce-git,18.06.1-git
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: 595ad0c92090937dcb7c200900fb97e36d36c412
 Directory: 18.06/git
 
 Tags: 18.09.1-rc1
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: f094d6bce78c1d9714bbaf9a059babb513322922
 Directory: 18.09-rc
 
 Tags: 18.09.1-rc1-dind
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: 27e5adeb0597e445e3b9df951f03eaf89131184b
 Directory: 18.09-rc/dind
 
 Tags: 18.09.1-rc1-git
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: 27e5adeb0597e445e3b9df951f03eaf89131184b
 Directory: 18.09-rc/git
 
 Tags: 18.09.0
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
 GitCommit: 91bbc4f7b06c06020d811dafb2266bcd7cf6c06d
 Directory: 18.09
 
 Tags: 18.09.0-dind
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: 91bbc4f7b06c06020d811dafb2266bcd7cf6c06d
 Directory: 18.09/dind
 
@@ -2636,37 +2636,37 @@ GitCommit: 91bbc4f7b06c06020d811dafb2266bcd7cf6c06d
 Directory: 18.09/git
 
 Tags: 18.09.1-beta2
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: 27e5adeb0597e445e3b9df951f03eaf89131184b
 Directory: 18.09-rc
 
 Tags: 18.09.1-beta2-dind
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
 GitCommit: 27e5adeb0597e445e3b9df951f03eaf89131184b
 Directory: 18.09-rc/dind
 
 Tags: 18.09.1-beta2-git
-Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: 27e5adeb0597e445e3b9df951f03eaf89131184b
 Directory: 18.09-rc/git
 
 Tags: 18.09.0-rc1
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: 89c711a9c06628611a8ac28b18b965bdadccf146
 Directory: 18.09-rc
 
 Tags: 18.09.0-rc1-dind
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: fe2ca76a21fdc02cbb4974246696ee1b4a7839dd
 Directory: 18.09-rc/dind
 
 Tags: 18.09.0-rc1-git
-Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: 5dd425e5b74a02bde63257e56c2bb67cbae74686
 Directory: 18.09-rc/git
 
 Tags: 18.09.0-beta5
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: 9da077a794cffbea8461b128286a9acb69a3c54d
 Directory: 18.09-rc
 
@@ -2676,62 +2676,62 @@ GitCommit: fe2ca76a21fdc02cbb4974246696ee1b4a7839dd
 Directory: 18.09-rc/dind
 
 Tags: 18.09.0-beta5-git
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
 GitCommit: 5dd425e5b74a02bde63257e56c2bb67cbae74686
 Directory: 18.09-rc/git
 
 Tags: 18.09.0-beta3
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: 9820a073c73cded1d189bc8f7b067b1b4c6f9fb2
 Directory: 18.09-rc
 
 Tags: 18.09.0-beta3-dind
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: fe2ca76a21fdc02cbb4974246696ee1b4a7839dd
 Directory: 18.09-rc/dind
 
 Tags: 18.09.0-beta3-git
-Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 5dd425e5b74a02bde63257e56c2bb67cbae74686
 Directory: 18.09-rc/git
 
 Tags: 18.09.0-ce-beta1
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: fe2ca76a21fdc02cbb4974246696ee1b4a7839dd
 Directory: 18.09-rc
 
 Tags: 18.09.0-ce-beta1-dind
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: fe2ca76a21fdc02cbb4974246696ee1b4a7839dd
 Directory: 18.09-rc/dind
 
 Tags: 18.09.0-ce-beta1-git
-Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: 5dd425e5b74a02bde63257e56c2bb67cbae74686
 Directory: 18.09-rc/git
 
 Tags: 18.09.0-ce-tp6
-Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: 920059b3e2150aa2ebd053f5d28a8a5a15cfc227
 Directory: 18.09-rc
 
 Tags: 18.09.0-ce-tp6-dind
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
 GitCommit: 5dd425e5b74a02bde63257e56c2bb67cbae74686
 Directory: 18.09-rc/dind
 
 Tags: 18.09.0-ce-tp6-git
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: 5dd425e5b74a02bde63257e56c2bb67cbae74686
 Directory: 18.09-rc/git
 
 Tags: 18.09.0-ce-tp4
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 13958ae4bb03fdbd7bc29ae276a754ebee841572
 Directory: 18.09-rc
 
 Tags: 18.09.0-ce-tp4-dind
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: 5dd425e5b74a02bde63257e56c2bb67cbae74686
 Directory: 18.09-rc/dind
 
@@ -2746,52 +2746,52 @@ GitCommit: 44e9b5c2823fe334e975c6cc0d2fbea3437e2c2b
 Directory: 18.09-rc
 
 Tags: 18.09.0-ce-tp3-dind
-Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: 5dd425e5b74a02bde63257e56c2bb67cbae74686
 Directory: 18.09-rc/dind
 
 Tags: 18.09.0-ce-tp3-git
-Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
+Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
 GitCommit: 5dd425e5b74a02bde63257e56c2bb67cbae74686
 Directory: 18.09-rc/git
 
 Tags: 18.06.1-ce-rc2,18.06-rc
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: 5ca0a1b18ec5de602a668c760723e5ed27fc3382
 Directory: 18.06-rc
 
 Tags: 18.06.1-ce-rc2-dind,18.06-rc-dind
-Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: fe9ffca05a3e29de69d7b2e8dd6c3d505e83412b
 Directory: 18.06-rc/dind
 
 Tags: 18.06.1-ce-rc2-git,18.06-rc-git
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: fe9ffca05a3e29de69d7b2e8dd6c3d505e83412b
 Directory: 18.06-rc/git
 
 Tags: 18.06.0-ce,18.06.0
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 5ca0a1b18ec5de602a668c760723e5ed27fc3382
 Directory: 18.06
 
 Tags: 18.06.0-ce-dind,18.06.0-dind
-Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: 595ad0c92090937dcb7c200900fb97e36d36c412
 Directory: 18.06/dind
 
 Tags: 18.06.0-ce-git,18.06.0-git
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: 595ad0c92090937dcb7c200900fb97e36d36c412
 Directory: 18.06/git
 
 Tags: 18.06.1-ce-rc1
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
 GitCommit: fe9ffca05a3e29de69d7b2e8dd6c3d505e83412b
 Directory: 18.06-rc
 
 Tags: 18.06.1-ce-rc1-dind
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: fe9ffca05a3e29de69d7b2e8dd6c3d505e83412b
 Directory: 18.06-rc/dind
 
@@ -2801,27 +2801,27 @@ GitCommit: fe9ffca05a3e29de69d7b2e8dd6c3d505e83412b
 Directory: 18.06-rc/git
 
 Tags: 18.06.0-ce-rc3
-Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: 8e5a928fef7ac182890bd9d3be7a36736ac1497b
 Directory: 18.06-rc
 
 Tags: 18.06.0-ce-rc3-dind
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
 GitCommit: 9ecb1c3a6bd766b69eb1858ef721f62fbd930a2b
 Directory: 18.06-rc/dind
 
 Tags: 18.06.0-ce-rc3-git
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 84fbcfc4cbef254dce2e7ecd7fcff788da4690df
 Directory: 18.06-rc/git
 
 Tags: 18.05.0-ce,18.05.0,18.05
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
 GitCommit: cf3d3343f291146f9b79ccafa725a9bb28257ea0
 Directory: 18.05
 
 Tags: 18.05.0-ce-dind,18.05.0-dind,18.05-dind
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: 9ecb1c3a6bd766b69eb1858ef721f62fbd930a2b
 Directory: 18.05/dind
 
@@ -2831,27 +2831,27 @@ GitCommit: cf3d3343f291146f9b79ccafa725a9bb28257ea0
 Directory: 18.05/git
 
 Tags: 18.03.1-ce,18.03.1,18.03
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
 GitCommit: 9209ff1b2ef5f25cffff9e0e67bc681dd43fcaca
 Directory: 18.03
 
 Tags: 18.03.1-ce-dind,18.03.1-dind,18.03-dind
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 9ecb1c3a6bd766b69eb1858ef721f62fbd930a2b
 Directory: 18.03/dind
 
 Tags: 18.03.1-ce-git,18.03.1-git,18.03-git
-Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: 1ad458b04229d155bbec6bbd4b5142497aa8126a
 Directory: 18.03/git
 
 Tags: 18.06.0-ce-rc2
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: 441b13e5f1de3cf3a9afc27f99adf0e247bfba35
 Directory: 18.06-rc
 
 Tags: 18.06.0-ce-rc2-dind
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
 GitCommit: 9ecb1c3a6bd766b69eb1858ef721f62fbd930a2b
 Directory: 18.06-rc/dind
 
@@ -2866,22 +2866,22 @@ GitCommit: 84fbcfc4cbef254dce2e7ecd7fcff788da4690df
 Directory: 18.06-rc
 
 Tags: 18.06.0-ce-rc1-dind
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: 9ecb1c3a6bd766b69eb1858ef721f62fbd930a2b
 Directory: 18.06-rc/dind
 
 Tags: 18.06.0-ce-rc1-git
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: 84fbcfc4cbef254dce2e7ecd7fcff788da4690df
 Directory: 18.06-rc/git
 
 Tags: 18.05.0-ce-rc1,18.05-rc
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
 GitCommit: 9209ff1b2ef5f25cffff9e0e67bc681dd43fcaca
 Directory: 18.05-rc
 
 Tags: 18.05.0-ce-rc1-dind,18.05-rc-dind
-Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: bc5d62520258cacb230485ee96754f9f9aa117c4
 Directory: 18.05-rc/dind
 
@@ -2891,7 +2891,7 @@ GitCommit: 9209ff1b2ef5f25cffff9e0e67bc681dd43fcaca
 Directory: 18.05-rc/git
 
 Tags: 18.04.0-ce,18.04.0,18.04
-Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: 574fe5c582aa0ba432cf5f57ac921d42eafd5e36
 Directory: 18.04
 
@@ -2906,12 +2906,12 @@ GitCommit: 574fe5c582aa0ba432cf5f57ac921d42eafd5e36
 Directory: 18.04/git
 
 Tags: 17.12.1-ce,17.12.1,17.12,17
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
 GitCommit: eec0f6e5549ab940b53332f836be817c877d1154
 Directory: 17.12
 
 Tags: 17.12.1-ce-dind,17.12.1-dind,17.12-dind,17-dind
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
 GitCommit: bc5d62520258cacb230485ee96754f9f9aa117c4
 Directory: 17.12/dind
 
@@ -2921,7 +2921,7 @@ GitCommit: de9fda490429cf83734ef78b58f0ae9cfed1b087
 Directory: 17.12/git
 
 Tags: 18.03.1-ce-rc2,18.03-rc
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
 GitCommit: 73ca9d9788a42be204d9843cab4e57ca56f33fdb
 Directory: 18.03-rc
 
@@ -2946,7 +2946,7 @@ GitCommit: 5b158e3ca87bdc20069754a796c00b270e40cfdb
 Directory: 18.03/dind
 
 Tags: 18.03.0-ce-git,18.03.0-git
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: 1ad458b04229d155bbec6bbd4b5142497aa8126a
 Directory: 18.03/git
 
@@ -2956,17 +2956,17 @@ GitCommit: 9fef62af4ad3a24c43894a16e06ba160b592e06a
 Directory: 18.03-rc
 
 Tags: 18.03.1-ce-rc1-dind
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 9fef62af4ad3a24c43894a16e06ba160b592e06a
 Directory: 18.03-rc/dind
 
 Tags: 18.03.1-ce-rc1-git
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: 9fef62af4ad3a24c43894a16e06ba160b592e06a
 Directory: 18.03-rc/git
 
 Tags: 18.04.0-ce-rc2,18.04-rc
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
 GitCommit: fcbb33386d9cff655bbde45f0ecd532ea65cda9c
 Directory: 18.04-rc
 
@@ -2976,32 +2976,32 @@ GitCommit: 5b158e3ca87bdc20069754a796c00b270e40cfdb
 Directory: 18.04-rc/dind
 
 Tags: 18.04.0-ce-rc2-git,18.04-rc-git
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: 045fbbc0ac44b1db42ef8b499f2bef1db8dcfe61
 Directory: 18.04-rc/git
 
 Tags: 18.04.0-ce-rc1
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: 045fbbc0ac44b1db42ef8b499f2bef1db8dcfe61
 Directory: 18.04-rc
 
 Tags: 18.04.0-ce-rc1-dind
-Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: 045fbbc0ac44b1db42ef8b499f2bef1db8dcfe61
 Directory: 18.04-rc/dind
 
 Tags: 18.04.0-ce-rc1-git
-Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: 045fbbc0ac44b1db42ef8b499f2bef1db8dcfe61
 Directory: 18.04-rc/git
 
 Tags: 18.03.0-ce-rc4
-Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: bfaadfe76376783f53968a0e309b61ef904031fa
 Directory: 18.03-rc
 
 Tags: 18.03.0-ce-rc4-dind
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
 GitCommit: 5d58870994d0ba33a5228af06876fe2026752924
 Directory: 18.03-rc/dind
 
@@ -3011,12 +3011,12 @@ GitCommit: 5d58870994d0ba33a5228af06876fe2026752924
 Directory: 18.03-rc/git
 
 Tags: 18.02.0-ce,18.02.0,18.02
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
 GitCommit: 157869f94ea90e2acb4d0f77045d99079ead821c
 Directory: 18.02
 
 Tags: 18.02.0-ce-dind,18.02.0-dind,18.02-dind
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 157869f94ea90e2acb4d0f77045d99079ead821c
 Directory: 18.02/dind
 
@@ -3026,22 +3026,22 @@ GitCommit: 157869f94ea90e2acb4d0f77045d99079ead821c
 Directory: 18.02/git
 
 Tags: 18.03.0-ce-rc3
-Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: c7f43d116aa4a36ed630191442774e39a9c94cb6
 Directory: 18.03-rc
 
 Tags: 18.03.0-ce-rc3-dind
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
 GitCommit: 5d58870994d0ba33a5228af06876fe2026752924
 Directory: 18.03-rc/dind
 
 Tags: 18.03.0-ce-rc3-git
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 5d58870994d0ba33a5228af06876fe2026752924
 Directory: 18.03-rc/git
 
 Tags: 18.03.0-ce-rc1
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
 GitCommit: 5d58870994d0ba33a5228af06876fe2026752924
 Directory: 18.03-rc
 
@@ -3051,22 +3051,22 @@ GitCommit: 5d58870994d0ba33a5228af06876fe2026752924
 Directory: 18.03-rc/dind
 
 Tags: 18.03.0-ce-rc1-git
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: 5d58870994d0ba33a5228af06876fe2026752924
 Directory: 18.03-rc/git
 
 Tags: 17.12.1-ce-rc2,17.12-rc
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
+Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
 GitCommit: 9a1feddfc856278e289035da7a29fd218bc12d78
 Directory: 17.12-rc
 
 Tags: 17.12.1-ce-rc2-dind,17.12-rc-dind
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
 GitCommit: 56ff41e041f3bffbabaa9237421baa5ebe86ec74
 Directory: 17.12-rc/dind
 
 Tags: 17.12.1-ce-rc2-git,17.12-rc-git
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: 56ff41e041f3bffbabaa9237421baa5ebe86ec74
 Directory: 17.12-rc/git
 
@@ -3076,7 +3076,7 @@ GitCommit: b9fd686dac473fb71ffb426a9ef8e0467208dd2f
 Directory: 17.12
 
 Tags: 17.12.0-ce-dind,17.12.0-dind
-Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: de9fda490429cf83734ef78b58f0ae9cfed1b087
 Directory: 17.12/dind
 
@@ -3086,12 +3086,12 @@ GitCommit: de9fda490429cf83734ef78b58f0ae9cfed1b087
 Directory: 17.12/git
 
 Tags: 17.12.1-ce-rc1
-Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: 56ff41e041f3bffbabaa9237421baa5ebe86ec74
 Directory: 17.12-rc
 
 Tags: 17.12.1-ce-rc1-dind
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
 GitCommit: 56ff41e041f3bffbabaa9237421baa5ebe86ec74
 Directory: 17.12-rc/dind
 
@@ -3101,7 +3101,7 @@ GitCommit: 56ff41e041f3bffbabaa9237421baa5ebe86ec74
 Directory: 17.12-rc/git
 
 Tags: 18.02.0-ce-rc2,18.02-rc
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: 70e698f1e2f12ed3de3a32e3f25b3c781f918aa0
 Directory: 18.02-rc
 
@@ -3111,17 +3111,17 @@ GitCommit: 690c2cedc6c5e8a47507240b7d8a39a19f03bae6
 Directory: 18.02-rc/dind
 
 Tags: 18.02.0-ce-rc2-git,18.02-rc-git
-Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: 690c2cedc6c5e8a47507240b7d8a39a19f03bae6
 Directory: 18.02-rc/git
 
 Tags: 18.01.0-ce,18.01.0,18.01
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: b9fd686dac473fb71ffb426a9ef8e0467208dd2f
 Directory: 18.01
 
 Tags: 18.01.0-ce-dind,18.01.0-dind,18.01-dind
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8
+Architectures: arm32v6,arm64v8,ppc64le,s390x,amd64
 GitCommit: d909b9fe1337c5bc6c1f851c0a7bc2d23008cc1d
 Directory: 18.01/dind
 
@@ -3136,12 +3136,12 @@ GitCommit: b9fd686dac473fb71ffb426a9ef8e0467208dd2f
 Directory: 17.09
 
 Tags: 17.09.1-ce-dind,17.09.1-dind,17.09-dind
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
 GitCommit: 00de5231b507c989ce900df2ef3f1abf4ce7e19c
 Directory: 17.09/dind
 
 Tags: 17.09.1-ce-git,17.09.1-git,17.09-git
-Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: a6b52c73daa8283cd861f41f55e53426008708ac
 Directory: 17.09/git
 
@@ -3151,12 +3151,12 @@ GitCommit: b9fd686dac473fb71ffb426a9ef8e0467208dd2f
 Directory: 18.02-rc
 
 Tags: 18.02.0-ce-rc1-dind
-Architectures: s390x,amd64,arm32v6,arm64v8,ppc64le
+Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
 GitCommit: 690c2cedc6c5e8a47507240b7d8a39a19f03bae6
 Directory: 18.02-rc/dind
 
 Tags: 18.02.0-ce-rc1-git
-Architectures: amd64,arm32v6,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v6
 GitCommit: 690c2cedc6c5e8a47507240b7d8a39a19f03bae6
 Directory: 18.02-rc/git
 
@@ -3176,7 +3176,7 @@ GitCommit: 8de8842b2fffc6bb43609c133b54207ffb7b4ce2
 Directory: 18.01-rc/git
 
 Tags: 17.12.0-ce-rc4
-Architectures: amd64,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm64v8,ppc64le
 GitCommit: 1f5c55a69955147c50bd9c6ace5ccbc63772ccdc
 Directory: 17.12-rc
 
@@ -3191,7 +3191,7 @@ GitCommit: bbfb50a21b358554c1621cfe19378158d9155694
 Directory: 17.12-rc/git
 
 Tags: 17.11.0-ce,17.11.0,17.11
-Architectures: amd64,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64
 GitCommit: 64f6d5eba928dd79b9ca1e7e879021a2baf4c705
 Directory: 17.11
 
@@ -3211,32 +3211,32 @@ GitCommit: 29a9a02e3dbbc77cbd4783fc87c73f762fb8ac90
 Directory: 17.12-rc
 
 Tags: 17.12.0-ce-rc3-dind
-Architectures: s390x,amd64,arm64v8,ppc64le
+Architectures: amd64,arm64v8,ppc64le,s390x
 GitCommit: bbfb50a21b358554c1621cfe19378158d9155694
 Directory: 17.12-rc/dind
 
 Tags: 17.12.0-ce-rc3-git
-Architectures: arm64v8,ppc64le,s390x,amd64
+Architectures: amd64,arm64v8,ppc64le,s390x
 GitCommit: bbfb50a21b358554c1621cfe19378158d9155694
 Directory: 17.12-rc/git
 
 Tags: 17.12.0-ce-rc2
-Architectures: amd64,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm64v8,ppc64le
 GitCommit: f4d3f30de26100deddd4afdc37dd04bb6d018b26
 Directory: 17.12-rc
 
 Tags: 17.12.0-ce-rc2-dind
-Architectures: arm64v8,ppc64le,s390x,amd64
+Architectures: amd64,arm64v8,ppc64le,s390x
 GitCommit: bbfb50a21b358554c1621cfe19378158d9155694
 Directory: 17.12-rc/dind
 
 Tags: 17.12.0-ce-rc2-git
-Architectures: amd64,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm64v8
 GitCommit: bbfb50a21b358554c1621cfe19378158d9155694
 Directory: 17.12-rc/git
 
 Tags: 17.12.0-ce-rc1
-Architectures: arm64v8,ppc64le,s390x,amd64
+Architectures: amd64,arm64v8,ppc64le,s390x
 GitCommit: bbfb50a21b358554c1621cfe19378158d9155694
 Directory: 17.12-rc
 
@@ -3246,7 +3246,7 @@ GitCommit: bbfb50a21b358554c1621cfe19378158d9155694
 Directory: 17.12-rc/dind
 
 Tags: 17.12.0-ce-rc1-git
-Architectures: s390x,amd64,arm64v8,ppc64le
+Architectures: amd64,arm64v8,ppc64le,s390x
 GitCommit: bbfb50a21b358554c1621cfe19378158d9155694
 Directory: 17.12-rc/git
 
@@ -3266,12 +3266,12 @@ GitCommit: f522868d85d70569fb3e90bd913efa1c3394a264
 Directory: 17.09-rc/git
 
 Tags: 17.09.0-ce,17.09.0
-Architectures: s390x,amd64,arm64v8,ppc64le
+Architectures: ppc64le,s390x,amd64,arm64v8
 GitCommit: af5b6cd45b8d1aeb534589d99f92b5a4dc886f5d
 Directory: 17.09
 
 Tags: 17.09.0-ce-dind,17.09.0-dind
-Architectures: s390x,amd64,arm64v8,ppc64le
+Architectures: arm64v8,ppc64le,s390x,amd64
 GitCommit: 00de5231b507c989ce900df2ef3f1abf4ce7e19c
 Directory: 17.09/dind
 
@@ -3291,12 +3291,12 @@ GitCommit: 2aa6d388f205fc20ad22402bfed4ece715c7cb48
 Directory: 17.09/windows/windowsservercore-1709
 
 Tags: 17.11.0-ce-rc4,17.11-rc
-Architectures: ppc64le,s390x,amd64,arm64v8
+Architectures: amd64,arm64v8,ppc64le,s390x
 GitCommit: 51a40fb6eed136282edaf32f45d469ac2c5fb6e4
 Directory: 17.11-rc
 
 Tags: 17.11.0-ce-rc4-dind,17.11-rc-dind
-Architectures: amd64,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm64v8,ppc64le
 GitCommit: 6e7677bec19c214ef5445c0d2b96c56e42098ca1
 Directory: 17.11-rc/dind
 
@@ -3311,7 +3311,7 @@ GitCommit: af5b6cd45b8d1aeb534589d99f92b5a4dc886f5d
 Directory: 17.10
 
 Tags: 17.10.0-ce-dind,17.10.0-dind,17.10-dind
-Architectures: ppc64le,s390x,amd64,arm64v8
+Architectures: s390x,amd64,arm64v8,ppc64le
 GitCommit: 00de5231b507c989ce900df2ef3f1abf4ce7e19c
 Directory: 17.10/dind
 
@@ -3331,7 +3331,7 @@ GitCommit: 2f6926c4fb37274b90fae3ba6c3320619a8d0289
 Directory: 17.09/windows/windowsservercore
 
 Tags: 17.11.0-ce-rc3
-Architectures: s390x,amd64,arm64v8,ppc64le
+Architectures: arm64v8,ppc64le,s390x,amd64
 GitCommit: 4e1f14f433ef9b800a19fe1907a54b09d8f42a15
 Directory: 17.11-rc
 
@@ -3351,7 +3351,7 @@ GitCommit: 4e1f14f433ef9b800a19fe1907a54b09d8f42a15
 Directory: 17.11-rc/windows/windowsservercore
 
 Tags: 17.11.0-ce-rc2
-Architectures: amd64,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64
 GitCommit: 146b0d04de69f9aaace6a5a3c22ac4e8e9744fd3
 Directory: 17.11-rc
 
@@ -3376,7 +3376,7 @@ GitCommit: af5b6cd45b8d1aeb534589d99f92b5a4dc886f5d
 Directory: 17.06
 
 Tags: 17.06.2-ce-dind,17.06.2-dind,17.06-dind
-Architectures: s390x,amd64
+Architectures: amd64,s390x
 GitCommit: 00de5231b507c989ce900df2ef3f1abf4ce7e19c
 Directory: 17.06/dind
 

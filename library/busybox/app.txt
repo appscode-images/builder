@@ -1,40 +1,40 @@
 GitRepo: https://github.com/docker-library/busybox.git
 
 Tags: 1.36.1-glibc,1.36-glibc,1-glibc,stable-glibc,glibc
-Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64
 Directory: latest/glibc
 
 Tags: 1.36.1-uclibc,1.36-uclibc,1-uclibc,stable-uclibc,uclibc
-Architectures: i386,mips64le,riscv64,amd64,arm32v5,arm32v7,arm64v8
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,riscv64
 Directory: latest/uclibc
 
 Tags: 1.36.1-musl,1.36-musl,1-musl,stable-musl,musl
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le
 Directory: latest/musl
 
 Tags: 1.36.1,1.36,1,stable,latest
+riscv64-Directory: latest/uclibc
 amd64-Directory: latest/glibc
-arm32v5-Directory: latest/glibc
+arm32v6-Directory: latest/musl
+i386-Directory: latest/glibc
 mips64le-Directory: latest/glibc
 ppc64le-Directory: latest/glibc
-riscv64-Directory: latest/uclibc
 s390x-Directory: latest/glibc
-arm32v6-Directory: latest/musl
+arm32v5-Directory: latest/glibc
 arm32v7-Directory: latest/glibc
 arm64v8-Directory: latest/glibc
-i386-Directory: latest/glibc
-Architectures: amd64,arm32v5,mips64le,ppc64le,riscv64,s390x,arm32v6,arm32v7,arm64v8,i386
+Architectures: riscv64,amd64,arm32v6,i386,mips64le,ppc64le,s390x,arm32v5,arm32v7,arm64v8
 
 Tags: 1.35.0-glibc,1.35-glibc
-Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 Directory: latest-1/glibc
 
 Tags: 1.35.0-uclibc,1.35-uclibc
-Architectures: mips64le,riscv64,amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,riscv64
 Directory: latest-1/uclibc
 
 Tags: 1.35.0-musl,1.35-musl
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 Directory: latest-1/musl
 
 Tags: 1.35.0,1.35
@@ -44,93 +44,93 @@ arm32v6-Directory: latest-1/musl
 arm32v7-Directory: latest-1/glibc
 arm64v8-Directory: latest-1/glibc
 i386-Directory: latest-1/glibc
-ppc64le-Directory: latest-1/glibc
 mips64le-Directory: latest-1/glibc
+ppc64le-Directory: latest-1/glibc
 riscv64-Directory: latest-1/uclibc
 s390x-Directory: latest-1/glibc
-Architectures: amd64,arm32v5,arm32v6,arm32v7,arm64v8,i386,ppc64le,mips64le,riscv64,s390x
+Architectures: amd64,arm32v5,arm32v6,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
 
 Tags: 1.36.0-glibc,unstable-glibc
-Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 Directory: latest/glibc
 
 Tags: 1.36.0-uclibc,unstable-uclibc
-Architectures: i386,mips64le,riscv64,amd64,arm32v5,arm32v7,arm64v8
+Architectures: mips64le,riscv64,amd64,arm32v5,arm32v7,arm64v8,i386
 Directory: latest/uclibc
 
 Tags: 1.36.0-musl,unstable-musl
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 Directory: latest/musl
 
 Tags: 1.36.0,unstable
-arm32v6-Directory: latest/musl
+amd64-Directory: latest/glibc
 arm32v7-Directory: latest/glibc
 arm64v8-Directory: latest/glibc
+mips64le-Directory: latest/glibc
+s390x-Directory: latest/glibc
+arm32v5-Directory: latest/glibc
+arm32v6-Directory: latest/musl
 i386-Directory: latest/glibc
 ppc64le-Directory: latest/glibc
 riscv64-Directory: latest/uclibc
-s390x-Directory: latest/glibc
-amd64-Directory: latest/glibc
-arm32v5-Directory: latest/glibc
-mips64le-Directory: latest/glibc
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x,amd64,arm32v5,mips64le
+Architectures: amd64,arm32v7,arm64v8,mips64le,s390x,arm32v5,arm32v6,i386,ppc64le,riscv64
 
 Tags: 1.34.1-glibc,1.34-glibc
-Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 Directory: stable/glibc
 
 Tags: 1.34.1-uclibc,1.34-uclibc
-Architectures: mips64le,riscv64,amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: riscv64,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 Directory: stable/uclibc
 
 Tags: 1.34.1-musl,1.34-musl
-Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 Directory: stable/musl
 
 Tags: 1.34.1,1.34
+s390x-Directory: stable/glibc
 amd64-Directory: stable/glibc
 arm32v6-Directory: stable/musl
 arm32v7-Directory: stable/glibc
 arm64v8-Directory: stable/glibc
-mips64le-Directory: stable/glibc
-ppc64le-Directory: stable/glibc
-arm32v5-Directory: stable/glibc
 i386-Directory: stable/glibc
+ppc64le-Directory: stable/glibc
 riscv64-Directory: stable/uclibc
-s390x-Directory: stable/glibc
-Architectures: amd64,arm32v6,arm32v7,arm64v8,mips64le,ppc64le,arm32v5,i386,riscv64,s390x
+arm32v5-Directory: stable/glibc
+mips64le-Directory: stable/glibc
+Architectures: s390x,amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,arm32v5,mips64le
 
 Tags: 1.33.1-uclibc,1.33-uclibc
 Architectures: mips64le,riscv64,amd64,arm32v5,arm32v7,arm64v8,i386
 Directory: stable/uclibc
 
 Tags: 1.33.1-glibc,1.33-glibc
-Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 Directory: stable/glibc
 
 Tags: 1.33.1-musl,1.33-musl
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: stable/musl
 
 Tags: 1.33.1,1.33
+mips64le-Directory: stable/uclibc
+ppc64le-Directory: stable/glibc
+riscv64-Directory: stable/uclibc
+s390x-Directory: stable/glibc
+amd64-Directory: stable/uclibc
 arm32v5-Directory: stable/uclibc
 arm32v7-Directory: stable/uclibc
 arm64v8-Directory: stable/uclibc
-ppc64le-Directory: stable/glibc
-amd64-Directory: stable/uclibc
 arm32v6-Directory: stable/musl
 i386-Directory: stable/uclibc
-mips64le-Directory: stable/uclibc
-riscv64-Directory: stable/uclibc
-s390x-Directory: stable/glibc
-Architectures: arm32v5,arm32v7,arm64v8,ppc64le,amd64,arm32v6,i386,mips64le,riscv64,s390x
+Architectures: mips64le,ppc64le,riscv64,s390x,amd64,arm32v5,arm32v7,arm64v8,arm32v6,i386
 
 Tags: 1.34.0-uclibc
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,riscv64
 Directory: unstable/uclibc
 
 Tags: 1.34.0-glibc
-Architectures: i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
+Architectures: arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7
 Directory: unstable/glibc
 
 Tags: 1.34.0-musl
@@ -138,173 +138,127 @@ Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8
 Directory: unstable/musl
 
 Tags: 1.34.0
-s390x-Directory: unstable/glibc
+amd64-Directory: unstable/uclibc
 arm32v5-Directory: unstable/uclibc
 arm32v6-Directory: unstable/musl
 arm32v7-Directory: unstable/uclibc
-arm64v8-Directory: unstable/uclibc
 i386-Directory: unstable/uclibc
 ppc64le-Directory: unstable/glibc
 riscv64-Directory: unstable/uclibc
-amd64-Directory: unstable/uclibc
+s390x-Directory: unstable/glibc
+arm64v8-Directory: unstable/uclibc
 mips64le-Directory: unstable/uclibc
-Architectures: s390x,arm32v5,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,amd64,mips64le
+Architectures: amd64,arm32v5,arm32v6,arm32v7,i386,ppc64le,riscv64,s390x,arm64v8,mips64le
 
 Tags: 1.32.1-uclibc,1.32-uclibc
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 Directory: stable/uclibc
 
 Tags: 1.32.1-glibc,1.32-glibc
-Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
+Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 Directory: stable/glibc
 
 Tags: 1.32.1-musl,1.32-musl
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: stable/musl
 
 Tags: 1.32.1,1.32
-arm32v5-Directory: stable/uclibc
-i386-Directory: stable/uclibc
 amd64-Directory: stable/uclibc
+arm32v5-Directory: stable/uclibc
+arm32v6-Directory: stable/musl
 arm32v7-Directory: stable/uclibc
 arm64v8-Directory: stable/uclibc
+i386-Directory: stable/uclibc
 mips64le-Directory: stable/uclibc
 ppc64le-Directory: stable/glibc
 s390x-Directory: stable/glibc
-arm32v6-Directory: stable/musl
-Architectures: arm32v5,i386,amd64,arm32v7,arm64v8,mips64le,ppc64le,s390x,arm32v6
+Architectures: amd64,arm32v5,arm32v6,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 
 Tags: 1.33.0-uclibc
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
 Directory: unstable/uclibc
 
 Tags: 1.33.0-glibc
-Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 Directory: unstable/glibc
 
 Tags: 1.33.0-musl
-Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: unstable/musl
 
 Tags: 1.33.0
-arm32v7-Directory: unstable/uclibc
+arm64v8-Directory: unstable/uclibc
 i386-Directory: unstable/uclibc
-s390x-Directory: unstable/glibc
-mips64le-Directory: unstable/uclibc
 ppc64le-Directory: unstable/glibc
-amd64-Directory: unstable/uclibc
+s390x-Directory: unstable/glibc
 arm32v5-Directory: unstable/uclibc
 arm32v6-Directory: unstable/musl
-arm64v8-Directory: unstable/uclibc
-Architectures: arm32v7,i386,s390x,mips64le,ppc64le,amd64,arm32v5,arm32v6,arm64v8
+arm32v7-Directory: unstable/uclibc
+amd64-Directory: unstable/uclibc
+mips64le-Directory: unstable/uclibc
+Architectures: arm64v8,i386,ppc64le,s390x,arm32v5,arm32v6,arm32v7,amd64,mips64le
 
 Tags: 1.32.0-uclibc
-Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,amd64
+Architectures: mips64le,amd64,arm32v5,arm32v7,arm64v8,i386
 Directory: uclibc
 
 Tags: 1.32.0-glibc
-Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 Directory: glibc
 
 Tags: 1.32.0-musl
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 Directory: musl
 
 Tags: 1.32.0
 amd64-Directory: uclibc
+arm32v7-Directory: uclibc
+arm64v8-Directory: uclibc
+mips64le-Directory: uclibc
 arm32v5-Directory: uclibc
 arm32v6-Directory: musl
-arm64v8-Directory: uclibc
-s390x-Directory: glibc
-arm32v7-Directory: uclibc
 i386-Directory: uclibc
-mips64le-Directory: uclibc
 ppc64le-Directory: glibc
-Architectures: amd64,arm32v5,arm32v6,arm64v8,s390x,arm32v7,i386,mips64le,ppc64le
+s390x-Directory: glibc
+Architectures: amd64,arm32v7,arm64v8,mips64le,arm32v5,arm32v6,i386,ppc64le,s390x
 
 Tags: 1.31.1-uclibc,1.31-uclibc
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le
+Architectures: arm32v5,arm32v7,arm64v8,i386,mips64le,amd64
 Directory: uclibc
 
 Tags: 1.31.1-glibc,1.31-glibc
-Architectures: mips64le,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: arm32v7,arm64v8,i386,mips64le,ppc64le,s390x,amd64,arm32v5
 Directory: glibc
 
 Tags: 1.31.1-musl,1.31-musl
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: ppc64le,s390x,amd64,arm32v6,arm32v7,arm64v8,i386
 Directory: musl
 
 Tags: 1.31.1,1.31
 amd64-Directory: uclibc
-ppc64le-Directory: glibc
-s390x-Directory: glibc
 arm32v5-Directory: uclibc
-arm32v6-Directory: musl
-arm32v7-Directory: uclibc
 arm64v8-Directory: uclibc
 i386-Directory: uclibc
+ppc64le-Directory: glibc
+s390x-Directory: glibc
+arm32v6-Directory: musl
+arm32v7-Directory: uclibc
 mips64le-Directory: uclibc
-Architectures: amd64,ppc64le,s390x,arm32v5,arm32v6,arm32v7,arm64v8,i386,mips64le
+Architectures: amd64,arm32v5,arm64v8,i386,ppc64le,s390x,arm32v6,arm32v7,mips64le
 
 Tags: 1.31.0-uclibc
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386
 Directory: uclibc
 
 Tags: 1.31.0-glibc
-Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
+Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 Directory: glibc
 
 Tags: 1.31.0-musl
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6,arm32v7
 Directory: musl
 
 Tags: 1.31.0
-arm32v7-Directory: uclibc
-arm64v8-Directory: uclibc
-i386-Directory: uclibc
-ppc64le-Directory: glibc
-s390x-Directory: glibc
-amd64-Directory: uclibc
-arm32v5-Directory: uclibc
-arm32v6-Directory: musl
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v6
-
-Tags: 1.30.1-uclibc,1.30-uclibc
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386
-Directory: uclibc
-
-Tags: 1.30.1-glibc,1.30-glibc
-Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
-Directory: glibc
-
-Tags: 1.30.1-musl,1.30-musl
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
-Directory: musl
-
-Tags: 1.30.1,1.30
-arm32v6-Directory: musl
-arm32v7-Directory: uclibc
-arm64v8-Directory: uclibc
-i386-Directory: uclibc
-ppc64le-Directory: glibc
-s390x-Directory: glibc
-amd64-Directory: uclibc
-arm32v5-Directory: uclibc
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
-
-Tags: 1.30.0-uclibc
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386
-Directory: uclibc
-
-Tags: 1.30.0-glibc
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
-Directory: glibc
-
-Tags: 1.30.0-musl
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
-Directory: musl
-
-Tags: 1.30.0
 ppc64le-Directory: glibc
 s390x-Directory: glibc
 amd64-Directory: uclibc
@@ -315,19 +269,19 @@ arm64v8-Directory: uclibc
 i386-Directory: uclibc
 Architectures: ppc64le,s390x,amd64,arm32v5,arm32v6,arm32v7,arm64v8,i386
 
-Tags: 1.29.3-uclibc,1.29-uclibc
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386
+Tags: 1.30.1-uclibc,1.30-uclibc
+Architectures: arm64v8,i386,amd64,arm32v5,arm32v7
 Directory: uclibc
 
-Tags: 1.29.3-glibc,1.29-glibc
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Tags: 1.30.1-glibc,1.30-glibc
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
 Directory: glibc
 
-Tags: 1.29.3-musl,1.29-musl
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
+Tags: 1.30.1-musl,1.30-musl
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 Directory: musl
 
-Tags: 1.29.3,1.29
+Tags: 1.30.1,1.30
 i386-Directory: uclibc
 ppc64le-Directory: glibc
 s390x-Directory: glibc
@@ -338,8 +292,54 @@ arm32v7-Directory: uclibc
 arm64v8-Directory: uclibc
 Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v6,arm32v7,arm64v8
 
-Tags: 1.29.2-uclibc
+Tags: 1.30.0-uclibc
+Architectures: arm32v5,arm32v7,arm64v8,i386,amd64
+Directory: uclibc
+
+Tags: 1.30.0-glibc
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Directory: glibc
+
+Tags: 1.30.0-musl
+Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Directory: musl
+
+Tags: 1.30.0
+amd64-Directory: uclibc
+arm32v5-Directory: uclibc
+arm32v6-Directory: musl
+arm32v7-Directory: uclibc
+arm64v8-Directory: uclibc
+i386-Directory: uclibc
+ppc64le-Directory: glibc
+s390x-Directory: glibc
+Architectures: amd64,arm32v5,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+
+Tags: 1.29.3-uclibc,1.29-uclibc
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386
+Directory: uclibc
+
+Tags: 1.29.3-glibc,1.29-glibc
+Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Directory: glibc
+
+Tags: 1.29.3-musl,1.29-musl
+Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Directory: musl
+
+Tags: 1.29.3,1.29
+amd64-Directory: uclibc
+arm32v5-Directory: uclibc
+arm32v6-Directory: musl
+arm32v7-Directory: uclibc
+arm64v8-Directory: uclibc
+i386-Directory: uclibc
+ppc64le-Directory: glibc
+s390x-Directory: glibc
+Architectures: amd64,arm32v5,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
+
+Tags: 1.29.2-uclibc
+Architectures: i386,amd64,arm32v5,arm32v7,arm64v8
 Directory: uclibc
 
 Tags: 1.29.2-glibc
@@ -351,22 +351,22 @@ Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
 Directory: musl
 
 Tags: 1.29.2
-i386-Directory: uclibc
-ppc64le-Directory: glibc
-s390x-Directory: glibc
-amd64-Directory: uclibc
 arm32v5-Directory: uclibc
 arm32v6-Directory: musl
 arm32v7-Directory: uclibc
 arm64v8-Directory: uclibc
-Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v6,arm32v7,arm64v8
+i386-Directory: uclibc
+ppc64le-Directory: glibc
+s390x-Directory: glibc
+amd64-Directory: uclibc
+Architectures: arm32v5,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 
 Tags: 1.29.1-uclibc
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: arm32v7,arm64v8,i386,amd64,arm32v5
 Directory: uclibc
 
 Tags: 1.29.1-glibc
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: glibc
 
 Tags: 1.29.1-musl
@@ -389,60 +389,14 @@ Architectures: amd64,arm32v5,arm32v7,arm64v8,i386
 Directory: uclibc
 
 Tags: 1.28.4-glibc,1.28-glibc
-Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
-Directory: glibc
-
-Tags: 1.28.4-musl,1.28-musl
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
-Directory: musl
-
-Tags: 1.28.4,1.28
-arm32v6-Directory: musl
-arm32v7-Directory: uclibc
-arm64v8-Directory: uclibc
-i386-Directory: uclibc
-ppc64le-Directory: glibc
-s390x-Directory: glibc
-amd64-Directory: uclibc
-arm32v5-Directory: uclibc
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
-
-Tags: 1.28.3-uclibc
-Architectures: i386,amd64,arm32v5,arm32v7,arm64v8
-Directory: uclibc
-
-Tags: 1.28.3-glibc
 Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 Directory: glibc
 
-Tags: 1.28.3-musl
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Tags: 1.28.4-musl,1.28-musl
+Architectures: i386,ppc64le,s390x,amd64,arm32v6,arm64v8
 Directory: musl
 
-Tags: 1.28.3
-arm32v7-Directory: uclibc
-arm64v8-Directory: uclibc
-i386-Directory: uclibc
-ppc64le-Directory: glibc
-s390x-Directory: glibc
-amd64-Directory: uclibc
-arm32v5-Directory: uclibc
-arm32v6-Directory: musl
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v6
-
-Tags: 1.28.2-uclibc
-Architectures: i386,amd64,arm32v5,arm32v7,arm64v8
-Directory: uclibc
-
-Tags: 1.28.2-glibc
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
-Directory: glibc
-
-Tags: 1.28.2-musl
-Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
-Directory: musl
-
-Tags: 1.28.2
+Tags: 1.28.4,1.28
 arm32v5-Directory: uclibc
 arm32v6-Directory: musl
 arm32v7-Directory: uclibc
@@ -453,111 +407,65 @@ s390x-Directory: glibc
 amd64-Directory: uclibc
 Architectures: arm32v5,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 
-Tags: 1.28.1-uclibc
+Tags: 1.28.3-uclibc
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386
 Directory: uclibc
 
-Tags: 1.28.1-glibc
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
+Tags: 1.28.3-glibc
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
 Directory: glibc
 
-Tags: 1.28.1-musl
+Tags: 1.28.3-musl
 Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
 Directory: musl
 
-Tags: 1.28.1
-arm32v6-Directory: musl
-arm32v7-Directory: uclibc
+Tags: 1.28.3
 arm64v8-Directory: uclibc
 i386-Directory: uclibc
 ppc64le-Directory: glibc
 s390x-Directory: glibc
 amd64-Directory: uclibc
 arm32v5-Directory: uclibc
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
-
-Tags: 1.28.0-uclibc
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386
-Directory: uclibc
-
-Tags: 1.28.0-glibc
-Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
-Directory: glibc
-
-Tags: 1.28.0-musl
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
-Directory: musl
-
-Tags: 1.28.0
-ppc64le-Directory: glibc
-s390x-Directory: glibc
-amd64-Directory: uclibc
-arm32v5-Directory: uclibc
 arm32v6-Directory: musl
 arm32v7-Directory: uclibc
-arm64v8-Directory: uclibc
-i386-Directory: uclibc
-Architectures: ppc64le,s390x,amd64,arm32v5,arm32v6,arm32v7,arm64v8,i386
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v6,arm32v7
 
-Tags: 1.27.2-uclibc,1.27-uclibc
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386
-Directory: uclibc
-
-Tags: 1.27.2-glibc,1.27-glibc
-Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
-Directory: glibc
-
-Tags: 1.27.2-musl,1.27-musl
-Architectures: ppc64le,s390x,amd64,arm32v6,arm64v8,i386
-Directory: musl
-
-Tags: 1.27.2,1.27
-amd64-Directory: uclibc
-arm32v5-Directory: uclibc
-arm32v6-Directory: musl
-arm32v7-Directory: uclibc
-arm64v8-Directory: uclibc
-i386-Directory: uclibc
-ppc64le-Directory: glibc
-s390x-Directory: glibc
-Architectures: amd64,arm32v5,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x
-
-Tags: 1.27.1-uclibc
+Tags: 1.28.2-uclibc
 Architectures: arm32v5,arm32v7,arm64v8,i386,amd64
 Directory: uclibc
 
-Tags: 1.27.1-glibc
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Tags: 1.28.2-glibc
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
 Directory: glibc
 
-Tags: 1.27.1-musl
-Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
+Tags: 1.28.2-musl
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v6
 Directory: musl
 
-Tags: 1.27.1
-arm32v6-Directory: musl
-arm32v7-Directory: uclibc
-arm64v8-Directory: uclibc
+Tags: 1.28.2
 i386-Directory: uclibc
 ppc64le-Directory: glibc
 s390x-Directory: glibc
 amd64-Directory: uclibc
 arm32v5-Directory: uclibc
-Architectures: arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
+arm32v6-Directory: musl
+arm32v7-Directory: uclibc
+arm64v8-Directory: uclibc
+Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v6,arm32v7,arm64v8
 
-Tags: 1.27.0-uclibc
-Architectures: i386,amd64,arm32v5,arm32v7,arm64v8
+Tags: 1.28.1-uclibc
+Architectures: arm32v5,arm32v7,arm64v8,i386,amd64
 Directory: uclibc
 
-Tags: 1.27.0-glibc
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
+Tags: 1.28.1-glibc
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: glibc
 
-Tags: 1.27.0-musl
+Tags: 1.28.1-musl
 Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
 Directory: musl
 
-Tags: 1.27.0
+Tags: 1.28.1
 s390x-Directory: glibc
 amd64-Directory: uclibc
 arm32v5-Directory: uclibc
@@ -568,12 +476,104 @@ i386-Directory: uclibc
 ppc64le-Directory: glibc
 Architectures: s390x,amd64,arm32v5,arm32v6,arm32v7,arm64v8,i386,ppc64le
 
-Tags: 1.26.2-uclibc,1.26-uclibc
+Tags: 1.28.0-uclibc
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386
 Directory: uclibc
 
-Tags: 1.26.2-glibc,1.26-glibc
+Tags: 1.28.0-glibc
+Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
+Directory: glibc
+
+Tags: 1.28.0-musl
+Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
+Directory: musl
+
+Tags: 1.28.0
+arm32v7-Directory: uclibc
+arm64v8-Directory: uclibc
+i386-Directory: uclibc
+ppc64le-Directory: glibc
+s390x-Directory: glibc
+amd64-Directory: uclibc
+arm32v5-Directory: uclibc
+arm32v6-Directory: musl
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v6
+
+Tags: 1.27.2-uclibc,1.27-uclibc
+Architectures: arm32v7,arm64v8,i386,amd64,arm32v5
+Directory: uclibc
+
+Tags: 1.27.2-glibc,1.27-glibc
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Directory: glibc
+
+Tags: 1.27.2-musl,1.27-musl
+Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
+Directory: musl
+
+Tags: 1.27.2,1.27
+ppc64le-Directory: glibc
+s390x-Directory: glibc
+amd64-Directory: uclibc
+arm32v5-Directory: uclibc
+arm32v6-Directory: musl
+arm32v7-Directory: uclibc
+arm64v8-Directory: uclibc
+i386-Directory: uclibc
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v6,arm32v7,arm64v8,i386
+
+Tags: 1.27.1-uclibc
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386
+Directory: uclibc
+
+Tags: 1.27.1-glibc
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
+Directory: glibc
+
+Tags: 1.27.1-musl
+Architectures: arm32v6,arm64v8,i386,ppc64le,s390x,amd64
+Directory: musl
+
+Tags: 1.27.1
+arm32v7-Directory: uclibc
+arm64v8-Directory: uclibc
+i386-Directory: uclibc
+ppc64le-Directory: glibc
+s390x-Directory: glibc
+amd64-Directory: uclibc
+arm32v5-Directory: uclibc
+arm32v6-Directory: musl
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v6
+
+Tags: 1.27.0-uclibc
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386
+Directory: uclibc
+
+Tags: 1.27.0-glibc
+Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
+Directory: glibc
+
+Tags: 1.27.0-musl
+Architectures: amd64,arm32v6,arm64v8,i386,ppc64le,s390x
+Directory: musl
+
+Tags: 1.27.0
+i386-Directory: uclibc
+ppc64le-Directory: glibc
+s390x-Directory: glibc
+amd64-Directory: uclibc
+arm32v5-Directory: uclibc
+arm32v6-Directory: musl
+arm32v7-Directory: uclibc
+arm64v8-Directory: uclibc
+Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v6,arm32v7,arm64v8
+
+Tags: 1.26.2-uclibc,1.26-uclibc
+Architectures: arm32v5,arm32v7,arm64v8,i386,amd64
+Directory: uclibc
+
+Tags: 1.26.2-glibc,1.26-glibc
+Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 Directory: glibc
 
 Tags: 1.26.2-musl,1.26-musl
@@ -581,15 +581,15 @@ Architectures: s390x,amd64,arm32v6,arm64v8,i386,ppc64le
 Directory: musl
 
 Tags: 1.26.2,1.26
+s390x-Directory: glibc
+amd64-Directory: uclibc
 arm32v5-Directory: uclibc
 arm32v6-Directory: musl
 arm32v7-Directory: uclibc
 arm64v8-Directory: uclibc
 i386-Directory: uclibc
 ppc64le-Directory: glibc
-s390x-Directory: glibc
-amd64-Directory: uclibc
-Architectures: arm32v5,arm32v6,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: s390x,amd64,arm32v5,arm32v6,arm32v7,arm64v8,i386,ppc64le
 
 Tags: 1.26.1-glibc
 GitCommit: 257261b9e1acf1285f6cc3282b4ae5c5c30a2d82

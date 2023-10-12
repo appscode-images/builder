@@ -1,17 +1,17 @@
 GitRepo: https://github.com/docker-library/owncloud.git
 
 Tags: 10.0.10-apache,10.0-apache,10-apache,apache,10.0.10,10.0,10,latest
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm32v7,arm64v8,i386,ppc64le,amd64,arm32v5
 GitCommit: df96d12ed616ac6d1e58a3e879d42dbb4f4ea3cb
 Directory: 10.0/apache
 
 Tags: 10.0.10-fpm,10.0-fpm,10-fpm,fpm
-Architectures: arm64v8,i386,ppc64le,amd64,arm32v5,arm32v7
+Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,amd64
 GitCommit: df96d12ed616ac6d1e58a3e879d42dbb4f4ea3cb
 Directory: 10.0/fpm
 
 Tags: 9.1.8-apache,9.1-apache,9-apache,9.1.8,9.1,9
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: df96d12ed616ac6d1e58a3e879d42dbb4f4ea3cb
 Directory: 9.1/apache
 
@@ -21,52 +21,52 @@ GitCommit: df96d12ed616ac6d1e58a3e879d42dbb4f4ea3cb
 Directory: 9.1/fpm
 
 Tags: 10.0.9-apache,10.0.9
-Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 97f7e38b9b8cc2cc22ddaec513f8a9b08f8e4578
 Directory: 10.0/apache
 
 Tags: 10.0.9-fpm
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 97f7e38b9b8cc2cc22ddaec513f8a9b08f8e4578
 Directory: 10.0/fpm
 
 Tags: 10.0.8-apache,10.0.8
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
 GitCommit: a4e69c45fa3910d5e7f2f090cae185b58c6523dc
 Directory: 10.0/apache
 
 Tags: 10.0.8-fpm
-Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
 GitCommit: a4e69c45fa3910d5e7f2f090cae185b58c6523dc
 Directory: 10.0/fpm
 
 Tags: 10.0.7-apache,10.0.7
-Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
 GitCommit: fb02c1c3e9566897f46a5be0f5d130168d80bc38
 Directory: 10.0/apache
 
 Tags: 10.0.7-fpm
-Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: fb02c1c3e9566897f46a5be0f5d130168d80bc38
 Directory: 10.0/fpm
 
 Tags: 9.1.7-apache,9.1.7
-Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
 GitCommit: 9ce1e0f6736af365f284af85469d25b040666b73
 Directory: 9.1/apache
 
 Tags: 9.1.7-fpm
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
 GitCommit: 9ce1e0f6736af365f284af85469d25b040666b73
 Directory: 9.1/fpm
 
 Tags: 10.0.6-apache,10.0.6
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: df9ca81cd13cdbdf20602fb89fb01398f944858a
 Directory: 10.0/apache
 
 Tags: 10.0.6-fpm
-Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: df9ca81cd13cdbdf20602fb89fb01398f944858a
 Directory: 10.0/fpm
 
@@ -76,7 +76,7 @@ GitCommit: 146a37ed55bb70778feef7f4ce5a8b56b8a4b3ce
 Directory: 10.0/apache
 
 Tags: 10.0.4-fpm
-Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: 146a37ed55bb70778feef7f4ce5a8b56b8a4b3ce
 Directory: 10.0/fpm
 
@@ -86,32 +86,32 @@ GitCommit: c98a6030224193c1fae590a3f1c1c27f6a6ed6bc
 Directory: 9.0/apache
 
 Tags: 9.0.11-fpm,9.0-fpm
-Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: c98a6030224193c1fae590a3f1c1c27f6a6ed6bc
 Directory: 9.0/fpm
 
 Tags: 10.0.3-apache,10.0.3
-Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
 GitCommit: 5c0f5a270e565410cc47046b29b04e4a5ec9e828
 Directory: 10.0/apache
 
 Tags: 10.0.3-fpm
-Architectures: i386,ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8
+Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 GitCommit: 5c0f5a270e565410cc47046b29b04e4a5ec9e828
 Directory: 10.0/fpm
 
 Tags: 9.1.6-apache,9.1.6
-Architectures: arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: s390x,amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le
 GitCommit: aad7b27a8d2dab3e417a94071d1acf6a795a2aed
 Directory: 9.1/apache
 
 Tags: 9.1.6-fpm
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v5,arm32v7
 GitCommit: aad7b27a8d2dab3e417a94071d1acf6a795a2aed
 Directory: 9.1/fpm
 
 Tags: 9.0.10-apache,9.0.10
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64,arm32v5
+Architectures: ppc64le,s390x,amd64,arm32v5,arm32v7,arm64v8,i386
 GitCommit: aad7b27a8d2dab3e417a94071d1acf6a795a2aed
 Directory: 9.0/apache
 
@@ -121,12 +121,12 @@ GitCommit: aad7b27a8d2dab3e417a94071d1acf6a795a2aed
 Directory: 9.0/fpm
 
 Tags: 10.0.2-apache,10.0.2
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: aad7b27a8d2dab3e417a94071d1acf6a795a2aed
 Directory: 10.0/apache
 
 Tags: 10.0.2-fpm
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 GitCommit: aad7b27a8d2dab3e417a94071d1acf6a795a2aed
 Directory: 10.0/fpm
 

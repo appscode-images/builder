@@ -29,17 +29,17 @@ Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: oci
 
 Tags: 23.04,lunar-20230816,lunar,rolling
-ppc64le-GitCommit: bff39fd7fe12b9e7c970e00f9e3589d8973acb07
-ppc64le-GitFetch: refs/tags/dist-lunar-ppc64le-20230816-bff39fd7
-s390x-GitCommit: 3ee5cf844c1665b8d84377c19ecf29126ae43e1c
-s390x-GitFetch: refs/tags/dist-lunar-s390x-20230816-3ee5cf84
 amd64-GitCommit: f4657ddd1be6fe5fa44da9797c1efb650d2087c1
 amd64-GitFetch: refs/tags/dist-lunar-amd64-20230816-f4657ddd
 arm32v7-GitCommit: 5c6395b0bbce4040f4f1cd4c89b12cce50d3e6a4
 arm32v7-GitFetch: refs/tags/dist-lunar-arm32v7-20230816-5c6395b0
 arm64v8-GitCommit: 3060263c1676a53f79cc96a0c24c4b9f6261429d
 arm64v8-GitFetch: refs/tags/dist-lunar-arm64v8-20230816-3060263c
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
+ppc64le-GitCommit: bff39fd7fe12b9e7c970e00f9e3589d8973acb07
+ppc64le-GitFetch: refs/tags/dist-lunar-ppc64le-20230816-bff39fd7
+s390x-GitCommit: 3ee5cf844c1665b8d84377c19ecf29126ae43e1c
+s390x-GitFetch: refs/tags/dist-lunar-s390x-20230816-3ee5cf84
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: oci
 
 Tags: 23.10,mantic-20230926,mantic,devel
@@ -57,22 +57,20 @@ Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: oci
 
 Tags: jammy-20230816
-arm64v8-GitCommit: 25ad0e6e4bd371d8355ab7fea0c0678c943f1e56
-arm64v8-GitFetch: refs/tags/dist-jammy-arm64v8-20230816-25ad0e6e
-ppc64le-GitCommit: 807171fb8afb09d5ce0cc06ab79e7d8df67f6b2a
-ppc64le-GitFetch: refs/tags/dist-jammy-ppc64le-20230816-807171fb
 s390x-GitCommit: 2b2703712c6f68c254fd4710066cf3b3a2d788a2
 s390x-GitFetch: refs/tags/dist-jammy-s390x-20230816-2b270371
 amd64-GitCommit: 8ac0ec73cdc2b2b4492e6b7dc7e356ff5d2a3813
 amd64-GitFetch: refs/tags/dist-jammy-amd64-20230816-8ac0ec73
 arm32v7-GitCommit: 2280944201106125c00606a9b38ee35ff7f587e8
 arm32v7-GitFetch: refs/tags/dist-jammy-arm32v7-20230816-22809442
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
+arm64v8-GitCommit: 25ad0e6e4bd371d8355ab7fea0c0678c943f1e56
+arm64v8-GitFetch: refs/tags/dist-jammy-arm64v8-20230816-25ad0e6e
+ppc64le-GitCommit: 807171fb8afb09d5ce0cc06ab79e7d8df67f6b2a
+ppc64le-GitFetch: refs/tags/dist-jammy-ppc64le-20230816-807171fb
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
 Directory: oci
 
 Tags: mantic-20230912
-amd64-GitCommit: eccf1d8281f83191597f8c600b87544e01f01ff6
-amd64-GitFetch: refs/tags/dist-mantic-amd64-20230912-eccf1d82
 arm32v7-GitCommit: 62b55fd12405f61562d02e6851fa76fed90cdd5d
 arm32v7-GitFetch: refs/tags/dist-mantic-arm32v7-20230912-62b55fd1
 arm64v8-GitCommit: 9b7fea6718f99c5e385992cc2f2f34f89c1f05d7
@@ -81,7 +79,9 @@ ppc64le-GitCommit: 1b0ccf8184324b7130b8726bce52dede49fedfd7
 ppc64le-GitFetch: refs/tags/dist-mantic-ppc64le-20230912-1b0ccf81
 s390x-GitCommit: ae6701c56ba96885f45696ad788f1fb541360817
 s390x-GitFetch: refs/tags/dist-mantic-s390x-20230912-ae6701c5
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+amd64-GitCommit: eccf1d8281f83191597f8c600b87544e01f01ff6
+amd64-GitFetch: refs/tags/dist-mantic-amd64-20230912-eccf1d82
+Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
 Directory: oci
 
 Tags: mantic-20230819
@@ -99,34 +99,36 @@ Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: oci
 
 Tags: jammy-20230804
-amd64-GitCommit: 543e67e9164176d86a101676d00d90d7fa517492
-amd64-GitFetch: refs/tags/dist-jammy-amd64-20230804-543e67e9
-arm32v7-GitCommit: dc06067ca28e40998ceb631e3054025a705dba94
-arm32v7-GitFetch: refs/tags/dist-jammy-arm32v7-20230804-dc06067c
 arm64v8-GitCommit: 4e71660b7fd96c7a716d585393947db1dc4a5299
 arm64v8-GitFetch: refs/tags/dist-jammy-arm64v8-20230804-4e71660b
 ppc64le-GitCommit: be555aa76114c34c50b041270cc22ae22fb6733f
 ppc64le-GitFetch: refs/tags/dist-jammy-ppc64le-20230804-be555aa7
 s390x-GitCommit: 956fe39fd1cc2e04696704188b7a7977dddf936d
 s390x-GitFetch: refs/tags/dist-jammy-s390x-20230804-956fe39f
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+amd64-GitCommit: 543e67e9164176d86a101676d00d90d7fa517492
+amd64-GitFetch: refs/tags/dist-jammy-amd64-20230804-543e67e9
+arm32v7-GitCommit: dc06067ca28e40998ceb631e3054025a705dba94
+arm32v7-GitFetch: refs/tags/dist-jammy-arm32v7-20230804-dc06067c
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
 Directory: oci
 
 Tags: lunar-20230731
-ppc64le-GitCommit: 1277290f22739b4354fb4e044fe61626a25bd074
-ppc64le-GitFetch: refs/tags/dist-lunar-ppc64le-20230731-1277290f
-s390x-GitCommit: effe3ffedec8002391eb8ea82fa0bb891e4b78dc
-s390x-GitFetch: refs/tags/dist-lunar-s390x-20230731-effe3ffe
 amd64-GitCommit: 5313d155739982dfbee1f9c03d8ede76a2d4ffc9
 amd64-GitFetch: refs/tags/dist-lunar-amd64-20230731-5313d155
 arm32v7-GitCommit: 9f935a55497a9b508b448ff17135e33577414760
 arm32v7-GitFetch: refs/tags/dist-lunar-arm32v7-20230731-9f935a55
 arm64v8-GitCommit: 93e72c8fabc3aa55988c269a43de128f48f5e96f
 arm64v8-GitFetch: refs/tags/dist-lunar-arm64v8-20230731-93e72c8f
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
+ppc64le-GitCommit: 1277290f22739b4354fb4e044fe61626a25bd074
+ppc64le-GitFetch: refs/tags/dist-lunar-ppc64le-20230731-1277290f
+s390x-GitCommit: effe3ffedec8002391eb8ea82fa0bb891e4b78dc
+s390x-GitFetch: refs/tags/dist-lunar-s390x-20230731-effe3ffe
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: oci
 
 Tags: mantic-20230807.1
+amd64-GitCommit: 404325281d1eb4eac6908979c3801ec3545b4435
+amd64-GitFetch: refs/tags/dist-mantic-amd64-20230807.1-40432528
 arm32v7-GitCommit: 4b1fca3bfaf98ad756e6d40e107e11cf918b424f
 arm32v7-GitFetch: refs/tags/dist-mantic-arm32v7-20230807.1-4b1fca3b
 arm64v8-GitCommit: 19777f68fb38bed1ded2bf6d86f16c0ad08080fd
@@ -135,23 +137,21 @@ ppc64le-GitCommit: c292352a7c501ed86d5e3990433a6ebb82472dbf
 ppc64le-GitFetch: refs/tags/dist-mantic-ppc64le-20230807.1-c292352a
 s390x-GitCommit: b83251d6f9827d2787de10a0d0b89584ef02ef88
 s390x-GitFetch: refs/tags/dist-mantic-s390x-20230807.1-b83251d6
-amd64-GitCommit: 404325281d1eb4eac6908979c3801ec3545b4435
-amd64-GitFetch: refs/tags/dist-mantic-amd64-20230807.1-40432528
-Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: oci
 
 Tags: jammy-20230624
-ppc64le-GitCommit: ad25e4c10e7d648460f8f868fe3c64773e8d6c53
-ppc64le-GitFetch: refs/tags/dist-jammy-ppc64le-20230624-ad25e4c1
-s390x-GitCommit: d6ab32012a82b26b0e99c6bff9add7d441e2bcbb
-s390x-GitFetch: refs/tags/dist-jammy-s390x-20230624-d6ab3201
 amd64-GitCommit: 2cc72fa2e3553cc25ee5e0157929e35f2510dbd8
 amd64-GitFetch: refs/tags/dist-jammy-amd64-20230624-2cc72fa2
 arm32v7-GitCommit: ca6f54f3a43c711cf1ec51de4c7b27bc0891fa54
 arm32v7-GitFetch: refs/tags/dist-jammy-arm32v7-20230624-ca6f54f3
 arm64v8-GitCommit: 6248a4985c4529ac04b758296ce3070d4fa5c1da
 arm64v8-GitFetch: refs/tags/dist-jammy-arm64v8-20230624-6248a498
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
+ppc64le-GitCommit: ad25e4c10e7d648460f8f868fe3c64773e8d6c53
+ppc64le-GitFetch: refs/tags/dist-jammy-ppc64le-20230624-ad25e4c1
+s390x-GitCommit: d6ab32012a82b26b0e99c6bff9add7d441e2bcbb
+s390x-GitFetch: refs/tags/dist-jammy-s390x-20230624-d6ab3201
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: oci
 
 Tags: mantic-20230801
@@ -183,8 +183,6 @@ Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: oci
 
 Tags: 22.10,kinetic-20230624,kinetic
-amd64-GitCommit: 0332f3c29e2657ed4711edc6fccaac061074f21c
-amd64-GitFetch: refs/tags/dist-kinetic-amd64-20230624-0332f3c2
 arm32v7-GitCommit: aaca6d381be1927b6abec779583c1bc5d220c4cd
 arm32v7-GitFetch: refs/tags/dist-kinetic-arm32v7-20230624-aaca6d38
 arm64v8-GitCommit: 40fd2c095ec25f1511343b9a947028ea2500dce4
@@ -193,12 +191,12 @@ ppc64le-GitCommit: a6e5cbcdb0ab3ee9089839d711ae3ea1eea0b701
 ppc64le-GitFetch: refs/tags/dist-kinetic-ppc64le-20230624-a6e5cbcd
 s390x-GitCommit: b67ad940f99979d451c2892c36f342100a58290c
 s390x-GitFetch: refs/tags/dist-kinetic-s390x-20230624-b67ad940
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+amd64-GitCommit: 0332f3c29e2657ed4711edc6fccaac061074f21c
+amd64-GitFetch: refs/tags/dist-kinetic-amd64-20230624-0332f3c2
+Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
 Directory: oci
 
 Tags: lunar-20230615
-s390x-GitCommit: 2c8a79a54ef3f9bbb574ef5c27bbee6af437048f
-s390x-GitFetch: refs/tags/dist-lunar-s390x-20230615-2c8a79a5
 amd64-GitCommit: 3537c5732f5b3fc814f5762acf34b890a8d79a13
 amd64-GitFetch: refs/tags/dist-lunar-amd64-20230615-3537c573
 arm32v7-GitCommit: 28e41d01edb3981f3c0af8acc89e63dc420f5c9a
@@ -207,10 +205,14 @@ arm64v8-GitCommit: 10fab6f0dd94d3e9ed19d9510740c7e460a4d29c
 arm64v8-GitFetch: refs/tags/dist-lunar-arm64v8-20230615-10fab6f0
 ppc64le-GitCommit: 3544577739a9f13c779ed074797726f1a752d457
 ppc64le-GitFetch: refs/tags/dist-lunar-ppc64le-20230615-35445777
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
+s390x-GitCommit: 2c8a79a54ef3f9bbb574ef5c27bbee6af437048f
+s390x-GitFetch: refs/tags/dist-lunar-s390x-20230615-2c8a79a5
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: oci
 
 Tags: mantic-20230712
+s390x-GitCommit: 619e438ad06d809dfb1df4662ad33d865a40bcaa
+s390x-GitFetch: refs/tags/dist-mantic-s390x-20230712-619e438a
 amd64-GitCommit: 72dd5f1ab372097d0dd0e1720e12854f1588e04e
 amd64-GitFetch: refs/tags/dist-mantic-amd64-20230712-72dd5f1a
 arm32v7-GitCommit: e166a547876354f407f51d6ff4e402f47d8230e1
@@ -219,9 +221,7 @@ arm64v8-GitCommit: 15e50b01ad399d3e25b285a48fdb6d02e7b7b085
 arm64v8-GitFetch: refs/tags/dist-mantic-arm64v8-20230712-15e50b01
 ppc64le-GitCommit: 3e0cb36999375489eb1e75db21b3a115c0a1332f
 ppc64le-GitFetch: refs/tags/dist-mantic-ppc64le-20230712-3e0cb369
-s390x-GitCommit: 619e438ad06d809dfb1df4662ad33d865a40bcaa
-s390x-GitFetch: refs/tags/dist-mantic-s390x-20230712-619e438a
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
 Directory: oci
 
 Tags: mantic-20230624
@@ -239,20 +239,22 @@ Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: oci
 
 Tags: focal-20230605
+ppc64le-GitCommit: 8783fc5a693a2da3d5dc99f06f53df75fadca787
+ppc64le-GitFetch: refs/tags/dist-focal-ppc64le-20230605-8783fc5a
+s390x-GitCommit: 0ce0b419b1fcc5963ae9393a2bbeaa4749316144
+s390x-GitFetch: refs/tags/dist-focal-s390x-20230605-0ce0b419
 amd64-GitCommit: 19354505a650f2bfd5e2441c56ca09cc488abeb4
 amd64-GitFetch: refs/tags/dist-focal-amd64-20230605-19354505
 arm32v7-GitCommit: 51e8d3eaca4b0b01ae0461c3092abb180ab868b1
 arm32v7-GitFetch: refs/tags/dist-focal-arm32v7-20230605-51e8d3ea
 arm64v8-GitCommit: c25f0480a72f94d4d0aa59f61653e8165055fa21
 arm64v8-GitFetch: refs/tags/dist-focal-arm64v8-20230605-c25f0480
-ppc64le-GitCommit: 8783fc5a693a2da3d5dc99f06f53df75fadca787
-ppc64le-GitFetch: refs/tags/dist-focal-ppc64le-20230605-8783fc5a
-s390x-GitCommit: 0ce0b419b1fcc5963ae9393a2bbeaa4749316144
-s390x-GitFetch: refs/tags/dist-focal-s390x-20230605-0ce0b419
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: oci
 
 Tags: jammy-20230605
+s390x-GitCommit: fb18079af93582fb78f278bd35063c45bec41c8c
+s390x-GitFetch: refs/tags/dist-jammy-s390x-20230605-fb18079a
 amd64-GitCommit: ab2192b8d9a2a01920e4db4cb79f649dd77a2dad
 amd64-GitFetch: refs/tags/dist-jammy-amd64-20230605-ab2192b8
 arm32v7-GitCommit: bad3bc477c3639d7ea2127adcbf5fc3d01d54e4a
@@ -261,14 +263,10 @@ arm64v8-GitCommit: e18211f13eacf336e4af4ca5e999ea71270014c0
 arm64v8-GitFetch: refs/tags/dist-jammy-arm64v8-20230605-e18211f1
 ppc64le-GitCommit: ad975a76718a6b13354cb10b09ed6e00b408fe85
 ppc64le-GitFetch: refs/tags/dist-jammy-ppc64le-20230605-ad975a76
-s390x-GitCommit: fb18079af93582fb78f278bd35063c45bec41c8c
-s390x-GitFetch: refs/tags/dist-jammy-s390x-20230605-fb18079a
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
 Directory: oci
 
 Tags: kinetic-20230605
-s390x-GitCommit: 78bc87891668558e721277cf28f579c491cd5845
-s390x-GitFetch: refs/tags/dist-kinetic-s390x-20230605-78bc8789
 amd64-GitCommit: 42263b1857cc4495659cc2d79647f46aff013247
 amd64-GitFetch: refs/tags/dist-kinetic-amd64-20230605-42263b18
 arm32v7-GitCommit: 1098e32193a707f625db730185e60822d3e210a4
@@ -277,7 +275,9 @@ arm64v8-GitCommit: f4da98640c618f685039206cfb4702667596f43d
 arm64v8-GitFetch: refs/tags/dist-kinetic-arm64v8-20230605-f4da9864
 ppc64le-GitCommit: 074661445e27da86d63a89cfc84f9f29ceb72a37
 ppc64le-GitFetch: refs/tags/dist-kinetic-ppc64le-20230605-07466144
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
+s390x-GitCommit: 78bc87891668558e721277cf28f579c491cd5845
+s390x-GitFetch: refs/tags/dist-kinetic-s390x-20230605-78bc8789
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: oci
 
 Tags: mantic-20230607
@@ -295,10 +295,6 @@ Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
 Directory: oci
 
 Tags: 18.04,bionic-20230530,bionic
-arm32v7-GitCommit: 2cde20ac85577806a2a1fbef11d64e6dc0dded78
-arm32v7-GitFetch: refs/tags/dist-bionic-arm32v7-20230530-2cde20ac
-arm64v8-GitCommit: eb1ef855b283aa477bacdf38a8c54af43d929df9
-arm64v8-GitFetch: refs/tags/dist-bionic-arm64v8-20230530-eb1ef855
 i386-GitCommit: 7f5d6f1ae6cfa894280f44ca75b64ab02677e23f
 i386-GitFetch: refs/tags/dist-bionic-i386-20230530-7f5d6f1a
 ppc64le-GitCommit: b9ac7a56b5e0c3b876393fe1a3dfcf3578a9c12c
@@ -307,12 +303,14 @@ s390x-GitCommit: 270fb3550a280a5deb517ce3694231d03f9e464d
 s390x-GitFetch: refs/tags/dist-bionic-s390x-20230530-270fb355
 amd64-GitCommit: 638510bec0540d097260e44d99cab6827f32e23c
 amd64-GitFetch: refs/tags/dist-bionic-amd64-20230530-638510be
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+arm32v7-GitCommit: 2cde20ac85577806a2a1fbef11d64e6dc0dded78
+arm32v7-GitFetch: refs/tags/dist-bionic-arm32v7-20230530-2cde20ac
+arm64v8-GitCommit: eb1ef855b283aa477bacdf38a8c54af43d929df9
+arm64v8-GitFetch: refs/tags/dist-bionic-arm64v8-20230530-eb1ef855
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: oci
 
 Tags: focal-20230412
-arm64v8-GitCommit: d5b27969c8ba0b65f26cb94c4bab2a79d0876bd9
-arm64v8-GitFetch: refs/tags/dist-focal-arm64v8-20230412-d5b27969
 ppc64le-GitCommit: 611cf089bc430a561c0fec2d55b32a0c01eff0aa
 ppc64le-GitFetch: refs/tags/dist-focal-ppc64le-20230412-611cf089
 s390x-GitCommit: a996e4838caec28b6bd920ad1d60a5d25c00f431
@@ -321,7 +319,9 @@ amd64-GitCommit: 26258b9129f269190048fdf2b46d82de5ae5f79c
 amd64-GitFetch: refs/tags/dist-focal-amd64-20230412-26258b91
 arm32v7-GitCommit: f57d77a5b9c992abefd629e1a89c5c91146d7811
 arm32v7-GitFetch: refs/tags/dist-focal-arm32v7-20230412-f57d77a5
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
+arm64v8-GitCommit: d5b27969c8ba0b65f26cb94c4bab2a79d0876bd9
+arm64v8-GitFetch: refs/tags/dist-focal-arm64v8-20230412-d5b27969
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: oci
 
 Tags: jammy-20230522
@@ -339,34 +339,36 @@ Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: oci
 
 Tags: kinetic-20230412
-ppc64le-GitCommit: 017ffd4416f0e0394d5ab0dc9fe59e1d388f4f32
-ppc64le-GitFetch: refs/tags/dist-kinetic-ppc64le-20230412-017ffd44
-s390x-GitCommit: 5c3d131a115530d8790737d3e757f481e2636d7a
-s390x-GitFetch: refs/tags/dist-kinetic-s390x-20230412-5c3d131a
 amd64-GitCommit: acd9976cf1d024747ad42960daa92bc3065e3a38
 amd64-GitFetch: refs/tags/dist-kinetic-amd64-20230412-acd9976c
 arm32v7-GitCommit: 63fe2f11921c4bac2e8f17545af3a9b688a79757
 arm32v7-GitFetch: refs/tags/dist-kinetic-arm32v7-20230412-63fe2f11
 arm64v8-GitCommit: 7cb0b7d6cf40a14ee9c77941efb66b55355a5de2
 arm64v8-GitFetch: refs/tags/dist-kinetic-arm64v8-20230412-7cb0b7d6
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
+ppc64le-GitCommit: 017ffd4416f0e0394d5ab0dc9fe59e1d388f4f32
+ppc64le-GitFetch: refs/tags/dist-kinetic-ppc64le-20230412-017ffd44
+s390x-GitCommit: 5c3d131a115530d8790737d3e757f481e2636d7a
+s390x-GitFetch: refs/tags/dist-kinetic-s390x-20230412-5c3d131a
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: oci
 
 Tags: lunar-20230522
-s390x-GitCommit: b67399e0bc3d33d5c478820f2630a2df33eed53f
-s390x-GitFetch: refs/tags/dist-lunar-s390x-20230522-b67399e0
-amd64-GitCommit: fd45d9ed74e848cf70aa35fedea865f9d839bf57
-amd64-GitFetch: refs/tags/dist-lunar-amd64-20230522-fd45d9ed
 arm32v7-GitCommit: a03f9242bf9086c0ad4f6714265a4614af240a8c
 arm32v7-GitFetch: refs/tags/dist-lunar-arm32v7-20230522-a03f9242
 arm64v8-GitCommit: 6ec7fb8941aa963cd613a59a3814c47932453dbf
 arm64v8-GitFetch: refs/tags/dist-lunar-arm64v8-20230522-6ec7fb89
 ppc64le-GitCommit: f730880d61f7cd0304f5dba10ed342170f34df16
 ppc64le-GitFetch: refs/tags/dist-lunar-ppc64le-20230522-f730880d
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
+s390x-GitCommit: b67399e0bc3d33d5c478820f2630a2df33eed53f
+s390x-GitFetch: refs/tags/dist-lunar-s390x-20230522-b67399e0
+amd64-GitCommit: fd45d9ed74e848cf70aa35fedea865f9d839bf57
+amd64-GitFetch: refs/tags/dist-lunar-amd64-20230522-fd45d9ed
+Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
 Directory: oci
 
 Tags: mantic-20230520
+amd64-GitCommit: e49d32a824c5b21b177d221475d0f6f1bbeae5b2
+amd64-GitFetch: refs/tags/dist-mantic-amd64-20230520-e49d32a8
 arm32v7-GitCommit: c8dfb6d015f7df0524f9e8f750937041a547d724
 arm32v7-GitFetch: refs/tags/dist-mantic-arm32v7-20230520-c8dfb6d0
 arm64v8-GitCommit: f0a49cb33bc47bc9a05736dfaa8ee2ebe991e250
@@ -375,12 +377,14 @@ ppc64le-GitCommit: c75118c9374130f30bbbb7dc4ea266d21626c441
 ppc64le-GitFetch: refs/tags/dist-mantic-ppc64le-20230520-c75118c9
 s390x-GitCommit: 588477a4b2826a1316038b1c85bc18bb198d184a
 s390x-GitFetch: refs/tags/dist-mantic-s390x-20230520-588477a4
-amd64-GitCommit: e49d32a824c5b21b177d221475d0f6f1bbeae5b2
-amd64-GitFetch: refs/tags/dist-mantic-amd64-20230520-e49d32a8
-Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: oci
 
 Tags: bionic-20230412
+arm64v8-GitCommit: 8927f04f362457a2d2ceb2dca1fef543de78b6c7
+arm64v8-GitFetch: refs/tags/dist-bionic-arm64v8-20230412-8927f04f
+i386-GitCommit: 4cd9d2cf18b132f8fd17289dc2d2d80db9a0399f
+i386-GitFetch: refs/tags/dist-bionic-i386-20230412-4cd9d2cf
 ppc64le-GitCommit: 101309186a4a3066f37a0eafe95e94408671837f
 ppc64le-GitFetch: refs/tags/dist-bionic-ppc64le-20230412-10130918
 s390x-GitCommit: 3ec8bb2c16bfe8b2986524a601196d2f8902e08b
@@ -389,14 +393,12 @@ amd64-GitCommit: 46786f36bc92dd9662f9a1e7530b4859f6cd4625
 amd64-GitFetch: refs/tags/dist-bionic-amd64-20230412-46786f36
 arm32v7-GitCommit: 3c33434d780b56d39b5c314207b94c43857be707
 arm32v7-GitFetch: refs/tags/dist-bionic-arm32v7-20230412-3c33434d
-arm64v8-GitCommit: 8927f04f362457a2d2ceb2dca1fef543de78b6c7
-arm64v8-GitFetch: refs/tags/dist-bionic-arm64v8-20230412-8927f04f
-i386-GitCommit: 4cd9d2cf18b132f8fd17289dc2d2d80db9a0399f
-i386-GitFetch: refs/tags/dist-bionic-i386-20230412-4cd9d2cf
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 Directory: oci
 
 Tags: jammy-20230425
+s390x-GitCommit: 00cbcd8abe1170e5380758e787bec3e90f9d5f29
+s390x-GitFetch: refs/tags/dist-jammy-s390x-20230425-00cbcd8a
 amd64-GitCommit: 997c5b6fc12a87708c63485cb5599d85973ca211
 amd64-GitFetch: refs/tags/dist-jammy-amd64-20230425-997c5b6f
 arm32v7-GitCommit: 589fe6a8a0a6715d2bf8df268a9590cf505721f9
@@ -405,14 +407,10 @@ arm64v8-GitCommit: 43b666d4462fe0473e352768ec432dddad98e279
 arm64v8-GitFetch: refs/tags/dist-jammy-arm64v8-20230425-43b666d4
 ppc64le-GitCommit: 90ace3ea93a8c3010add478057bed5cb54108ad9
 ppc64le-GitFetch: refs/tags/dist-jammy-ppc64le-20230425-90ace3ea
-s390x-GitCommit: 00cbcd8abe1170e5380758e787bec3e90f9d5f29
-s390x-GitFetch: refs/tags/dist-jammy-s390x-20230425-00cbcd8a
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
 Directory: oci
 
 Tags: lunar-20230420
-amd64-GitCommit: a3feaf47f3c57e4aec70c8d07ecd8dde43e0be21
-amd64-GitFetch: refs/tags/dist-lunar-amd64-20230420-a3feaf47
 arm32v7-GitCommit: c1040c7148963c424277a70f71fbe0650de50cec
 arm32v7-GitFetch: refs/tags/dist-lunar-arm32v7-20230420-c1040c71
 arm64v8-GitCommit: 6bb2dae15af5441a08c8c33d73bf1a0fa9049a45
@@ -421,7 +419,9 @@ ppc64le-GitCommit: 5c0e416c4ad23b433bbb3a3581ef7ad7c8c84fe4
 ppc64le-GitFetch: refs/tags/dist-lunar-ppc64le-20230420-5c0e416c
 s390x-GitCommit: 139ea5e6224677729e61f92722468e16dee16900
 s390x-GitFetch: refs/tags/dist-lunar-s390x-20230420-139ea5e6
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+amd64-GitCommit: a3feaf47f3c57e4aec70c8d07ecd8dde43e0be21
+amd64-GitFetch: refs/tags/dist-lunar-amd64-20230420-a3feaf47
+Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
 Directory: oci
 
 Tags: mantic-20230511.1
@@ -455,31 +455,31 @@ Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 Directory: oci
 
 Tags: jammy-20230308
-amd64-GitCommit: e17e4450874a7b28375b18f037bb7eb86e3e2590
-amd64-GitFetch: refs/tags/dist-jammy-amd64-20230308-e17e4450
-arm32v7-GitCommit: ff43a53f129d8bc47985aac285c08b3eee546664
-arm32v7-GitFetch: refs/tags/dist-jammy-arm32v7-20230308-ff43a53f
 arm64v8-GitCommit: ac6a0668e66963b28c77b98973d9a5a9fe611006
 arm64v8-GitFetch: refs/tags/dist-jammy-arm64v8-20230308-ac6a0668
 ppc64le-GitCommit: bc6a0e7f8d3ba0e370f1aca8e8b894184504a6d6
 ppc64le-GitFetch: refs/tags/dist-jammy-ppc64le-20230308-bc6a0e7f
 s390x-GitCommit: c8426e1e43214002e2ffa7d7cbdedb743cdc329f
 s390x-GitFetch: refs/tags/dist-jammy-s390x-20230308-c8426e1e
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+amd64-GitCommit: e17e4450874a7b28375b18f037bb7eb86e3e2590
+amd64-GitFetch: refs/tags/dist-jammy-amd64-20230308-e17e4450
+arm32v7-GitCommit: ff43a53f129d8bc47985aac285c08b3eee546664
+arm32v7-GitFetch: refs/tags/dist-jammy-arm32v7-20230308-ff43a53f
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
 Directory: oci
 
 Tags: lunar-20230415
-ppc64le-GitCommit: 90dae8e3acc5134b2eb287fc63907ecb2fd3d03f
-ppc64le-GitFetch: refs/tags/dist-lunar-ppc64le-20230415-90dae8e3
-s390x-GitCommit: 58c13da2d2318cd1343d286796b439416c472f40
-s390x-GitFetch: refs/tags/dist-lunar-s390x-20230415-58c13da2
 amd64-GitCommit: 128b175fd48d26f5e106f8b200d20617dd42c4f1
 amd64-GitFetch: refs/tags/dist-lunar-amd64-20230415-128b175f
 arm32v7-GitCommit: b9563bddaa0196cf53f7f52cea5e551f3c98c4a7
 arm32v7-GitFetch: refs/tags/dist-lunar-arm32v7-20230415-b9563bdd
 arm64v8-GitCommit: fad98250a0e698b7df3100423383b8f74dbbaf92
 arm64v8-GitFetch: refs/tags/dist-lunar-arm64v8-20230415-fad98250
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
+ppc64le-GitCommit: 90dae8e3acc5134b2eb287fc63907ecb2fd3d03f
+ppc64le-GitFetch: refs/tags/dist-lunar-ppc64le-20230415-90dae8e3
+s390x-GitCommit: 58c13da2d2318cd1343d286796b439416c472f40
+s390x-GitFetch: refs/tags/dist-lunar-s390x-20230415-58c13da2
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: oci
 
 Tags: focal-20230308
@@ -497,6 +497,8 @@ Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
 Directory: oci
 
 Tags: kinetic-20230308
+s390x-GitCommit: a5f8934a80d8c8e0163eba0d0c729a9581a1ab1c
+s390x-GitFetch: refs/tags/dist-kinetic-s390x-20230308
 amd64-GitCommit: 7929116b8b35f4ffc6d768d201bd42fb352ae7cc
 amd64-GitFetch: refs/tags/dist-kinetic-amd64-20230308
 arm32v7-GitCommit: c4c2785e682d99953ce5abf2c05a8754439edc33
@@ -505,9 +507,7 @@ arm64v8-GitCommit: 4acbdd8b9490b9700755343af748a9558afdc0a7
 arm64v8-GitFetch: refs/tags/dist-kinetic-arm64v8-20230308
 ppc64le-GitCommit: c6734cb25df7137e943a732858b05dde0442d8d1
 ppc64le-GitFetch: refs/tags/dist-kinetic-ppc64le-20230308
-s390x-GitCommit: a5f8934a80d8c8e0163eba0d0c729a9581a1ab1c
-s390x-GitFetch: refs/tags/dist-kinetic-s390x-20230308
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
 Directory: oci
 
 Tags: lunar-20230314
@@ -541,36 +541,34 @@ Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: oci
 
 Tags: focal-20230301
-ppc64le-GitCommit: f8dad2ffe871fbe8dea774e05a98eb808bf0f850
-ppc64le-GitFetch: refs/tags/dist-focal-ppc64le-20230301
-s390x-GitCommit: e43808d87666b8d29636cc33014880dcbecfc832
-s390x-GitFetch: refs/tags/dist-focal-s390x-20230301
 amd64-GitCommit: 1626760ac190ee2111918eb804a54ad6653ecde9
 amd64-GitFetch: refs/tags/dist-focal-amd64-20230301
 arm32v7-GitCommit: a890989c104d56fb0bb782577cc72e2651d5e842
 arm32v7-GitFetch: refs/tags/dist-focal-arm32v7-20230301
 arm64v8-GitCommit: b2ffb2127a31ade50e39866fabdb1e7d26c8b281
 arm64v8-GitFetch: refs/tags/dist-focal-arm64v8-20230301
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
+ppc64le-GitCommit: f8dad2ffe871fbe8dea774e05a98eb808bf0f850
+ppc64le-GitFetch: refs/tags/dist-focal-ppc64le-20230301
+s390x-GitCommit: e43808d87666b8d29636cc33014880dcbecfc832
+s390x-GitFetch: refs/tags/dist-focal-s390x-20230301
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: oci
 
 Tags: jammy-20230301
-amd64-GitCommit: f40017a25ea7050a7174f3417aa65f85213084cd
-amd64-GitFetch: refs/tags/dist-jammy-amd64-20230301
-arm32v7-GitCommit: 11f1416dfe71f1b7f063dd06fb0334342326a449
-arm32v7-GitFetch: refs/tags/dist-jammy-arm32v7-20230301
 arm64v8-GitCommit: 304d33dfc82480844b5bfd8b02d334a65ca5c5d8
 arm64v8-GitFetch: refs/tags/dist-jammy-arm64v8-20230301
 ppc64le-GitCommit: 69401bd882f12e33a370b3df045800fce8bdf883
 ppc64le-GitFetch: refs/tags/dist-jammy-ppc64le-20230301
 s390x-GitCommit: 67ee902ab76990d75f6cf5edfb27ec5650a4cd2e
 s390x-GitFetch: refs/tags/dist-jammy-s390x-20230301
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+amd64-GitCommit: f40017a25ea7050a7174f3417aa65f85213084cd
+amd64-GitFetch: refs/tags/dist-jammy-amd64-20230301
+arm32v7-GitCommit: 11f1416dfe71f1b7f063dd06fb0334342326a449
+arm32v7-GitFetch: refs/tags/dist-jammy-arm32v7-20230301
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
 Directory: oci
 
 Tags: kinetic-20230217
-amd64-GitCommit: ab853e59a1c7ffa77b2b9e3f827ccfb15793864c
-amd64-GitFetch: refs/tags/dist-kinetic-amd64-20230217
 arm32v7-GitCommit: f07f0fd14e3754662848d886e2e928a5ddecb385
 arm32v7-GitFetch: refs/tags/dist-kinetic-arm32v7-20230217
 arm64v8-GitCommit: 847eec6bd11726a0c6c39bd45c4d6c6b056f7aa3
@@ -579,21 +577,23 @@ ppc64le-GitCommit: 8dc838c5328246fae581f68ada3c7a1b5070857d
 ppc64le-GitFetch: refs/tags/dist-kinetic-ppc64le-20230217
 s390x-GitCommit: eb6f86e47e345f612f60e34d4d2b22c8ec61272a
 s390x-GitFetch: refs/tags/dist-kinetic-s390x-20230217
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+amd64-GitCommit: ab853e59a1c7ffa77b2b9e3f827ccfb15793864c
+amd64-GitFetch: refs/tags/dist-kinetic-amd64-20230217
+Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
 Directory: oci
 
 Tags: lunar-20230301
+amd64-GitCommit: 91cb981dafa4d83ca35a69305a4884b6736ccf68
+amd64-GitFetch: refs/tags/dist-lunar-amd64-20230301
+arm32v7-GitCommit: 11b87850f9587375c8c3059898153f9a2371b89f
+arm32v7-GitFetch: refs/tags/dist-lunar-arm32v7-20230301
 arm64v8-GitCommit: 4ea48f2bf59a1e76dd9b136e1a2d31fcbf35955c
 arm64v8-GitFetch: refs/tags/dist-lunar-arm64v8-20230301
 ppc64le-GitCommit: ee123b798a72786649ebb6bd832028b321922ebf
 ppc64le-GitFetch: refs/tags/dist-lunar-ppc64le-20230301
 s390x-GitCommit: dff58b03a736c6c46261f0e45cfa84200544ce96
 s390x-GitFetch: refs/tags/dist-lunar-s390x-20230301
-amd64-GitCommit: 91cb981dafa4d83ca35a69305a4884b6736ccf68
-amd64-GitFetch: refs/tags/dist-lunar-amd64-20230301
-arm32v7-GitCommit: 11b87850f9587375c8c3059898153f9a2371b89f
-arm32v7-GitFetch: refs/tags/dist-lunar-arm32v7-20230301
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: oci
 
 Tags: bionic-20230126
@@ -613,6 +613,8 @@ Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: oci
 
 Tags: focal-20230126
+ppc64le-GitCommit: c66966f4d38462490c628469c13335c36e145752
+ppc64le-GitFetch: refs/tags/dist-focal-ppc64le-20230126
 s390x-GitCommit: a2dd959e3cc8b95880f605b83f9a6126556854c5
 s390x-GitFetch: refs/tags/dist-focal-s390x-20230126
 amd64-GitCommit: e21c3f62fbbe0afd5ac89aa149e36f08a7debeb8
@@ -621,14 +623,10 @@ arm32v7-GitCommit: 453ac77225dba061a2122de3785ba35bfacdbdde
 arm32v7-GitFetch: refs/tags/dist-focal-arm32v7-20230126
 arm64v8-GitCommit: bbef56cf89d2e45c5fde94b2c4e66704a83c6d2a
 arm64v8-GitFetch: refs/tags/dist-focal-arm64v8-20230126
-ppc64le-GitCommit: c66966f4d38462490c628469c13335c36e145752
-ppc64le-GitFetch: refs/tags/dist-focal-ppc64le-20230126
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: oci
 
 Tags: jammy-20230126
-amd64-GitCommit: d4e91f86e34e0de683c46f08178d93fcf83a515d
-amd64-GitFetch: refs/tags/dist-jammy-amd64-20230126
 arm32v7-GitCommit: 8704d607298a82d727c4ecb7bf4983ca5c41999e
 arm32v7-GitFetch: refs/tags/dist-jammy-arm32v7-20230126
 arm64v8-GitCommit: faebb02867d910fc3337a1cb7d3b2d0527920569
@@ -637,7 +635,9 @@ ppc64le-GitCommit: b90ed3bfda7d85aa2a5ae86c3b18726747f4f71f
 ppc64le-GitFetch: refs/tags/dist-jammy-ppc64le-20230126
 s390x-GitCommit: 192cec31ced5114b13459c525d7ed3fb565e21f2
 s390x-GitFetch: refs/tags/dist-jammy-s390x-20230126
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+amd64-GitCommit: d4e91f86e34e0de683c46f08178d93fcf83a515d
+amd64-GitFetch: refs/tags/dist-jammy-amd64-20230126
+Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
 Directory: oci
 
 Tags: kinetic-20230126
@@ -655,8 +655,6 @@ Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: oci
 
 Tags: lunar-20230128
-amd64-GitCommit: edd50e68967994c3b3f2fd08b5013190f1776a3f
-amd64-GitFetch: refs/tags/dist-lunar-amd64-20230128
 arm32v7-GitCommit: e2920847278ba698618bac555f2dfd6ac8210cf0
 arm32v7-GitFetch: refs/tags/dist-lunar-arm32v7-20230128
 arm64v8-GitCommit: af3e02164d684afd1bf4330641c7f7e24a76862d
@@ -665,24 +663,28 @@ ppc64le-GitCommit: 0bfb7178e3c2abe05f39ff9f0440b5401b546aaf
 ppc64le-GitFetch: refs/tags/dist-lunar-ppc64le-20230128
 s390x-GitCommit: e9089436f79b702736c5bfe2daf5394715d7b13a
 s390x-GitFetch: refs/tags/dist-lunar-s390x-20230128
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+amd64-GitCommit: edd50e68967994c3b3f2fd08b5013190f1776a3f
+amd64-GitFetch: refs/tags/dist-lunar-amd64-20230128
+Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
 Directory: oci
 
 Tags: lunar-20230124.1
-amd64-GitCommit: 407671a226ede7401c411693e77fb4b8bf0adf75
-amd64-GitFetch: refs/tags/dist-lunar-amd64-20230124.1
-arm32v7-GitCommit: c171ab00df277c914ee204eb6f3e606531c96cc7
-arm32v7-GitFetch: refs/tags/dist-lunar-arm32v7-20230124.1
 arm64v8-GitCommit: d6b38a4498f731b47b397d2577c260e5e008aaab
 arm64v8-GitFetch: refs/tags/dist-lunar-arm64v8-20230124.1
 ppc64le-GitCommit: f769ef4a8e68765641a9a48fa8b36c53fac7ced5
 ppc64le-GitFetch: refs/tags/dist-lunar-ppc64le-20230124.1
 s390x-GitCommit: 5c2bbbc8cb1b4259eee70b4b288e2042aaa3ff91
 s390x-GitFetch: refs/tags/dist-lunar-s390x-20230124.1
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+amd64-GitCommit: 407671a226ede7401c411693e77fb4b8bf0adf75
+amd64-GitFetch: refs/tags/dist-lunar-amd64-20230124.1
+arm32v7-GitCommit: c171ab00df277c914ee204eb6f3e606531c96cc7
+arm32v7-GitFetch: refs/tags/dist-lunar-arm32v7-20230124.1
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
 Directory: oci
 
 Tags: bionic-20221215
+ppc64le-GitCommit: 7931788b86ded196e4c06b1ad1c41f1fde6427c3
+ppc64le-GitFetch: refs/tags/dist-bionic-ppc64le-20221215
 s390x-GitCommit: cadeacee3d51e4e2f404ccee25af2e63b5113413
 s390x-GitFetch: refs/tags/dist-bionic-s390x-20221215
 amd64-GitCommit: 0ae8196fe7299a6f6954b5f0208f57f170f12c35
@@ -693,9 +695,7 @@ arm64v8-GitCommit: 32b1fddbbf6c7e947f7b274a994baaaf07a68e9c
 arm64v8-GitFetch: refs/tags/dist-bionic-arm64v8-20221215
 i386-GitCommit: ebbc2f991f317253eb13eaf945c847da1cb6af9a
 i386-GitFetch: refs/tags/dist-bionic-i386-20221215
-ppc64le-GitCommit: 7931788b86ded196e4c06b1ad1c41f1fde6427c3
-ppc64le-GitFetch: refs/tags/dist-bionic-ppc64le-20221215
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 
 Tags: focal-20221130
 ppc64le-GitCommit: cb43bd8646a2c6162e9e0bba50c058b4a0ac8dcd
@@ -713,8 +713,6 @@ arm64v8-GitFetch: refs/tags/dist-focal-arm64v8-20221130
 Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
 
 Tags: jammy-20221130
-amd64-GitCommit: 5107d90663ceb24789a9fa19136b0753c5651aa0
-amd64-GitFetch: refs/tags/dist-jammy-amd64-20221130
 arm32v7-GitCommit: 4a4466b1434ca1dbb1033d94e38995ab5c72a112
 arm32v7-GitFetch: refs/tags/dist-jammy-arm32v7-20221130
 arm64v8-GitCommit: eb7f65f09243f390184188ecb3aab4793bb82e8f
@@ -725,13 +723,11 @@ riscv64-GitCommit: 54418794ae38f4130f0a702648fe99f9d4425629
 riscv64-GitFetch: refs/tags/dist-jammy-riscv64-20221130
 s390x-GitCommit: ede0c55ef3f98b25dad368d68b11cc4f14b1531c
 s390x-GitFetch: refs/tags/dist-jammy-s390x-20221130
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+amd64-GitCommit: 5107d90663ceb24789a9fa19136b0753c5651aa0
+amd64-GitFetch: refs/tags/dist-jammy-amd64-20221130
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 
 Tags: kinetic-20221130
-riscv64-GitCommit: 3248ff073441def10b68462b81b8aa3fa57d7650
-riscv64-GitFetch: refs/tags/dist-kinetic-riscv64-20221130
-s390x-GitCommit: 068be1f48e24f93d41b0e4d1e809a22648951523
-s390x-GitFetch: refs/tags/dist-kinetic-s390x-20221130
 amd64-GitCommit: 28c4e64ea84b6e9bcd1352e81cf71dbb47f259cc
 amd64-GitFetch: refs/tags/dist-kinetic-amd64-20221130
 arm32v7-GitCommit: 392b20114f8d424158b272d1ebfe7c3656d77275
@@ -740,13 +736,13 @@ arm64v8-GitCommit: c1fd684841258d615ee03f4868f15474b3d36214
 arm64v8-GitFetch: refs/tags/dist-kinetic-arm64v8-20221130
 ppc64le-GitCommit: bc31cbb8717a7574ade0e40b3d78cd3d10cb91cf
 ppc64le-GitFetch: refs/tags/dist-kinetic-ppc64le-20221130
-Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
+riscv64-GitCommit: 3248ff073441def10b68462b81b8aa3fa57d7650
+riscv64-GitFetch: refs/tags/dist-kinetic-riscv64-20221130
+s390x-GitCommit: 068be1f48e24f93d41b0e4d1e809a22648951523
+s390x-GitFetch: refs/tags/dist-kinetic-s390x-20221130
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 
 Tags: lunar-20221216
-arm64v8-GitCommit: 4e26cd0eecdcfc7c8f726ce0804349f5a09bf008
-arm64v8-GitFetch: refs/tags/dist-lunar-arm64v8-20221216
-ppc64le-GitCommit: 1a838295bbd880fd11cf11bedafc53aac396ee20
-ppc64le-GitFetch: refs/tags/dist-lunar-ppc64le-20221216
 riscv64-GitCommit: 8d8abd90a5bda61cf99b4a10cade4842f137885f
 riscv64-GitFetch: refs/tags/dist-lunar-riscv64-20221216
 s390x-GitCommit: 33a457dd8bd6c5ec62687005c9992a7e8b4ce96f
@@ -755,9 +751,15 @@ amd64-GitCommit: cbaec25db5166d7e31cf418cc5efb5000ffaaf88
 amd64-GitFetch: refs/tags/dist-lunar-amd64-20221216
 arm32v7-GitCommit: 402a37bfba58a3caf3b820aaa86e2b271456c5b2
 arm32v7-GitFetch: refs/tags/dist-lunar-arm32v7-20221216
-Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
+arm64v8-GitCommit: 4e26cd0eecdcfc7c8f726ce0804349f5a09bf008
+arm64v8-GitFetch: refs/tags/dist-lunar-arm64v8-20221216
+ppc64le-GitCommit: 1a838295bbd880fd11cf11bedafc53aac396ee20
+ppc64le-GitFetch: refs/tags/dist-lunar-ppc64le-20221216
+Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
 
 Tags: 14.04,trusty-20191217,trusty
+ppc64le-GitCommit: f6019f3397b8b562e7efeee5d6b3548940f2e9e6
+ppc64le-GitFetch: refs/tags/dist-trusty-ppc64le-20191217
 amd64-GitCommit: 131f6d8ad3ff6875f210766c88b463f96992b5ab
 amd64-GitFetch: refs/tags/dist-trusty-amd64-20191217
 arm32v7-GitCommit: 75fd9b0829b2fc4168fc12b75c9d2ff5510724ce
@@ -766,15 +768,9 @@ arm64v8-GitCommit: bd6b4509cbaabd25736c269525eda41e2d12d9ad
 arm64v8-GitFetch: refs/tags/dist-trusty-arm64v8-20191217
 i386-GitCommit: b6ec6352405f6689a544732923c014cc3668b924
 i386-GitFetch: refs/tags/dist-trusty-i386-20191217
-ppc64le-GitCommit: f6019f3397b8b562e7efeee5d6b3548940f2e9e6
-ppc64le-GitFetch: refs/tags/dist-trusty-ppc64le-20191217
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: ppc64le,amd64,arm32v7,arm64v8,i386
 
 Tags: 16.04,xenial-20210804,xenial
-amd64-GitCommit: 45e83e2e11f641ba2fea381e705ededbd2778f16
-amd64-GitFetch: refs/tags/dist-xenial-amd64-20210804
-arm32v7-GitCommit: 9538366978d441ad37408673403e65b5e14e7c1b
-arm32v7-GitFetch: refs/tags/dist-xenial-arm32v7-20210804
 arm64v8-GitCommit: 1ae28ca9d4afd84f711e1720126af5da852dca30
 arm64v8-GitFetch: refs/tags/dist-xenial-arm64v8-20210804
 i386-GitCommit: 5faefc5ffa1e4decefd218129c59828335daa00d
@@ -783,11 +779,13 @@ ppc64le-GitCommit: 84a7f1fb1092f5f6735a63cf802aaafef1e676bd
 ppc64le-GitFetch: refs/tags/dist-xenial-ppc64le-20210804
 s390x-GitCommit: 0408c8840b2a53c2baff135ffcca48301ccc6281
 s390x-GitFetch: refs/tags/dist-xenial-s390x-20210804
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+amd64-GitCommit: 45e83e2e11f641ba2fea381e705ededbd2778f16
+amd64-GitFetch: refs/tags/dist-xenial-amd64-20210804
+arm32v7-GitCommit: 9538366978d441ad37408673403e65b5e14e7c1b
+arm32v7-GitFetch: refs/tags/dist-xenial-arm32v7-20210804
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 
 Tags: bionic-20221130
-ppc64le-GitCommit: 66fc745c24d9146e2720209b42941555e5c2ebbe
-ppc64le-GitFetch: refs/tags/dist-bionic-ppc64le-20221130
 s390x-GitCommit: e2a41a5d6943c1977ae69d0ac4b3ba709d5b4fbf
 s390x-GitFetch: refs/tags/dist-bionic-s390x-20221130
 amd64-GitCommit: ba6d7291545fd49e4049ddc516ee3385c571277b
@@ -798,7 +796,9 @@ arm64v8-GitCommit: 7a5d5b787190189c77929c00a6dceb6b08900b9c
 arm64v8-GitFetch: refs/tags/dist-bionic-arm64v8-20221130
 i386-GitCommit: da1ca76afd2482b93237939d7d4534a5116fa479
 i386-GitFetch: refs/tags/dist-bionic-i386-20221130
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+ppc64le-GitCommit: 66fc745c24d9146e2720209b42941555e5c2ebbe
+ppc64le-GitFetch: refs/tags/dist-bionic-ppc64le-20221130
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 
 Tags: lunar-20221207
 amd64-GitCommit: 17470d6aef993f5ed3d74fe241128659892d3488
@@ -816,6 +816,8 @@ s390x-GitFetch: refs/tags/dist-lunar-s390x-20221207
 Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 
 Tags: bionic-20221019
+arm64v8-GitCommit: 31f65304dac4bfeb6ec9b88894803f50d3d3e6dc
+arm64v8-GitFetch: refs/tags/dist-bionic-arm64v8-20221019
 i386-GitCommit: d655d42e4c2cd0071382a47fb0d13c0b37c4d97c
 i386-GitFetch: refs/tags/dist-bionic-i386-20221019
 ppc64le-GitCommit: 1c695547348e8df3ffae9101639e89bbf7f38bab
@@ -826,28 +828,24 @@ amd64-GitCommit: 351306c6043bd360b94781a7db9fcb2ea1d2ff23
 amd64-GitFetch: refs/tags/dist-bionic-amd64-20221019
 arm32v7-GitCommit: 5ec447cb690b5389d670e489193ecc4f914cff57
 arm32v7-GitFetch: refs/tags/dist-bionic-arm32v7-20221019
-arm64v8-GitCommit: 31f65304dac4bfeb6ec9b88894803f50d3d3e6dc
-arm64v8-GitFetch: refs/tags/dist-bionic-arm64v8-20221019
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 
 Tags: focal-20221019
-s390x-GitCommit: 61929f0194137c725e23367ca528cf90f4509871
-s390x-GitFetch: refs/tags/dist-focal-s390x-20221019
-amd64-GitCommit: 7f6cfb71524baae0a1019f2c7b2530dff2d40c6e
-amd64-GitFetch: refs/tags/dist-focal-amd64-20221019
-arm32v7-GitCommit: 8dd7f3f5108ff0eb743c8ee2916c4fc40f3dc90d
-arm32v7-GitFetch: refs/tags/dist-focal-arm32v7-20221019
 arm64v8-GitCommit: b1d2e38601b9158c3ad689cef0604ee24dc40b70
 arm64v8-GitFetch: refs/tags/dist-focal-arm64v8-20221019
 ppc64le-GitCommit: b8ac4752ead0f57459d7250baa3414109d501c8f
 ppc64le-GitFetch: refs/tags/dist-focal-ppc64le-20221019
 riscv64-GitCommit: df5b8123bfc412766c9fa7a3c17622a7398a8cb2
 riscv64-GitFetch: refs/tags/dist-focal-riscv64-20221019
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
+s390x-GitCommit: 61929f0194137c725e23367ca528cf90f4509871
+s390x-GitFetch: refs/tags/dist-focal-s390x-20221019
+amd64-GitCommit: 7f6cfb71524baae0a1019f2c7b2530dff2d40c6e
+amd64-GitFetch: refs/tags/dist-focal-amd64-20221019
+arm32v7-GitCommit: 8dd7f3f5108ff0eb743c8ee2916c4fc40f3dc90d
+arm32v7-GitFetch: refs/tags/dist-focal-arm32v7-20221019
+Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
 
 Tags: jammy-20221101
-s390x-GitCommit: 6d4323bdf22e406a36953f680090456c4c57aee1
-s390x-GitFetch: refs/tags/dist-jammy-s390x-20221101
 amd64-GitCommit: 94ab0c78ee1594e0ef5daa7a191edc55d69385db
 amd64-GitFetch: refs/tags/dist-jammy-amd64-20221101
 arm32v7-GitCommit: e910bd197d4e8e6c8cfb814644f9c82fa5f1d372
@@ -858,9 +856,15 @@ ppc64le-GitCommit: 7d4f0b659464d53499a40a4969486f5961ccb94d
 ppc64le-GitFetch: refs/tags/dist-jammy-ppc64le-20221101
 riscv64-GitCommit: f866955337da355063ca4fb8d30dc9aaa41b9309
 riscv64-GitFetch: refs/tags/dist-jammy-riscv64-20221101
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
+s390x-GitCommit: 6d4323bdf22e406a36953f680090456c4c57aee1
+s390x-GitFetch: refs/tags/dist-jammy-s390x-20221101
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 
 Tags: kinetic-20221101
+amd64-GitCommit: 689d32e4ae40ee1b818aedf9ec07e938e9e4ba11
+amd64-GitFetch: refs/tags/dist-kinetic-amd64-20221101
+arm32v7-GitCommit: f4fd8913173e4dcdc5aab518947cd7bca2ef8f0f
+arm32v7-GitFetch: refs/tags/dist-kinetic-arm32v7-20221101
 arm64v8-GitCommit: 464135f777834930abbbb57b39b87a277a99bc1b
 arm64v8-GitFetch: refs/tags/dist-kinetic-arm64v8-20221101
 ppc64le-GitCommit: 7aeb0b8c1462f155efb127cb5efb9ba9cc85c5b3
@@ -869,26 +873,22 @@ riscv64-GitCommit: fc5cf3f94df9d14b934ae8b26a330c46fab4a386
 riscv64-GitFetch: refs/tags/dist-kinetic-riscv64-20221101
 s390x-GitCommit: bf65aaeb30dda4a827890b2f60355adbdb5260f8
 s390x-GitFetch: refs/tags/dist-kinetic-s390x-20221101
-amd64-GitCommit: 689d32e4ae40ee1b818aedf9ec07e938e9e4ba11
-amd64-GitFetch: refs/tags/dist-kinetic-amd64-20221101
-arm32v7-GitCommit: f4fd8913173e4dcdc5aab518947cd7bca2ef8f0f
-arm32v7-GitFetch: refs/tags/dist-kinetic-arm32v7-20221101
-Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 
 Tags: jammy-20221020
-amd64-GitCommit: e4ee3aa15b9061ff0122ffdba0bdf3c89e33c1e2
-amd64-GitFetch: refs/tags/dist-jammy-amd64-20221020
-arm32v7-GitCommit: 9fd64b13015fae9ec73a06727ae80561ebe3b608
-arm32v7-GitFetch: refs/tags/dist-jammy-arm32v7-20221020
-arm64v8-GitCommit: cae202332e105d7bd498401efe67f44aa4f5cca4
-arm64v8-GitFetch: refs/tags/dist-jammy-arm64v8-20221020
 ppc64le-GitCommit: 848174b26368432055747338ac0569cc5a300c24
 ppc64le-GitFetch: refs/tags/dist-jammy-ppc64le-20221020
 riscv64-GitCommit: 739ecbaa7e8bc00f65311dc86f3524b2c0a30557
 riscv64-GitFetch: refs/tags/dist-jammy-riscv64-20221020
 s390x-GitCommit: 3bdc49a8e522ea72f0f7ebe0a502943c3d2d58e6
 s390x-GitFetch: refs/tags/dist-jammy-s390x-20221020
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+amd64-GitCommit: e4ee3aa15b9061ff0122ffdba0bdf3c89e33c1e2
+amd64-GitFetch: refs/tags/dist-jammy-amd64-20221020
+arm32v7-GitCommit: 9fd64b13015fae9ec73a06727ae80561ebe3b608
+arm32v7-GitFetch: refs/tags/dist-jammy-arm32v7-20221020
+arm64v8-GitCommit: cae202332e105d7bd498401efe67f44aa4f5cca4
+arm64v8-GitFetch: refs/tags/dist-jammy-arm64v8-20221020
+Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
 
 Tags: kinetic-20221024
 amd64-GitCommit: dd0e86a6cdcc20f36ef4de6463c63dde52eddce4
@@ -906,10 +906,6 @@ s390x-GitFetch: refs/tags/dist-kinetic-s390x-20221024
 Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 
 Tags: bionic-20220913
-arm32v7-GitCommit: 3c428ae97872e0f0fbc6cf72be2016bf8adcfd15
-arm32v7-GitFetch: refs/tags/dist-bionic-arm32v7-20220913
-arm64v8-GitCommit: 2f7be276ec2c2c2f9e15770313002440deaf9cf8
-arm64v8-GitFetch: refs/tags/dist-bionic-arm64v8-20220913
 i386-GitCommit: 22f3aec0dd8c7fe9dcc89d20735cc5bf0291a9d6
 i386-GitFetch: refs/tags/dist-bionic-i386-20220913
 ppc64le-GitCommit: 81c922d82a029c710547707f28fde56b83b879b4
@@ -918,24 +914,30 @@ s390x-GitCommit: be024b49cd39961a086129d4d8648eca29b96bdc
 s390x-GitFetch: refs/tags/dist-bionic-s390x-20220913
 amd64-GitCommit: be258cd445744248ad1b72c4815b5d2a83c2cf13
 amd64-GitFetch: refs/tags/dist-bionic-amd64-20220913
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+arm32v7-GitCommit: 3c428ae97872e0f0fbc6cf72be2016bf8adcfd15
+arm32v7-GitFetch: refs/tags/dist-bionic-arm32v7-20220913
+arm64v8-GitCommit: 2f7be276ec2c2c2f9e15770313002440deaf9cf8
+arm64v8-GitFetch: refs/tags/dist-bionic-arm64v8-20220913
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 
 Tags: focal-20220922
-riscv64-GitCommit: 653a7536c0143c0272ab835e692a00ede38dd4ec
-riscv64-GitFetch: refs/tags/dist-focal-riscv64-20220922
-s390x-GitCommit: e1b8767ff4a55dc48a0bfe6b0056df563eb738cb
-s390x-GitFetch: refs/tags/dist-focal-s390x-20220922
-amd64-GitCommit: 29a64edc16580025122775b562cf96075ef85fbe
-amd64-GitFetch: refs/tags/dist-focal-amd64-20220922
 arm32v7-GitCommit: fb2052ef582a615cfe34a9f463d36d206d4b8bee
 arm32v7-GitFetch: refs/tags/dist-focal-arm32v7-20220922
 arm64v8-GitCommit: 6e56c50db8bdf87217548290dbbfffc2ecc1c420
 arm64v8-GitFetch: refs/tags/dist-focal-arm64v8-20220922
 ppc64le-GitCommit: 0719440fe8cf79ff19fe8da810bcb237d9095a60
 ppc64le-GitFetch: refs/tags/dist-focal-ppc64le-20220922
-Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
+riscv64-GitCommit: 653a7536c0143c0272ab835e692a00ede38dd4ec
+riscv64-GitFetch: refs/tags/dist-focal-riscv64-20220922
+s390x-GitCommit: e1b8767ff4a55dc48a0bfe6b0056df563eb738cb
+s390x-GitFetch: refs/tags/dist-focal-s390x-20220922
+amd64-GitCommit: 29a64edc16580025122775b562cf96075ef85fbe
+amd64-GitFetch: refs/tags/dist-focal-amd64-20220922
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 
 Tags: jammy-20221003
+s390x-GitCommit: f79862926855b9b5a8f1279de719b93de7a18130
+s390x-GitFetch: refs/tags/dist-jammy-s390x-20221003
 amd64-GitCommit: 89da42508a832d893e03b5d4b606da47c3a9bc70
 amd64-GitFetch: refs/tags/dist-jammy-amd64-20221003
 arm32v7-GitCommit: 442a78995614200131f56b9636a5b3194d26f228
@@ -946,13 +948,9 @@ ppc64le-GitCommit: a7da8032584a3890cb1613b7ef7c333e41cb6066
 ppc64le-GitFetch: refs/tags/dist-jammy-ppc64le-20221003
 riscv64-GitCommit: 1c0f9c984ba111af47a4cf20f23f6e89fe570b71
 riscv64-GitFetch: refs/tags/dist-jammy-riscv64-20221003
-s390x-GitCommit: f79862926855b9b5a8f1279de719b93de7a18130
-s390x-GitFetch: refs/tags/dist-jammy-s390x-20221003
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
 
 Tags: kinetic-20220922
-amd64-GitCommit: 90b075ce1d288823aab97814c4be7787c967de08
-amd64-GitFetch: refs/tags/dist-kinetic-amd64-20220922
 arm32v7-GitCommit: c746b549b8cf8b44cbdc19dfe12ed3e8f0b82cbd
 arm32v7-GitFetch: refs/tags/dist-kinetic-arm32v7-20220922
 arm64v8-GitCommit: 2e2fa247da44ea50611290d73a134d60c6be181d
@@ -963,22 +961,24 @@ riscv64-GitCommit: a230fd9dd02f741abe230c178fd9f44da19845a8
 riscv64-GitFetch: refs/tags/dist-kinetic-riscv64-20220922
 s390x-GitCommit: ebaca4d72af3687a195c0721804cb64a0c2d5b68
 s390x-GitFetch: refs/tags/dist-kinetic-s390x-20220922
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+amd64-GitCommit: 90b075ce1d288823aab97814c4be7787c967de08
+amd64-GitFetch: refs/tags/dist-kinetic-amd64-20220922
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 
 Tags: bionic-20220902
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 Directory: bionic
 
 Tags: focal-20220826
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 Directory: focal
 
 Tags: jammy-20220815
-Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 Directory: jammy
 
 Tags: kinetic-20220830
-Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 Directory: kinetic
 
 Tags: bionic-20220829
@@ -990,15 +990,15 @@ Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: bionic
 
 Tags: focal-20220801
-Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
 Directory: focal
 
 Tags: jammy-20220801
-Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 Directory: jammy
 
 Tags: kinetic-20220801
-Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 Directory: kinetic
 
 Tags: bionic-20220531
@@ -1006,7 +1006,7 @@ Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 Directory: bionic
 
 Tags: focal-20220531
-Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
 Directory: focal
 
 Tags: 21.10,impish-20220531,impish
@@ -1014,11 +1014,11 @@ Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 Directory: impish
 
 Tags: jammy-20220531
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 Directory: jammy
 
 Tags: kinetic-20220602
-Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
+Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
 Directory: kinetic
 
 Tags: bionic-20220427
@@ -1030,43 +1030,43 @@ Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 Directory: focal
 
 Tags: impish-20220427
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
+Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
 Directory: impish
 
 Tags: jammy-20220428
-Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 Directory: jammy
 
 Tags: kinetic-20220428
-Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 Directory: kinetic
 
 Tags: bionic-20220415
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
-Directory: bionic
-
-Tags: focal-20220415
-Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
-Directory: focal
-
-Tags: impish-20220415
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
-Directory: impish
-
-Tags: jammy-20220421
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
-Directory: jammy
-
-Tags: bionic-20220401
 Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: bionic
 
-Tags: focal-20220404
+Tags: focal-20220415
 Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 Directory: focal
 
+Tags: impish-20220415
+Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
+Directory: impish
+
+Tags: jammy-20220421
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
+Directory: jammy
+
+Tags: bionic-20220401
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Directory: bionic
+
+Tags: focal-20220404
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
+Directory: focal
+
 Tags: impish-20220404
-Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
+Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
 Directory: impish
 
 Tags: jammy-20220404
@@ -1074,11 +1074,11 @@ Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 Directory: jammy
 
 Tags: bionic-20220315
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 Directory: bionic
 
 Tags: focal-20220316
-Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
+Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
 Directory: focal
 
 Tags: impish-20220316
@@ -1086,7 +1086,7 @@ Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 Directory: impish
 
 Tags: jammy-20220315
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
 Directory: jammy
 
 Tags: bionic-20220301
@@ -1094,19 +1094,19 @@ Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 Directory: bionic
 
 Tags: focal-20220302
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
 Directory: focal
 
 Tags: impish-20220301
-Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
+Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
 Directory: impish
 
 Tags: jammy-20220301
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
 Directory: jammy
 
 Tags: bionic-20220128
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 Directory: bionic
 
 Tags: focal-20220113
@@ -1114,27 +1114,27 @@ Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
 Directory: focal
 
 Tags: impish-20220128
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
 Directory: impish
 
 Tags: jammy-20220130
-Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
 Directory: jammy
 
 Tags: 21.04,hirsute-20220113,hirsute
-Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 Directory: hirsute
 
 Tags: bionic-20220105
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 Directory: bionic
 
 Tags: focal-20220105
-Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 Directory: focal
 
 Tags: hirsute-20211208
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 Directory: hirsute
 
 Tags: impish-20220105
@@ -1142,27 +1142,27 @@ Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 Directory: impish
 
 Tags: jammy-20220101
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: arm64v8,ppc64le,riscv64,s390x,amd64,arm32v7
 Directory: jammy
 
 Tags: bionic-20210930
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 Directory: bionic
 
 Tags: focal-20211006
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 Directory: focal
 
 Tags: hirsute-20211107
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
+Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
 Directory: hirsute
 
 Tags: impish-20211102
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 Directory: impish
 
 Tags: jammy-20211122
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
 Directory: jammy
 
 Tags: hirsute-20210917
@@ -1170,15 +1170,15 @@ Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 Directory: hirsute
 
 Tags: jammy-20211029
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 Directory: jammy
 
 Tags: impish-20211015
-Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
 Directory: impish
 
 Tags: focal-20210921
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
 Directory: focal
 
 Tags: impish-20210928
@@ -1186,11 +1186,11 @@ Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 Directory: impish
 
 Tags: bionic-20210827
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 Directory: bionic
 
 Tags: focal-20210827
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
 Directory: focal
 
 Tags: hirsute-20210825
@@ -1202,23 +1202,23 @@ Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 Directory: impish
 
 Tags: bionic-20210723
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 Directory: bionic
 
 Tags: focal-20210723
-Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
 Directory: focal
 
 Tags: hirsute-20210723
-Architectures: amd64,arm32v7,arm64v8,ppc64le,riscv64,s390x
+Architectures: riscv64,s390x,amd64,arm32v7,arm64v8,ppc64le
 Directory: hirsute
 
 Tags: impish-20210722
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le,riscv64
+Architectures: arm32v7,arm64v8,ppc64le,riscv64,s390x,amd64
 Directory: impish
 
 Tags: xenial-20210722
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 Directory: xenial
 
 Tags: 20.10,groovy-20210723,groovy
@@ -1226,23 +1226,23 @@ Architectures: ppc64le,riscv64,s390x,amd64,arm32v7,arm64v8
 Directory: groovy
 
 Tags: bionic-20210702
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 Directory: bionic
 
 Tags: focal-20210713
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: focal
 
 Tags: groovy-20210713
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: groovy
 
 Tags: hirsute-20210711
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
 Directory: hirsute
 
 Tags: impish-20210711
-Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: impish
 
 Tags: xenial-20210611
@@ -1250,43 +1250,43 @@ Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 Directory: xenial
 
 Tags: bionic-20210615.1
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 Directory: bionic
 
 Tags: focal-20210609
-Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: focal
 
 Tags: groovy-20210614
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: groovy
 
 Tags: hirsute-20210602
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: hirsute
 
 Tags: impish-20210606
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
 Directory: impish
 
 Tags: bionic-20210512
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 Directory: bionic
 
 Tags: focal-20210416
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
 Directory: focal
 
 Tags: groovy-20210524
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
 Directory: groovy
 
 Tags: hirsute-20210522
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: hirsute
 
 Tags: impish-20210519
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
 Directory: impish
 
 Tags: xenial-20210429
@@ -1294,7 +1294,7 @@ Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 Directory: xenial
 
 Tags: groovy-20210514
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: groovy
 
 Tags: hirsute-20210514
@@ -1302,7 +1302,7 @@ Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: hirsute
 
 Tags: bionic-20210416
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 Directory: bionic
 
 Tags: groovy-20210416
@@ -1310,15 +1310,15 @@ Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
 Directory: groovy
 
 Tags: hirsute-20210422
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: hirsute
 
 Tags: xenial-20210416
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: xenial
 
 Tags: bionic-20210325
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: bionic
 
 Tags: focal-20210401
@@ -1330,37 +1330,37 @@ Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: groovy
 
 Tags: hirsute-20210401
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: hirsute
 
 Tags: xenial-20210114
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 Directory: xenial
 
 Tags: focal-20210325
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
 Directory: focal
 
 Tags: groovy-20210325
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: groovy
 
 Tags: hirsute-20210119
-i386-GitCommit: 68ae4b1742136f031c3a4770e3e4776a3618df1f
-amd64-GitCommit: ec931883d8292935b62ac40757287491e6ff467e
-arm32v7-GitCommit: f2ed9c714e4231e0d964095eaba5504fb4ce017d
 arm64v8-GitCommit: 69b377c4bbe13073c3ae2dd0c541dc7b52cc32ba
 ppc64le-GitCommit: eb34d4327f126b9f60a873362854b09293f6d9ff
 s390x-GitCommit: 0342e501a11386aedd5597555481cb9b10921eda
-Architectures: i386,amd64,arm32v7,arm64v8,ppc64le,s390x
+i386-GitCommit: 68ae4b1742136f031c3a4770e3e4776a3618df1f
+amd64-GitCommit: ec931883d8292935b62ac40757287491e6ff467e
+arm32v7-GitCommit: f2ed9c714e4231e0d964095eaba5504fb4ce017d
+Architectures: arm64v8,ppc64le,s390x,i386,amd64,arm32v7
 Directory: hirsute
 
 Tags: bionic-20210222
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 Directory: bionic
 
 Tags: focal-20210217
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
 Directory: focal
 
 Tags: groovy-20210225
@@ -1368,19 +1368,19 @@ Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
 Directory: groovy
 
 Tags: bionic-20210118
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 Directory: bionic
 
 Tags: focal-20210119
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: focal
 
 Tags: groovy-20210115
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: groovy
 
 Tags: bionic-20201119
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 Directory: bionic
 
 Tags: focal-20201106
@@ -1388,7 +1388,7 @@ Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: focal
 
 Tags: groovy-20201125.2
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
 Directory: groovy
 
 Tags: hirsute-20201119
@@ -1396,19 +1396,19 @@ Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
 Directory: hirsute
 
 Tags: xenial-20201030
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 Directory: xenial
 
 Tags: bionic-20200921
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: bionic
 
 Tags: focal-20201008
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: focal
 
 Tags: groovy-20201022.1
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
 Directory: groovy
 
 Tags: xenial-20201014
@@ -1424,7 +1424,7 @@ Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: groovy
 
 Tags: xenial-20200916
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: xenial
 
 Tags: bionic-20200903
@@ -1432,11 +1432,11 @@ Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: bionic
 
 Tags: focal-20200916
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: focal
 
 Tags: groovy-20200911
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
 Directory: groovy
 
 Tags: xenial-20200903
@@ -1444,31 +1444,31 @@ Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: xenial
 
 Tags: bionic-20200807
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 Directory: bionic
 
 Tags: focal-20200729
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: focal
 
 Tags: groovy-20200812
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: groovy
 
 Tags: xenial-20200807
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: xenial
 
 Tags: bionic-20200713
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 Directory: bionic
 
 Tags: focal-20200720
-Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: focal
 
 Tags: groovy-20200723
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: groovy
 
 Tags: xenial-20200706
@@ -1476,15 +1476,15 @@ Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: xenial
 
 Tags: bionic-20200630
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 Directory: bionic
 
 Tags: focal-20200703
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: focal
 
 Tags: groovy-20200704
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
 Directory: groovy
 
 Tags: xenial-20200619
@@ -1492,11 +1492,11 @@ Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: xenial
 
 Tags: 19.10,eoan-20200608,eoan
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: eoan
 
 Tags: bionic-20200526
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: bionic
 
 Tags: focal-20200606
@@ -1504,11 +1504,11 @@ Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: focal
 
 Tags: groovy-20200609
-Architectures: arm32v7,arm64v8,ppc64le,s390x,amd64
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: groovy
 
 Tags: xenial-20200514
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: xenial
 
 Tags: bionic-20200403
@@ -1520,7 +1520,7 @@ Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: eoan
 
 Tags: focal-20200423
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
 Directory: focal
 
 Tags: groovy-20200505
@@ -1528,7 +1528,7 @@ Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: groovy
 
 Tags: xenial-20200326
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 Directory: xenial
 
 Tags: bionic-20200311
@@ -1536,11 +1536,11 @@ Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: bionic
 
 Tags: eoan-20200313
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 Directory: eoan
 
 Tags: focal-20200319
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,ppc64le
 Directory: focal
 
 Tags: xenial-20200212
@@ -1548,19 +1548,19 @@ Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: xenial
 
 Tags: bionic-20200219
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: bionic
 
 Tags: eoan-20200207
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: eoan
 
 Tags: focal-20200115
-Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: focal
 
 Tags: bionic-20200112
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 Directory: bionic
 
 Tags: eoan-20200114
@@ -1568,7 +1568,7 @@ Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 Directory: eoan
 
 Tags: xenial-20200114
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 Directory: xenial
 
 Tags: 19.04,disco-20200114,disco
@@ -1576,23 +1576,23 @@ Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: disco
 
 Tags: bionic-20191202
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 Directory: bionic
 
 Tags: disco-20191127
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 Directory: disco
 
 Tags: eoan-20191127
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 Directory: eoan
 
 Tags: focal-20191129
-Architectures: arm64v8,ppc64le,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 Directory: focal
 
 Tags: xenial-20191212
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: xenial
 
 Tags: bionic-20191029
@@ -1604,7 +1604,7 @@ Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: disco
 
 Tags: eoan-20191101
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 Directory: eoan
 
 Tags: focal-20191030
@@ -1629,15 +1629,15 @@ GitCommit: 7a1a4f883de2d81351a82c86c24a0033dcae03db
 Directory: trusty
 
 Tags: xenial-20191108
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 Directory: xenial
 
 Tags: trusty-20191107
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm64v8,i386,ppc64le,amd64,arm32v7
 Directory: trusty
 
 Tags: eoan-20191017
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: eoan
 
 Tags: xenial-20191024
@@ -1645,11 +1645,11 @@ Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: xenial
 
 Tags: bionic-20191010
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 Directory: bionic
 
 Tags: disco-20191011
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: disco
 
 Tags: xenial-20191010
@@ -1657,11 +1657,11 @@ Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: xenial
 
 Tags: bionic-20190912.1
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 Directory: bionic
 
 Tags: 18.10,cosmic-20190719,cosmic
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: cosmic
 
 Tags: disco-20190913
@@ -1673,31 +1673,31 @@ Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: eoan
 
 Tags: xenial-20190904
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 Directory: xenial
 
 Tags: bionic-20190807
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
-Directory: bionic
-
-Tags: disco-20190809
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
-Directory: disco
-
-Tags: eoan-20190813
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
-Directory: eoan
-
-Tags: xenial-20190720
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
-Directory: xenial
-
-Tags: bionic-20190718
 Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 Directory: bionic
 
+Tags: disco-20190809
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Directory: disco
+
+Tags: eoan-20190813
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Directory: eoan
+
+Tags: xenial-20190720
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Directory: xenial
+
+Tags: bionic-20190718
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Directory: bionic
+
 Tags: disco-20190718
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 Directory: disco
 
 Tags: eoan-20190717.1
@@ -1709,47 +1709,47 @@ Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: bionic
 
 Tags: cosmic-20190614
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 Directory: cosmic
 
 Tags: disco-20190613
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: disco
 
 Tags: eoan-20190614
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 Directory: eoan
 
 Tags: xenial-20190610
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: xenial
 
 Tags: bionic-20190515
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
-Directory: bionic
-
-Tags: cosmic-20190515
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
-Directory: cosmic
-
-Tags: disco-20190515
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
-Directory: disco
-
-Tags: eoan-20190508
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
-Directory: eoan
-
-Tags: xenial-20190515
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
-Directory: xenial
-
-Tags: bionic-20190424
 Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: bionic
 
-Tags: cosmic-20190418
+Tags: cosmic-20190515
 Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Directory: cosmic
+
+Tags: disco-20190515
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Directory: disco
+
+Tags: eoan-20190508
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Directory: eoan
+
+Tags: xenial-20190515
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Directory: xenial
+
+Tags: bionic-20190424
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Directory: bionic
+
+Tags: cosmic-20190418
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 Directory: cosmic
 
 Tags: disco-20190423
@@ -1757,27 +1757,27 @@ Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: disco
 
 Tags: trusty-20190425
-Architectures: arm64v8,i386,ppc64le,amd64,arm32v7
+Architectures: i386,ppc64le,amd64,arm32v7,arm64v8
 Directory: trusty
 
 Tags: xenial-20190425
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 Directory: xenial
 
 Tags: bionic-20190307
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 Directory: bionic
 
 Tags: cosmic-20190311
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: cosmic
 
 Tags: disco-20190310
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 Directory: disco
 
 Tags: trusty-20190305
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm64v8,i386,ppc64le,amd64,arm32v7
 Directory: trusty
 
 Tags: xenial-20190222
@@ -1789,31 +1789,31 @@ Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 Directory: bionic
 
 Tags: cosmic-20190131
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 Directory: cosmic
 
 Tags: disco-20190204
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: disco
 
 Tags: trusty-20190122
-Architectures: ppc64le,amd64,arm32v7,arm64v8,i386
+Architectures: arm32v7,arm64v8,i386,ppc64le,amd64
 Directory: trusty
 
 Tags: xenial-20190122
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 Directory: xenial
 
 Tags: bionic-20190122
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: bionic
 
 Tags: cosmic-20190122
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 Directory: cosmic
 
 Tags: disco-20190118
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 Directory: disco
 
 Tags: bionic-20181204
@@ -1825,35 +1825,35 @@ Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: cosmic
 
 Tags: disco-20181220
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 Directory: disco
 
 Tags: trusty-20181217
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: i386,ppc64le,amd64,arm32v7,arm64v8
 Directory: trusty
 
 Tags: xenial-20181218
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 Directory: xenial
 
 Tags: bionic-20181112
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: bionic
 
 Tags: cosmic-20181114
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 Directory: cosmic
 
 Tags: disco-20181112
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 Directory: disco
 
 Tags: trusty-20181115
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm32v7,arm64v8,i386,ppc64le,amd64
 Directory: trusty
 
 Tags: xenial-20181113
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 Directory: xenial
 
 Tags: bionic-20181018
@@ -1861,23 +1861,23 @@ Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: bionic
 
 Tags: cosmic-20181018
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: cosmic
 
 Tags: trusty-20180929
-Architectures: arm64v8,i386,ppc64le,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le
 Directory: trusty
 
 Tags: xenial-20181005
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: xenial
 
 Tags: bionic-20180821
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: bionic
 
 Tags: cosmic-20180905
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 Directory: cosmic
 
 Tags: trusty-20180807
@@ -1885,19 +1885,19 @@ Architectures: i386,ppc64le,amd64,arm32v7,arm64v8
 Directory: trusty
 
 Tags: xenial-20180808
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 Directory: xenial
 
 Tags: cosmic-20180821
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 Directory: cosmic
 
 Tags: bionic-20180724.1
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: bionic
 
 Tags: cosmic-20180725
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 Directory: cosmic
 
 Tags: trusty-20180712
@@ -1909,31 +1909,31 @@ Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: xenial
 
 Tags: 17.10,artful-20180706,artful
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 Directory: artful
 
 Tags: bionic-20180710
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 Directory: bionic
 
 Tags: cosmic-20180716
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 Directory: cosmic
 
 Tags: xenial-20180705
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 Directory: xenial
 
 Tags: artful-20180524
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: artful
 
 Tags: bionic-20180526
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 Directory: bionic
 
 Tags: cosmic-20180605
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: cosmic
 
 Tags: trusty-20180531
@@ -1941,11 +1941,11 @@ Architectures: amd64,arm32v7,arm64v8,i386,ppc64le
 Directory: trusty
 
 Tags: xenial-20180525
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 Directory: xenial
 
 Tags: artful-20180417
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: artful
 
 Tags: bionic-20180426
@@ -1953,15 +1953,15 @@ Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: bionic
 
 Tags: trusty-20180420
-Architectures: arm64v8,i386,ppc64le,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le
 Directory: trusty
 
 Tags: xenial-20180417
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 Directory: xenial
 
 Tags: artful-20180412
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 Directory: artful
 
 Tags: bionic-20180410
@@ -1973,27 +1973,27 @@ Architectures: amd64,arm32v7,arm64v8,i386,ppc64le
 Directory: trusty
 
 Tags: xenial-20180412
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 Directory: xenial
 
 Tags: artful-20180227
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: artful
 
 Tags: bionic-20180224
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: bionic
 
 Tags: trusty-20180302
-Architectures: i386,ppc64le,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le
 Directory: trusty
 
 Tags: xenial-20180228
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: xenial
 
 Tags: artful-20180123
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: artful
 
 Tags: bionic-20180125
@@ -2001,15 +2001,15 @@ Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: bionic
 
 Tags: trusty-20180123
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: ppc64le,amd64,arm32v7,arm64v8,i386
 Directory: trusty
 
 Tags: xenial-20180123
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: xenial
 
 Tags: artful-20180112
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 Directory: artful
 
 Tags: bionic-20171220
@@ -2017,19 +2017,19 @@ Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: bionic
 
 Tags: trusty-20180112
-Architectures: ppc64le,amd64,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le
 Directory: trusty
 
 Tags: xenial-20180112.1
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 Directory: xenial
 
 Tags: artful-20171116
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: artful
 
 Tags: bionic-20171214
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 Directory: bionic
 
 Tags: trusty-20171207
@@ -2037,19 +2037,19 @@ Architectures: amd64,arm32v7,arm64v8,i386,ppc64le
 Directory: trusty
 
 Tags: xenial-20171201
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 Directory: xenial
 
 Tags: 17.04,zesty-20171122,zesty
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 Directory: zesty
 
 Tags: bionic-20171114
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: bionic
 
 Tags: trusty-20171117
-Architectures: ppc64le,amd64,arm32v7,arm64v8,i386
+Architectures: i386,ppc64le,amd64,arm32v7,arm64v8
 Directory: trusty
 
 Tags: xenial-20171114
@@ -2057,7 +2057,7 @@ Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: xenial
 
 Tags: zesty-20171114
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: zesty
 
 Tags: artful-20171019
@@ -2065,31 +2065,31 @@ Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: artful
 
 Tags: trusty-20170817
-Architectures: i386,ppc64le,amd64,arm32v7,arm64v8
+Architectures: ppc64le,amd64,arm32v7,arm64v8,i386
 Directory: trusty
 
 Tags: xenial-20171006
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: xenial
 
 Tags: zesty-20170915
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 Directory: zesty
 
 Tags: artful-20171006
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: artful
 
 Tags: artful-20170916
-Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 Directory: artful
 
 Tags: xenial-20170915
-Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
 Directory: xenial
 
 Tags: artful-20170826
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: artful
 
 Tags: xenial-20170802
@@ -2097,31 +2097,31 @@ Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: xenial
 
 Tags: zesty-20170913
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: zesty
 
 Tags: artful-20170728
-Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: artful
 
 Tags: trusty-20170728
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le
+Architectures: ppc64le,amd64,arm32v7,arm64v8,i386
 Directory: trusty
 
 Tags: zesty-20170703
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 Directory: zesty
 
 Tags: artful-20170716
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
 Directory: artful
 
 Tags: trusty-20170719
-Architectures: arm64v8,i386,ppc64le,amd64,arm32v7
+Architectures: arm32v7,arm64v8,i386,ppc64le,amd64
 Directory: trusty
 
 Tags: xenial-20170710
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 Directory: xenial
 
 Tags: 16.10,yakkety-20170704,yakkety
@@ -2129,43 +2129,43 @@ Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 Directory: yakkety
 
 Tags: artful-20170619
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
-Directory: artful
-
-Tags: trusty-20170620
-Architectures: arm64v8,i386,ppc64le,amd64,arm32v7
-Directory: trusty
-
-Tags: xenial-20170619
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
-Directory: xenial
-
-Tags: yakkety-20170619
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
-Directory: yakkety
-
-Tags: zesty-20170619
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
-Directory: zesty
-
-Tags: artful-20170601
 Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 Directory: artful
 
+Tags: trusty-20170620
+Architectures: ppc64le,amd64,arm32v7,arm64v8,i386
+Directory: trusty
+
+Tags: xenial-20170619
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
+Directory: xenial
+
+Tags: yakkety-20170619
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Directory: yakkety
+
+Tags: zesty-20170619
+Architectures: i386,ppc64le,s390x,amd64,arm32v7,arm64v8
+Directory: zesty
+
+Tags: artful-20170601
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Directory: artful
+
 Tags: trusty-20170602
-Architectures: i386,ppc64le,amd64,arm32v7,arm64v8
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le
 Directory: trusty
 
 Tags: xenial-20170517.1
-Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
 Directory: xenial
 
 Tags: yakkety-20170517.1
-Architectures: ppc64le,s390x,amd64,arm32v7,arm64v8,i386
+Architectures: s390x,amd64,arm32v7,arm64v8,i386,ppc64le
 Directory: yakkety
 
 Tags: zesty-20170517.1
-Architectures: arm32v7,arm64v8,i386,ppc64le,s390x,amd64
+Architectures: arm64v8,i386,ppc64le,s390x,amd64,arm32v7
 Directory: zesty
 
 Tags: 14.04.5
