@@ -1,10 +1,10 @@
-name: build-postgres
+name: build-mariadb
 
 on:
   workflow_dispatch:
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.head_ref || github.ref }}-build-postgres
+  group: ${{ github.workflow }}-${{ github.head_ref || github.ref }}-build-mariadb
   cancel-in-progress: true
 
 jobs:
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        tag: [16.0-alpine, 15.4-alpine, 14.9-alpine, 13.12-alpine, 12.15-alpine, 11.21-alpine, 10.23-alpine]
+        tag: [11.1.2-jammy, 11.0.3-jammy, 10.11.5-jammy]
     steps:
     - uses: actions/checkout@v3
 
@@ -79,7 +79,7 @@ jobs:
 
     - name: Build
       run: |
-        go run cmd/build-image/main.go --name=postgres --tag=${{ matrix.tag }}
+        go run cmd/build-image/main.go --name=mariadb --tag=${{ matrix.tag }}
 
   report:
     name: Report
@@ -138,10 +138,10 @@ jobs:
         SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
         SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
       run: |
-        go run cmd/mail-report/main.go --name=postgres
+        go run cmd/mail-report/main.go --name=mariadb
         # https://stackoverflow.com/a/23930212
-        cat > ./library/postgres/README.md <<- EOM
-        # postgres
+        cat > ./library/mariadb/README.md <<- EOM
+        # mariadb
         Last Updated: $(date --rfc-3339=date)
         EOM
 
@@ -149,7 +149,7 @@ jobs:
       run: |
         git add --all
         if [[ $(git status --porcelain) ]]; then
-          git commit -s -a -m "update postgres images $(date --rfc-3339=date)"
+          git commit -s -a -m "update mariadb images $(date --rfc-3339=date)"
           git fetch origin
           git pull --rebase origin master
           git push origin HEAD
