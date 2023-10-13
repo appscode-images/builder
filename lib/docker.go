@@ -14,6 +14,17 @@ func SupportedArch(arch string) bool {
 		arch == "aarch64"
 }
 
+func Platform(arch string) string {
+	switch arch {
+	case "amd64", "x86_64":
+		return "linux/amd64"
+	case "arm64", "arm64v8", "aarch64":
+		return "linux/arm64"
+	default:
+		panic("unknown arch: " + arch)
+	}
+}
+
 func ListAppTags(dir, name string) ([]string, error) {
 	filename := filepath.Join(dir, "library", name, "build_tags.txt")
 	data, err := os.ReadFile(filename)

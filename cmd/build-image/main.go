@@ -7,6 +7,7 @@ import (
 	"github.com/appscode-images/builder/lib"
 	"os"
 	"path/filepath"
+	"strings"
 	"time"
 
 	"github.com/appscode-images/builder/api"
@@ -223,10 +224,10 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, b *api.Block, name, ta
 		}
 		sh.SetDir(dockerfileDir)
 
-		img := fmt.Sprintf("%s/%s:%s_%s_linux_%s", api.DOCKER_REGISTRY, name, tag, ts, arch)
+		img := fmt.Sprintf("%s/%s:%s_%s_%s", api.DOCKER_REGISTRY, name, tag, ts, strings.ReplaceAll(lib.Platform(arch), "/", "_"))
 		archImages = append(archImages, img)
 		args := []any{
-			"build", "--platform=linux/" + arch, "--load", "--pull", "-t", img,
+			"build", "--platform=" + lib.Platform(arch), "--load", "--pull", "-t", img,
 		}
 		if info.File != "" {
 			args = append(args, "-f", info.File)
