@@ -243,8 +243,10 @@ jobs:
     - name: Update repo
       run: |
         git add --all
-        git commit -s -a -m "update $name$ images $(date --rfc-3339=date)"
-        git fetch origin
-        git pull --rebase origin master
-        git push origin HEAD
+        if [[ $(git status --porcelain) ]]; then
+          git commit -s -a -m "update $name$ images $(date --rfc-3339=date)"
+          git fetch origin
+          git pull --rebase origin master
+          git push origin HEAD
+        fi
 `
