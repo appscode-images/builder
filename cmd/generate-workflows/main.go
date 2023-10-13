@@ -116,17 +116,18 @@ jobs:
       with:
         go-version: '1.21'
 
-    # https://stackoverflow.com/a/58393457
     - name: Prepare git
+      env:
+        GITHUB_USER: 1gtm
+        GITHUB_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
       run: |
         set -x
-        git config --global user.name '1gtm'
-        git config --global user.email '1gtm@appscode.com'
+        git config --global user.name "1gtm"
+        git config --global user.email "1gtm@appscode.com"
         git config --global \
-          url."https://x-access-token:${GITHUB_TOKEN}@github.com".insteadOf \
+          url."https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com".insteadOf \
           "https://github.com"
         # git remote set-url origin https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-        # git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
 
     - name: Set up QEMU
       id: qemu
@@ -183,17 +184,18 @@ jobs:
       with:
         go-version: '1.21'
 
-    # https://stackoverflow.com/a/58393457
     - name: Prepare git
+      env:
+        GITHUB_USER: 1gtm
+        GITHUB_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
       run: |
         set -x
-        git config --global user.name '1gtm'
-        git config --global user.email '1gtm@appscode.com'
+        git config --global user.name "1gtm"
+        git config --global user.email "1gtm@appscode.com"
         git config --global \
-          url."https://x-access-token:${GITHUB_TOKEN}@github.com".insteadOf \
+          url."https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com".insteadOf \
           "https://github.com"
         # git remote set-url origin https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-        # git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
 
     - name: Set up QEMU
       id: qemu
