@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        tag: [16.0-alpine, 15.4-alpine, 15.3-alpine, 15.2-alpine, 15.1-alpine, 15.0-alpine]
+        tag: [15.0-alpine]
     steps:
     - uses: actions/checkout@v3
 
@@ -73,8 +73,8 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y --no-install-recommends trivy
 
-    # - name: Setup upterm session
-    #   uses: lhotari/action-upterm@v1
+    - name: Setup upterm session
+      uses: lhotari/action-upterm@v1
 
     - name: Build
       run: |
