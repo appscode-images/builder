@@ -3,30 +3,32 @@ package main
 import (
 	"bytes"
 	"fmt"
+	"github.com/appscode-images/builder/api"
+	"github.com/appscode-images/builder/lib"
+	"github.com/olekukonko/tablewriter"
+	flag "github.com/spf13/pflag"
+	"gomodules.xyz/mailer"
 	"os"
 	"path/filepath"
 	"sort"
 	"strconv"
 	"strings"
 	"time"
-
-	"github.com/appscode-images/builder/api"
-	"github.com/appscode-images/builder/lib"
-	"github.com/olekukonko/tablewriter"
-	flag "github.com/spf13/pflag"
-	"gomodules.xyz/mailer"
 )
 
 func main() {
 	var name = flag.String("name", "", "Name of binary")
 	flag.Parse()
 
+	t := time.Now()
+	ts := t.UTC().Format("20060102")
+
 	dir, err := os.Getwd()
 	if err != nil {
 		panic(err)
 	}
 
-	reports, err := GatherReport(dir, *name)
+	reports, err := GatherReport(dir, *name, ts)
 	if err != nil {
 		panic(err)
 	}
@@ -62,7 +64,7 @@ func main() {
 	autoPromoteTags := make([]string, 0, len(reports))
 	for _, report := range reports {
 		if report.AutoPromote() {
-			autoPromoteTags = append(autoPromoteTags, report.Tag)
+			autoPromoteTags = append(autoPromoteTags, report.Tag+"_"+ts)
 		}
 	}
 	if len(autoPromoteTags) > 0 {
@@ -151,14 +153,12 @@ func (r TagReport) Strings() []string {
 	}
 }
 
-func GatherReport(dir, name string) ([]TagReport, error) {
+func GatherReport(dir, name, ts string) ([]TagReport, error) {
 	tags, err := lib.ListAppTags(dir, name)
 	if err != nil {
 		return nil, err
 	}
 
-	t := time.Now()
-	ts := t.UTC().Format("20060102")
 	sh := lib.NewShell()
 
 	reports := make([]TagReport, 0, len(tags))
