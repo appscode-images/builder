@@ -29,6 +29,7 @@ type Block struct {
 	Architectures map[string]*ArchInfo
 	GitCommit     string
 	Directory     string
+	File          string
 }
 
 type ArchInfo struct {
@@ -80,6 +81,11 @@ func (b Block) String() string {
 	if len(b.Directory) > 0 {
 		buf.WriteString("Directory: ")
 		buf.WriteString(b.Directory)
+		buf.WriteRune('\n')
+	}
+	if len(b.File) > 0 {
+		buf.WriteString("File: ")
+		buf.WriteString(b.File)
 		buf.WriteRune('\n')
 	}
 	return buf.String()

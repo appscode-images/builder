@@ -1,6 +1,7 @@
 Blocks:
 - Architectures: null
   Directory: percona-server-8.0
+  File: Dockerfile
   GitCommit: 565f49b8be3a1efa056fde70e10d638ad159516a
   Tags:
   - 8.0.34-26-centos
@@ -14,6 +15,7 @@ Blocks:
   - ps-8
 - Architectures: null
   Directory: percona-server-5.7
+  File: Dockerfile-dockerhub
   GitCommit: a11f997b281686769392ea14aa02daee97320c51
   Tags:
   - 5.7.43-centos
@@ -28,6 +30,7 @@ Blocks:
   - ps-5
 - Architectures: null
   Directory: percona-server-5.6
+  File: Dockerfile-dockerhub
   GitCommit: 4510d49bcce5cfce58a42c198d55399b144add83
   Tags:
   - 5.6.51-2-centos
@@ -38,30 +41,35 @@ Blocks:
   - ps-5.6
 - Architectures: null
   Directory: percona-server-mongodb-6.0
+  File: Dockerfile
   GitCommit: 80ab68b2d84c7c17c8cbc07edb35e35399fd0a54
   Tags:
   - psmdb-6.0.6
   - psmdb-6.0
 - Architectures: null
   Directory: percona-server-mongodb-5.0
+  File: Dockerfile
   GitCommit: 80ab68b2d84c7c17c8cbc07edb35e35399fd0a54
   Tags:
   - psmdb-5.0.18
   - psmdb-5.0
 - Architectures: null
   Directory: percona-server-mongodb-4.4
+  File: Dockerfile
   GitCommit: 80ab68b2d84c7c17c8cbc07edb35e35399fd0a54
   Tags:
   - psmdb-4.4.22
   - psmdb-4.4
 - Architectures: null
   Directory: percona-server-mongodb-4.2
+  File: Dockerfile
   GitCommit: 80ab68b2d84c7c17c8cbc07edb35e35399fd0a54
   Tags:
   - psmdb-4.2.24
   - psmdb-4.2
 - Architectures: null
   Directory: percona-server-8.0
+  File: Dockerfile
   GitCommit: 3f666ccdf6a9eed0e0505723fbe8b4954a105c99
   Tags:
   - 8.0.33-25-centos
@@ -69,6 +77,7 @@ Blocks:
   - ps-8.0.33-25
 - Architectures: null
   Directory: percona-server-5.7
+  File: Dockerfile-dockerhub
   GitCommit: 80ab68b2d84c7c17c8cbc07edb35e35399fd0a54
   Tags:
   - 5.7.39-centos
@@ -76,6 +85,7 @@ Blocks:
   - ps-5.7.39
 - Architectures: null
   Directory: percona-server-5.7
+  File: Dockerfile-dockerhub
   GitCommit: f1697b98ebb86a8d684c4192fa382b00ae1860ff
   Tags:
   - 5.7.35-centos
@@ -84,33 +94,39 @@ Blocks:
   - latest
 - Architectures: null
   Directory: percona-server-mongodb-5.0
+  File: Dockerfile
   GitCommit: 0003693083fc3b6a904fd83a63096705aff46cca
   Tags:
   - psmdb-5.0.10
 - Architectures: null
   Directory: percona-server-mongodb-4.4
+  File: Dockerfile
   GitCommit: 93dc9be5c30c1da42e8f2dad03da5e17e6bc89a9
   Tags:
   - psmdb-4.4.15
 - Architectures: null
   Directory: percona-server-mongodb-4.2
+  File: Dockerfile
   GitCommit: ee35507eeade832e18041d39ac67637202733e49
   Tags:
   - psmdb-4.2.21
 - Architectures: null
   Directory: percona-server-mongodb-4.0
+  File: Dockerfile
   GitCommit: ef97f5cd2c747905dc6d724c245cce9f3e2ce0a1
   Tags:
   - psmdb-4.0.27
   - psmdb-4.0
 - Architectures: null
   Directory: percona-server-mongodb-3.6
+  File: Dockerfile
   GitCommit: b32c7e632fe0d8b058ce32c0430a1783cfd557a0
   Tags:
   - psmdb-3.6.23
   - psmdb-3.6
 - Architectures: null
   Directory: percona-server-8.0
+  File: Dockerfile
   GitCommit: 97417b76d33a5ffb62a7e20723752a25fdbad5e7
   Tags:
   - 8.0.32-24-centos
@@ -118,6 +134,7 @@ Blocks:
   - ps-8.0.32-24
 - Architectures: null
   Directory: percona-server-8.0
+  File: Dockerfile
   GitCommit: f7a1ff5101f7572296fec3f4f4d0d7a666a219a8
   Tags:
   - 8.0.29-21-centos
@@ -125,11 +142,13 @@ Blocks:
   - ps-8.0.29-21
 - Architectures: null
   Directory: percona-server-mongodb-5.0
+  File: Dockerfile
   GitCommit: 3a74ab4ca3bed951ecfc9cdd01fac684c9d6cb46
   Tags:
   - psmdb-5.0.9
 - Architectures: null
   Directory: percona-server-8.0
+  File: Dockerfile
   GitCommit: 51f1ad07ec20bbbc1995075a94a6261738f8f54d
   Tags:
   - 8.0.28-20-centos
@@ -137,16 +156,19 @@ Blocks:
   - ps-8.0.28-20
 - Architectures: null
   Directory: percona-server-mongodb-4.4
+  File: Dockerfile
   GitCommit: ceb8bb7b11e5f5249e445d2b643208f1f46bacd7
   Tags:
   - psmdb-4.4.14
 - Architectures: null
   Directory: percona-server-mongodb-4.2
+  File: Dockerfile
   GitCommit: 8c98675f535ee90433047ca1cf55e25edb89f174
   Tags:
   - psmdb-4.2.20
 - Architectures: null
   Directory: percona-server-8.0
+  File: Dockerfile
   GitCommit: c765a106e6eefd9d4857180356e87320d3638401
   Tags:
   - 8.0.28-19-centos
@@ -154,21 +176,25 @@ Blocks:
   - ps-8.0.28-19
 - Architectures: null
   Directory: percona-server-mongodb-5.0
+  File: Dockerfile
   GitCommit: 1b6a29d658f756402a8163946c4c2eb55168555a
   Tags:
   - psmdb-5.0.8
 - Architectures: null
   Directory: percona-server-mongodb-4.4
+  File: Dockerfile
   GitCommit: 8d6335b61f2e36781f15b2b3d47443288b5c0714
   Tags:
   - psmdb-4.4.13
 - Architectures: null
   Directory: percona-server-mongodb-4.2
+  File: Dockerfile
   GitCommit: d75b2d14a667c08337e8c6b89da8df1eb5100929
   Tags:
   - psmdb-4.2.19
 - Architectures: null
   Directory: percona-server-8.0
+  File: Dockerfile
   GitCommit: d5906da0b6efb98878f887d22e78e3cf824a123b
   Tags:
   - 8.0.27-18-centos
@@ -176,26 +202,31 @@ Blocks:
   - ps-8.0.27-18
 - Architectures: null
   Directory: percona-server-mongodb-5.0
+  File: Dockerfile
   GitCommit: f4f93f0d6e5565cea9c1c9362aff2869d892e74c
   Tags:
   - psmdb-5.0.7
 - Architectures: null
   Directory: percona-server-mongodb-5.0
+  File: Dockerfile
   GitCommit: dc3e493a92bc2de19cb6877adb155fd4c255fd52
   Tags:
   - psmdb-5.0.3
 - Architectures: null
   Directory: percona-server-mongodb-4.2
+  File: Dockerfile
   GitCommit: e4a1fcc85ae4668288429738f28f830b89382d50
   Tags:
   - psmdb-4.2.17
 - Architectures: null
   Directory: percona-server-mongodb-4.4
+  File: Dockerfile
   GitCommit: e840c5f10cb4d9564bb906ac4be446fd0f01501b
   Tags:
   - psmdb-4.4.9
 - Architectures: null
   Directory: percona-server-8.0
+  File: Dockerfile
   GitCommit: 54afc5b4df09db29d7527e6cf0c22e4ebe208687
   Tags:
   - 8.0.26-17-centos
@@ -203,6 +234,7 @@ Blocks:
   - ps-8.0.26-17
 - Architectures: null
   Directory: percona-server-8.0
+  File: Dockerfile
   GitCommit: 8d6b8c907e7c5f4e4d1962cce9d5c010f72450a6
   Tags:
   - 8.0.26-16-centos
@@ -210,6 +242,7 @@ Blocks:
   - ps-8.0.26-16
 - Architectures: null
   Directory: percona-server-5.6
+  File: Dockerfile-dockerhub
   GitCommit: f31a00a8b59ee17f9305403b109fd1eb50256493
   Tags:
   - 5.6.51-centos
@@ -217,6 +250,7 @@ Blocks:
   - ps-5.6.51
 - Architectures: null
   Directory: percona-server-8.0
+  File: Dockerfile
   GitCommit: 12d09e9d5c80b83e65f345b1ae65f25d13c2abfd
   Tags:
   - 8.0.25-15-centos
@@ -224,26 +258,31 @@ Blocks:
   - ps-8.0.25-15
 - Architectures: null
   Directory: percona-server-mongodb-5.0
+  File: Dockerfile
   GitCommit: 5d67f4752d9a9a8241ab5adb9143977357eebc76
   Tags:
   - psmdb-5.0.2
 - Architectures: null
   Directory: percona-server-mongodb-4.2
+  File: Dockerfile
   GitCommit: a7100b4952e9a1f2258a1f4283d53f8dccf12d95
   Tags:
   - psmdb-4.2.15
 - Architectures: null
   Directory: percona-server-mongodb-4.4
+  File: Dockerfile
   GitCommit: efdf70d37009e9e80db19833a06b0f46f0a8ffe3
   Tags:
   - psmdb-4.4.8
 - Architectures: null
   Directory: percona-server-mongodb-4.0
+  File: Dockerfile
   GitCommit: cca71af1b9adb64eec43715f91de43ac761393c4
   Tags:
   - psmdb-4.0.26
 - Architectures: null
   Directory: percona-server-5.7
+  File: Dockerfile-dockerhub
   GitCommit: 5e8402df063be2a8174bedff478391dbc881ff2b
   Tags:
   - 5.7.34-centos
@@ -251,21 +290,25 @@ Blocks:
   - ps-5.7.34
 - Architectures: null
   Directory: percona-server-mongodb-4.4
+  File: Dockerfile
   GitCommit: c6c38e717a00144f7ee7faa488741b6ea60235cc
   Tags:
   - psmdb-4.4.6
 - Architectures: null
   Directory: percona-server-mongodb-4.0
+  File: Dockerfile
   GitCommit: 9e19345b462f76e908b5c9b2c5ffdbc4fb9dd65d
   Tags:
   - psmdb-4.0.25
 - Architectures: null
   Directory: percona-server-mongodb-4.2
+  File: Dockerfile
   GitCommit: 5a7b7589afe005db9e296ebb2970225b5d5eb926
   Tags:
   - psmdb-4.2.14
 - Architectures: null
   Directory: percona-server-8.0
+  File: Dockerfile
   GitCommit: 93b3cf2b7693c9dda94178fb3ce1d630e7f47a72
   Tags:
   - 8.0.23-14-centos
@@ -273,6 +316,7 @@ Blocks:
   - ps-8.0.23-14
 - Architectures: null
   Directory: percona-server-5.7
+  File: Dockerfile-dockerhub
   GitCommit: 9551c99eb560904aa3ea8a69c1e7f7fff3554c2b
   Tags:
   - 5.7.33-centos
@@ -280,21 +324,25 @@ Blocks:
   - ps-5.7.33
 - Architectures: null
   Directory: percona-server-mongodb-4.4
+  File: Dockerfile
   GitCommit: 4bc78f495f344a3c0cef5a321d52cee5b95047b9
   Tags:
   - psmdb-4.4.5
 - Architectures: null
   Directory: percona-server-mongodb-4.0
+  File: Dockerfile
   GitCommit: 123ac8939a7d8cbf265fb8a122ff1fe469445d93
   Tags:
   - psmdb-4.0.23
 - Architectures: null
   Directory: percona-server-mongodb-4.2
+  File: Dockerfile
   GitCommit: 15df2ea172d3e0c73bb8482612cfa907e43df72c
   Tags:
   - psmdb-4.2.13
 - Architectures: null
   Directory: percona-server-8.0
+  File: Dockerfile
   GitCommit: 0a035c8a144cc12eb4d4f8bb45e01499b57e787c
   Tags:
   - 8.0.22-13-centos
@@ -302,26 +350,31 @@ Blocks:
   - ps-8.0.22-13
 - Architectures: null
   Directory: percona-server-mongodb-4.4
+  File: Dockerfile
   GitCommit: 94082e0db0c0b4439386895f437ca73ac6926d29
   Tags:
   - psmdb-4.4.4
 - Architectures: null
   Directory: percona-server-mongodb-4.2
+  File: Dockerfile
   GitCommit: f9384222b77d9c8b6f36820714715b1043362016
   Tags:
   - psmdb-4.2.12
 - Architectures: null
   Directory: percona-server-mongodb-3.6
+  File: Dockerfile
   GitCommit: 34c908f9b1620e6b963d478e4c860d2c3f760a44
   Tags:
   - psmdb-3.6.22
 - Architectures: null
   Directory: percona-server-mongodb-4.0
+  File: Dockerfile
   GitCommit: b1dab7b1399c5a1d9491c6395e0e89ebacca316d
   Tags:
   - psmdb-4.0.22
 - Architectures: null
   Directory: percona-server-5.7
+  File: Dockerfile-dockerhub
   GitCommit: 8c97acb80f565c2d0d9108b25dd0e55cd65dc14a
   Tags:
   - 5.7.32-centos
@@ -329,16 +382,19 @@ Blocks:
   - ps-5.7.32
 - Architectures: null
   Directory: percona-server-mongodb-4.4
+  File: Dockerfile
   GitCommit: 15e331a1478a320fc98a7bfecaf351d49935ae10
   Tags:
   - psmdb-4.4.3
 - Architectures: null
   Directory: percona-server-mongodb-3.6
+  File: Dockerfile
   GitCommit: a6b757aa27ede50c67c2a721be67a315b15e7240
   Tags:
   - psmdb-3.6.21
 - Architectures: null
   Directory: percona-server-5.6
+  File: Dockerfile-dockerhub
   GitCommit: 6852dbd1bf75fb51b9933c77fb1e2b764bef06f8
   Tags:
   - 5.6.50-centos
@@ -346,31 +402,37 @@ Blocks:
   - ps-5.6.50
 - Architectures: null
   Directory: percona-server-mongodb-4.2
+  File: Dockerfile
   GitCommit: b1c25c95a44bf603e4828754ce698c8160e875c8
   Tags:
   - psmdb-4.2.11
 - Architectures: null
   Directory: percona-server-mongodb-4.4
+  File: Dockerfile
   GitCommit: 480cc358dfaf0bae68d1e044f588289b66e70f72
   Tags:
   - psmdb-4.4.2
 - Architectures: null
   Directory: percona-server-mongodb-4.0
+  File: Dockerfile
   GitCommit: 2b67535b5bde047e763001f2df8b802bede4f898
   Tags:
   - psmdb-4.0.21
 - Architectures: null
   Directory: percona-server-mongodb-4.4
+  File: Dockerfile
   GitCommit: 602119736d5c4426ab60fbd8c05cc081a73e975d
   Tags:
   - psmdb-4.4.1
 - Architectures: null
   Directory: percona-server-mongodb-4.2
+  File: Dockerfile
   GitCommit: 6eae66a6973515bc773161571b155a84f485a3ed
   Tags:
   - psmdb-4.2.10
 - Architectures: null
   Directory: percona-server-8.0
+  File: Dockerfile
   GitCommit: 40df1a9f66a3a36981f29a4d992b43085adc0128
   Tags:
   - 8.0.21-12-centos
@@ -378,11 +440,13 @@ Blocks:
   - ps-8.0.21-12
 - Architectures: null
   Directory: percona-server-mongodb-3.6
+  File: Dockerfile
   GitCommit: 10eca796491518ec22589d77160eb9269d613150
   Tags:
   - psmdb-3.6.20
 - Architectures: null
   Directory: percona-server.56
+  File: Dockerfile-dockerhub
   GitCommit: ab4eb080ef911c18322e891304180ad52c747716
   Tags:
   - 5.6.49-centos
@@ -390,6 +454,7 @@ Blocks:
   - ps-5.6.49
 - Architectures: null
   Directory: percona-server-5.7
+  File: Dockerfile-dockerhub
   GitCommit: 2f1defc65939af8e4a97f8056107b8a9c3e9af89
   Tags:
   - 5.7.31-centos
@@ -397,11 +462,13 @@ Blocks:
   - ps-5.7.31
 - Architectures: null
   Directory: percona-server-mongodb-4.0
+  File: Dockerfile
   GitCommit: edef48f13966c4581e7ee77138b24133ba70174b
   Tags:
   - psmdb-4.0.20
 - Architectures: null
   Directory: percona-server.80
+  File: Dockerfile
   GitCommit: 65855912b9946093cee42f987336440972405391
   Tags:
   - 8.0.20-11-centos
@@ -409,31 +476,37 @@ Blocks:
   - ps-8.0.20-11
 - Architectures: null
   Directory: percona-server-mongodb-4.2
+  File: Dockerfile
   GitCommit: 6962f2215220e998b357abcf20c31334adfeb506
   Tags:
   - psmdb-4.2.9
 - Architectures: null
   Directory: percona-server-mongodb-3.6
+  File: Dockerfile
   GitCommit: a949d60e22172d6329d6509253e6db254898217e
   Tags:
   - psmdb-3.6.19
 - Architectures: null
   Directory: percona-server-mongodb-4.4
+  File: Dockerfile
   GitCommit: 917358ddeaa19933ad0015ca9fe5d1ca4296634d
   Tags:
   - psmdb-4.4.0
 - Architectures: null
   Directory: percona-server-mongodb.42
+  File: Dockerfile
   GitCommit: b513dd76f769339c52a5722b12a7a92847c624d5
   Tags:
   - psmdb-4.2.8
 - Architectures: null
   Directory: percona-server-mongodb.40
+  File: Dockerfile
   GitCommit: 3a2779e6937f832e957980cc3847f5efa7658ea9
   Tags:
   - psmdb-4.0.19
 - Architectures: null
   Directory: percona-server.57
+  File: Dockerfile-dockerhub
   GitCommit: 722aecd7714aa6c2fa3e50ccaef1aef45b1ca5c1
   Tags:
   - 5.7.30-centos
@@ -441,11 +514,13 @@ Blocks:
   - ps-5.7.30
 - Architectures: null
   Directory: percona-server-mongodb.36
+  File: Dockerfile
   GitCommit: 3a2779e6937f832e957980cc3847f5efa7658ea9
   Tags:
   - psmdb-3.6.18
 - Architectures: null
   Directory: percona-server.56
+  File: Dockerfile-dockerhub
   GitCommit: 97f0dd85b9f99da75ea1b74727634ce15c1b5ea0
   Tags:
   - 5.6.48-centos
@@ -453,6 +528,7 @@ Blocks:
   - ps-5.6.47
 - Architectures: null
   Directory: percona-server.80
+  File: Dockerfile
   GitCommit: c5a71b2b629df714f6dbe25974d754209a3f3bb4
   Tags:
   - 8.0.19-10-centos
@@ -460,21 +536,25 @@ Blocks:
   - ps-8.0.19-10
 - Architectures: null
   Directory: percona-server-mongodb.42
+  File: Dockerfile
   GitCommit: 402748f15ad2dd3d28acd01bf820c5612b065993
   Tags:
   - psmdb-4.2.7
 - Architectures: null
   Directory: percona-server-mongodb.40
+  File: Dockerfile
   GitCommit: 46e9e40b837c631e383ef900c0f7ff3e2d02f916
   Tags:
   - psmdb-4.0.18
 - Architectures: null
   Directory: percona-server-mongodb.42
+  File: Dockerfile
   GitCommit: c1b9ca0e068093c6eec7c85816f9d49e0b0b4a6a
   Tags:
   - psmdb-4.2.6
 - Architectures: null
   Directory: percona-server.57
+  File: Dockerfile-dockerhub
   GitCommit: 66a99d41ad3c8b25a7529dc3ea6d767ef0d525ba
   Tags:
   - 5.7.29-centos
@@ -482,37 +562,44 @@ Blocks:
   - ps-5.7.29
 - Architectures: null
   Directory: percona-server-mongodb.36
+  File: Dockerfile
   GitCommit: 6601b120cc7594fb9603268834b507d855e019dd
   Tags:
   - psmdb-3.6.17
 - Architectures: null
   Directory: percona-server.56
+  File: Dockerfile-dockerhub
   GitCommit: fc7952f19d7e3e55477a9baee2f6d4d1092431f6
   Tags:
   - 5.6.47-centos
   - 5.6.47
 - Architectures: null
   Directory: percona-server-mongodb.42
+  File: Dockerfile
   GitCommit: 6903b47a358002083d7cd6da28f67f7692e83591
   Tags:
   - psmdb-4.2.5
 - Architectures: null
   Directory: percona-server-mongodb.40
+  File: Dockerfile
   GitCommit: a0a72c548fd7a8759c9c6fa16c0b63e910e816e4
   Tags:
   - psmdb-4.0.17
 - Architectures: null
   Directory: percona-server-mongodb.42
+  File: Dockerfile
   GitCommit: 8b829bb8e40a4080abcd137c73587f45f1ec36ca
   Tags:
   - psmdb-4.2.3
 - Architectures: null
   Directory: percona-server-mongodb.40
+  File: Dockerfile
   GitCommit: a16ad69d05890a34fef80450e90c26d134c92686
   Tags:
   - psmdb-4.0.16
 - Architectures: null
   Directory: percona-server.80
+  File: Dockerfile
   GitCommit: fc7952f19d7e3e55477a9baee2f6d4d1092431f6
   Tags:
   - 8.0.18-9-centos
@@ -520,21 +607,25 @@ Blocks:
   - ps-8.0.18-9
 - Architectures: null
   Directory: percona-server-mongodb.42
+  File: Dockerfile
   GitCommit: fc7952f19d7e3e55477a9baee2f6d4d1092431f6
   Tags:
   - psmdb-4.2.2
 - Architectures: null
   Directory: percona-server-mongodb.40
+  File: Dockerfile
   GitCommit: fc7952f19d7e3e55477a9baee2f6d4d1092431f6
   Tags:
   - psmdb-4.0.14
 - Architectures: null
   Directory: percona-server-mongodb.36
+  File: Dockerfile
   GitCommit: fc7952f19d7e3e55477a9baee2f6d4d1092431f6
   Tags:
   - psmdb-3.6.16
 - Architectures: null
   Directory: percona-server.57
+  File: Dockerfile-dockerhub
   GitCommit: fc7952f19d7e3e55477a9baee2f6d4d1092431f6
   Tags:
   - 5.7.28-centos
@@ -542,6 +633,7 @@ Blocks:
   - ps-5.7.28
 - Architectures: null
   Directory: percona-server.80
+  File: Dockerfile
   GitCommit: 2e895190352332559d15e3847b82124e7fd0ed03
   Tags:
   - 8.0.16-7-centos
@@ -549,6 +641,7 @@ Blocks:
   - ps-8.0.16-7
 - Architectures: null
   Directory: percona-server.57
+  File: Dockerfile-dockerhub
   GitCommit: 9749495eb09e8611ec0713d6fc404eaa0cfae1d4
   Tags:
   - 5.7.26-centos
@@ -556,6 +649,7 @@ Blocks:
   - ps-5.7.26
 - Architectures: null
   Directory: percona-server.56
+  File: Dockerfile-dockerhub
   GitCommit: eb40779081c84f00206d53b4d3d73aa76af458ef
   Tags:
   - 5.6.45-centos
@@ -563,16 +657,19 @@ Blocks:
   - ps-5.6.45
 - Architectures: null
   Directory: percona-server-mongodb.40
+  File: Dockerfile
   GitCommit: ea1ee6f37e54593a829f282c623daefeeae0e7b6
   Tags:
   - psmdb-4.0.10
 - Architectures: null
   Directory: percona-server-mongodb.36
+  File: Dockerfile
   GitCommit: d1495383efaab7925dc3fd631386b068717d5738
   Tags:
   - psmdb-3.6.12
 - Architectures: null
   Directory: percona-server.56
+  File: Dockerfile-dockerhub
   GitCommit: 486e77b0b933037e992836cda21ac6785720f1dc
   Tags:
   - 5.6.44-centos
@@ -580,6 +677,7 @@ Blocks:
   - ps-5.6.44
 - Architectures: null
   Directory: percona-server.80
+  File: Dockerfile
   GitCommit: 5a21c5eaacf5542d510112c681bc4f88c552becb
   Tags:
   - 8.0.15-6-centos
@@ -587,11 +685,13 @@ Blocks:
   - ps-8.0.15-6
 - Architectures: null
   Directory: percona-server-mongodb.40
+  File: Dockerfile
   GitCommit: f35ca9ab772c18440aaecfb6ec449172f3173df5
   Tags:
   - psmdb-4.0.9
 - Architectures: null
   Directory: percona-server.57
+  File: Dockerfile-dockerhub
   GitCommit: cedbd67233e531efa730eef3de64a0ad2bd65739
   Tags:
   - 5.7.25-centos
@@ -599,6 +699,7 @@ Blocks:
   - ps-5.7.25
 - Architectures: null
   Directory: percona-server.56
+  File: Dockerfile-dockerhub
   GitCommit: c0bbda5f3e2c3a32ac45f22c51f5282d77afd5cc
   Tags:
   - 5.6.43-centos
@@ -606,6 +707,7 @@ Blocks:
   - ps-5.6.43
 - Architectures: null
   Directory: percona-server.80
+  File: Dockerfile
   GitCommit: 9557526f4c48078ecb58167cf02ce808407ee273
   Tags:
   - 8.0.15-5-centos
@@ -613,16 +715,19 @@ Blocks:
   - ps-8.0.15-5
 - Architectures: null
   Directory: percona-server-mongodb.36
+  File: Dockerfile
   GitCommit: 61192e2e81b7576f68c58637283dfff8284b2595
   Tags:
   - psmdb-3.6.11
 - Architectures: null
   Directory: percona-server-mongodb.40
+  File: Dockerfile
   GitCommit: 9e691d7409c1a246fc6440809ddccf36458b6b04
   Tags:
   - psmdb-4.0.6
 - Architectures: null
   Directory: percona-server.80
+  File: Dockerfile
   GitCommit: bafd0b096ca7de9b215e80cd2f97041e4bc9b5ae
   Tags:
   - 8.0.13-4-centos
@@ -630,16 +735,19 @@ Blocks:
   - ps-8.0.13-4
 - Architectures: null
   Directory: percona-server-mongodb.36
+  File: Dockerfile
   GitCommit: 83ad3858cc445ccb0ba96787210caf304b4dd1c5
   Tags:
   - psmdb-3.6.10
 - Architectures: null
   Directory: percona-server-mongodb.40
+  File: Dockerfile
   GitCommit: 8863e5e19d6b1cf1c0d5f9c60ae334718803ac2a
   Tags:
   - psmdb-4.0.5
 - Architectures: null
   Directory: percona-server.57
+  File: Dockerfile-dockerhub
   GitCommit: ecfd4173d627d5b5548e8059d1828a09af867059
   Tags:
   - 5.7.24-centos
@@ -647,11 +755,13 @@ Blocks:
   - ps-5.7.24
 - Architectures: null
   Directory: percona-server-mongodb.36
+  File: Dockerfile
   GitCommit: 7cf9dd5e3c1267e635067ad29a98e031e8e3fb6d
   Tags:
   - psmdb-3.6.8
 - Architectures: null
   Directory: percona-server.56
+  File: Dockerfile-dockerhub
   GitCommit: 290549e8e7ac5acbe4a3aa76ce282bc5e0e21043
   Tags:
   - 5.6.42-centos
@@ -659,6 +769,7 @@ Blocks:
   - ps-5.6.42
 - Architectures: null
   Directory: percona-server.80
+  File: Dockerfile
   GitCommit: 9f4a229bf338497d47b7216929a53f715fdade17
   Tags:
   - 8.0.12-2rc1-centos
@@ -666,12 +777,14 @@ Blocks:
   - ps-8.0.12-2rc1
 - Architectures: null
   Directory: percona-server.57
+  File: Dockerfile-dockerhub
   GitCommit: 290549e8e7ac5acbe4a3aa76ce282bc5e0e21043
   Tags:
   - 5.7.23-centos
   - 5.7.23
 - Architectures: null
   Directory: percona-server.56
+  File: Dockerfile-dockerhub
   GitCommit: bd9111fa72764033b89e4beaaa71e0523231069b
   Tags:
   - 5.6.41-centos
@@ -684,6 +797,7 @@ Blocks:
       GitCommit: ""
       GitFetch: ""
   Directory: "5.7"
+  File: ""
   GitCommit: 3cc4caa4d34bf744283d48af4b11f19e28217e3f
   Tags:
   - 5.7.23-stretch
@@ -698,6 +812,7 @@ Blocks:
       GitCommit: ""
       GitFetch: ""
   Directory: "5.6"
+  File: ""
   GitCommit: c21319e084e50e831f33767d8ee1110711f93472
   Tags:
   - 5.6.41-stretch
@@ -710,6 +825,7 @@ Blocks:
       GitCommit: ""
       GitFetch: ""
   Directory: "5.5"
+  File: ""
   GitCommit: c21319e084e50e831f33767d8ee1110711f93472
   Tags:
   - 5.5.61-stretch
@@ -724,6 +840,7 @@ Blocks:
       GitCommit: ""
       GitFetch: ""
   Directory: "5.7"
+  File: ""
   GitCommit: dacba4148dfdda9f0ff28cd2a42117c0ee3b86b2
   Tags:
   - 5.7.22-stretch
@@ -736,6 +853,7 @@ Blocks:
       GitCommit: ""
       GitFetch: ""
   Directory: "5.6"
+  File: ""
   GitCommit: dacba4148dfdda9f0ff28cd2a42117c0ee3b86b2
   Tags:
   - 5.6.40-stretch
@@ -748,6 +866,7 @@ Blocks:
       GitCommit: ""
       GitFetch: ""
   Directory: "5.5"
+  File: ""
   GitCommit: dacba4148dfdda9f0ff28cd2a42117c0ee3b86b2
   Tags:
   - 5.5.60-stretch
@@ -766,6 +885,7 @@ Blocks:
       GitCommit: ""
       GitFetch: ""
   Directory: "5.7"
+  File: ""
   GitCommit: 2bc351a6c89c243851efc828d7ec19a21663df80
   Tags:
   - 5.7.22-jessie
@@ -786,6 +906,7 @@ Blocks:
       GitCommit: ""
       GitFetch: ""
   Directory: "5.6"
+  File: ""
   GitCommit: 2bc351a6c89c243851efc828d7ec19a21663df80
   Tags:
   - 5.6.40-jessie
@@ -804,162 +925,194 @@ Blocks:
       GitCommit: ""
       GitFetch: ""
   Directory: "5.5"
+  File: ""
   GitCommit: 2bc351a6c89c243851efc828d7ec19a21663df80
   Tags:
   - 5.5.60-jessie
   - 5.5-jessie
 - Architectures: null
   Directory: "5.7"
+  File: ""
   GitCommit: eda57cc04e59bc5d98ae3b2e5dea46f3f489c665
   Tags:
   - 5.7.21
 - Architectures: null
   Directory: "5.6"
+  File: ""
   GitCommit: a3ba3b6a69a6c7a21e9ea2d4a5b746b9829039eb
   Tags:
   - 5.6.39
 - Architectures: null
   Directory: "5.5"
+  File: ""
   GitCommit: 6b511c1afee7545d8e3ebe307d3186cf7c92bb2d
   Tags:
   - 5.5.59
 - Architectures: null
   Directory: "5.7"
+  File: ""
   GitCommit: 4ef7358aa77fb90c21003a61c09c6c4c8399284e
   Tags:
   - 5.7.20
 - Architectures: null
   Directory: "5.6"
+  File: ""
   GitCommit: d05195d80f65146ba72189947097fefd1bcf694c
   Tags:
   - 5.6.38
 - Architectures: null
   Directory: "5.5"
+  File: ""
   GitCommit: 7b5f657baecb23a2638658e05ce9f466b181812c
   Tags:
   - 5.5.58
 - Architectures: null
   Directory: "5.7"
+  File: ""
   GitCommit: 52abf70205354001f24432c0c677be4a0264ef47
   Tags:
   - 5.7.19
 - Architectures: null
   Directory: "5.6"
+  File: ""
   GitCommit: 52abf70205354001f24432c0c677be4a0264ef47
   Tags:
   - 5.6.37
 - Architectures: null
   Directory: "5.5"
+  File: ""
   GitCommit: 52abf70205354001f24432c0c677be4a0264ef47
   Tags:
   - 5.5.57
 - Architectures: null
   Directory: "5.7"
+  File: ""
   GitCommit: 48c7ca0ae7473f3127650f45f21e8ea85d7bb4d2
   Tags:
   - 5.7.18
 - Architectures: null
   Directory: "5.6"
+  File: ""
   GitCommit: bfff0f74903bf6db64b5d1ca85968e3546f039a5
   Tags:
   - 5.6.36
 - Architectures: null
   Directory: "5.5"
+  File: ""
   GitCommit: 48c7ca0ae7473f3127650f45f21e8ea85d7bb4d2
   Tags:
   - 5.5.55
 - Architectures: null
   Directory: "5.7"
+  File: ""
   GitCommit: 7d15968ddc8b1966098324d8dac0baf03ab7f9e2
   Tags:
   - 5.7.17
 - Architectures: null
   Directory: "5.6"
+  File: ""
   GitCommit: 14bca28392a7571d5288affb108acd4fc794f104
   Tags:
   - 5.6.35
 - Architectures: null
   Directory: "5.5"
+  File: ""
   GitCommit: e75f7e598d0b12bfa7cee85496f5311f00ecc46f
   Tags:
   - 5.5.54
 - Architectures: null
   Directory: "5.6"
+  File: ""
   GitCommit: 6c829dccb3b3ec43289b5721bf48b55801b49cdd
   Tags:
   - 5.6.34
 - Architectures: null
   Directory: "5.7"
+  File: ""
   GitCommit: 6c829dccb3b3ec43289b5721bf48b55801b49cdd
   Tags:
   - 5.7.16
 - Architectures: null
   Directory: "5.5"
+  File: ""
   GitCommit: 6c829dccb3b3ec43289b5721bf48b55801b49cdd
   Tags:
   - 5.5.53
 - Architectures: null
   Directory: "5.7"
+  File: ""
   GitCommit: ab693a100d0b91ac3ddfd404ca38b4a07df37643
   Tags:
   - 5.7.15
 - Architectures: null
   Directory: "5.6"
+  File: ""
   GitCommit: 0366da072fe5dc95af26d8a9f9ace48c72670720
   Tags:
   - 5.6.33
 - Architectures: null
   Directory: "5.5"
+  File: ""
   GitCommit: 0366da072fe5dc95af26d8a9f9ace48c72670720
   Tags:
   - 5.5.52
 - Architectures: null
   Directory: "5.7"
+  File: ""
   GitCommit: 0a7d6078d510cdb089b1d5861171f63db1e11749
   Tags:
   - 5.7.14
 - Architectures: null
   Directory: "5.6"
+  File: ""
   GitCommit: 9688bf1b615fd31c56273057ed170f6068908310
   Tags:
   - 5.6.32
 - Architectures: null
   Directory: "5.5"
+  File: ""
   GitCommit: 5bf6984507572e1c26ff9466940797c3e40973ba
   Tags:
   - 5.5.51
 - Architectures: null
   Directory: "5.7"
+  File: ""
   GitCommit: 9f24653b2c4dd2e40cdced347c0ca388b8ab0cb2
   Tags:
   - 5.7.13
 - Architectures: null
   Directory: "5.6"
+  File: ""
   GitCommit: 9f24653b2c4dd2e40cdced347c0ca388b8ab0cb2
   Tags:
   - 5.6.31
 - Architectures: null
   Directory: "5.5"
+  File: ""
   GitCommit: 9f24653b2c4dd2e40cdced347c0ca388b8ab0cb2
   Tags:
   - 5.5.50
 - Architectures: null
   Directory: "5.5"
+  File: ""
   GitCommit: 4501310f267a20434f10b28a8e1be660a3a09439
   Tags:
   - 5.5.49
 - Architectures: null
   Directory: "5.6"
+  File: ""
   GitCommit: 5981db386679e99039de1104a28920939acf59fc
   Tags:
   - 5.6.30
 - Architectures: null
   Directory: "5.7"
+  File: ""
   GitCommit: 340269718642a7acc4580e398121ba5462308730
   Tags:
   - 5.7.12
 - Architectures: null
   Directory: percona-server-8.0
+  File: Dockerfile
   GitCommit: eff75ab7bfd8f1f36b3cfbacd13784c884ff5d95
   Tags:
   - 8.0.31-23-centos

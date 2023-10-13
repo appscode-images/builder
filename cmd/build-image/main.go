@@ -230,6 +230,8 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, b *api.Block, name, ta
 		}
 		if info.File != "" {
 			args = append(args, "-f", info.File)
+		} else if b.File != "" {
+			args = append(args, "-f", b.File)
 		}
 		args = append(args, ".")
 		err = sh.Command("docker", args...).Run()

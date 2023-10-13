@@ -309,6 +309,7 @@ func processBlock(h *api.AppHistory, b *api.Block) *api.Block {
 			Architectures: b.Architectures,
 			GitCommit:     b.GitCommit,
 			Directory:     b.Directory,
+			File:          b.File,
 		}
 		h.KnownTags.Insert(newTags...)
 	}
@@ -412,6 +413,11 @@ func ParseLibraryFileContent(appName string, lines []string) (*api.App, error) {
 					curBlock = new(api.Block)
 				}
 				curBlock.Directory = parts[0]
+			case "File":
+				if curBlock == nil {
+					curBlock = new(api.Block)
+				}
+				curBlock.File = parts[0]
 			default:
 				klog.V(5).InfoS("ignoring property", before, after)
 			}
