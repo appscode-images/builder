@@ -211,7 +211,7 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, b *api.Block, name, ta
 
 	var archImages []any
 	for arch, info := range b.Architectures {
-		if !contains(api.PLATFORM_ARCHS, arch) {
+		if !lib.SupportedArch(arch) {
 			continue
 		}
 

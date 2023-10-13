@@ -6,6 +6,14 @@ import (
 	"strings"
 )
 
+func SupportedArch(arch string) bool {
+	return arch == "amd64" ||
+		arch == "x86_64" ||
+		arch == "arm64" ||
+		arch == "arm64v8" ||
+		arch == "aarch64"
+}
+
 func ListAppTags(dir, name string) ([]string, error) {
 	filename := filepath.Join(dir, "library", name, "build_tags.txt")
 	data, err := os.ReadFile(filename)
