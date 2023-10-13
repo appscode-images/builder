@@ -7,10 +7,10 @@ Blocks:
       GitCommit: ""
       GitFetch: ""
   Directory: windows/1809
-  GitCommit: d9507badace6c064417d852daeea402d29ec0707
+  GitCommit: 9c7773b44918428aed9d425932dbd220e700fed3
   Tags:
-  - v3.0.0-beta3-windowsservercore-1809
-  - 3.0.0-beta3-windowsservercore-1809
+  - v3.0.0-beta4-windowsservercore-1809
+  - 3.0.0-beta4-windowsservercore-1809
   - v3.0-windowsservercore-1809
   - 3.0-windowsservercore-1809
   - beaufort-windowsservercore-1809
@@ -40,10 +40,10 @@ Blocks:
       GitCommit: ""
       GitFetch: ""
   Directory: alpine
-  GitCommit: d9507badace6c064417d852daeea402d29ec0707
+  GitCommit: 9c7773b44918428aed9d425932dbd220e700fed3
   Tags:
-  - v3.0.0-beta3
-  - 3.0.0-beta3
+  - v3.0.0-beta4
+  - 3.0.0-beta4
   - v3.0
   - "3.0"
   - beaufort
@@ -97,6 +97,48 @@ Blocks:
   - "2.10"
   - saintmarcelin
   - latest
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: windows/1809
+  GitCommit: d9507badace6c064417d852daeea402d29ec0707
+  Tags:
+  - v3.0.0-beta3-windowsservercore-1809
+  - 3.0.0-beta3-windowsservercore-1809
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: alpine
+  GitCommit: d9507badace6c064417d852daeea402d29ec0707
+  Tags:
+  - v3.0.0-beta3
+  - 3.0.0-beta3
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -10237,6 +10279,8 @@ KnownTags:
   3.0.0-beta2-windowsservercore-1809: {}
   3.0.0-beta3: {}
   3.0.0-beta3-windowsservercore-1809: {}
+  3.0.0-beta4: {}
+  3.0.0-beta4-windowsservercore-1809: {}
   alpine: {}
   banon: {}
   banon-windowsservercore-1809: {}
@@ -10876,6 +10920,8 @@ KnownTags:
   v3.0.0-beta2-windowsservercore-1809: {}
   v3.0.0-beta3: {}
   v3.0.0-beta3-windowsservercore-1809: {}
+  v3.0.0-beta4: {}
+  v3.0.0-beta4-windowsservercore-1809: {}
   vacherin: {}
   vacherin-windowsservercore-1809: {}
   windowsservercore-1809: {}

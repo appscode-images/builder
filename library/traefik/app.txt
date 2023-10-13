@@ -1,13 +1,13 @@
 GitRepo: https://github.com/traefik/traefik-library-image.git
 
-Tags: v3.0.0-beta3-windowsservercore-1809,3.0.0-beta3-windowsservercore-1809,v3.0-windowsservercore-1809,3.0-windowsservercore-1809,beaufort-windowsservercore-1809
+Tags: v3.0.0-beta4-windowsservercore-1809,3.0.0-beta4-windowsservercore-1809,v3.0-windowsservercore-1809,3.0-windowsservercore-1809,beaufort-windowsservercore-1809
 Architectures: windows-amd64
-GitCommit: d9507badace6c064417d852daeea402d29ec0707
+GitCommit: 9c7773b44918428aed9d425932dbd220e700fed3
 Directory: windows/1809
 
-Tags: v3.0.0-beta3,3.0.0-beta3,v3.0,3.0,beaufort
+Tags: v3.0.0-beta4,3.0.0-beta4,v3.0,3.0,beaufort
 Architectures: amd64,arm32v6,arm64v8,s390x
-GitCommit: d9507badace6c064417d852daeea402d29ec0707
+GitCommit: 9c7773b44918428aed9d425932dbd220e700fed3
 Directory: alpine
 
 Tags: v2.10.5-windowsservercore-1809,2.10.5-windowsservercore-1809,v2.10-windowsservercore-1809,2.10-windowsservercore-1809,saintmarcelin-windowsservercore-1809,windowsservercore-1809
@@ -18,6 +18,16 @@ Directory: windows/1809
 Tags: v2.10.5,2.10.5,v2.10,2.10,saintmarcelin,latest
 Architectures: amd64,arm32v6,arm64v8,s390x
 GitCommit: 71a4619eca4f504c7034876c171626c1755944f3
+Directory: alpine
+
+Tags: v3.0.0-beta3-windowsservercore-1809,3.0.0-beta3-windowsservercore-1809
+Architectures: windows-amd64
+GitCommit: d9507badace6c064417d852daeea402d29ec0707
+Directory: windows/1809
+
+Tags: v3.0.0-beta3,3.0.0-beta3
+Architectures: amd64,arm32v6,arm64v8,s390x
+GitCommit: d9507badace6c064417d852daeea402d29ec0707
 Directory: alpine
 
 Tags: v2.10.4-windowsservercore-1809,2.10.4-windowsservercore-1809
@@ -1501,9 +1511,9 @@ GitCommit: 7fdb3306ad96133928541d5305b771173aab0313
 Directory: alpine
 
 Tags: v1.7.14,1.7.14
-amd64-Directory: scratch/amd64
 arm32v6-Directory: scratch/arm
 arm64v8-Directory: scratch/arm64
+amd64-Directory: scratch/amd64
 Architectures: amd64,arm32v6,arm64v8
 GitCommit: 1220871969fc11f5e619bba4de3355e695fe3061
 
@@ -1565,9 +1575,9 @@ GitCommit: 48782ee0ce60ac90865ceff1788dd62720762805
 Directory: windows
 
 Tags: v1.7.13,1.7.13
+arm64v8-Directory: scratch/arm64
 amd64-Directory: scratch/amd64
 arm32v6-Directory: scratch/arm
-arm64v8-Directory: scratch/arm64
 Architectures: amd64,arm32v6,arm64v8
 GitCommit: 804c2801d233e05c1c36d64ec4da168f49358444
 
@@ -1599,9 +1609,9 @@ GitCommit: 8c0a8508ea75d5a491abadb7fc5bfa33b2beb3d7
 Directory: windows
 
 Tags: v2.0.0-alpha8,2.0.0-alpha8
-amd64-Directory: scratch/amd64
 arm64v8-Directory: scratch/arm64
 arm32v6-Directory: scratch/arm
+amd64-Directory: scratch/amd64
 Architectures: amd64,arm32v6,arm64v8
 GitCommit: 70857afb0be3c5b7f9c2be685fdfef62d5dcfa8c
 
@@ -1633,9 +1643,9 @@ GitCommit: b57f0c107717609f3c925f4fb012acd87e0c8aaa
 Directory: windows
 
 Tags: v2.0.0-alpha6,2.0.0-alpha6
+amd64-Directory: scratch/amd64
 arm64v8-Directory: scratch/arm64
 arm32v6-Directory: scratch/arm
-amd64-Directory: scratch/amd64
 Architectures: amd64,arm32v6,arm64v8
 GitCommit: 5caa8bfd30ded18ab840957dd6859ae73a912e58
 
@@ -1684,9 +1694,9 @@ GitCommit: f0bf31c38dd9c6ff5a50aaa42f3dc679e3265a20
 Directory: windows
 
 Tags: v1.7.10,1.7.10
-arm32v6-Directory: scratch/arm
 arm64v8-Directory: scratch/arm64
 amd64-Directory: scratch/amd64
+arm32v6-Directory: scratch/arm
 Architectures: amd64,arm32v6,arm64v8
 GitCommit: 07de2d05953a9144a717d66a847991c0fc200cdf
 
@@ -1701,9 +1711,9 @@ GitCommit: 07de2d05953a9144a717d66a847991c0fc200cdf
 Directory: windows
 
 Tags: v2.0.0-alpha3,2.0.0-alpha3
+arm32v6-Directory: scratch/arm
 amd64-Directory: scratch/amd64
 arm64v8-Directory: scratch/arm64
-arm32v6-Directory: scratch/arm
 Architectures: amd64,arm32v6,arm64v8
 GitCommit: 0f1b09187679d0959032232f057b9d5348e6a663
 
@@ -1735,9 +1745,9 @@ GitCommit: 08ef2eb03e78f2d41dd5e4b8d5c897452791303b
 Directory: windows
 
 Tags: v1.7.9,1.7.9
-amd64-Directory: scratch/amd64
 arm32v6-Directory: scratch/arm
 arm64v8-Directory: scratch/arm64
+amd64-Directory: scratch/amd64
 Architectures: amd64,arm32v6,arm64v8
 GitCommit: 77849defe7ccf84ce569147e2c269b2e3b26006b
 
@@ -1752,9 +1762,9 @@ GitCommit: 77849defe7ccf84ce569147e2c269b2e3b26006b
 Directory: windows
 
 Tags: v2.0.0-alpha1,2.0.0-alpha1
+amd64-Directory: scratch/amd64
 arm64v8-Directory: scratch/arm64
 arm32v6-Directory: scratch/arm
-amd64-Directory: scratch/amd64
 Architectures: amd64,arm32v6,arm64v8
 GitCommit: d88c618004881d064bdeea3cbe747b9d82fdb345
 
@@ -1837,9 +1847,9 @@ GitCommit: d3e98a38cacae19092c6d5e80a607bebb85a79c7
 Directory: windows
 
 Tags: v1.7.4,1.7.4
-amd64-Directory: scratch/amd64
 arm64v8-Directory: scratch/arm64
 arm32v6-Directory: scratch/arm
+amd64-Directory: scratch/amd64
 Architectures: amd64,arm32v6,arm64v8
 GitCommit: fcb97d804beffa33d0547ad8c54f1d248ceaba78
 
@@ -1854,9 +1864,9 @@ GitCommit: fcb97d804beffa33d0547ad8c54f1d248ceaba78
 Directory: windows
 
 Tags: v1.7.3,1.7.3
-arm32v6-Directory: scratch/arm
 amd64-Directory: scratch/amd64
 arm64v8-Directory: scratch/arm64
+arm32v6-Directory: scratch/arm
 Architectures: amd64,arm32v6,arm64v8
 GitCommit: b5cc6bd196fbf6740acb0db6665ac420193c90b4
 
@@ -1888,9 +1898,9 @@ GitCommit: 7b156473e074d3f280970ad2eabf14f9d6e0ec85
 Directory: windows
 
 Tags: v1.7.1,1.7.1
+amd64-Directory: scratch/amd64
 arm64v8-Directory: scratch/arm64
 arm32v6-Directory: scratch/arm
-amd64-Directory: scratch/amd64
 Architectures: amd64,arm32v6,arm64v8
 GitCommit: 07ab7c83a0bb04537a73a33ea09df2cdf660f5eb
 
@@ -1905,9 +1915,9 @@ GitCommit: 07ab7c83a0bb04537a73a33ea09df2cdf660f5eb
 Directory: windows
 
 Tags: v1.7.0,1.7.0
-arm32v6-Directory: scratch/arm
 amd64-Directory: scratch/amd64
 arm64v8-Directory: scratch/arm64
+arm32v6-Directory: scratch/arm
 Architectures: amd64,arm32v6,arm64v8
 GitCommit: cd926d586b87791aca0cebe2eb51889b678a84e0
 
@@ -1922,9 +1932,9 @@ GitCommit: cd926d586b87791aca0cebe2eb51889b678a84e0
 Directory: windows
 
 Tags: v1.7.0-rc5,1.7.0-rc5
-arm32v6-Directory: scratch/arm
 amd64-Directory: scratch/amd64
 arm64v8-Directory: scratch/arm64
+arm32v6-Directory: scratch/arm
 Architectures: amd64,arm32v6,arm64v8
 GitCommit: 46ca01f945229d77d8cdf1ee7345508460ef99bd
 
@@ -1939,9 +1949,9 @@ GitCommit: 46ca01f945229d77d8cdf1ee7345508460ef99bd
 Directory: windows
 
 Tags: v1.6.6,1.6.6,v1.6,1.6,tetedemoine
+arm64v8-Directory: scratch/arm64
 amd64-Directory: scratch/amd64
 arm32v6-Directory: scratch/arm
-arm64v8-Directory: scratch/arm64
 Architectures: amd64,arm32v6,arm64v8
 GitCommit: d95245ee706fbe031fe4d62564015cb4fb1f076d
 
@@ -1956,9 +1966,9 @@ GitCommit: d95245ee706fbe031fe4d62564015cb4fb1f076d
 Directory: windows
 
 Tags: v1.7.0-rc4,1.7.0-rc4
+amd64-Directory: scratch/amd64
 arm64v8-Directory: scratch/arm64
 arm32v6-Directory: scratch/arm
-amd64-Directory: scratch/amd64
 Architectures: amd64,arm32v6,arm64v8
 GitCommit: c8cd5891b67c3915959841be314ab1b655ed830d
 
@@ -2026,9 +2036,9 @@ GitCommit: 0ddabb0ef7c46ef63ef509503ce60e944a79f497
 Directory: alpine
 
 Tags: v1.6.4,1.6.4
-arm64v8-Directory: scratch/arm64
 amd64-Directory: scratch/amd64
 arm32v6-Directory: scratch/arm
+arm64v8-Directory: scratch/arm64
 Architectures: amd64,arm32v6,arm64v8
 GitCommit: d004e59dcb636ab24a6e2ae827fe4c8290837127
 
@@ -2038,9 +2048,9 @@ GitCommit: d004e59dcb636ab24a6e2ae827fe4c8290837127
 Directory: alpine
 
 Tags: v1.6.3,1.6.3
+arm32v6-Directory: scratch/arm
 amd64-Directory: scratch/amd64
 arm64v8-Directory: scratch/arm64
-arm32v6-Directory: scratch/arm
 Architectures: amd64,arm32v6,arm64v8
 GitCommit: 88e12c74535395647071f7dd46fe5b0afd96643c
 
@@ -2050,9 +2060,9 @@ GitCommit: 88e12c74535395647071f7dd46fe5b0afd96643c
 Directory: alpine
 
 Tags: v1.6.2,1.6.2
+arm32v6-Directory: scratch/arm
 amd64-Directory: scratch/amd64
 arm64v8-Directory: scratch/arm64
-arm32v6-Directory: scratch/arm
 Architectures: amd64,arm32v6,arm64v8
 GitCommit: 0389d588f1989665e706a1ba0e8ed923adae753d
 
@@ -2074,9 +2084,9 @@ GitCommit: f6dc778627f1df208b28c8112d9aecd7840660be
 Directory: alpine
 
 Tags: v1.6.0,1.6.0
-amd64-Directory: scratch/amd64
 arm64v8-Directory: scratch/arm64
 arm32v6-Directory: scratch/arm
+amd64-Directory: scratch/amd64
 Architectures: amd64,arm32v6,arm64v8
 GitCommit: 7ce854f4c0450f71cd913a1a498016d656f7dc5b
 
@@ -2110,9 +2120,9 @@ GitCommit: a0b61256a1c3df401f43cf01b940f3a69fb77883
 Directory: alpine
 
 Tags: v1.6.0-rc5,1.6.0-rc5
+arm32v6-Directory: scratch/arm
 amd64-Directory: scratch/amd64
 arm64v8-Directory: scratch/arm64
-arm32v6-Directory: scratch/arm
 Architectures: amd64,arm32v6,arm64v8
 GitCommit: abcff7fa7c11547d8834b835b9ecedce49c3a441
 
@@ -2122,9 +2132,9 @@ GitCommit: abcff7fa7c11547d8834b835b9ecedce49c3a441
 Directory: alpine
 
 Tags: v1.6.0-rc4,1.6.0-rc4
+arm32v6-Directory: scratch/arm
 amd64-Directory: scratch/amd64
 arm64v8-Directory: scratch/arm64
-arm32v6-Directory: scratch/arm
 Architectures: amd64,arm32v6,arm64v8
 GitCommit: caeb2cc1700b1d3c708eec82840d265816a46832
 
@@ -2230,9 +2240,9 @@ GitCommit: ff5cbe3809d54e1594586975184781d1a44662a9
 Directory: alpine
 
 Tags: v1.4.6,1.4.6,v1.4,1.4,roquefort
+amd64-Directory: scratch/amd64
 arm32v6-Directory: scratch/arm
 arm64v8-Directory: scratch/arm64
-amd64-Directory: scratch/amd64
 Architectures: amd64,arm32v6,arm64v8
 GitCommit: 11fb07f3be330bece4875ced219372c6bda16868
 
@@ -2266,9 +2276,9 @@ GitCommit: ce0d7acb0c306af5508c2af153d3fca5bac51f38
 Directory: alpine
 
 Tags: v1.4.5,1.4.5
+amd64-Directory: scratch/amd64
 arm32v6-Directory: scratch/arm
 arm64v8-Directory: scratch/arm64
-amd64-Directory: scratch/amd64
 Architectures: amd64,arm32v6,arm64v8
 GitCommit: e09f862b4974e0ded50e42d134b9439c1802aa3c
 
@@ -2302,9 +2312,9 @@ GitCommit: 14a1d1d5727338efd0a90a33024360e3e8926daa
 Directory: alpine
 
 Tags: v1.4.4,1.4.4
-amd64-Directory: scratch/amd64
 arm32v6-Directory: scratch/arm
 arm64v8-Directory: scratch/arm64
+amd64-Directory: scratch/amd64
 Architectures: amd64,arm32v6,arm64v8
 GitCommit: ab1c388b991daeced863419d65c04528a4166010
 
@@ -2326,9 +2336,9 @@ GitCommit: 9070c532cf6e3b8b00f8fef573636f2b163aa23a
 Directory: alpine
 
 Tags: v1.4.2,1.4.2
-arm32v6-Directory: scratch/arm
 amd64-Directory: scratch/amd64
 arm64v8-Directory: scratch/arm64
+arm32v6-Directory: scratch/arm
 Architectures: amd64,arm32v6,arm64v8
 GitCommit: 1d5fa099fa6ff0c510ca76a400e0b5596d1d58c5
 
@@ -2359,9 +2369,9 @@ GitCommit: f24cd6a1a31933c76ab397868b5da84d43f5d2ff
 Directory: alpine
 
 Tags: v1.4.0-rc5,1.4.0-rc5
-arm64v8-Directory: scratch/arm64
 arm32v6-Directory: scratch/arm
 amd64-Directory: scratch/amd64
+arm64v8-Directory: scratch/arm64
 Architectures: amd64,arm32v6,arm64v8
 GitCommit: f77e470fe4e3e4135aeaeeac49ba5c21846fb04a
 
@@ -2370,9 +2380,9 @@ GitCommit: f77e470fe4e3e4135aeaeeac49ba5c21846fb04a
 Directory: alpine
 
 Tags: v1.3.8,1.3.8,v1.3,1.3,raclette
-arm64v8-Directory: scratch/arm64
 amd64-Directory: scratch/amd64
 arm32v6-Directory: scratch/arm
+arm64v8-Directory: scratch/arm64
 Architectures: amd64,arm32v6,arm64v8
 GitCommit: cfa3fa48bed342b86b143006e61d9bdf7db07901
 
@@ -2403,9 +2413,9 @@ GitCommit: 167c6ac81bbf39bebfbe4fdfef0e931ab33e9cac
 Directory: alpine
 
 Tags: v1.4.0-rc2,1.4.0-rc2
-arm32v6-Directory: scratch/arm
 amd64-Directory: scratch/amd64
 arm64v8-Directory: scratch/arm64
+arm32v6-Directory: scratch/arm
 Architectures: amd64,arm32v6,arm64v8
 GitCommit: 57f83af9d2719e5f25e6c769fd2640f973b519dc
 
