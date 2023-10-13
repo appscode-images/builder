@@ -45,7 +45,7 @@ func main() {
 		panic(err)
 	}
 	m := mailer.Mailer{
-		Sender:          "tamal@appscode.com",
+		Sender:          "image-builder@appscode.com",
 		BCC:             "",
 		ReplyTo:         "",
 		Subject:         "CVE report: " + *name,
@@ -56,7 +56,7 @@ func main() {
 		GDriveFiles:     nil,
 		GoogleDocIds:    nil,
 	}
-	err = m.SendMail(smtp, "tamal@appscode.com", "", nil)
+	err = m.SendMail(smtp, "image-builder@appscode.com", "", nil)
 	if err != nil {
 		panic(err)
 	}
