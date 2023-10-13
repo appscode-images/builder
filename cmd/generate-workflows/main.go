@@ -7,7 +7,6 @@ import (
 	"strings"
 
 	"github.com/appscode-images/builder/lib"
-	"sigs.k8s.io/yaml"
 )
 
 func main() {
@@ -72,6 +71,7 @@ func GenerateWorkflows(dir string) error {
 		wfFile := filepath.Join(wfDir, fmt.Sprintf("build-%s.yml", entry.Name()))
 
 		wfYAML := strings.ReplaceAll(wf, "$name$", entry.Name())
+		wfYAML = strings.ReplaceAll(wfYAML, "$runner$", selectRunner(entry.Name()))
 		wfYAML = strings.ReplaceAll(wfYAML, "$tags$", strings.Join(tags, ", "))
 		if err := os.WriteFile(wfFile, []byte(wfYAML), 0644); err != nil {
 			return err
@@ -80,17 +80,13 @@ func GenerateWorkflows(dir string) error {
 	return nil
 }
 
-func formatYAML(s string) (string, error) {
-	m := map[string]any{}
-	err := yaml.Unmarshal([]byte(s), &m)
-	if err != nil {
-		return "", err
+func selectRunner(name string) string {
+	switch name {
+	case "node":
+		return "firecracker"
+	default:
+		return "ubuntu-latest"
 	}
-	data, err := yaml.Marshal(m)
-	if err != nil {
-		return "", err
-	}
-	return string(data), nil
 }
 
 const wf = `name: build-$name$
@@ -105,7 +101,7 @@ concurrency:
 jobs:
   build:
     name: Build
-    runs-on: ubuntu-latest
+    runs-on: $runner$
     strategy:
       matrix:
         tag: [$tags$]
@@ -178,7 +174,7 @@ jobs:
 
   report:
     name: Report
-    runs-on: ubuntu-latest
+    runs-on: $runner$
     needs: build
     steps:
     - uses: actions/checkout@v3
