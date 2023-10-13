@@ -51,6 +51,9 @@ jobs:
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
 
+    - name: Setup upterm session
+      uses: lhotari/action-upterm@v1
+
     - name: Install crane
       run: |
         # VERSION=$(curl -s "https://api.github.com/repos/google/go-containerregistry/releases/latest" | jq -r '.tag_name')
@@ -62,7 +65,7 @@ jobs:
         git clone https://github.com/gomodules/go-containerregistry.git
         cd go-containerregistry
         git checkout mutate-manifest
-        GOBIN=/usr/local/bin sudo go install -v ./...
+        GOBIN=/usr/local/bin go install -v ./...
 
     - name: Install trivy
       run: |
@@ -73,9 +76,6 @@ jobs:
         echo deb https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main | sudo tee -a /etc/apt/sources.list.d/trivy.list
         sudo apt-get update
         sudo apt-get install -y --no-install-recommends trivy
-
-    # - name: Setup upterm session
-    #   uses: lhotari/action-upterm@v1
 
     - name: Build
       run: |
