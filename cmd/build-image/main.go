@@ -201,7 +201,7 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, b *api.Block, name, ta
 		if err != nil {
 			return err
 		}
-		err = sh.Command("git", "push", "origin", "HEAD").Run()
+		err = sh.Command("git", "push", "origin", "HEAD", "-f").Run()
 		if err != nil {
 			return err
 		}
