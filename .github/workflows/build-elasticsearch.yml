@@ -139,11 +139,6 @@ jobs:
         SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
       run: |
         go run cmd/mail-report/main.go --name=elasticsearch
-        # https://stackoverflow.com/a/23930212
-        cat > ./library/elasticsearch/README.md <<- EOM
-        # elasticsearch
-        Last Updated: $(date --rfc-3339=date)
-        EOM
 
     - name: Update repo
       run: |

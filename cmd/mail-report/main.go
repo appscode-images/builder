@@ -68,7 +68,7 @@ func main() {
 		}
 	}
 	if len(autoPromoteTags) > 0 {
-		filename := filepath.Join(dir, "library", *name, "promote_tags.txt")
+		filename := filepath.Join(dir, "library", *name, lib.FilePromotedTags)
 		err = os.WriteFile(filename, []byte(strings.Join(autoPromoteTags, "\n")), 0644)
 		if err != nil {
 			panic(err)

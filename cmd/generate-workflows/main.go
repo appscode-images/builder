@@ -234,11 +234,6 @@ jobs:
         SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
       run: |
         go run cmd/mail-report/main.go --name=$name$
-        # https://stackoverflow.com/a/23930212
-        cat > ./library/$name$/README.md <<- EOM
-        # $name$
-        Last Updated: $(date --rfc-3339=date)
-        EOM
 
     - name: Update repo
       run: |
