@@ -155,6 +155,7 @@ jobs:
         cd ..
         git clone https://github.com/gomodules/go-containerregistry.git
         cd go-containerregistry
+        git checkout mutate-manifest
         GOBIN=/usr/local/bin go install -v ./...
 
     - name: Install trivy
