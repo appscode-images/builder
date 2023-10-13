@@ -135,6 +135,8 @@ jobs:
 
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v3
+      with:
+        platforms: linux/amd64,linux/arm64v8,linux/arm64
 
     - name: Log in to the GitHub Container registry
       uses: docker/login-action@v2
@@ -203,6 +205,8 @@ jobs:
 
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v3
+      with:
+        platforms: linux/amd64,linux/arm64v8,linux/arm64
 
     - name: Log in to the GitHub Container registry
       uses: docker/login-action@v2
