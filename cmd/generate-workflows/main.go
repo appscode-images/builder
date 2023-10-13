@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/appscode-images/builder/lib"
 	"os"
 	"path/filepath"
-	"sigs.k8s.io/yaml"
 	"strings"
+
+	"github.com/appscode-images/builder/lib"
+	"sigs.k8s.io/yaml"
 )
 
 func main() {
@@ -53,7 +54,7 @@ func GenerateWorkflows(dir string) error {
 			continue
 		}
 
-		tags, err := lib.ListAppTags(dir, entry.Name())
+		tags, err := lib.ListBuildTags(dir, entry.Name())
 		if err != nil {
 			if os.IsNotExist(err) {
 				continue
@@ -243,5 +244,7 @@ jobs:
       run: |
         git add --all
         git commit -s -a -m "update $name$ images $(date --rfc-3339=date)"
+        git fetch origin
+        git pull --rebase origin master
         git push origin HEAD
 `

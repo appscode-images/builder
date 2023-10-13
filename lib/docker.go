@@ -6,6 +6,11 @@ import (
 	"strings"
 )
 
+const (
+	FileBuildTags    = "build_tags.txt"
+	FilePromotedTags = "promote_tags.txt"
+)
+
 func SupportedArch(arch string) bool {
 	return arch == "amd64" ||
 		arch == "x86_64" ||
@@ -25,8 +30,16 @@ func Platform(arch string) string {
 	}
 }
 
-func ListAppTags(dir, name string) ([]string, error) {
-	filename := filepath.Join(dir, "library", name, "build_tags.txt")
+func ListBuildTags(dir, name string) ([]string, error) {
+	return listTags(dir, name, FileBuildTags)
+}
+
+func ListPromoteTags(dir, name string) ([]string, error) {
+	return listTags(dir, name, FilePromotedTags)
+}
+
+func listTags(dir, name, tagFile string) ([]string, error) {
+	filename := filepath.Join(dir, "library", name, tagFile)
 	data, err := os.ReadFile(filename)
 	if err != nil {
 		return nil, err

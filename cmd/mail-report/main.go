@@ -154,7 +154,7 @@ func (r TagReport) Strings() []string {
 }
 
 func GatherReport(dir, name, ts string) ([]TagReport, error) {
-	tags, err := lib.ListAppTags(dir, name)
+	tags, err := lib.ListBuildTags(dir, name)
 	if err != nil {
 		return nil, err
 	}

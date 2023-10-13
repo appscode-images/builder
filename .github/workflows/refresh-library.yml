@@ -1,4 +1,4 @@
-name: refresh-docker-library
+name: refresh-library
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.head_ref || github.ref }}-refresh-docker-library
+  group: ${{ github.workflow }}-${{ github.head_ref || github.ref }}-refresh-library
   cancel-in-progress: true
 
 jobs:
@@ -35,7 +35,7 @@ jobs:
 
     - name: Refresh Library
       run: |
-        go run cmd/refresh-docker-library/*.go
+        go run cmd/refresh-library/*.go
         # https://stackoverflow.com/a/23930212
         cat > ./library/README.md <<- EOM
         # Docker Library
@@ -50,4 +50,6 @@ jobs:
       run: |
         git add --all
         git commit -s -a -m "update libary $(date --rfc-3339=date)"
+        git fetch origin
+        git pull --rebase origin master
         git push origin HEAD

@@ -149,4 +149,6 @@ jobs:
       run: |
         git add --all
         git commit -s -a -m "update postgres images $(date --rfc-3339=date)"
+        git fetch origin
+        git pull --rebase origin master
         git push origin HEAD

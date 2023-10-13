@@ -4,13 +4,13 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/appscode-images/builder/lib"
 	"os"
 	"path/filepath"
 	"strings"
 	"time"
 
 	"github.com/appscode-images/builder/api"
+	"github.com/appscode-images/builder/lib"
 	"github.com/google/go-containerregistry/pkg/authn"
 	"github.com/google/go-containerregistry/pkg/crane"
 	flag "github.com/spf13/pflag"
@@ -19,7 +19,6 @@ import (
 )
 
 const (
-	skew             = 10 * time.Second
 	KeyImageSource   = "org.opencontainers.image.source"
 	KeyImageRevision = "org.opencontainers.image.revision"
 )
