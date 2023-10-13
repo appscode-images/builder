@@ -50,8 +50,12 @@ func (b Block) String() string {
 	}
 	if len(b.Architectures) > 0 {
 		archs := make([]string, 0, len(b.Architectures))
-		for arch, info := range b.Architectures {
+		for arch := range b.Architectures {
 			archs = append(archs, arch)
+		}
+		sort.Strings(archs)
+		for _, arch := range archs {
+			info := b.Architectures[arch]
 			if info.Directory != "" {
 				buf.WriteString(fmt.Sprintf("%s-Directory: %s\n", arch, info.Directory))
 			}
@@ -65,7 +69,6 @@ func (b Block) String() string {
 				buf.WriteString(fmt.Sprintf("%s-File: %s\n", arch, info.File))
 			}
 		}
-		sort.Strings(archs)
 
 		buf.WriteString("Architectures: ")
 		buf.WriteString(strings.Join(archs, ","))
