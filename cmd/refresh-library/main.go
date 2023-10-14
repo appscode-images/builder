@@ -339,6 +339,9 @@ func ParseLibraryFileContent(appName string, lines []string) (*api.App, error) {
 		if line == "" {
 			if curBlock != nil {
 				// process cur block
+				if curBlock.GitCommit == "" {
+					curBlock.GitCommit = app.GitCommit
+				}
 				app.Blocks = append(app.Blocks, *curBlock)
 			}
 			curBlock = nil
@@ -389,6 +392,11 @@ func ParseLibraryFileContent(appName string, lines []string) (*api.App, error) {
 					curBlock = new(api.Block)
 				}
 				curBlock.Tags = append(curBlock.Tags, parts...)
+			case "SharedTags":
+				if curBlock == nil {
+					curBlock = new(api.Block)
+				}
+				curBlock.Tags = append(curBlock.Tags, parts...)
 			case "Architectures":
 				if curBlock == nil {
 					curBlock = new(api.Block)
@@ -405,9 +413,10 @@ func ParseLibraryFileContent(appName string, lines []string) (*api.App, error) {
 				}
 			case "GitCommit":
 				if curBlock == nil {
-					curBlock = new(api.Block)
+					app.GitCommit = parts[0]
+				} else {
+					curBlock.GitCommit = parts[0]
 				}
-				curBlock.GitCommit = parts[0]
 			case "Directory":
 				if curBlock == nil {
 					curBlock = new(api.Block)
@@ -427,6 +436,9 @@ func ParseLibraryFileContent(appName string, lines []string) (*api.App, error) {
 	// last block
 	if curBlock != nil {
 		// process cur block
+		if curBlock.GitCommit == "" {
+			curBlock.GitCommit = app.GitCommit
+		}
 		app.Blocks = append(app.Blocks, *curBlock)
 	}
 

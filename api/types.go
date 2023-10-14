@@ -19,9 +19,10 @@ type AppHistory struct {
 }
 
 type App struct {
-	Name    string
-	GitRepo string
-	Blocks  []Block
+	Name      string
+	GitRepo   string
+	GitCommit string
+	Blocks    []Block
 }
 
 type Block struct {
