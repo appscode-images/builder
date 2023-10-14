@@ -15,7 +15,7 @@ jobs:
       matrix:
         tag: [7.0.1-jammy, 6.0.11-jammy, 5.0.21-focal, 4.4.25-focal]
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Set up Go
       uses: actions/setup-go@v4
@@ -86,7 +86,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Set up Go
       uses: actions/setup-go@v4

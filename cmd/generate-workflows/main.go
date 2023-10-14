@@ -106,7 +106,7 @@ jobs:
       matrix:
         tag: [$tags$]
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Set up Go
       uses: actions/setup-go@v4
@@ -177,7 +177,7 @@ jobs:
     runs-on: $runner$
     needs: build
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Set up Go
       uses: actions/setup-go@v4

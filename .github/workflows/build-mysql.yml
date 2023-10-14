@@ -15,7 +15,7 @@ jobs:
       matrix:
         tag: [8.1.0, 8.1.0-oracle, 8.0.34, 8.0.34-oracle, 8.0.34-debian, 5.7.43, 5.7.43-oracle]
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Set up Go
       uses: actions/setup-go@v4
@@ -86,7 +86,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Set up Go
       uses: actions/setup-go@v4

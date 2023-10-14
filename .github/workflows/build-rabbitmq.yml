@@ -15,7 +15,7 @@ jobs:
       matrix:
         tag: [3.12.6-management-alpine, 3.12.6-alpine, 3.11.23-management-alpine, 3.11.23-alpine, 3.10.25-management-alpine, 3.10.25-alpine]
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Set up Go
       uses: actions/setup-go@v4
@@ -86,7 +86,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Set up Go
       uses: actions/setup-go@v4
