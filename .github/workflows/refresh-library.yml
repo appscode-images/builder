@@ -46,6 +46,9 @@ jobs:
       run: |
         go run cmd/generate-workflows/*.go
 
+    - name: Setup upterm session
+      uses: lhotari/action-upterm@v1
+
     - name: Update repo
       env:
         GITHUB_USER: 1gtm
