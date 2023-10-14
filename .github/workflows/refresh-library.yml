@@ -14,24 +14,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.LGTM_GITHUB_TOKEN }}
 
     - name: Set up Go
       uses: actions/setup-go@v4
       with:
         go-version: '1.21'
 
-    - name: Prepare git
-      env:
-        GITHUB_USER: 1gtm
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        set -x
-        git config --global user.name "1gtm"
-        git config --global user.email "1gtm@appscode.com"
-        git config --global \
-          url."https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com".insteadOf \
-          "https://github.com"
-        # git remote set-url origin https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+    # - name: Prepare git
+    #   env:
+    #     GITHUB_USER: 1gtm
+    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    #   run: |
+    #     set -x
+    #     git config --global user.name "1gtm"
+    #     git config --global user.email "1gtm@appscode.com"
+    #     git config --global \
+    #       url."https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com".insteadOf \
+    #       "https://github.com"
+    #     # git remote set-url origin https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
 
     # - name: Refresh Library
     #   run: |
