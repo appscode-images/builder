@@ -48,7 +48,7 @@ func main() {
 		Sender:          "image-builder@appscode.com",
 		BCC:             "",
 		ReplyTo:         "",
-		Subject:         "CVE report: " + *name,
+		Subject:         "CVE report: " + *name + " " + t.Format(time.DateOnly),
 		Body:            string(data),
 		Plaintext:       true,
 		Params:          nil,
