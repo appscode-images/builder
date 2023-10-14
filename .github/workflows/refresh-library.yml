@@ -33,20 +33,23 @@ jobs:
           "https://github.com"
         # git remote set-url origin https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
 
-    - name: Refresh Library
-      run: |
-        go run cmd/refresh-library/*.go
-        # https://stackoverflow.com/a/23930212
-        cat > ./library/README.md <<- EOM
-        # Docker Library
-        Last Updated: $(date --rfc-3339=date)
-        EOM
+    # - name: Refresh Library
+    #   run: |
+    #     go run cmd/refresh-library/*.go
+    #     # https://stackoverflow.com/a/23930212
+    #     cat > ./library/README.md <<- EOM
+    #     # Docker Library
+    #     Last Updated: $(date --rfc-3339=date)
+    #     EOM
 
     - name: Generate Workflows
       run: |
         go run cmd/generate-workflows/*.go
 
     - name: Update repo
+      env:
+        GITHUB_USER: 1gtm
+        GITHUB_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
       run: |
         git add --all
         if [[ $(git status --porcelain) ]]; then
