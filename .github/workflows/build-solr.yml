@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        tag: [9.3.0, 9.2.1, 8.11.2, 8.10.1]
+        tag: [9.3.0, 9.2.1, 8.11.2]
     steps:
     - uses: actions/checkout@v4
 
