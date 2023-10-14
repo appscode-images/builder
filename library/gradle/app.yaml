@@ -26,7 +26,7 @@ Blocks:
       GitFetch: ""
   Directory: jdk8
   File: ""
-  GitCommit: ae8311e2e41fbd2837f7a39df7e4b24e00f9b905
+  GitCommit: 8d22e033a49acb24572502355618cfa3dbb345bd
   Tags:
   - 8.4.0-jdk8
   - 8.4-jdk8
@@ -63,7 +63,7 @@ Blocks:
       GitFetch: ""
   Directory: jdk8-focal
   File: ""
-  GitCommit: ae8311e2e41fbd2837f7a39df7e4b24e00f9b905
+  GitCommit: 8d22e033a49acb24572502355618cfa3dbb345bd
   Tags:
   - 8.4.0-jdk8-focal
   - 8.4-jdk8-focal
@@ -102,7 +102,7 @@ Blocks:
       GitFetch: ""
   Directory: jdk11
   File: ""
-  GitCommit: ae8311e2e41fbd2837f7a39df7e4b24e00f9b905
+  GitCommit: 8d22e033a49acb24572502355618cfa3dbb345bd
   Tags:
   - 8.4.0-jdk11
   - 8.4-jdk11
@@ -145,7 +145,7 @@ Blocks:
       GitFetch: ""
   Directory: jdk11-focal
   File: ""
-  GitCommit: ae8311e2e41fbd2837f7a39df7e4b24e00f9b905
+  GitCommit: 8d22e033a49acb24572502355618cfa3dbb345bd
   Tags:
   - 8.4.0-jdk11-focal
   - 8.4-jdk11-focal
@@ -160,7 +160,7 @@ Blocks:
       GitFetch: ""
   Directory: jdk11-alpine
   File: ""
-  GitCommit: ae8311e2e41fbd2837f7a39df7e4b24e00f9b905
+  GitCommit: 8d22e033a49acb24572502355618cfa3dbb345bd
   Tags:
   - 8.4.0-jdk11-alpine
   - 8.4-jdk11-alpine
@@ -199,7 +199,7 @@ Blocks:
       GitFetch: ""
   Directory: jdk17
   File: ""
-  GitCommit: ae8311e2e41fbd2837f7a39df7e4b24e00f9b905
+  GitCommit: 8d22e033a49acb24572502355618cfa3dbb345bd
   Tags:
   - 8.4.0-jdk17
   - 8.4-jdk17
@@ -258,7 +258,7 @@ Blocks:
       GitFetch: ""
   Directory: jdk17-focal
   File: ""
-  GitCommit: ae8311e2e41fbd2837f7a39df7e4b24e00f9b905
+  GitCommit: 8d22e033a49acb24572502355618cfa3dbb345bd
   Tags:
   - 8.4.0-jdk17-focal
   - 8.4-jdk17-focal
@@ -281,7 +281,7 @@ Blocks:
       GitFetch: ""
   Directory: jdk17-alpine
   File: ""
-  GitCommit: ae8311e2e41fbd2837f7a39df7e4b24e00f9b905
+  GitCommit: 8d22e033a49acb24572502355618cfa3dbb345bd
   Tags:
   - 8.4.0-jdk17-alpine
   - 8.4-jdk17-alpine
@@ -310,7 +310,7 @@ Blocks:
       GitFetch: ""
   Directory: jdk17-graal
   File: ""
-  GitCommit: ae8311e2e41fbd2837f7a39df7e4b24e00f9b905
+  GitCommit: 8d22e033a49acb24572502355618cfa3dbb345bd
   Tags:
   - 8.4.0-jdk17-graal
   - 8.4-jdk17-graal
@@ -336,6 +336,71 @@ Blocks:
   - 8.4-graal-jammy
   - 8-graal-jammy
   - graal-jammy
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: jdk21
+  File: ""
+  GitCommit: 8d22e033a49acb24572502355618cfa3dbb345bd
+  Tags:
+  - 8.4.0-jdk21
+  - 8.4-jdk21
+  - 8-jdk21
+  - jdk21
+  - 8.4.0-jdk21-jammy
+  - 8.4-jdk21-jammy
+  - 8-jdk21-jammy
+  - jdk21-jammy
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: jdk21-alpine
+  File: ""
+  GitCommit: 8d22e033a49acb24572502355618cfa3dbb345bd
+  Tags:
+  - 8.4.0-jdk21-alpine
+  - 8.4-jdk21-alpine
+  - 8-jdk21-alpine
+  - jdk21-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: jdk21-graal
+  File: ""
+  GitCommit: 8d22e033a49acb24572502355618cfa3dbb345bd
+  Tags:
+  - 8.4.0-jdk21-graal
+  - 8.4-jdk21-graal
+  - 8-jdk21-graal
+  - jdk21-graal
+  - 8.4.0-jdk21-graal-jammy
+  - 8.4-jdk21-graal-jammy
+  - 8-jdk21-graal-jammy
+  - jdk21-graal-jammy
 - Architectures:
     amd64:
       Architecture: amd64
@@ -28722,6 +28787,11 @@ KnownTags:
   8-jdk20-graal: {}
   8-jdk20-graal-jammy: {}
   8-jdk20-jammy: {}
+  8-jdk21: {}
+  8-jdk21-alpine: {}
+  8-jdk21-graal: {}
+  8-jdk21-graal-jammy: {}
+  8-jdk21-jammy: {}
   "8.0": {}
   8.0-alpine: {}
   8.0-focal: {}
@@ -29030,6 +29100,11 @@ KnownTags:
   8.4-jdk20-graal: {}
   8.4-jdk20-graal-jammy: {}
   8.4-jdk20-jammy: {}
+  8.4-jdk21: {}
+  8.4-jdk21-alpine: {}
+  8.4-jdk21-graal: {}
+  8.4-jdk21-graal-jammy: {}
+  8.4-jdk21-jammy: {}
   8.4.0: {}
   8.4.0-alpine: {}
   8.4.0-focal: {}
@@ -29060,6 +29135,11 @@ KnownTags:
   8.4.0-jdk20-graal: {}
   8.4.0-jdk20-graal-jammy: {}
   8.4.0-jdk20-jammy: {}
+  8.4.0-jdk21: {}
+  8.4.0-jdk21-alpine: {}
+  8.4.0-jdk21-graal: {}
+  8.4.0-jdk21-graal-jammy: {}
+  8.4.0-jdk21-jammy: {}
   alpine: {}
   focal: {}
   graal: {}
@@ -29125,6 +29205,11 @@ KnownTags:
   jdk20-graal: {}
   jdk20-graal-jammy: {}
   jdk20-jammy: {}
+  jdk21: {}
+  jdk21-alpine: {}
+  jdk21-graal: {}
+  jdk21-graal-jammy: {}
+  jdk21-jammy: {}
   jre: {}
   jre-alpine: {}
   jre-hotspot: {}
