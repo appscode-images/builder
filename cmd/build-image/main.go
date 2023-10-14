@@ -120,8 +120,8 @@ func ShouldBuild(sh *shell.Session, ref string, repoURL string, b *api.Block) (b
 }
 
 func main() {
-	var name = flag.String("name", "", "Name of binary")
-	var tag = flag.String("tag", "", "Tag to be built")
+	var name = flag.String("name", "zookeeper", "Name of binary")
+	var tag = flag.String("tag", "3.9.0", "Tag to be built")
 	flag.Parse()
 
 	t := time.Now()
@@ -208,6 +208,17 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, b *api.Block, name, ta
 	}
 
 	// https://github.com/kubedb/mysql-init-docker/blob/release-8.0.31/Makefile
+
+	if len(b.Architectures) == 0 {
+		b.Architectures = map[string]*api.ArchInfo{
+			"amd64": &api.ArchInfo{
+				Architecture: "amd64",
+			},
+			"arm64": &api.ArchInfo{
+				Architecture: "arm64",
+			},
+		}
+	}
 
 	var archImages []any
 	for arch, info := range b.Architectures {
