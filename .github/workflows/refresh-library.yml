@@ -14,42 +14,42 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.LGTM_GITHUB_TOKEN }}
+      # with:
+      #   token: ${{ secrets.LGTM_GITHUB_TOKEN }}
 
     - name: Set up Go
       uses: actions/setup-go@v4
       with:
         go-version: '1.21'
 
-    # - name: Prepare git
-    #   env:
-    #     GITHUB_USER: 1gtm
-    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    #   run: |
-    #     set -x
-    #     git config --global user.name "1gtm"
-    #     git config --global user.email "1gtm@appscode.com"
-    #     git config --global \
-    #       url."https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com".insteadOf \
-    #       "https://github.com"
-    #     # git remote set-url origin https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+    - name: Prepare git
+      env:
+        GITHUB_USER: 1gtm
+        GITHUB_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
+      run: |
+        set -x
+        git config --global user.name "1gtm"
+        git config --global user.email "1gtm@appscode.com"
+        git config --global \
+          url."https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com".insteadOf \
+          "https://github.com"
+        # git remote set-url origin https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
 
-    # - name: Refresh Library
-    #   run: |
-    #     go run cmd/refresh-library/*.go
-    #     # https://stackoverflow.com/a/23930212
-    #     cat > ./library/README.md <<- EOM
-    #     # Docker Library
-    #     Last Updated: $(date --rfc-3339=date)
-    #     EOM
+    - name: Refresh Library
+      run: |
+        go run cmd/refresh-library/*.go
+        # https://stackoverflow.com/a/23930212
+        cat > ./library/README.md <<- EOM
+        # Docker Library
+        Last Updated: $(date --rfc-3339=date)
+        EOM
 
     - name: Generate Workflows
       run: |
         go run cmd/generate-workflows/*.go
 
-    - name: Setup upterm session
-      uses: lhotari/action-upterm@v1
+    # - name: Setup upterm session
+    #   uses: lhotari/action-upterm@v1
 
     - name: Update repo
       env:
