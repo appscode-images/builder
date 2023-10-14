@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        tag: [musl, glibc, stable, latest]
+        tag: [1.36]
     steps:
     - uses: actions/checkout@v4
 
