@@ -2,11 +2,12 @@ package lib
 
 import (
 	"context"
-	"github.com/google/go-github/v55/github"
-	"golang.org/x/oauth2"
 	"net/http"
 	"os"
 	"time"
+
+	"github.com/google/go-github/v56/github"
+	"golang.org/x/oauth2"
 )
 
 const skew = 10 * time.Second

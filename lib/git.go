@@ -2,8 +2,9 @@ package lib
 
 import (
 	"bytes"
-	shell "gomodules.xyz/go-sh"
 	"strings"
+
+	shell "gomodules.xyz/go-sh"
 )
 
 func RemoteBranchExists(sh *shell.Session, branch string) bool {

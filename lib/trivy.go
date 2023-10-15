@@ -2,12 +2,13 @@ package lib
 
 import (
 	"errors"
+	"net/http"
+
 	"github.com/google/go-containerregistry/pkg/authn"
 	"github.com/google/go-containerregistry/pkg/crane"
 	"github.com/google/go-containerregistry/pkg/v1/remote/transport"
 	shell "gomodules.xyz/go-sh"
 	"kubeops.dev/scanner/apis/trivy"
-	"net/http"
 )
 
 // trivy image ubuntu --security-checks vuln --format json --quiet

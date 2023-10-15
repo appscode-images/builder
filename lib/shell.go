@@ -1,8 +1,9 @@
 package lib
 
 import (
-	shell "gomodules.xyz/go-sh"
 	"os"
+
+	shell "gomodules.xyz/go-sh"
 )
 
 func NewShell() *shell.Session {
