@@ -54,6 +54,12 @@
     "1.25.1": {},
     "1.25.1-apache": {},
     "1.25.1-fpm": {},
+    "1.26": {},
+    "1.26-apache": {},
+    "1.26-fpm": {},
+    "1.26.1": {},
+    "1.26.1-apache": {},
+    "1.26.1-fpm": {},
     "apache": {},
     "fpm": {},
     "latest": {}
@@ -61,14 +67,68 @@
   "Blocks": [
     {
       "Tags": [
-        "1.25.1",
-        "1.25",
+        "1.26.1",
+        "1.26",
         "1",
-        "1.25.1-apache",
-        "1.25-apache",
+        "1.26.1-apache",
+        "1.26-apache",
         "1-apache",
         "apache",
         "latest"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "95902d6610b2474ca88ff8faae40ed30e7d3318a",
+      "Directory": "1/apache",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.26.1-fpm",
+        "1.26-fpm",
+        "1-fpm",
+        "fpm"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "95902d6610b2474ca88ff8faae40ed30e7d3318a",
+      "Directory": "1/fpm",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.25.1",
+        "1.25",
+        "1.25.1-apache",
+        "1.25-apache"
       ],
       "Architectures": {
         "amd64": {
@@ -93,9 +153,7 @@
     {
       "Tags": [
         "1.25.1-fpm",
-        "1.25-fpm",
-        "1-fpm",
-        "fpm"
+        "1.25-fpm"
       ],
       "Architectures": {
         "amd64": {
