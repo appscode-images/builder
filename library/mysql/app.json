@@ -88,6 +88,8 @@
     "5.7.42-oracle": {},
     "5.7.43": {},
     "5.7.43-oracle": {},
+    "5.7.44": {},
+    "5.7.44-oracle": {},
     "8": {},
     "8-debian": {},
     "8-oracle": {},
@@ -136,12 +138,19 @@
     "8.0.34": {},
     "8.0.34-debian": {},
     "8.0.34-oracle": {},
+    "8.0.35": {},
+    "8.0.35-debian": {},
+    "8.0.35-oracle": {},
     "8.0.4": {},
     "8.0.4-rc": {},
     "8.1": {},
     "8.1-oracle": {},
     "8.1.0": {},
     "8.1.0-oracle": {},
+    "8.2": {},
+    "8.2-oracle": {},
+    "8.2.0": {},
+    "8.2.0-oracle": {},
     "debian": {},
     "innovation": {},
     "innovation-oracle": {},
@@ -151,16 +160,110 @@
   "Blocks": [
     {
       "Tags": [
-        "8.1.0",
-        "8.1",
+        "8.2.0",
+        "8.2",
         "8",
         "innovation",
         "latest",
-        "8.1.0-oracle",
-        "8.1-oracle",
+        "8.2.0-oracle",
+        "8.2-oracle",
         "8-oracle",
         "innovation-oracle",
         "oracle"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "76806cdd0acee2dec39b1b66e9c8015ef75be196",
+      "Directory": "innovation",
+      "File": "Dockerfile.oracle"
+    },
+    {
+      "Tags": [
+        "8.0.35",
+        "8.0",
+        "8.0.35-oracle",
+        "8.0-oracle"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "84ba05eaa75e1f0e1d33185e23f95a9cdc607b51",
+      "Directory": "8.0",
+      "File": "Dockerfile.oracle"
+    },
+    {
+      "Tags": [
+        "8.0.35-debian",
+        "8.0-debian"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "84ba05eaa75e1f0e1d33185e23f95a9cdc607b51",
+      "Directory": "8.0",
+      "File": "Dockerfile.debian"
+    },
+    {
+      "Tags": [
+        "5.7.44",
+        "5.7",
+        "5",
+        "5.7.44-oracle",
+        "5.7-oracle",
+        "5-oracle"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "9678ed1d27794ae9529c43b4411e30f981ce39ea",
+      "Directory": "5.7",
+      "File": "Dockerfile.oracle"
+    },
+    {
+      "Tags": [
+        "8.1.0",
+        "8.1",
+        "8.1.0-oracle",
+        "8.1-oracle"
       ],
       "Architectures": {
         "amd64": {
@@ -185,9 +288,7 @@
     {
       "Tags": [
         "8.0.34",
-        "8.0",
-        "8.0.34-oracle",
-        "8.0-oracle"
+        "8.0.34-oracle"
       ],
       "Architectures": {
         "amd64": {
@@ -211,8 +312,7 @@
     },
     {
       "Tags": [
-        "8.0.34-debian",
-        "8.0-debian"
+        "8.0.34-debian"
       ],
       "Architectures": {
         "amd64": {
@@ -230,11 +330,7 @@
     {
       "Tags": [
         "5.7.43",
-        "5.7",
-        "5",
-        "5.7.43-oracle",
-        "5.7-oracle",
-        "5-oracle"
+        "5.7.43-oracle"
       ],
       "Architectures": {
         "amd64": {
