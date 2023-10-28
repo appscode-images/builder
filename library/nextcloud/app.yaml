@@ -50,12 +50,12 @@ Blocks:
       GitFetch: ""
   Directory: 25/apache
   File: ""
-  GitCommit: fef9785e235f1ff05f9a4c2eb81b5f46155ef917
+  GitCommit: 4c24a2ae8ed0b1c6dff7aeddb6fb2d8e07d87f3e
   Tags:
-  - 25.0.12-apache
+  - 25.0.13-apache
   - 25.0-apache
   - 25-apache
-  - 25.0.12
+  - 25.0.13
   - "25.0"
   - "25"
 - Architectures:
@@ -109,9 +109,9 @@ Blocks:
       GitFetch: ""
   Directory: 25/fpm
   File: ""
-  GitCommit: fef9785e235f1ff05f9a4c2eb81b5f46155ef917
+  GitCommit: 4c24a2ae8ed0b1c6dff7aeddb6fb2d8e07d87f3e
   Tags:
-  - 25.0.12-fpm
+  - 25.0.13-fpm
   - 25.0-fpm
   - 25-fpm
 - Architectures:
@@ -159,9 +159,9 @@ Blocks:
       GitFetch: ""
   Directory: 25/fpm-alpine
   File: ""
-  GitCommit: fef9785e235f1ff05f9a4c2eb81b5f46155ef917
+  GitCommit: 4c24a2ae8ed0b1c6dff7aeddb6fb2d8e07d87f3e
   Tags:
-  - 25.0.12-fpm-alpine
+  - 25.0.13-fpm-alpine
   - 25.0-fpm-alpine
   - 25-fpm-alpine
 - Architectures:
@@ -215,12 +215,12 @@ Blocks:
       GitFetch: ""
   Directory: 26/apache
   File: ""
-  GitCommit: fef9785e235f1ff05f9a4c2eb81b5f46155ef917
+  GitCommit: 4c24a2ae8ed0b1c6dff7aeddb6fb2d8e07d87f3e
   Tags:
-  - 26.0.7-apache
+  - 26.0.8-apache
   - 26.0-apache
   - 26-apache
-  - 26.0.7
+  - 26.0.8
   - "26.0"
   - "26"
 - Architectures:
@@ -274,9 +274,9 @@ Blocks:
       GitFetch: ""
   Directory: 26/fpm
   File: ""
-  GitCommit: fef9785e235f1ff05f9a4c2eb81b5f46155ef917
+  GitCommit: 4c24a2ae8ed0b1c6dff7aeddb6fb2d8e07d87f3e
   Tags:
-  - 26.0.7-fpm
+  - 26.0.8-fpm
   - 26.0-fpm
   - 26-fpm
 - Architectures:
@@ -324,9 +324,9 @@ Blocks:
       GitFetch: ""
   Directory: 26/fpm-alpine
   File: ""
-  GitCommit: fef9785e235f1ff05f9a4c2eb81b5f46155ef917
+  GitCommit: 4c24a2ae8ed0b1c6dff7aeddb6fb2d8e07d87f3e
   Tags:
-  - 26.0.7-fpm-alpine
+  - 26.0.8-fpm-alpine
   - 26.0-fpm-alpine
   - 26-fpm-alpine
 - Architectures:
@@ -380,15 +380,15 @@ Blocks:
       GitFetch: ""
   Directory: 27/apache
   File: ""
-  GitCommit: 3f2d22d4208ff1ff975a96a00fcf8cdbe6fdf41f
+  GitCommit: 4c24a2ae8ed0b1c6dff7aeddb6fb2d8e07d87f3e
   Tags:
-  - 27.1.2-apache
+  - 27.1.3-apache
   - 27.1-apache
   - 27-apache
   - apache
   - stable-apache
   - production-apache
-  - 27.1.2
+  - 27.1.3
   - "27.1"
   - "27"
   - latest
@@ -445,9 +445,9 @@ Blocks:
       GitFetch: ""
   Directory: 27/fpm
   File: ""
-  GitCommit: 3f2d22d4208ff1ff975a96a00fcf8cdbe6fdf41f
+  GitCommit: 4c24a2ae8ed0b1c6dff7aeddb6fb2d8e07d87f3e
   Tags:
-  - 27.1.2-fpm
+  - 27.1.3-fpm
   - 27.1-fpm
   - 27-fpm
   - fpm
@@ -498,14 +498,485 @@ Blocks:
       GitFetch: ""
   Directory: 27/fpm-alpine
   File: ""
-  GitCommit: 3f2d22d4208ff1ff975a96a00fcf8cdbe6fdf41f
+  GitCommit: 4c24a2ae8ed0b1c6dff7aeddb6fb2d8e07d87f3e
   Tags:
-  - 27.1.2-fpm-alpine
+  - 27.1.3-fpm-alpine
   - 27.1-fpm-alpine
   - 27-fpm-alpine
   - fpm-alpine
   - stable-fpm-alpine
   - production-fpm-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 25/apache
+  File: ""
+  GitCommit: fef9785e235f1ff05f9a4c2eb81b5f46155ef917
+  Tags:
+  - 25.0.12-apache
+  - 25.0.12
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 25/fpm
+  File: ""
+  GitCommit: fef9785e235f1ff05f9a4c2eb81b5f46155ef917
+  Tags:
+  - 25.0.12-fpm
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 25/fpm-alpine
+  File: ""
+  GitCommit: fef9785e235f1ff05f9a4c2eb81b5f46155ef917
+  Tags:
+  - 25.0.12-fpm-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 26/apache
+  File: ""
+  GitCommit: fef9785e235f1ff05f9a4c2eb81b5f46155ef917
+  Tags:
+  - 26.0.7-apache
+  - 26.0.7
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 26/fpm
+  File: ""
+  GitCommit: fef9785e235f1ff05f9a4c2eb81b5f46155ef917
+  Tags:
+  - 26.0.7-fpm
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 26/fpm-alpine
+  File: ""
+  GitCommit: fef9785e235f1ff05f9a4c2eb81b5f46155ef917
+  Tags:
+  - 26.0.7-fpm-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 27/apache
+  File: ""
+  GitCommit: 3f2d22d4208ff1ff975a96a00fcf8cdbe6fdf41f
+  Tags:
+  - 27.1.2-apache
+  - 27.1.2
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 27/fpm
+  File: ""
+  GitCommit: 3f2d22d4208ff1ff975a96a00fcf8cdbe6fdf41f
+  Tags:
+  - 27.1.2-fpm
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 27/fpm-alpine
+  File: ""
+  GitCommit: 3f2d22d4208ff1ff975a96a00fcf8cdbe6fdf41f
+  Tags:
+  - 27.1.2-fpm-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -49541,6 +50012,10 @@ KnownTags:
   14.0.1-rc-apache: {}
   14.0.1-rc-fpm: {}
   14.0.1-rc-fpm-alpine: {}
+  14.0.1RC1: {}
+  14.0.1RC1-apache: {}
+  14.0.1RC1-fpm: {}
+  14.0.1RC1-fpm-alpine: {}
   14.0.2: {}
   14.0.2-apache: {}
   14.0.2-fpm: {}
@@ -49681,10 +50156,6 @@ KnownTags:
   14.0.14RC1-apache: {}
   14.0.14RC1-fpm: {}
   14.0.14RC1-fpm-alpine: {}
-  14.0.1RC1: {}
-  14.0.1RC1-apache: {}
-  14.0.1RC1-fpm: {}
-  14.0.1RC1-fpm-alpine: {}
   "15": {}
   15-apache: {}
   15-beta: {}
@@ -49749,14 +50220,6 @@ KnownTags:
   15.0.1-rc-apache: {}
   15.0.1-rc-fpm: {}
   15.0.1-rc-fpm-alpine: {}
-  15.0.1RC1: {}
-  15.0.1RC1-apache: {}
-  15.0.1RC1-fpm: {}
-  15.0.1RC1-fpm-alpine: {}
-  15.0.1RC2: {}
-  15.0.1RC2-apache: {}
-  15.0.1RC2-fpm: {}
-  15.0.1RC2-fpm-alpine: {}
   15.0.2: {}
   15.0.2-apache: {}
   15.0.2-fpm: {}
@@ -49881,6 +50344,14 @@ KnownTags:
   15.0.14RC1-apache: {}
   15.0.14RC1-fpm: {}
   15.0.14RC1-fpm-alpine: {}
+  15.0.1RC1: {}
+  15.0.1RC1-apache: {}
+  15.0.1RC1-fpm: {}
+  15.0.1RC1-fpm-alpine: {}
+  15.0.1RC2: {}
+  15.0.1RC2-apache: {}
+  15.0.1RC2-fpm: {}
+  15.0.1RC2-fpm-alpine: {}
   "16": {}
   16-alpha: {}
   16-alpha-apache: {}
@@ -51077,6 +51548,10 @@ KnownTags:
   25.0.12-apache: {}
   25.0.12-fpm: {}
   25.0.12-fpm-alpine: {}
+  25.0.13: {}
+  25.0.13-apache: {}
+  25.0.13-fpm: {}
+  25.0.13-fpm-alpine: {}
   "26": {}
   26-apache: {}
   26-fpm: {}
@@ -51117,6 +51592,10 @@ KnownTags:
   26.0.7-apache: {}
   26.0.7-fpm: {}
   26.0.7-fpm-alpine: {}
+  26.0.8: {}
+  26.0.8-apache: {}
+  26.0.8-fpm: {}
+  26.0.8-fpm-alpine: {}
   "27": {}
   27-apache: {}
   27-fpm: {}
@@ -51153,6 +51632,10 @@ KnownTags:
   27.1.2-apache: {}
   27.1.2-fpm: {}
   27.1.2-fpm-alpine: {}
+  27.1.3: {}
+  27.1.3-apache: {}
+  27.1.3-fpm: {}
+  27.1.3-fpm-alpine: {}
   apache: {}
   beta: {}
   beta-apache: {}

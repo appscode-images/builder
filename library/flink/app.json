@@ -350,6 +350,22 @@
     "1.17.1-scala_2.12": {},
     "1.17.1-scala_2.12-java11": {},
     "1.17.1-scala_2.12-java8": {},
+    "1.18": {},
+    "1.18-java11": {},
+    "1.18-java17": {},
+    "1.18-java8": {},
+    "1.18-scala_2.12": {},
+    "1.18-scala_2.12-java11": {},
+    "1.18-scala_2.12-java17": {},
+    "1.18-scala_2.12-java8": {},
+    "1.18.0": {},
+    "1.18.0-java11": {},
+    "1.18.0-java17": {},
+    "1.18.0-java8": {},
+    "1.18.0-scala_2.12": {},
+    "1.18.0-scala_2.12-java11": {},
+    "1.18.0-scala_2.12-java17": {},
+    "1.18.0-scala_2.12-java8": {},
     "1.2": {},
     "1.2-alpine": {},
     "1.2-hadoop2": {},
@@ -966,6 +982,7 @@
     "hadoop28": {},
     "hadoop28-alpine": {},
     "java11": {},
+    "java17": {},
     "java8": {},
     "latest": {},
     "latest-java11": {},
@@ -979,17 +996,109 @@
     "scala_2.12": {},
     "scala_2.12-alpine": {},
     "scala_2.12-java11": {},
+    "scala_2.12-java17": {},
     "scala_2.12-java8": {}
   },
   "Blocks": [
     {
       "Tags": [
+        "1.18.0-scala_2.12-java8",
+        "1.18-scala_2.12-java8",
+        "scala_2.12-java8",
+        "1.18.0-java8",
+        "1.18-java8",
+        "java8"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "3154e4800c2aa8f183ac4b03dcdc90b14a6404a1",
+      "Directory": "./1.18/scala_2.12-java8-ubuntu",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.18.0-scala_2.12-java17",
+        "1.18-scala_2.12-java17",
+        "scala_2.12-java17",
+        "1.18.0-java17",
+        "1.18-java17",
+        "java17"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "3154e4800c2aa8f183ac4b03dcdc90b14a6404a1",
+      "Directory": "./1.18/scala_2.12-java17-ubuntu",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.18.0-scala_2.12-java11",
+        "1.18-scala_2.12-java11",
+        "scala_2.12-java11",
+        "1.18.0-scala_2.12",
+        "1.18-scala_2.12",
+        "scala_2.12",
+        "1.18.0-java11",
+        "1.18-java11",
+        "java11",
+        "1.18.0",
+        "1.18",
+        "latest"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "3154e4800c2aa8f183ac4b03dcdc90b14a6404a1",
+      "Directory": "./1.18/scala_2.12-java11-ubuntu",
+      "File": ""
+    },
+    {
+      "Tags": [
         "1.17.1-scala_2.12-java8",
         "1.17-scala_2.12-java8",
-        "scala_2.12-java8",
         "1.17.1-java8",
-        "1.17-java8",
-        "java8"
+        "1.17-java8"
       ],
       "Architectures": {
         "amd64": {
@@ -1015,16 +1124,12 @@
       "Tags": [
         "1.17.1-scala_2.12-java11",
         "1.17-scala_2.12-java11",
-        "scala_2.12-java11",
         "1.17.1-scala_2.12",
         "1.17-scala_2.12",
-        "scala_2.12",
         "1.17.1-java11",
         "1.17-java11",
-        "java11",
         "1.17.1",
-        "1.17",
-        "latest"
+        "1.17"
       ],
       "Architectures": {
         "amd64": {
