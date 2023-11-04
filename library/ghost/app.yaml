@@ -32,12 +32,82 @@ Blocks:
       GitFetch: ""
   Directory: 5/debian
   File: ""
+  GitCommit: c85ed82d808917fb5c6a593cde967d3e736da3d3
+  Tags:
+  - 5.72.0
+  - "5.72"
+  - "5"
+  - latest
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 5/alpine
+  File: ""
+  GitCommit: c85ed82d808917fb5c6a593cde967d3e736da3d3
+  Tags:
+  - 5.72.0-alpine
+  - 5.72-alpine
+  - 5-alpine
+  - alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 5/debian
+  File: ""
   GitCommit: d9b12cc686ca5744a9f7882351cf314e3a09774f
   Tags:
   - 5.71.0
   - "5.71"
-  - "5"
-  - latest
 - Architectures:
     amd64:
       Architecture: amd64
@@ -69,8 +139,6 @@ Blocks:
   Tags:
   - 5.71.0-alpine
   - 5.71-alpine
-  - 5-alpine
-  - alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -33819,6 +33887,10 @@ KnownTags:
   5.71-alpine: {}
   5.71.0: {}
   5.71.0-alpine: {}
+  "5.72": {}
+  5.72-alpine: {}
+  5.72.0: {}
+  5.72.0-alpine: {}
   alpine: {}
   latest: {}
 Name: ghost
