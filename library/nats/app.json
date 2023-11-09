@@ -742,6 +742,15 @@
     "2.9.23-scratch": {},
     "2.9.23-windowsservercore": {},
     "2.9.23-windowsservercore-1809": {},
+    "2.9.24": {},
+    "2.9.24-alpine": {},
+    "2.9.24-alpine3.18": {},
+    "2.9.24-linux": {},
+    "2.9.24-nanoserver": {},
+    "2.9.24-nanoserver-1809": {},
+    "2.9.24-scratch": {},
+    "2.9.24-windowsservercore": {},
+    "2.9.24-windowsservercore-1809": {},
     "2.9.3": {},
     "2.9.3-alpine": {},
     "2.9.3-alpine3.16": {},
@@ -868,7 +877,7 @@
           "File": ""
         }
       },
-      "GitCommit": "527dad8cfc64d7afba2993351697cc0b44b03854",
+      "GitCommit": "2e80fecdcb58ce995cd7bb9d8af66499ca023e44",
       "Directory": "2.10.x/alpine3.18",
       "File": ""
     },
@@ -917,7 +926,7 @@
           "File": ""
         }
       },
-      "GitCommit": "527dad8cfc64d7afba2993351697cc0b44b03854",
+      "GitCommit": "2e80fecdcb58ce995cd7bb9d8af66499ca023e44",
       "Directory": "2.10.x/scratch",
       "File": ""
     },
@@ -941,7 +950,7 @@
           "File": ""
         }
       },
-      "GitCommit": "527dad8cfc64d7afba2993351697cc0b44b03854",
+      "GitCommit": "2e80fecdcb58ce995cd7bb9d8af66499ca023e44",
       "Directory": "2.10.x/windowsservercore-1809",
       "File": ""
     },
@@ -965,16 +974,138 @@
           "File": ""
         }
       },
-      "GitCommit": "527dad8cfc64d7afba2993351697cc0b44b03854",
+      "GitCommit": "2e80fecdcb58ce995cd7bb9d8af66499ca023e44",
       "Directory": "2.10.x/nanoserver-1809",
       "File": ""
     },
     {
       "Tags": [
-        "2.9.23-alpine3.18",
+        "2.9.24-alpine3.18",
         "2.9-alpine3.18",
-        "2.9.23-alpine",
+        "2.9.24-alpine",
         "2.9-alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "2e80fecdcb58ce995cd7bb9d8af66499ca023e44",
+      "Directory": "2.9.x/alpine3.18",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.9.24-scratch",
+        "2.9-scratch",
+        "2.9.24-linux",
+        "2.9-linux",
+        "2.9.24",
+        "2.9"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "2e80fecdcb58ce995cd7bb9d8af66499ca023e44",
+      "Directory": "2.9.x/scratch",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.9.24-windowsservercore-1809",
+        "2.9-windowsservercore-1809",
+        "2.9.24-windowsservercore",
+        "2.9-windowsservercore"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "2e80fecdcb58ce995cd7bb9d8af66499ca023e44",
+      "Directory": "2.9.x/windowsservercore-1809",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.9.24-nanoserver-1809",
+        "2.9-nanoserver-1809",
+        "2.9.24-nanoserver",
+        "2.9-nanoserver"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "2e80fecdcb58ce995cd7bb9d8af66499ca023e44",
+      "Directory": "2.9.x/nanoserver-1809",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.9.23-alpine3.18",
+        "2.9.23-alpine"
       ],
       "Architectures": {
         "amd64": {
@@ -1013,11 +1144,8 @@
     {
       "Tags": [
         "2.9.23-scratch",
-        "2.9-scratch",
         "2.9.23-linux",
-        "2.9-linux",
-        "2.9.23",
-        "2.9"
+        "2.9.23"
       ],
       "Architectures": {
         "amd64": {
@@ -1056,9 +1184,7 @@
     {
       "Tags": [
         "2.9.23-windowsservercore-1809",
-        "2.9-windowsservercore-1809",
-        "2.9.23-windowsservercore",
-        "2.9-windowsservercore"
+        "2.9.23-windowsservercore"
       ],
       "Architectures": {
         "windows-amd64": {
@@ -1076,9 +1202,7 @@
     {
       "Tags": [
         "2.9.23-nanoserver-1809",
-        "2.9-nanoserver-1809",
-        "2.9.23-nanoserver",
-        "2.9-nanoserver"
+        "2.9.23-nanoserver"
       ],
       "Architectures": {
         "windows-amd64": {
