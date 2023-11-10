@@ -182,6 +182,20 @@ Blocks:
   - 5.9-rhel-ubi9-slim
   - rhel-ubi9-slim
 - Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 5.9/windows/LTSC2022
+  File: ""
+  GitCommit: 3fc609343f771e31c17140ed90d6cb2023e6e701
+  Tags:
+  - 5.9.1-windowsservercore-ltsc2022
+  - 5.9-windowsservercore-ltsc2022
+  - windowsservercore-ltsc2022
+- Architectures:
     amd64:
       Architecture: amd64
       Directory: ""
@@ -3496,6 +3510,7 @@ KnownTags:
   5.9-rhel-ubi9: {}
   5.9-rhel-ubi9-slim: {}
   5.9-slim: {}
+  5.9-windowsservercore-ltsc2022: {}
   5.9.0: {}
   5.9.0-amazonlinux2: {}
   5.9.0-amazonlinux2-slim: {}
@@ -3522,6 +3537,7 @@ KnownTags:
   5.9.1-rhel-ubi9: {}
   5.9.1-rhel-ubi9-slim: {}
   5.9.1-slim: {}
+  5.9.1-windowsservercore-ltsc2022: {}
   amazonlinux2: {}
   amazonlinux2-slim: {}
   bionic: {}
@@ -3538,6 +3554,7 @@ KnownTags:
   rhel-ubi9: {}
   rhel-ubi9-slim: {}
   slim: {}
+  windowsservercore-ltsc2022: {}
   xenial: {}
   xenial-slim: {}
 Name: swift
