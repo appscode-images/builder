@@ -16,7 +16,7 @@ Blocks:
   File: ""
   GitCommit: ""
   Tags:
-  - 9.9.2-community
+  - 9.9.3-community
   - 9.9-community
   - 9-community
   - lts
@@ -38,7 +38,7 @@ Blocks:
   File: ""
   GitCommit: ""
   Tags:
-  - 9.9.2-developer
+  - 9.9.3-developer
   - 9.9-developer
   - 9-developer
   - lts-developer
@@ -59,7 +59,7 @@ Blocks:
   File: ""
   GitCommit: ""
   Tags:
-  - 9.9.2-enterprise
+  - 9.9.3-enterprise
   - 9.9-enterprise
   - 9-enterprise
   - lts-enterprise
@@ -80,7 +80,7 @@ Blocks:
   File: ""
   GitCommit: ""
   Tags:
-  - 9.9.2-datacenter-app
+  - 9.9.3-datacenter-app
   - 9.9-datacenter-app
   - 9-datacenter-app
   - lts-datacenter-app
@@ -101,7 +101,7 @@ Blocks:
   File: ""
   GitCommit: ""
   Tags:
-  - 9.9.2-datacenter-search
+  - 9.9.3-datacenter-search
   - 9.9-datacenter-search
   - 9-datacenter-search
   - lts-datacenter-search
@@ -211,6 +211,96 @@ Blocks:
   - 10.2-datacenter-search
   - 10-datacenter-search
   - datacenter-search
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 9/community
+  File: ""
+  GitCommit: ""
+  Tags:
+  - 9.9.2-community
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 9/developer
+  File: ""
+  GitCommit: ""
+  Tags:
+  - 9.9.2-developer
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 9/enterprise
+  File: ""
+  GitCommit: ""
+  Tags:
+  - 9.9.2-enterprise
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 9/datacenter/app
+  File: ""
+  GitCommit: ""
+  Tags:
+  - 9.9.2-datacenter-app
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 9/datacenter/search
+  File: ""
+  GitCommit: ""
+  Tags:
+  - 9.9.2-datacenter-search
 - Architectures:
     amd64:
       Architecture: amd64
@@ -2353,6 +2443,11 @@ KnownTags:
   9.9.2-datacenter-search: {}
   9.9.2-developer: {}
   9.9.2-enterprise: {}
+  9.9.3-community: {}
+  9.9.3-datacenter-app: {}
+  9.9.3-datacenter-search: {}
+  9.9.3-developer: {}
+  9.9.3-enterprise: {}
   10-community: {}
   10-datacenter-app: {}
   10-datacenter-search: {}

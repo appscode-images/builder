@@ -106,11 +106,11 @@ Blocks:
       GitFetch: ""
   Directory: 9.4/buster
   File: ""
-  GitCommit: 7bb1b4d1f855249d50056a69f071a2f50ad2987d
+  GitCommit: feaa69933c38c47f92e58aa6e7346c8865c1a9f3
   Tags:
-  - 9.4.7-buster
+  - 9.4.8-buster
   - 9.4-buster
-  - 9.4.7
+  - 9.4.8
   - "9.4"
 - Architectures:
     amd64:
@@ -127,11 +127,11 @@ Blocks:
       GitFetch: ""
   Directory: 9.4/slim-buster
   File: ""
-  GitCommit: 7bb1b4d1f855249d50056a69f071a2f50ad2987d
+  GitCommit: feaa69933c38c47f92e58aa6e7346c8865c1a9f3
   Tags:
-  - 9.4.7-slim-buster
+  - 9.4.8-slim-buster
   - 9.4-slim-buster
-  - 9.4.7-slim
+  - 9.4.8-slim
   - 9.4-slim
 - Architectures:
     amd64:
@@ -217,6 +217,44 @@ Blocks:
   - 9.0-slim-buster
   - 9.0.2-slim
   - 9.0-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 9.4/buster
+  File: ""
+  GitCommit: 7bb1b4d1f855249d50056a69f071a2f50ad2987d
+  Tags:
+  - 9.4.7-buster
+  - 9.4.7
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 9.4/slim-buster
+  File: ""
+  GitCommit: 7bb1b4d1f855249d50056a69f071a2f50ad2987d
+  Tags:
+  - 9.4.7-slim-buster
+  - 9.4.7-slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1133,6 +1171,10 @@ KnownTags:
   9.4.7-buster: {}
   9.4.7-slim: {}
   9.4.7-slim-buster: {}
+  9.4.8: {}
+  9.4.8-buster: {}
+  9.4.8-slim: {}
+  9.4.8-slim-buster: {}
   "9.6": {}
   9.6-buster: {}
   9.6-slim: {}
