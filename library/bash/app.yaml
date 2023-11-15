@@ -95,13 +95,13 @@ Blocks:
       GitFetch: ""
   Directory: "5.2"
   File: ""
-  GitCommit: fa56f3014aa4901e889d12910a711d1adc0fc6a6
+  GitCommit: ba6a6be33e2bc2b6f045963607650e54a83a974b
   Tags:
-  - 5.2.15
+  - 5.2.21
   - "5.2"
   - "5"
   - latest
-  - 5.2.15-alpine3.18
+  - 5.2.21-alpine3.18
   - 5.2-alpine3.18
   - 5-alpine3.18
   - alpine3.18
@@ -619,6 +619,55 @@ Blocks:
   - "3.0"
   - 3.0.22-alpine3.18
   - 3.0-alpine3.18
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: "5.2"
+  File: ""
+  GitCommit: fa56f3014aa4901e889d12910a711d1adc0fc6a6
+  Tags:
+  - 5.2.15
+  - 5.2.15-alpine3.18
 - Architectures:
     amd64:
       Architecture: amd64
@@ -15088,6 +15137,8 @@ KnownTags:
   5.2.15-alpine3.16: {}
   5.2.15-alpine3.17: {}
   5.2.15-alpine3.18: {}
+  5.2.21: {}
+  5.2.21-alpine3.18: {}
   alpine3.12: {}
   alpine3.14: {}
   alpine3.15: {}
