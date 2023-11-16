@@ -38,11 +38,11 @@ Blocks:
       GitFetch: ""
   Directory: 21/alpine3.17
   File: ""
-  GitCommit: 62c2e3cfb17ba8d9167b0daebbff9ea5ecaef6e4
+  GitCommit: ed83529ea65cfbeadda161ee501b4cf83444aa2d
   Tags:
   - 21-alpine3.17
-  - 21.1-alpine3.17
-  - 21.1.0-alpine3.17
+  - 21.2-alpine3.17
+  - 21.2.0-alpine3.17
   - alpine3.17
   - current-alpine3.17
 - Architectures:
@@ -84,14 +84,14 @@ Blocks:
       GitFetch: ""
   Directory: 21/alpine3.18
   File: ""
-  GitCommit: 62c2e3cfb17ba8d9167b0daebbff9ea5ecaef6e4
+  GitCommit: ed83529ea65cfbeadda161ee501b4cf83444aa2d
   Tags:
   - 21-alpine
   - 21-alpine3.18
-  - 21.1-alpine
-  - 21.1-alpine3.18
-  - 21.1.0-alpine
-  - 21.1.0-alpine3.18
+  - 21.2-alpine
+  - 21.2-alpine3.18
+  - 21.2.0-alpine
+  - 21.2.0-alpine3.18
   - alpine
   - alpine3.18
   - current-alpine
@@ -129,14 +129,14 @@ Blocks:
       GitFetch: ""
   Directory: 21/bookworm
   File: ""
-  GitCommit: 62c2e3cfb17ba8d9167b0daebbff9ea5ecaef6e4
+  GitCommit: ed83529ea65cfbeadda161ee501b4cf83444aa2d
   Tags:
   - "21"
   - 21-bookworm
-  - "21.1"
-  - 21.1-bookworm
-  - 21.1.0
-  - 21.1.0-bookworm
+  - "21.2"
+  - 21.2-bookworm
+  - 21.2.0
+  - 21.2.0-bookworm
   - bookworm
   - current
   - current-bookworm
@@ -174,14 +174,14 @@ Blocks:
       GitFetch: ""
   Directory: 21/bookworm-slim
   File: ""
-  GitCommit: 62c2e3cfb17ba8d9167b0daebbff9ea5ecaef6e4
+  GitCommit: ed83529ea65cfbeadda161ee501b4cf83444aa2d
   Tags:
   - 21-bookworm-slim
   - 21-slim
-  - 21.1-bookworm-slim
-  - 21.1-slim
-  - 21.1.0-bookworm-slim
-  - 21.1.0-slim
+  - 21.2-bookworm-slim
+  - 21.2-slim
+  - 21.2.0-bookworm-slim
+  - 21.2.0-slim
   - bookworm-slim
   - current-bookworm-slim
   - current-slim
@@ -219,11 +219,11 @@ Blocks:
       GitFetch: ""
   Directory: 21/bullseye
   File: ""
-  GitCommit: 62c2e3cfb17ba8d9167b0daebbff9ea5ecaef6e4
+  GitCommit: ed83529ea65cfbeadda161ee501b4cf83444aa2d
   Tags:
   - 21-bullseye
-  - 21.1-bullseye
-  - 21.1.0-bullseye
+  - 21.2-bullseye
+  - 21.2.0-bullseye
   - bullseye
   - current-bullseye
 - Architectures:
@@ -259,11 +259,11 @@ Blocks:
       GitFetch: ""
   Directory: 21/bullseye-slim
   File: ""
-  GitCommit: 62c2e3cfb17ba8d9167b0daebbff9ea5ecaef6e4
+  GitCommit: ed83529ea65cfbeadda161ee501b4cf83444aa2d
   Tags:
   - 21-bullseye-slim
-  - 21.1-bullseye-slim
-  - 21.1.0-bullseye-slim
+  - 21.2-bullseye-slim
+  - 21.2.0-bullseye-slim
   - bullseye-slim
   - current-bullseye-slim
 - Architectures:
@@ -305,7 +305,7 @@ Blocks:
       GitFetch: ""
   Directory: 20/alpine3.17
   File: ""
-  GitCommit: 62c2e3cfb17ba8d9167b0daebbff9ea5ecaef6e4
+  GitCommit: e148eb79f51510593647e6a10574f8931bf16384
   Tags:
   - 20-alpine3.17
   - 20.9-alpine3.17
@@ -351,7 +351,7 @@ Blocks:
       GitFetch: ""
   Directory: 20/alpine3.18
   File: ""
-  GitCommit: 62c2e3cfb17ba8d9167b0daebbff9ea5ecaef6e4
+  GitCommit: e148eb79f51510593647e6a10574f8931bf16384
   Tags:
   - 20-alpine
   - 20-alpine3.18
@@ -629,7 +629,7 @@ Blocks:
       GitFetch: ""
   Directory: 18/alpine3.17
   File: ""
-  GitCommit: 6c20762ebfb6ab35c874c4fe540a55ab8fd6c49d
+  GitCommit: e148eb79f51510593647e6a10574f8931bf16384
   Tags:
   - 18-alpine3.17
   - 18.18-alpine3.17
@@ -674,7 +674,7 @@ Blocks:
       GitFetch: ""
   Directory: 18/alpine3.18
   File: ""
-  GitCommit: 6c20762ebfb6ab35c874c4fe540a55ab8fd6c49d
+  GitCommit: e148eb79f51510593647e6a10574f8931bf16384
   Tags:
   - 18-alpine
   - 18-alpine3.18
@@ -902,6 +902,246 @@ Blocks:
   - 18.18-buster-slim
   - 18.18.2-buster-slim
   - hydrogen-buster-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/alpine3.17
+  File: ""
+  GitCommit: 62c2e3cfb17ba8d9167b0daebbff9ea5ecaef6e4
+  Tags:
+  - 21.1-alpine3.17
+  - 21.1.0-alpine3.17
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/alpine3.18
+  File: ""
+  GitCommit: 62c2e3cfb17ba8d9167b0daebbff9ea5ecaef6e4
+  Tags:
+  - 21.1-alpine
+  - 21.1-alpine3.18
+  - 21.1.0-alpine
+  - 21.1.0-alpine3.18
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/bookworm
+  File: ""
+  GitCommit: 62c2e3cfb17ba8d9167b0daebbff9ea5ecaef6e4
+  Tags:
+  - "21.1"
+  - 21.1-bookworm
+  - 21.1.0
+  - 21.1.0-bookworm
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/bookworm-slim
+  File: ""
+  GitCommit: 62c2e3cfb17ba8d9167b0daebbff9ea5ecaef6e4
+  Tags:
+  - 21.1-bookworm-slim
+  - 21.1-slim
+  - 21.1.0-bookworm-slim
+  - 21.1.0-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/bullseye
+  File: ""
+  GitCommit: 62c2e3cfb17ba8d9167b0daebbff9ea5ecaef6e4
+  Tags:
+  - 21.1-bullseye
+  - 21.1.0-bullseye
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/bullseye-slim
+  File: ""
+  GitCommit: 62c2e3cfb17ba8d9167b0daebbff9ea5ecaef6e4
+  Tags:
+  - 21.1-bullseye-slim
+  - 21.1.0-bullseye-slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -97322,6 +97562,24 @@ KnownTags:
   21.1.0-bullseye: {}
   21.1.0-bullseye-slim: {}
   21.1.0-slim: {}
+  "21.2": {}
+  21.2-alpine: {}
+  21.2-alpine3.17: {}
+  21.2-alpine3.18: {}
+  21.2-bookworm: {}
+  21.2-bookworm-slim: {}
+  21.2-bullseye: {}
+  21.2-bullseye-slim: {}
+  21.2-slim: {}
+  21.2.0: {}
+  21.2.0-alpine: {}
+  21.2.0-alpine3.17: {}
+  21.2.0-alpine3.18: {}
+  21.2.0-bookworm: {}
+  21.2.0-bookworm-slim: {}
+  21.2.0-bullseye: {}
+  21.2.0-bullseye-slim: {}
+  21.2.0-slim: {}
   alpine: {}
   alpine3.10: {}
   alpine3.11: {}
