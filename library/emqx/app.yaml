@@ -71,12 +71,30 @@ Blocks:
       GitFetch: ""
   Directory: "5.3"
   File: Dockerfile
-  GitCommit: b831255e1b833d4e56110904b1cb6d4eb899efda
+  GitCommit: 93a2f78567c5007a9d76786f7324dcf2dcfccd15
   Tags:
-  - 5.3.0
+  - 5.3.1
   - "5.3"
   - "5"
   - latest
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: "5.3"
+  File: Dockerfile
+  GitCommit: b831255e1b833d4e56110904b1cb6d4eb899efda
+  Tags:
+  - 5.3.0
 - Architectures:
     amd64:
       Architecture: amd64
@@ -703,5 +721,6 @@ KnownTags:
   5.2.1: {}
   "5.3": {}
   5.3.0: {}
+  5.3.1: {}
   latest: {}
 Name: emqx
