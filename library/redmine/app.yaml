@@ -30,6 +30,12 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
     ppc64le:
       Architecture: ppc64le
       Directory: ""
@@ -42,16 +48,16 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: "5.0"
+  Directory: 5.1/bookworm
   File: ""
-  GitCommit: 329d3b89cc5ef11e7363f3eaff0f046e249aadee
+  GitCommit: 16d3e00e73ce4ab0173b931f04dce5117d696211
   Tags:
-  - 5.0.6
-  - "5.0"
+  - 5.1.0
+  - "5.1"
   - "5"
   - latest
-  - 5.0.6-bookworm
-  - 5.0-bookworm
+  - 5.1.0-bookworm
+  - 5.1-bookworm
   - 5-bookworm
   - bookworm
 - Architectures:
@@ -97,18 +103,126 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 5.0/alpine
+  Directory: 5.1/alpine3.18
   File: ""
-  GitCommit: 329d3b89cc5ef11e7363f3eaff0f046e249aadee
+  GitCommit: 16d3e00e73ce4ab0173b931f04dce5117d696211
   Tags:
-  - 5.0.6-alpine
-  - 5.0-alpine
-  - 5-alpine
-  - alpine
-  - 5.0.6-alpine3.18
-  - 5.0-alpine3.18
+  - 5.1.0-alpine3.18
+  - 5.1-alpine3.18
   - 5-alpine3.18
   - alpine3.18
+  - 5.1.0-alpine
+  - 5.1-alpine
+  - 5-alpine
+  - alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 5.0/bookworm
+  File: ""
+  GitCommit: dce1e4913a56091ef1ccd05d1e9df88fa75bce64
+  Tags:
+  - 5.0.6
+  - "5.0"
+  - 5.0.6-bookworm
+  - 5.0-bookworm
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 5.0/alpine3.18
+  File: ""
+  GitCommit: dce1e4913a56091ef1ccd05d1e9df88fa75bce64
+  Tags:
+  - 5.0.6-alpine3.18
+  - 5.0-alpine3.18
+  - 5.0.6-alpine
+  - 5.0-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -4989,6 +5103,14 @@ KnownTags:
   5.0.6-alpine: {}
   5.0.6-alpine3.18: {}
   5.0.6-bookworm: {}
+  "5.1": {}
+  5.1-alpine: {}
+  5.1-alpine3.18: {}
+  5.1-bookworm: {}
+  5.1.0: {}
+  5.1.0-alpine: {}
+  5.1.0-alpine3.18: {}
+  5.1.0-bookworm: {}
   alpine: {}
   alpine3.13: {}
   alpine3.15: {}
