@@ -42,6 +42,10 @@
     "8.8-minimal": {},
     "8.8-minimal-20230524": {},
     "8.8-minimal-20230718": {},
+    "8.9": {},
+    "8.9-20231122": {},
+    "8.9-minimal": {},
+    "8.9-minimal-20231122": {},
     "9": {},
     "9-minimal": {},
     "9.0": {},
@@ -78,6 +82,10 @@
     "9.2-minimal": {},
     "9.2-minimal-20230512": {},
     "9.2-minimal-20230718": {},
+    "9.3": {},
+    "9.3-20231122": {},
+    "9.3-minimal": {},
+    "9.3-minimal-20231122": {},
     "latest": {},
     "minimal": {}
   },
@@ -85,6 +93,167 @@
     {
       "Tags": [
         "8",
+        "8.9",
+        "8.9-20231122"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": "Dockerfile-x86_64-default"
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "refs/heads/al8-20231122-arm64v8",
+          "GitCommit": "4fe18788750ad7efafd5239a1bb0b5799ce8e19b",
+          "File": "Dockerfile-aarch64-default"
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "refs/heads/al8-20231122-ppc64le",
+          "GitCommit": "bd5fba172243873deb26fa9708ea03f9068908cd",
+          "File": "Dockerfile-ppc64le-default"
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "refs/heads/al8-20231122-s390x",
+          "GitCommit": "f3b8fdb7c42fd3df9a6d819572d07ecd3aaf493e",
+          "File": "Dockerfile-s390x-default"
+        }
+      },
+      "GitCommit": "2b55e461c04ed9a74c37e043f7657d5a457e9494",
+      "Directory": "",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8-minimal",
+        "8.9-minimal",
+        "8.9-minimal-20231122"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": "Dockerfile-x86_64-minimal"
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "refs/heads/al8-20231122-arm64v8",
+          "GitCommit": "4fe18788750ad7efafd5239a1bb0b5799ce8e19b",
+          "File": "Dockerfile-aarch64-minimal"
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "refs/heads/al8-20231122-ppc64le",
+          "GitCommit": "bd5fba172243873deb26fa9708ea03f9068908cd",
+          "File": "Dockerfile-ppc64le-minimal"
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "refs/heads/al8-20231122-s390x",
+          "GitCommit": "f3b8fdb7c42fd3df9a6d819572d07ecd3aaf493e",
+          "File": "Dockerfile-s390x-minimal"
+        }
+      },
+      "GitCommit": "2b55e461c04ed9a74c37e043f7657d5a457e9494",
+      "Directory": "",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "latest",
+        "9",
+        "9.3",
+        "9.3-20231122"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": "Dockerfile-x86_64-default"
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "refs/heads/al9-20231122-arm64v8",
+          "GitCommit": "15a35229e19f81fcd8c1c2d1a30e4d46a9690fa4",
+          "File": "Dockerfile-aarch64-default"
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "refs/heads/al9-20231122-ppc64le",
+          "GitCommit": "da1ed3b1643a8741646e20f73eef1ba3afbbd24a",
+          "File": "Dockerfile-ppc64le-default"
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "refs/heads/al9-20231122-s390x",
+          "GitCommit": "0ca81f035791f349604b65f8187b478d70c632c8",
+          "File": "Dockerfile-s390x-default"
+        }
+      },
+      "GitCommit": "fe2a97c5db0765c328ad806792866e60b14596ee",
+      "Directory": "",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "minimal",
+        "9-minimal",
+        "9.3-minimal",
+        "9.3-minimal-20231122"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": "Dockerfile-x86_64-minimal"
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "refs/heads/al9-20231122-arm64v8",
+          "GitCommit": "15a35229e19f81fcd8c1c2d1a30e4d46a9690fa4",
+          "File": "Dockerfile-aarch64-minimal"
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "refs/heads/al9-20231122-ppc64le",
+          "GitCommit": "da1ed3b1643a8741646e20f73eef1ba3afbbd24a",
+          "File": "Dockerfile-ppc64le-minimal"
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "refs/heads/al9-20231122-s390x",
+          "GitCommit": "0ca81f035791f349604b65f8187b478d70c632c8",
+          "File": "Dockerfile-s390x-minimal"
+        }
+      },
+      "GitCommit": "fe2a97c5db0765c328ad806792866e60b14596ee",
+      "Directory": "",
+      "File": ""
+    },
+    {
+      "Tags": [
         "8.8",
         "8.8-20230718"
       ],
@@ -124,7 +293,6 @@
     },
     {
       "Tags": [
-        "8-minimal",
         "8.8-minimal",
         "8.8-minimal-20230718"
       ],
@@ -164,8 +332,6 @@
     },
     {
       "Tags": [
-        "latest",
-        "9",
         "9.2",
         "9.2-20230718"
       ],
@@ -205,8 +371,6 @@
     },
     {
       "Tags": [
-        "minimal",
-        "9-minimal",
         "9.2-minimal",
         "9.2-minimal-20230718"
       ],
