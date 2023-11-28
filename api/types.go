@@ -8,8 +8,11 @@ import (
 	"strings"
 )
 
-const GH_IMG_REPO_OWNER = "appscode-images"
-const DOCKER_REGISTRY = "ghcr.io/" + GH_IMG_REPO_OWNER
+const (
+	GH_IMG_REPO_OWNER = "appscode-images"
+	DOCKER_REGISTRY   = "ghcr.io/" + GH_IMG_REPO_OWNER
+	DAILY_REGISTRY    = "ghcr.io/" + GH_IMG_REPO_OWNER + "/daily"
+)
 
 type AppHistory struct {
 	Name      string

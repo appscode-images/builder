@@ -198,7 +198,7 @@ func GatherReport(dir, name, ts string) ([]TagReport, error) {
 			tagReport.Unknown.Before = -1
 		}
 
-		tsRef := fmt.Sprintf("%s/%s:%s_%s", api.DOCKER_REGISTRY, name, tag, ts)
+		tsRef := fmt.Sprintf("%s/%s:%s_%s", api.DAILY_REGISTRY, name, tag, ts)
 		if found, err := lib.ImageExists(tsRef); err != nil {
 			return nil, err
 		} else if found {

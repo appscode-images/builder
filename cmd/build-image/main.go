@@ -63,7 +63,7 @@ func main__() {
 
 	name := "alpine"
 	tag := "3.17.3"
-	ref := fmt.Sprintf("%s/%s:%s_%s", api.DOCKER_REGISTRY, name, tag, ts)
+	ref := fmt.Sprintf("%s/%s:%s_%s", api.DAILY_REGISTRY, name, tag, ts)
 	ref = "cgr.dev/chainguard/ruby"
 
 	dir, err := os.Getwd()
@@ -126,7 +126,7 @@ func main() {
 
 	t := time.Now()
 	ts := t.UTC().Format("20060102")
-	ref := fmt.Sprintf("%s/%s:%s_%s", api.DOCKER_REGISTRY, *name, *tag, ts)
+	ref := fmt.Sprintf("%s/%s:%s_%s", api.DAILY_REGISTRY, *name, *tag, ts)
 	sh := lib.NewShell()
 
 	dir, err := os.Getwd()
@@ -234,7 +234,7 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, b *api.Block, name, ta
 		}
 		sh.SetDir(dockerfileDir)
 
-		img := fmt.Sprintf("%s/%s:%s_%s_%s", api.DOCKER_REGISTRY, name, tag, ts, strings.ReplaceAll(lib.Platform(arch), "/", "_"))
+		img := fmt.Sprintf("%s/%s:%s_%s_%s", api.DAILY_REGISTRY, name, tag, ts, strings.ReplaceAll(lib.Platform(arch), "/", "_"))
 		archImages = append(archImages, img)
 		args := []any{
 			"build", "--platform=" + lib.Platform(arch), "--load", "--pull", "-t", img,
@@ -258,7 +258,7 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, b *api.Block, name, ta
 	// docker manifest create -a $(IMAGE):$(TAG) $(foreach PLATFORM,$(PLATFORM_ARCHS),$(IMAGE):$(TAG)_$(subst /,_,$(PLATFORM)))
 	// docker manifest push $(IMAGE):$(TAG)
 
-	img := fmt.Sprintf("%s/%s:%s_%s", api.DOCKER_REGISTRY, name, tag, ts)
+	img := fmt.Sprintf("%s/%s:%s_%s", api.DAILY_REGISTRY, name, tag, ts)
 	args := append([]any{"manifest", "create", "-a", img}, archImages...)
 	err = sh.Command("docker", args...).Run()
 	if err != nil {

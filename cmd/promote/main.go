@@ -53,7 +53,7 @@ func PromoteTags(dir string) error {
 			}
 			tag := tsTag[:idx]
 
-			srcRef := fmt.Sprintf("%s/%s:%s", api.DOCKER_REGISTRY, entry.Name(), tsTag)
+			srcRef := fmt.Sprintf("%s/%s:%s", api.DAILY_REGISTRY, entry.Name(), tsTag)
 			dstRef := fmt.Sprintf("%s/%s:%s", api.DOCKER_REGISTRY, entry.Name(), tag)
 
 			err := sh.Command("crane", "cp", srcRef, dstRef).Run()
