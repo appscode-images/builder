@@ -105,6 +105,7 @@ jobs:
     name: Build
     runs-on: $runner$
     strategy:
+      fail-fast: false
       matrix:
         tag: [$tags$]
     steps:

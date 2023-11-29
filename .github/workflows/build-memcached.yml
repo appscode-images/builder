@@ -14,6 +14,7 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         tag: [1.6.21-alpine, 1.5.22-alpine]
     steps:
