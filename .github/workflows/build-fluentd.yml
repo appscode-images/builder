@@ -1,8 +1,8 @@
 name: build-fluentd
 
 on:
-  schedule:
-    - cron: '0 1 * * *'
+  # schedule:
+  #   - cron: '0 1 * * *'
   workflow_dispatch:
 
 concurrency:
