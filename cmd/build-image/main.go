@@ -126,7 +126,6 @@ func main() {
 
 	t := time.Now()
 	ts := t.UTC().Format("20060102")
-	ref := fmt.Sprintf("%s/%s:%s_%s", api.DAILY_REGISTRY, *name, *tag, ts)
 	sh := lib.NewShell()
 
 	dir, err := os.Getwd()
@@ -139,6 +138,7 @@ func main() {
 	}
 	repoURL := fmt.Sprintf("https://github.com/%s/%s", api.GH_IMG_REPO_OWNER, *name)
 
+	ref := fmt.Sprintf("%s/%s:%s_%s_linux_amd64", api.DAILY_REGISTRY, *name, *tag, ts)
 	yes, err := ShouldBuild(sh, ref, repoURL, b)
 	if err != nil {
 		panic(err)
@@ -211,10 +211,10 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, b *api.Block, name, ta
 
 	if len(b.Architectures) == 0 {
 		b.Architectures = map[string]*api.ArchInfo{
-			"amd64": &api.ArchInfo{
+			"amd64": {
 				Architecture: "amd64",
 			},
-			"arm64": &api.ArchInfo{
+			"arm64": {
 				Architecture: "arm64",
 			},
 		}
@@ -253,6 +253,15 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, b *api.Block, name, ta
 		if err != nil {
 			return err
 		}
+
+		// > crane mutate ghcr.io/appscode-images/alpine:3.17.3_20231012 -a abc=xyz3 --tag ghcr.io/appscode-images/alpine:3.17.3_20231012
+		args = []any{"mutate", img, "--tag=" + img}
+		args = append(args, "-a", KeyImageSource+"="+repoURL)
+		args = append(args, "-a", KeyImageRevision+"="+lib.LastCommitSHA(sh))
+		err = sh.Command("crane", args...).Run()
+		if err != nil {
+			return err
+		}
 	}
 
 	// docker manifest create -a $(IMAGE):$(TAG) $(foreach PLATFORM,$(PLATFORM_ARCHS),$(IMAGE):$(TAG)_$(subst /,_,$(PLATFORM)))
@@ -269,14 +278,14 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, b *api.Block, name, ta
 		return err
 	}
 
-	// > crane mutate ghcr.io/appscode-images/alpine:3.17.3_20231012 -a abc=xyz3 --tag ghcr.io/appscode-images/alpine:3.17.3_20231012
-	args = []any{"mutate", img, "--tag=" + img}
-	args = append(args, "-a", KeyImageSource+"="+repoURL)
-	args = append(args, "-a", KeyImageRevision+"="+lib.LastCommitSHA(sh))
-	err = sh.Command("crane", args...).Run()
-	if err != nil {
-		return err
-	}
+	//// > crane mutate ghcr.io/appscode-images/alpine:3.17.3_20231012 -a abc=xyz3 --tag ghcr.io/appscode-images/alpine:3.17.3_20231012
+	//args = []any{"mutate", img, "--tag=" + img}
+	//args = append(args, "-a", KeyImageSource+"="+repoURL)
+	//args = append(args, "-a", KeyImageRevision+"="+lib.LastCommitSHA(sh))
+	//err = sh.Command("crane", args...).Run()
+	//if err != nil {
+	//	return err
+	//}
 
 	return nil
 }

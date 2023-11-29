@@ -53,18 +53,7 @@ jobs:
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Install crane
-      run: |
-        # VERSION=$(curl -s "https://api.github.com/repos/google/go-containerregistry/releases/latest" | jq -r '.tag_name')
-        # OS=Linux
-        # ARCH=x86_64
-        # curl -sL "https://github.com/google/go-containerregistry/releases/download/${VERSION}/go-containerregistry_${OS}_${ARCH}.tar.gz" > go-containerregistry.tar.gz
-        # tar -zxvf go-containerregistry.tar.gz -C /usr/local/bin/ crane
-        cd ..
-        git clone https://github.com/gomodules/go-containerregistry.git
-        cd go-containerregistry
-        git checkout mutate-manifest
-        GOBIN=/usr/local/bin go install -v ./...
+    - uses: imjasonh/setup-crane@v0.1
 
     - name: Install trivy
       run: |
