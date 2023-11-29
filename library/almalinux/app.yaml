@@ -10,6 +10,136 @@ Blocks:
       Architecture: arm64v8
       Directory: ""
       File: Dockerfile-aarch64-default
+      GitCommit: a0cdbfe387a83d220492cf4ead1eb83f61daba7f
+      GitFetch: refs/heads/al8-20231124-arm64v8
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: Dockerfile-ppc64le-default
+      GitCommit: 4ab296c31875230f538c4f2bc4fd4c3192711f8b
+      GitFetch: refs/heads/al8-20231124-ppc64le
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: Dockerfile-s390x-default
+      GitCommit: 53124a4e70a9a3d4a5aaa99c4b38fec1db1e5d8a
+      GitFetch: refs/heads/al8-20231124-s390x
+  Directory: ""
+  File: ""
+  GitCommit: b5c3f2dea7120eee009287009173081dfc079e86
+  Tags:
+  - "8"
+  - "8.9"
+  - 8.9-20231124
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: Dockerfile-x86_64-minimal
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: Dockerfile-aarch64-minimal
+      GitCommit: a0cdbfe387a83d220492cf4ead1eb83f61daba7f
+      GitFetch: refs/heads/al8-20231124-arm64v8
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: Dockerfile-ppc64le-minimal
+      GitCommit: 4ab296c31875230f538c4f2bc4fd4c3192711f8b
+      GitFetch: refs/heads/al8-20231124-ppc64le
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: Dockerfile-s390x-minimal
+      GitCommit: 53124a4e70a9a3d4a5aaa99c4b38fec1db1e5d8a
+      GitFetch: refs/heads/al8-20231124-s390x
+  Directory: ""
+  File: ""
+  GitCommit: b5c3f2dea7120eee009287009173081dfc079e86
+  Tags:
+  - 8-minimal
+  - 8.9-minimal
+  - 8.9-minimal-20231124
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: Dockerfile-x86_64-default
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: Dockerfile-aarch64-default
+      GitCommit: f0a97e1ad55d625658c9cb38592f01aea1fa47d9
+      GitFetch: refs/heads/al9-20231124-arm64v8
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: Dockerfile-ppc64le-default
+      GitCommit: 356dc2b97d1a3b52b4ae5ca42b5220f8c8e19ec3
+      GitFetch: refs/heads/al9-20231124-ppc64le
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: Dockerfile-s390x-default
+      GitCommit: 1bf4026ff85b2ed8da83f38cfaa834aa472c323f
+      GitFetch: refs/heads/al9-20231124-s390x
+  Directory: ""
+  File: ""
+  GitCommit: 5b541a65dc5a6b837e19aec8936bed61b7a8a2bd
+  Tags:
+  - latest
+  - "9"
+  - "9.3"
+  - 9.3-20231124
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: Dockerfile-x86_64-minimal
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: Dockerfile-aarch64-minimal
+      GitCommit: f0a97e1ad55d625658c9cb38592f01aea1fa47d9
+      GitFetch: refs/heads/al9-20231124-arm64v8
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: Dockerfile-ppc64le-minimal
+      GitCommit: 356dc2b97d1a3b52b4ae5ca42b5220f8c8e19ec3
+      GitFetch: refs/heads/al9-20231124-ppc64le
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: Dockerfile-s390x-minimal
+      GitCommit: 1bf4026ff85b2ed8da83f38cfaa834aa472c323f
+      GitFetch: refs/heads/al9-20231124-s390x
+  Directory: ""
+  File: ""
+  GitCommit: 5b541a65dc5a6b837e19aec8936bed61b7a8a2bd
+  Tags:
+  - minimal
+  - 9-minimal
+  - 9.3-minimal
+  - 9.3-minimal-20231124
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: Dockerfile-x86_64-default
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: Dockerfile-aarch64-default
       GitCommit: 4fe18788750ad7efafd5239a1bb0b5799ce8e19b
       GitFetch: refs/heads/al8-20231122-arm64v8
     ppc64le:
@@ -28,8 +158,6 @@ Blocks:
   File: ""
   GitCommit: 2b55e461c04ed9a74c37e043f7657d5a457e9494
   Tags:
-  - "8"
-  - "8.9"
   - 8.9-20231122
 - Architectures:
     amd64:
@@ -60,8 +188,6 @@ Blocks:
   File: ""
   GitCommit: 2b55e461c04ed9a74c37e043f7657d5a457e9494
   Tags:
-  - 8-minimal
-  - 8.9-minimal
   - 8.9-minimal-20231122
 - Architectures:
     amd64:
@@ -92,9 +218,6 @@ Blocks:
   File: ""
   GitCommit: fe2a97c5db0765c328ad806792866e60b14596ee
   Tags:
-  - latest
-  - "9"
-  - "9.3"
   - 9.3-20231122
 - Architectures:
     amd64:
@@ -125,9 +248,6 @@ Blocks:
   File: ""
   GitCommit: fe2a97c5db0765c328ad806792866e60b14596ee
   Tags:
-  - minimal
-  - 9-minimal
-  - 9.3-minimal
   - 9.3-minimal-20231122
 - Architectures:
     amd64:
@@ -1773,8 +1893,10 @@ KnownTags:
   8.8-minimal-20230718: {}
   "8.9": {}
   8.9-20231122: {}
+  8.9-20231124: {}
   8.9-minimal: {}
   8.9-minimal-20231122: {}
+  8.9-minimal-20231124: {}
   "9": {}
   9-minimal: {}
   "9.0": {}
@@ -1813,8 +1935,10 @@ KnownTags:
   9.2-minimal-20230718: {}
   "9.3": {}
   9.3-20231122: {}
+  9.3-20231124: {}
   9.3-minimal: {}
   9.3-minimal-20231122: {}
+  9.3-minimal-20231124: {}
   latest: {}
   minimal: {}
 Name: almalinux
