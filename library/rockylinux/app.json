@@ -20,6 +20,10 @@
     "8.8-minimal": {},
     "8.8.20230518": {},
     "8.8.20230518-minimal": {},
+    "8.9": {},
+    "8.9-minimal": {},
+    "8.9.20231119": {},
+    "8.9.20231119-minimal": {},
     "9": {},
     "9-minimal": {},
     "9.0": {},
@@ -40,14 +44,156 @@
     "9.2-minimal": {},
     "9.2.20230513": {},
     "9.2.20230513-minimal": {},
+    "9.3": {},
+    "9.3-minimal": {},
+    "9.3.20231119": {},
+    "9.3.20231119-minimal": {},
     "latest": {}
   },
   "Blocks": [
     {
       "Tags": [
-        "9.2.20230513",
-        "9.2",
+        "9.3.20231119",
+        "9.3",
         "9"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "refs/heads/Rocky-9.3.20231119-Base-aarch64",
+          "GitCommit": "29d1766aa469897f6690547364d45d352cbe7ae6",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "refs/heads/Rocky-9.3.20231119-Base-ppc64le",
+          "GitCommit": "20d0ef4cd07c7b5b368b846f1f154db280ea8e4c",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "refs/heads/Rocky-9.3.20231119-Base-s390x",
+          "GitCommit": "7581889c773c12e32ee0e46e627a7c66f20463bd",
+          "File": ""
+        }
+      },
+      "GitCommit": "53416a9aaea6ac6ded18c2047d51e26983160faf",
+      "Directory": "",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "9.3.20231119-minimal",
+        "9.3-minimal",
+        "9-minimal"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "refs/heads/Rocky-9.3.20231119-Minimal-aarch64",
+          "GitCommit": "0b10d7d7a8ba867de715441b52c591880480bc94",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "refs/heads/Rocky-9.3.20231119-Minimal-ppc64le",
+          "GitCommit": "13770ec44b35cbe9af2296d0d50edc31a343e4f6",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "refs/heads/Rocky-9.3.20231119-Minimal-s390x",
+          "GitCommit": "af021ed5bf828c0abd26761a8df31b6d578c9498",
+          "File": ""
+        }
+      },
+      "GitCommit": "e784104b999a1ff6b66cb0aeee0408fb030c840b",
+      "Directory": "",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.9.20231119",
+        "8.9",
+        "8"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "refs/heads/Rocky-8.9.20231119-Base-aarch64",
+          "GitCommit": "94d578e7e1eeaf0591657eff018929928e0bfdfc",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "refs/heads/Rocky-8.9.20231119-Base-s390x",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "2085c6419637bf970a532888141569c5865ae61f",
+      "Directory": "",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.9.20231119-minimal",
+        "8.9-minimal",
+        "8-minimal"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "refs/heads/Rocky-8.9.20231119-Minimal-aarch64",
+          "GitCommit": "cc181de9168465f9e9e2fbddd5a0f8e1a89cddfc",
+          "File": ""
+        }
+      },
+      "GitCommit": "6d81e6b46e052158df83357c569c8a6773a81e78",
+      "Directory": "",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "9.2.20230513",
+        "9.2"
       ],
       "Architectures": {
         "amd64": {
@@ -79,8 +225,7 @@
     {
       "Tags": [
         "9.2.20230513-minimal",
-        "9.2-minimal",
-        "9-minimal"
+        "9.2-minimal"
       ],
       "Architectures": {
         "amd64": {
@@ -112,8 +257,7 @@
     {
       "Tags": [
         "8.8.20230518",
-        "8.8",
-        "8"
+        "8.8"
       ],
       "Architectures": {
         "amd64": {
@@ -138,8 +282,7 @@
     {
       "Tags": [
         "8.8.20230518-minimal",
-        "8.8-minimal",
-        "8-minimal"
+        "8.8-minimal"
       ],
       "Architectures": {
         "amd64": {

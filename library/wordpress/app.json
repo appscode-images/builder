@@ -1264,6 +1264,10 @@
     "6-php8.2-apache": {},
     "6-php8.2-fpm": {},
     "6-php8.2-fpm-alpine": {},
+    "6-php8.3": {},
+    "6-php8.3-apache": {},
+    "6-php8.3-fpm": {},
+    "6-php8.3-fpm-alpine": {},
     "6.0": {},
     "6.0-apache": {},
     "6.0-fpm": {},
@@ -1544,6 +1548,10 @@
     "6.4-php8.2-apache": {},
     "6.4-php8.2-fpm": {},
     "6.4-php8.2-fpm-alpine": {},
+    "6.4-php8.3": {},
+    "6.4-php8.3-apache": {},
+    "6.4-php8.3-fpm": {},
+    "6.4-php8.3-fpm-alpine": {},
     "6.4.0": {},
     "6.4.0-apache": {},
     "6.4.0-fpm": {},
@@ -1576,6 +1584,10 @@
     "6.4.1-php8.2-apache": {},
     "6.4.1-php8.2-fpm": {},
     "6.4.1-php8.2-fpm-alpine": {},
+    "6.4.1-php8.3": {},
+    "6.4.1-php8.3-apache": {},
+    "6.4.1-php8.3-fpm": {},
+    "6.4.1-php8.3-fpm-alpine": {},
     "apache": {},
     "beta": {},
     "beta-5": {},
@@ -3226,6 +3238,7 @@
     "cli-2-php8.0": {},
     "cli-2-php8.1": {},
     "cli-2-php8.2": {},
+    "cli-2-php8.3": {},
     "cli-2.0": {},
     "cli-2.0-php5.6": {},
     "cli-2.0-php7.0": {},
@@ -3327,10 +3340,12 @@
     "cli-2.9-php8.0": {},
     "cli-2.9-php8.1": {},
     "cli-2.9-php8.2": {},
+    "cli-2.9-php8.3": {},
     "cli-2.9.0": {},
     "cli-2.9.0-php8.0": {},
     "cli-2.9.0-php8.1": {},
     "cli-2.9.0-php8.2": {},
+    "cli-2.9.0-php8.3": {},
     "cli-php5.6": {},
     "cli-php7.0": {},
     "cli-php7.1": {},
@@ -3340,6 +3355,7 @@
     "cli-php8.0": {},
     "cli-php8.1": {},
     "cli-php8.2": {},
+    "cli-php8.3": {},
     "fpm": {},
     "fpm-alpine": {},
     "latest": {},
@@ -3378,7 +3394,11 @@
     "php8.2": {},
     "php8.2-apache": {},
     "php8.2-fpm": {},
-    "php8.2-fpm-alpine": {}
+    "php8.2-fpm-alpine": {},
+    "php8.3": {},
+    "php8.3-apache": {},
+    "php8.3-fpm": {},
+    "php8.3-fpm-alpine": {}
   },
   "Blocks": [
     {
@@ -4011,6 +4031,210 @@
     },
     {
       "Tags": [
+        "6.4.1-php8.3-apache",
+        "6.4-php8.3-apache",
+        "6-php8.3-apache",
+        "php8.3-apache",
+        "6.4.1-php8.3",
+        "6.4-php8.3",
+        "6-php8.3",
+        "php8.3"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "mips64le": {
+          "Architecture": "mips64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "d1cc7e6a226cf23ade72b83990310980e7ac5c2b",
+      "Directory": "latest/php8.3/apache",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.1-php8.3-fpm",
+        "6.4-php8.3-fpm",
+        "6-php8.3-fpm",
+        "php8.3-fpm"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "mips64le": {
+          "Architecture": "mips64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "d1cc7e6a226cf23ade72b83990310980e7ac5c2b",
+      "Directory": "latest/php8.3/fpm",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.1-php8.3-fpm-alpine",
+        "6.4-php8.3-fpm-alpine",
+        "6-php8.3-fpm-alpine",
+        "php8.3-fpm-alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "d1cc7e6a226cf23ade72b83990310980e7ac5c2b",
+      "Directory": "latest/php8.3/fpm-alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
         "cli-2.9.0",
         "cli-2.9",
         "cli-2",
@@ -4197,6 +4421,68 @@
       },
       "GitCommit": "480b5c35eb6382f4ae5581cfb9dfe54873d4f4a0",
       "Directory": "cli/php8.2/alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "cli-2.9.0-php8.3",
+        "cli-2.9-php8.3",
+        "cli-2-php8.3",
+        "cli-php8.3"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "d1cc7e6a226cf23ade72b83990310980e7ac5c2b",
+      "Directory": "cli/php8.3/alpine",
       "File": ""
     },
     {
