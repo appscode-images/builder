@@ -13,7 +13,7 @@ require (
 	golang.org/x/oauth2 v0.13.0
 	gomodules.xyz/go-sh v0.1.0
 	gomodules.xyz/mailer v0.0.19
-	gomodules.xyz/semvers v0.0.1
+	gomodules.xyz/semvers v0.0.2
 	gomodules.xyz/sets v0.2.1
 	k8s.io/klog/v2 v2.100.1
 	kubeops.dev/scanner v0.0.15
