@@ -168,6 +168,7 @@ jobs:
     name: Report
     runs-on: $runner$
     needs: build
+    if: always()
     steps:
     - uses: actions/checkout@v4
 
