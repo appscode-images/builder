@@ -158,11 +158,68 @@ Blocks:
       GitFetch: ""
   Directory: 15.5/mysql-tomcat
   File: ""
-  GitCommit: d1e6ca12c746ebb805e079bc1ff10ac26bb65dd3
+  GitCommit: 75fbc887160154a51b62ed5c1053d0a210fc8c22
   Tags:
   - "15.5"
-  - 15.5.3
+  - 15.5.4
   - 15.5-mysql-tomcat
+  - 15.5.4-mysql-tomcat
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 15.5/postgres-tomcat
+  File: ""
+  GitCommit: 75fbc887160154a51b62ed5c1053d0a210fc8c22
+  Tags:
+  - 15.5-postgres-tomcat
+  - 15.5.4-postgres-tomcat
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 15.5/mariadb-tomcat
+  File: ""
+  GitCommit: 75fbc887160154a51b62ed5c1053d0a210fc8c22
+  Tags:
+  - 15.5-mariadb-tomcat
+  - 15.5.4-mariadb-tomcat
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 15.5/mysql-tomcat
+  File: ""
+  GitCommit: d1e6ca12c746ebb805e079bc1ff10ac26bb65dd3
+  Tags:
+  - 15.5.3
   - 15.5.3-mysql-tomcat
 - Architectures:
     amd64:
@@ -181,7 +238,6 @@ Blocks:
   File: ""
   GitCommit: d1e6ca12c746ebb805e079bc1ff10ac26bb65dd3
   Tags:
-  - 15.5-postgres-tomcat
   - 15.5.3-postgres-tomcat
 - Architectures:
     amd64:
@@ -200,7 +256,6 @@ Blocks:
   File: ""
   GitCommit: d1e6ca12c746ebb805e079bc1ff10ac26bb65dd3
   Tags:
-  - 15.5-mariadb-tomcat
   - 15.5.3-mariadb-tomcat
 - Architectures:
     amd64:
@@ -7442,6 +7497,10 @@ KnownTags:
   15.5.3-mariadb-tomcat: {}
   15.5.3-mysql-tomcat: {}
   15.5.3-postgres-tomcat: {}
+  15.5.4: {}
+  15.5.4-mariadb-tomcat: {}
+  15.5.4-mysql-tomcat: {}
+  15.5.4-postgres-tomcat: {}
   "15.6": {}
   15.6-mariadb-tomcat: {}
   15.6-mysql-tomcat: {}
