@@ -36,6 +36,7 @@ jobs:
     - name: Refresh Library
       run: |
         go run cmd/refresh-library/*.go \
+          --skip=logstash \
           --skip=kibana
         # https://stackoverflow.com/a/23930212
         cat > ./library/README.md <<- EOM
