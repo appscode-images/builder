@@ -4,6 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"net/url"
 	"os"
 	"path/filepath"
 	"strings"
@@ -119,9 +120,20 @@ func ShouldBuild(sh *shell.Session, ref string, repoURL string, b *api.Block) (b
 		imgRev != b.GitCommit, nil
 }
 
+func main_() {
+	u2, err := url.Parse("https://github.com/appscode-images/elastic-dockerfiles.git")
+	if err != nil {
+		panic(err)
+	}
+	fullname := u2.Path
+	fullname = strings.TrimPrefix(fullname, "/")
+	fullname = strings.TrimSuffix(fullname, ".git")
+	fmt.Println(fullname)
+}
+
 func main() {
-	var name = flag.String("name", "zookeeper", "Name of binary")
-	var tag = flag.String("tag", "3.9.0", "Tag to be built")
+	var name = flag.String("name", "elastic", "Name of binary")
+	var tag = flag.String("tag", "6.8.23", "Tag to be built")
 	flag.Parse()
 
 	t := time.Now()
@@ -136,7 +148,12 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	repoURL := fmt.Sprintf("https://github.com/%s/%s", api.GH_IMG_REPO_OWNER, *name)
+	var repoURL string
+	if strings.Contains(libRepoURL, "github.com/"+api.GH_IMG_REPO_OWNER) {
+		repoURL = libRepoURL
+	} else {
+		repoURL = fmt.Sprintf("https://github.com/%s/%s", api.GH_IMG_REPO_OWNER, *name)
+	}
 
 	ref := fmt.Sprintf("%s/%s:%s_%s_linux_amd64", api.DAILY_REGISTRY, *name, *tag, ts)
 	yes, err := ShouldBuild(sh, ref, repoURL, b)
@@ -154,15 +171,26 @@ func main() {
 func Build(sh *shell.Session, libRepoURL, repoURL string, b *api.Block, name, tag, ts string) error {
 	ctx := context.Background()
 	gh := lib.NewGitHubClient(ctx)
-	exists, err := lib.GitHubRepoExists(ctx, gh, api.GH_IMG_REPO_OWNER, name)
+
+	fullname, err := GetFullName(libRepoURL)
+	if err != nil {
+		return err
+	}
+	owner, repo, found := strings.Cut(fullname, "/")
+	if !found {
+		return fmt.Errorf("invalid repo full name %s", fullname)
+	}
+	exists, err := lib.GitHubRepoExists(ctx, gh, owner, repo)
 	if err != nil {
 		return err
 	}
 	if !exists {
-		err = sh.Command("gh", "repo", "fork", libRepoURL, "--org="+api.GH_IMG_REPO_OWNER, "--fork-name="+name, "--clone=false", "--remote=false").Run()
-		if err != nil {
-			return err
-		}
+		//err = sh.Command("gh", "repo", "fork", libRepoURL, "--org="+api.GH_IMG_REPO_OWNER, "--fork-name="+name, "--clone=false", "--remote=false").Run()
+		//if err != nil {
+		//	return err
+		//}
+		// fork manually
+		return fmt.Errorf("fork %s", libRepoURL)
 	}
 
 	localRepoDir := filepath.Join("/tmp", name)
@@ -170,7 +198,7 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, b *api.Block, name, ta
 	if err != nil {
 		return err
 	}
-	err = sh.Command("git", "clone", repoURL).Run()
+	err = sh.Command("git", "clone", repoURL, name).Run()
 	if err != nil {
 		return err
 	}
@@ -187,12 +215,26 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, b *api.Block, name, ta
 		if err != nil {
 			return err
 		}
-	} else {
+	} else if libRepoURL != repoURL {
 		// https://stackoverflow.com/a/24084746
 		err = sh.Command("git", "fetch", "upstream", b.GitCommit).Run()
 		if err != nil {
 			return err
 		}
+		err = sh.Command("git", "checkout", b.GitCommit).Run()
+		if err != nil {
+			return err
+		}
+		err = sh.Command("git", "checkout", "-b", branch).Run()
+		if err != nil {
+			return err
+		}
+		err = sh.Command("git", "push", "origin", "HEAD", "-f").Run()
+		if err != nil {
+			return err
+		}
+	} else if libRepoURL == repoURL {
+		// https://stackoverflow.com/a/24084746
 		err = sh.Command("git", "checkout", b.GitCommit).Run()
 		if err != nil {
 			return err
@@ -288,6 +330,17 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, b *api.Block, name, ta
 	//}
 
 	return nil
+}
+
+func GetFullName(s string) (string, error) {
+	u2, err := url.Parse(s)
+	if err != nil {
+		return "", err
+	}
+	fullname := u2.Path
+	fullname = strings.TrimPrefix(fullname, "/")
+	fullname = strings.TrimSuffix(fullname, ".git")
+	return fullname, nil
 }
 
 func FindBlock(dir, name, tag string) (string, *api.Block, error) {
