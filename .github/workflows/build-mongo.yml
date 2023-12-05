@@ -16,7 +16,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        tag: [7.0.4-jammy, 6.0.12-jammy, 6.0.5-jammy, 5.0.23-focal, 5.0.15-focal, 4.4.26-focal, 4.4.6-bionic, 4.2.24-bionic, 4.2.3-bionic]
+        tag: [7.0.4, 6.0.12, 6.0.5, 5.0.23, 5.0.15, 4.4.26, 4.4.6, 4.2.24, 4.2.3]
     steps:
     - uses: actions/checkout@v4
 
