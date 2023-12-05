@@ -18,6 +18,7 @@ func Scan(sh *shell.Session, img string) (*trivy.SingleReport, error) {
 		img,
 		"--security-checks", "vuln",
 		"--format", "json",
+		"--ignore-unfixed",
 		// "--quiet",
 	}
 	out, err := sh.Command("trivy", args...).Output()
