@@ -3,6 +3,7 @@ package main
 import (
 	"bytes"
 	"encoding/json"
+	flag "github.com/spf13/pflag"
 	"os"
 	"path/filepath"
 	"strings"
@@ -22,8 +23,16 @@ import (
 	"sigs.k8s.io/yaml"
 )
 
+var skipApps sets.String
+
 // Read from Git directly
 func main() {
+	var skipList []string
+	flag.StringSliceVar(&skipList, "skip", skipList, "Skip official image (because manually maintianed)")
+	flag.Parse()
+
+	skipApps = sets.NewString(skipList...)
+
 	apps := map[string]api.AppHistory{}
 	outDir := "./library"
 
@@ -85,11 +94,17 @@ func ProcessCommit(apps map[string]api.AppHistory) func(c *object.Commit) error 
 				return nil
 			}
 
+			appName := filepath.Base(file.Name)
+			if skipApps.Has(appName) {
+				klog.InfoS("skipping", "app", appName)
+				return nil
+			}
+
 			lines, err := file.Lines()
 			if err != nil {
 				return err
 			}
-			app, err := lib.ParseLibraryFileContent(filepath.Base(file.Name), lines)
+			app, err := lib.ParseLibraryFileContent(appName, lines)
 			if err != nil || app == nil {
 				return err
 			}
