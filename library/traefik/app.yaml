@@ -58,10 +58,10 @@ Blocks:
       GitFetch: ""
   Directory: windows/1809
   File: ""
-  GitCommit: 66eed101dfeadb185a4e3087fc5dc3e167a9c89f
+  GitCommit: 274d14183ad37ff987c85fb0f85e9f862025c297
   Tags:
-  - v2.10.6-windowsservercore-1809
-  - 2.10.6-windowsservercore-1809
+  - v2.10.7-windowsservercore-1809
+  - 2.10.7-windowsservercore-1809
   - v2.10-windowsservercore-1809
   - 2.10-windowsservercore-1809
   - saintmarcelin-windowsservercore-1809
@@ -93,14 +93,58 @@ Blocks:
       GitFetch: ""
   Directory: alpine
   File: ""
-  GitCommit: 66eed101dfeadb185a4e3087fc5dc3e167a9c89f
+  GitCommit: 274d14183ad37ff987c85fb0f85e9f862025c297
   Tags:
-  - v2.10.6
-  - 2.10.6
+  - v2.10.7
+  - 2.10.7
   - v2.10
   - "2.10"
   - saintmarcelin
   - latest
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: windows/1809
+  File: ""
+  GitCommit: 66eed101dfeadb185a4e3087fc5dc3e167a9c89f
+  Tags:
+  - v2.10.6-windowsservercore-1809
+  - 2.10.6-windowsservercore-1809
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: alpine
+  File: ""
+  GitCommit: 66eed101dfeadb185a4e3087fc5dc3e167a9c89f
+  Tags:
+  - v2.10.6
+  - 2.10.6
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -10873,6 +10917,8 @@ KnownTags:
   2.10.5-windowsservercore-1809: {}
   2.10.6: {}
   2.10.6-windowsservercore-1809: {}
+  2.10.7: {}
+  2.10.7-windowsservercore-1809: {}
   "3.0": {}
   3.0-windowsservercore-1809: {}
   3.0.0-beta1: {}
@@ -11518,6 +11564,8 @@ KnownTags:
   v2.10.5-windowsservercore-1809: {}
   v2.10.6: {}
   v2.10.6-windowsservercore-1809: {}
+  v2.10.7: {}
+  v2.10.7-windowsservercore-1809: {}
   v3.0: {}
   v3.0-windowsservercore-1809: {}
   v3.0.0-beta1: {}
