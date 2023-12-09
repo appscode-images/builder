@@ -352,6 +352,15 @@
     "2.7.5-windowsservercore": {},
     "2.7.5-windowsservercore-1809": {},
     "2.7.5-windowsservercore-ltsc2022": {},
+    "2.7.6": {},
+    "2.7.6-alpine": {},
+    "2.7.6-builder": {},
+    "2.7.6-builder-alpine": {},
+    "2.7.6-builder-windowsservercore-1809": {},
+    "2.7.6-builder-windowsservercore-ltsc2022": {},
+    "2.7.6-windowsservercore": {},
+    "2.7.6-windowsservercore-1809": {},
+    "2.7.6-windowsservercore-ltsc2022": {},
     "alpine": {},
     "builder": {},
     "builder-alpine": {},
@@ -367,14 +376,210 @@
   "Blocks": [
     {
       "Tags": [
-        "2.7.5-alpine",
+        "2.7.6-alpine",
         "2.7-alpine",
         "2-alpine",
         "alpine",
-        "2.7.5",
+        "2.7.6",
         "2.7",
         "2",
         "latest"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "4ce9344fd5c8b1f13533a3bd83b92368d6129836",
+      "Directory": "2.7/alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.7.6-builder-alpine",
+        "2.7-builder-alpine",
+        "2-builder-alpine",
+        "builder-alpine",
+        "2.7.6-builder",
+        "2.7-builder",
+        "2-builder",
+        "builder"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "4ce9344fd5c8b1f13533a3bd83b92368d6129836",
+      "Directory": "2.7/builder",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.7.6-windowsservercore-1809",
+        "2.7-windowsservercore-1809",
+        "2-windowsservercore-1809",
+        "windowsservercore-1809",
+        "2.7.6-windowsservercore",
+        "2.7-windowsservercore",
+        "2-windowsservercore",
+        "windowsservercore"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "4ce9344fd5c8b1f13533a3bd83b92368d6129836",
+      "Directory": "2.7/windows/1809",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.7.6-windowsservercore-ltsc2022",
+        "2.7-windowsservercore-ltsc2022",
+        "2-windowsservercore-ltsc2022",
+        "windowsservercore-ltsc2022"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "4ce9344fd5c8b1f13533a3bd83b92368d6129836",
+      "Directory": "2.7/windows/ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.7.6-builder-windowsservercore-1809",
+        "2.7-builder-windowsservercore-1809",
+        "2-builder-windowsservercore-1809",
+        "builder-windowsservercore-1809"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "4ce9344fd5c8b1f13533a3bd83b92368d6129836",
+      "Directory": "2.7/windows-builder/1809",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.7.6-builder-windowsservercore-ltsc2022",
+        "2.7-builder-windowsservercore-ltsc2022",
+        "2-builder-windowsservercore-ltsc2022",
+        "builder-windowsservercore-ltsc2022"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "4ce9344fd5c8b1f13533a3bd83b92368d6129836",
+      "Directory": "2.7/windows-builder/ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.7.5-alpine",
+        "2.7.5"
       ],
       "Architectures": {
         "amd64": {
@@ -427,13 +632,7 @@
     {
       "Tags": [
         "2.7.5-builder-alpine",
-        "2.7-builder-alpine",
-        "2-builder-alpine",
-        "builder-alpine",
-        "2.7.5-builder",
-        "2.7-builder",
-        "2-builder",
-        "builder"
+        "2.7.5-builder"
       ],
       "Architectures": {
         "amd64": {
@@ -486,13 +685,7 @@
     {
       "Tags": [
         "2.7.5-windowsservercore-1809",
-        "2.7-windowsservercore-1809",
-        "2-windowsservercore-1809",
-        "windowsservercore-1809",
-        "2.7.5-windowsservercore",
-        "2.7-windowsservercore",
-        "2-windowsservercore",
-        "windowsservercore"
+        "2.7.5-windowsservercore"
       ],
       "Architectures": {
         "windows-amd64": {
@@ -509,10 +702,7 @@
     },
     {
       "Tags": [
-        "2.7.5-windowsservercore-ltsc2022",
-        "2.7-windowsservercore-ltsc2022",
-        "2-windowsservercore-ltsc2022",
-        "windowsservercore-ltsc2022"
+        "2.7.5-windowsservercore-ltsc2022"
       ],
       "Architectures": {
         "windows-amd64": {
@@ -529,10 +719,7 @@
     },
     {
       "Tags": [
-        "2.7.5-builder-windowsservercore-1809",
-        "2.7-builder-windowsservercore-1809",
-        "2-builder-windowsservercore-1809",
-        "builder-windowsservercore-1809"
+        "2.7.5-builder-windowsservercore-1809"
       ],
       "Architectures": {
         "windows-amd64": {
@@ -549,10 +736,7 @@
     },
     {
       "Tags": [
-        "2.7.5-builder-windowsservercore-ltsc2022",
-        "2.7-builder-windowsservercore-ltsc2022",
-        "2-builder-windowsservercore-ltsc2022",
-        "builder-windowsservercore-ltsc2022"
+        "2.7.5-builder-windowsservercore-ltsc2022"
       ],
       "Architectures": {
         "windows-amd64": {

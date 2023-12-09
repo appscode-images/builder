@@ -218,6 +218,7 @@
     "4.0-alpine3.16": {},
     "4.0-alpine3.17": {},
     "4.0-alpine3.18": {},
+    "4.0-alpine3.19": {},
     "4.0-alpine3.6": {},
     "4.0-alpine3.7": {},
     "4.0-alpine3.8": {},
@@ -395,6 +396,7 @@
     "4.0.5-alpine3.16": {},
     "4.0.5-alpine3.17": {},
     "4.0.5-alpine3.18": {},
+    "4.0.5-alpine3.19": {},
     "4.0.5-alpine3.7": {},
     "4.0.5-alpine3.8": {},
     "4.0.5-alpine3.9": {},
@@ -418,6 +420,7 @@
     "4.1-alpine3.16": {},
     "4.1-alpine3.17": {},
     "4.1-alpine3.18": {},
+    "4.1-alpine3.19": {},
     "4.1-alpine3.8": {},
     "4.1-alpine3.9": {},
     "4.1-bullseye": {},
@@ -493,6 +496,7 @@
     "4.1.5-alpine3.16": {},
     "4.1.5-alpine3.17": {},
     "4.1.5-alpine3.18": {},
+    "4.1.5-alpine3.19": {},
     "4.1.5-alpine3.9": {},
     "4.1.5-bullseye": {},
     "4.1.5-buster": {},
@@ -512,6 +516,7 @@
     "4.2-alpine3.16": {},
     "4.2-alpine3.17": {},
     "4.2-alpine3.18": {},
+    "4.2-alpine3.19": {},
     "4.2-bullseye": {},
     "4.2-buster": {},
     "4.2-windowsservercore": {},
@@ -583,6 +588,7 @@
     "4.2.5-alpine3.16": {},
     "4.2.5-alpine3.17": {},
     "4.2.5-alpine3.18": {},
+    "4.2.5-alpine3.19": {},
     "4.2.5-bullseye": {},
     "4.2.5-buster": {},
     "4.2.5-windowsservercore": {},
@@ -595,6 +601,7 @@
     "4.3-alpine3.16": {},
     "4.3-alpine3.17": {},
     "4.3-alpine3.18": {},
+    "4.3-alpine3.19": {},
     "4.3-bullseye": {},
     "4.3-buster": {},
     "4.3-windowsservercore": {},
@@ -640,6 +647,7 @@
     "4.3.3-alpine3.16": {},
     "4.3.3-alpine3.17": {},
     "4.3.3-alpine3.18": {},
+    "4.3.3-alpine3.19": {},
     "4.3.3-bullseye": {},
     "4.3.3-buster": {},
     "4.3.3-windowsservercore": {},
@@ -755,10 +763,35 @@
     },
     {
       "Tags": [
-        "4.3.3-alpine3.18",
-        "4.3-alpine3.18",
+        "4.3.3-alpine3.19",
+        "4.3-alpine3.19",
         "4.3.3-alpine",
         "4.3-alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "b7f47ba7340373d40202dfb77621de1ed3ba3677",
+      "Directory": "4.3/alpine3.19",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.3.3-alpine3.18",
+        "4.3-alpine3.18"
       ],
       "Architectures": {
         "amd64": {
@@ -828,31 +861,6 @@
       },
       "GitCommit": "52a5f2360f84687908f3d80be326c810875c9be6",
       "Directory": "4.3/alpine3.16",
-      "File": ""
-    },
-    {
-      "Tags": [
-        "4.3.3-alpine3.15",
-        "4.3-alpine3.15"
-      ],
-      "Architectures": {
-        "amd64": {
-          "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm64v8": {
-          "Architecture": "arm64v8",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "52a5f2360f84687908f3d80be326c810875c9be6",
-      "Directory": "4.3/alpine3.15",
       "File": ""
     },
     {
@@ -961,10 +969,35 @@
     },
     {
       "Tags": [
-        "4.2.5-alpine3.18",
-        "4.2-alpine3.18",
+        "4.2.5-alpine3.19",
+        "4.2-alpine3.19",
         "4.2.5-alpine",
         "4.2-alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "b7f47ba7340373d40202dfb77621de1ed3ba3677",
+      "Directory": "4.2/alpine3.19",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.2.5-alpine3.18",
+        "4.2-alpine3.18"
       ],
       "Architectures": {
         "amd64": {
@@ -1034,31 +1067,6 @@
       },
       "GitCommit": "5f520ca3ba5942ab581369bab2cbda2b8c4ab992",
       "Directory": "4.2/alpine3.16",
-      "File": ""
-    },
-    {
-      "Tags": [
-        "4.2.5-alpine3.15",
-        "4.2-alpine3.15"
-      ],
-      "Architectures": {
-        "amd64": {
-          "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm64v8": {
-          "Architecture": "arm64v8",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "83789c10dc601064a234fd559206d1ec252228d7",
-      "Directory": "4.2/alpine3.15",
       "File": ""
     },
     {
@@ -1167,10 +1175,35 @@
     },
     {
       "Tags": [
-        "4.1.5-alpine3.18",
-        "4.1-alpine3.18",
+        "4.1.5-alpine3.19",
+        "4.1-alpine3.19",
         "4.1.5-alpine",
         "4.1-alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "b7f47ba7340373d40202dfb77621de1ed3ba3677",
+      "Directory": "4.1/alpine3.19",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.1.5-alpine3.18",
+        "4.1-alpine3.18"
       ],
       "Architectures": {
         "amd64": {
@@ -1240,31 +1273,6 @@
       },
       "GitCommit": "5f520ca3ba5942ab581369bab2cbda2b8c4ab992",
       "Directory": "4.1/alpine3.16",
-      "File": ""
-    },
-    {
-      "Tags": [
-        "4.1.5-alpine3.15",
-        "4.1-alpine3.15"
-      ],
-      "Architectures": {
-        "amd64": {
-          "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm64v8": {
-          "Architecture": "arm64v8",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "b0098b4b730d0d9ff21dbf3d543464228d6b7e99",
-      "Directory": "4.1/alpine3.15",
       "File": ""
     },
     {
@@ -1373,10 +1381,35 @@
     },
     {
       "Tags": [
-        "4.0.5-alpine3.18",
-        "4.0-alpine3.18",
+        "4.0.5-alpine3.19",
+        "4.0-alpine3.19",
         "4.0.5-alpine",
         "4.0-alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "b7f47ba7340373d40202dfb77621de1ed3ba3677",
+      "Directory": "4.0/alpine3.19",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.0.5-alpine3.18",
+        "4.0-alpine3.18"
       ],
       "Architectures": {
         "amd64": {
@@ -1446,31 +1479,6 @@
       },
       "GitCommit": "5f520ca3ba5942ab581369bab2cbda2b8c4ab992",
       "Directory": "4.0/alpine3.16",
-      "File": ""
-    },
-    {
-      "Tags": [
-        "4.0.5-alpine3.15",
-        "4.0-alpine3.15"
-      ],
-      "Architectures": {
-        "amd64": {
-          "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm64v8": {
-          "Architecture": "arm64v8",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "b0098b4b730d0d9ff21dbf3d543464228d6b7e99",
-      "Directory": "4.0/alpine3.15",
       "File": ""
     },
     {
@@ -1732,6 +1740,106 @@
       },
       "GitCommit": "c0367972017a7b87845bf33477e29b1fe64ccc4a",
       "Directory": "3.1/windowsservercore-1809",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.3.3-alpine3.15",
+        "4.3-alpine3.15"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "52a5f2360f84687908f3d80be326c810875c9be6",
+      "Directory": "4.3/alpine3.15",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.2.5-alpine3.15",
+        "4.2-alpine3.15"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "83789c10dc601064a234fd559206d1ec252228d7",
+      "Directory": "4.2/alpine3.15",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.1.5-alpine3.15",
+        "4.1-alpine3.15"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "b0098b4b730d0d9ff21dbf3d543464228d6b7e99",
+      "Directory": "4.1/alpine3.15",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.0.5-alpine3.15",
+        "4.0-alpine3.15"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "b0098b4b730d0d9ff21dbf3d543464228d6b7e99",
+      "Directory": "4.0/alpine3.15",
       "File": ""
     },
     {

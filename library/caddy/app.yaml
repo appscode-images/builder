@@ -38,13 +38,13 @@ Blocks:
       GitFetch: ""
   Directory: 2.7/alpine
   File: ""
-  GitCommit: 0b5f063a37d52d579b6d4e64b2e2409ad89f7c7a
+  GitCommit: 4ce9344fd5c8b1f13533a3bd83b92368d6129836
   Tags:
-  - 2.7.5-alpine
+  - 2.7.6-alpine
   - 2.7-alpine
   - 2-alpine
   - alpine
-  - 2.7.5
+  - 2.7.6
   - "2.7"
   - "2"
   - latest
@@ -87,13 +87,13 @@ Blocks:
       GitFetch: ""
   Directory: 2.7/builder
   File: ""
-  GitCommit: 0b5f063a37d52d579b6d4e64b2e2409ad89f7c7a
+  GitCommit: 4ce9344fd5c8b1f13533a3bd83b92368d6129836
   Tags:
-  - 2.7.5-builder-alpine
+  - 2.7.6-builder-alpine
   - 2.7-builder-alpine
   - 2-builder-alpine
   - builder-alpine
-  - 2.7.5-builder
+  - 2.7.6-builder
   - 2.7-builder
   - 2-builder
   - builder
@@ -106,13 +106,13 @@ Blocks:
       GitFetch: ""
   Directory: 2.7/windows/1809
   File: ""
-  GitCommit: 0b5f063a37d52d579b6d4e64b2e2409ad89f7c7a
+  GitCommit: 4ce9344fd5c8b1f13533a3bd83b92368d6129836
   Tags:
-  - 2.7.5-windowsservercore-1809
+  - 2.7.6-windowsservercore-1809
   - 2.7-windowsservercore-1809
   - 2-windowsservercore-1809
   - windowsservercore-1809
-  - 2.7.5-windowsservercore
+  - 2.7.6-windowsservercore
   - 2.7-windowsservercore
   - 2-windowsservercore
   - windowsservercore
@@ -125,9 +125,9 @@ Blocks:
       GitFetch: ""
   Directory: 2.7/windows/ltsc2022
   File: ""
-  GitCommit: 0b5f063a37d52d579b6d4e64b2e2409ad89f7c7a
+  GitCommit: 4ce9344fd5c8b1f13533a3bd83b92368d6129836
   Tags:
-  - 2.7.5-windowsservercore-ltsc2022
+  - 2.7.6-windowsservercore-ltsc2022
   - 2.7-windowsservercore-ltsc2022
   - 2-windowsservercore-ltsc2022
   - windowsservercore-ltsc2022
@@ -140,9 +140,9 @@ Blocks:
       GitFetch: ""
   Directory: 2.7/windows-builder/1809
   File: ""
-  GitCommit: 0b5f063a37d52d579b6d4e64b2e2409ad89f7c7a
+  GitCommit: 4ce9344fd5c8b1f13533a3bd83b92368d6129836
   Tags:
-  - 2.7.5-builder-windowsservercore-1809
+  - 2.7.6-builder-windowsservercore-1809
   - 2.7-builder-windowsservercore-1809
   - 2-builder-windowsservercore-1809
   - builder-windowsservercore-1809
@@ -155,12 +155,147 @@ Blocks:
       GitFetch: ""
   Directory: 2.7/windows-builder/ltsc2022
   File: ""
-  GitCommit: 0b5f063a37d52d579b6d4e64b2e2409ad89f7c7a
+  GitCommit: 4ce9344fd5c8b1f13533a3bd83b92368d6129836
   Tags:
-  - 2.7.5-builder-windowsservercore-ltsc2022
+  - 2.7.6-builder-windowsservercore-ltsc2022
   - 2.7-builder-windowsservercore-ltsc2022
   - 2-builder-windowsservercore-ltsc2022
   - builder-windowsservercore-ltsc2022
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 2.7/alpine
+  File: ""
+  GitCommit: 0b5f063a37d52d579b6d4e64b2e2409ad89f7c7a
+  Tags:
+  - 2.7.5-alpine
+  - 2.7.5
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 2.7/builder
+  File: ""
+  GitCommit: 0b5f063a37d52d579b6d4e64b2e2409ad89f7c7a
+  Tags:
+  - 2.7.5-builder-alpine
+  - 2.7.5-builder
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 2.7/windows/1809
+  File: ""
+  GitCommit: 0b5f063a37d52d579b6d4e64b2e2409ad89f7c7a
+  Tags:
+  - 2.7.5-windowsservercore-1809
+  - 2.7.5-windowsservercore
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 2.7/windows/ltsc2022
+  File: ""
+  GitCommit: 0b5f063a37d52d579b6d4e64b2e2409ad89f7c7a
+  Tags:
+  - 2.7.5-windowsservercore-ltsc2022
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 2.7/windows-builder/1809
+  File: ""
+  GitCommit: 0b5f063a37d52d579b6d4e64b2e2409ad89f7c7a
+  Tags:
+  - 2.7.5-builder-windowsservercore-1809
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 2.7/windows-builder/ltsc2022
+  File: ""
+  GitCommit: 0b5f063a37d52d579b6d4e64b2e2409ad89f7c7a
+  Tags:
+  - 2.7.5-builder-windowsservercore-ltsc2022
 - Architectures:
     amd64:
       Architecture: amd64
@@ -5262,6 +5397,15 @@ KnownTags:
   2.7.5-windowsservercore: {}
   2.7.5-windowsservercore-1809: {}
   2.7.5-windowsservercore-ltsc2022: {}
+  2.7.6: {}
+  2.7.6-alpine: {}
+  2.7.6-builder: {}
+  2.7.6-builder-alpine: {}
+  2.7.6-builder-windowsservercore-1809: {}
+  2.7.6-builder-windowsservercore-ltsc2022: {}
+  2.7.6-windowsservercore: {}
+  2.7.6-windowsservercore-1809: {}
+  2.7.6-windowsservercore-ltsc2022: {}
   alpine: {}
   builder: {}
   builder-alpine: {}
