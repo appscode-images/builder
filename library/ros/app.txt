@@ -1,5 +1,70 @@
 GitRepo: https://github.com/osrf/docker_images.git
 
+Tags: noetic-ros-core,noetic-ros-core-focal
+Architectures: amd64,arm32v7,arm64v8
+GitCommit: 9ab23751d41735b448da8cfa1580958279ae5101
+Directory: ros/noetic/ubuntu/focal/ros-core
+
+Tags: noetic-ros-base,noetic-ros-base-focal,noetic
+Architectures: amd64,arm32v7,arm64v8
+GitCommit: df19ab7d5993d3b78a908362cdcd1479a8e78b35
+Directory: ros/noetic/ubuntu/focal/ros-base
+
+Tags: noetic-robot,noetic-robot-focal
+Architectures: amd64,arm32v7,arm64v8
+GitCommit: df19ab7d5993d3b78a908362cdcd1479a8e78b35
+Directory: ros/noetic/ubuntu/focal/robot
+
+Tags: noetic-perception,noetic-perception-focal
+Architectures: amd64,arm32v7,arm64v8
+GitCommit: df19ab7d5993d3b78a908362cdcd1479a8e78b35
+Directory: ros/noetic/ubuntu/focal/perception
+
+Tags: humble-ros-core,humble-ros-core-jammy
+Architectures: amd64,arm64v8
+GitCommit: 87074e54828d12dacf84f15273e95e03eeb17d24
+Directory: ros/humble/ubuntu/jammy/ros-core
+
+Tags: humble-ros-base,humble-ros-base-jammy,humble,latest
+Architectures: amd64,arm64v8
+GitCommit: 20e3ba685bb353a3c00be9ba01c1b7a6823c9472
+Directory: ros/humble/ubuntu/jammy/ros-base
+
+Tags: humble-perception,humble-perception-jammy
+Architectures: amd64,arm64v8
+GitCommit: 20d40c96b426b8956dec203e236abff2ec29b188
+Directory: ros/humble/ubuntu/jammy/perception
+
+Tags: iron-ros-core,iron-ros-core-jammy
+Architectures: amd64,arm64v8
+GitCommit: 87074e54828d12dacf84f15273e95e03eeb17d24
+Directory: ros/iron/ubuntu/jammy/ros-core
+
+Tags: iron-ros-base,iron-ros-base-jammy,iron
+Architectures: amd64,arm64v8
+GitCommit: bca53bf4c09d771be3ff735da4157203b53ebc2b
+Directory: ros/iron/ubuntu/jammy/ros-base
+
+Tags: iron-perception,iron-perception-jammy
+Architectures: amd64,arm64v8
+GitCommit: bca53bf4c09d771be3ff735da4157203b53ebc2b
+Directory: ros/iron/ubuntu/jammy/perception
+
+Tags: rolling-ros-core,rolling-ros-core-jammy
+Architectures: amd64,arm64v8
+GitCommit: 87074e54828d12dacf84f15273e95e03eeb17d24
+Directory: ros/rolling/ubuntu/jammy/ros-core
+
+Tags: rolling-ros-base,rolling-ros-base-jammy,rolling
+Architectures: amd64,arm64v8
+GitCommit: 73c1bf4c30e97d5d3d7c2aaddc8137cae2411409
+Directory: ros/rolling/ubuntu/jammy/ros-base
+
+Tags: rolling-perception,rolling-perception-jammy
+Architectures: amd64,arm64v8
+GitCommit: 73c1bf4c30e97d5d3d7c2aaddc8137cae2411409
+Directory: ros/rolling/ubuntu/jammy/perception
+
 Tags: indigo-ros-core,indigo-ros-core-trusty
 Architectures: amd64,arm32v7
 GitCommit: 51ba1c72c513b62e8825c3df015ca4d926ac688c
@@ -120,26 +185,6 @@ Architectures: amd64,arm32v7,arm64v8
 GitCommit: df19ab7d5993d3b78a908362cdcd1479a8e78b35
 Directory: ros/melodic/ubuntu/bionic/perception
 
-Tags: noetic-ros-core,noetic-ros-core-focal
-Architectures: amd64,arm32v7,arm64v8
-GitCommit: 9ab23751d41735b448da8cfa1580958279ae5101
-Directory: ros/noetic/ubuntu/focal/ros-core
-
-Tags: noetic-ros-base,noetic-ros-base-focal,noetic
-Architectures: amd64,arm32v7,arm64v8
-GitCommit: df19ab7d5993d3b78a908362cdcd1479a8e78b35
-Directory: ros/noetic/ubuntu/focal/ros-base
-
-Tags: noetic-robot,noetic-robot-focal
-Architectures: amd64,arm32v7,arm64v8
-GitCommit: df19ab7d5993d3b78a908362cdcd1479a8e78b35
-Directory: ros/noetic/ubuntu/focal/robot
-
-Tags: noetic-perception,noetic-perception-focal
-Architectures: amd64,arm32v7,arm64v8
-GitCommit: df19ab7d5993d3b78a908362cdcd1479a8e78b35
-Directory: ros/noetic/ubuntu/focal/perception
-
 Tags: noetic-ros-core-buster
 Architectures: amd64,arm64v8
 GitCommit: 9ab23751d41735b448da8cfa1580958279ae5101
@@ -249,51 +294,6 @@ Tags: galactic-ros1-bridge,galactic-ros1-bridge-focal
 Architectures: amd64,arm64v8
 GitCommit: 87074e54828d12dacf84f15273e95e03eeb17d24
 Directory: ros/galactic/ubuntu/focal/ros1-bridge
-
-Tags: humble-ros-core,humble-ros-core-jammy
-Architectures: amd64,arm64v8
-GitCommit: 87074e54828d12dacf84f15273e95e03eeb17d24
-Directory: ros/humble/ubuntu/jammy/ros-core
-
-Tags: humble-ros-base,humble-ros-base-jammy,humble,latest
-Architectures: amd64,arm64v8
-GitCommit: 20e3ba685bb353a3c00be9ba01c1b7a6823c9472
-Directory: ros/humble/ubuntu/jammy/ros-base
-
-Tags: humble-perception,humble-perception-jammy
-Architectures: amd64,arm64v8
-GitCommit: 20d40c96b426b8956dec203e236abff2ec29b188
-Directory: ros/humble/ubuntu/jammy/perception
-
-Tags: iron-ros-core,iron-ros-core-jammy
-Architectures: amd64,arm64v8
-GitCommit: 87074e54828d12dacf84f15273e95e03eeb17d24
-Directory: ros/iron/ubuntu/jammy/ros-core
-
-Tags: iron-ros-base,iron-ros-base-jammy,iron
-Architectures: amd64,arm64v8
-GitCommit: bca53bf4c09d771be3ff735da4157203b53ebc2b
-Directory: ros/iron/ubuntu/jammy/ros-base
-
-Tags: iron-perception,iron-perception-jammy
-Architectures: amd64,arm64v8
-GitCommit: bca53bf4c09d771be3ff735da4157203b53ebc2b
-Directory: ros/iron/ubuntu/jammy/perception
-
-Tags: rolling-ros-core,rolling-ros-core-jammy
-Architectures: amd64,arm64v8
-GitCommit: 87074e54828d12dacf84f15273e95e03eeb17d24
-Directory: ros/rolling/ubuntu/jammy/ros-core
-
-Tags: rolling-ros-base,rolling-ros-base-jammy,rolling
-Architectures: amd64,arm64v8
-GitCommit: 73c1bf4c30e97d5d3d7c2aaddc8137cae2411409
-Directory: ros/rolling/ubuntu/jammy/ros-base
-
-Tags: rolling-perception,rolling-perception-jammy
-Architectures: amd64,arm64v8
-GitCommit: 73c1bf4c30e97d5d3d7c2aaddc8137cae2411409
-Directory: ros/rolling/ubuntu/jammy/perception
 
 Tags: rolling-ros-core-focal
 Architectures: amd64,arm64v8
