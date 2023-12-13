@@ -48,9 +48,9 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: debian
+  Directory: 1/debian
   File: ""
-  GitCommit: b8a7264e4fc952fd71f2fe325908d6ba06e8e061
+  GitCommit: 52c3fa2f38bc81f2f3ace853a4b059046c32183a
   Tags:
   - 1.6.22
   - "1.6"
@@ -97,14 +97,59 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: alpine
+  Directory: 1/alpine
   File: ""
-  GitCommit: b8a7264e4fc952fd71f2fe325908d6ba06e8e061
+  GitCommit: 471a2986706be906753f3b271a55c54391667cbb
   Tags:
   - 1.6.22-alpine
   - 1.6-alpine
   - 1-alpine
   - alpine
+  - 1.6.22-alpine3.19
+  - 1.6-alpine3.19
+  - 1-alpine3.19
+  - alpine3.19
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: alpine
+  File: ""
+  GitCommit: b8a7264e4fc952fd71f2fe325908d6ba06e8e061
+  Tags:
   - 1.6.22-alpine3.18
   - 1.6-alpine3.18
   - 1-alpine3.18
@@ -4644,6 +4689,7 @@ KnownTags:
   1-alpine3.16: {}
   1-alpine3.17: {}
   1-alpine3.18: {}
+  1-alpine3.19: {}
   1-bookworm: {}
   1-bullseye: {}
   1-buster: {}
@@ -4730,6 +4776,7 @@ KnownTags:
   1.6-alpine3.16: {}
   1.6-alpine3.17: {}
   1.6-alpine3.18: {}
+  1.6-alpine3.19: {}
   1.6-bookworm: {}
   1.6-bullseye: {}
   1.6-buster: {}
@@ -4807,6 +4854,7 @@ KnownTags:
   1.6.22: {}
   1.6.22-alpine: {}
   1.6.22-alpine3.18: {}
+  1.6.22-alpine3.19: {}
   1.6.22-bookworm: {}
   alpine: {}
   alpine3.13: {}
@@ -4815,6 +4863,7 @@ KnownTags:
   alpine3.16: {}
   alpine3.17: {}
   alpine3.18: {}
+  alpine3.19: {}
   bookworm: {}
   bullseye: {}
   buster: {}

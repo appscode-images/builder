@@ -3,6 +3,7 @@
   "GitRepo": "https://github.com/rethinkdb/rethinkdb-dockerfiles.git",
   "KnownTags": {
     "2": {},
+    "2-bookworm-slim": {},
     "2-bullseye-slim": {},
     "2-buster-slim": {},
     "2-centos": {},
@@ -10,6 +11,7 @@
     "2.3.6": {},
     "2.3.7": {},
     "2.4": {},
+    "2.4-bookworm-slim": {},
     "2.4-bullseye-slim": {},
     "2.4-buster-slim": {},
     "2.4-centos": {},
@@ -21,6 +23,9 @@
     "2.4.1-centos": {},
     "2.4.2": {},
     "2.4.2-bullseye-slim": {},
+    "2.4.3": {},
+    "2.4.3-bookworm-slim": {},
+    "bookworm-slim": {},
     "bullseye-slim": {},
     "buster-slim": {},
     "centos": {},
@@ -29,14 +34,49 @@
   "Blocks": [
     {
       "Tags": [
+        "2.4.3-bookworm-slim",
+        "2.4-bookworm-slim",
+        "2-bookworm-slim",
+        "bookworm-slim",
+        "2.4.3",
+        "2.4",
+        "2",
+        "latest"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f5d6158f85c1fd7082814063e0a9cf5665dfcddc",
+      "Directory": "bookworm/2.4.3",
+      "File": ""
+    },
+    {
+      "Tags": [
         "2.4.2-bullseye-slim",
         "2.4-bullseye-slim",
         "2-bullseye-slim",
         "bullseye-slim",
-        "2.4.2",
-        "2.4",
-        "2",
-        "latest"
+        "2.4.2"
       ],
       "Architectures": {
         "amd64": {

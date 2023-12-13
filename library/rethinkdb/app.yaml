@@ -18,6 +18,37 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+  Directory: bookworm/2.4.3
+  File: ""
+  GitCommit: f5d6158f85c1fd7082814063e0a9cf5665dfcddc
+  Tags:
+  - 2.4.3-bookworm-slim
+  - 2.4-bookworm-slim
+  - 2-bookworm-slim
+  - bookworm-slim
+  - 2.4.3
+  - "2.4"
+  - "2"
+  - latest
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
   Directory: bullseye/2.4.2
   File: ""
   GitCommit: 826a4193366e7d0ff176d101679385125b8fa4f1
@@ -27,9 +58,6 @@ Blocks:
   - 2-bullseye-slim
   - bullseye-slim
   - 2.4.2
-  - "2.4"
-  - "2"
-  - latest
 - Architectures: null
   Directory: buster/2.4.1
   File: ""
@@ -78,6 +106,7 @@ Blocks:
 GitRepo: https://github.com/rethinkdb/rethinkdb-dockerfiles.git
 KnownTags:
   "2": {}
+  2-bookworm-slim: {}
   2-bullseye-slim: {}
   2-buster-slim: {}
   2-centos: {}
@@ -85,6 +114,7 @@ KnownTags:
   2.3.6: {}
   2.3.7: {}
   "2.4": {}
+  2.4-bookworm-slim: {}
   2.4-bullseye-slim: {}
   2.4-buster-slim: {}
   2.4-centos: {}
@@ -96,6 +126,9 @@ KnownTags:
   2.4.1-centos: {}
   2.4.2: {}
   2.4.2-bullseye-slim: {}
+  2.4.3: {}
+  2.4.3-bookworm-slim: {}
+  bookworm-slim: {}
   bullseye-slim: {}
   buster-slim: {}
   centos: {}
