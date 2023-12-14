@@ -18,11 +18,11 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: bookworm/2.4.3
+  Directory: bookworm/2.4.4
   File: ""
-  GitCommit: f5d6158f85c1fd7082814063e0a9cf5665dfcddc
+  GitCommit: 48876a66c3be922c6b01c436bf78d662e53bceef
   Tags:
-  - 2.4.3-bookworm-slim
+  - 2.4.4-bookworm-slim
   - 2.4-bookworm-slim
   - 2-bookworm-slim
   - bookworm-slim
@@ -30,6 +30,30 @@ Blocks:
   - "2.4"
   - "2"
   - latest
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: bookworm/2.4.3
+  File: ""
+  GitCommit: f5d6158f85c1fd7082814063e0a9cf5665dfcddc
+  Tags:
+  - 2.4.3-bookworm-slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -128,6 +152,7 @@ KnownTags:
   2.4.2-bullseye-slim: {}
   2.4.3: {}
   2.4.3-bookworm-slim: {}
+  2.4.4-bookworm-slim: {}
   bookworm-slim: {}
   bullseye-slim: {}
   buster-slim: {}
