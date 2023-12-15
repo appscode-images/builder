@@ -82,7 +82,7 @@ func GenerateWorkflows(dir string) error {
 
 func selectRunner(name string) string {
 	switch name {
-	case "node":
+	case "node", "postgres":
 		return "firecracker"
 	default:
 		return "ubuntu-latest"
