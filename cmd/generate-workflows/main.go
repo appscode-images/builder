@@ -230,7 +230,8 @@ jobs:
         if [[ $(git status --porcelain) ]]; then
           git commit -s -a -m "update $name$ images $(date --rfc-3339=date)"
           git fetch origin
-          git pull --rebase origin master
+          # https://git-scm.com/docs/merge-strategies
+          git pull --rebase -s ours origin master
           git push origin HEAD
         fi
 `
