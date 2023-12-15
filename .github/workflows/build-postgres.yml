@@ -16,7 +16,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        tag: [16.1-alpine, 15.5-alpine, 14.10-alpine, 13.13-alpine, 12.16-alpine, 11.22-alpine, 10.23-alpine]
+        tag: [16.1-bookworm, 16.1-alpine, 15.5-bookworm, 15.5-alpine, 14.10-bookworm, 14.10-alpine, 13.13-bookworm, 13.13-alpine, 12.16-bookworm, 12.16-alpine, 11.22-bookworm, 11.22-alpine, 10.23-bullseye, 10.23-alpine]
     steps:
     - uses: actions/checkout@v4
 
