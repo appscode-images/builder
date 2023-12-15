@@ -155,12 +155,19 @@ func main() {
 		repoURL = fmt.Sprintf("https://github.com/%s/%s", api.GH_IMG_REPO_OWNER, *name)
 	}
 
-	ref := fmt.Sprintf("%s/%s:%s_%s_linux_amd64", api.DAILY_REGISTRY, *name, *tag, ts)
-	yes, err := ShouldBuild(sh, ref, repoURL, b)
+	amd64Ref := fmt.Sprintf("%s/%s:%s_%s_linux_amd64", api.DAILY_REGISTRY, *name, *tag, ts)
+	amd64Yes, err := ShouldBuild(sh, amd64Ref, repoURL, b)
 	if err != nil {
 		panic(err)
 	}
-	if yes {
+
+	arm64Ref := fmt.Sprintf("%s/%s:%s_%s_linux_arm64", api.DAILY_REGISTRY, *name, *tag, ts)
+	arm64Yes, err := ShouldBuild(sh, arm64Ref, repoURL, b)
+	if err != nil {
+		panic(err)
+	}
+
+	if amd64Yes || arm64Yes {
 		err = Build(sh, libRepoURL, repoURL, b, *name, *tag, ts)
 		if err != nil {
 			panic(err)
