@@ -21,6 +21,11 @@ Blocks:
   - "8"
   - innovation
   - latest
+  - 8.2.0-oraclelinux8
+  - 8.2-oraclelinux8
+  - 8-oraclelinux8
+  - innovation-oraclelinux8
+  - oraclelinux8
   - 8.2.0-oracle
   - 8.2-oracle
   - 8-oracle
@@ -45,6 +50,8 @@ Blocks:
   Tags:
   - 8.0.35
   - "8.0"
+  - 8.0.35-oraclelinux8
+  - 8.0-oraclelinux8
   - 8.0.35-oracle
   - 8.0-oracle
 - Architectures:
@@ -56,8 +63,10 @@ Blocks:
       GitFetch: ""
   Directory: "8.0"
   File: Dockerfile.debian
-  GitCommit: dc35beded3a41c4c62dfaa7f86ea5721c02a2e8b
+  GitCommit: d035567ee66d525cbf95b8dbc0be20e2f0a5e3f5
   Tags:
+  - 8.0.35-bullseye
+  - 8.0-bullseye
   - 8.0.35-debian
   - 8.0-debian
 - Architectures:
@@ -74,6 +83,9 @@ Blocks:
   - 5.7.44
   - "5.7"
   - "5"
+  - 5.7.44-oraclelinux7
+  - 5.7-oraclelinux7
+  - 5-oraclelinux7
   - 5.7.44-oracle
   - 5.7-oracle
   - 5-oracle
@@ -981,6 +993,7 @@ KnownTags:
   "5": {}
   5-debian: {}
   5-oracle: {}
+  5-oraclelinux7: {}
   "5.5": {}
   5.5.50: {}
   5.5.51: {}
@@ -1020,6 +1033,7 @@ KnownTags:
   "5.7": {}
   5.7-debian: {}
   5.7-oracle: {}
+  5.7-oraclelinux7: {}
   5.7.13: {}
   5.7.14: {}
   5.7.15: {}
@@ -1066,12 +1080,16 @@ KnownTags:
   5.7.43-oracle: {}
   5.7.44: {}
   5.7.44-oracle: {}
+  5.7.44-oraclelinux7: {}
   "8": {}
   8-debian: {}
   8-oracle: {}
+  8-oraclelinux8: {}
   "8.0": {}
+  8.0-bullseye: {}
   8.0-debian: {}
   8.0-oracle: {}
+  8.0-oraclelinux8: {}
   8.0.0: {}
   8.0.1: {}
   8.0.2: {}
@@ -1117,19 +1135,25 @@ KnownTags:
   8.0.34-debian: {}
   8.0.34-oracle: {}
   8.0.35: {}
+  8.0.35-bullseye: {}
   8.0.35-debian: {}
   8.0.35-oracle: {}
+  8.0.35-oraclelinux8: {}
   "8.1": {}
   8.1-oracle: {}
   8.1.0: {}
   8.1.0-oracle: {}
   "8.2": {}
   8.2-oracle: {}
+  8.2-oraclelinux8: {}
   8.2.0: {}
   8.2.0-oracle: {}
+  8.2.0-oraclelinux8: {}
   debian: {}
   innovation: {}
   innovation-oracle: {}
+  innovation-oraclelinux8: {}
   latest: {}
   oracle: {}
+  oraclelinux8: {}
 Name: mysql

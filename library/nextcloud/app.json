@@ -1994,6 +1994,10 @@
     "26.0.1-apache": {},
     "26.0.1-fpm": {},
     "26.0.1-fpm-alpine": {},
+    "26.0.10": {},
+    "26.0.10-apache": {},
+    "26.0.10-fpm": {},
+    "26.0.10-fpm-alpine": {},
     "26.0.2": {},
     "26.0.2-apache": {},
     "26.0.2-fpm": {},
@@ -2070,6 +2074,10 @@
     "27.1.4-apache": {},
     "27.1.4-fpm": {},
     "27.1.4-fpm-alpine": {},
+    "27.1.5": {},
+    "27.1.5-apache": {},
+    "27.1.5-fpm": {},
+    "27.1.5-fpm-alpine": {},
     "28": {},
     "28-apache": {},
     "28-fpm": {},
@@ -2121,10 +2129,10 @@
   "Blocks": [
     {
       "Tags": [
-        "26.0.9-apache",
+        "26.0.10-apache",
         "26.0-apache",
         "26-apache",
-        "26.0.9",
+        "26.0.10",
         "26.0",
         "26"
       ],
@@ -2186,13 +2194,13 @@
           "File": ""
         }
       },
-      "GitCommit": "488a855c49140fbce4c4dd7637b6ffe7a4b725be",
+      "GitCommit": "4cff57305b863a4e055595bf24b04028a7547e8d",
       "Directory": "26/apache",
       "File": ""
     },
     {
       "Tags": [
-        "26.0.9-fpm",
+        "26.0.10-fpm",
         "26.0-fpm",
         "26-fpm"
       ],
@@ -2254,13 +2262,13 @@
           "File": ""
         }
       },
-      "GitCommit": "488a855c49140fbce4c4dd7637b6ffe7a4b725be",
+      "GitCommit": "4cff57305b863a4e055595bf24b04028a7547e8d",
       "Directory": "26/fpm",
       "File": ""
     },
     {
       "Tags": [
-        "26.0.9-fpm-alpine",
+        "26.0.10-fpm-alpine",
         "26.0-fpm-alpine",
         "26-fpm-alpine"
       ],
@@ -2315,18 +2323,18 @@
           "File": ""
         }
       },
-      "GitCommit": "488a855c49140fbce4c4dd7637b6ffe7a4b725be",
+      "GitCommit": "4cff57305b863a4e055595bf24b04028a7547e8d",
       "Directory": "26/fpm-alpine",
       "File": ""
     },
     {
       "Tags": [
-        "27.1.4-apache",
+        "27.1.5-apache",
         "27.1-apache",
         "27-apache",
         "stable-apache",
         "production-apache",
-        "27.1.4",
+        "27.1.5",
         "27.1",
         "27",
         "stable",
@@ -2390,13 +2398,13 @@
           "File": ""
         }
       },
-      "GitCommit": "488a855c49140fbce4c4dd7637b6ffe7a4b725be",
+      "GitCommit": "4cff57305b863a4e055595bf24b04028a7547e8d",
       "Directory": "27/apache",
       "File": ""
     },
     {
       "Tags": [
-        "27.1.4-fpm",
+        "27.1.5-fpm",
         "27.1-fpm",
         "27-fpm",
         "stable-fpm",
@@ -2460,13 +2468,13 @@
           "File": ""
         }
       },
-      "GitCommit": "488a855c49140fbce4c4dd7637b6ffe7a4b725be",
+      "GitCommit": "4cff57305b863a4e055595bf24b04028a7547e8d",
       "Directory": "27/fpm",
       "File": ""
     },
     {
       "Tags": [
-        "27.1.4-fpm-alpine",
+        "27.1.5-fpm-alpine",
         "27.1-fpm-alpine",
         "27-fpm-alpine",
         "stable-fpm-alpine",
@@ -2523,7 +2531,7 @@
           "File": ""
         }
       },
-      "GitCommit": "488a855c49140fbce4c4dd7637b6ffe7a4b725be",
+      "GitCommit": "4cff57305b863a4e055595bf24b04028a7547e8d",
       "Directory": "27/fpm-alpine",
       "File": ""
     },
@@ -2729,6 +2737,390 @@
       },
       "GitCommit": "e6510ac5947c11258f7d910aed3a1ce8d0faa2c3",
       "Directory": "28/fpm-alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "26.0.9-apache",
+        "26.0.9"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "mips64le": {
+          "Architecture": "mips64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "488a855c49140fbce4c4dd7637b6ffe7a4b725be",
+      "Directory": "26/apache",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "26.0.9-fpm"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "mips64le": {
+          "Architecture": "mips64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "488a855c49140fbce4c4dd7637b6ffe7a4b725be",
+      "Directory": "26/fpm",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "26.0.9-fpm-alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "488a855c49140fbce4c4dd7637b6ffe7a4b725be",
+      "Directory": "26/fpm-alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "27.1.4-apache",
+        "27.1.4"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "mips64le": {
+          "Architecture": "mips64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "488a855c49140fbce4c4dd7637b6ffe7a4b725be",
+      "Directory": "27/apache",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "27.1.4-fpm"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "mips64le": {
+          "Architecture": "mips64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "488a855c49140fbce4c4dd7637b6ffe7a4b725be",
+      "Directory": "27/fpm",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "27.1.4-fpm-alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "488a855c49140fbce4c4dd7637b6ffe7a4b725be",
+      "Directory": "27/fpm-alpine",
       "File": ""
     },
     {
