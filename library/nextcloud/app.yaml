@@ -388,13 +388,13 @@ Blocks:
       GitFetch: ""
   Directory: 28/apache
   File: ""
-  GitCommit: e6510ac5947c11258f7d910aed3a1ce8d0faa2c3
+  GitCommit: 8afd97014cc3445e888a165f8c2d16af7ed036aa
   Tags:
-  - 28.0.0-apache
+  - 28.0.1-apache
   - 28.0-apache
   - 28-apache
   - apache
-  - 28.0.0
+  - 28.0.1
   - "28.0"
   - "28"
   - latest
@@ -449,9 +449,9 @@ Blocks:
       GitFetch: ""
   Directory: 28/fpm
   File: ""
-  GitCommit: e6510ac5947c11258f7d910aed3a1ce8d0faa2c3
+  GitCommit: 8afd97014cc3445e888a165f8c2d16af7ed036aa
   Tags:
-  - 28.0.0-fpm
+  - 28.0.1-fpm
   - 28.0-fpm
   - 28-fpm
   - fpm
@@ -500,12 +500,169 @@ Blocks:
       GitFetch: ""
   Directory: 28/fpm-alpine
   File: ""
-  GitCommit: e6510ac5947c11258f7d910aed3a1ce8d0faa2c3
+  GitCommit: 8afd97014cc3445e888a165f8c2d16af7ed036aa
   Tags:
-  - 28.0.0-fpm-alpine
+  - 28.0.1-fpm-alpine
   - 28.0-fpm-alpine
   - 28-fpm-alpine
   - fpm-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 28/apache
+  File: ""
+  GitCommit: e6510ac5947c11258f7d910aed3a1ce8d0faa2c3
+  Tags:
+  - 28.0.0-apache
+  - 28.0.0
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 28/fpm
+  File: ""
+  GitCommit: e6510ac5947c11258f7d910aed3a1ce8d0faa2c3
+  Tags:
+  - 28.0.0-fpm
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 28/fpm-alpine
+  File: ""
+  GitCommit: e6510ac5947c11258f7d910aed3a1ce8d0faa2c3
+  Tags:
+  - 28.0.0-fpm-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -50805,6 +50962,10 @@ KnownTags:
   14.0.1-rc-apache: {}
   14.0.1-rc-fpm: {}
   14.0.1-rc-fpm-alpine: {}
+  14.0.1RC1: {}
+  14.0.1RC1-apache: {}
+  14.0.1RC1-fpm: {}
+  14.0.1RC1-fpm-alpine: {}
   14.0.2: {}
   14.0.2-apache: {}
   14.0.2-fpm: {}
@@ -50945,10 +51106,6 @@ KnownTags:
   14.0.14RC1-apache: {}
   14.0.14RC1-fpm: {}
   14.0.14RC1-fpm-alpine: {}
-  14.0.1RC1: {}
-  14.0.1RC1-apache: {}
-  14.0.1RC1-fpm: {}
-  14.0.1RC1-fpm-alpine: {}
   "15": {}
   15-apache: {}
   15-beta: {}
@@ -51225,10 +51382,6 @@ KnownTags:
   16.0.1-rc-apache: {}
   16.0.1-rc-fpm: {}
   16.0.1-rc-fpm-alpine: {}
-  16.0.1RC1: {}
-  16.0.1RC1-apache: {}
-  16.0.1RC1-fpm: {}
-  16.0.1RC1-fpm-alpine: {}
   16.0.2: {}
   16.0.2-apache: {}
   16.0.2-fpm: {}
@@ -51337,6 +51490,10 @@ KnownTags:
   16.0.11-apache: {}
   16.0.11-fpm: {}
   16.0.11-fpm-alpine: {}
+  16.0.1RC1: {}
+  16.0.1RC1-apache: {}
+  16.0.1RC1-fpm: {}
+  16.0.1RC1-fpm-alpine: {}
   "17": {}
   17-apache: {}
   17-beta: {}
@@ -51405,6 +51562,10 @@ KnownTags:
   17.0.1-rc-apache: {}
   17.0.1-rc-fpm: {}
   17.0.1-rc-fpm-alpine: {}
+  17.0.1RC1: {}
+  17.0.1RC1-apache: {}
+  17.0.1RC1-fpm: {}
+  17.0.1RC1-fpm-alpine: {}
   17.0.2: {}
   17.0.2-apache: {}
   17.0.2-fpm: {}
@@ -51505,10 +51666,6 @@ KnownTags:
   17.0.10RC1-apache: {}
   17.0.10RC1-fpm: {}
   17.0.10RC1-fpm-alpine: {}
-  17.0.1RC1: {}
-  17.0.1RC1-apache: {}
-  17.0.1RC1-fpm: {}
-  17.0.1RC1-fpm-alpine: {}
   "18": {}
   18-apache: {}
   18-beta: {}
@@ -51781,6 +51938,10 @@ KnownTags:
   19.0.1-rc-apache: {}
   19.0.1-rc-fpm: {}
   19.0.1-rc-fpm-alpine: {}
+  19.0.1RC1: {}
+  19.0.1RC1-apache: {}
+  19.0.1RC1-fpm: {}
+  19.0.1RC1-fpm-alpine: {}
   19.0.2: {}
   19.0.2-apache: {}
   19.0.2-fpm: {}
@@ -51869,10 +52030,6 @@ KnownTags:
   19.0.13-apache: {}
   19.0.13-fpm: {}
   19.0.13-fpm-alpine: {}
-  19.0.1RC1: {}
-  19.0.1RC1-apache: {}
-  19.0.1RC1-fpm: {}
-  19.0.1RC1-fpm-alpine: {}
   "20": {}
   20-apache: {}
   20-beta: {}
@@ -52457,6 +52614,10 @@ KnownTags:
   28.0.0-apache: {}
   28.0.0-fpm: {}
   28.0.0-fpm-alpine: {}
+  28.0.1: {}
+  28.0.1-apache: {}
+  28.0.1-fpm: {}
+  28.0.1-fpm-alpine: {}
   apache: {}
   beta: {}
   beta-apache: {}
