@@ -5,6 +5,8 @@
     "8": {},
     "8-alpine": {},
     "8-alpine3.16": {},
+    "8-alpine3.19": {},
+    "8-bookworm": {},
     "8-bullseye": {},
     "8.1": {},
     "8.1-alpine": {},
@@ -22,12 +24,147 @@
     "8.2.0-alpine": {},
     "8.2.0-alpine3.16": {},
     "8.2.0-bullseye": {},
+    "8.4": {},
+    "8.4-alpine": {},
+    "8.4-alpine3.19": {},
+    "8.4-bookworm": {},
+    "8.4.0": {},
+    "8.4.0-alpine": {},
+    "8.4.0-alpine3.19": {},
+    "8.4.0-bookworm": {},
     "alpine": {},
     "alpine3.16": {},
+    "alpine3.19": {},
+    "bookworm": {},
     "bullseye": {},
     "latest": {}
   },
   "Blocks": [
+    {
+      "Tags": [
+        "8.4.0-bookworm",
+        "8.4-bookworm",
+        "8-bookworm",
+        "bookworm",
+        "8.4.0",
+        "8.4",
+        "8",
+        "latest"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "69038a84d541717d66420f3ad8ec7c9da22c91b4",
+      "Directory": "8.4/bookworm",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.4.0-alpine3.19",
+        "8.4-alpine3.19",
+        "8-alpine3.19",
+        "alpine3.19",
+        "8.4.0-alpine",
+        "8.4-alpine",
+        "8-alpine",
+        "alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "74a847396f1190ec26679fc3bf09ffcc42d2e999",
+      "Directory": "8.4/alpine3.19",
+      "File": ""
+    },
     {
       "Tags": [
         "8.2.0-bullseye",
@@ -35,9 +172,7 @@
         "8-bullseye",
         "bullseye",
         "8.2.0",
-        "8.2",
-        "8",
-        "latest"
+        "8.2"
       ],
       "Architectures": {
         "amd64": {
@@ -101,9 +236,7 @@
         "8-alpine3.16",
         "alpine3.16",
         "8.2.0-alpine",
-        "8.2-alpine",
-        "8-alpine",
-        "alpine"
+        "8.2-alpine"
       ],
       "Architectures": {
         "amd64": {
