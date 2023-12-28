@@ -204,9 +204,9 @@ Blocks:
       GitFetch: ""
   Directory: 3.12/ubuntu
   File: ""
-  GitCommit: 986a970fcf1135300bddc78c15d84cde14a08b61
+  GitCommit: b8ed577cade002c16789f499f5999e821743242b
   Tags:
-  - 3.12.10
+  - 3.12.11
   - "3.12"
   - "3"
   - latest
@@ -245,7 +245,7 @@ Blocks:
   File: ""
   GitCommit: c30652127ae871535b7ec8ecda8046948a52ab79
   Tags:
-  - 3.12.10-management
+  - 3.12.11-management
   - 3.12-management
   - 3-management
   - management
@@ -294,9 +294,9 @@ Blocks:
       GitFetch: ""
   Directory: 3.12/alpine
   File: ""
-  GitCommit: 986a970fcf1135300bddc78c15d84cde14a08b61
+  GitCommit: b8ed577cade002c16789f499f5999e821743242b
   Tags:
-  - 3.12.10-alpine
+  - 3.12.11-alpine
   - 3.12-alpine
   - 3-alpine
   - alpine
@@ -347,7 +347,7 @@ Blocks:
   File: ""
   GitCommit: c30652127ae871535b7ec8ecda8046948a52ab79
   Tags:
-  - 3.12.10-management-alpine
+  - 3.12.11-management-alpine
   - 3.12-management-alpine
   - 3-management-alpine
   - management-alpine
@@ -867,6 +867,174 @@ Blocks:
   Tags:
   - 3.9.29-management-alpine
   - 3.9-management-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 3.12/ubuntu
+  File: ""
+  GitCommit: 986a970fcf1135300bddc78c15d84cde14a08b61
+  Tags:
+  - 3.12.10
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 3.12/ubuntu/management
+  File: ""
+  GitCommit: c30652127ae871535b7ec8ecda8046948a52ab79
+  Tags:
+  - 3.12.10-management
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 3.12/alpine
+  File: ""
+  GitCommit: 986a970fcf1135300bddc78c15d84cde14a08b61
+  Tags:
+  - 3.12.10-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 3.12/alpine/management
+  File: ""
+  GitCommit: c30652127ae871535b7ec8ecda8046948a52ab79
+  Tags:
+  - 3.12.10-management-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -44969,6 +45137,10 @@ KnownTags:
   3.12.10-alpine: {}
   3.12.10-management: {}
   3.12.10-management-alpine: {}
+  3.12.11: {}
+  3.12.11-alpine: {}
+  3.12.11-management: {}
+  3.12.11-management-alpine: {}
   3.13-rc: {}
   3.13-rc-alpine: {}
   3.13-rc-management: {}
