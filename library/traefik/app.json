@@ -357,6 +357,7 @@
     "2.1.9-windowsservercore-1809": {},
     "2.10": {},
     "2.10-windowsservercore-1809": {},
+    "2.10-windowsservercore-ltsc2022": {},
     "2.10.0": {},
     "2.10.0-rc1": {},
     "2.10.0-rc1-windowsservercore-1809": {},
@@ -375,6 +376,13 @@
     "2.10.6-windowsservercore-1809": {},
     "2.10.7": {},
     "2.10.7-windowsservercore-1809": {},
+    "2.10.7-windowsservercore-ltsc2022": {},
+    "2.11": {},
+    "2.11-windowsservercore-1809": {},
+    "2.11-windowsservercore-ltsc2022": {},
+    "2.11.0-rc1": {},
+    "2.11.0-rc1-windowsservercore-1809": {},
+    "2.11.0-rc1-windowsservercore-ltsc2022": {},
     "2.2": {},
     "2.2-windowsservercore-1809": {},
     "2.2.0": {},
@@ -576,6 +584,7 @@
     "2.9.9-windowsservercore-1809": {},
     "3.0": {},
     "3.0-windowsservercore-1809": {},
+    "3.0-windowsservercore-ltsc2022": {},
     "3.0.0-beta1": {},
     "3.0.0-beta1-windowsservercore-1809": {},
     "3.0.0-beta2": {},
@@ -586,11 +595,13 @@
     "3.0.0-beta4-windowsservercore-1809": {},
     "3.0.0-beta5": {},
     "3.0.0-beta5-windowsservercore-1809": {},
+    "3.0.0-beta5-windowsservercore-ltsc2022": {},
     "alpine": {},
     "banon": {},
     "banon-windowsservercore-1809": {},
     "beaufort": {},
     "beaufort-windowsservercore-1809": {},
+    "beaufort-windowsservercore-ltsc2022": {},
     "brie": {},
     "brie-windowsservercore-1809": {},
     "camembert": {},
@@ -615,6 +626,9 @@
     "maroilles-nanoserver": {},
     "maroilles-nanoserver-sac2016": {},
     "maroilles-windowsservercore-1809": {},
+    "mimolette": {},
+    "mimolette-windowsservercore-1809": {},
+    "mimolette-windowsservercore-ltsc2022": {},
     "montdor": {},
     "montdor-alpine": {},
     "montdor-nanoserver": {},
@@ -636,6 +650,7 @@
     "roquefort-alpine": {},
     "saintmarcelin": {},
     "saintmarcelin-windowsservercore-1809": {},
+    "saintmarcelin-windowsservercore-ltsc2022": {},
     "tetedemoine": {},
     "tetedemoine-alpine": {},
     "tetedemoine-nanoserver": {},
@@ -1003,6 +1018,7 @@
     "v2.1.9-windowsservercore-1809": {},
     "v2.10": {},
     "v2.10-windowsservercore-1809": {},
+    "v2.10-windowsservercore-ltsc2022": {},
     "v2.10.0": {},
     "v2.10.0-rc1": {},
     "v2.10.0-rc1-windowsservercore-1809": {},
@@ -1021,6 +1037,13 @@
     "v2.10.6-windowsservercore-1809": {},
     "v2.10.7": {},
     "v2.10.7-windowsservercore-1809": {},
+    "v2.10.7-windowsservercore-ltsc2022": {},
+    "v2.11": {},
+    "v2.11-windowsservercore-1809": {},
+    "v2.11-windowsservercore-ltsc2022": {},
+    "v2.11.0-rc1": {},
+    "v2.11.0-rc1-windowsservercore-1809": {},
+    "v2.11.0-rc1-windowsservercore-ltsc2022": {},
     "v2.2": {},
     "v2.2-windowsservercore-1809": {},
     "v2.2.0": {},
@@ -1223,6 +1246,7 @@
     "v2.9.9-windowsservercore-1809": {},
     "v3.0": {},
     "v3.0-windowsservercore-1809": {},
+    "v3.0-windowsservercore-ltsc2022": {},
     "v3.0.0-beta1": {},
     "v3.0.0-beta1-windowsservercore-1809": {},
     "v3.0.0-beta2": {},
@@ -1233,11 +1257,34 @@
     "v3.0.0-beta4-windowsservercore-1809": {},
     "v3.0.0-beta5": {},
     "v3.0.0-beta5-windowsservercore-1809": {},
+    "v3.0.0-beta5-windowsservercore-ltsc2022": {},
     "vacherin": {},
     "vacherin-windowsservercore-1809": {},
-    "windowsservercore-1809": {}
+    "windowsservercore-1809": {},
+    "windowsservercore-ltsc2022": {}
   },
   "Blocks": [
+    {
+      "Tags": [
+        "v3.0.0-beta5-windowsservercore-ltsc2022",
+        "3.0.0-beta5-windowsservercore-ltsc2022",
+        "v3.0-windowsservercore-ltsc2022",
+        "3.0-windowsservercore-ltsc2022",
+        "beaufort-windowsservercore-ltsc2022"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "66250e268eb9c8d592cc85e153d388dca705c7ee",
+      "Directory": "windows/servercore-ltsc2022",
+      "File": ""
+    },
     {
       "Tags": [
         "v3.0.0-beta5-windowsservercore-1809",
@@ -1299,6 +1346,112 @@
       },
       "GitCommit": "66250e268eb9c8d592cc85e153d388dca705c7ee",
       "Directory": "alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "v2.11.0-rc1-windowsservercore-ltsc2022",
+        "2.11.0-rc1-windowsservercore-ltsc2022",
+        "v2.11-windowsservercore-ltsc2022",
+        "2.11-windowsservercore-ltsc2022",
+        "mimolette-windowsservercore-ltsc2022"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "febb0c2358cbb1033a6d0d0a447d52cbe11ded54",
+      "Directory": "windows/servercore-ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "v2.11.0-rc1-windowsservercore-1809",
+        "2.11.0-rc1-windowsservercore-1809",
+        "v2.11-windowsservercore-1809",
+        "2.11-windowsservercore-1809",
+        "mimolette-windowsservercore-1809"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "febb0c2358cbb1033a6d0d0a447d52cbe11ded54",
+      "Directory": "windows/1809",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "v2.11.0-rc1",
+        "2.11.0-rc1",
+        "v2.11",
+        "2.11",
+        "mimolette"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "febb0c2358cbb1033a6d0d0a447d52cbe11ded54",
+      "Directory": "alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "v2.10.7-windowsservercore-ltsc2022",
+        "2.10.7-windowsservercore-ltsc2022",
+        "v2.10-windowsservercore-ltsc2022",
+        "2.10-windowsservercore-ltsc2022",
+        "saintmarcelin-windowsservercore-ltsc2022",
+        "windowsservercore-ltsc2022"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "274d14183ad37ff987c85fb0f85e9f862025c297",
+      "Directory": "windows/servercore-ltsc2022",
       "File": ""
     },
     {
