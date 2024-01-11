@@ -16,7 +16,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        tag: [8.2.0-oracle, 8.1.0-oracle, 8.0.35-oracle, 5.7.44-oracle]
+        tag: [8.2.0-oracle, 8.1.0-oracle, 8.0.35-oracle, 5.7.44-oracle, 5.7.42-debian]
     steps:
     - uses: actions/checkout@v4
 
