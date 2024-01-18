@@ -72,15 +72,15 @@ func main__() {
 		panic(err)
 	}
 
-	repoURL, b, err := FindBlock(dir, name, tag)
+	repoURL, _, err := FindBlock(dir, name, tag)
 	if err != nil {
 		panic(err)
 	}
 
-	ShouldBuild(sh, ref, repoURL, b)
+	ShouldBuild(sh, ref, repoURL)
 }
 
-func ShouldBuild(sh *shell.Session, ref string, repoURL string, b *api.Block) (bool, error) {
+func ShouldBuild(sh *shell.Session, ref string, repoURL string) (bool, error) {
 	data, err := crane.Manifest(ref, crane.WithAuthFromKeychain(authn.DefaultKeychain))
 	if err != nil {
 		if lib.ImageNotFound(err) {
@@ -111,13 +111,14 @@ func ShouldBuild(sh *shell.Session, ref string, repoURL string, b *api.Block) (b
 	// org.opencontainers.image.source
 	// org.opencontainers.image.revision
 
+	expectedCommitSHA := lib.LastCommitSHA(sh)
 	imgSrc := m.Annotations[KeyImageSource]
 	imgRev := m.Annotations[KeyImageRevision]
 	fmt.Println("ref=", ref,
 		"src= expected:", repoURL, " found:", imgSrc,
-		"ref= expected:", b.GitCommit, " found:", imgRev)
+		"sha= expected:", expectedCommitSHA, " found:", imgRev)
 	return imgSrc != repoURL ||
-		imgRev != b.GitCommit, nil
+		imgRev != expectedCommitSHA, nil
 }
 
 func main_() {
@@ -155,24 +156,24 @@ func main() {
 		repoURL = fmt.Sprintf("https://github.com/%s/%s", api.GH_IMG_REPO_OWNER, *name)
 	}
 
-	amd64Ref := fmt.Sprintf("%s/%s:%s_%s_linux_amd64", api.DAILY_REGISTRY, *name, *tag, ts)
-	amd64Yes, err := ShouldBuild(sh, amd64Ref, repoURL, b)
+	//amd64Ref := fmt.Sprintf("%s/%s:%s_%s_linux_amd64", api.DAILY_REGISTRY, *name, *tag, ts)
+	//amd64Yes, err := ShouldBuild(sh, amd64Ref, repoURL, b)
+	//if err != nil {
+	//	panic(err)
+	//}
+	//
+	//arm64Ref := fmt.Sprintf("%s/%s:%s_%s_linux_arm64", api.DAILY_REGISTRY, *name, *tag, ts)
+	//arm64Yes, err := ShouldBuild(sh, arm64Ref, repoURL, b)
+	//if err != nil {
+	//	panic(err)
+	//}
+
+	// if amd64Yes || arm64Yes {
+	err = Build(sh, libRepoURL, repoURL, b, *name, *tag, ts)
 	if err != nil {
 		panic(err)
 	}
-
-	arm64Ref := fmt.Sprintf("%s/%s:%s_%s_linux_arm64", api.DAILY_REGISTRY, *name, *tag, ts)
-	arm64Yes, err := ShouldBuild(sh, arm64Ref, repoURL, b)
-	if err != nil {
-		panic(err)
-	}
-
-	if amd64Yes || arm64Yes {
-		err = Build(sh, libRepoURL, repoURL, b, *name, *tag, ts)
-		if err != nil {
-			panic(err)
-		}
-	}
+	// }
 }
 
 func Build(sh *shell.Session, libRepoURL, repoURL string, b *api.Block, name, tag, ts string) error {
@@ -254,6 +255,22 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, b *api.Block, name, ta
 		if err != nil {
 			return err
 		}
+	}
+
+	amd64Ref := fmt.Sprintf("%s/%s:%s_%s_linux_amd64", api.DAILY_REGISTRY, name, tag, ts)
+	amd64Yes, err := ShouldBuild(sh, amd64Ref, repoURL)
+	if err != nil {
+		panic(err)
+	}
+
+	arm64Ref := fmt.Sprintf("%s/%s:%s_%s_linux_arm64", api.DAILY_REGISTRY, name, tag, ts)
+	arm64Yes, err := ShouldBuild(sh, arm64Ref, repoURL)
+	if err != nil {
+		panic(err)
+	}
+
+	if !amd64Yes && !arm64Yes {
+		return nil
 	}
 
 	// https://github.com/kubedb/mysql-init-docker/blob/release-8.0.31/Makefile
