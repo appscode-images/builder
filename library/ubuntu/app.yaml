@@ -42,38 +42,38 @@ Blocks:
       Architecture: amd64
       Directory: ""
       File: ""
-      GitCommit: 688af4b17cff5f46798923b58dca3922c9dceed7
-      GitFetch: refs/tags/dist-jammy-amd64-20231211.1-688af4b1
+      GitCommit: e6e3490ad3f524ccaa072edafe525f8ca8ac5490
+      GitFetch: refs/tags/dist-jammy-amd64-20240111-e6e3490a
     arm32v7:
       Architecture: arm32v7
       Directory: ""
       File: ""
-      GitCommit: e25abab17d99f6a6acaed887216dfb3b144b8459
-      GitFetch: refs/tags/dist-jammy-arm32v7-20231211.1-e25abab1
+      GitCommit: a660f0a7e65a942980b62ec649f58c0965469977
+      GitFetch: refs/tags/dist-jammy-arm32v7-20240111-a660f0a7
     arm64v8:
       Architecture: arm64v8
       Directory: ""
       File: ""
-      GitCommit: 91ef8a80e2537343cca8bf0ed98e8c59a0a4991a
-      GitFetch: refs/tags/dist-jammy-arm64v8-20231211.1-91ef8a80
+      GitCommit: 36663b751f9d3fd351e2023d1de0ff37d788b33c
+      GitFetch: refs/tags/dist-jammy-arm64v8-20240111-36663b75
     ppc64le:
       Architecture: ppc64le
       Directory: ""
       File: ""
-      GitCommit: e0180302bb19244515ed49c5d2e6576d21f74ffe
-      GitFetch: refs/tags/dist-jammy-ppc64le-20231211.1-e0180302
+      GitCommit: 35352c09101ede6eeb81d9db1630251a504cc878
+      GitFetch: refs/tags/dist-jammy-ppc64le-20240111-35352c09
     s390x:
       Architecture: s390x
       Directory: ""
       File: ""
-      GitCommit: 2c47e341c8574e6926fc320e95cd7c5e1e6adc23
-      GitFetch: refs/tags/dist-jammy-s390x-20231211.1-2c47e341
+      GitCommit: 4aa1c57312600de8dc34d62643bed419d9811d06
+      GitFetch: refs/tags/dist-jammy-s390x-20240111-4aa1c573
   Directory: oci
   File: ""
   GitCommit: fa42be9027eccb928a1f0f43d95ffd9a45d36737
   Tags:
   - "22.04"
-  - jammy-20231211.1
+  - jammy-20240111
   - jammy
   - latest
 - Architectures:
@@ -158,6 +158,81 @@ Blocks:
       Architecture: amd64
       Directory: ""
       File: ""
+      GitCommit: 7ddcbbb0945744800499a919528ba686d5e50239
+      GitFetch: refs/tags/dist-noble-amd64-20240114-7ddcbbb0
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: 432bd8afb0463c177f3ed6991429fa2a706f9485
+      GitFetch: refs/tags/dist-noble-arm32v7-20240114-432bd8af
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: 16e0835a8ab33b2ac16286458ec06f7920fe31c8
+      GitFetch: refs/tags/dist-noble-arm64v8-20240114-16e0835a
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: cf157d65459632e2684e3a71f7975937a4796f2c
+      GitFetch: refs/tags/dist-noble-ppc64le-20240114-cf157d65
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: 0849e387d528f802a70089d91eb7f0fb080f7f81
+      GitFetch: refs/tags/dist-noble-s390x-20240114-0849e387
+  Directory: oci
+  File: ""
+  GitCommit: fa42be9027eccb928a1f0f43d95ffd9a45d36737
+  Tags:
+  - "24.04"
+  - noble-20240114
+  - noble
+  - devel
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: 688af4b17cff5f46798923b58dca3922c9dceed7
+      GitFetch: refs/tags/dist-jammy-amd64-20231211.1-688af4b1
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: e25abab17d99f6a6acaed887216dfb3b144b8459
+      GitFetch: refs/tags/dist-jammy-arm32v7-20231211.1-e25abab1
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: 91ef8a80e2537343cca8bf0ed98e8c59a0a4991a
+      GitFetch: refs/tags/dist-jammy-arm64v8-20231211.1-91ef8a80
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: e0180302bb19244515ed49c5d2e6576d21f74ffe
+      GitFetch: refs/tags/dist-jammy-ppc64le-20231211.1-e0180302
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: 2c47e341c8574e6926fc320e95cd7c5e1e6adc23
+      GitFetch: refs/tags/dist-jammy-s390x-20231211.1-2c47e341
+  Directory: oci
+  File: ""
+  GitCommit: fa42be9027eccb928a1f0f43d95ffd9a45d36737
+  Tags:
+  - jammy-20231211.1
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
       GitCommit: ca3b3e0c03ddaec7895273977a1d0e25ac5cbf71
       GitFetch: refs/tags/dist-noble-amd64-20231221-ca3b3e0c
     arm32v7:
@@ -188,10 +263,7 @@ Blocks:
   File: ""
   GitCommit: fa42be9027eccb928a1f0f43d95ffd9a45d36737
   Tags:
-  - "24.04"
   - noble-20231221
-  - noble
-  - devel
 - Architectures:
     amd64:
       Architecture: amd64
@@ -15771,6 +15843,7 @@ KnownTags:
   jammy-20231004: {}
   jammy-20231128: {}
   jammy-20231211.1: {}
+  jammy-20240111: {}
   kinetic: {}
   kinetic-20220428: {}
   kinetic-20220602: {}
@@ -15819,6 +15892,7 @@ KnownTags:
   noble-20231126.1: {}
   noble-20231214: {}
   noble-20231221: {}
+  noble-20240114: {}
   precise: {}
   precise-20160624: {}
   precise-20160707: {}
