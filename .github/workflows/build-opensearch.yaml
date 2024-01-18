@@ -75,6 +75,7 @@ jobs:
         git clone https://github.com/opensearch-project/opensearch-build.git
         cd opensearch-build/docker/release
         ./build-image-multi-arch.sh -v ${{ matrix.tag }} -f ./dockerfiles/opensearch.al2.dockerfile -p opensearch -a "x64,arm64" -r "ghcr.io/appscode-images/daily/opensearch"
+        crane cp ghcr.io/appscode-images/daily/opensearch:${{ matrix.tag }} ghcr.io/appscode-images/daily/opensearch:${{ matrix.tag }}_$(date -u +'%Y%m%d')
 
   report:
     name: Report
