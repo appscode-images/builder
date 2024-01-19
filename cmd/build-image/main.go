@@ -156,6 +156,11 @@ func main() {
 		repoURL = fmt.Sprintf("https://github.com/%s/%s", api.GH_IMG_REPO_OWNER, *name)
 	}
 
+	cherrypicks, err := lib.LoadCherrypicks(dir, *name)
+	if err != nil {
+		panic(err)
+	}
+
 	//amd64Ref := fmt.Sprintf("%s/%s:%s_%s_linux_amd64", api.DAILY_REGISTRY, *name, *tag, ts)
 	//amd64Yes, err := ShouldBuild(sh, amd64Ref, repoURL, b)
 	//if err != nil {
@@ -169,14 +174,14 @@ func main() {
 	//}
 
 	// if amd64Yes || arm64Yes {
-	err = Build(sh, libRepoURL, repoURL, b, *name, *tag, ts)
+	err = Build(sh, libRepoURL, repoURL, cherrypicks[*tag], b, *name, *tag, ts)
 	if err != nil {
 		panic(err)
 	}
 	// }
 }
 
-func Build(sh *shell.Session, libRepoURL, repoURL string, b *api.Block, name, tag, ts string) error {
+func Build(sh *shell.Session, libRepoURL, repoURL string, cherrypicks []string, b *api.Block, name, tag, ts string) error {
 	ctx := context.Background()
 	gh := lib.NewGitHubClient(ctx)
 
@@ -237,6 +242,12 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, b *api.Block, name, ta
 		if err != nil {
 			return err
 		}
+		for _, cp := range cherrypicks {
+			err = sh.Command("git", "cherry-pick", cp).Run()
+			if err != nil {
+				return err
+			}
+		}
 		err = sh.Command("git", "push", "origin", "HEAD", "-f").Run()
 		if err != nil {
 			return err
@@ -250,6 +261,12 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, b *api.Block, name, ta
 		err = sh.Command("git", "checkout", "-b", branch).Run()
 		if err != nil {
 			return err
+		}
+		for _, cp := range cherrypicks {
+			err = sh.Command("git", "cherry-pick", cp).Run()
+			if err != nil {
+				return err
+			}
 		}
 		err = sh.Command("git", "push", "origin", "HEAD", "-f").Run()
 		if err != nil {
