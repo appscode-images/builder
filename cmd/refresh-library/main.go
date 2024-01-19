@@ -28,6 +28,7 @@ var skipApps sets.String
 // Read from Git directly
 func main() {
 	skipList := []string{
+		"druid",
 		"kibana",
 		"logstash",
 		"opensearch",
