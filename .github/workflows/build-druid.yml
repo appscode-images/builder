@@ -16,7 +16,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        tag: [druid-28.0.1]
+        tag: [druid-28.0.1, druid-25.0.0]
     steps:
     - uses: actions/checkout@v4
 
