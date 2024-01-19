@@ -36,8 +36,10 @@ jobs:
     - name: Refresh Library
       run: |
         go run cmd/refresh-library/*.go \
+          --skip=kibana \
           --skip=logstash \
-          --skip=kibana
+          --skip=opensearch \
+          --skip=opensearch-dashboards
         # https://stackoverflow.com/a/23930212
         cat > ./library/README.md <<- EOM
         # Docker Library

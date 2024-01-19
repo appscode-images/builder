@@ -28,7 +28,7 @@ var skipApps sets.String
 // Read from Git directly
 func main() {
 	var skipList []string
-	flag.StringSliceVar(&skipList, "skip", skipList, "Skip official image (because manually maintianed)")
+	flag.StringSliceVar(&skipList, "skip", skipList, "Skip official image (because manually maintained)")
 	flag.Parse()
 
 	skipApps = sets.NewString(skipList...)
