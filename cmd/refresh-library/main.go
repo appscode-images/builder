@@ -27,7 +27,12 @@ var skipApps sets.String
 
 // Read from Git directly
 func main() {
-	var skipList []string
+	skipList := []string{
+		"kibana",
+		"logstash",
+		"opensearch",
+		"opensearch-dashboards",
+	}
 	flag.StringSliceVar(&skipList, "skip", skipList, "Skip official image (because manually maintained)")
 	flag.Parse()
 

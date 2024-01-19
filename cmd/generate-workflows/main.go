@@ -15,7 +15,10 @@ import (
 var skipApps sets.String
 
 func main() {
-	var skipList []string
+	skipList := []string{
+		"opensearch",
+		"opensearch-dashboards",
+	}
 	flag.StringSliceVar(&skipList, "skip", skipList, "Skip official image (because manually maintained)")
 	flag.Parse()
 

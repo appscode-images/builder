@@ -35,11 +35,7 @@ jobs:
 
     - name: Refresh Library
       run: |
-        go run cmd/refresh-library/*.go \
-          --skip=kibana \
-          --skip=logstash \
-          --skip=opensearch \
-          --skip=opensearch-dashboards
+        go run cmd/refresh-library/*.go
         # https://stackoverflow.com/a/23930212
         cat > ./library/README.md <<- EOM
         # Docker Library
@@ -48,9 +44,7 @@ jobs:
 
     - name: Generate Workflows
       run: |
-        go run cmd/generate-workflows/*.go \
-          --skip=opensearch \
-          --skip=opensearch-dashboards
+        go run cmd/generate-workflows/*.go
 
     # - name: Setup upterm session
     #   uses: lhotari/action-upterm@v1
