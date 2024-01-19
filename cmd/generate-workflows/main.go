@@ -45,10 +45,11 @@ func CleanupOldWorkflows(dir string) error {
 			continue
 		}
 		if strings.HasPrefix(entry.Name(), "build-") {
-			appName := strings.TrimPrefix(entry.Name(), "build-")
-			if skipApps.Has(appName) {
+			appName := strings.TrimSuffix(strings.TrimPrefix(entry.Name(), "build-"), filepath.Ext(entry.Name()))
+			if skipApps.Len() > 0 && skipApps.Has(appName) {
 				continue
 			}
+
 			if err = os.Remove(filepath.Join(wfDir, entry.Name())); err != nil {
 				return err
 			}
@@ -69,9 +70,9 @@ func GenerateWorkflows(dir string) error {
 		}
 
 		appName := entry.Name()
-		if skipApps.Has(appName) {
+		if skipApps.Len() > 0 && skipApps.Has(appName) {
 			klog.InfoS("skipping", "app", appName)
-			return nil
+			continue
 		}
 
 		tags, err := lib.ListBuildTags(dir, entry.Name())
