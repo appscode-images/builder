@@ -158,12 +158,12 @@ Blocks:
       GitFetch: ""
   Directory: "2.9"
   File: ""
-  GitCommit: b392e587eaca4394492248524cd0297ddb86aa5e
+  GitCommit: 6336b496c8634e994cc23261a20b493f08750e82
   Tags:
-  - 2.9.2
+  - 2.9.3
   - "2.9"
   - latest
-  - 2.9.2-bookworm
+  - 2.9.3-bookworm
   - 2.9-bookworm
   - bookworm
 - Architectures:
@@ -211,12 +211,12 @@ Blocks:
       GitFetch: ""
   Directory: 2.9/alpine
   File: ""
-  GitCommit: b392e587eaca4394492248524cd0297ddb86aa5e
+  GitCommit: 6336b496c8634e994cc23261a20b493f08750e82
   Tags:
-  - 2.9.2-alpine
+  - 2.9.3-alpine
   - 2.9-alpine
   - alpine
-  - 2.9.2-alpine3.19
+  - 2.9.3-alpine3.19
   - 2.9-alpine3.19
   - alpine3.19
 - Architectures:
@@ -847,6 +847,110 @@ Blocks:
   - 2.0-alpine
   - 2.0.34-alpine3.16
   - 2.0-alpine3.16
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: "2.9"
+  File: ""
+  GitCommit: b392e587eaca4394492248524cd0297ddb86aa5e
+  Tags:
+  - 2.9.2
+  - 2.9.2-bookworm
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 2.9/alpine
+  File: ""
+  GitCommit: b392e587eaca4394492248524cd0297ddb86aa5e
+  Tags:
+  - 2.9.2-alpine
+  - 2.9.2-alpine3.19
 - Architectures:
     amd64:
       Architecture: amd64
@@ -38883,6 +38987,10 @@ KnownTags:
   2.9.2-alpine: {}
   2.9.2-alpine3.19: {}
   2.9.2-bookworm: {}
+  2.9.3: {}
+  2.9.3-alpine: {}
+  2.9.3-alpine3.19: {}
+  2.9.3-bookworm: {}
   3.0-dev: {}
   3.0-dev-alpine: {}
   3.0-dev-alpine3.18: {}

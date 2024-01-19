@@ -14,20 +14,20 @@ Blocks:
       GitFetch: ""
   Directory: innovation
   File: Dockerfile.oracle
-  GitCommit: 3e959c224b965b0dd92a59a1dedeb7c34a24f550
+  GitCommit: ffa6423ca24168e4d96631b5e8f536ac826d2a5b
   Tags:
-  - 8.2.0
-  - "8.2"
+  - 8.3.0
+  - "8.3"
   - "8"
   - innovation
   - latest
-  - 8.2.0-oraclelinux8
-  - 8.2-oraclelinux8
+  - 8.3.0-oraclelinux8
+  - 8.3-oraclelinux8
   - 8-oraclelinux8
   - innovation-oraclelinux8
   - oraclelinux8
-  - 8.2.0-oracle
-  - 8.2-oracle
+  - 8.3.0-oracle
+  - 8.3-oracle
   - 8-oracle
   - innovation-oracle
   - oracle
@@ -46,14 +46,72 @@ Blocks:
       GitFetch: ""
   Directory: "8.0"
   File: Dockerfile.oracle
+  GitCommit: ffa6423ca24168e4d96631b5e8f536ac826d2a5b
+  Tags:
+  - 8.0.36
+  - "8.0"
+  - 8.0.36-oraclelinux8
+  - 8.0-oraclelinux8
+  - 8.0.36-oracle
+  - 8.0-oracle
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: "8.0"
+  File: Dockerfile.debian
+  GitCommit: ffa6423ca24168e4d96631b5e8f536ac826d2a5b
+  Tags:
+  - 8.0.36-bullseye
+  - 8.0-bullseye
+  - 8.0.36-debian
+  - 8.0-debian
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: innovation
+  File: Dockerfile.oracle
+  GitCommit: 3e959c224b965b0dd92a59a1dedeb7c34a24f550
+  Tags:
+  - 8.2.0
+  - "8.2"
+  - 8.2.0-oraclelinux8
+  - 8.2-oraclelinux8
+  - 8.2.0-oracle
+  - 8.2-oracle
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: "8.0"
+  File: Dockerfile.oracle
   GitCommit: 3e959c224b965b0dd92a59a1dedeb7c34a24f550
   Tags:
   - 8.0.35
-  - "8.0"
   - 8.0.35-oraclelinux8
-  - 8.0-oraclelinux8
   - 8.0.35-oracle
-  - 8.0-oracle
 - Architectures:
     amd64:
       Architecture: amd64
@@ -66,9 +124,7 @@ Blocks:
   GitCommit: 3e959c224b965b0dd92a59a1dedeb7c34a24f550
   Tags:
   - 8.0.35-bullseye
-  - 8.0-bullseye
   - 8.0.35-debian
-  - 8.0-debian
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1139,6 +1195,11 @@ KnownTags:
   8.0.35-debian: {}
   8.0.35-oracle: {}
   8.0.35-oraclelinux8: {}
+  8.0.36: {}
+  8.0.36-bullseye: {}
+  8.0.36-debian: {}
+  8.0.36-oracle: {}
+  8.0.36-oraclelinux8: {}
   "8.1": {}
   8.1-oracle: {}
   8.1.0: {}
@@ -1149,6 +1210,12 @@ KnownTags:
   8.2.0: {}
   8.2.0-oracle: {}
   8.2.0-oraclelinux8: {}
+  "8.3": {}
+  8.3-oracle: {}
+  8.3-oraclelinux8: {}
+  8.3.0: {}
+  8.3.0-oracle: {}
+  8.3.0-oraclelinux8: {}
   debian: {}
   innovation: {}
   innovation-oracle: {}
