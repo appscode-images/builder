@@ -48,7 +48,9 @@ jobs:
 
     - name: Generate Workflows
       run: |
-        go run cmd/generate-workflows/*.go
+        go run cmd/generate-workflows/*.go \
+          --skip=opensearch \
+          --skip=opensearch-dashboards
 
     # - name: Setup upterm session
     #   uses: lhotari/action-upterm@v1

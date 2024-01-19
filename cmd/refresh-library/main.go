@@ -3,7 +3,6 @@ package main
 import (
 	"bytes"
 	"encoding/json"
-	flag "github.com/spf13/pflag"
 	"os"
 	"path/filepath"
 	"strings"
@@ -17,6 +16,7 @@ import (
 	"github.com/go-git/go-git/v5/plumbing/object"
 	"github.com/go-git/go-git/v5/storage/memory"
 	"github.com/pkg/errors"
+	flag "github.com/spf13/pflag"
 	"gomodules.xyz/semvers"
 	"gomodules.xyz/sets"
 	"k8s.io/klog/v2"

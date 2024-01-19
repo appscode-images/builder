@@ -7,9 +7,20 @@ import (
 	"strings"
 
 	"github.com/appscode-images/builder/lib"
+	flag "github.com/spf13/pflag"
+	"gomodules.xyz/sets"
+	"k8s.io/klog/v2"
 )
 
+var skipApps sets.String
+
 func main() {
+	var skipList []string
+	flag.StringSliceVar(&skipList, "skip", skipList, "Skip official image (because manually maintained)")
+	flag.Parse()
+
+	skipApps = sets.NewString(skipList...)
+
 	dir, err := os.Getwd()
 	if err != nil {
 		panic(err)
@@ -34,6 +45,10 @@ func CleanupOldWorkflows(dir string) error {
 			continue
 		}
 		if strings.HasPrefix(entry.Name(), "build-") {
+			appName := strings.TrimPrefix(entry.Name(), "build-")
+			if skipApps.Has(appName) {
+				continue
+			}
 			if err = os.Remove(filepath.Join(wfDir, entry.Name())); err != nil {
 				return err
 			}
@@ -51,6 +66,12 @@ func GenerateWorkflows(dir string) error {
 	for _, entry := range entries {
 		if !entry.IsDir() {
 			continue
+		}
+
+		appName := entry.Name()
+		if skipApps.Has(appName) {
+			klog.InfoS("skipping", "app", appName)
+			return nil
 		}
 
 		tags, err := lib.ListBuildTags(dir, entry.Name())
