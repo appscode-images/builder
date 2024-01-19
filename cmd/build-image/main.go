@@ -133,8 +133,8 @@ func main_() {
 }
 
 func main() {
-	var name = flag.String("name", "elastic", "Name of binary")
-	var tag = flag.String("tag", "6.8.23", "Tag to be built")
+	var name = flag.String("name", "druid", "Name of binary")
+	var tag = flag.String("tag", "28.0.1", "Tag to be built")
 	flag.Parse()
 
 	t := time.Now()
@@ -274,24 +274,7 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, cherrypicks []string, 
 		}
 	}
 
-	amd64Ref := fmt.Sprintf("%s/%s:%s_%s_linux_amd64", api.DAILY_REGISTRY, name, tag, ts)
-	amd64Yes, err := ShouldBuild(sh, amd64Ref, repoURL)
-	if err != nil {
-		panic(err)
-	}
-
-	arm64Ref := fmt.Sprintf("%s/%s:%s_%s_linux_arm64", api.DAILY_REGISTRY, name, tag, ts)
-	arm64Yes, err := ShouldBuild(sh, arm64Ref, repoURL)
-	if err != nil {
-		panic(err)
-	}
-
-	if !amd64Yes && !arm64Yes {
-		return nil
-	}
-
 	// https://github.com/kubedb/mysql-init-docker/blob/release-8.0.31/Makefile
-
 	if len(b.Architectures) == 0 {
 		b.Architectures = map[string]*api.ArchInfo{
 			"amd64": {
@@ -301,6 +284,27 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, cherrypicks []string, 
 				Architecture: "arm64",
 			},
 		}
+	}
+
+	var amd64Yes, arm64Yes bool
+
+	if _, ok := b.Architectures["amd64"]; ok {
+		amd64Ref := fmt.Sprintf("%s/%s:%s_%s_linux_amd64", api.DAILY_REGISTRY, name, tag, ts)
+		amd64Yes, err = ShouldBuild(sh, amd64Ref, repoURL)
+		if err != nil {
+			panic(err)
+		}
+	}
+	if _, ok := b.Architectures["arm64"]; ok {
+		arm64Ref := fmt.Sprintf("%s/%s:%s_%s_linux_arm64", api.DAILY_REGISTRY, name, tag, ts)
+		arm64Yes, err = ShouldBuild(sh, arm64Ref, repoURL)
+		if err != nil {
+			panic(err)
+		}
+	}
+
+	if !amd64Yes && !arm64Yes {
+		return nil
 	}
 
 	var archImages []any
