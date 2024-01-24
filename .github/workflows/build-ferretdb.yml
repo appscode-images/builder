@@ -77,7 +77,7 @@ jobs:
         git checkout ac-${{ matrix.tag }}
         sh -c "$(curl --location https://taskfile.dev/install.sh)" -- -d
         ./bin/task init
-        DOCKER_IMAGES=ghcr.io/appscode-images/ferretdb:${{ matrix.tag }} ./bin/task docker-production-push
+        DOCKER_IMAGES=ghcr.io/appscode-images/daily/ferretdb:${{ matrix.tag }}_$(date -u +'%Y%m%d') ./bin/task docker-production-push
 
   report:
     name: Report
