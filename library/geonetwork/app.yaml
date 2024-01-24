@@ -76,12 +76,51 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+  Directory: 4.2.8
+  File: ""
+  GitCommit: d3fd9533a91573f7678586f189218cd0e37c6a42
+  Tags:
+  - 4.2.8
+  - "4.2"
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 4.4.2
+  File: ""
+  GitCommit: bef3f1c871c962fbb3bbfac834e0e0d72772162b
+  Tags:
+  - 4.4.2
+  - "4.4"
+  - "4"
+  - latest
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
   Directory: 4.2.7
   File: ""
   GitCommit: 983310e129d2a55e6481042cc8d90a1b33ddf128
   Tags:
   - 4.2.7
-  - "4.2"
 - Architectures:
     amd64:
       Architecture: amd64
@@ -100,9 +139,6 @@ Blocks:
   GitCommit: 5a81bb8d7b0c4e2f1ff4a1126762509187dd24c1
   Tags:
   - 4.4.1
-  - "4.4"
-  - "4"
-  - latest
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1494,7 +1530,7 @@ Blocks:
   GitCommit: 7b12888fee485e19953ba7387c9ea6d61f5c69e2
   Tags:
   - h2
-GitRepo: https://github.com/geonetwork/docker-geonetwork
+GitRepo: https://github.com/geonetwork/docker-geonetwork.git
 KnownTags:
   -h2: {}
   -postgres: {}
@@ -1618,9 +1654,11 @@ KnownTags:
   4.2.5: {}
   4.2.6: {}
   4.2.7: {}
+  4.2.8: {}
   "4.4": {}
   4.4.0: {}
   4.4.1: {}
+  4.4.2: {}
   develop: {}
   develop-h2: {}
   develop-postgres: {}
