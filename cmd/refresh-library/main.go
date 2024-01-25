@@ -29,6 +29,7 @@ var skipApps sets.String
 func main() {
 	skipList := []string{
 		"druid",
+		"ferretdb",
 		"kibana",
 		"logstash",
 		"opensearch",
