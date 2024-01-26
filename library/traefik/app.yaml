@@ -74,10 +74,10 @@ Blocks:
       GitFetch: ""
   Directory: windows/servercore-ltsc2022
   File: ""
-  GitCommit: febb0c2358cbb1033a6d0d0a447d52cbe11ded54
+  GitCommit: 17a3fad865ef2fc8ddd0fe25dce0a470f0fe78a4
   Tags:
-  - v2.11.0-rc1-windowsservercore-ltsc2022
-  - 2.11.0-rc1-windowsservercore-ltsc2022
+  - v2.11.0-rc2-windowsservercore-ltsc2022
+  - 2.11.0-rc2-windowsservercore-ltsc2022
   - v2.11-windowsservercore-ltsc2022
   - 2.11-windowsservercore-ltsc2022
   - mimolette-windowsservercore-ltsc2022
@@ -90,10 +90,10 @@ Blocks:
       GitFetch: ""
   Directory: windows/1809
   File: ""
-  GitCommit: febb0c2358cbb1033a6d0d0a447d52cbe11ded54
+  GitCommit: 17a3fad865ef2fc8ddd0fe25dce0a470f0fe78a4
   Tags:
-  - v2.11.0-rc1-windowsservercore-1809
-  - 2.11.0-rc1-windowsservercore-1809
+  - v2.11.0-rc2-windowsservercore-1809
+  - 2.11.0-rc2-windowsservercore-1809
   - v2.11-windowsservercore-1809
   - 2.11-windowsservercore-1809
   - mimolette-windowsservercore-1809
@@ -124,10 +124,10 @@ Blocks:
       GitFetch: ""
   Directory: alpine
   File: ""
-  GitCommit: febb0c2358cbb1033a6d0d0a447d52cbe11ded54
+  GitCommit: 17a3fad865ef2fc8ddd0fe25dce0a470f0fe78a4
   Tags:
-  - v2.11.0-rc1
-  - 2.11.0-rc1
+  - v2.11.0-rc2
+  - 2.11.0-rc2
   - v2.11
   - "2.11"
   - mimolette
@@ -200,6 +200,63 @@ Blocks:
   - "2.10"
   - saintmarcelin
   - latest
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: windows/servercore-ltsc2022
+  File: ""
+  GitCommit: febb0c2358cbb1033a6d0d0a447d52cbe11ded54
+  Tags:
+  - v2.11.0-rc1-windowsservercore-ltsc2022
+  - 2.11.0-rc1-windowsservercore-ltsc2022
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: windows/1809
+  File: ""
+  GitCommit: febb0c2358cbb1033a6d0d0a447d52cbe11ded54
+  Tags:
+  - v2.11.0-rc1-windowsservercore-1809
+  - 2.11.0-rc1-windowsservercore-1809
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: alpine
+  File: ""
+  GitCommit: febb0c2358cbb1033a6d0d0a447d52cbe11ded54
+  Tags:
+  - v2.11.0-rc1
+  - 2.11.0-rc1
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -11026,6 +11083,9 @@ KnownTags:
   2.11.0-rc1: {}
   2.11.0-rc1-windowsservercore-1809: {}
   2.11.0-rc1-windowsservercore-ltsc2022: {}
+  2.11.0-rc2: {}
+  2.11.0-rc2-windowsservercore-1809: {}
+  2.11.0-rc2-windowsservercore-ltsc2022: {}
   "3.0": {}
   3.0-windowsservercore-1809: {}
   3.0-windowsservercore-ltsc2022: {}
@@ -11688,6 +11748,9 @@ KnownTags:
   v2.11.0-rc1: {}
   v2.11.0-rc1-windowsservercore-1809: {}
   v2.11.0-rc1-windowsservercore-ltsc2022: {}
+  v2.11.0-rc2: {}
+  v2.11.0-rc2-windowsservercore-1809: {}
+  v2.11.0-rc2-windowsservercore-ltsc2022: {}
   v3.0: {}
   v3.0-windowsservercore-1809: {}
   v3.0-windowsservercore-ltsc2022: {}
