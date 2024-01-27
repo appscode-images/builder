@@ -187,12 +187,12 @@ Blocks:
       GitFetch: ""
   Directory: 24/cli
   File: ""
-  GitCommit: 5c21a7d75ecbb6c6c41d60374b8026d6e64546fb
+  GitCommit: 1e52612a3093190411fbaed695e517dae1c6ff33
   Tags:
-  - 24.0.7-cli
+  - 24.0.8-cli
   - 24.0-cli
   - 24-cli
-  - 24.0.7-cli-alpine3.19
+  - 24.0.8-cli-alpine3.19
 - Architectures:
     amd64:
       Architecture: amd64
@@ -220,16 +220,16 @@ Blocks:
       GitFetch: ""
   Directory: 24/dind
   File: ""
-  GitCommit: eb4c40e45daf9218a21526d0ebd076b627d0b882
+  GitCommit: 1e52612a3093190411fbaed695e517dae1c6ff33
   Tags:
-  - 24.0.7-dind
+  - 24.0.8-dind
   - 24.0-dind
   - 24-dind
-  - 24.0.7-dind-alpine3.19
-  - 24.0.7
+  - 24.0.8-dind-alpine3.19
+  - 24.0.8
   - "24.0"
   - "24"
-  - 24.0.7-alpine3.19
+  - 24.0.8-alpine3.19
 - Architectures:
     amd64:
       Architecture: amd64
@@ -245,9 +245,9 @@ Blocks:
       GitFetch: ""
   Directory: 24/dind-rootless
   File: ""
-  GitCommit: 62c197fe7632d3bce351d4c337a5a129ebd8f771
+  GitCommit: 1e52612a3093190411fbaed695e517dae1c6ff33
   Tags:
-  - 24.0.7-dind-rootless
+  - 24.0.8-dind-rootless
   - 24.0-dind-rootless
   - 24-dind-rootless
 - Architectures:
@@ -279,9 +279,152 @@ Blocks:
   File: ""
   GitCommit: 6964fd52030c2e6e9e0943eaac07d78c9841fbb3
   Tags:
-  - 24.0.7-git
+  - 24.0.8-git
   - 24.0-git
   - 24-git
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 24/windows/windowsservercore-ltsc2022
+  File: ""
+  GitCommit: 1e52612a3093190411fbaed695e517dae1c6ff33
+  Tags:
+  - 24.0.8-windowsservercore-ltsc2022
+  - 24.0-windowsservercore-ltsc2022
+  - 24-windowsservercore-ltsc2022
+  - 24.0.8-windowsservercore
+  - 24.0-windowsservercore
+  - 24-windowsservercore
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 24/windows/windowsservercore-1809
+  File: ""
+  GitCommit: 1e52612a3093190411fbaed695e517dae1c6ff33
+  Tags:
+  - 24.0.8-windowsservercore-1809
+  - 24.0-windowsservercore-1809
+  - 24-windowsservercore-1809
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 24/cli
+  File: ""
+  GitCommit: 5c21a7d75ecbb6c6c41d60374b8026d6e64546fb
+  Tags:
+  - 24.0.7-cli
+  - 24.0.7-cli-alpine3.19
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 24/dind
+  File: ""
+  GitCommit: eb4c40e45daf9218a21526d0ebd076b627d0b882
+  Tags:
+  - 24.0.7-dind
+  - 24.0.7-dind-alpine3.19
+  - 24.0.7
+  - 24.0.7-alpine3.19
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 24/dind-rootless
+  File: ""
+  GitCommit: 62c197fe7632d3bce351d4c337a5a129ebd8f771
+  Tags:
+  - 24.0.7-dind-rootless
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 24/git
+  File: ""
+  GitCommit: 6964fd52030c2e6e9e0943eaac07d78c9841fbb3
+  Tags:
+  - 24.0.7-git
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -294,11 +437,7 @@ Blocks:
   GitCommit: 5c21a7d75ecbb6c6c41d60374b8026d6e64546fb
   Tags:
   - 24.0.7-windowsservercore-ltsc2022
-  - 24.0-windowsservercore-ltsc2022
-  - 24-windowsservercore-ltsc2022
   - 24.0.7-windowsservercore
-  - 24.0-windowsservercore
-  - 24-windowsservercore
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -311,8 +450,6 @@ Blocks:
   GitCommit: 5c21a7d75ecbb6c6c41d60374b8026d6e64546fb
   Tags:
   - 24.0.7-windowsservercore-1809
-  - 24.0-windowsservercore-1809
-  - 24-windowsservercore-1809
 - Architectures:
     amd64:
       Architecture: amd64
@@ -21691,6 +21828,17 @@ KnownTags:
   24.0.7-windowsservercore: {}
   24.0.7-windowsservercore-1809: {}
   24.0.7-windowsservercore-ltsc2022: {}
+  24.0.8: {}
+  24.0.8-alpine3.19: {}
+  24.0.8-cli: {}
+  24.0.8-cli-alpine3.19: {}
+  24.0.8-dind: {}
+  24.0.8-dind-alpine3.19: {}
+  24.0.8-dind-rootless: {}
+  24.0.8-git: {}
+  24.0.8-windowsservercore: {}
+  24.0.8-windowsservercore-1809: {}
+  24.0.8-windowsservercore-ltsc2022: {}
   "25": {}
   25-cli: {}
   25-dind: {}
