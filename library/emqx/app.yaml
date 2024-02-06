@@ -75,6 +75,25 @@ Blocks:
   Tags:
   - 5.4.1
   - "5.4"
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: "5.5"
+  File: Dockerfile
+  GitCommit: 66e23a1daf5526c3c1edcd51b338ad24db628734
+  Tags:
+  - 5.5.0
+  - "5.5"
   - "5"
   - latest
 - Architectures:
@@ -781,5 +800,7 @@ KnownTags:
   "5.4": {}
   5.4.0: {}
   5.4.1: {}
+  "5.5": {}
+  5.5.0: {}
   latest: {}
 Name: emqx

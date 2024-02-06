@@ -428,12 +428,12 @@ Blocks:
       GitFetch: ""
   Directory: jdk8
   File: ""
-  GitCommit: 1ab3f2f44513ac091bb9dbdb72341c74b5e4a74e
+  GitCommit: 59c9fb1b24acf80a7da05dc2461c0f1b2b211527
   Tags:
-  - 7.6.3-jdk8
+  - 7.6.4-jdk8
   - 7.6-jdk8
   - 7-jdk8
-  - 7.6.3-jdk8-jammy
+  - 7.6.4-jdk8-jammy
   - 7.6-jdk8-jammy
   - 7-jdk8-jammy
 - Architectures:
@@ -463,9 +463,9 @@ Blocks:
       GitFetch: ""
   Directory: jdk8-focal
   File: ""
-  GitCommit: 1ab3f2f44513ac091bb9dbdb72341c74b5e4a74e
+  GitCommit: 59c9fb1b24acf80a7da05dc2461c0f1b2b211527
   Tags:
-  - 7.6.3-jdk8-focal
+  - 7.6.4-jdk8-focal
   - 7.6-jdk8-focal
   - 7-jdk8-focal
 - Architectures:
@@ -501,12 +501,12 @@ Blocks:
       GitFetch: ""
   Directory: jdk11
   File: ""
-  GitCommit: 1ab3f2f44513ac091bb9dbdb72341c74b5e4a74e
+  GitCommit: 59c9fb1b24acf80a7da05dc2461c0f1b2b211527
   Tags:
-  - 7.6.3-jdk11
+  - 7.6.4-jdk11
   - 7.6-jdk11
   - 7-jdk11
-  - 7.6.3-jdk11-jammy
+  - 7.6.4-jdk11-jammy
   - 7.6-jdk11-jammy
   - 7-jdk11-jammy
 - Architectures:
@@ -542,9 +542,9 @@ Blocks:
       GitFetch: ""
   Directory: jdk11-focal
   File: ""
-  GitCommit: 1ab3f2f44513ac091bb9dbdb72341c74b5e4a74e
+  GitCommit: 59c9fb1b24acf80a7da05dc2461c0f1b2b211527
   Tags:
-  - 7.6.3-jdk11-focal
+  - 7.6.4-jdk11-focal
   - 7.6-jdk11-focal
   - 7-jdk11-focal
 - Architectures:
@@ -556,9 +556,9 @@ Blocks:
       GitFetch: ""
   Directory: jdk11-alpine
   File: ""
-  GitCommit: 1ab3f2f44513ac091bb9dbdb72341c74b5e4a74e
+  GitCommit: 59c9fb1b24acf80a7da05dc2461c0f1b2b211527
   Tags:
-  - 7.6.3-jdk11-alpine
+  - 7.6.4-jdk11-alpine
   - 7.6-jdk11-alpine
   - 7-jdk11-alpine
 - Architectures:
@@ -594,24 +594,24 @@ Blocks:
       GitFetch: ""
   Directory: jdk17
   File: ""
-  GitCommit: 1ab3f2f44513ac091bb9dbdb72341c74b5e4a74e
+  GitCommit: 59c9fb1b24acf80a7da05dc2461c0f1b2b211527
   Tags:
-  - 7.6.3-jdk17
+  - 7.6.4-jdk17
   - 7.6-jdk17
   - 7-jdk17
-  - 7.6.3-jdk
+  - 7.6.4-jdk
   - 7.6-jdk
   - 7-jdk
-  - 7.6.3
+  - 7.6.4
   - "7.6"
   - "7"
-  - 7.6.3-jdk17-jammy
+  - 7.6.4-jdk17-jammy
   - 7.6-jdk17-jammy
   - 7-jdk17-jammy
-  - 7.6.3-jdk-jammy
+  - 7.6.4-jdk-jammy
   - 7.6-jdk-jammy
   - 7-jdk-jammy
-  - 7.6.3-jammy
+  - 7.6.4-jammy
   - 7.6-jammy
   - 7-jammy
 - Architectures:
@@ -647,15 +647,15 @@ Blocks:
       GitFetch: ""
   Directory: jdk17-focal
   File: ""
-  GitCommit: 1ab3f2f44513ac091bb9dbdb72341c74b5e4a74e
+  GitCommit: 59c9fb1b24acf80a7da05dc2461c0f1b2b211527
   Tags:
-  - 7.6.3-jdk17-focal
+  - 7.6.4-jdk17-focal
   - 7.6-jdk17-focal
   - 7-jdk17-focal
-  - 7.6.3-jdk-focal
+  - 7.6.4-jdk-focal
   - 7.6-jdk-focal
   - 7-jdk-focal
-  - 7.6.3-focal
+  - 7.6.4-focal
   - 7.6-focal
   - 7-focal
 - Architectures:
@@ -667,15 +667,15 @@ Blocks:
       GitFetch: ""
   Directory: jdk17-alpine
   File: ""
-  GitCommit: 1ab3f2f44513ac091bb9dbdb72341c74b5e4a74e
+  GitCommit: 59c9fb1b24acf80a7da05dc2461c0f1b2b211527
   Tags:
-  - 7.6.3-jdk17-alpine
+  - 7.6.4-jdk17-alpine
   - 7.6-jdk17-alpine
   - 7-jdk17-alpine
-  - 7.6.3-jdk-alpine
+  - 7.6.4-jdk-alpine
   - 7.6-jdk-alpine
   - 7-jdk-alpine
-  - 7.6.3-alpine
+  - 7.6.4-alpine
   - 7.6-alpine
   - 7-alpine
 - Architectures:
@@ -955,6 +955,245 @@ Blocks:
   - 6.9.4-alpine
   - 6.9-alpine
   - 6-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: jdk8
+  File: ""
+  GitCommit: 1ab3f2f44513ac091bb9dbdb72341c74b5e4a74e
+  Tags:
+  - 7.6.3-jdk8
+  - 7.6.3-jdk8-jammy
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: jdk8-focal
+  File: ""
+  GitCommit: 1ab3f2f44513ac091bb9dbdb72341c74b5e4a74e
+  Tags:
+  - 7.6.3-jdk8-focal
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: jdk11
+  File: ""
+  GitCommit: 1ab3f2f44513ac091bb9dbdb72341c74b5e4a74e
+  Tags:
+  - 7.6.3-jdk11
+  - 7.6.3-jdk11-jammy
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: jdk11-focal
+  File: ""
+  GitCommit: 1ab3f2f44513ac091bb9dbdb72341c74b5e4a74e
+  Tags:
+  - 7.6.3-jdk11-focal
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: jdk11-alpine
+  File: ""
+  GitCommit: 1ab3f2f44513ac091bb9dbdb72341c74b5e4a74e
+  Tags:
+  - 7.6.3-jdk11-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: jdk17
+  File: ""
+  GitCommit: 1ab3f2f44513ac091bb9dbdb72341c74b5e4a74e
+  Tags:
+  - 7.6.3-jdk17
+  - 7.6.3-jdk
+  - 7.6.3
+  - 7.6.3-jdk17-jammy
+  - 7.6.3-jdk-jammy
+  - 7.6.3-jammy
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: jdk17-focal
+  File: ""
+  GitCommit: 1ab3f2f44513ac091bb9dbdb72341c74b5e4a74e
+  Tags:
+  - 7.6.3-jdk17-focal
+  - 7.6.3-jdk-focal
+  - 7.6.3-focal
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: jdk17-alpine
+  File: ""
+  GitCommit: 1ab3f2f44513ac091bb9dbdb72341c74b5e4a74e
+  Tags:
+  - 7.6.3-jdk17-alpine
+  - 7.6.3-jdk-alpine
+  - 7.6.3-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -29437,6 +29676,25 @@ KnownTags:
   7.6.3-jdk17-alpine: {}
   7.6.3-jdk17-focal: {}
   7.6.3-jdk17-jammy: {}
+  7.6.4: {}
+  7.6.4-alpine: {}
+  7.6.4-focal: {}
+  7.6.4-jammy: {}
+  7.6.4-jdk: {}
+  7.6.4-jdk-alpine: {}
+  7.6.4-jdk-focal: {}
+  7.6.4-jdk-jammy: {}
+  7.6.4-jdk8: {}
+  7.6.4-jdk8-focal: {}
+  7.6.4-jdk8-jammy: {}
+  7.6.4-jdk11: {}
+  7.6.4-jdk11-alpine: {}
+  7.6.4-jdk11-focal: {}
+  7.6.4-jdk11-jammy: {}
+  7.6.4-jdk17: {}
+  7.6.4-jdk17-alpine: {}
+  7.6.4-jdk17-focal: {}
+  7.6.4-jdk17-jammy: {}
   "8": {}
   8-alpine: {}
   8-focal: {}
