@@ -8,10 +8,10 @@ Blocks:
       GitFetch: ""
   Directory: windows/servercore-ltsc2022
   File: ""
-  GitCommit: 66250e268eb9c8d592cc85e153d388dca705c7ee
+  GitCommit: 6fc860aa66c25c1c4786a34d9398e66043af8d9d
   Tags:
-  - v3.0.0-beta5-windowsservercore-ltsc2022
-  - 3.0.0-beta5-windowsservercore-ltsc2022
+  - v3.0.0-rc1-windowsservercore-ltsc2022
+  - 3.0.0-rc1-windowsservercore-ltsc2022
   - v3.0-windowsservercore-ltsc2022
   - 3.0-windowsservercore-ltsc2022
   - beaufort-windowsservercore-ltsc2022
@@ -24,10 +24,10 @@ Blocks:
       GitFetch: ""
   Directory: windows/1809
   File: ""
-  GitCommit: 66250e268eb9c8d592cc85e153d388dca705c7ee
+  GitCommit: 6fc860aa66c25c1c4786a34d9398e66043af8d9d
   Tags:
-  - v3.0.0-beta5-windowsservercore-1809
-  - 3.0.0-beta5-windowsservercore-1809
+  - v3.0.0-rc1-windowsservercore-1809
+  - 3.0.0-rc1-windowsservercore-1809
   - v3.0-windowsservercore-1809
   - 3.0-windowsservercore-1809
   - beaufort-windowsservercore-1809
@@ -50,6 +50,12 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
     s390x:
       Architecture: s390x
       Directory: ""
@@ -58,10 +64,10 @@ Blocks:
       GitFetch: ""
   Directory: alpine
   File: ""
-  GitCommit: 66250e268eb9c8d592cc85e153d388dca705c7ee
+  GitCommit: 6fc860aa66c25c1c4786a34d9398e66043af8d9d
   Tags:
-  - v3.0.0-beta5
-  - 3.0.0-beta5
+  - v3.0.0-rc1
+  - 3.0.0-rc1
   - v3.0
   - "3.0"
   - beaufort
@@ -140,6 +146,63 @@ Blocks:
   - "2.11"
   - mimolette
   - latest
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: windows/servercore-ltsc2022
+  File: ""
+  GitCommit: 66250e268eb9c8d592cc85e153d388dca705c7ee
+  Tags:
+  - v3.0.0-beta5-windowsservercore-ltsc2022
+  - 3.0.0-beta5-windowsservercore-ltsc2022
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: windows/1809
+  File: ""
+  GitCommit: 66250e268eb9c8d592cc85e153d388dca705c7ee
+  Tags:
+  - v3.0.0-beta5-windowsservercore-1809
+  - 3.0.0-beta5-windowsservercore-1809
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: alpine
+  File: ""
+  GitCommit: 66250e268eb9c8d592cc85e153d388dca705c7ee
+  Tags:
+  - v3.0.0-beta5
+  - 3.0.0-beta5
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -11166,6 +11229,9 @@ KnownTags:
   3.0.0-beta5: {}
   3.0.0-beta5-windowsservercore-1809: {}
   3.0.0-beta5-windowsservercore-ltsc2022: {}
+  3.0.0-rc1: {}
+  3.0.0-rc1-windowsservercore-1809: {}
+  3.0.0-rc1-windowsservercore-ltsc2022: {}
   alpine: {}
   banon: {}
   banon-windowsservercore-1809: {}
@@ -11834,6 +11900,9 @@ KnownTags:
   v3.0.0-beta5: {}
   v3.0.0-beta5-windowsservercore-1809: {}
   v3.0.0-beta5-windowsservercore-ltsc2022: {}
+  v3.0.0-rc1: {}
+  v3.0.0-rc1-windowsservercore-1809: {}
+  v3.0.0-rc1-windowsservercore-ltsc2022: {}
   vacherin: {}
   vacherin-windowsservercore-1809: {}
   windowsservercore-1809: {}
