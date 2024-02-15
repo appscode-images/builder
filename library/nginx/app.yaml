@@ -50,14 +50,14 @@ Blocks:
       GitFetch: ""
   Directory: mainline/debian
   File: ""
-  GitCommit: 4bf0763f4977fff7e9648add59e0540088f3ca9f
+  GitCommit: 1f227619c1f1baa0bed8bed844ea614437ff14fb
   Tags:
-  - 1.25.3
+  - 1.25.4
   - mainline
   - "1"
   - "1.25"
   - latest
-  - 1.25.3-bookworm
+  - 1.25.4-bookworm
   - mainline-bookworm
   - 1-bookworm
   - 1.25-bookworm
@@ -113,14 +113,14 @@ Blocks:
       GitFetch: ""
   Directory: mainline/debian-perl
   File: ""
-  GitCommit: 4bf0763f4977fff7e9648add59e0540088f3ca9f
+  GitCommit: 1f227619c1f1baa0bed8bed844ea614437ff14fb
   Tags:
-  - 1.25.3-perl
+  - 1.25.4-perl
   - mainline-perl
   - 1-perl
   - 1.25-perl
   - perl
-  - 1.25.3-bookworm-perl
+  - 1.25.4-bookworm-perl
   - mainline-bookworm-perl
   - 1-bookworm-perl
   - 1.25-bookworm-perl
@@ -170,14 +170,14 @@ Blocks:
       GitFetch: ""
   Directory: mainline/alpine
   File: ""
-  GitCommit: 4bf0763f4977fff7e9648add59e0540088f3ca9f
+  GitCommit: 1f227619c1f1baa0bed8bed844ea614437ff14fb
   Tags:
-  - 1.25.3-alpine
+  - 1.25.4-alpine
   - mainline-alpine
   - 1-alpine
   - 1.25-alpine
   - alpine
-  - 1.25.3-alpine3.18
+  - 1.25.4-alpine3.18
   - mainline-alpine3.18
   - 1-alpine3.18
   - 1.25-alpine3.18
@@ -227,14 +227,14 @@ Blocks:
       GitFetch: ""
   Directory: mainline/alpine-perl
   File: ""
-  GitCommit: 4bf0763f4977fff7e9648add59e0540088f3ca9f
+  GitCommit: 1f227619c1f1baa0bed8bed844ea614437ff14fb
   Tags:
-  - 1.25.3-alpine-perl
+  - 1.25.4-alpine-perl
   - mainline-alpine-perl
   - 1-alpine-perl
   - 1.25-alpine-perl
   - alpine-perl
-  - 1.25.3-alpine3.18-perl
+  - 1.25.4-alpine3.18-perl
   - mainline-alpine3.18-perl
   - 1-alpine3.18-perl
   - 1.25-alpine3.18-perl
@@ -284,14 +284,14 @@ Blocks:
       GitFetch: ""
   Directory: mainline/alpine-slim
   File: ""
-  GitCommit: 4bf0763f4977fff7e9648add59e0540088f3ca9f
+  GitCommit: 1f227619c1f1baa0bed8bed844ea614437ff14fb
   Tags:
-  - 1.25.3-alpine-slim
+  - 1.25.4-alpine-slim
   - mainline-alpine-slim
   - 1-alpine-slim
   - 1.25-alpine-slim
   - alpine-slim
-  - 1.25.3-alpine3.18-slim
+  - 1.25.4-alpine3.18-slim
   - mainline-alpine3.18-slim
   - 1-alpine3.18-slim
   - 1.25-alpine3.18-slim
@@ -573,6 +573,263 @@ Blocks:
   - 1.24.0-alpine3.17-slim
   - stable-alpine3.17-slim
   - 1.24-alpine3.17-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: mainline/debian
+  File: ""
+  GitCommit: 4bf0763f4977fff7e9648add59e0540088f3ca9f
+  Tags:
+  - 1.25.3
+  - 1.25.3-bookworm
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: mainline/debian-perl
+  File: ""
+  GitCommit: 4bf0763f4977fff7e9648add59e0540088f3ca9f
+  Tags:
+  - 1.25.3-perl
+  - 1.25.3-bookworm-perl
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: mainline/alpine
+  File: ""
+  GitCommit: 4bf0763f4977fff7e9648add59e0540088f3ca9f
+  Tags:
+  - 1.25.3-alpine
+  - 1.25.3-alpine3.18
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: mainline/alpine-perl
+  File: ""
+  GitCommit: 4bf0763f4977fff7e9648add59e0540088f3ca9f
+  Tags:
+  - 1.25.3-alpine-perl
+  - 1.25.3-alpine3.18-perl
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: mainline/alpine-slim
+  File: ""
+  GitCommit: 4bf0763f4977fff7e9648add59e0540088f3ca9f
+  Tags:
+  - 1.25.3-alpine-slim
+  - 1.25.3-alpine3.18-slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -14173,6 +14430,16 @@ KnownTags:
   1.25.3-bookworm: {}
   1.25.3-bookworm-perl: {}
   1.25.3-perl: {}
+  1.25.4: {}
+  1.25.4-alpine: {}
+  1.25.4-alpine-perl: {}
+  1.25.4-alpine-slim: {}
+  1.25.4-alpine3.18: {}
+  1.25.4-alpine3.18-perl: {}
+  1.25.4-alpine3.18-slim: {}
+  1.25.4-bookworm: {}
+  1.25.4-bookworm-perl: {}
+  1.25.4-perl: {}
   alpine: {}
   alpine-perl: {}
   alpine-slim: {}
