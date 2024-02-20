@@ -118,8 +118,8 @@ func selectRunner(name string) string {
 const wf = `name: build-$name$
 
 on:
-  # schedule:
-  #   - cron: '0 1 * * *'
+  schedule:
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 concurrency:
