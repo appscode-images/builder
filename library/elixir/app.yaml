@@ -43,6 +43,9 @@ Blocks:
   - 1.16.1
   - "1.16"
   - latest
+  - 1.16.1-otp-26
+  - 1.16-otp-26
+  - otp-26
 - Architectures:
     amd64:
       Architecture: amd64
@@ -87,6 +90,9 @@ Blocks:
   - 1.16.1-slim
   - 1.16-slim
   - slim
+  - 1.16.1-otp-26-slim
+  - 1.16-otp-26-slim
+  - otp-26-slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -131,6 +137,9 @@ Blocks:
   - 1.16.1-alpine
   - 1.16-alpine
   - alpine
+  - 1.16.1-otp-26-alpine
+  - 1.16-otp-26-alpine
+  - otp-26-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -438,6 +447,8 @@ Blocks:
   Tags:
   - 1.15.7
   - "1.15"
+  - 1.15.7-otp-26
+  - 1.15-otp-26
 - Architectures:
     amd64:
       Architecture: amd64
@@ -481,6 +492,8 @@ Blocks:
   Tags:
   - 1.15.7-slim
   - 1.15-slim
+  - 1.15.7-otp-26-slim
+  - 1.15-otp-26-slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -524,6 +537,8 @@ Blocks:
   Tags:
   - 1.15.7-alpine
   - 1.15-alpine
+  - 1.15.7-otp-26-alpine
+  - 1.15-otp-26-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -825,6 +840,8 @@ Blocks:
   Tags:
   - 1.14.5
   - "1.14"
+  - 1.14.5-otp-26
+  - 1.14-otp-26
 - Architectures:
     amd64:
       Architecture: amd64
@@ -868,6 +885,8 @@ Blocks:
   Tags:
   - 1.14.5-slim
   - 1.14-slim
+  - 1.14.5-otp-26-slim
+  - 1.14-otp-26-slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -911,6 +930,8 @@ Blocks:
   Tags:
   - 1.14.5-alpine
   - 1.14-alpine
+  - 1.14.5-otp-26-alpine
+  - 1.14-otp-26-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1212,6 +1233,8 @@ Blocks:
   Tags:
   - 1.13.4
   - "1.13"
+  - 1.13.4-otp-24
+  - 1.13-otp-24
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1255,6 +1278,8 @@ Blocks:
   Tags:
   - 1.13.4-slim
   - 1.13-slim
+  - 1.13.4-otp-24-slim
+  - 1.13-otp-24-slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1298,6 +1323,8 @@ Blocks:
   Tags:
   - 1.13.4-alpine
   - 1.13-alpine
+  - 1.13.4-otp-24-alpine
+  - 1.13-otp-24-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1501,6 +1528,8 @@ Blocks:
   Tags:
   - 1.12.3
   - "1.12"
+  - 1.12.3-otp-24
+  - 1.12-otp-24
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1544,6 +1573,8 @@ Blocks:
   Tags:
   - 1.12.3-slim
   - 1.12-slim
+  - 1.12.3-otp-24-slim
+  - 1.12-otp-24-slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1587,6 +1618,8 @@ Blocks:
   Tags:
   - 1.12.3-alpine
   - 1.12-alpine
+  - 1.12.3-otp-24-alpine
+  - 1.12-otp-24-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -11084,6 +11117,9 @@ KnownTags:
   1.11.4-slim: {}
   "1.12": {}
   1.12-alpine: {}
+  1.12-otp-24: {}
+  1.12-otp-24-alpine: {}
+  1.12-otp-24-slim: {}
   1.12-slim: {}
   1.12.0: {}
   1.12.0-alpine: {}
@@ -11105,10 +11141,16 @@ KnownTags:
   1.12.2-slim: {}
   1.12.3: {}
   1.12.3-alpine: {}
+  1.12.3-otp-24: {}
+  1.12.3-otp-24-alpine: {}
+  1.12.3-otp-24-slim: {}
   1.12.3-slim: {}
   "1.13": {}
   1.13-alpine: {}
   1.13-otp-23-slim: {}
+  1.13-otp-24: {}
+  1.13-otp-24-alpine: {}
+  1.13-otp-24-slim: {}
   1.13-otp-25: {}
   1.13-otp-25-alpine: {}
   1.13-otp-25-slim: {}
@@ -11137,6 +11179,9 @@ KnownTags:
   1.13.4: {}
   1.13.4-alpine: {}
   1.13.4-otp-23-slim: {}
+  1.13.4-otp-24: {}
+  1.13.4-otp-24-alpine: {}
+  1.13.4-otp-24-slim: {}
   1.13.4-otp-25: {}
   1.13.4-otp-25-alpine: {}
   1.13.4-otp-25-slim: {}
@@ -11149,6 +11194,9 @@ KnownTags:
   1.14-otp-25: {}
   1.14-otp-25-alpine: {}
   1.14-otp-25-slim: {}
+  1.14-otp-26: {}
+  1.14-otp-26-alpine: {}
+  1.14-otp-26-slim: {}
   1.14-slim: {}
   1.14.0: {}
   1.14.0-alpine: {}
@@ -11188,6 +11236,9 @@ KnownTags:
   1.14.5-otp-25: {}
   1.14.5-otp-25-alpine: {}
   1.14.5-otp-25-slim: {}
+  1.14.5-otp-26: {}
+  1.14.5-otp-26-alpine: {}
+  1.14.5-otp-26-slim: {}
   1.14.5-slim: {}
   "1.15": {}
   1.15-alpine: {}
@@ -11197,6 +11248,9 @@ KnownTags:
   1.15-otp-25: {}
   1.15-otp-25-alpine: {}
   1.15-otp-25-slim: {}
+  1.15-otp-26: {}
+  1.15-otp-26-alpine: {}
+  1.15-otp-26-slim: {}
   1.15-slim: {}
   1.15.0: {}
   1.15.0-alpine: {}
@@ -11278,6 +11332,9 @@ KnownTags:
   1.15.7-otp-25: {}
   1.15.7-otp-25-alpine: {}
   1.15.7-otp-25-slim: {}
+  1.15.7-otp-26: {}
+  1.15.7-otp-26-alpine: {}
+  1.15.7-otp-26-slim: {}
   1.15.7-slim: {}
   "1.16": {}
   1.16-alpine: {}
@@ -11287,6 +11344,9 @@ KnownTags:
   1.16-otp-25: {}
   1.16-otp-25-alpine: {}
   1.16-otp-25-slim: {}
+  1.16-otp-26: {}
+  1.16-otp-26-alpine: {}
+  1.16-otp-26-slim: {}
   1.16-slim: {}
   1.16.0: {}
   1.16.0-alpine: {}
@@ -11305,6 +11365,9 @@ KnownTags:
   1.16.1-otp-25: {}
   1.16.1-otp-25-alpine: {}
   1.16.1-otp-25-slim: {}
+  1.16.1-otp-26: {}
+  1.16.1-otp-26-alpine: {}
+  1.16.1-otp-26-slim: {}
   1.16.1-slim: {}
   alpine: {}
   latest: {}
@@ -11318,5 +11381,8 @@ KnownTags:
   otp-25: {}
   otp-25-alpine: {}
   otp-25-slim: {}
+  otp-26: {}
+  otp-26-alpine: {}
+  otp-26-slim: {}
   slim: {}
 Name: elixir
