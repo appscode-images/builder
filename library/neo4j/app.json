@@ -589,12 +589,15 @@
     "5-community-bullseye": {},
     "5-community-debian": {},
     "5-community-ubi8": {},
+    "5-community-ubi9": {},
     "5-debian": {},
     "5-enterprise": {},
     "5-enterprise-bullseye": {},
     "5-enterprise-debian": {},
     "5-enterprise-ubi8": {},
+    "5-enterprise-ubi9": {},
     "5-ubi8": {},
+    "5-ubi9": {},
     "5.1": {},
     "5.1-enterprise": {},
     "5.1.0": {},
@@ -732,6 +735,30 @@
     "5.16.0-enterprise-bullseye": {},
     "5.16.0-enterprise-ubi8": {},
     "5.16.0-ubi8": {},
+    "5.17": {},
+    "5.17-bullseye": {},
+    "5.17-community": {},
+    "5.17-community-bullseye": {},
+    "5.17-community-ubi8": {},
+    "5.17-community-ubi9": {},
+    "5.17-enterprise": {},
+    "5.17-enterprise-bullseye": {},
+    "5.17-enterprise-ubi8": {},
+    "5.17-enterprise-ubi9": {},
+    "5.17-ubi8": {},
+    "5.17-ubi9": {},
+    "5.17.0": {},
+    "5.17.0-bullseye": {},
+    "5.17.0-community": {},
+    "5.17.0-community-bullseye": {},
+    "5.17.0-community-ubi8": {},
+    "5.17.0-community-ubi9": {},
+    "5.17.0-enterprise": {},
+    "5.17.0-enterprise-bullseye": {},
+    "5.17.0-enterprise-ubi8": {},
+    "5.17.0-enterprise-ubi9": {},
+    "5.17.0-ubi8": {},
+    "5.17.0-ubi9": {},
     "5.2": {},
     "5.2-enterprise": {},
     "5.2.0": {},
@@ -781,30 +808,33 @@
     "community-bullseye": {},
     "community-debian": {},
     "community-ubi8": {},
+    "community-ubi9": {},
     "debian": {},
     "enterprise": {},
     "enterprise-bullseye": {},
     "enterprise-debian": {},
     "enterprise-ubi8": {},
+    "enterprise-ubi9": {},
     "latest": {},
     "latest-debian": {},
     "latest-ubi8": {},
-    "ubi8": {}
+    "ubi8": {},
+    "ubi9": {}
   },
   "Blocks": [
     {
       "Tags": [
-        "5.16.0-community-bullseye",
-        "5.16-community-bullseye",
+        "5.17.0-community-bullseye",
+        "5.17-community-bullseye",
         "5-community-bullseye",
-        "5.16.0-community",
-        "5.16-community",
+        "5.17.0-community",
+        "5.17-community",
         "5-community",
-        "5.16.0-bullseye",
-        "5.16-bullseye",
+        "5.17.0-bullseye",
+        "5.17-bullseye",
         "5-bullseye",
-        "5.16.0",
-        "5.16",
+        "5.17.0",
+        "5.17",
         "5",
         "community-bullseye",
         "community",
@@ -827,17 +857,17 @@
           "File": ""
         }
       },
-      "GitCommit": "05a868b63d35ca3e3ccb96342bc6a2faa8bd500c",
-      "Directory": "5.16.0/bullseye/community",
+      "GitCommit": "4b6837c9f14f5c7df7f53d3d93dc7d60bd4dc85b",
+      "Directory": "5.17.0/bullseye/community",
       "File": ""
     },
     {
       "Tags": [
-        "5.16.0-enterprise-bullseye",
-        "5.16-enterprise-bullseye",
+        "5.17.0-enterprise-bullseye",
+        "5.17-enterprise-bullseye",
         "5-enterprise-bullseye",
-        "5.16.0-enterprise",
-        "5.16-enterprise",
+        "5.17.0-enterprise",
+        "5.17-enterprise",
         "5-enterprise",
         "enterprise-bullseye",
         "enterprise"
@@ -858,17 +888,75 @@
           "File": ""
         }
       },
-      "GitCommit": "05a868b63d35ca3e3ccb96342bc6a2faa8bd500c",
-      "Directory": "5.16.0/bullseye/enterprise",
+      "GitCommit": "4b6837c9f14f5c7df7f53d3d93dc7d60bd4dc85b",
+      "Directory": "5.17.0/bullseye/enterprise",
       "File": ""
     },
     {
       "Tags": [
-        "5.16.0-community-ubi8",
-        "5.16-community-ubi8",
+        "5.17.0-community-ubi9",
+        "5.17-community-ubi9",
+        "5-community-ubi9",
+        "5.17.0-ubi9",
+        "5.17-ubi9",
+        "5-ubi9",
+        "community-ubi9",
+        "ubi9"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "4b6837c9f14f5c7df7f53d3d93dc7d60bd4dc85b",
+      "Directory": "5.17.0/ubi9/community",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "5.17.0-enterprise-ubi9",
+        "5.17-enterprise-ubi9",
+        "5-enterprise-ubi9",
+        "enterprise-ubi9"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "4b6837c9f14f5c7df7f53d3d93dc7d60bd4dc85b",
+      "Directory": "5.17.0/ubi9/enterprise",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "5.17.0-community-ubi8",
+        "5.17-community-ubi8",
         "5-community-ubi8",
-        "5.16.0-ubi8",
-        "5.16-ubi8",
+        "5.17.0-ubi8",
+        "5.17-ubi8",
         "5-ubi8",
         "community-ubi8",
         "ubi8"
@@ -889,14 +977,14 @@
           "File": ""
         }
       },
-      "GitCommit": "05a868b63d35ca3e3ccb96342bc6a2faa8bd500c",
-      "Directory": "5.16.0/ubi8/community",
+      "GitCommit": "4b6837c9f14f5c7df7f53d3d93dc7d60bd4dc85b",
+      "Directory": "5.17.0/ubi8/community",
       "File": ""
     },
     {
       "Tags": [
-        "5.16.0-enterprise-ubi8",
-        "5.16-enterprise-ubi8",
+        "5.17.0-enterprise-ubi8",
+        "5.17-enterprise-ubi8",
         "5-enterprise-ubi8",
         "enterprise-ubi8"
       ],
@@ -916,8 +1004,8 @@
           "File": ""
         }
       },
-      "GitCommit": "05a868b63d35ca3e3ccb96342bc6a2faa8bd500c",
-      "Directory": "5.16.0/ubi8/enterprise",
+      "GitCommit": "4b6837c9f14f5c7df7f53d3d93dc7d60bd4dc85b",
+      "Directory": "5.17.0/ubi8/enterprise",
       "File": ""
     },
     {
@@ -970,6 +1058,116 @@
       },
       "GitCommit": "dae45c73d0c9d68337f01f1711b225a8aef36411",
       "Directory": "4.4.30/bullseye/enterprise",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "5.16.0-community-bullseye",
+        "5.16-community-bullseye",
+        "5.16.0-community",
+        "5.16-community",
+        "5.16.0-bullseye",
+        "5.16-bullseye",
+        "5.16.0",
+        "5.16"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "05a868b63d35ca3e3ccb96342bc6a2faa8bd500c",
+      "Directory": "5.16.0/bullseye/community",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "5.16.0-enterprise-bullseye",
+        "5.16-enterprise-bullseye",
+        "5.16.0-enterprise",
+        "5.16-enterprise"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "05a868b63d35ca3e3ccb96342bc6a2faa8bd500c",
+      "Directory": "5.16.0/bullseye/enterprise",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "5.16.0-community-ubi8",
+        "5.16-community-ubi8",
+        "5.16.0-ubi8",
+        "5.16-ubi8"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "05a868b63d35ca3e3ccb96342bc6a2faa8bd500c",
+      "Directory": "5.16.0/ubi8/community",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "5.16.0-enterprise-ubi8",
+        "5.16-enterprise-ubi8"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "05a868b63d35ca3e3ccb96342bc6a2faa8bd500c",
+      "Directory": "5.16.0/ubi8/enterprise",
       "File": ""
     },
     {
