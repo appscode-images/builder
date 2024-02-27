@@ -122,7 +122,7 @@ Blocks:
   File: ""
   GitCommit: ""
   Tags:
-  - 10.4.0-community
+  - 10.4.1-community
   - 10.4-community
   - 10-community
   - community
@@ -144,7 +144,7 @@ Blocks:
   File: ""
   GitCommit: ""
   Tags:
-  - 10.4.0-developer
+  - 10.4.1-developer
   - 10.4-developer
   - 10-developer
   - developer
@@ -165,7 +165,7 @@ Blocks:
   File: ""
   GitCommit: ""
   Tags:
-  - 10.4.0-enterprise
+  - 10.4.1-enterprise
   - 10.4-enterprise
   - 10-enterprise
   - enterprise
@@ -186,7 +186,7 @@ Blocks:
   File: ""
   GitCommit: ""
   Tags:
-  - 10.4.0-datacenter-app
+  - 10.4.1-datacenter-app
   - 10.4-datacenter-app
   - 10-datacenter-app
   - datacenter-app
@@ -207,10 +207,100 @@ Blocks:
   File: ""
   GitCommit: ""
   Tags:
-  - 10.4.0-datacenter-search
+  - 10.4.1-datacenter-search
   - 10.4-datacenter-search
   - 10-datacenter-search
   - datacenter-search
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 10/community
+  File: ""
+  GitCommit: ""
+  Tags:
+  - 10.4.0-community
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 10/developer
+  File: ""
+  GitCommit: ""
+  Tags:
+  - 10.4.0-developer
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 10/enterprise
+  File: ""
+  GitCommit: ""
+  Tags:
+  - 10.4.0-enterprise
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 10/datacenter/app
+  File: ""
+  GitCommit: ""
+  Tags:
+  - 10.4.0-datacenter-app
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 10/datacenter/search
+  File: ""
+  GitCommit: ""
+  Tags:
+  - 10.4.0-datacenter-search
 - Architectures:
     amd64:
       Architecture: amd64
@@ -2793,6 +2883,11 @@ KnownTags:
   10.4.0-datacenter-search: {}
   10.4.0-developer: {}
   10.4.0-enterprise: {}
+  10.4.1-community: {}
+  10.4.1-datacenter-app: {}
+  10.4.1-datacenter-search: {}
+  10.4.1-developer: {}
+  10.4.1-enterprise: {}
   alpine: {}
   community: {}
   community-beta: {}
