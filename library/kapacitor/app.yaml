@@ -14,14 +14,14 @@ Blocks:
       GitFetch: ""
   Directory: kapacitor/1.6
   File: ""
-  GitCommit: 088d4b13d2d0e4ab522d6f21021d54302ed86aa1
+  GitCommit: 54cb8e421864aae77b66b159126e7f110804ea7c
   Tags:
   - "1.6"
   - 1.6.6
 - Architectures: null
   Directory: kapacitor/1.6/alpine
   File: ""
-  GitCommit: 088d4b13d2d0e4ab522d6f21021d54302ed86aa1
+  GitCommit: 54cb8e421864aae77b66b159126e7f110804ea7c
   Tags:
   - 1.6-alpine
   - 1.6.6-alpine
@@ -40,19 +40,43 @@ Blocks:
       GitFetch: ""
   Directory: kapacitor/1.7
   File: ""
-  GitCommit: 088d4b13d2d0e4ab522d6f21021d54302ed86aa1
+  GitCommit: 54cb8e421864aae77b66b159126e7f110804ea7c
   Tags:
   - "1.7"
-  - 1.7.1
+  - 1.7.2
   - latest
+- Architectures: null
+  Directory: kapacitor/1.7/alpine
+  File: ""
+  GitCommit: 54cb8e421864aae77b66b159126e7f110804ea7c
+  Tags:
+  - 1.7-alpine
+  - 1.7.2-alpine
+  - alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: kapacitor/1.7
+  File: ""
+  GitCommit: 088d4b13d2d0e4ab522d6f21021d54302ed86aa1
+  Tags:
+  - 1.7.1
 - Architectures: null
   Directory: kapacitor/1.7/alpine
   File: ""
   GitCommit: 088d4b13d2d0e4ab522d6f21021d54302ed86aa1
   Tags:
-  - 1.7-alpine
   - 1.7.1-alpine
-  - alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -942,6 +966,8 @@ KnownTags:
   1.7.0-alpine: {}
   1.7.1: {}
   1.7.1-alpine: {}
+  1.7.2: {}
+  1.7.2-alpine: {}
   alpine: {}
   latest: {}
 Name: kapacitor

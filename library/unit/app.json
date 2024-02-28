@@ -42,10 +42,26 @@
     "1.31.1-python3.11": {},
     "1.31.1-ruby3.2": {},
     "1.31.1-wasm": {},
+    "1.32.0-go1.21": {},
+    "1.32.0-go1.22": {},
+    "1.32.0-jsc11": {},
+    "1.32.0-minimal": {},
+    "1.32.0-node20": {},
+    "1.32.0-node21": {},
+    "1.32.0-perl5.36": {},
+    "1.32.0-perl5.38": {},
+    "1.32.0-php8.2": {},
+    "1.32.0-php8.3": {},
+    "1.32.0-python3.11": {},
+    "1.32.0-python3.12": {},
+    "1.32.0-ruby3.2": {},
+    "1.32.0-ruby3.3": {},
+    "1.32.0-wasm": {},
     "go": {},
     "go1": {},
     "go1.20": {},
     "go1.21": {},
+    "go1.22": {},
     "jsc": {},
     "jsc11": {},
     "latest": {},
@@ -53,6 +69,7 @@
     "node": {},
     "node18": {},
     "node20": {},
+    "node21": {},
     "perl": {},
     "perl5": {},
     "perl5.36": {},
@@ -60,21 +77,409 @@
     "php": {},
     "php8": {},
     "php8.2": {},
+    "php8.3": {},
     "python": {},
     "python3": {},
     "python3.11": {},
+    "python3.12": {},
     "ruby": {},
     "ruby3": {},
     "ruby3.2": {},
+    "ruby3.3": {},
     "wasm": {}
   },
   "Blocks": [
     {
       "Tags": [
-        "1.31.1-go1.21",
-        "go1.21",
+        "1.32.0-go1.22",
+        "go1.22",
         "go1",
         "go"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "d76761901c4084bcdbc5a449e9bbb47d56b7093c",
+      "Directory": "pkg/docker",
+      "File": "Dockerfile.go1.22"
+    },
+    {
+      "Tags": [
+        "1.32.0-go1.21",
+        "go1.21"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "d76761901c4084bcdbc5a449e9bbb47d56b7093c",
+      "Directory": "pkg/docker",
+      "File": "Dockerfile.go1.21"
+    },
+    {
+      "Tags": [
+        "1.32.0-jsc11",
+        "jsc11",
+        "jsc"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "d76761901c4084bcdbc5a449e9bbb47d56b7093c",
+      "Directory": "pkg/docker",
+      "File": "Dockerfile.jsc11"
+    },
+    {
+      "Tags": [
+        "1.32.0-node21",
+        "node21",
+        "node"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "d76761901c4084bcdbc5a449e9bbb47d56b7093c",
+      "Directory": "pkg/docker",
+      "File": "Dockerfile.node21"
+    },
+    {
+      "Tags": [
+        "1.32.0-node20",
+        "node20"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "d76761901c4084bcdbc5a449e9bbb47d56b7093c",
+      "Directory": "pkg/docker",
+      "File": "Dockerfile.node20"
+    },
+    {
+      "Tags": [
+        "1.32.0-perl5.38",
+        "perl5.38",
+        "perl5",
+        "perl"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "d76761901c4084bcdbc5a449e9bbb47d56b7093c",
+      "Directory": "pkg/docker",
+      "File": "Dockerfile.perl5.38"
+    },
+    {
+      "Tags": [
+        "1.32.0-perl5.36",
+        "perl5.36"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "d76761901c4084bcdbc5a449e9bbb47d56b7093c",
+      "Directory": "pkg/docker",
+      "File": "Dockerfile.perl5.36"
+    },
+    {
+      "Tags": [
+        "1.32.0-php8.3",
+        "php8.3",
+        "php8",
+        "php"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "d76761901c4084bcdbc5a449e9bbb47d56b7093c",
+      "Directory": "pkg/docker",
+      "File": "Dockerfile.php8.3"
+    },
+    {
+      "Tags": [
+        "1.32.0-php8.2",
+        "php8.2"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "d76761901c4084bcdbc5a449e9bbb47d56b7093c",
+      "Directory": "pkg/docker",
+      "File": "Dockerfile.php8.2"
+    },
+    {
+      "Tags": [
+        "1.32.0-python3.12",
+        "python3.12",
+        "python3",
+        "python"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "d76761901c4084bcdbc5a449e9bbb47d56b7093c",
+      "Directory": "pkg/docker",
+      "File": "Dockerfile.python3.12"
+    },
+    {
+      "Tags": [
+        "1.32.0-python3.11",
+        "python3.11"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "d76761901c4084bcdbc5a449e9bbb47d56b7093c",
+      "Directory": "pkg/docker",
+      "File": "Dockerfile.python3.11"
+    },
+    {
+      "Tags": [
+        "1.32.0-ruby3.3",
+        "ruby3.3",
+        "ruby3",
+        "ruby"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "d76761901c4084bcdbc5a449e9bbb47d56b7093c",
+      "Directory": "pkg/docker",
+      "File": "Dockerfile.ruby3.3"
+    },
+    {
+      "Tags": [
+        "1.32.0-ruby3.2",
+        "ruby3.2"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "d76761901c4084bcdbc5a449e9bbb47d56b7093c",
+      "Directory": "pkg/docker",
+      "File": "Dockerfile.ruby3.2"
+    },
+    {
+      "Tags": [
+        "1.32.0-wasm",
+        "wasm"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "d76761901c4084bcdbc5a449e9bbb47d56b7093c",
+      "Directory": "pkg/docker",
+      "File": "Dockerfile.wasm"
+    },
+    {
+      "Tags": [
+        "1.32.0-minimal",
+        "minimal",
+        "latest"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "d76761901c4084bcdbc5a449e9bbb47d56b7093c",
+      "Directory": "pkg/docker",
+      "File": "Dockerfile.minimal"
+    },
+    {
+      "Tags": [
+        "1.31.1-go1.21"
       ],
       "Architectures": {
         "amd64": {
@@ -123,9 +528,7 @@
     },
     {
       "Tags": [
-        "1.31.1-jsc11",
-        "jsc11",
-        "jsc"
+        "1.31.1-jsc11"
       ],
       "Architectures": {
         "amd64": {
@@ -149,9 +552,7 @@
     },
     {
       "Tags": [
-        "1.31.1-node20",
-        "node20",
-        "node"
+        "1.31.1-node20"
       ],
       "Architectures": {
         "amd64": {
@@ -200,10 +601,7 @@
     },
     {
       "Tags": [
-        "1.31.1-perl5.38",
-        "perl5.38",
-        "perl5",
-        "perl"
+        "1.31.1-perl5.38"
       ],
       "Architectures": {
         "amd64": {
@@ -227,8 +625,7 @@
     },
     {
       "Tags": [
-        "1.31.1-perl5.36",
-        "perl5.36"
+        "1.31.1-perl5.36"
       ],
       "Architectures": {
         "amd64": {
@@ -252,10 +649,7 @@
     },
     {
       "Tags": [
-        "1.31.1-php8.2",
-        "php8.2",
-        "php8",
-        "php"
+        "1.31.1-php8.2"
       ],
       "Architectures": {
         "amd64": {
@@ -279,10 +673,7 @@
     },
     {
       "Tags": [
-        "1.31.1-python3.11",
-        "python3.11",
-        "python3",
-        "python"
+        "1.31.1-python3.11"
       ],
       "Architectures": {
         "amd64": {
@@ -306,10 +697,7 @@
     },
     {
       "Tags": [
-        "1.31.1-ruby3.2",
-        "ruby3.2",
-        "ruby3",
-        "ruby"
+        "1.31.1-ruby3.2"
       ],
       "Architectures": {
         "amd64": {
@@ -333,8 +721,7 @@
     },
     {
       "Tags": [
-        "1.31.1-wasm",
-        "wasm"
+        "1.31.1-wasm"
       ],
       "Architectures": {
         "amd64": {
@@ -358,9 +745,7 @@
     },
     {
       "Tags": [
-        "1.31.1-minimal",
-        "minimal",
-        "latest"
+        "1.31.1-minimal"
       ],
       "Architectures": {
         "amd64": {
