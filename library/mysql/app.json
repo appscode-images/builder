@@ -98,6 +98,7 @@
     "8-oracle": {},
     "8-oraclelinux8": {},
     "8.0": {},
+    "8.0-bookworm": {},
     "8.0-bullseye": {},
     "8.0-debian": {},
     "8.0-oracle": {},
@@ -150,6 +151,7 @@
     "8.0.35-oracle": {},
     "8.0.35-oraclelinux8": {},
     "8.0.36": {},
+    "8.0.36-bookworm": {},
     "8.0.36-bullseye": {},
     "8.0.36-debian": {},
     "8.0.36-oracle": {},
@@ -250,10 +252,28 @@
     },
     {
       "Tags": [
-        "8.0.36-bullseye",
-        "8.0-bullseye",
+        "8.0.36-bookworm",
+        "8.0-bookworm",
         "8.0.36-debian",
         "8.0-debian"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "d6c12b61316e44e52ce195dd6343ac96e8343fce",
+      "Directory": "8.0",
+      "File": "Dockerfile.debian"
+    },
+    {
+      "Tags": [
+        "8.0.36-bullseye",
+        "8.0-bullseye"
       ],
       "Architectures": {
         "amd64": {
