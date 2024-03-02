@@ -1459,6 +1459,10 @@
     "5.8.2-alpine": {},
     "5.8.3": {},
     "5.8.3-alpine": {},
+    "5.80": {},
+    "5.80-alpine": {},
+    "5.80.0": {},
+    "5.80.0-alpine": {},
     "5.9": {},
     "5.9-alpine": {},
     "5.9.4": {},
@@ -1469,10 +1473,97 @@
   "Blocks": [
     {
       "Tags": [
-        "5.79.6",
-        "5.79",
+        "5.80.0",
+        "5.80",
         "5",
         "latest"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "3c846e1c9e8b054dddd4ea2b94eae66eb3fc60f7",
+      "Directory": "5/debian",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "5.80.0-alpine",
+        "5.80-alpine",
+        "5-alpine",
+        "alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "3c846e1c9e8b054dddd4ea2b94eae66eb3fc60f7",
+      "Directory": "5/alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "5.79.6",
+        "5.79"
       ],
       "Architectures": {
         "amd64": {
@@ -1518,9 +1609,7 @@
     {
       "Tags": [
         "5.79.6-alpine",
-        "5.79-alpine",
-        "5-alpine",
-        "alpine"
+        "5.79-alpine"
       ],
       "Architectures": {
         "amd64": {
