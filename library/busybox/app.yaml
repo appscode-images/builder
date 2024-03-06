@@ -2,55 +2,61 @@ Blocks:
 - Architectures:
     amd64:
       Architecture: amd64
-      Directory: ""
+      Directory: latest/glibc/amd64
       File: ""
       GitCommit: ""
       GitFetch: ""
     arm32v5:
       Architecture: arm32v5
-      Directory: ""
+      Directory: latest/glibc/arm32v5
       File: ""
       GitCommit: ""
       GitFetch: ""
     arm32v7:
       Architecture: arm32v7
-      Directory: ""
+      Directory: latest/glibc/arm32v7
       File: ""
       GitCommit: ""
       GitFetch: ""
     arm64v8:
       Architecture: arm64v8
-      Directory: ""
+      Directory: latest/glibc/arm64v8
       File: ""
       GitCommit: ""
       GitFetch: ""
     i386:
       Architecture: i386
-      Directory: ""
+      Directory: latest/glibc/i386
       File: ""
       GitCommit: ""
       GitFetch: ""
     mips64le:
       Architecture: mips64le
-      Directory: ""
+      Directory: latest/glibc/mips64le
       File: ""
       GitCommit: ""
       GitFetch: ""
     ppc64le:
       Architecture: ppc64le
-      Directory: ""
+      Directory: latest/glibc/ppc64le
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: latest/glibc/riscv64
       File: ""
       GitCommit: ""
       GitFetch: ""
     s390x:
       Architecture: s390x
-      Directory: ""
+      Directory: latest/glibc/s390x
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: latest/glibc
+  Directory: ""
   File: ""
-  GitCommit: e704abc9f3ea787541fff3a4708a4186a3c054cc
+  GitCommit: a20bcbde28bc3ccb18d189b808d373d27caccbe4
   Tags:
   - 1.36.1-glibc
   - 1.36-glibc
@@ -60,49 +66,49 @@ Blocks:
 - Architectures:
     amd64:
       Architecture: amd64
-      Directory: ""
+      Directory: latest/uclibc/amd64
       File: ""
       GitCommit: ""
       GitFetch: ""
     arm32v5:
       Architecture: arm32v5
-      Directory: ""
+      Directory: latest/uclibc/arm32v5
       File: ""
       GitCommit: ""
       GitFetch: ""
     arm32v7:
       Architecture: arm32v7
-      Directory: ""
+      Directory: latest/uclibc/arm32v7
       File: ""
       GitCommit: ""
       GitFetch: ""
     arm64v8:
       Architecture: arm64v8
-      Directory: ""
+      Directory: latest/uclibc/arm64v8
       File: ""
       GitCommit: ""
       GitFetch: ""
     i386:
       Architecture: i386
-      Directory: ""
+      Directory: latest/uclibc/i386
       File: ""
       GitCommit: ""
       GitFetch: ""
     mips64le:
       Architecture: mips64le
-      Directory: ""
+      Directory: latest/uclibc/mips64le
       File: ""
       GitCommit: ""
       GitFetch: ""
     riscv64:
       Architecture: riscv64
-      Directory: ""
+      Directory: latest/uclibc/riscv64
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: latest/uclibc
+  Directory: ""
   File: ""
-  GitCommit: e704abc9f3ea787541fff3a4708a4186a3c054cc
+  GitCommit: a20bcbde28bc3ccb18d189b808d373d27caccbe4
   Tags:
   - 1.36.1-uclibc
   - 1.36-uclibc
@@ -112,49 +118,55 @@ Blocks:
 - Architectures:
     amd64:
       Architecture: amd64
-      Directory: ""
+      Directory: latest/musl/amd64
       File: ""
       GitCommit: ""
       GitFetch: ""
     arm32v6:
       Architecture: arm32v6
-      Directory: ""
+      Directory: latest/musl/arm32v6
       File: ""
       GitCommit: ""
       GitFetch: ""
     arm32v7:
       Architecture: arm32v7
-      Directory: ""
+      Directory: latest/musl/arm32v7
       File: ""
       GitCommit: ""
       GitFetch: ""
     arm64v8:
       Architecture: arm64v8
-      Directory: ""
+      Directory: latest/musl/arm64v8
       File: ""
       GitCommit: ""
       GitFetch: ""
     i386:
       Architecture: i386
-      Directory: ""
+      Directory: latest/musl/i386
       File: ""
       GitCommit: ""
       GitFetch: ""
     ppc64le:
       Architecture: ppc64le
-      Directory: ""
+      Directory: latest/musl/ppc64le
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: latest/musl/riscv64
       File: ""
       GitCommit: ""
       GitFetch: ""
     s390x:
       Architecture: s390x
-      Directory: ""
+      Directory: latest/musl/s390x
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: latest/musl
+  Directory: ""
   File: ""
-  GitCommit: e704abc9f3ea787541fff3a4708a4186a3c054cc
+  GitCommit: a20bcbde28bc3ccb18d189b808d373d27caccbe4
   Tags:
   - 1.36.1-musl
   - 1.36-musl
@@ -164,67 +176,67 @@ Blocks:
 - Architectures:
     amd64:
       Architecture: amd64
-      Directory: latest/glibc
+      Directory: latest/glibc/amd64
       File: ""
       GitCommit: ""
       GitFetch: ""
     arm32v5:
       Architecture: arm32v5
-      Directory: latest/glibc
+      Directory: latest/glibc/arm32v5
       File: ""
       GitCommit: ""
       GitFetch: ""
     arm32v6:
       Architecture: arm32v6
-      Directory: latest/musl
+      Directory: latest/musl/arm32v6
       File: ""
       GitCommit: ""
       GitFetch: ""
     arm32v7:
       Architecture: arm32v7
-      Directory: latest/glibc
+      Directory: latest/glibc/arm32v7
       File: ""
       GitCommit: ""
       GitFetch: ""
     arm64v8:
       Architecture: arm64v8
-      Directory: latest/glibc
+      Directory: latest/glibc/arm64v8
       File: ""
       GitCommit: ""
       GitFetch: ""
     i386:
       Architecture: i386
-      Directory: latest/glibc
+      Directory: latest/glibc/i386
       File: ""
       GitCommit: ""
       GitFetch: ""
     mips64le:
       Architecture: mips64le
-      Directory: latest/glibc
+      Directory: latest/glibc/mips64le
       File: ""
       GitCommit: ""
       GitFetch: ""
     ppc64le:
       Architecture: ppc64le
-      Directory: latest/glibc
+      Directory: latest/glibc/ppc64le
       File: ""
       GitCommit: ""
       GitFetch: ""
     riscv64:
       Architecture: riscv64
-      Directory: latest/uclibc
+      Directory: latest/uclibc/riscv64
       File: ""
       GitCommit: ""
       GitFetch: ""
     s390x:
       Architecture: s390x
-      Directory: latest/glibc
+      Directory: latest/glibc/s390x
       File: ""
       GitCommit: ""
       GitFetch: ""
   Directory: ""
   File: ""
-  GitCommit: e704abc9f3ea787541fff3a4708a4186a3c054cc
+  GitCommit: a20bcbde28bc3ccb18d189b808d373d27caccbe4
   Tags:
   - 1.36.1
   - "1.36"
@@ -234,220 +246,232 @@ Blocks:
 - Architectures:
     amd64:
       Architecture: amd64
-      Directory: ""
+      Directory: latest-1/glibc/amd64
       File: ""
       GitCommit: ""
       GitFetch: ""
     arm32v5:
       Architecture: arm32v5
-      Directory: ""
+      Directory: latest-1/glibc/arm32v5
       File: ""
       GitCommit: ""
       GitFetch: ""
     arm32v7:
       Architecture: arm32v7
-      Directory: ""
+      Directory: latest-1/glibc/arm32v7
       File: ""
       GitCommit: ""
       GitFetch: ""
     arm64v8:
       Architecture: arm64v8
-      Directory: ""
+      Directory: latest-1/glibc/arm64v8
       File: ""
       GitCommit: ""
       GitFetch: ""
     i386:
       Architecture: i386
-      Directory: ""
+      Directory: latest-1/glibc/i386
       File: ""
       GitCommit: ""
       GitFetch: ""
     mips64le:
       Architecture: mips64le
-      Directory: ""
+      Directory: latest-1/glibc/mips64le
       File: ""
       GitCommit: ""
       GitFetch: ""
     ppc64le:
       Architecture: ppc64le
-      Directory: ""
+      Directory: latest-1/glibc/ppc64le
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: latest-1/glibc/riscv64
       File: ""
       GitCommit: ""
       GitFetch: ""
     s390x:
       Architecture: s390x
-      Directory: ""
+      Directory: latest-1/glibc/s390x
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: latest-1/glibc
+  Directory: ""
   File: ""
-  GitCommit: e704abc9f3ea787541fff3a4708a4186a3c054cc
+  GitCommit: a20bcbde28bc3ccb18d189b808d373d27caccbe4
   Tags:
   - 1.35.0-glibc
   - 1.35-glibc
 - Architectures:
     amd64:
       Architecture: amd64
-      Directory: ""
+      Directory: latest-1/uclibc/amd64
       File: ""
       GitCommit: ""
       GitFetch: ""
     arm32v5:
       Architecture: arm32v5
-      Directory: ""
+      Directory: latest-1/uclibc/arm32v5
       File: ""
       GitCommit: ""
       GitFetch: ""
     arm32v7:
       Architecture: arm32v7
-      Directory: ""
+      Directory: latest-1/uclibc/arm32v7
       File: ""
       GitCommit: ""
       GitFetch: ""
     arm64v8:
       Architecture: arm64v8
-      Directory: ""
+      Directory: latest-1/uclibc/arm64v8
       File: ""
       GitCommit: ""
       GitFetch: ""
     i386:
       Architecture: i386
-      Directory: ""
+      Directory: latest-1/uclibc/i386
       File: ""
       GitCommit: ""
       GitFetch: ""
     mips64le:
       Architecture: mips64le
-      Directory: ""
+      Directory: latest-1/uclibc/mips64le
       File: ""
       GitCommit: ""
       GitFetch: ""
     riscv64:
       Architecture: riscv64
-      Directory: ""
+      Directory: latest-1/uclibc/riscv64
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: latest-1/uclibc
+  Directory: ""
   File: ""
-  GitCommit: e704abc9f3ea787541fff3a4708a4186a3c054cc
+  GitCommit: a20bcbde28bc3ccb18d189b808d373d27caccbe4
   Tags:
   - 1.35.0-uclibc
   - 1.35-uclibc
 - Architectures:
     amd64:
       Architecture: amd64
-      Directory: ""
+      Directory: latest-1/musl/amd64
       File: ""
       GitCommit: ""
       GitFetch: ""
     arm32v6:
       Architecture: arm32v6
-      Directory: ""
+      Directory: latest-1/musl/arm32v6
       File: ""
       GitCommit: ""
       GitFetch: ""
     arm32v7:
       Architecture: arm32v7
-      Directory: ""
+      Directory: latest-1/musl/arm32v7
       File: ""
       GitCommit: ""
       GitFetch: ""
     arm64v8:
       Architecture: arm64v8
-      Directory: ""
+      Directory: latest-1/musl/arm64v8
       File: ""
       GitCommit: ""
       GitFetch: ""
     i386:
       Architecture: i386
-      Directory: ""
+      Directory: latest-1/musl/i386
       File: ""
       GitCommit: ""
       GitFetch: ""
     ppc64le:
       Architecture: ppc64le
-      Directory: ""
+      Directory: latest-1/musl/ppc64le
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: latest-1/musl/riscv64
       File: ""
       GitCommit: ""
       GitFetch: ""
     s390x:
       Architecture: s390x
-      Directory: ""
+      Directory: latest-1/musl/s390x
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: latest-1/musl
+  Directory: ""
   File: ""
-  GitCommit: e704abc9f3ea787541fff3a4708a4186a3c054cc
+  GitCommit: a20bcbde28bc3ccb18d189b808d373d27caccbe4
   Tags:
   - 1.35.0-musl
   - 1.35-musl
 - Architectures:
     amd64:
       Architecture: amd64
-      Directory: latest-1/glibc
+      Directory: latest-1/glibc/amd64
       File: ""
       GitCommit: ""
       GitFetch: ""
     arm32v5:
       Architecture: arm32v5
-      Directory: latest-1/glibc
+      Directory: latest-1/glibc/arm32v5
       File: ""
       GitCommit: ""
       GitFetch: ""
     arm32v6:
       Architecture: arm32v6
-      Directory: latest-1/musl
+      Directory: latest-1/musl/arm32v6
       File: ""
       GitCommit: ""
       GitFetch: ""
     arm32v7:
       Architecture: arm32v7
-      Directory: latest-1/glibc
+      Directory: latest-1/glibc/arm32v7
       File: ""
       GitCommit: ""
       GitFetch: ""
     arm64v8:
       Architecture: arm64v8
-      Directory: latest-1/glibc
+      Directory: latest-1/glibc/arm64v8
       File: ""
       GitCommit: ""
       GitFetch: ""
     i386:
       Architecture: i386
-      Directory: latest-1/glibc
+      Directory: latest-1/glibc/i386
       File: ""
       GitCommit: ""
       GitFetch: ""
     mips64le:
       Architecture: mips64le
-      Directory: latest-1/glibc
+      Directory: latest-1/glibc/mips64le
       File: ""
       GitCommit: ""
       GitFetch: ""
     ppc64le:
       Architecture: ppc64le
-      Directory: latest-1/glibc
+      Directory: latest-1/glibc/ppc64le
       File: ""
       GitCommit: ""
       GitFetch: ""
     riscv64:
       Architecture: riscv64
-      Directory: latest-1/uclibc
+      Directory: latest-1/uclibc/riscv64
       File: ""
       GitCommit: ""
       GitFetch: ""
     s390x:
       Architecture: s390x
-      Directory: latest-1/glibc
+      Directory: latest-1/glibc/s390x
       File: ""
       GitCommit: ""
       GitFetch: ""
   Directory: ""
   File: ""
-  GitCommit: e704abc9f3ea787541fff3a4708a4186a3c054cc
+  GitCommit: a20bcbde28bc3ccb18d189b808d373d27caccbe4
   Tags:
   - 1.35.0
   - "1.35"
