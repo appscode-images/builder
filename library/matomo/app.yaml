@@ -50,13 +50,13 @@ Blocks:
       GitFetch: ""
   Directory: apache
   File: ""
-  GitCommit: f9df3f39dfffdc2a550f49629fc40d692533f338
+  GitCommit: 8137a7127656d793a7da44fdef7b147b931ba68f
   Tags:
-  - 5.0.2-apache
+  - 5.0.3-apache
   - 5.0-apache
   - 5-apache
   - apache
-  - 5.0.2
+  - 5.0.3
   - "5.0"
   - "5"
   - latest
@@ -111,9 +111,9 @@ Blocks:
       GitFetch: ""
   Directory: fpm
   File: ""
-  GitCommit: f9df3f39dfffdc2a550f49629fc40d692533f338
+  GitCommit: 8137a7127656d793a7da44fdef7b147b931ba68f
   Tags:
-  - 5.0.2-fpm
+  - 5.0.3-fpm
   - 5.0-fpm
   - 5-fpm
   - fpm
@@ -162,12 +162,169 @@ Blocks:
       GitFetch: ""
   Directory: fpm-alpine
   File: ""
-  GitCommit: f9df3f39dfffdc2a550f49629fc40d692533f338
+  GitCommit: 8137a7127656d793a7da44fdef7b147b931ba68f
   Tags:
-  - 5.0.2-fpm-alpine
+  - 5.0.3-fpm-alpine
   - 5.0-fpm-alpine
   - 5-fpm-alpine
   - fpm-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: apache
+  File: ""
+  GitCommit: f9df3f39dfffdc2a550f49629fc40d692533f338
+  Tags:
+  - 5.0.2-apache
+  - 5.0.2
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: fpm
+  File: ""
+  GitCommit: f9df3f39dfffdc2a550f49629fc40d692533f338
+  Tags:
+  - 5.0.2-fpm
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: fpm-alpine
+  File: ""
+  GitCommit: f9df3f39dfffdc2a550f49629fc40d692533f338
+  Tags:
+  - 5.0.2-fpm-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -9390,6 +9547,10 @@ KnownTags:
   5.0.2-apache: {}
   5.0.2-fpm: {}
   5.0.2-fpm-alpine: {}
+  5.0.3: {}
+  5.0.3-apache: {}
+  5.0.3-fpm: {}
+  5.0.3-fpm-alpine: {}
   apache: {}
   fpm: {}
   fpm-alpine: {}
