@@ -14,11 +14,11 @@ Blocks:
       GitFetch: ""
   Directory: 7.0-rc
   File: ""
-  GitCommit: e25e8bdea4abab40f597e71b029ab85191fa75fe
+  GitCommit: 015164a699373ffaa4f268823de26295eb2ee779
   Tags:
-  - 7.0.7-rc0-jammy
+  - 7.0.7-rc2-jammy
   - 7.0-rc-jammy
-  - 7.0.7-rc0
+  - 7.0.7-rc2
   - 7.0-rc
 - Architectures:
     windows-amd64:
@@ -29,11 +29,11 @@ Blocks:
       GitFetch: ""
   Directory: 7.0-rc/windows/windowsservercore-ltsc2022
   File: ""
-  GitCommit: e25e8bdea4abab40f597e71b029ab85191fa75fe
+  GitCommit: 015164a699373ffaa4f268823de26295eb2ee779
   Tags:
-  - 7.0.7-rc0-windowsservercore-ltsc2022
+  - 7.0.7-rc2-windowsservercore-ltsc2022
   - 7.0-rc-windowsservercore-ltsc2022
-  - 7.0.7-rc0-windowsservercore
+  - 7.0.7-rc2-windowsservercore
   - 7.0-rc-windowsservercore
 - Architectures:
     windows-amd64:
@@ -44,9 +44,9 @@ Blocks:
       GitFetch: ""
   Directory: 7.0-rc/windows/windowsservercore-1809
   File: ""
-  GitCommit: e25e8bdea4abab40f597e71b029ab85191fa75fe
+  GitCommit: 015164a699373ffaa4f268823de26295eb2ee779
   Tags:
-  - 7.0.7-rc0-windowsservercore-1809
+  - 7.0.7-rc2-windowsservercore-1809
   - 7.0-rc-windowsservercore-1809
 - Architectures:
     windows-amd64:
@@ -57,11 +57,11 @@ Blocks:
       GitFetch: ""
   Directory: 7.0-rc/windows/nanoserver-ltsc2022
   File: ""
-  GitCommit: e25e8bdea4abab40f597e71b029ab85191fa75fe
+  GitCommit: 015164a699373ffaa4f268823de26295eb2ee779
   Tags:
-  - 7.0.7-rc0-nanoserver-ltsc2022
+  - 7.0.7-rc2-nanoserver-ltsc2022
   - 7.0-rc-nanoserver-ltsc2022
-  - 7.0.7-rc0-nanoserver
+  - 7.0.7-rc2-nanoserver
   - 7.0-rc-nanoserver
 - Architectures:
     windows-amd64:
@@ -72,9 +72,9 @@ Blocks:
       GitFetch: ""
   Directory: 7.0-rc/windows/nanoserver-1809
   File: ""
-  GitCommit: e25e8bdea4abab40f597e71b029ab85191fa75fe
+  GitCommit: 015164a699373ffaa4f268823de26295eb2ee779
   Tags:
-  - 7.0.7-rc0-nanoserver-1809
+  - 7.0.7-rc2-nanoserver-1809
   - 7.0-rc-nanoserver-1809
 - Architectures:
     amd64:
@@ -424,6 +424,75 @@ Blocks:
   - 4.4.29-nanoserver-1809
   - 4.4-nanoserver-1809
   - 4-nanoserver-1809
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 7.0-rc
+  File: ""
+  GitCommit: e25e8bdea4abab40f597e71b029ab85191fa75fe
+  Tags:
+  - 7.0.7-rc0-jammy
+  - 7.0.7-rc0
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 7.0-rc/windows/windowsservercore-ltsc2022
+  File: ""
+  GitCommit: e25e8bdea4abab40f597e71b029ab85191fa75fe
+  Tags:
+  - 7.0.7-rc0-windowsservercore-ltsc2022
+  - 7.0.7-rc0-windowsservercore
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 7.0-rc/windows/windowsservercore-1809
+  File: ""
+  GitCommit: e25e8bdea4abab40f597e71b029ab85191fa75fe
+  Tags:
+  - 7.0.7-rc0-windowsservercore-1809
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 7.0-rc/windows/nanoserver-ltsc2022
+  File: ""
+  GitCommit: e25e8bdea4abab40f597e71b029ab85191fa75fe
+  Tags:
+  - 7.0.7-rc0-nanoserver-ltsc2022
+  - 7.0.7-rc0-nanoserver
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 7.0-rc/windows/nanoserver-1809
+  File: ""
+  GitCommit: e25e8bdea4abab40f597e71b029ab85191fa75fe
+  Tags:
+  - 7.0.7-rc0-nanoserver-1809
 - Architectures:
     amd64:
       Architecture: amd64
@@ -19505,6 +19574,14 @@ KnownTags:
   7.0.7-rc0-windowsservercore: {}
   7.0.7-rc0-windowsservercore-1809: {}
   7.0.7-rc0-windowsservercore-ltsc2022: {}
+  7.0.7-rc2: {}
+  7.0.7-rc2-jammy: {}
+  7.0.7-rc2-nanoserver: {}
+  7.0.7-rc2-nanoserver-1809: {}
+  7.0.7-rc2-nanoserver-ltsc2022: {}
+  7.0.7-rc2-windowsservercore: {}
+  7.0.7-rc2-windowsservercore-1809: {}
+  7.0.7-rc2-windowsservercore-ltsc2022: {}
   bionic: {}
   focal: {}
   jammy: {}
