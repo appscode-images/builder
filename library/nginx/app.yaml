@@ -132,6 +132,33 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: mainline/debian-otel
+  File: ""
+  GitCommit: 9cb278860bdcea48abc0bc770a29ead3fc9a1fe6
+  Tags:
+  - 1.25.4-otel
+  - mainline-otel
+  - 1-otel
+  - 1.25-otel
+  - otel
+  - 1.25.4-bookworm-otel
+  - mainline-bookworm-otel
+  - 1-bookworm-otel
+  - 1.25-bookworm-otel
+  - bookworm-otel
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
     arm32v6:
       Architecture: arm32v6
       Directory: ""
@@ -296,6 +323,33 @@ Blocks:
   - 1-alpine3.18-slim
   - 1.25-alpine3.18-slim
   - alpine3.18-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: mainline/alpine-otel
+  File: ""
+  GitCommit: 9cb278860bdcea48abc0bc770a29ead3fc9a1fe6
+  Tags:
+  - 1.25.4-alpine-otel
+  - mainline-alpine-otel
+  - 1-alpine-otel
+  - 1.25-alpine-otel
+  - alpine-otel
+  - 1.25.4-alpine3.18-otel
+  - mainline-alpine3.18-otel
+  - 1-alpine3.18-otel
+  - 1.25-alpine3.18-otel
+  - alpine3.18-otel
 - Architectures:
     amd64:
       Architecture: amd64
@@ -13951,18 +14005,22 @@ GitRepo: https://github.com/nginxinc/docker-nginx.git
 KnownTags:
   "1": {}
   1-alpine: {}
+  1-alpine-otel: {}
   1-alpine-perl: {}
   1-alpine-slim: {}
   1-alpine3.17: {}
   1-alpine3.17-perl: {}
   1-alpine3.17-slim: {}
   1-alpine3.18: {}
+  1-alpine3.18-otel: {}
   1-alpine3.18-perl: {}
   1-alpine3.18-slim: {}
   1-bookworm: {}
+  1-bookworm-otel: {}
   1-bookworm-perl: {}
   1-bullseye: {}
   1-bullseye-perl: {}
+  1-otel: {}
   1-perl: {}
   "1.10": {}
   1.10-alpine: {}
@@ -14377,18 +14435,22 @@ KnownTags:
   1.24.0-perl: {}
   "1.25": {}
   1.25-alpine: {}
+  1.25-alpine-otel: {}
   1.25-alpine-perl: {}
   1.25-alpine-slim: {}
   1.25-alpine3.17: {}
   1.25-alpine3.17-perl: {}
   1.25-alpine3.17-slim: {}
   1.25-alpine3.18: {}
+  1.25-alpine3.18-otel: {}
   1.25-alpine3.18-perl: {}
   1.25-alpine3.18-slim: {}
   1.25-bookworm: {}
+  1.25-bookworm-otel: {}
   1.25-bookworm-perl: {}
   1.25-bullseye: {}
   1.25-bullseye-perl: {}
+  1.25-otel: {}
   1.25-perl: {}
   1.25.0: {}
   1.25.0-alpine: {}
@@ -14432,43 +14494,55 @@ KnownTags:
   1.25.3-perl: {}
   1.25.4: {}
   1.25.4-alpine: {}
+  1.25.4-alpine-otel: {}
   1.25.4-alpine-perl: {}
   1.25.4-alpine-slim: {}
   1.25.4-alpine3.18: {}
+  1.25.4-alpine3.18-otel: {}
   1.25.4-alpine3.18-perl: {}
   1.25.4-alpine3.18-slim: {}
   1.25.4-bookworm: {}
+  1.25.4-bookworm-otel: {}
   1.25.4-bookworm-perl: {}
+  1.25.4-otel: {}
   1.25.4-perl: {}
   alpine: {}
+  alpine-otel: {}
   alpine-perl: {}
   alpine-slim: {}
   alpine3.17: {}
   alpine3.17-perl: {}
   alpine3.17-slim: {}
   alpine3.18: {}
+  alpine3.18-otel: {}
   alpine3.18-perl: {}
   alpine3.18-slim: {}
   bookworm: {}
+  bookworm-otel: {}
   bookworm-perl: {}
   bullseye: {}
   bullseye-perl: {}
   latest: {}
   mainline: {}
   mainline-alpine: {}
+  mainline-alpine-otel: {}
   mainline-alpine-perl: {}
   mainline-alpine-slim: {}
   mainline-alpine3.17: {}
   mainline-alpine3.17-perl: {}
   mainline-alpine3.17-slim: {}
   mainline-alpine3.18: {}
+  mainline-alpine3.18-otel: {}
   mainline-alpine3.18-perl: {}
   mainline-alpine3.18-slim: {}
   mainline-bookworm: {}
+  mainline-bookworm-otel: {}
   mainline-bookworm-perl: {}
   mainline-bullseye: {}
   mainline-bullseye-perl: {}
+  mainline-otel: {}
   mainline-perl: {}
+  otel: {}
   perl: {}
   stable: {}
   stable-alpine: {}
