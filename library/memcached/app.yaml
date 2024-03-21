@@ -44,13 +44,13 @@ Blocks:
       GitFetch: ""
   Directory: 1/debian
   File: ""
-  GitCommit: c28a68e5a4add95385737ef33b6fc54d446be9f7
+  GitCommit: 0215dbaa543d98b7e54eee9162906d31fcb8677e
   Tags:
-  - 1.6.24
+  - 1.6.25
   - "1.6"
   - "1"
   - latest
-  - 1.6.24-bookworm
+  - 1.6.25-bookworm
   - 1.6-bookworm
   - 1-bookworm
   - bookworm
@@ -87,16 +87,102 @@ Blocks:
       GitFetch: ""
   Directory: 1/alpine
   File: ""
-  GitCommit: c28a68e5a4add95385737ef33b6fc54d446be9f7
+  GitCommit: 0215dbaa543d98b7e54eee9162906d31fcb8677e
   Tags:
-  - 1.6.24-alpine
+  - 1.6.25-alpine
   - 1.6-alpine
   - 1-alpine
   - alpine
-  - 1.6.24-alpine3.19
+  - 1.6.25-alpine3.19
   - 1.6-alpine3.19
   - 1-alpine3.19
   - alpine3.19
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1/debian
+  File: ""
+  GitCommit: c28a68e5a4add95385737ef33b6fc54d446be9f7
+  Tags:
+  - 1.6.24
+  - 1.6.24-bookworm
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1/alpine
+  File: ""
+  GitCommit: c28a68e5a4add95385737ef33b6fc54d446be9f7
+  Tags:
+  - 1.6.24-alpine
+  - 1.6.24-alpine3.19
 - Architectures:
     amd64:
       Architecture: amd64
@@ -5048,6 +5134,10 @@ KnownTags:
   1.6.24-alpine: {}
   1.6.24-alpine3.19: {}
   1.6.24-bookworm: {}
+  1.6.25: {}
+  1.6.25-alpine: {}
+  1.6.25-alpine3.19: {}
+  1.6.25-bookworm: {}
   alpine: {}
   alpine3.13: {}
   alpine3.14: {}
