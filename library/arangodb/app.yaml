@@ -37,6 +37,25 @@ Blocks:
   Tags:
   - "3.11"
   - 3.11.8
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: alpine/3.12.0
+  File: ""
+  GitCommit: c507e8709115419c988f47f735f72a4d95538131
+  Tags:
+  - "3.12"
+  - 3.12.0
   - latest
 - Architectures:
     amd64:
@@ -899,5 +918,7 @@ KnownTags:
   3.11.6: {}
   3.11.7: {}
   3.11.8: {}
+  "3.12": {}
+  3.12.0: {}
   latest: {}
 Name: arangodb

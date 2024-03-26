@@ -12,12 +12,12 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: enterprise/couchbase-server/7.2.4
+  Directory: enterprise/couchbase-server/7.6.0
   File: ""
-  GitCommit: 24bae6aab6520dc97c362b56150db9658d041873
+  GitCommit: 203e62f36ce055be75955e073d0000249bf2c040
   Tags:
-  - 7.2.4
-  - enterprise-7.2.4
+  - 7.6.0
+  - enterprise-7.6.0
   - enterprise
   - latest
 - Architectures:
@@ -33,12 +33,49 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+  Directory: community/couchbase-server/7.6.0
+  File: ""
+  GitCommit: 7148bc241bcdcf8961c34f8adf76ebfb2860ed83
+  Tags:
+  - community-7.6.0
+  - community
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: enterprise/couchbase-server/7.2.4
+  File: ""
+  GitCommit: 8205e18d139813ac3f72f6dfef9ee9ffbc382e0f
+  Tags:
+  - 7.2.4
+  - enterprise-7.2.4
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
   Directory: community/couchbase-server/7.2.4
   File: ""
-  GitCommit: 9fc1cf481a8fe8e78d7539cee3a25cdbaa7b5e1e
+  GitCommit: 8205e18d139813ac3f72f6dfef9ee9ffbc382e0f
   Tags:
   - community-7.2.4
-  - community
 - Architectures:
     amd64:
       Architecture: amd64
@@ -54,7 +91,7 @@ Blocks:
       GitFetch: ""
   Directory: enterprise/couchbase-server/7.1.6
   File: ""
-  GitCommit: 3b28b68159ef2e9007a1493c17e768fbb4837358
+  GitCommit: 8205e18d139813ac3f72f6dfef9ee9ffbc382e0f
   Tags:
   - 7.1.6
   - enterprise-7.1.6
@@ -73,20 +110,20 @@ Blocks:
       GitFetch: ""
   Directory: community/couchbase-server/7.1.1
   File: ""
-  GitCommit: bfbb82c084ca3ada6252afbbcb3ca94bb65f1e58
+  GitCommit: 8205e18d139813ac3f72f6dfef9ee9ffbc382e0f
   Tags:
   - community-7.1.1
 - Architectures: null
   Directory: enterprise/couchbase-server/7.0.5
   File: ""
-  GitCommit: ca816b6ffa5c36007bd4b3386ec24df081a00ea0
+  GitCommit: 8205e18d139813ac3f72f6dfef9ee9ffbc382e0f
   Tags:
   - 7.0.5
   - enterprise-7.0.5
 - Architectures: null
   Directory: community/couchbase-server/7.0.2
   File: ""
-  GitCommit: aec4494ab5280caf567997d72714f57572a6315b
+  GitCommit: 8205e18d139813ac3f72f6dfef9ee9ffbc382e0f
   Tags:
   - community-7.0.2
 - Architectures:
@@ -546,6 +583,7 @@ KnownTags:
   7.2.2: {}
   7.2.3: {}
   7.2.4: {}
+  7.6.0: {}
   community: {}
   community-6.5.0: {}
   community-6.5.1: {}
@@ -560,6 +598,7 @@ KnownTags:
   community-7.2.1: {}
   community-7.2.2: {}
   community-7.2.4: {}
+  community-7.6.0: {}
   enterprise: {}
   enterprise-6.0.1: {}
   enterprise-6.0.2: {}
@@ -595,5 +634,6 @@ KnownTags:
   enterprise-7.2.2: {}
   enterprise-7.2.3: {}
   enterprise-7.2.4: {}
+  enterprise-7.6.0: {}
   latest: {}
 Name: couchbase

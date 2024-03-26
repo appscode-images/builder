@@ -272,9 +272,6 @@ Blocks:
   - 21.0.2-jre-headless-ubuntu
   - 21.0.2-jre-headless-ubuntu-jammy
   - 21.0.2-jre-headless-ubuntu-22.04
-  - jre-headless-ubuntu
-  - jre-headless-ubuntu-jammy
-  - jre-headless-ubuntu-jammy-22.04
   - lts-jre-headless-ubuntu
   - lts-jre-headless-ubuntu-jammy
   - lts-jre-headless-ubuntu-22.04
@@ -307,9 +304,6 @@ Blocks:
   - 21.0.2-jre-ubuntu
   - 21.0.2-jre-ubuntu-jammy
   - 21.0.2-jre-ubuntu-22.04
-  - jre-ubuntu
-  - jre-ubuntu-jammy
-  - jre-ubuntu-jammy-22.04
   - lts-jre-ubuntu
   - lts-jre-ubuntu-jammy
   - lts-jre-ubuntu-22.04
@@ -342,9 +336,6 @@ Blocks:
   - 21.0.2-jdk-headless-ubuntu
   - 21.0.2-jdk-headless-ubuntu-jammy
   - 21.0.2-jdk-headless-ubuntu-22.04
-  - jdk-headless-ubuntu
-  - jdk-headless-ubuntu-jammy
-  - jdk-headless-ubuntu-jammy-22.04
   - lts-jdk-headless-ubuntu
   - lts-jdk-headless-ubuntu-jammy
   - lts-jdk-headless-ubuntu-22.04
@@ -377,9 +368,6 @@ Blocks:
   - 21.0.2-jdk-ubuntu
   - 21.0.2-jdk-ubuntu-jammy
   - 21.0.2-jdk-ubuntu-22.04
-  - jdk-ubuntu
-  - jdk-ubuntu-jammy
-  - jdk-ubuntu-jammy-22.04
   - lts-jdk-ubuntu
   - lts-jdk-ubuntu-jammy
   - lts-jdk-ubuntu-22.04
@@ -389,12 +377,131 @@ Blocks:
   - 21.0.2
   - 21.0.2-ubuntu-jammy
   - 21.0.2-ubuntu-22.04
-  - latest
-  - ubuntu-jammy
-  - ubuntu-22.04
   - lts
   - lts-ubuntu-jammy
   - lts-ubuntu-22.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/official/22/ubuntu/jre-headless
+  File: ""
+  GitCommit: fe38ece53ef4a1a6e731ec5546511c7c07eb31b7
+  Tags:
+  - 22-jre-headless-ubuntu
+  - 22-jre-headless-ubuntu-jammy
+  - 22-jre-headless-ubuntu-22.04
+  - jre-headless-ubuntu
+  - jre-headless-ubuntu-jammy
+  - jre-headless-ubuntu-jammy-22.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/official/22/ubuntu/jre
+  File: ""
+  GitCommit: fe38ece53ef4a1a6e731ec5546511c7c07eb31b7
+  Tags:
+  - 22-jre-ubuntu
+  - 22-jre-ubuntu-jammy
+  - 22-jre-ubuntu-22.04
+  - jre-ubuntu
+  - jre-ubuntu-jammy
+  - jre-ubuntu-jammy-22.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/official/22/ubuntu/jdk-headless
+  File: ""
+  GitCommit: fe38ece53ef4a1a6e731ec5546511c7c07eb31b7
+  Tags:
+  - 22-jdk-headless-ubuntu
+  - 22-jdk-headless-ubuntu-jammy
+  - 22-jdk-headless-ubuntu-22.04
+  - jdk-headless-ubuntu
+  - jdk-headless-ubuntu-jammy
+  - jdk-headless-ubuntu-jammy-22.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/official/22/ubuntu/jdk
+  File: ""
+  GitCommit: fe38ece53ef4a1a6e731ec5546511c7c07eb31b7
+  Tags:
+  - 22-jdk-ubuntu
+  - 22-jdk-ubuntu-jammy
+  - 22-jdk-ubuntu-22.04
+  - jdk-ubuntu
+  - jdk-ubuntu-jammy
+  - jdk-ubuntu-jammy-22.04
+  - "22"
+  - 22-ubuntu-jammy
+  - 22-ubuntu-22.04
+  - latest
+  - ubuntu-jammy
+  - ubuntu-22.04
 - Architectures:
     amd64:
       Architecture: amd64
@@ -2374,6 +2481,21 @@ KnownTags:
   21.0.2-jre-ubuntu-jammy: {}
   21.0.2-ubuntu-22.04: {}
   21.0.2-ubuntu-jammy: {}
+  "22": {}
+  22-jdk-headless-ubuntu: {}
+  22-jdk-headless-ubuntu-22.04: {}
+  22-jdk-headless-ubuntu-jammy: {}
+  22-jdk-ubuntu: {}
+  22-jdk-ubuntu-22.04: {}
+  22-jdk-ubuntu-jammy: {}
+  22-jre-headless-ubuntu: {}
+  22-jre-headless-ubuntu-22.04: {}
+  22-jre-headless-ubuntu-jammy: {}
+  22-jre-ubuntu: {}
+  22-jre-ubuntu-22.04: {}
+  22-jre-ubuntu-jammy: {}
+  22-ubuntu-22.04: {}
+  22-ubuntu-jammy: {}
   jdk-headless-ubuntu: {}
   jdk-headless-ubuntu-11: {}
   jdk-headless-ubuntu-11.0.19: {}
