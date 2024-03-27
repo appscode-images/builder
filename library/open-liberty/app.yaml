@@ -26,7 +26,7 @@ Blocks:
       GitFetch: ""
   Directory: releases/latest/beta
   File: Dockerfile.ubuntu.openjdk8
-  GitCommit: bc3b5231d74c2d075022b4cb04126997134e07f5
+  GitCommit: 3fa1f1a1610c2aa670e6c1c26bececa1031b2b92
   Tags:
   - beta
 - Architectures:
@@ -56,7 +56,7 @@ Blocks:
       GitFetch: ""
   Directory: releases/latest/beta
   File: Dockerfile.ubuntu.openjdk11
-  GitCommit: bc3b5231d74c2d075022b4cb04126997134e07f5
+  GitCommit: 3fa1f1a1610c2aa670e6c1c26bececa1031b2b92
   Tags:
   - beta-java11
 - Architectures:
@@ -86,7 +86,7 @@ Blocks:
       GitFetch: ""
   Directory: releases/latest/beta
   File: Dockerfile.ubuntu.openjdk17
-  GitCommit: bc3b5231d74c2d075022b4cb04126997134e07f5
+  GitCommit: 3fa1f1a1610c2aa670e6c1c26bececa1031b2b92
   Tags:
   - beta-java17
 - Architectures:
@@ -116,7 +116,7 @@ Blocks:
       GitFetch: ""
   Directory: releases/latest/kernel-slim
   File: Dockerfile.ubuntu.openjdk8
-  GitCommit: bc3b5231d74c2d075022b4cb04126997134e07f5
+  GitCommit: 3fa1f1a1610c2aa670e6c1c26bececa1031b2b92
   Tags:
   - kernel-slim
   - kernel-slim-java8-openj9
@@ -147,7 +147,7 @@ Blocks:
       GitFetch: ""
   Directory: releases/latest/kernel-slim
   File: Dockerfile.ubuntu.openjdk11
-  GitCommit: bc3b5231d74c2d075022b4cb04126997134e07f5
+  GitCommit: 3fa1f1a1610c2aa670e6c1c26bececa1031b2b92
   Tags:
   - kernel-slim-java11-openj9
 - Architectures:
@@ -177,7 +177,7 @@ Blocks:
       GitFetch: ""
   Directory: releases/latest/kernel-slim
   File: Dockerfile.ubuntu.openjdk17
-  GitCommit: bc3b5231d74c2d075022b4cb04126997134e07f5
+  GitCommit: 3fa1f1a1610c2aa670e6c1c26bececa1031b2b92
   Tags:
   - kernel-slim-java17-openj9
 - Architectures:
@@ -207,7 +207,7 @@ Blocks:
       GitFetch: ""
   Directory: releases/latest/full
   File: Dockerfile.ubuntu.openjdk8
-  GitCommit: bc3b5231d74c2d075022b4cb04126997134e07f5
+  GitCommit: 3fa1f1a1610c2aa670e6c1c26bececa1031b2b92
   Tags:
   - full
   - full-java8-openj9
@@ -239,7 +239,7 @@ Blocks:
       GitFetch: ""
   Directory: releases/latest/full
   File: Dockerfile.ubuntu.openjdk11
-  GitCommit: bc3b5231d74c2d075022b4cb04126997134e07f5
+  GitCommit: 3fa1f1a1610c2aa670e6c1c26bececa1031b2b92
   Tags:
   - full-java11-openj9
 - Architectures:
@@ -269,9 +269,369 @@ Blocks:
       GitFetch: ""
   Directory: releases/latest/full
   File: Dockerfile.ubuntu.openjdk17
-  GitCommit: bc3b5231d74c2d075022b4cb04126997134e07f5
+  GitCommit: 3fa1f1a1610c2aa670e6c1c26bececa1031b2b92
   Tags:
   - full-java17-openj9
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: releases/24.0.0.3/kernel-slim
+  File: Dockerfile.ubuntu.openjdk8
+  GitCommit: 3fa1f1a1610c2aa670e6c1c26bececa1031b2b92
+  Tags:
+  - 24.0.0.3-kernel-slim-java8-openj9
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: releases/24.0.0.3/kernel-slim
+  File: Dockerfile.ubuntu.openjdk11
+  GitCommit: 3fa1f1a1610c2aa670e6c1c26bececa1031b2b92
+  Tags:
+  - 24.0.0.3-kernel-slim-java11-openj9
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: releases/24.0.0.3/kernel-slim
+  File: Dockerfile.ubuntu.openjdk17
+  GitCommit: 3fa1f1a1610c2aa670e6c1c26bececa1031b2b92
+  Tags:
+  - 24.0.0.3-kernel-slim-java17-openj9
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: releases/24.0.0.3/full
+  File: Dockerfile.ubuntu.openjdk8
+  GitCommit: 3fa1f1a1610c2aa670e6c1c26bececa1031b2b92
+  Tags:
+  - 24.0.0.3-full-java8-openj9
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: releases/24.0.0.3/full
+  File: Dockerfile.ubuntu.openjdk11
+  GitCommit: 3fa1f1a1610c2aa670e6c1c26bececa1031b2b92
+  Tags:
+  - 24.0.0.3-full-java11-openj9
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: releases/24.0.0.3/full
+  File: Dockerfile.ubuntu.openjdk17
+  GitCommit: 3fa1f1a1610c2aa670e6c1c26bececa1031b2b92
+  Tags:
+  - 24.0.0.3-full-java17-openj9
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: releases/23.0.0.12/kernel-slim
+  File: Dockerfile.ubuntu.openjdk8
+  GitCommit: 3fa1f1a1610c2aa670e6c1c26bececa1031b2b92
+  Tags:
+  - 23.0.0.12-kernel-slim-java8-openj9
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: releases/23.0.0.12/kernel-slim
+  File: Dockerfile.ubuntu.openjdk11
+  GitCommit: 3fa1f1a1610c2aa670e6c1c26bececa1031b2b92
+  Tags:
+  - 23.0.0.12-kernel-slim-java11-openj9
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: releases/23.0.0.12/kernel-slim
+  File: Dockerfile.ubuntu.openjdk17
+  GitCommit: 3fa1f1a1610c2aa670e6c1c26bececa1031b2b92
+  Tags:
+  - 23.0.0.12-kernel-slim-java17-openj9
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: releases/23.0.0.12/full
+  File: Dockerfile.ubuntu.openjdk8
+  GitCommit: 3fa1f1a1610c2aa670e6c1c26bececa1031b2b92
+  Tags:
+  - 23.0.0.12-full-java8-openj9
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: releases/23.0.0.12/full
+  File: Dockerfile.ubuntu.openjdk11
+  GitCommit: 3fa1f1a1610c2aa670e6c1c26bececa1031b2b92
+  Tags:
+  - 23.0.0.12-full-java11-openj9
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: releases/23.0.0.12/full
+  File: Dockerfile.ubuntu.openjdk17
+  GitCommit: 3fa1f1a1610c2aa670e6c1c26bececa1031b2b92
+  Tags:
+  - 23.0.0.12-full-java17-openj9
 - Architectures:
     amd64:
       Architecture: amd64
@@ -452,186 +812,6 @@ Blocks:
   GitCommit: bc3b5231d74c2d075022b4cb04126997134e07f5
   Tags:
   - 24.0.0.2-full-java17-openj9
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    s390x:
-      Architecture: s390x
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: releases/23.0.0.12/kernel-slim
-  File: Dockerfile.ubuntu.openjdk8
-  GitCommit: bc3b5231d74c2d075022b4cb04126997134e07f5
-  Tags:
-  - 23.0.0.12-kernel-slim-java8-openj9
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    s390x:
-      Architecture: s390x
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: releases/23.0.0.12/kernel-slim
-  File: Dockerfile.ubuntu.openjdk11
-  GitCommit: bc3b5231d74c2d075022b4cb04126997134e07f5
-  Tags:
-  - 23.0.0.12-kernel-slim-java11-openj9
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    s390x:
-      Architecture: s390x
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: releases/23.0.0.12/kernel-slim
-  File: Dockerfile.ubuntu.openjdk17
-  GitCommit: bc3b5231d74c2d075022b4cb04126997134e07f5
-  Tags:
-  - 23.0.0.12-kernel-slim-java17-openj9
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    s390x:
-      Architecture: s390x
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: releases/23.0.0.12/full
-  File: Dockerfile.ubuntu.openjdk8
-  GitCommit: bc3b5231d74c2d075022b4cb04126997134e07f5
-  Tags:
-  - 23.0.0.12-full-java8-openj9
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    s390x:
-      Architecture: s390x
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: releases/23.0.0.12/full
-  File: Dockerfile.ubuntu.openjdk11
-  GitCommit: bc3b5231d74c2d075022b4cb04126997134e07f5
-  Tags:
-  - 23.0.0.12-full-java11-openj9
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    s390x:
-      Architecture: s390x
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: releases/23.0.0.12/full
-  File: Dockerfile.ubuntu.openjdk17
-  GitCommit: bc3b5231d74c2d075022b4cb04126997134e07f5
-  Tags:
-  - 23.0.0.12-full-java17-openj9
 - Architectures:
     amd64:
       Architecture: amd64
@@ -9695,6 +9875,12 @@ KnownTags:
   24.0.0.2-kernel-slim-java8-openj9: {}
   24.0.0.2-kernel-slim-java11-openj9: {}
   24.0.0.2-kernel-slim-java17-openj9: {}
+  24.0.0.3-full-java8-openj9: {}
+  24.0.0.3-full-java11-openj9: {}
+  24.0.0.3-full-java17-openj9: {}
+  24.0.0.3-kernel-slim-java8-openj9: {}
+  24.0.0.3-kernel-slim-java11-openj9: {}
+  24.0.0.3-kernel-slim-java17-openj9: {}
   beta: {}
   beta-java11: {}
   beta-java17: {}
