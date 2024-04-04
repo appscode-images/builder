@@ -2,6 +2,31 @@ Blocks:
 - Architectures:
     amd64:
       Architecture: amd64
+      Directory: dist/9/x86_64
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: dist/9/armv7hl
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: dist/9/aarch64
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: ""
+  GitCommit: 2365d6c0c7c87fb7e120348bac4c3f1bd1e21af7
+  Tags:
+  - "9"
+  - latest
+- Architectures:
+    amd64:
+      Architecture: amd64
       Directory: dist/8/x86_64
       File: ""
       GitCommit: ""
@@ -20,10 +45,33 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: ""
-  GitCommit: 067e6df19c568e101a42dc71b77f6a2de5992c70
+  GitCommit: 2365d6c0c7c87fb7e120348bac4c3f1bd1e21af7
   Tags:
   - "8"
-  - latest
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: dist/cauldron/x86_64
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: dist/cauldron/armv7hl
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: dist/cauldron/aarch64
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: ""
+  GitCommit: 2365d6c0c7c87fb7e120348bac4c3f1bd1e21af7
+  Tags:
+  - cauldron
 - Architectures:
     amd64:
       Architecture: amd64
@@ -48,30 +96,6 @@ Blocks:
   GitCommit: 067e6df19c568e101a42dc71b77f6a2de5992c70
   Tags:
   - "7"
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: dist/cauldron/x86_64
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm32v7:
-      Architecture: arm32v7
-      Directory: dist/cauldron/armv7hl
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: dist/cauldron/aarch64
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: ""
-  File: ""
-  GitCommit: 067e6df19c568e101a42dc71b77f6a2de5992c70
-  Tags:
-  - cauldron
 - Architectures:
     amd64:
       Architecture: amd64
@@ -128,6 +152,7 @@ KnownTags:
   "6": {}
   "7": {}
   "8": {}
+  "9": {}
   cauldron: {}
   latest: {}
   rc: {}
