@@ -12,12 +12,12 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: alpine/3.10.13
+  Directory: alpine/3.10.14
   File: ""
-  GitCommit: af118f06c76677531116ee7a263e8d3cca1d6d63
+  GitCommit: 7b5dbaf1499367a8215a11bb5728f1d7264046cf
   Tags:
   - "3.10"
-  - 3.10.13
+  - 3.10.14
 - Architectures:
     amd64:
       Architecture: amd64
@@ -57,6 +57,24 @@ Blocks:
   - "3.12"
   - 3.12.0
   - latest
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: alpine/3.10.13
+  File: ""
+  GitCommit: af118f06c76677531116ee7a263e8d3cca1d6d63
+  Tags:
+  - 3.10.13
 - Architectures:
     amd64:
       Architecture: amd64
@@ -908,6 +926,7 @@ KnownTags:
   3.10.11: {}
   3.10.12: {}
   3.10.13: {}
+  3.10.14: {}
   "3.11": {}
   3.11.0: {}
   3.11.1: {}
