@@ -1,6 +1,6 @@
 GitRepo: https://github.com/debuerreotype/docker-debian-artifacts.git
 
-Tags: bookworm,bookworm-20240311,12.5,12,latest
+Tags: bookworm,bookworm-20240408,12.5,12,latest
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: bookworm
@@ -10,12 +10,12 @@ Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: bookworm/backports
 
-Tags: bookworm-slim,bookworm-20240311-slim,12.5-slim,12-slim
+Tags: bookworm-slim,bookworm-20240408-slim,12.5-slim,12-slim
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: bookworm/slim
 
-Tags: bullseye,bullseye-20240311,11.9,11
+Tags: bullseye,bullseye-20240408,11.9,11
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: bullseye
@@ -25,12 +25,12 @@ Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: bullseye/backports
 
-Tags: bullseye-slim,bullseye-20240311-slim,11.9-slim,11-slim
+Tags: bullseye-slim,bullseye-20240408-slim,11.9-slim,11-slim
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: bullseye/slim
 
-Tags: buster,buster-20240311,10.13,10
+Tags: buster,buster-20240408,10.13,10
 Architectures: amd64,arm32v7,arm64v8,i386
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: buster
@@ -40,12 +40,147 @@ Architectures: amd64,arm32v7,arm64v8,i386
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: buster/backports
 
-Tags: buster-slim,buster-20240311-slim,10.13-slim,10-slim
+Tags: buster-slim,buster-20240408-slim,10.13-slim,10-slim
 Architectures: amd64,arm32v7,arm64v8,i386
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: buster/slim
 
-Tags: experimental,experimental-20240330
+Tags: experimental,experimental-20240408
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
+GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+Directory: experimental
+
+Tags: oldoldstable,oldoldstable-20240408
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+Directory: oldoldstable
+
+Tags: oldoldstable-backports
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+Directory: oldoldstable/backports
+
+Tags: oldoldstable-slim,oldoldstable-20240408-slim
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+Directory: oldoldstable/slim
+
+Tags: oldstable,oldstable-20240408
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+Directory: oldstable
+
+Tags: oldstable-backports
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+Directory: oldstable/backports
+
+Tags: oldstable-slim,oldstable-20240408-slim
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+Directory: oldstable/slim
+
+Tags: rc-buggy,rc-buggy-20240408
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
+GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+Directory: rc-buggy
+
+Tags: sid,sid-20240408
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
+GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+Directory: sid
+
+Tags: sid-slim,sid-20240408-slim
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
+GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+Directory: sid/slim
+
+Tags: stable,stable-20240408
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+Directory: stable
+
+Tags: stable-backports
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+Directory: stable/backports
+
+Tags: stable-slim,stable-20240408-slim
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+Directory: stable/slim
+
+Tags: testing,testing-20240408
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+Directory: testing
+
+Tags: testing-backports
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+Directory: testing/backports
+
+Tags: testing-slim,testing-20240408-slim
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+Directory: testing/slim
+
+Tags: trixie,trixie-20240408
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+Directory: trixie
+
+Tags: trixie-backports
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+Directory: trixie/backports
+
+Tags: trixie-slim,trixie-20240408-slim
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+Directory: trixie/slim
+
+Tags: unstable,unstable-20240408
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
+GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+Directory: unstable
+
+Tags: unstable-slim,unstable-20240408-slim
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
+GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+Directory: unstable/slim
+
+Tags: bookworm-20240311
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+Directory: bookworm
+
+Tags: bookworm-20240311-slim
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+Directory: bookworm/slim
+
+Tags: bullseye-20240311
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+Directory: bullseye
+
+Tags: bullseye-20240311-slim
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+Directory: bullseye/slim
+
+Tags: buster-20240311
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+Directory: buster
+
+Tags: buster-20240311-slim
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+Directory: buster/slim
+
+Tags: experimental-20240330
 amd64-GitCommit: d67672a8f10361509e937a8aefc6b77dfc43dc78
 amd64-GitFetch: refs/heads/dist-amd64-CVE-2024-3094
 arm32v5-GitCommit: 29041191084b40412661bb11609105beacbb767c
@@ -68,37 +203,27 @@ Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: experimental
 
-Tags: oldoldstable,oldoldstable-20240311
+Tags: oldoldstable-20240311
 Architectures: amd64,arm32v7,arm64v8,i386
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: oldoldstable
 
-Tags: oldoldstable-backports
-Architectures: amd64,arm32v7,arm64v8,i386
-GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
-Directory: oldoldstable/backports
-
-Tags: oldoldstable-slim,oldoldstable-20240311-slim
+Tags: oldoldstable-20240311-slim
 Architectures: amd64,arm32v7,arm64v8,i386
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: oldoldstable/slim
 
-Tags: oldstable,oldstable-20240311
+Tags: oldstable-20240311
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: oldstable
 
-Tags: oldstable-backports
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
-GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
-Directory: oldstable/backports
-
-Tags: oldstable-slim,oldstable-20240311-slim
+Tags: oldstable-20240311-slim
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: oldstable/slim
 
-Tags: rc-buggy,rc-buggy-20240330
+Tags: rc-buggy-20240330
 amd64-GitCommit: d67672a8f10361509e937a8aefc6b77dfc43dc78
 amd64-GitFetch: refs/heads/dist-amd64-CVE-2024-3094
 arm32v5-GitCommit: 29041191084b40412661bb11609105beacbb767c
@@ -121,7 +246,7 @@ Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: rc-buggy
 
-Tags: sid,sid-20240330
+Tags: sid-20240330
 amd64-GitCommit: d67672a8f10361509e937a8aefc6b77dfc43dc78
 amd64-GitFetch: refs/heads/dist-amd64-CVE-2024-3094
 arm32v5-GitCommit: 29041191084b40412661bb11609105beacbb767c
@@ -144,7 +269,7 @@ Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: sid
 
-Tags: sid-slim,sid-20240330-slim
+Tags: sid-20240330-slim
 amd64-GitCommit: d67672a8f10361509e937a8aefc6b77dfc43dc78
 amd64-GitFetch: refs/heads/dist-amd64-CVE-2024-3094
 arm32v5-GitCommit: 29041191084b40412661bb11609105beacbb767c
@@ -167,22 +292,17 @@ Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: sid/slim
 
-Tags: stable,stable-20240311
+Tags: stable-20240311
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: stable
 
-Tags: stable-backports
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
-GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
-Directory: stable/backports
-
-Tags: stable-slim,stable-20240311-slim
+Tags: stable-20240311-slim
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: stable/slim
 
-Tags: testing,testing-20240330
+Tags: testing-20240330
 amd64-GitCommit: d67672a8f10361509e937a8aefc6b77dfc43dc78
 amd64-GitFetch: refs/heads/dist-amd64-CVE-2024-3094
 arm32v5-GitCommit: 29041191084b40412661bb11609105beacbb767c
@@ -205,30 +325,7 @@ Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: testing
 
-Tags: testing-backports
-amd64-GitCommit: d67672a8f10361509e937a8aefc6b77dfc43dc78
-amd64-GitFetch: refs/heads/dist-amd64-CVE-2024-3094
-arm32v5-GitCommit: 29041191084b40412661bb11609105beacbb767c
-arm32v5-GitFetch: refs/heads/dist-arm32v5-CVE-2024-3094
-arm32v7-GitCommit: 83639d7084df310d7f22d0c7f3c76998dbe7f37f
-arm32v7-GitFetch: refs/heads/dist-arm32v7-CVE-2024-3094
-arm64v8-GitCommit: d1683dc7e84e01c294790304079448c507d57e86
-arm64v8-GitFetch: refs/heads/dist-arm64v8-CVE-2024-3094
-i386-GitCommit: 265a890f337b4391360d4613e004b2513c5386b1
-i386-GitFetch: refs/heads/dist-i386-CVE-2024-3094
-mips64le-GitCommit: 7f39f105210946df04b8b6d3f8525f5478873ed0
-mips64le-GitFetch: refs/heads/dist-mips64le-CVE-2024-3094
-ppc64le-GitCommit: 2e37b65c0213ba01ac61e93983b29725a4a41c00
-ppc64le-GitFetch: refs/heads/dist-ppc64le-CVE-2024-3094
-riscv64-GitCommit: 61b5040befa15341905822ca432020c6e48629c6
-riscv64-GitFetch: refs/heads/dist-riscv64-CVE-2024-3094
-s390x-GitCommit: 11ede399182439d48e0d09ad3d722de8c58aec44
-s390x-GitFetch: refs/heads/dist-s390x-CVE-2024-3094
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
-GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
-Directory: testing/backports
-
-Tags: testing-slim,testing-20240330-slim
+Tags: testing-20240330-slim
 amd64-GitCommit: d67672a8f10361509e937a8aefc6b77dfc43dc78
 amd64-GitFetch: refs/heads/dist-amd64-CVE-2024-3094
 arm32v5-GitCommit: 29041191084b40412661bb11609105beacbb767c
@@ -251,7 +348,7 @@ Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: testing/slim
 
-Tags: trixie,trixie-20240330
+Tags: trixie-20240330
 amd64-GitCommit: d67672a8f10361509e937a8aefc6b77dfc43dc78
 amd64-GitFetch: refs/heads/dist-amd64-CVE-2024-3094
 arm32v5-GitCommit: 29041191084b40412661bb11609105beacbb767c
@@ -274,30 +371,7 @@ Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: trixie
 
-Tags: trixie-backports
-amd64-GitCommit: d67672a8f10361509e937a8aefc6b77dfc43dc78
-amd64-GitFetch: refs/heads/dist-amd64-CVE-2024-3094
-arm32v5-GitCommit: 29041191084b40412661bb11609105beacbb767c
-arm32v5-GitFetch: refs/heads/dist-arm32v5-CVE-2024-3094
-arm32v7-GitCommit: 83639d7084df310d7f22d0c7f3c76998dbe7f37f
-arm32v7-GitFetch: refs/heads/dist-arm32v7-CVE-2024-3094
-arm64v8-GitCommit: d1683dc7e84e01c294790304079448c507d57e86
-arm64v8-GitFetch: refs/heads/dist-arm64v8-CVE-2024-3094
-i386-GitCommit: 265a890f337b4391360d4613e004b2513c5386b1
-i386-GitFetch: refs/heads/dist-i386-CVE-2024-3094
-mips64le-GitCommit: 7f39f105210946df04b8b6d3f8525f5478873ed0
-mips64le-GitFetch: refs/heads/dist-mips64le-CVE-2024-3094
-ppc64le-GitCommit: 2e37b65c0213ba01ac61e93983b29725a4a41c00
-ppc64le-GitFetch: refs/heads/dist-ppc64le-CVE-2024-3094
-riscv64-GitCommit: 61b5040befa15341905822ca432020c6e48629c6
-riscv64-GitFetch: refs/heads/dist-riscv64-CVE-2024-3094
-s390x-GitCommit: 11ede399182439d48e0d09ad3d722de8c58aec44
-s390x-GitFetch: refs/heads/dist-s390x-CVE-2024-3094
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
-GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
-Directory: trixie/backports
-
-Tags: trixie-slim,trixie-20240330-slim
+Tags: trixie-20240330-slim
 amd64-GitCommit: d67672a8f10361509e937a8aefc6b77dfc43dc78
 amd64-GitFetch: refs/heads/dist-amd64-CVE-2024-3094
 arm32v5-GitCommit: 29041191084b40412661bb11609105beacbb767c
@@ -320,7 +394,7 @@ Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: trixie/slim
 
-Tags: unstable,unstable-20240330
+Tags: unstable-20240330
 amd64-GitCommit: d67672a8f10361509e937a8aefc6b77dfc43dc78
 amd64-GitFetch: refs/heads/dist-amd64-CVE-2024-3094
 arm32v5-GitCommit: 29041191084b40412661bb11609105beacbb767c
@@ -343,7 +417,7 @@ Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: unstable
 
-Tags: unstable-slim,unstable-20240330-slim
+Tags: unstable-20240330-slim
 amd64-GitCommit: d67672a8f10361509e937a8aefc6b77dfc43dc78
 amd64-GitFetch: refs/heads/dist-amd64-CVE-2024-3094
 arm32v5-GitCommit: 29041191084b40412661bb11609105beacbb767c
