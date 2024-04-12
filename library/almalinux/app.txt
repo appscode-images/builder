@@ -1,6 +1,38 @@
-GitRepo: https://github.com/AlmaLinux/docker-images.git
+GitRepo: https://github.com/AlmaLinux/container-images.git
 
-Tags: 8,8.9,8.9-20231124
+Tags: 8,8.9,8.9-20240410
+amd64-Directory: default/amd64/
+arm64v8-Directory: default/arm64/
+ppc64le-Directory: default/ppc64le/
+s390x-Directory: default/s390x/
+Architectures: amd64,arm64v8,ppc64le,s390x
+GitCommit: 7aee1db985cc9ebb0347f2f4875f301fa4b09ab7
+
+Tags: 8-minimal,8.9-minimal,8.9-minimal-20240410
+amd64-Directory: minimal/amd64/
+arm64v8-Directory: minimal/arm64/
+ppc64le-Directory: minimal/ppc64le/
+s390x-Directory: minimal/s390x/
+Architectures: amd64,arm64v8,ppc64le,s390x
+GitCommit: 265e51205d22917cbc7c60839c131dea85296705
+
+Tags: latest,9,9.3,9.3-20240410
+amd64-Directory: default/amd64/
+arm64v8-Directory: default/arm64/
+ppc64le-Directory: default/ppc64le/
+s390x-Directory: default/s390x/
+Architectures: amd64,arm64v8,ppc64le,s390x
+GitCommit: 81d7017ae90da3bcddd6dc89663d2a5d3b2891b8
+
+Tags: minimal,9-minimal,9.3-minimal,9.3-minimal-20240410
+amd64-Directory: minimal/amd64/
+arm64v8-Directory: minimal/arm64/
+ppc64le-Directory: minimal/ppc64le/
+s390x-Directory: minimal/s390x/
+Architectures: amd64,arm64v8,ppc64le,s390x
+GitCommit: 8812c340f41fa91678d1e71c3494a8811458425a
+
+Tags: 8.9-20231124
 amd64-File: Dockerfile-x86_64-default
 arm64v8-GitCommit: a0cdbfe387a83d220492cf4ead1eb83f61daba7f
 arm64v8-GitFetch: refs/heads/al8-20231124-arm64v8
@@ -14,7 +46,7 @@ s390x-File: Dockerfile-s390x-default
 Architectures: amd64,arm64v8,ppc64le,s390x
 GitCommit: b5c3f2dea7120eee009287009173081dfc079e86
 
-Tags: 8-minimal,8.9-minimal,8.9-minimal-20231124
+Tags: 8.9-minimal-20231124
 amd64-File: Dockerfile-x86_64-minimal
 arm64v8-GitCommit: a0cdbfe387a83d220492cf4ead1eb83f61daba7f
 arm64v8-GitFetch: refs/heads/al8-20231124-arm64v8
@@ -28,7 +60,7 @@ s390x-File: Dockerfile-s390x-minimal
 Architectures: amd64,arm64v8,ppc64le,s390x
 GitCommit: b5c3f2dea7120eee009287009173081dfc079e86
 
-Tags: latest,9,9.3,9.3-20231124
+Tags: 9.3-20231124
 amd64-File: Dockerfile-x86_64-default
 arm64v8-GitCommit: f0a97e1ad55d625658c9cb38592f01aea1fa47d9
 arm64v8-GitFetch: refs/heads/al9-20231124-arm64v8
@@ -42,7 +74,7 @@ s390x-File: Dockerfile-s390x-default
 Architectures: amd64,arm64v8,ppc64le,s390x
 GitCommit: 5b541a65dc5a6b837e19aec8936bed61b7a8a2bd
 
-Tags: minimal,9-minimal,9.3-minimal,9.3-minimal-20231124
+Tags: 9.3-minimal-20231124
 amd64-File: Dockerfile-x86_64-minimal
 arm64v8-GitCommit: f0a97e1ad55d625658c9cb38592f01aea1fa47d9
 arm64v8-GitFetch: refs/heads/al9-20231124-arm64v8
