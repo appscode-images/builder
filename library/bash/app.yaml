@@ -44,12 +44,65 @@ Blocks:
       GitFetch: ""
   Directory: devel
   File: ""
-  GitCommit: 3519de9825d4c678a4996b4ce172773387f3dbc2
+  GitCommit: 7b657f0af13de947770f02d66ab0b24465b20f3c
   Tags:
-  - devel-20240415
+  - devel-20240422
   - devel
-  - devel-20240415-alpine3.19
+  - devel-20240422-alpine3.19
   - devel-alpine3.19
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 5.3-rc
+  File: ""
+  GitCommit: 608eced9a1929c57fec449ea5f2f770a0371e5a3
+  Tags:
+  - 5.3-alpha
+  - 5.3-rc
+  - rc
+  - 5.3-alpha-alpine3.19
+  - 5.3-rc-alpine3.19
+  - rc-alpine3.19
 - Architectures:
     amd64:
       Architecture: amd64
@@ -619,6 +672,55 @@ Blocks:
   - "3.0"
   - 3.0.22-alpine3.19
   - 3.0-alpine3.19
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: devel
+  File: ""
+  GitCommit: 3519de9825d4c678a4996b4ce172773387f3dbc2
+  Tags:
+  - devel-20240415
+  - devel-20240415-alpine3.19
 - Architectures:
     amd64:
       Architecture: amd64
@@ -6957,7 +7059,6 @@ Blocks:
   Tags:
   - 5.2-rc4
   - 5.2-rc
-  - rc
   - 5.2-rc4-alpine3.15
   - 5.2-rc-alpine3.15
   - rc-alpine3.15
@@ -16787,6 +16888,10 @@ KnownTags:
   5.2.21-alpine3.19: {}
   5.2.26: {}
   5.2.26-alpine3.19: {}
+  5.3-alpha: {}
+  5.3-alpha-alpine3.19: {}
+  5.3-rc: {}
+  5.3-rc-alpine3.19: {}
   alpine3.12: {}
   alpine3.14: {}
   alpine3.15: {}
@@ -17146,6 +17251,8 @@ KnownTags:
   devel-20240406-alpine3.19: {}
   devel-20240415: {}
   devel-20240415-alpine3.19: {}
+  devel-20240422: {}
+  devel-20240422-alpine3.19: {}
   devel-alpine3.12: {}
   devel-alpine3.14: {}
   devel-alpine3.15: {}
@@ -17156,4 +17263,5 @@ KnownTags:
   latest: {}
   rc: {}
   rc-alpine3.15: {}
+  rc-alpine3.19: {}
 Name: bash
