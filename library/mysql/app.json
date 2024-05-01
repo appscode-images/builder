@@ -156,6 +156,11 @@
     "8.0.36-debian": {},
     "8.0.36-oracle": {},
     "8.0.36-oraclelinux8": {},
+    "8.0.37": {},
+    "8.0.37-bookworm": {},
+    "8.0.37-debian": {},
+    "8.0.37-oracle": {},
+    "8.0.37-oraclelinux8": {},
     "8.0.4": {},
     "8.0.4-rc": {},
     "8.1": {},
@@ -174,32 +179,122 @@
     "8.3.0": {},
     "8.3.0-oracle": {},
     "8.3.0-oraclelinux8": {},
+    "8.4": {},
+    "8.4-oracle": {},
+    "8.4-oraclelinux8": {},
+    "8.4.0": {},
+    "8.4.0-oracle": {},
+    "8.4.0-oraclelinux8": {},
     "debian": {},
     "innovation": {},
     "innovation-oracle": {},
     "innovation-oraclelinux8": {},
     "latest": {},
+    "lts": {},
+    "lts-oracle": {},
+    "lts-oraclelinux8": {},
     "oracle": {},
     "oraclelinux8": {}
   },
   "Blocks": [
     {
       "Tags": [
+        "8.4.0",
+        "8.4",
+        "8",
+        "lts",
+        "latest",
+        "8.4.0-oraclelinux8",
+        "8.4-oraclelinux8",
+        "8-oraclelinux8",
+        "lts-oraclelinux8",
+        "oraclelinux8",
+        "8.4.0-oracle",
+        "8.4-oracle",
+        "8-oracle",
+        "lts-oracle",
+        "oracle"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "c05422492215b3f0602409288c868ee4fd606ac3",
+      "Directory": "8.4",
+      "File": "Dockerfile.oracle"
+    },
+    {
+      "Tags": [
+        "8.0.37",
+        "8.0",
+        "8.0.37-oraclelinux8",
+        "8.0-oraclelinux8",
+        "8.0.37-oracle",
+        "8.0-oracle"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "5fe2b708e9734809d7f6554c131f0371d517bb22",
+      "Directory": "8.0",
+      "File": "Dockerfile.oracle"
+    },
+    {
+      "Tags": [
+        "8.0.37-bookworm",
+        "8.0-bookworm",
+        "8.0.37-debian",
+        "8.0-debian"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "5fe2b708e9734809d7f6554c131f0371d517bb22",
+      "Directory": "8.0",
+      "File": "Dockerfile.debian"
+    },
+    {
+      "Tags": [
         "8.3.0",
         "8.3",
-        "8",
         "innovation",
-        "latest",
         "8.3.0-oraclelinux8",
         "8.3-oraclelinux8",
-        "8-oraclelinux8",
         "innovation-oraclelinux8",
-        "oraclelinux8",
         "8.3.0-oracle",
         "8.3-oracle",
-        "8-oracle",
-        "innovation-oracle",
-        "oracle"
+        "innovation-oracle"
       ],
       "Architectures": {
         "amd64": {
@@ -224,11 +319,8 @@
     {
       "Tags": [
         "8.0.36",
-        "8.0",
         "8.0.36-oraclelinux8",
-        "8.0-oraclelinux8",
-        "8.0.36-oracle",
-        "8.0-oracle"
+        "8.0.36-oracle"
       ],
       "Architectures": {
         "amd64": {
@@ -253,9 +345,7 @@
     {
       "Tags": [
         "8.0.36-bookworm",
-        "8.0-bookworm",
-        "8.0.36-debian",
-        "8.0-debian"
+        "8.0.36-debian"
       ],
       "Architectures": {
         "amd64": {

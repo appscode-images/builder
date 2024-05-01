@@ -147,15 +147,21 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
   Directory: 1.10/bookworm
   File: ""
-  GitCommit: 8412fce8b8c25f568f809f9312e83a17e89f763a
+  GitCommit: 92a88f48304ba44b13da468ef8a35cb503f9a2dd
   Tags:
-  - 1.10.2-bookworm
+  - 1.10.3-bookworm
   - 1.10-bookworm
   - 1-bookworm
   - bookworm
-  - 1.10.2
+  - 1.10.3
   - "1.10"
   - "1"
   - latest
@@ -178,11 +184,17 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
   Directory: 1.10/bullseye
   File: ""
-  GitCommit: 8412fce8b8c25f568f809f9312e83a17e89f763a
+  GitCommit: 92a88f48304ba44b13da468ef8a35cb503f9a2dd
   Tags:
-  - 1.10.2-bullseye
+  - 1.10.3-bullseye
   - 1.10-bullseye
   - 1-bullseye
   - bullseye
@@ -195,13 +207,13 @@ Blocks:
       GitFetch: ""
   Directory: 1.10/alpine3.19
   File: ""
-  GitCommit: 8412fce8b8c25f568f809f9312e83a17e89f763a
+  GitCommit: 92a88f48304ba44b13da468ef8a35cb503f9a2dd
   Tags:
-  - 1.10.2-alpine3.19
+  - 1.10.3-alpine3.19
   - 1.10-alpine3.19
   - 1-alpine3.19
   - alpine3.19
-  - 1.10.2-alpine
+  - 1.10.3-alpine
   - 1.10-alpine
   - 1-alpine
   - alpine
@@ -214,9 +226,9 @@ Blocks:
       GitFetch: ""
   Directory: 1.10/alpine3.18
   File: ""
-  GitCommit: 8412fce8b8c25f568f809f9312e83a17e89f763a
+  GitCommit: 92a88f48304ba44b13da468ef8a35cb503f9a2dd
   Tags:
-  - 1.10.2-alpine3.18
+  - 1.10.3-alpine3.18
   - 1.10-alpine3.18
   - 1-alpine3.18
   - alpine3.18
@@ -229,13 +241,13 @@ Blocks:
       GitFetch: ""
   Directory: 1.10/windows/windowsservercore-ltsc2022
   File: ""
-  GitCommit: 8412fce8b8c25f568f809f9312e83a17e89f763a
+  GitCommit: 92a88f48304ba44b13da468ef8a35cb503f9a2dd
   Tags:
-  - 1.10.2-windowsservercore-ltsc2022
+  - 1.10.3-windowsservercore-ltsc2022
   - 1.10-windowsservercore-ltsc2022
   - 1-windowsservercore-ltsc2022
   - windowsservercore-ltsc2022
-  - 1.10.2-windowsservercore
+  - 1.10.3-windowsservercore
   - 1.10-windowsservercore
   - 1-windowsservercore
   - windowsservercore
@@ -248,9 +260,9 @@ Blocks:
       GitFetch: ""
   Directory: 1.10/windows/windowsservercore-1809
   File: ""
-  GitCommit: 8412fce8b8c25f568f809f9312e83a17e89f763a
+  GitCommit: 92a88f48304ba44b13da468ef8a35cb503f9a2dd
   Tags:
-  - 1.10.2-windowsservercore-1809
+  - 1.10.3-windowsservercore-1809
   - 1.10-windowsservercore-1809
   - 1-windowsservercore-1809
   - windowsservercore-1809
@@ -374,6 +386,105 @@ Blocks:
   Tags:
   - 1.6.7-windowsservercore-1809
   - 1.6-windowsservercore-1809
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.10/bookworm
+  File: ""
+  GitCommit: 8412fce8b8c25f568f809f9312e83a17e89f763a
+  Tags:
+  - 1.10.2-bookworm
+  - 1.10.2
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.10/bullseye
+  File: ""
+  GitCommit: 8412fce8b8c25f568f809f9312e83a17e89f763a
+  Tags:
+  - 1.10.2-bullseye
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.10/alpine3.19
+  File: ""
+  GitCommit: 8412fce8b8c25f568f809f9312e83a17e89f763a
+  Tags:
+  - 1.10.2-alpine3.19
+  - 1.10.2-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.10/alpine3.18
+  File: ""
+  GitCommit: 8412fce8b8c25f568f809f9312e83a17e89f763a
+  Tags:
+  - 1.10.2-alpine3.18
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.10/windows/windowsservercore-ltsc2022
+  File: ""
+  GitCommit: 8412fce8b8c25f568f809f9312e83a17e89f763a
+  Tags:
+  - 1.10.2-windowsservercore-ltsc2022
+  - 1.10.2-windowsservercore
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.10/windows/windowsservercore-1809
+  File: ""
+  GitCommit: 8412fce8b8c25f568f809f9312e83a17e89f763a
+  Tags:
+  - 1.10.2-windowsservercore-1809
 - Architectures:
     amd64:
       Architecture: amd64
@@ -9422,6 +9533,15 @@ KnownTags:
   1.10.2-windowsservercore: {}
   1.10.2-windowsservercore-1809: {}
   1.10.2-windowsservercore-ltsc2022: {}
+  1.10.3: {}
+  1.10.3-alpine: {}
+  1.10.3-alpine3.18: {}
+  1.10.3-alpine3.19: {}
+  1.10.3-bookworm: {}
+  1.10.3-bullseye: {}
+  1.10.3-windowsservercore: {}
+  1.10.3-windowsservercore-1809: {}
+  1.10.3-windowsservercore-ltsc2022: {}
   1.11-rc: {}
   1.11-rc-alpine: {}
   1.11-rc-alpine3.18: {}
