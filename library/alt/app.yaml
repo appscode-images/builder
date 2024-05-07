@@ -6,9 +6,28 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-    arm32v7:
-      Architecture: arm32v7
-      Directory: armh/
+    arm64v8:
+      Architecture: arm64v8
+      Directory: aarch64/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: i586/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: ""
+  GitCommit: 924b51de1708a3c8b0dd76193a414460ff721c35
+  Tags:
+  - p10
+  - latest
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: x86_64/
       File: ""
       GitCommit: ""
       GitFetch: ""
@@ -24,18 +43,11 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ppc64le/
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
   Directory: ""
   File: ""
-  GitCommit: 773acfd940ca9f9a7bd26a71f0b8d78ff088cdca
+  GitCommit: fc69e420b7b8c5b62cd3d8b13562f122ecdcc2d7
   Tags:
-  - p10
-  - latest
+  - sisyphus
 - Architectures:
     amd64:
       Architecture: amd64
@@ -72,36 +84,6 @@ Blocks:
   GitCommit: 29295d2ce735b810bf3b20938c96b7a42b72804d
   Tags:
   - p9
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: x86_64/
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: aarch64/
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    i386:
-      Architecture: i386
-      Directory: i586/
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ppc64le/
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: ""
-  File: ""
-  GitCommit: b2dc65ecb8fde29614d6b090c87418b677e82862
-  Tags:
-  - sisyphus
 - Architectures:
     amd64:
       Architecture: amd64

@@ -97,12 +97,14 @@
     "8-debian": {},
     "8-oracle": {},
     "8-oraclelinux8": {},
+    "8-oraclelinux9": {},
     "8.0": {},
     "8.0-bookworm": {},
     "8.0-bullseye": {},
     "8.0-debian": {},
     "8.0-oracle": {},
     "8.0-oraclelinux8": {},
+    "8.0-oraclelinux9": {},
     "8.0.0": {},
     "8.0.1": {},
     "8.0.11": {},
@@ -161,6 +163,7 @@
     "8.0.37-debian": {},
     "8.0.37-oracle": {},
     "8.0.37-oraclelinux8": {},
+    "8.0.37-oraclelinux9": {},
     "8.0.4": {},
     "8.0.4-rc": {},
     "8.1": {},
@@ -182,9 +185,11 @@
     "8.4": {},
     "8.4-oracle": {},
     "8.4-oraclelinux8": {},
+    "8.4-oraclelinux9": {},
     "8.4.0": {},
     "8.4.0-oracle": {},
     "8.4.0-oraclelinux8": {},
+    "8.4.0-oraclelinux9": {},
     "debian": {},
     "innovation": {},
     "innovation-oracle": {},
@@ -193,8 +198,10 @@
     "lts": {},
     "lts-oracle": {},
     "lts-oraclelinux8": {},
+    "lts-oraclelinux9": {},
     "oracle": {},
-    "oraclelinux8": {}
+    "oraclelinux8": {},
+    "oraclelinux9": {}
   },
   "Blocks": [
     {
@@ -204,16 +211,93 @@
         "8",
         "lts",
         "latest",
-        "8.4.0-oraclelinux8",
-        "8.4-oraclelinux8",
-        "8-oraclelinux8",
-        "lts-oraclelinux8",
-        "oraclelinux8",
+        "8.4.0-oraclelinux9",
+        "8.4-oraclelinux9",
+        "8-oraclelinux9",
+        "lts-oraclelinux9",
+        "oraclelinux9",
         "8.4.0-oracle",
         "8.4-oracle",
         "8-oracle",
         "lts-oracle",
         "oracle"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "a15b34a032f48089ee7b02d307d8f89a96b3bb76",
+      "Directory": "8.4",
+      "File": "Dockerfile.oracle"
+    },
+    {
+      "Tags": [
+        "8.0.37",
+        "8.0",
+        "8.0.37-oraclelinux9",
+        "8.0-oraclelinux9",
+        "8.0.37-oracle",
+        "8.0-oracle"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "a15b34a032f48089ee7b02d307d8f89a96b3bb76",
+      "Directory": "8.0",
+      "File": "Dockerfile.oracle"
+    },
+    {
+      "Tags": [
+        "8.0.37-bookworm",
+        "8.0-bookworm",
+        "8.0.37-debian",
+        "8.0-debian"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "5fe2b708e9734809d7f6554c131f0371d517bb22",
+      "Directory": "8.0",
+      "File": "Dockerfile.debian"
+    },
+    {
+      "Tags": [
+        "8.4.0-oraclelinux8",
+        "8.4-oraclelinux8",
+        "8-oraclelinux8",
+        "lts-oraclelinux8",
+        "oraclelinux8"
       ],
       "Architectures": {
         "amd64": {
@@ -237,12 +321,8 @@
     },
     {
       "Tags": [
-        "8.0.37",
-        "8.0",
         "8.0.37-oraclelinux8",
-        "8.0-oraclelinux8",
-        "8.0.37-oracle",
-        "8.0-oracle"
+        "8.0-oraclelinux8"
       ],
       "Architectures": {
         "amd64": {
@@ -263,26 +343,6 @@
       "GitCommit": "5fe2b708e9734809d7f6554c131f0371d517bb22",
       "Directory": "8.0",
       "File": "Dockerfile.oracle"
-    },
-    {
-      "Tags": [
-        "8.0.37-bookworm",
-        "8.0-bookworm",
-        "8.0.37-debian",
-        "8.0-debian"
-      ],
-      "Architectures": {
-        "amd64": {
-          "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "5fe2b708e9734809d7f6554c131f0371d517bb22",
-      "Directory": "8.0",
-      "File": "Dockerfile.debian"
     },
     {
       "Tags": [
