@@ -379,6 +379,15 @@
     "2.8.0-beta.1-windowsservercore": {},
     "2.8.0-beta.1-windowsservercore-1809": {},
     "2.8.0-beta.1-windowsservercore-ltsc2022": {},
+    "2.8.0-beta.2": {},
+    "2.8.0-beta.2-alpine": {},
+    "2.8.0-beta.2-builder": {},
+    "2.8.0-beta.2-builder-alpine": {},
+    "2.8.0-beta.2-builder-windowsservercore-1809": {},
+    "2.8.0-beta.2-builder-windowsservercore-ltsc2022": {},
+    "2.8.0-beta.2-windowsservercore": {},
+    "2.8.0-beta.2-windowsservercore-1809": {},
+    "2.8.0-beta.2-windowsservercore-ltsc2022": {},
     "alpine": {},
     "builder": {},
     "builder-alpine": {},
@@ -394,9 +403,9 @@
   "Blocks": [
     {
       "Tags": [
-        "2.8.0-beta.1-alpine",
+        "2.8.0-beta.2-alpine",
         "2.8-alpine",
-        "2.8.0-beta.1",
+        "2.8.0-beta.2",
         "2.8"
       ],
       "Architectures": {
@@ -443,15 +452,15 @@
           "File": ""
         }
       },
-      "GitCommit": "bb842e2f2671cff715a207d200b1328cb770c9f2",
+      "GitCommit": "efcb9dd09f5ed76555fe65cb641225838250486e",
       "Directory": "2.8/alpine",
       "File": ""
     },
     {
       "Tags": [
-        "2.8.0-beta.1-builder-alpine",
+        "2.8.0-beta.2-builder-alpine",
         "2.8-builder-alpine",
-        "2.8.0-beta.1-builder",
+        "2.8.0-beta.2-builder",
         "2.8-builder"
       ],
       "Architectures": {
@@ -498,15 +507,15 @@
           "File": ""
         }
       },
-      "GitCommit": "dff8340ae685a6a952b7fb08590d18462748537c",
+      "GitCommit": "efcb9dd09f5ed76555fe65cb641225838250486e",
       "Directory": "2.8/builder",
       "File": ""
     },
     {
       "Tags": [
-        "2.8.0-beta.1-windowsservercore-1809",
+        "2.8.0-beta.2-windowsservercore-1809",
         "2.8-windowsservercore-1809",
-        "2.8.0-beta.1-windowsservercore",
+        "2.8.0-beta.2-windowsservercore",
         "2.8-windowsservercore"
       ],
       "Architectures": {
@@ -518,13 +527,13 @@
           "File": ""
         }
       },
-      "GitCommit": "bb842e2f2671cff715a207d200b1328cb770c9f2",
+      "GitCommit": "efcb9dd09f5ed76555fe65cb641225838250486e",
       "Directory": "2.8/windows/1809",
       "File": ""
     },
     {
       "Tags": [
-        "2.8.0-beta.1-windowsservercore-ltsc2022",
+        "2.8.0-beta.2-windowsservercore-ltsc2022",
         "2.8-windowsservercore-ltsc2022"
       ],
       "Architectures": {
@@ -536,13 +545,13 @@
           "File": ""
         }
       },
-      "GitCommit": "bb842e2f2671cff715a207d200b1328cb770c9f2",
+      "GitCommit": "efcb9dd09f5ed76555fe65cb641225838250486e",
       "Directory": "2.8/windows/ltsc2022",
       "File": ""
     },
     {
       "Tags": [
-        "2.8.0-beta.1-builder-windowsservercore-1809",
+        "2.8.0-beta.2-builder-windowsservercore-1809",
         "2.8-builder-windowsservercore-1809"
       ],
       "Architectures": {
@@ -554,13 +563,13 @@
           "File": ""
         }
       },
-      "GitCommit": "98e68dd0425220e66e6c7425905489e35fefef67",
+      "GitCommit": "efcb9dd09f5ed76555fe65cb641225838250486e",
       "Directory": "2.8/windows-builder/1809",
       "File": ""
     },
     {
       "Tags": [
-        "2.8.0-beta.1-builder-windowsservercore-ltsc2022",
+        "2.8.0-beta.2-builder-windowsservercore-ltsc2022",
         "2.8-builder-windowsservercore-ltsc2022"
       ],
       "Architectures": {
@@ -572,7 +581,7 @@
           "File": ""
         }
       },
-      "GitCommit": "98e68dd0425220e66e6c7425905489e35fefef67",
+      "GitCommit": "efcb9dd09f5ed76555fe65cb641225838250486e",
       "Directory": "2.8/windows-builder/ltsc2022",
       "File": ""
     },
@@ -690,7 +699,7 @@
           "File": ""
         }
       },
-      "GitCommit": "dff8340ae685a6a952b7fb08590d18462748537c",
+      "GitCommit": "efcb9dd09f5ed76555fe65cb641225838250486e",
       "Directory": "2.7/builder",
       "File": ""
     },
@@ -754,7 +763,7 @@
           "File": ""
         }
       },
-      "GitCommit": "dff8340ae685a6a952b7fb08590d18462748537c",
+      "GitCommit": "efcb9dd09f5ed76555fe65cb641225838250486e",
       "Directory": "2.7/windows-builder/1809",
       "File": ""
     },
@@ -774,8 +783,183 @@
           "File": ""
         }
       },
-      "GitCommit": "dff8340ae685a6a952b7fb08590d18462748537c",
+      "GitCommit": "efcb9dd09f5ed76555fe65cb641225838250486e",
       "Directory": "2.7/windows-builder/ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.8.0-beta.1-alpine",
+        "2.8.0-beta.1"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "bb842e2f2671cff715a207d200b1328cb770c9f2",
+      "Directory": "2.8/alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.8.0-beta.1-builder-alpine",
+        "2.8.0-beta.1-builder"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "dff8340ae685a6a952b7fb08590d18462748537c",
+      "Directory": "2.8/builder",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.8.0-beta.1-windowsservercore-1809",
+        "2.8.0-beta.1-windowsservercore"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "bb842e2f2671cff715a207d200b1328cb770c9f2",
+      "Directory": "2.8/windows/1809",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.8.0-beta.1-windowsservercore-ltsc2022"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "bb842e2f2671cff715a207d200b1328cb770c9f2",
+      "Directory": "2.8/windows/ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.8.0-beta.1-builder-windowsservercore-1809"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "98e68dd0425220e66e6c7425905489e35fefef67",
+      "Directory": "2.8/windows-builder/1809",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.8.0-beta.1-builder-windowsservercore-ltsc2022"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "98e68dd0425220e66e6c7425905489e35fefef67",
+      "Directory": "2.8/windows-builder/ltsc2022",
       "File": ""
     },
     {
