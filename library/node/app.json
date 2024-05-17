@@ -5079,6 +5079,24 @@
     "22.1.0-bullseye": {},
     "22.1.0-bullseye-slim": {},
     "22.1.0-slim": {},
+    "22.2": {},
+    "22.2-alpine": {},
+    "22.2-alpine3.18": {},
+    "22.2-alpine3.19": {},
+    "22.2-bookworm": {},
+    "22.2-bookworm-slim": {},
+    "22.2-bullseye": {},
+    "22.2-bullseye-slim": {},
+    "22.2-slim": {},
+    "22.2.0": {},
+    "22.2.0-alpine": {},
+    "22.2.0-alpine3.18": {},
+    "22.2.0-alpine3.19": {},
+    "22.2.0-bookworm": {},
+    "22.2.0-bookworm-slim": {},
+    "22.2.0-bullseye": {},
+    "22.2.0-bullseye-slim": {},
+    "22.2.0-slim": {},
     "4": {},
     "4-alpine": {},
     "4-onbuild": {},
@@ -6411,8 +6429,8 @@
     {
       "Tags": [
         "22-alpine3.18",
-        "22.1-alpine3.18",
-        "22.1.0-alpine3.18",
+        "22.2-alpine3.18",
+        "22.2.0-alpine3.18",
         "alpine3.18",
         "current-alpine3.18"
       ],
@@ -6460,7 +6478,7 @@
           "File": ""
         }
       },
-      "GitCommit": "cab20530fe21ce8989854152060591c83a6a7806",
+      "GitCommit": "14ae63a78d5e38557a56822bd2b1094d038e52a4",
       "Directory": "22/alpine3.18",
       "File": ""
     },
@@ -6468,10 +6486,10 @@
       "Tags": [
         "22-alpine",
         "22-alpine3.19",
-        "22.1-alpine",
-        "22.1-alpine3.19",
-        "22.1.0-alpine",
-        "22.1.0-alpine3.19",
+        "22.2-alpine",
+        "22.2-alpine3.19",
+        "22.2.0-alpine",
+        "22.2.0-alpine3.19",
         "alpine",
         "alpine3.19",
         "current-alpine",
@@ -6521,7 +6539,7 @@
           "File": ""
         }
       },
-      "GitCommit": "cab20530fe21ce8989854152060591c83a6a7806",
+      "GitCommit": "14ae63a78d5e38557a56822bd2b1094d038e52a4",
       "Directory": "22/alpine3.19",
       "File": ""
     },
@@ -6529,10 +6547,10 @@
       "Tags": [
         "22",
         "22-bookworm",
-        "22.1",
-        "22.1-bookworm",
-        "22.1.0",
-        "22.1.0-bookworm",
+        "22.2",
+        "22.2-bookworm",
+        "22.2.0",
+        "22.2.0-bookworm",
         "bookworm",
         "current",
         "current-bookworm",
@@ -6575,7 +6593,7 @@
           "File": ""
         }
       },
-      "GitCommit": "cab20530fe21ce8989854152060591c83a6a7806",
+      "GitCommit": "14ae63a78d5e38557a56822bd2b1094d038e52a4",
       "Directory": "22/bookworm",
       "File": ""
     },
@@ -6583,10 +6601,10 @@
       "Tags": [
         "22-bookworm-slim",
         "22-slim",
-        "22.1-bookworm-slim",
-        "22.1-slim",
-        "22.1.0-bookworm-slim",
-        "22.1.0-slim",
+        "22.2-bookworm-slim",
+        "22.2-slim",
+        "22.2.0-bookworm-slim",
+        "22.2.0-slim",
         "bookworm-slim",
         "current-bookworm-slim",
         "current-slim",
@@ -6629,15 +6647,15 @@
           "File": ""
         }
       },
-      "GitCommit": "cab20530fe21ce8989854152060591c83a6a7806",
+      "GitCommit": "14ae63a78d5e38557a56822bd2b1094d038e52a4",
       "Directory": "22/bookworm-slim",
       "File": ""
     },
     {
       "Tags": [
         "22-bullseye",
-        "22.1-bullseye",
-        "22.1.0-bullseye",
+        "22.2-bullseye",
+        "22.2.0-bullseye",
         "bullseye",
         "current-bullseye"
       ],
@@ -6678,15 +6696,15 @@
           "File": ""
         }
       },
-      "GitCommit": "cab20530fe21ce8989854152060591c83a6a7806",
+      "GitCommit": "14ae63a78d5e38557a56822bd2b1094d038e52a4",
       "Directory": "22/bullseye",
       "File": ""
     },
     {
       "Tags": [
         "22-bullseye-slim",
-        "22.1-bullseye-slim",
-        "22.1.0-bullseye-slim",
+        "22.2-bullseye-slim",
+        "22.2.0-bullseye-slim",
         "bullseye-slim",
         "current-bullseye-slim"
       ],
@@ -6727,7 +6745,7 @@
           "File": ""
         }
       },
-      "GitCommit": "cab20530fe21ce8989854152060591c83a6a7806",
+      "GitCommit": "14ae63a78d5e38557a56822bd2b1094d038e52a4",
       "Directory": "22/bullseye-slim",
       "File": ""
     },
@@ -7796,6 +7814,302 @@
       },
       "GitCommit": "17bf0838eaf9d32ba6280599e51fac5269d0dfb4",
       "Directory": "18/buster-slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "22.1-alpine3.18",
+        "22.1.0-alpine3.18"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "cab20530fe21ce8989854152060591c83a6a7806",
+      "Directory": "22/alpine3.18",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "22.1-alpine",
+        "22.1-alpine3.19",
+        "22.1.0-alpine",
+        "22.1.0-alpine3.19"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "cab20530fe21ce8989854152060591c83a6a7806",
+      "Directory": "22/alpine3.19",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "22.1",
+        "22.1-bookworm",
+        "22.1.0",
+        "22.1.0-bookworm"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "cab20530fe21ce8989854152060591c83a6a7806",
+      "Directory": "22/bookworm",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "22.1-bookworm-slim",
+        "22.1-slim",
+        "22.1.0-bookworm-slim",
+        "22.1.0-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "cab20530fe21ce8989854152060591c83a6a7806",
+      "Directory": "22/bookworm-slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "22.1-bullseye",
+        "22.1.0-bullseye"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "cab20530fe21ce8989854152060591c83a6a7806",
+      "Directory": "22/bullseye",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "22.1-bullseye-slim",
+        "22.1.0-bullseye-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "cab20530fe21ce8989854152060591c83a6a7806",
+      "Directory": "22/bullseye-slim",
       "File": ""
     },
     {
