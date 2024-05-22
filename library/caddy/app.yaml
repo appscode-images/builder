@@ -38,11 +38,11 @@ Blocks:
       GitFetch: ""
   Directory: 2.8/alpine
   File: ""
-  GitCommit: efcb9dd09f5ed76555fe65cb641225838250486e
+  GitCommit: b0a0cdbc0537af7b8ee85b480262414d2179455f
   Tags:
-  - 2.8.0-beta.2-alpine
+  - 2.8.0-rc.1-alpine
   - 2.8-alpine
-  - 2.8.0-beta.2
+  - 2.8.0-rc.1
   - "2.8"
 - Architectures:
     amd64:
@@ -83,11 +83,11 @@ Blocks:
       GitFetch: ""
   Directory: 2.8/builder
   File: ""
-  GitCommit: efcb9dd09f5ed76555fe65cb641225838250486e
+  GitCommit: b0a0cdbc0537af7b8ee85b480262414d2179455f
   Tags:
-  - 2.8.0-beta.2-builder-alpine
+  - 2.8.0-rc.1-builder-alpine
   - 2.8-builder-alpine
-  - 2.8.0-beta.2-builder
+  - 2.8.0-rc.1-builder
   - 2.8-builder
 - Architectures:
     windows-amd64:
@@ -98,11 +98,11 @@ Blocks:
       GitFetch: ""
   Directory: 2.8/windows/1809
   File: ""
-  GitCommit: efcb9dd09f5ed76555fe65cb641225838250486e
+  GitCommit: b0a0cdbc0537af7b8ee85b480262414d2179455f
   Tags:
-  - 2.8.0-beta.2-windowsservercore-1809
+  - 2.8.0-rc.1-windowsservercore-1809
   - 2.8-windowsservercore-1809
-  - 2.8.0-beta.2-windowsservercore
+  - 2.8.0-rc.1-windowsservercore
   - 2.8-windowsservercore
 - Architectures:
     windows-amd64:
@@ -113,9 +113,9 @@ Blocks:
       GitFetch: ""
   Directory: 2.8/windows/ltsc2022
   File: ""
-  GitCommit: efcb9dd09f5ed76555fe65cb641225838250486e
+  GitCommit: b0a0cdbc0537af7b8ee85b480262414d2179455f
   Tags:
-  - 2.8.0-beta.2-windowsservercore-ltsc2022
+  - 2.8.0-rc.1-windowsservercore-ltsc2022
   - 2.8-windowsservercore-ltsc2022
 - Architectures:
     windows-amd64:
@@ -126,9 +126,9 @@ Blocks:
       GitFetch: ""
   Directory: 2.8/windows-builder/1809
   File: ""
-  GitCommit: efcb9dd09f5ed76555fe65cb641225838250486e
+  GitCommit: b0a0cdbc0537af7b8ee85b480262414d2179455f
   Tags:
-  - 2.8.0-beta.2-builder-windowsservercore-1809
+  - 2.8.0-rc.1-builder-windowsservercore-1809
   - 2.8-builder-windowsservercore-1809
 - Architectures:
     windows-amd64:
@@ -139,9 +139,9 @@ Blocks:
       GitFetch: ""
   Directory: 2.8/windows-builder/ltsc2022
   File: ""
-  GitCommit: efcb9dd09f5ed76555fe65cb641225838250486e
+  GitCommit: b0a0cdbc0537af7b8ee85b480262414d2179455f
   Tags:
-  - 2.8.0-beta.2-builder-windowsservercore-ltsc2022
+  - 2.8.0-rc.1-builder-windowsservercore-ltsc2022
   - 2.8-builder-windowsservercore-ltsc2022
 - Architectures:
     amd64:
@@ -305,6 +305,141 @@ Blocks:
   - 2.7-builder-windowsservercore-ltsc2022
   - 2-builder-windowsservercore-ltsc2022
   - builder-windowsservercore-ltsc2022
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 2.8/alpine
+  File: ""
+  GitCommit: efcb9dd09f5ed76555fe65cb641225838250486e
+  Tags:
+  - 2.8.0-beta.2-alpine
+  - 2.8.0-beta.2
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 2.8/builder
+  File: ""
+  GitCommit: efcb9dd09f5ed76555fe65cb641225838250486e
+  Tags:
+  - 2.8.0-beta.2-builder-alpine
+  - 2.8.0-beta.2-builder
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 2.8/windows/1809
+  File: ""
+  GitCommit: efcb9dd09f5ed76555fe65cb641225838250486e
+  Tags:
+  - 2.8.0-beta.2-windowsservercore-1809
+  - 2.8.0-beta.2-windowsservercore
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 2.8/windows/ltsc2022
+  File: ""
+  GitCommit: efcb9dd09f5ed76555fe65cb641225838250486e
+  Tags:
+  - 2.8.0-beta.2-windowsservercore-ltsc2022
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 2.8/windows-builder/1809
+  File: ""
+  GitCommit: efcb9dd09f5ed76555fe65cb641225838250486e
+  Tags:
+  - 2.8.0-beta.2-builder-windowsservercore-1809
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 2.8/windows-builder/ltsc2022
+  File: ""
+  GitCommit: efcb9dd09f5ed76555fe65cb641225838250486e
+  Tags:
+  - 2.8.0-beta.2-builder-windowsservercore-ltsc2022
 - Architectures:
     amd64:
       Architecture: amd64
@@ -5712,6 +5847,15 @@ KnownTags:
   2.8.0-beta.2-windowsservercore: {}
   2.8.0-beta.2-windowsservercore-1809: {}
   2.8.0-beta.2-windowsservercore-ltsc2022: {}
+  2.8.0-rc.1: {}
+  2.8.0-rc.1-alpine: {}
+  2.8.0-rc.1-builder: {}
+  2.8.0-rc.1-builder-alpine: {}
+  2.8.0-rc.1-builder-windowsservercore-1809: {}
+  2.8.0-rc.1-builder-windowsservercore-ltsc2022: {}
+  2.8.0-rc.1-windowsservercore: {}
+  2.8.0-rc.1-windowsservercore-1809: {}
+  2.8.0-rc.1-windowsservercore-ltsc2022: {}
   alpine: {}
   builder: {}
   builder-alpine: {}
