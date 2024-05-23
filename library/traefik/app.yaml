@@ -8,10 +8,10 @@ Blocks:
       GitFetch: ""
   Directory: windows/servercore-ltsc2022
   File: ""
-  GitCommit: eb153677fb43d1956c1c17725e74d9a7ae16b659
+  GitCommit: 2caca4e184cbc99169ad4043d35e3482548c3410
   Tags:
-  - v3.0.0-windowsservercore-ltsc2022
-  - 3.0.0-windowsservercore-ltsc2022
+  - v3.0.1-windowsservercore-ltsc2022
+  - 3.0.1-windowsservercore-ltsc2022
   - v3.0-windowsservercore-ltsc2022
   - 3.0-windowsservercore-ltsc2022
   - beaufort-windowsservercore-ltsc2022
@@ -25,10 +25,10 @@ Blocks:
       GitFetch: ""
   Directory: windows/1809
   File: ""
-  GitCommit: eb153677fb43d1956c1c17725e74d9a7ae16b659
+  GitCommit: 2caca4e184cbc99169ad4043d35e3482548c3410
   Tags:
-  - v3.0.0-windowsservercore-1809
-  - 3.0.0-windowsservercore-1809
+  - v3.0.1-windowsservercore-1809
+  - 3.0.1-windowsservercore-1809
   - v3.0-windowsservercore-1809
   - 3.0-windowsservercore-1809
   - beaufort-windowsservercore-1809
@@ -42,10 +42,10 @@ Blocks:
       GitFetch: ""
   Directory: windows/nanoserver-ltsc2022
   File: ""
-  GitCommit: 9e921bd38d6f64eca79a681f5d945b99f279a7f4
+  GitCommit: 2caca4e184cbc99169ad4043d35e3482548c3410
   Tags:
-  - v3.0.0-nanoserver-ltsc2022
-  - 3.0.0-nanoserver-ltsc2022
+  - v3.0.1-nanoserver-ltsc2022
+  - 3.0.1-nanoserver-ltsc2022
   - v3.0-nanoserver-ltsc2022
   - 3.0-nanoserver-ltsc2022
   - beaufort-nanoserver-ltsc2022
@@ -83,10 +83,10 @@ Blocks:
       GitFetch: ""
   Directory: alpine
   File: ""
-  GitCommit: eb153677fb43d1956c1c17725e74d9a7ae16b659
+  GitCommit: 2caca4e184cbc99169ad4043d35e3482548c3410
   Tags:
-  - v3.0.0
-  - 3.0.0
+  - v3.0.1
+  - 3.0.1
   - v3.0
   - "3.0"
   - beaufort
@@ -179,6 +179,82 @@ Blocks:
   - v2.11
   - "2.11"
   - mimolette
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: windows/servercore-ltsc2022
+  File: ""
+  GitCommit: eb153677fb43d1956c1c17725e74d9a7ae16b659
+  Tags:
+  - v3.0.0-windowsservercore-ltsc2022
+  - 3.0.0-windowsservercore-ltsc2022
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: windows/1809
+  File: ""
+  GitCommit: eb153677fb43d1956c1c17725e74d9a7ae16b659
+  Tags:
+  - v3.0.0-windowsservercore-1809
+  - 3.0.0-windowsservercore-1809
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: windows/nanoserver-ltsc2022
+  File: ""
+  GitCommit: 9e921bd38d6f64eca79a681f5d945b99f279a7f4
+  Tags:
+  - v3.0.0-nanoserver-ltsc2022
+  - 3.0.0-nanoserver-ltsc2022
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: alpine
+  File: ""
+  GitCommit: eb153677fb43d1956c1c17725e74d9a7ae16b659
+  Tags:
+  - v3.0.0
+  - 3.0.0
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -11797,6 +11873,10 @@ KnownTags:
   3.0.0-rc5-windowsservercore-ltsc2022: {}
   3.0.0-windowsservercore-1809: {}
   3.0.0-windowsservercore-ltsc2022: {}
+  3.0.1: {}
+  3.0.1-nanoserver-ltsc2022: {}
+  3.0.1-windowsservercore-1809: {}
+  3.0.1-windowsservercore-ltsc2022: {}
   alpine: {}
   banon: {}
   banon-windowsservercore-1809: {}
@@ -12499,6 +12579,10 @@ KnownTags:
   v3.0.0-rc5-windowsservercore-ltsc2022: {}
   v3.0.0-windowsservercore-1809: {}
   v3.0.0-windowsservercore-ltsc2022: {}
+  v3.0.1: {}
+  v3.0.1-nanoserver-ltsc2022: {}
+  v3.0.1-windowsservercore-1809: {}
+  v3.0.1-windowsservercore-ltsc2022: {}
   vacherin: {}
   vacherin-windowsservercore-1809: {}
   windowsservercore-1809: {}
