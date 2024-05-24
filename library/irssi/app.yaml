@@ -97,6 +97,67 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: alpine
+  File: ""
+  GitCommit: ce043e84f00a74532313e8a6203bc8b96194c28a
+  Tags:
+  - 1.4.5-alpine
+  - 1.4-alpine
+  - 1-alpine
+  - alpine
+  - 1.4.5-alpine3.20
+  - 1.4-alpine3.20
+  - 1-alpine3.20
+  - alpine3.20
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
     s390x:
       Architecture: s390x
       Directory: ""
@@ -107,10 +168,6 @@ Blocks:
   File: ""
   GitCommit: a3a3f65ed35b33c791a86af4383b5129ab7b7721
   Tags:
-  - 1.4.5-alpine
-  - 1.4-alpine
-  - 1-alpine
-  - alpine
   - 1.4.5-alpine3.18
   - 1.4-alpine3.18
   - 1-alpine3.18
@@ -1657,6 +1714,7 @@ KnownTags:
   1-alpine: {}
   1-alpine3.17: {}
   1-alpine3.18: {}
+  1-alpine3.20: {}
   1-bookworm: {}
   1-bullseye: {}
   "1.0": {}
@@ -1697,6 +1755,7 @@ KnownTags:
   1.4-alpine: {}
   1.4-alpine3.17: {}
   1.4-alpine3.18: {}
+  1.4-alpine3.20: {}
   1.4-bookworm: {}
   1.4-bullseye: {}
   1.4.1: {}
@@ -1714,10 +1773,12 @@ KnownTags:
   1.4.5: {}
   1.4.5-alpine: {}
   1.4.5-alpine3.18: {}
+  1.4.5-alpine3.20: {}
   1.4.5-bookworm: {}
   alpine: {}
   alpine3.17: {}
   alpine3.18: {}
+  alpine3.20: {}
   bookworm: {}
   bullseye: {}
   latest: {}
