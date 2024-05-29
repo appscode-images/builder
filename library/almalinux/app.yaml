@@ -26,11 +26,11 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: ""
-  GitCommit: 7aee1db985cc9ebb0347f2f4875f301fa4b09ab7
+  GitCommit: 88d9aea4fbb24eee1aaf9184954e583993e750f9
   Tags:
   - "8"
-  - "8.9"
-  - 8.9-20240410
+  - "8.10"
+  - 8.10-20240528
 - Architectures:
     amd64:
       Architecture: amd64
@@ -58,11 +58,11 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: ""
-  GitCommit: 265e51205d22917cbc7c60839c131dea85296705
+  GitCommit: 88d9aea4fbb24eee1aaf9184954e583993e750f9
   Tags:
   - 8-minimal
-  - 8.9-minimal
-  - 8.9-minimal-20240410
+  - 8.10-minimal
+  - 8.10-minimal-20240528
 - Architectures:
     amd64:
       Architecture: amd64
@@ -129,6 +129,68 @@ Blocks:
   - 9-minimal
   - 9.4-minimal
   - 9.4-minimal-20240506
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: default/amd64/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: default/arm64/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: default/ppc64le/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: default/s390x/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: ""
+  GitCommit: 7aee1db985cc9ebb0347f2f4875f301fa4b09ab7
+  Tags:
+  - "8.9"
+  - 8.9-20240410
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: minimal/amd64/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: minimal/arm64/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: minimal/ppc64le/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: minimal/s390x/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: ""
+  GitCommit: 265e51205d22917cbc7c60839c131dea85296705
+  Tags:
+  - 8.9-minimal
+  - 8.9-minimal-20240410
 - Architectures:
     amd64:
       Architecture: amd64
@@ -2081,6 +2143,10 @@ KnownTags:
   8.9-minimal-20231122: {}
   8.9-minimal-20231124: {}
   8.9-minimal-20240410: {}
+  "8.10": {}
+  8.10-20240528: {}
+  8.10-minimal: {}
+  8.10-minimal-20240528: {}
   "9": {}
   9-minimal: {}
   "9.0": {}
