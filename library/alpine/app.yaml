@@ -50,9 +50,9 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: ""
-  GitCommit: a89bb0df27ce47646e8f9955934f0d0093c2d18e
+  GitCommit: 75a51b285731679e7c39c2e3c1cae4edcd6851e5
   Tags:
-  - "20240329"
+  - "20240606"
   - edge
 - Architectures:
     amd64:
@@ -258,6 +258,60 @@ Blocks:
   Tags:
   - 3.17.7
   - "3.17"
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: x86_64/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: armhf/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: armv7/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: aarch64/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: x86/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ppc64le/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: riscv64/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: s390x/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: ""
+  GitCommit: a89bb0df27ce47646e8f9955934f0d0093c2d18e
+  Tags:
+  - "20240329"
 - Architectures:
     amd64:
       Architecture: amd64
@@ -6812,6 +6866,7 @@ KnownTags:
   "20231219": {}
   "20240315": {}
   "20240329": {}
+  "20240606": {}
   edge: {}
   latest: {}
 Name: alpine

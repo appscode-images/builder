@@ -20,14 +20,14 @@ Blocks:
       GitFetch: ""
   Directory: chronograf/1.7
   File: ""
-  GitCommit: 1a58dee982ca7f110b9d7478f55c6ee2837ec3bb
+  GitCommit: 0854be83296d30acd6e2b75f106f026cb051cbda
   Tags:
   - "1.7"
   - 1.7.17
 - Architectures: null
   Directory: chronograf/1.7/alpine
   File: ""
-  GitCommit: 1a58dee982ca7f110b9d7478f55c6ee2837ec3bb
+  GitCommit: 0854be83296d30acd6e2b75f106f026cb051cbda
   Tags:
   - 1.7-alpine
   - 1.7.17-alpine
@@ -52,14 +52,14 @@ Blocks:
       GitFetch: ""
   Directory: chronograf/1.8
   File: ""
-  GitCommit: 1a58dee982ca7f110b9d7478f55c6ee2837ec3bb
+  GitCommit: 0854be83296d30acd6e2b75f106f026cb051cbda
   Tags:
   - "1.8"
   - 1.8.10
 - Architectures: null
   Directory: chronograf/1.8/alpine
   File: ""
-  GitCommit: 1a58dee982ca7f110b9d7478f55c6ee2837ec3bb
+  GitCommit: 0854be83296d30acd6e2b75f106f026cb051cbda
   Tags:
   - 1.8-alpine
   - 1.8.10-alpine
@@ -84,14 +84,14 @@ Blocks:
       GitFetch: ""
   Directory: chronograf/1.9
   File: ""
-  GitCommit: 1a58dee982ca7f110b9d7478f55c6ee2837ec3bb
+  GitCommit: 0854be83296d30acd6e2b75f106f026cb051cbda
   Tags:
   - "1.9"
   - 1.9.4
 - Architectures: null
   Directory: chronograf/1.9/alpine
   File: ""
-  GitCommit: 1a58dee982ca7f110b9d7478f55c6ee2837ec3bb
+  GitCommit: 0854be83296d30acd6e2b75f106f026cb051cbda
   Tags:
   - 1.9-alpine
   - 1.9.4-alpine
@@ -116,19 +116,49 @@ Blocks:
       GitFetch: ""
   Directory: chronograf/1.10
   File: ""
-  GitCommit: 1a58dee982ca7f110b9d7478f55c6ee2837ec3bb
+  GitCommit: 0854be83296d30acd6e2b75f106f026cb051cbda
   Tags:
   - "1.10"
-  - 1.10.4
+  - 1.10.5
   - latest
+- Architectures: null
+  Directory: chronograf/1.10/alpine
+  File: ""
+  GitCommit: 0854be83296d30acd6e2b75f106f026cb051cbda
+  Tags:
+  - 1.10-alpine
+  - 1.10.5-alpine
+  - alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: chronograf/1.10
+  File: ""
+  GitCommit: 1a58dee982ca7f110b9d7478f55c6ee2837ec3bb
+  Tags:
+  - 1.10.4
 - Architectures: null
   Directory: chronograf/1.10/alpine
   File: ""
   GitCommit: 1a58dee982ca7f110b9d7478f55c6ee2837ec3bb
   Tags:
-  - 1.10-alpine
   - 1.10.4-alpine
-  - alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1942,6 +1972,8 @@ KnownTags:
   1.10.3-alpine: {}
   1.10.4: {}
   1.10.4-alpine: {}
+  1.10.5: {}
+  1.10.5-alpine: {}
   alpine: {}
   latest: {}
 Name: chronograf

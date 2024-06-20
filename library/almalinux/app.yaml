@@ -90,11 +90,74 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: ""
-  GitCommit: 35df378109dcb34fe4aa7c6105ec748bafcda307
+  GitCommit: ae4de0cbc927f1caf1a9d137d8f6cf69455dffe9
   Tags:
   - latest
   - "9"
   - "9.4"
+  - 9.4-20240530
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: minimal/amd64/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: minimal/arm64/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: minimal/ppc64le/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: minimal/s390x/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: ""
+  GitCommit: ae4de0cbc927f1caf1a9d137d8f6cf69455dffe9
+  Tags:
+  - minimal
+  - 9-minimal
+  - 9.4-minimal
+  - 9.4-minimal-20240530
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: default/amd64/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: default/arm64/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: default/ppc64le/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: default/s390x/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: ""
+  GitCommit: 35df378109dcb34fe4aa7c6105ec748bafcda307
+  Tags:
   - 9.4-20240506
 - Architectures:
     amd64:
@@ -125,9 +188,6 @@ Blocks:
   File: ""
   GitCommit: 35df378109dcb34fe4aa7c6105ec748bafcda307
   Tags:
-  - minimal
-  - 9-minimal
-  - 9.4-minimal
   - 9.4-minimal-20240506
 - Architectures:
     amd64:
@@ -2193,8 +2253,10 @@ KnownTags:
   9.3-minimal-20240410: {}
   "9.4": {}
   9.4-20240506: {}
+  9.4-20240530: {}
   9.4-minimal: {}
   9.4-minimal-20240506: {}
+  9.4-minimal-20240530: {}
   latest: {}
   minimal: {}
 Name: almalinux

@@ -12,18 +12,60 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+  Directory: 9.10/buster
+  File: ""
+  GitCommit: ca3084159e14e2a753fe633789347a9d8633e5ea
+  Tags:
+  - 9.10.1-buster
+  - 9.10-buster
+  - 9-buster
+  - buster
+  - "9"
+  - latest
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 9.10/slim-buster
+  File: ""
+  GitCommit: ca3084159e14e2a753fe633789347a9d8633e5ea
+  Tags:
+  - 9.10.1-slim-buster
+  - 9.10-slim-buster
+  - 9-slim-buster
+  - slim-buster
+  - 9-slim
+  - slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
   Directory: 9.8/buster
   File: ""
   GitCommit: a722a82c30fa5e321bae769bbd7720e3a3ba874e
   Tags:
   - 9.8.2-buster
   - 9.8-buster
-  - 9-buster
-  - buster
   - 9.8.2
   - "9.8"
-  - "9"
-  - latest
 - Architectures:
     amd64:
       Architecture: amd64
@@ -43,12 +85,8 @@ Blocks:
   Tags:
   - 9.8.2-slim-buster
   - 9.8-slim-buster
-  - 9-slim-buster
-  - slim-buster
   - 9.8.2-slim
   - 9.8-slim
-  - 9-slim
-  - slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1321,6 +1359,10 @@ KnownTags:
   9.8.2-buster: {}
   9.8.2-slim: {}
   9.8.2-slim-buster: {}
+  9.10-buster: {}
+  9.10-slim-buster: {}
+  9.10.1-buster: {}
+  9.10.1-slim-buster: {}
   buster: {}
   latest: {}
   slim: {}
