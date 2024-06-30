@@ -93,13 +93,28 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+  Directory: ubuntu
+  File: ""
+  GitCommit: 3fe94ba928bf75b385bd98aa2d5ad07b86fd3eb8
+  Tags:
+  - 2.8.5-ubuntu
+  - 2.8-ubuntu
+  - 2.8.5
+  - "2.8"
+  - "2"
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
   Directory: alpine
   File: ""
   GitCommit: 1c31704cdc9bbd2c0a20e5479eb307140339582b
   Tags:
   - 2.8.4-alpine
   - 2.8.4
-  - "2.8"
 - Architectures:
     amd64:
       Architecture: amd64
@@ -112,7 +127,6 @@ Blocks:
   GitCommit: 1c31704cdc9bbd2c0a20e5479eb307140339582b
   Tags:
   - 2.8.4-ubuntu
-  - 2.8-ubuntu
 - Architectures:
     amd64:
       Architecture: amd64
@@ -983,24 +997,6 @@ Blocks:
   GitCommit: ff3efa2c53e785e655a9c7de24c8111a373900cb
   Tags:
   - 2.5.0-centos
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: alpine
-  File: ""
-  GitCommit: e1b0a6c7eddd327926027692863a9900fd856977
-  Tags:
-  - "2"
 - Architectures:
     amd64:
       Architecture: amd64
@@ -3566,6 +3562,8 @@ KnownTags:
   2.8.4: {}
   2.8.4-alpine: {}
   2.8.4-ubuntu: {}
+  2.8.5: {}
+  2.8.5-ubuntu: {}
   "3": {}
   "3.0": {}
   3.0-alpine: {}

@@ -50,11 +50,11 @@ Blocks:
       GitFetch: ""
   Directory: 7.4-rc/debian
   File: ""
-  GitCommit: 0d682fed252b85f39d2033294eab217be02f95a1
+  GitCommit: c828d8c6d982f0d45e1e8f564aae50b42f6d1ec0
   Tags:
-  - 7.4-rc1
+  - 7.4-rc2
   - 7.4-rc
-  - 7.4-rc1-bookworm
+  - 7.4-rc2-bookworm
   - 7.4-rc-bookworm
 - Architectures:
     amd64:
@@ -107,11 +107,11 @@ Blocks:
       GitFetch: ""
   Directory: 7.4-rc/alpine
   File: ""
-  GitCommit: 0d682fed252b85f39d2033294eab217be02f95a1
+  GitCommit: c828d8c6d982f0d45e1e8f564aae50b42f6d1ec0
   Tags:
-  - 7.4-rc1-alpine
+  - 7.4-rc2-alpine
   - 7.4-rc-alpine
-  - 7.4-rc1-alpine3.20
+  - 7.4-rc2-alpine3.20
   - 7.4-rc-alpine3.20
 - Architectures:
     amd64:
@@ -467,6 +467,116 @@ Blocks:
   - 6.2.14-alpine3.20
   - 6.2-alpine3.20
   - 6-alpine3.20
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 7.4-rc/debian
+  File: ""
+  GitCommit: 0d682fed252b85f39d2033294eab217be02f95a1
+  Tags:
+  - 7.4-rc1
+  - 7.4-rc1-bookworm
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 7.4-rc/alpine
+  File: ""
+  GitCommit: 0d682fed252b85f39d2033294eab217be02f95a1
+  Tags:
+  - 7.4-rc1-alpine
+  - 7.4-rc1-alpine3.20
 - Architectures:
     amd64:
       Architecture: amd64
@@ -13954,7 +14064,7 @@ Blocks:
   GitCommit: 2daf4fd7d858c8f2ad9694c4f460b8c6a7f782aa
   Tags:
   - 3.2.7-nanoserver
-GitRepo: https://github.com/docker-library/redis.git
+GitRepo: https://github.com/redis/docker-library-redis.git
 KnownTags:
   "2": {}
   2-32bit: {}
@@ -14698,6 +14808,10 @@ KnownTags:
   7.4-rc1-alpine: {}
   7.4-rc1-alpine3.20: {}
   7.4-rc1-bookworm: {}
+  7.4-rc2: {}
+  7.4-rc2-alpine: {}
+  7.4-rc2-alpine3.20: {}
+  7.4-rc2-bookworm: {}
   32bit: {}
   32bit-buster: {}
   32bit-stretch: {}
