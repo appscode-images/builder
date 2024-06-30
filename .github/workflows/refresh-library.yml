@@ -12,9 +12,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      workflows: write
-
     steps:
     - uses: actions/checkout@v4
 
@@ -34,7 +31,7 @@ jobs:
         git config --global \
           url."https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com".insteadOf \
           "https://github.com"
-        # git remote set-url origin https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+        git remote set-url origin https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
 
     - name: Refresh Library
       run: |
