@@ -304,6 +304,7 @@
     "jammy-20240416": {},
     "jammy-20240427": {},
     "jammy-20240530": {},
+    "jammy-20240627.1": {},
     "kinetic": {},
     "kinetic-20220428": {},
     "kinetic-20220602": {},
@@ -369,6 +370,7 @@
     "noble-20240605": {},
     "oracular": {},
     "oracular-20240527": {},
+    "oracular-20240617": {},
     "precise": {},
     "precise-20160624": {},
     "precise-20160707": {},
@@ -569,43 +571,43 @@
     {
       "Tags": [
         "22.04",
-        "jammy-20240530",
+        "jammy-20240627.1",
         "jammy"
       ],
       "Architectures": {
         "amd64": {
           "Architecture": "amd64",
           "Directory": "",
-          "GitFetch": "refs/tags/dist-jammy-amd64-20240530-457c5d99",
-          "GitCommit": "457c5d999100a1eb971d38949b3fe798a84ad6fc",
+          "GitFetch": "refs/tags/dist-jammy-amd64-20240627.1-0d60927a",
+          "GitCommit": "0d60927a24b045adcfbdb9a80b7db3bf6bd9fd9b",
           "File": ""
         },
         "arm32v7": {
           "Architecture": "arm32v7",
           "Directory": "",
-          "GitFetch": "refs/tags/dist-jammy-arm32v7-20240530-cb8aec3b",
-          "GitCommit": "cb8aec3befa032f77c6d908cab4647b47423bee8",
+          "GitFetch": "refs/tags/dist-jammy-arm32v7-20240627.1-5b6a7c17",
+          "GitCommit": "5b6a7c17f78799227b503f29df01fa7fe1e56c9b",
           "File": ""
         },
         "arm64v8": {
           "Architecture": "arm64v8",
           "Directory": "",
-          "GitFetch": "refs/tags/dist-jammy-arm64v8-20240530-452cbac0",
-          "GitCommit": "452cbac0dd6d50d9767f1747e524dd2ac1ecb7e1",
+          "GitFetch": "refs/tags/dist-jammy-arm64v8-20240627.1-d47abe04",
+          "GitCommit": "d47abe04c6c13635d4628f1cbfd1d63c9f94ed35",
           "File": ""
         },
         "ppc64le": {
           "Architecture": "ppc64le",
           "Directory": "",
-          "GitFetch": "refs/tags/dist-jammy-ppc64le-20240530-ff2b54af",
-          "GitCommit": "ff2b54af38571002fca11e0a978febcd1ae518d3",
+          "GitFetch": "refs/tags/dist-jammy-ppc64le-20240627.1-7d7362be",
+          "GitCommit": "7d7362be4225ab4bbaee41d8ea83d685db0bde84",
           "File": ""
         },
         "s390x": {
           "Architecture": "s390x",
           "Directory": "",
-          "GitFetch": "refs/tags/dist-jammy-s390x-20240530-bfac089a",
-          "GitCommit": "bfac089a257f94de2f703169a14babb7addf6eba",
+          "GitFetch": "refs/tags/dist-jammy-s390x-20240627.1-9391c7d3",
+          "GitCommit": "9391c7d3240a49e6c76843ccf3342a2c9f4da90f",
           "File": ""
         }
       },
@@ -712,9 +714,106 @@
     {
       "Tags": [
         "24.10",
-        "oracular-20240527",
+        "oracular-20240617",
         "oracular",
         "devel"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "refs/tags/dist-oracular-amd64-20240617-43acaa26",
+          "GitCommit": "43acaa26848f20fe7885f00637b5342967c8ae23",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "refs/tags/dist-oracular-arm32v7-20240617-d1cb9fc4",
+          "GitCommit": "d1cb9fc46917d0af125b08e92a014ad2986d59e8",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "refs/tags/dist-oracular-arm64v8-20240617-e426dff0",
+          "GitCommit": "e426dff000932a97beb2202ab8ac64a928bfc597",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "refs/tags/dist-oracular-ppc64le-20240617-7f1e93e9",
+          "GitCommit": "7f1e93e982b0c6a769d67120daabdb43f828f58f",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "refs/tags/dist-oracular-riscv64-20240617-4cf6497f",
+          "GitCommit": "4cf6497f31557724298f55baeeb312534e308486",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "refs/tags/dist-oracular-s390x-20240617-499ce1a7",
+          "GitCommit": "499ce1a75f253d893454c2af1f7209788128f415",
+          "File": ""
+        }
+      },
+      "GitCommit": "fa42be9027eccb928a1f0f43d95ffd9a45d36737",
+      "Directory": "oci",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "jammy-20240530"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "refs/tags/dist-jammy-amd64-20240530-457c5d99",
+          "GitCommit": "457c5d999100a1eb971d38949b3fe798a84ad6fc",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "refs/tags/dist-jammy-arm32v7-20240530-cb8aec3b",
+          "GitCommit": "cb8aec3befa032f77c6d908cab4647b47423bee8",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "refs/tags/dist-jammy-arm64v8-20240530-452cbac0",
+          "GitCommit": "452cbac0dd6d50d9767f1747e524dd2ac1ecb7e1",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "refs/tags/dist-jammy-ppc64le-20240530-ff2b54af",
+          "GitCommit": "ff2b54af38571002fca11e0a978febcd1ae518d3",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "refs/tags/dist-jammy-s390x-20240530-bfac089a",
+          "GitCommit": "bfac089a257f94de2f703169a14babb7addf6eba",
+          "File": ""
+        }
+      },
+      "GitCommit": "fa42be9027eccb928a1f0f43d95ffd9a45d36737",
+      "Directory": "oci",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "oracular-20240527"
       ],
       "Architectures": {
         "amd64": {
