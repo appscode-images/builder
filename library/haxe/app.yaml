@@ -18,12 +18,12 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 4.3/bullseye
+  Directory: 4.3/bookworm
   File: ""
-  GitCommit: 882ff89f78244a8a5b05faaf7d4fe9933528f6ca
+  GitCommit: 1cff33784d835b54074b7befa1ee159877ede9bf
   Tags:
-  - 4.3.4-bullseye
-  - 4.3-bullseye
+  - 4.3.4-bookworm
+  - 4.3-bookworm
   - 4.3.4
   - "4.3"
   - latest
@@ -46,12 +46,12 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 4.3/buster
+  Directory: 4.3/bullseye
   File: ""
   GitCommit: 882ff89f78244a8a5b05faaf7d4fe9933528f6ca
   Tags:
-  - 4.3.4-buster
-  - 4.3-buster
+  - 4.3.4-bullseye
+  - 4.3-bullseye
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -177,12 +177,12 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 4.2/bullseye
+  Directory: 4.2/bookworm
   File: ""
-  GitCommit: 5a0bf6fd06e6c8ec052cf0a2bbd83b39932a1839
+  GitCommit: 1cff33784d835b54074b7befa1ee159877ede9bf
   Tags:
-  - 4.2.5-bullseye
-  - 4.2-bullseye
+  - 4.2.5-bookworm
+  - 4.2-bookworm
   - 4.2.5
   - "4.2"
 - Architectures:
@@ -204,12 +204,12 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 4.2/buster
+  Directory: 4.2/bullseye
   File: ""
   GitCommit: 5a0bf6fd06e6c8ec052cf0a2bbd83b39932a1839
   Tags:
-  - 4.2.5-buster
-  - 4.2-buster
+  - 4.2.5-bullseye
+  - 4.2-bullseye
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -344,31 +344,6 @@ Blocks:
   - 4.1.5
   - "4.1"
 - Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm32v7:
-      Architecture: arm32v7
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: 4.1/buster
-  File: ""
-  GitCommit: 5a0bf6fd06e6c8ec052cf0a2bbd83b39932a1839
-  Tags:
-  - 4.1.5-buster
-  - 4.1-buster
-- Architectures:
     windows-amd64:
       Architecture: windows-amd64
       Directory: ""
@@ -502,31 +477,6 @@ Blocks:
   - 4.0.5
   - "4.0"
 - Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm32v7:
-      Architecture: arm32v7
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: 4.0/buster
-  File: ""
-  GitCommit: 5a0bf6fd06e6c8ec052cf0a2bbd83b39932a1839
-  Tags:
-  - 4.0.5-buster
-  - 4.0-buster
-- Architectures:
     windows-amd64:
       Architecture: windows-amd64
       Directory: ""
@@ -632,6 +582,106 @@ Blocks:
   Tags:
   - 4.0.5-alpine3.16
   - 4.0-alpine3.16
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 4.3/buster
+  File: ""
+  GitCommit: 882ff89f78244a8a5b05faaf7d4fe9933528f6ca
+  Tags:
+  - 4.3.4-buster
+  - 4.3-buster
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 4.2/buster
+  File: ""
+  GitCommit: 5a0bf6fd06e6c8ec052cf0a2bbd83b39932a1839
+  Tags:
+  - 4.2.5-buster
+  - 4.2-buster
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 4.1/buster
+  File: ""
+  GitCommit: 5a0bf6fd06e6c8ec052cf0a2bbd83b39932a1839
+  Tags:
+  - 4.1.5-buster
+  - 4.1-buster
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 4.0/buster
+  File: ""
+  GitCommit: 5a0bf6fd06e6c8ec052cf0a2bbd83b39932a1839
+  Tags:
+  - 4.0.5-buster
+  - 4.0-buster
 - Architectures:
     amd64:
       Architecture: amd64
@@ -6993,6 +7043,7 @@ KnownTags:
   4.2-alpine3.17: {}
   4.2-alpine3.18: {}
   4.2-alpine3.19: {}
+  4.2-bookworm: {}
   4.2-bullseye: {}
   4.2-buster: {}
   4.2-windowsservercore: {}
@@ -7065,6 +7116,7 @@ KnownTags:
   4.2.5-alpine3.17: {}
   4.2.5-alpine3.18: {}
   4.2.5-alpine3.19: {}
+  4.2.5-bookworm: {}
   4.2.5-bullseye: {}
   4.2.5-buster: {}
   4.2.5-windowsservercore: {}
@@ -7078,6 +7130,7 @@ KnownTags:
   4.3-alpine3.17: {}
   4.3-alpine3.18: {}
   4.3-alpine3.19: {}
+  4.3-bookworm: {}
   4.3-bullseye: {}
   4.3-buster: {}
   4.3-windowsservercore: {}
@@ -7135,6 +7188,7 @@ KnownTags:
   4.3.4-alpine3.17: {}
   4.3.4-alpine3.18: {}
   4.3.4-alpine3.19: {}
+  4.3.4-bookworm: {}
   4.3.4-bullseye: {}
   4.3.4-buster: {}
   4.3.4-windowsservercore: {}
