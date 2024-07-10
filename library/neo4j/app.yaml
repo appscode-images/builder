@@ -12,20 +12,20 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 5.21.0/bullseye/community
+  Directory: 5.21.2/bullseye/community
   File: ""
-  GitCommit: b1989e4b7222c257c56a1fc432b8bad090c159b8
+  GitCommit: ffbc64121d15ea1e1fa75115ab0d1dae0f729ffb
   Tags:
-  - 5.21.0-community-bullseye
+  - 5.21.2-community-bullseye
   - 5.21-community-bullseye
   - 5-community-bullseye
-  - 5.21.0-community
+  - 5.21.2-community
   - 5.21-community
   - 5-community
-  - 5.21.0-bullseye
+  - 5.21.2-bullseye
   - 5.21-bullseye
   - 5-bullseye
-  - 5.21.0
+  - 5.21.2
   - "5.21"
   - "5"
   - community-bullseye
@@ -45,14 +45,14 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 5.21.0/bullseye/enterprise
+  Directory: 5.21.2/bullseye/enterprise
   File: ""
-  GitCommit: b1989e4b7222c257c56a1fc432b8bad090c159b8
+  GitCommit: ffbc64121d15ea1e1fa75115ab0d1dae0f729ffb
   Tags:
-  - 5.21.0-enterprise-bullseye
+  - 5.21.2-enterprise-bullseye
   - 5.21-enterprise-bullseye
   - 5-enterprise-bullseye
-  - 5.21.0-enterprise
+  - 5.21.2-enterprise
   - 5.21-enterprise
   - 5-enterprise
   - enterprise-bullseye
@@ -70,14 +70,14 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 5.21.0/ubi9/community
+  Directory: 5.21.2/ubi9/community
   File: ""
-  GitCommit: b1989e4b7222c257c56a1fc432b8bad090c159b8
+  GitCommit: ffbc64121d15ea1e1fa75115ab0d1dae0f729ffb
   Tags:
-  - 5.21.0-community-ubi9
+  - 5.21.2-community-ubi9
   - 5.21-community-ubi9
   - 5-community-ubi9
-  - 5.21.0-ubi9
+  - 5.21.2-ubi9
   - 5.21-ubi9
   - 5-ubi9
   - community-ubi9
@@ -95,11 +95,11 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 5.21.0/ubi9/enterprise
+  Directory: 5.21.2/ubi9/enterprise
   File: ""
-  GitCommit: b1989e4b7222c257c56a1fc432b8bad090c159b8
+  GitCommit: ffbc64121d15ea1e1fa75115ab0d1dae0f729ffb
   Tags:
-  - 5.21.0-enterprise-ubi9
+  - 5.21.2-enterprise-ubi9
   - 5.21-enterprise-ubi9
   - 5-enterprise-ubi9
   - enterprise-ubi9
@@ -143,6 +143,83 @@ Blocks:
   Tags:
   - 4.4.35-enterprise
   - 4.4-enterprise
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 5.21.0/bullseye/community
+  File: ""
+  GitCommit: b1989e4b7222c257c56a1fc432b8bad090c159b8
+  Tags:
+  - 5.21.0-community-bullseye
+  - 5.21.0-community
+  - 5.21.0-bullseye
+  - 5.21.0
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 5.21.0/bullseye/enterprise
+  File: ""
+  GitCommit: b1989e4b7222c257c56a1fc432b8bad090c159b8
+  Tags:
+  - 5.21.0-enterprise-bullseye
+  - 5.21.0-enterprise
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 5.21.0/ubi9/community
+  File: ""
+  GitCommit: b1989e4b7222c257c56a1fc432b8bad090c159b8
+  Tags:
+  - 5.21.0-community-ubi9
+  - 5.21.0-ubi9
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 5.21.0/ubi9/enterprise
+  File: ""
+  GitCommit: b1989e4b7222c257c56a1fc432b8bad090c159b8
+  Tags:
+  - 5.21.0-enterprise-ubi9
 - Architectures:
     amd64:
       Architecture: amd64
@@ -6356,6 +6433,15 @@ KnownTags:
   5.21.0-enterprise-bullseye: {}
   5.21.0-enterprise-ubi9: {}
   5.21.0-ubi9: {}
+  5.21.2: {}
+  5.21.2-bullseye: {}
+  5.21.2-community: {}
+  5.21.2-community-bullseye: {}
+  5.21.2-community-ubi9: {}
+  5.21.2-enterprise: {}
+  5.21.2-enterprise-bullseye: {}
+  5.21.2-enterprise-ubi9: {}
+  5.21.2-ubi9: {}
   bullseye: {}
   community: {}
   community-bullseye: {}
