@@ -32,9 +32,9 @@ Blocks:
       GitFetch: ""
   Directory: 5/debian
   File: ""
-  GitCommit: 5018c52524d50890500bdde0194d4443ccf7305f
+  GitCommit: 035db75f8de147549cc5b665ab8c97fa9f3ed2cb
   Tags:
-  - 5.87.1
+  - 5.87.2
   - "5.87"
   - "5"
   - latest
@@ -65,12 +65,78 @@ Blocks:
       GitFetch: ""
   Directory: 5/alpine
   File: ""
-  GitCommit: 5018c52524d50890500bdde0194d4443ccf7305f
+  GitCommit: 035db75f8de147549cc5b665ab8c97fa9f3ed2cb
   Tags:
-  - 5.87.1-alpine
+  - 5.87.2-alpine
   - 5.87-alpine
   - 5-alpine
   - alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 5/debian
+  File: ""
+  GitCommit: 5018c52524d50890500bdde0194d4443ccf7305f
+  Tags:
+  - 5.87.1
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 5/alpine
+  File: ""
+  GitCommit: 5018c52524d50890500bdde0194d4443ccf7305f
+  Tags:
+  - 5.87.1-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -36671,6 +36737,8 @@ KnownTags:
   5.87.0-alpine: {}
   5.87.1: {}
   5.87.1-alpine: {}
+  5.87.2: {}
+  5.87.2-alpine: {}
   alpine: {}
   latest: {}
 Name: ghost
