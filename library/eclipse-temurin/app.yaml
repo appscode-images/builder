@@ -99,32 +99,6 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 8/jdk/centos
-  File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
-  Tags:
-  - 8u412-b08-jdk-centos7
-  - 8-jdk-centos7
-  - 8-centos7
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
   Directory: 8/jdk/ubi/ubi9-minimal
   File: ""
   GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
@@ -271,31 +245,6 @@ Blocks:
   - 8-jre-jammy
   - 8u412-b08-jre
   - 8-jre
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: 8/jre/centos
-  File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
-  Tags:
-  - 8u412-b08-jre-centos7
-  - 8-jre-centos7
 - Architectures:
     amd64:
       Architecture: amd64
@@ -470,32 +419,6 @@ Blocks:
   - 11.0.23_9-jdk
   - 11-jdk
   - "11"
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: 11/jdk/centos
-  File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
-  Tags:
-  - 11.0.23_9-jdk-centos7
-  - 11-jdk-centos7
-  - 11-centos7
 - Architectures:
     amd64:
       Architecture: amd64
@@ -698,31 +621,6 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 11/jre/centos
-  File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
-  Tags:
-  - 11.0.23_9-jre-centos7
-  - 11-jre-centos7
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
     s390x:
       Architecture: s390x
       Directory: ""
@@ -800,9 +698,9 @@ Blocks:
       GitFetch: ""
   Directory: 17/jdk/alpine
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: f7ce125dc28d8c0d065d94829e63094daa018ca3
   Tags:
-  - 17.0.11_9-jdk-alpine
+  - 17.0.12_7-jdk-alpine
   - 17-jdk-alpine
   - 17-alpine
 - Architectures:
@@ -838,9 +736,9 @@ Blocks:
       GitFetch: ""
   Directory: 17/jdk/ubuntu/focal
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: f7ce125dc28d8c0d065d94829e63094daa018ca3
   Tags:
-  - 17.0.11_9-jdk-focal
+  - 17.0.12_7-jdk-focal
   - 17-jdk-focal
   - 17-focal
 - Architectures:
@@ -876,17 +774,20 @@ Blocks:
       GitFetch: ""
   Directory: 17/jdk/ubuntu/jammy
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: f7ce125dc28d8c0d065d94829e63094daa018ca3
   Tags:
-  - 17.0.11_9-jdk-jammy
+  - 17.0.12_7-jdk-jammy
   - 17-jdk-jammy
   - 17-jammy
-  - 17.0.11_9-jdk
-  - 17-jdk
-  - "17"
 - Architectures:
     amd64:
       Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
       Directory: ""
       File: ""
       GitCommit: ""
@@ -903,13 +804,22 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 17/jdk/centos
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/jdk/ubuntu/noble
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: f7ce125dc28d8c0d065d94829e63094daa018ca3
   Tags:
-  - 17.0.11_9-jdk-centos7
-  - 17-jdk-centos7
-  - 17-centos7
+  - 17.0.12_7-jdk-noble
+  - 17-jdk-noble
+  - 17-noble
+  - 17.0.12_7-jdk
+  - 17-jdk
+  - "17"
 - Architectures:
     amd64:
       Architecture: amd64
@@ -937,9 +847,9 @@ Blocks:
       GitFetch: ""
   Directory: 17/jdk/ubi/ubi9-minimal
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: f7ce125dc28d8c0d065d94829e63094daa018ca3
   Tags:
-  - 17.0.11_9-jdk-ubi9-minimal
+  - 17.0.12_7-jdk-ubi9-minimal
   - 17-jdk-ubi9-minimal
   - 17-ubi9-minimal
 - Architectures:
@@ -951,12 +861,12 @@ Blocks:
       GitFetch: ""
   Directory: 17/jdk/windows/windowsservercore-ltsc2022
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: f7ce125dc28d8c0d065d94829e63094daa018ca3
   Tags:
-  - 17.0.11_9-jdk-windowsservercore-ltsc2022
+  - 17.0.12_7-jdk-windowsservercore-ltsc2022
   - 17-jdk-windowsservercore-ltsc2022
   - 17-windowsservercore-ltsc2022
-  - 17.0.11_9-jdk-windowsservercore
+  - 17.0.12_7-jdk-windowsservercore
   - 17-jdk-windowsservercore
   - 17-windowsservercore
 - Architectures:
@@ -968,12 +878,12 @@ Blocks:
       GitFetch: ""
   Directory: 17/jdk/windows/nanoserver-ltsc2022
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: f7ce125dc28d8c0d065d94829e63094daa018ca3
   Tags:
-  - 17.0.11_9-jdk-nanoserver-ltsc2022
+  - 17.0.12_7-jdk-nanoserver-ltsc2022
   - 17-jdk-nanoserver-ltsc2022
   - 17-nanoserver-ltsc2022
-  - 17.0.11_9-jdk-nanoserver
+  - 17.0.12_7-jdk-nanoserver
   - 17-jdk-nanoserver
   - 17-nanoserver
 - Architectures:
@@ -985,9 +895,9 @@ Blocks:
       GitFetch: ""
   Directory: 17/jdk/windows/windowsservercore-1809
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: f7ce125dc28d8c0d065d94829e63094daa018ca3
   Tags:
-  - 17.0.11_9-jdk-windowsservercore-1809
+  - 17.0.12_7-jdk-windowsservercore-1809
   - 17-jdk-windowsservercore-1809
   - 17-windowsservercore-1809
 - Architectures:
@@ -999,9 +909,9 @@ Blocks:
       GitFetch: ""
   Directory: 17/jdk/windows/nanoserver-1809
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: f7ce125dc28d8c0d065d94829e63094daa018ca3
   Tags:
-  - 17.0.11_9-jdk-nanoserver-1809
+  - 17.0.12_7-jdk-nanoserver-1809
   - 17-jdk-nanoserver-1809
   - 17-nanoserver-1809
 - Architectures:
@@ -1013,9 +923,9 @@ Blocks:
       GitFetch: ""
   Directory: 17/jre/alpine
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: f7ce125dc28d8c0d065d94829e63094daa018ca3
   Tags:
-  - 17.0.11_9-jre-alpine
+  - 17.0.12_7-jre-alpine
   - 17-jre-alpine
 - Architectures:
     amd64:
@@ -1050,9 +960,9 @@ Blocks:
       GitFetch: ""
   Directory: 17/jre/ubuntu/focal
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: f7ce125dc28d8c0d065d94829e63094daa018ca3
   Tags:
-  - 17.0.11_9-jre-focal
+  - 17.0.12_7-jre-focal
   - 17-jre-focal
 - Architectures:
     amd64:
@@ -1087,15 +997,19 @@ Blocks:
       GitFetch: ""
   Directory: 17/jre/ubuntu/jammy
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: f7ce125dc28d8c0d065d94829e63094daa018ca3
   Tags:
-  - 17.0.11_9-jre-jammy
+  - 17.0.12_7-jre-jammy
   - 17-jre-jammy
-  - 17.0.11_9-jre
-  - 17-jre
 - Architectures:
     amd64:
       Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
       Directory: ""
       File: ""
       GitCommit: ""
@@ -1112,12 +1026,20 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 17/jre/centos
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/jre/ubuntu/noble
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: f7ce125dc28d8c0d065d94829e63094daa018ca3
   Tags:
-  - 17.0.11_9-jre-centos7
-  - 17-jre-centos7
+  - 17.0.12_7-jre-noble
+  - 17-jre-noble
+  - 17.0.12_7-jre
+  - 17-jre
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1145,9 +1067,9 @@ Blocks:
       GitFetch: ""
   Directory: 17/jre/ubi/ubi9-minimal
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: f7ce125dc28d8c0d065d94829e63094daa018ca3
   Tags:
-  - 17.0.11_9-jre-ubi9-minimal
+  - 17.0.12_7-jre-ubi9-minimal
   - 17-jre-ubi9-minimal
 - Architectures:
     windows-amd64:
@@ -1158,11 +1080,11 @@ Blocks:
       GitFetch: ""
   Directory: 17/jre/windows/windowsservercore-ltsc2022
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: f7ce125dc28d8c0d065d94829e63094daa018ca3
   Tags:
-  - 17.0.11_9-jre-windowsservercore-ltsc2022
+  - 17.0.12_7-jre-windowsservercore-ltsc2022
   - 17-jre-windowsservercore-ltsc2022
-  - 17.0.11_9-jre-windowsservercore
+  - 17.0.12_7-jre-windowsservercore
   - 17-jre-windowsservercore
 - Architectures:
     windows-amd64:
@@ -1173,11 +1095,11 @@ Blocks:
       GitFetch: ""
   Directory: 17/jre/windows/nanoserver-ltsc2022
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: f7ce125dc28d8c0d065d94829e63094daa018ca3
   Tags:
-  - 17.0.11_9-jre-nanoserver-ltsc2022
+  - 17.0.12_7-jre-nanoserver-ltsc2022
   - 17-jre-nanoserver-ltsc2022
-  - 17.0.11_9-jre-nanoserver
+  - 17.0.12_7-jre-nanoserver
   - 17-jre-nanoserver
 - Architectures:
     windows-amd64:
@@ -1188,9 +1110,9 @@ Blocks:
       GitFetch: ""
   Directory: 17/jre/windows/windowsservercore-1809
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: f7ce125dc28d8c0d065d94829e63094daa018ca3
   Tags:
-  - 17.0.11_9-jre-windowsservercore-1809
+  - 17.0.12_7-jre-windowsservercore-1809
   - 17-jre-windowsservercore-1809
 - Architectures:
     windows-amd64:
@@ -1201,9 +1123,9 @@ Blocks:
       GitFetch: ""
   Directory: 17/jre/windows/nanoserver-1809
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: f7ce125dc28d8c0d065d94829e63094daa018ca3
   Tags:
-  - 17.0.11_9-jre-nanoserver-1809
+  - 17.0.12_7-jre-nanoserver-1809
   - 17-jre-nanoserver-1809
 - Architectures:
     amd64:
@@ -1220,9 +1142,9 @@ Blocks:
       GitFetch: ""
   Directory: 21/jdk/alpine
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: 6e6c1cc0d915b330e3c474a9bf21d92fc4e5f157
   Tags:
-  - 21.0.3_9-jdk-alpine
+  - 21.0.4_7-jdk-alpine
   - 21-jdk-alpine
   - 21-alpine
 - Architectures:
@@ -1252,12 +1174,44 @@ Blocks:
       GitFetch: ""
   Directory: 21/jdk/ubuntu/jammy
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: 6e6c1cc0d915b330e3c474a9bf21d92fc4e5f157
   Tags:
-  - 21.0.3_9-jdk-jammy
+  - 21.0.4_7-jdk-jammy
   - 21-jdk-jammy
   - 21-jammy
-  - 21.0.3_9-jdk
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/jdk/ubuntu/noble
+  File: ""
+  GitCommit: 6e6c1cc0d915b330e3c474a9bf21d92fc4e5f157
+  Tags:
+  - 21.0.4_7-jdk-noble
+  - 21-jdk-noble
+  - 21-noble
+  - 21.0.4_7-jdk
   - 21-jdk
   - "21"
   - latest
@@ -1288,9 +1242,9 @@ Blocks:
       GitFetch: ""
   Directory: 21/jdk/ubi/ubi9-minimal
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: 6e6c1cc0d915b330e3c474a9bf21d92fc4e5f157
   Tags:
-  - 21.0.3_9-jdk-ubi9-minimal
+  - 21.0.4_7-jdk-ubi9-minimal
   - 21-jdk-ubi9-minimal
   - 21-ubi9-minimal
 - Architectures:
@@ -1302,12 +1256,12 @@ Blocks:
       GitFetch: ""
   Directory: 21/jdk/windows/windowsservercore-ltsc2022
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: 6e6c1cc0d915b330e3c474a9bf21d92fc4e5f157
   Tags:
-  - 21.0.3_9-jdk-windowsservercore-ltsc2022
+  - 21.0.4_7-jdk-windowsservercore-ltsc2022
   - 21-jdk-windowsservercore-ltsc2022
   - 21-windowsservercore-ltsc2022
-  - 21.0.3_9-jdk-windowsservercore
+  - 21.0.4_7-jdk-windowsservercore
   - 21-jdk-windowsservercore
   - 21-windowsservercore
 - Architectures:
@@ -1319,12 +1273,12 @@ Blocks:
       GitFetch: ""
   Directory: 21/jdk/windows/nanoserver-ltsc2022
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: 6e6c1cc0d915b330e3c474a9bf21d92fc4e5f157
   Tags:
-  - 21.0.3_9-jdk-nanoserver-ltsc2022
+  - 21.0.4_7-jdk-nanoserver-ltsc2022
   - 21-jdk-nanoserver-ltsc2022
   - 21-nanoserver-ltsc2022
-  - 21.0.3_9-jdk-nanoserver
+  - 21.0.4_7-jdk-nanoserver
   - 21-jdk-nanoserver
   - 21-nanoserver
 - Architectures:
@@ -1336,9 +1290,9 @@ Blocks:
       GitFetch: ""
   Directory: 21/jdk/windows/windowsservercore-1809
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: 6e6c1cc0d915b330e3c474a9bf21d92fc4e5f157
   Tags:
-  - 21.0.3_9-jdk-windowsservercore-1809
+  - 21.0.4_7-jdk-windowsservercore-1809
   - 21-jdk-windowsservercore-1809
   - 21-windowsservercore-1809
 - Architectures:
@@ -1350,9 +1304,9 @@ Blocks:
       GitFetch: ""
   Directory: 21/jdk/windows/nanoserver-1809
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: 6e6c1cc0d915b330e3c474a9bf21d92fc4e5f157
   Tags:
-  - 21.0.3_9-jdk-nanoserver-1809
+  - 21.0.4_7-jdk-nanoserver-1809
   - 21-jdk-nanoserver-1809
   - 21-nanoserver-1809
 - Architectures:
@@ -1370,9 +1324,9 @@ Blocks:
       GitFetch: ""
   Directory: 21/jre/alpine
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: 6e6c1cc0d915b330e3c474a9bf21d92fc4e5f157
   Tags:
-  - 21.0.3_9-jre-alpine
+  - 21.0.4_7-jre-alpine
   - 21-jre-alpine
 - Architectures:
     amd64:
@@ -1401,11 +1355,42 @@ Blocks:
       GitFetch: ""
   Directory: 21/jre/ubuntu/jammy
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: 6e6c1cc0d915b330e3c474a9bf21d92fc4e5f157
   Tags:
-  - 21.0.3_9-jre-jammy
+  - 21.0.4_7-jre-jammy
   - 21-jre-jammy
-  - 21.0.3_9-jre
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/jre/ubuntu/noble
+  File: ""
+  GitCommit: 6e6c1cc0d915b330e3c474a9bf21d92fc4e5f157
+  Tags:
+  - 21.0.4_7-jre-noble
+  - 21-jre-noble
+  - 21.0.4_7-jre
   - 21-jre
 - Architectures:
     amd64:
@@ -1434,9 +1419,9 @@ Blocks:
       GitFetch: ""
   Directory: 21/jre/ubi/ubi9-minimal
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: 6e6c1cc0d915b330e3c474a9bf21d92fc4e5f157
   Tags:
-  - 21.0.3_9-jre-ubi9-minimal
+  - 21.0.4_7-jre-ubi9-minimal
   - 21-jre-ubi9-minimal
 - Architectures:
     windows-amd64:
@@ -1447,11 +1432,11 @@ Blocks:
       GitFetch: ""
   Directory: 21/jre/windows/windowsservercore-ltsc2022
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: 6e6c1cc0d915b330e3c474a9bf21d92fc4e5f157
   Tags:
-  - 21.0.3_9-jre-windowsservercore-ltsc2022
+  - 21.0.4_7-jre-windowsservercore-ltsc2022
   - 21-jre-windowsservercore-ltsc2022
-  - 21.0.3_9-jre-windowsservercore
+  - 21.0.4_7-jre-windowsservercore
   - 21-jre-windowsservercore
 - Architectures:
     windows-amd64:
@@ -1462,11 +1447,11 @@ Blocks:
       GitFetch: ""
   Directory: 21/jre/windows/nanoserver-ltsc2022
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: 6e6c1cc0d915b330e3c474a9bf21d92fc4e5f157
   Tags:
-  - 21.0.3_9-jre-nanoserver-ltsc2022
+  - 21.0.4_7-jre-nanoserver-ltsc2022
   - 21-jre-nanoserver-ltsc2022
-  - 21.0.3_9-jre-nanoserver
+  - 21.0.4_7-jre-nanoserver
   - 21-jre-nanoserver
 - Architectures:
     windows-amd64:
@@ -1477,9 +1462,9 @@ Blocks:
       GitFetch: ""
   Directory: 21/jre/windows/windowsservercore-1809
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: 6e6c1cc0d915b330e3c474a9bf21d92fc4e5f157
   Tags:
-  - 21.0.3_9-jre-windowsservercore-1809
+  - 21.0.4_7-jre-windowsservercore-1809
   - 21-jre-windowsservercore-1809
 - Architectures:
     windows-amd64:
@@ -1490,9 +1475,9 @@ Blocks:
       GitFetch: ""
   Directory: 21/jre/windows/nanoserver-1809
   File: ""
-  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  GitCommit: 6e6c1cc0d915b330e3c474a9bf21d92fc4e5f157
   Tags:
-  - 21.0.3_9-jre-nanoserver-1809
+  - 21.0.4_7-jre-nanoserver-1809
   - 21-jre-nanoserver-1809
 - Architectures:
     amd64:
@@ -1782,6 +1767,747 @@ Blocks:
   Tags:
   - 22.0.1_8-jre-nanoserver-1809
   - 22-jre-nanoserver-1809
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 8/jdk/centos
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 8u412-b08-jdk-centos7
+  - 8-jdk-centos7
+  - 8-centos7
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 8/jre/centos
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 8u412-b08-jre-centos7
+  - 8-jre-centos7
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 11/jdk/centos
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 11.0.23_9-jdk-centos7
+  - 11-jdk-centos7
+  - 11-centos7
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 11/jre/centos
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 11.0.23_9-jre-centos7
+  - 11-jre-centos7
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/jdk/alpine
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 17.0.11_9-jdk-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/jdk/ubuntu/focal
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 17.0.11_9-jdk-focal
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/jdk/ubuntu/jammy
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 17.0.11_9-jdk-jammy
+  - 17.0.11_9-jdk
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/jdk/centos
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 17.0.11_9-jdk-centos7
+  - 17-jdk-centos7
+  - 17-centos7
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/jdk/ubi/ubi9-minimal
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 17.0.11_9-jdk-ubi9-minimal
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/jdk/windows/windowsservercore-ltsc2022
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 17.0.11_9-jdk-windowsservercore-ltsc2022
+  - 17.0.11_9-jdk-windowsservercore
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/jdk/windows/nanoserver-ltsc2022
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 17.0.11_9-jdk-nanoserver-ltsc2022
+  - 17.0.11_9-jdk-nanoserver
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/jdk/windows/windowsservercore-1809
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 17.0.11_9-jdk-windowsservercore-1809
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/jdk/windows/nanoserver-1809
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 17.0.11_9-jdk-nanoserver-1809
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/jre/alpine
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 17.0.11_9-jre-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/jre/ubuntu/focal
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 17.0.11_9-jre-focal
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/jre/ubuntu/jammy
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 17.0.11_9-jre-jammy
+  - 17.0.11_9-jre
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/jre/centos
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 17.0.11_9-jre-centos7
+  - 17-jre-centos7
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/jre/ubi/ubi9-minimal
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 17.0.11_9-jre-ubi9-minimal
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/jre/windows/windowsservercore-ltsc2022
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 17.0.11_9-jre-windowsservercore-ltsc2022
+  - 17.0.11_9-jre-windowsservercore
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/jre/windows/nanoserver-ltsc2022
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 17.0.11_9-jre-nanoserver-ltsc2022
+  - 17.0.11_9-jre-nanoserver
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/jre/windows/windowsservercore-1809
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 17.0.11_9-jre-windowsservercore-1809
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/jre/windows/nanoserver-1809
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 17.0.11_9-jre-nanoserver-1809
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/jdk/alpine
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 21.0.3_9-jdk-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/jdk/ubuntu/jammy
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 21.0.3_9-jdk-jammy
+  - 21.0.3_9-jdk
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/jdk/ubi/ubi9-minimal
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 21.0.3_9-jdk-ubi9-minimal
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/jdk/windows/windowsservercore-ltsc2022
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 21.0.3_9-jdk-windowsservercore-ltsc2022
+  - 21.0.3_9-jdk-windowsservercore
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/jdk/windows/nanoserver-ltsc2022
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 21.0.3_9-jdk-nanoserver-ltsc2022
+  - 21.0.3_9-jdk-nanoserver
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/jdk/windows/windowsservercore-1809
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 21.0.3_9-jdk-windowsservercore-1809
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/jdk/windows/nanoserver-1809
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 21.0.3_9-jdk-nanoserver-1809
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/jre/alpine
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 21.0.3_9-jre-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/jre/ubuntu/jammy
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 21.0.3_9-jre-jammy
+  - 21.0.3_9-jre
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/jre/ubi/ubi9-minimal
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 21.0.3_9-jre-ubi9-minimal
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/jre/windows/windowsservercore-ltsc2022
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 21.0.3_9-jre-windowsservercore-ltsc2022
+  - 21.0.3_9-jre-windowsservercore
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/jre/windows/nanoserver-ltsc2022
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 21.0.3_9-jre-nanoserver-ltsc2022
+  - 21.0.3_9-jre-nanoserver
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/jre/windows/windowsservercore-1809
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 21.0.3_9-jre-windowsservercore-1809
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/jre/windows/nanoserver-1809
+  File: ""
+  GitCommit: 057e5aa7581e96b8a2334290e750b329d62abfdf
+  Tags:
+  - 21.0.3_9-jre-nanoserver-1809
 - Architectures:
     amd64:
       Architecture: amd64
@@ -18971,6 +19697,7 @@ KnownTags:
   17-jdk-nanoserver: {}
   17-jdk-nanoserver-1809: {}
   17-jdk-nanoserver-ltsc2022: {}
+  17-jdk-noble: {}
   17-jdk-ubi9-minimal: {}
   17-jdk-windowsservercore: {}
   17-jdk-windowsservercore-1809: {}
@@ -18984,6 +19711,7 @@ KnownTags:
   17-jre-nanoserver: {}
   17-jre-nanoserver-1809: {}
   17-jre-nanoserver-ltsc2022: {}
+  17-jre-noble: {}
   17-jre-ubi9-minimal: {}
   17-jre-windowsservercore: {}
   17-jre-windowsservercore-1809: {}
@@ -18992,6 +19720,7 @@ KnownTags:
   17-nanoserver: {}
   17-nanoserver-1809: {}
   17-nanoserver-ltsc2022: {}
+  17-noble: {}
   17-ubi9-minimal: {}
   17-windowsservercore: {}
   17-windowsservercore-1809: {}
@@ -19297,6 +20026,30 @@ KnownTags:
   17.0.11_9-jre-windowsservercore: {}
   17.0.11_9-jre-windowsservercore-1809: {}
   17.0.11_9-jre-windowsservercore-ltsc2022: {}
+  17.0.12_7-jdk: {}
+  17.0.12_7-jdk-alpine: {}
+  17.0.12_7-jdk-focal: {}
+  17.0.12_7-jdk-jammy: {}
+  17.0.12_7-jdk-nanoserver: {}
+  17.0.12_7-jdk-nanoserver-1809: {}
+  17.0.12_7-jdk-nanoserver-ltsc2022: {}
+  17.0.12_7-jdk-noble: {}
+  17.0.12_7-jdk-ubi9-minimal: {}
+  17.0.12_7-jdk-windowsservercore: {}
+  17.0.12_7-jdk-windowsservercore-1809: {}
+  17.0.12_7-jdk-windowsservercore-ltsc2022: {}
+  17.0.12_7-jre: {}
+  17.0.12_7-jre-alpine: {}
+  17.0.12_7-jre-focal: {}
+  17.0.12_7-jre-jammy: {}
+  17.0.12_7-jre-nanoserver: {}
+  17.0.12_7-jre-nanoserver-1809: {}
+  17.0.12_7-jre-nanoserver-ltsc2022: {}
+  17.0.12_7-jre-noble: {}
+  17.0.12_7-jre-ubi9-minimal: {}
+  17.0.12_7-jre-windowsservercore: {}
+  17.0.12_7-jre-windowsservercore-1809: {}
+  17.0.12_7-jre-windowsservercore-ltsc2022: {}
   17_35-jdk: {}
   17_35-jdk-alpine: {}
   17_35-jdk-centos7: {}
@@ -19622,6 +20375,7 @@ KnownTags:
   21-jdk-nanoserver: {}
   21-jdk-nanoserver-1809: {}
   21-jdk-nanoserver-ltsc2022: {}
+  21-jdk-noble: {}
   21-jdk-ubi9-minimal: {}
   21-jdk-windowsservercore: {}
   21-jdk-windowsservercore-1809: {}
@@ -19632,6 +20386,7 @@ KnownTags:
   21-jre-nanoserver: {}
   21-jre-nanoserver-1809: {}
   21-jre-nanoserver-ltsc2022: {}
+  21-jre-noble: {}
   21-jre-ubi9-minimal: {}
   21-jre-windowsservercore: {}
   21-jre-windowsservercore-1809: {}
@@ -19639,6 +20394,7 @@ KnownTags:
   21-nanoserver: {}
   21-nanoserver-1809: {}
   21-nanoserver-ltsc2022: {}
+  21-noble: {}
   21-ubi9-minimal: {}
   21-windowsservercore: {}
   21-windowsservercore-1809: {}
@@ -19703,6 +20459,28 @@ KnownTags:
   21.0.3_9-jre-windowsservercore: {}
   21.0.3_9-jre-windowsservercore-1809: {}
   21.0.3_9-jre-windowsservercore-ltsc2022: {}
+  21.0.4_7-jdk: {}
+  21.0.4_7-jdk-alpine: {}
+  21.0.4_7-jdk-jammy: {}
+  21.0.4_7-jdk-nanoserver: {}
+  21.0.4_7-jdk-nanoserver-1809: {}
+  21.0.4_7-jdk-nanoserver-ltsc2022: {}
+  21.0.4_7-jdk-noble: {}
+  21.0.4_7-jdk-ubi9-minimal: {}
+  21.0.4_7-jdk-windowsservercore: {}
+  21.0.4_7-jdk-windowsservercore-1809: {}
+  21.0.4_7-jdk-windowsservercore-ltsc2022: {}
+  21.0.4_7-jre: {}
+  21.0.4_7-jre-alpine: {}
+  21.0.4_7-jre-jammy: {}
+  21.0.4_7-jre-nanoserver: {}
+  21.0.4_7-jre-nanoserver-1809: {}
+  21.0.4_7-jre-nanoserver-ltsc2022: {}
+  21.0.4_7-jre-noble: {}
+  21.0.4_7-jre-ubi9-minimal: {}
+  21.0.4_7-jre-windowsservercore: {}
+  21.0.4_7-jre-windowsservercore-1809: {}
+  21.0.4_7-jre-windowsservercore-ltsc2022: {}
   21_35-jdk: {}
   21_35-jdk-alpine: {}
   21_35-jdk-jammy: {}
