@@ -1360,6 +1360,7 @@
     "8-jdk-nanoserver": {},
     "8-jdk-nanoserver-1809": {},
     "8-jdk-nanoserver-ltsc2022": {},
+    "8-jdk-noble": {},
     "8-jdk-ubi9-minimal": {},
     "8-jdk-windowsservercore": {},
     "8-jdk-windowsservercore-1809": {},
@@ -1373,6 +1374,7 @@
     "8-jre-nanoserver": {},
     "8-jre-nanoserver-1809": {},
     "8-jre-nanoserver-ltsc2022": {},
+    "8-jre-noble": {},
     "8-jre-ubi9-minimal": {},
     "8-jre-windowsservercore": {},
     "8-jre-windowsservercore-1809": {},
@@ -1381,6 +1383,7 @@
     "8-nanoserver": {},
     "8-nanoserver-1809": {},
     "8-nanoserver-ltsc2022": {},
+    "8-noble": {},
     "8-ubi9-minimal": {},
     "8-windowsservercore": {},
     "8-windowsservercore-1809": {},
@@ -1682,12 +1685,36 @@
     "8u412-b08-jre-windowsservercore": {},
     "8u412-b08-jre-windowsservercore-1809": {},
     "8u412-b08-jre-windowsservercore-ltsc2022": {},
+    "8u422-b05-jdk": {},
+    "8u422-b05-jdk-alpine": {},
+    "8u422-b05-jdk-focal": {},
+    "8u422-b05-jdk-jammy": {},
+    "8u422-b05-jdk-nanoserver": {},
+    "8u422-b05-jdk-nanoserver-1809": {},
+    "8u422-b05-jdk-nanoserver-ltsc2022": {},
+    "8u422-b05-jdk-noble": {},
+    "8u422-b05-jdk-ubi9-minimal": {},
+    "8u422-b05-jdk-windowsservercore": {},
+    "8u422-b05-jdk-windowsservercore-1809": {},
+    "8u422-b05-jdk-windowsservercore-ltsc2022": {},
+    "8u422-b05-jre": {},
+    "8u422-b05-jre-alpine": {},
+    "8u422-b05-jre-focal": {},
+    "8u422-b05-jre-jammy": {},
+    "8u422-b05-jre-nanoserver": {},
+    "8u422-b05-jre-nanoserver-1809": {},
+    "8u422-b05-jre-nanoserver-ltsc2022": {},
+    "8u422-b05-jre-noble": {},
+    "8u422-b05-jre-ubi9-minimal": {},
+    "8u422-b05-jre-windowsservercore": {},
+    "8u422-b05-jre-windowsservercore-1809": {},
+    "8u422-b05-jre-windowsservercore-ltsc2022": {},
     "latest": {}
   },
   "Blocks": [
     {
       "Tags": [
-        "8u412-b08-jdk-alpine",
+        "8u422-b05-jdk-alpine",
         "8-jdk-alpine",
         "8-alpine"
       ],
@@ -1700,13 +1727,13 @@
           "File": ""
         }
       },
-      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "8/jdk/alpine",
       "File": ""
     },
     {
       "Tags": [
-        "8u412-b08-jdk-focal",
+        "8u422-b05-jdk-focal",
         "8-jdk-focal",
         "8-focal"
       ],
@@ -1740,16 +1767,56 @@
           "File": ""
         }
       },
-      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "8/jdk/ubuntu/focal",
       "File": ""
     },
     {
       "Tags": [
-        "8u412-b08-jdk-jammy",
+        "8u422-b05-jdk-jammy",
         "8-jdk-jammy",
-        "8-jammy",
-        "8u412-b08-jdk",
+        "8-jammy"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
+      "Directory": "8/jdk/ubuntu/jammy",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8u422-b05-jdk-noble",
+        "8-jdk-noble",
+        "8-noble",
+        "8u422-b05-jdk",
         "8-jdk",
         "8"
       ],
@@ -1783,13 +1850,13 @@
           "File": ""
         }
       },
-      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
-      "Directory": "8/jdk/ubuntu/jammy",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
+      "Directory": "8/jdk/ubuntu/noble",
       "File": ""
     },
     {
       "Tags": [
-        "8u412-b08-jdk-ubi9-minimal",
+        "8u422-b05-jdk-ubi9-minimal",
         "8-jdk-ubi9-minimal",
         "8-ubi9-minimal"
       ],
@@ -1816,16 +1883,16 @@
           "File": ""
         }
       },
-      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "8/jdk/ubi/ubi9-minimal",
       "File": ""
     },
     {
       "Tags": [
-        "8u412-b08-jdk-windowsservercore-ltsc2022",
+        "8u422-b05-jdk-windowsservercore-ltsc2022",
         "8-jdk-windowsservercore-ltsc2022",
         "8-windowsservercore-ltsc2022",
-        "8u412-b08-jdk-windowsservercore",
+        "8u422-b05-jdk-windowsservercore",
         "8-jdk-windowsservercore",
         "8-windowsservercore"
       ],
@@ -1838,16 +1905,16 @@
           "File": ""
         }
       },
-      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "8/jdk/windows/windowsservercore-ltsc2022",
       "File": ""
     },
     {
       "Tags": [
-        "8u412-b08-jdk-nanoserver-ltsc2022",
+        "8u422-b05-jdk-nanoserver-ltsc2022",
         "8-jdk-nanoserver-ltsc2022",
         "8-nanoserver-ltsc2022",
-        "8u412-b08-jdk-nanoserver",
+        "8u422-b05-jdk-nanoserver",
         "8-jdk-nanoserver",
         "8-nanoserver"
       ],
@@ -1860,13 +1927,13 @@
           "File": ""
         }
       },
-      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "8/jdk/windows/nanoserver-ltsc2022",
       "File": ""
     },
     {
       "Tags": [
-        "8u412-b08-jdk-windowsservercore-1809",
+        "8u422-b05-jdk-windowsservercore-1809",
         "8-jdk-windowsservercore-1809",
         "8-windowsservercore-1809"
       ],
@@ -1879,13 +1946,13 @@
           "File": ""
         }
       },
-      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "8/jdk/windows/windowsservercore-1809",
       "File": ""
     },
     {
       "Tags": [
-        "8u412-b08-jdk-nanoserver-1809",
+        "8u422-b05-jdk-nanoserver-1809",
         "8-jdk-nanoserver-1809",
         "8-nanoserver-1809"
       ],
@@ -1898,13 +1965,13 @@
           "File": ""
         }
       },
-      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "8/jdk/windows/nanoserver-1809",
       "File": ""
     },
     {
       "Tags": [
-        "8u412-b08-jre-alpine",
+        "8u422-b05-jre-alpine",
         "8-jre-alpine"
       ],
       "Architectures": {
@@ -1916,13 +1983,13 @@
           "File": ""
         }
       },
-      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "8/jre/alpine",
       "File": ""
     },
     {
       "Tags": [
-        "8u412-b08-jre-focal",
+        "8u422-b05-jre-focal",
         "8-jre-focal"
       ],
       "Architectures": {
@@ -1955,15 +2022,54 @@
           "File": ""
         }
       },
-      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "8/jre/ubuntu/focal",
       "File": ""
     },
     {
       "Tags": [
-        "8u412-b08-jre-jammy",
-        "8-jre-jammy",
-        "8u412-b08-jre",
+        "8u422-b05-jre-jammy",
+        "8-jre-jammy"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
+      "Directory": "8/jre/ubuntu/jammy",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8u422-b05-jre-noble",
+        "8-jre-noble",
+        "8u422-b05-jre",
         "8-jre"
       ],
       "Architectures": {
@@ -1996,13 +2102,13 @@
           "File": ""
         }
       },
-      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
-      "Directory": "8/jre/ubuntu/jammy",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
+      "Directory": "8/jre/ubuntu/noble",
       "File": ""
     },
     {
       "Tags": [
-        "8u412-b08-jre-ubi9-minimal",
+        "8u422-b05-jre-ubi9-minimal",
         "8-jre-ubi9-minimal"
       ],
       "Architectures": {
@@ -2028,15 +2134,15 @@
           "File": ""
         }
       },
-      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "8/jre/ubi/ubi9-minimal",
       "File": ""
     },
     {
       "Tags": [
-        "8u412-b08-jre-windowsservercore-ltsc2022",
+        "8u422-b05-jre-windowsservercore-ltsc2022",
         "8-jre-windowsservercore-ltsc2022",
-        "8u412-b08-jre-windowsservercore",
+        "8u422-b05-jre-windowsservercore",
         "8-jre-windowsservercore"
       ],
       "Architectures": {
@@ -2048,15 +2154,15 @@
           "File": ""
         }
       },
-      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "8/jre/windows/windowsservercore-ltsc2022",
       "File": ""
     },
     {
       "Tags": [
-        "8u412-b08-jre-nanoserver-ltsc2022",
+        "8u422-b05-jre-nanoserver-ltsc2022",
         "8-jre-nanoserver-ltsc2022",
-        "8u412-b08-jre-nanoserver",
+        "8u422-b05-jre-nanoserver",
         "8-jre-nanoserver"
       ],
       "Architectures": {
@@ -2068,13 +2174,13 @@
           "File": ""
         }
       },
-      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "8/jre/windows/nanoserver-ltsc2022",
       "File": ""
     },
     {
       "Tags": [
-        "8u412-b08-jre-windowsservercore-1809",
+        "8u422-b05-jre-windowsservercore-1809",
         "8-jre-windowsservercore-1809"
       ],
       "Architectures": {
@@ -2086,13 +2192,13 @@
           "File": ""
         }
       },
-      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "8/jre/windows/windowsservercore-1809",
       "File": ""
     },
     {
       "Tags": [
-        "8u412-b08-jre-nanoserver-1809",
+        "8u422-b05-jre-nanoserver-1809",
         "8-jre-nanoserver-1809"
       ],
       "Architectures": {
@@ -2104,7 +2210,7 @@
           "File": ""
         }
       },
-      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "8/jre/windows/nanoserver-1809",
       "File": ""
     },
@@ -2123,7 +2229,7 @@
           "File": ""
         }
       },
-      "GitCommit": "48ce959533cd2146eb94d626938b683b5b013cfc",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "11/jdk/alpine",
       "File": ""
     },
@@ -2170,7 +2276,7 @@
           "File": ""
         }
       },
-      "GitCommit": "48ce959533cd2146eb94d626938b683b5b013cfc",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "11/jdk/ubuntu/focal",
       "File": ""
     },
@@ -2217,7 +2323,7 @@
           "File": ""
         }
       },
-      "GitCommit": "48ce959533cd2146eb94d626938b683b5b013cfc",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "11/jdk/ubuntu/jammy",
       "File": ""
     },
@@ -2267,7 +2373,7 @@
           "File": ""
         }
       },
-      "GitCommit": "48ce959533cd2146eb94d626938b683b5b013cfc",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "11/jdk/ubuntu/noble",
       "File": ""
     },
@@ -2307,7 +2413,7 @@
           "File": ""
         }
       },
-      "GitCommit": "48ce959533cd2146eb94d626938b683b5b013cfc",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "11/jdk/ubi/ubi9-minimal",
       "File": ""
     },
@@ -2407,7 +2513,7 @@
           "File": ""
         }
       },
-      "GitCommit": "48ce959533cd2146eb94d626938b683b5b013cfc",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "11/jre/alpine",
       "File": ""
     },
@@ -2453,7 +2559,7 @@
           "File": ""
         }
       },
-      "GitCommit": "48ce959533cd2146eb94d626938b683b5b013cfc",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "11/jre/ubuntu/focal",
       "File": ""
     },
@@ -2499,7 +2605,7 @@
           "File": ""
         }
       },
-      "GitCommit": "48ce959533cd2146eb94d626938b683b5b013cfc",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "11/jre/ubuntu/jammy",
       "File": ""
     },
@@ -2547,7 +2653,7 @@
           "File": ""
         }
       },
-      "GitCommit": "48ce959533cd2146eb94d626938b683b5b013cfc",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "11/jre/ubuntu/noble",
       "File": ""
     },
@@ -2586,7 +2692,7 @@
           "File": ""
         }
       },
-      "GitCommit": "48ce959533cd2146eb94d626938b683b5b013cfc",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "11/jre/ubi/ubi9-minimal",
       "File": ""
     },
@@ -2681,7 +2787,7 @@
           "File": ""
         }
       },
-      "GitCommit": "f7ce125dc28d8c0d065d94829e63094daa018ca3",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "17/jdk/alpine",
       "File": ""
     },
@@ -2728,7 +2834,7 @@
           "File": ""
         }
       },
-      "GitCommit": "f7ce125dc28d8c0d065d94829e63094daa018ca3",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "17/jdk/ubuntu/focal",
       "File": ""
     },
@@ -2775,7 +2881,7 @@
           "File": ""
         }
       },
-      "GitCommit": "f7ce125dc28d8c0d065d94829e63094daa018ca3",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "17/jdk/ubuntu/jammy",
       "File": ""
     },
@@ -2825,7 +2931,7 @@
           "File": ""
         }
       },
-      "GitCommit": "f7ce125dc28d8c0d065d94829e63094daa018ca3",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "17/jdk/ubuntu/noble",
       "File": ""
     },
@@ -2865,7 +2971,7 @@
           "File": ""
         }
       },
-      "GitCommit": "f7ce125dc28d8c0d065d94829e63094daa018ca3",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "17/jdk/ubi/ubi9-minimal",
       "File": ""
     },
@@ -2965,7 +3071,7 @@
           "File": ""
         }
       },
-      "GitCommit": "f7ce125dc28d8c0d065d94829e63094daa018ca3",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "17/jre/alpine",
       "File": ""
     },
@@ -3011,7 +3117,7 @@
           "File": ""
         }
       },
-      "GitCommit": "f7ce125dc28d8c0d065d94829e63094daa018ca3",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "17/jre/ubuntu/focal",
       "File": ""
     },
@@ -3057,7 +3163,7 @@
           "File": ""
         }
       },
-      "GitCommit": "f7ce125dc28d8c0d065d94829e63094daa018ca3",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "17/jre/ubuntu/jammy",
       "File": ""
     },
@@ -3105,7 +3211,7 @@
           "File": ""
         }
       },
-      "GitCommit": "f7ce125dc28d8c0d065d94829e63094daa018ca3",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "17/jre/ubuntu/noble",
       "File": ""
     },
@@ -3144,7 +3250,7 @@
           "File": ""
         }
       },
-      "GitCommit": "f7ce125dc28d8c0d065d94829e63094daa018ca3",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "17/jre/ubi/ubi9-minimal",
       "File": ""
     },
@@ -3246,7 +3352,7 @@
           "File": ""
         }
       },
-      "GitCommit": "6e6c1cc0d915b330e3c474a9bf21d92fc4e5f157",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "21/jdk/alpine",
       "File": ""
     },
@@ -3286,7 +3392,7 @@
           "File": ""
         }
       },
-      "GitCommit": "6e6c1cc0d915b330e3c474a9bf21d92fc4e5f157",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "21/jdk/ubuntu/jammy",
       "File": ""
     },
@@ -3330,7 +3436,7 @@
           "File": ""
         }
       },
-      "GitCommit": "6e6c1cc0d915b330e3c474a9bf21d92fc4e5f157",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "21/jdk/ubuntu/noble",
       "File": ""
     },
@@ -3370,7 +3476,7 @@
           "File": ""
         }
       },
-      "GitCommit": "6e6c1cc0d915b330e3c474a9bf21d92fc4e5f157",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "21/jdk/ubi/ubi9-minimal",
       "File": ""
     },
@@ -3477,7 +3583,7 @@
           "File": ""
         }
       },
-      "GitCommit": "6e6c1cc0d915b330e3c474a9bf21d92fc4e5f157",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "21/jre/alpine",
       "File": ""
     },
@@ -3516,7 +3622,7 @@
           "File": ""
         }
       },
-      "GitCommit": "6e6c1cc0d915b330e3c474a9bf21d92fc4e5f157",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "21/jre/ubuntu/jammy",
       "File": ""
     },
@@ -3557,7 +3663,7 @@
           "File": ""
         }
       },
-      "GitCommit": "6e6c1cc0d915b330e3c474a9bf21d92fc4e5f157",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "21/jre/ubuntu/noble",
       "File": ""
     },
@@ -3596,7 +3702,7 @@
           "File": ""
         }
       },
-      "GitCommit": "6e6c1cc0d915b330e3c474a9bf21d92fc4e5f157",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "21/jre/ubi/ubi9-minimal",
       "File": ""
     },
@@ -3698,7 +3804,7 @@
           "File": ""
         }
       },
-      "GitCommit": "48ce959533cd2146eb94d626938b683b5b013cfc",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "22/jdk/alpine",
       "File": ""
     },
@@ -3738,7 +3844,7 @@
           "File": ""
         }
       },
-      "GitCommit": "48ce959533cd2146eb94d626938b683b5b013cfc",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "22/jdk/ubuntu/jammy",
       "File": ""
     },
@@ -3781,7 +3887,7 @@
           "File": ""
         }
       },
-      "GitCommit": "48ce959533cd2146eb94d626938b683b5b013cfc",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "22/jdk/ubuntu/noble",
       "File": ""
     },
@@ -3821,7 +3927,7 @@
           "File": ""
         }
       },
-      "GitCommit": "48ce959533cd2146eb94d626938b683b5b013cfc",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "22/jdk/ubi/ubi9-minimal",
       "File": ""
     },
@@ -3928,7 +4034,7 @@
           "File": ""
         }
       },
-      "GitCommit": "48ce959533cd2146eb94d626938b683b5b013cfc",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "22/jre/alpine",
       "File": ""
     },
@@ -3967,7 +4073,7 @@
           "File": ""
         }
       },
-      "GitCommit": "48ce959533cd2146eb94d626938b683b5b013cfc",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "22/jre/ubuntu/jammy",
       "File": ""
     },
@@ -4008,7 +4114,7 @@
           "File": ""
         }
       },
-      "GitCommit": "48ce959533cd2146eb94d626938b683b5b013cfc",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "22/jre/ubuntu/noble",
       "File": ""
     },
@@ -4047,7 +4153,7 @@
           "File": ""
         }
       },
-      "GitCommit": "48ce959533cd2146eb94d626938b683b5b013cfc",
+      "GitCommit": "43fcefc483338727126a5263d7110f5711ad8506",
       "Directory": "22/jre/ubi/ubi9-minimal",
       "File": ""
     },
@@ -4125,6 +4231,396 @@
       },
       "GitCommit": "48ce959533cd2146eb94d626938b683b5b013cfc",
       "Directory": "22/jre/windows/nanoserver-1809",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8u412-b08-jdk-alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "Directory": "8/jdk/alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8u412-b08-jdk-focal"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "Directory": "8/jdk/ubuntu/focal",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8u412-b08-jdk-jammy",
+        "8u412-b08-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "Directory": "8/jdk/ubuntu/jammy",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8u412-b08-jdk-ubi9-minimal"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "Directory": "8/jdk/ubi/ubi9-minimal",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8u412-b08-jdk-windowsservercore-ltsc2022",
+        "8u412-b08-jdk-windowsservercore"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "Directory": "8/jdk/windows/windowsservercore-ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8u412-b08-jdk-nanoserver-ltsc2022",
+        "8u412-b08-jdk-nanoserver"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "Directory": "8/jdk/windows/nanoserver-ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8u412-b08-jdk-windowsservercore-1809"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "Directory": "8/jdk/windows/windowsservercore-1809",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8u412-b08-jdk-nanoserver-1809"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "Directory": "8/jdk/windows/nanoserver-1809",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8u412-b08-jre-alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "Directory": "8/jre/alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8u412-b08-jre-focal"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "Directory": "8/jre/ubuntu/focal",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8u412-b08-jre-jammy",
+        "8u412-b08-jre"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "Directory": "8/jre/ubuntu/jammy",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8u412-b08-jre-ubi9-minimal"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "Directory": "8/jre/ubi/ubi9-minimal",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8u412-b08-jre-windowsservercore-ltsc2022",
+        "8u412-b08-jre-windowsservercore"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "Directory": "8/jre/windows/windowsservercore-ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8u412-b08-jre-nanoserver-ltsc2022",
+        "8u412-b08-jre-nanoserver"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "Directory": "8/jre/windows/nanoserver-ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8u412-b08-jre-windowsservercore-1809"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "Directory": "8/jre/windows/windowsservercore-1809",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8u412-b08-jre-nanoserver-1809"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "057e5aa7581e96b8a2334290e750b329d62abfdf",
+      "Directory": "8/jre/windows/nanoserver-1809",
       "File": ""
     },
     {
