@@ -16,7 +16,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        tag: [5.2.1, 5.2.1-fpm-alpine, 5.2.1-fpm, 5.2.1-apache]
+        tag: [5.2.1]
     steps:
     - uses: actions/checkout@v4
 
