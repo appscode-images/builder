@@ -286,10 +286,14 @@
     "3.4.3-sdk": {},
     "3.4.4": {},
     "3.4.4-sdk": {},
+    "3.5": {},
+    "3.5-sdk": {},
+    "3.5.0": {},
     "3.5.0-180.2.beta": {},
     "3.5.0-180.2.beta-sdk": {},
     "3.5.0-180.3.beta": {},
     "3.5.0-180.3.beta-sdk": {},
+    "3.5.0-sdk": {},
     "beta": {},
     "beta-sdk": {},
     "latest": {},
@@ -300,16 +304,52 @@
   "Blocks": [
     {
       "Tags": [
-        "3.4.4-sdk",
-        "3.4-sdk",
+        "3.5.0-sdk",
+        "3.5-sdk",
         "3-sdk",
         "stable-sdk",
         "sdk",
-        "3.4.4",
-        "3.4",
+        "3.5.0",
+        "3.5",
         "3",
         "stable",
-        "latest"
+        "latest",
+        "beta-sdk",
+        "beta"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "e597e8fea5215866dd987c3d785db7cb0500258a",
+      "Directory": "stable/bookworm",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "3.4.4-sdk",
+        "3.4-sdk",
+        "3.4.4",
+        "3.4"
       ],
       "Architectures": {
         "amd64": {
@@ -341,9 +381,7 @@
     {
       "Tags": [
         "3.5.0-180.3.beta-sdk",
-        "beta-sdk",
-        "3.5.0-180.3.beta",
-        "beta"
+        "3.5.0-180.3.beta"
       ],
       "Architectures": {
         "amd64": {

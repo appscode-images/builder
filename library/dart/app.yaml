@@ -20,18 +20,47 @@ Blocks:
       GitFetch: ""
   Directory: stable/bookworm
   File: ""
+  GitCommit: e597e8fea5215866dd987c3d785db7cb0500258a
+  Tags:
+  - 3.5.0-sdk
+  - 3.5-sdk
+  - 3-sdk
+  - stable-sdk
+  - sdk
+  - 3.5.0
+  - "3.5"
+  - "3"
+  - stable
+  - latest
+  - beta-sdk
+  - beta
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: stable/bookworm
+  File: ""
   GitCommit: d3658d21b1bd35658346d3fb4345d9a8084759e5
   Tags:
   - 3.4.4-sdk
   - 3.4-sdk
-  - 3-sdk
-  - stable-sdk
-  - sdk
   - 3.4.4
   - "3.4"
-  - "3"
-  - stable
-  - latest
 - Architectures:
     amd64:
       Architecture: amd64
@@ -56,9 +85,7 @@ Blocks:
   GitCommit: d3658d21b1bd35658346d3fb4345d9a8084759e5
   Tags:
   - 3.5.0-180.3.beta-sdk
-  - beta-sdk
   - 3.5.0-180.3.beta
-  - beta
 - Architectures:
     amd64:
       Architecture: amd64
@@ -3276,10 +3303,14 @@ KnownTags:
   3.4.3-sdk: {}
   3.4.4: {}
   3.4.4-sdk: {}
+  "3.5": {}
+  3.5-sdk: {}
+  3.5.0: {}
   3.5.0-180.2.beta: {}
   3.5.0-180.2.beta-sdk: {}
   3.5.0-180.3.beta: {}
   3.5.0-180.3.beta-sdk: {}
+  3.5.0-sdk: {}
   beta: {}
   beta-sdk: {}
   latest: {}
