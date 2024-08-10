@@ -59,8 +59,10 @@
     "8.8.4-buster": {},
     "8.8.4-stretch": {},
     "9": {},
+    "9-bullseye": {},
     "9-buster": {},
     "9-slim": {},
+    "9-slim-bullseye": {},
     "9-slim-buster": {},
     "9-stretch": {},
     "9.0": {},
@@ -75,9 +77,13 @@
     "9.0.2-buster": {},
     "9.0.2-slim": {},
     "9.0.2-slim-buster": {},
+    "9.10-bullseye": {},
     "9.10-buster": {},
+    "9.10-slim-bullseye": {},
     "9.10-slim-buster": {},
+    "9.10.1-bullseye": {},
     "9.10.1-buster": {},
+    "9.10.1-slim-bullseye": {},
     "9.10.1-slim-buster": {},
     "9.2": {},
     "9.2-buster": {},
@@ -183,21 +189,79 @@
     "9.8.2-buster": {},
     "9.8.2-slim": {},
     "9.8.2-slim-buster": {},
+    "bullseye": {},
     "buster": {},
     "latest": {},
     "slim": {},
+    "slim-bullseye": {},
     "slim-buster": {},
     "stretch": {}
   },
   "Blocks": [
     {
       "Tags": [
+        "9.10.1-bullseye",
+        "9.10-bullseye",
+        "9-bullseye",
+        "bullseye",
+        "9",
+        "latest"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "65b8848bc9e63d54f12ecf3f31d04621d62d761c",
+      "Directory": "9.10/bullseye",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "9.10.1-slim-bullseye",
+        "9.10-slim-bullseye",
+        "9-slim-bullseye",
+        "slim-bullseye",
+        "9-slim",
+        "slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "65b8848bc9e63d54f12ecf3f31d04621d62d761c",
+      "Directory": "9.10/slim-bullseye",
+      "File": ""
+    },
+    {
+      "Tags": [
         "9.10.1-buster",
         "9.10-buster",
         "9-buster",
-        "buster",
-        "9",
-        "latest"
+        "buster"
       ],
       "Architectures": {
         "amd64": {
@@ -224,9 +288,7 @@
         "9.10.1-slim-buster",
         "9.10-slim-buster",
         "9-slim-buster",
-        "slim-buster",
-        "9-slim",
-        "slim"
+        "slim-buster"
       ],
       "Architectures": {
         "amd64": {
