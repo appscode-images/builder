@@ -58,6 +58,48 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+  Directory: 9.6/bullseye
+  File: ""
+  GitCommit: 45be610ef8bc3e4f844ff2fff1a66e6809d26dbf
+  Tags:
+  - 9.6.6-bullseye
+  - 9.6-bullseye
+  - 9.6.6
+  - "9.6"
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 9.6/slim-bullseye
+  File: ""
+  GitCommit: 45be610ef8bc3e4f844ff2fff1a66e6809d26dbf
+  Tags:
+  - 9.6.6-slim-bullseye
+  - 9.6-slim-bullseye
+  - 9.6.6-slim
+  - 9.6-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
   Directory: 9.10/buster
   File: ""
   GitCommit: ca3084159e14e2a753fe633789347a9d8633e5ea
@@ -149,7 +191,6 @@ Blocks:
   - 9.6.5-buster
   - 9.6-buster
   - 9.6.5
-  - "9.6"
 - Architectures:
     amd64:
       Architecture: amd64
@@ -170,7 +211,6 @@ Blocks:
   - 9.6.5-slim-buster
   - 9.6-slim-buster
   - 9.6.5-slim
-  - 9.6-slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1372,8 +1412,10 @@ KnownTags:
   9.4.8-slim: {}
   9.4.8-slim-buster: {}
   "9.6": {}
+  9.6-bullseye: {}
   9.6-buster: {}
   9.6-slim: {}
+  9.6-slim-bullseye: {}
   9.6-slim-buster: {}
   9.6.2: {}
   9.6.2-buster: {}
@@ -1391,6 +1433,10 @@ KnownTags:
   9.6.5-buster: {}
   9.6.5-slim: {}
   9.6.5-slim-buster: {}
+  9.6.6: {}
+  9.6.6-bullseye: {}
+  9.6.6-slim: {}
+  9.6.6-slim-bullseye: {}
   "9.8": {}
   9.8-buster: {}
   9.8-slim: {}

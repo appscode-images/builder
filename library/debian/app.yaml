@@ -53,7 +53,7 @@ Blocks:
   GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
   Tags:
   - bookworm
-  - bookworm-20240722
+  - bookworm-20240812
   - "12.6"
   - "12"
   - latest
@@ -165,7 +165,7 @@ Blocks:
   GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
   Tags:
   - bookworm-slim
-  - bookworm-20240722-slim
+  - bookworm-20240812-slim
   - 12.6-slim
   - 12-slim
 - Architectures:
@@ -222,7 +222,7 @@ Blocks:
   GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
   Tags:
   - bullseye
-  - bullseye-20240722
+  - bullseye-20240812
   - "11.10"
   - "11"
 - Architectures:
@@ -333,7 +333,7 @@ Blocks:
   GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
   Tags:
   - bullseye-slim
-  - bullseye-20240722-slim
+  - bullseye-20240812-slim
   - 11.10-slim
   - 11-slim
 - Architectures:
@@ -396,7 +396,7 @@ Blocks:
   GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
   Tags:
   - experimental
-  - experimental-20240722
+  - experimental-20240812
 - Architectures:
     amd64:
       Architecture: amd64
@@ -451,7 +451,7 @@ Blocks:
   GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
   Tags:
   - oldstable
-  - oldstable-20240722
+  - oldstable-20240812
 - Architectures:
     amd64:
       Architecture: amd64
@@ -560,7 +560,7 @@ Blocks:
   GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
   Tags:
   - oldstable-slim
-  - oldstable-20240722-slim
+  - oldstable-20240812-slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -621,7 +621,7 @@ Blocks:
   GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
   Tags:
   - rc-buggy
-  - rc-buggy-20240722
+  - rc-buggy-20240812
 - Architectures:
     amd64:
       Architecture: amd64
@@ -682,7 +682,7 @@ Blocks:
   GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
   Tags:
   - sid
-  - sid-20240722
+  - sid-20240812
 - Architectures:
     amd64:
       Architecture: amd64
@@ -743,7 +743,7 @@ Blocks:
   GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
   Tags:
   - sid-slim
-  - sid-20240722-slim
+  - sid-20240812-slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -798,7 +798,7 @@ Blocks:
   GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
   Tags:
   - stable
-  - stable-20240722
+  - stable-20240812
 - Architectures:
     amd64:
       Architecture: amd64
@@ -907,7 +907,7 @@ Blocks:
   GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
   Tags:
   - stable-slim
-  - stable-20240722-slim
+  - stable-20240812-slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -947,6 +947,12 @@ Blocks:
       GitFetch: ""
     ppc64le:
       Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
       Directory: ""
       File: ""
       GitCommit: ""
@@ -962,7 +968,7 @@ Blocks:
   GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
   Tags:
   - testing
-  - testing-20240722
+  - testing-20240812
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1002,6 +1008,12 @@ Blocks:
       GitFetch: ""
     ppc64le:
       Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
       Directory: ""
       File: ""
       GitCommit: ""
@@ -1060,6 +1072,12 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
     s390x:
       Architecture: s390x
       Directory: ""
@@ -1071,7 +1089,7 @@ Blocks:
   GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
   Tags:
   - testing-slim
-  - testing-20240722-slim
+  - testing-20240812-slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1111,6 +1129,12 @@ Blocks:
       GitFetch: ""
     ppc64le:
       Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
       Directory: ""
       File: ""
       GitCommit: ""
@@ -1126,7 +1150,7 @@ Blocks:
   GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
   Tags:
   - trixie
-  - trixie-20240722
+  - trixie-20240812
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1166,6 +1190,12 @@ Blocks:
       GitFetch: ""
     ppc64le:
       Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
       Directory: ""
       File: ""
       GitCommit: ""
@@ -1224,6 +1254,12 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
     s390x:
       Architecture: s390x
       Directory: ""
@@ -1235,7 +1271,7 @@ Blocks:
   GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
   Tags:
   - trixie-slim
-  - trixie-20240722-slim
+  - trixie-20240812-slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1296,7 +1332,7 @@ Blocks:
   GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
   Tags:
   - unstable
-  - unstable-20240722
+  - unstable-20240812
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1357,6 +1393,1014 @@ Blocks:
   GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
   Tags:
   - unstable-slim
+  - unstable-20240812-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: bookworm
+  File: ""
+  GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+  Tags:
+  - bookworm-20240722
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: bookworm/slim
+  File: ""
+  GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+  Tags:
+  - bookworm-20240722-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: bullseye
+  File: ""
+  GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+  Tags:
+  - bullseye-20240722
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: bullseye/slim
+  File: ""
+  GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+  Tags:
+  - bullseye-20240722-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: experimental
+  File: ""
+  GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+  Tags:
+  - experimental-20240722
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: oldstable
+  File: ""
+  GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+  Tags:
+  - oldstable-20240722
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: oldstable/slim
+  File: ""
+  GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+  Tags:
+  - oldstable-20240722-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: rc-buggy
+  File: ""
+  GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+  Tags:
+  - rc-buggy-20240722
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: sid
+  File: ""
+  GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+  Tags:
+  - sid-20240722
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: sid/slim
+  File: ""
+  GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+  Tags:
+  - sid-20240722-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: stable
+  File: ""
+  GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+  Tags:
+  - stable-20240722
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: stable/slim
+  File: ""
+  GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+  Tags:
+  - stable-20240722-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: testing
+  File: ""
+  GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+  Tags:
+  - testing-20240722
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: testing/slim
+  File: ""
+  GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+  Tags:
+  - testing-20240722-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: trixie
+  File: ""
+  GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+  Tags:
+  - trixie-20240722
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: trixie/slim
+  File: ""
+  GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+  Tags:
+  - trixie-20240722-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: unstable
+  File: ""
+  GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+  Tags:
+  - unstable-20240722
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: unstable/slim
+  File: ""
+  GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
+  Tags:
   - unstable-20240722-slim
 - Architectures:
     amd64:
@@ -99803,6 +100847,8 @@ KnownTags:
   bookworm-20240701-slim: {}
   bookworm-20240722: {}
   bookworm-20240722-slim: {}
+  bookworm-20240812: {}
+  bookworm-20240812-slim: {}
   bookworm-backports: {}
   bookworm-slim: {}
   bullseye: {}
@@ -99968,6 +101014,8 @@ KnownTags:
   bullseye-20240701-slim: {}
   bullseye-20240722: {}
   bullseye-20240722-slim: {}
+  bullseye-20240812: {}
+  bullseye-20240812-slim: {}
   bullseye-backports: {}
   bullseye-slim: {}
   buster: {}
@@ -100264,6 +101312,7 @@ KnownTags:
   experimental-20240612: {}
   experimental-20240701: {}
   experimental-20240722: {}
+  experimental-20240812: {}
   jessie: {}
   jessie-20170606: {}
   jessie-20170620: {}
@@ -100679,6 +101728,8 @@ KnownTags:
   oldstable-20240701-slim: {}
   oldstable-20240722: {}
   oldstable-20240722-slim: {}
+  oldstable-20240812: {}
+  oldstable-20240812-slim: {}
   oldstable-backports: {}
   oldstable-slim: {}
   rc-buggy: {}
@@ -100785,6 +101836,7 @@ KnownTags:
   rc-buggy-20240612: {}
   rc-buggy-20240701: {}
   rc-buggy-20240722: {}
+  rc-buggy-20240812: {}
   sid: {}
   sid-20170606: {}
   sid-20170620: {}
@@ -100980,6 +102032,8 @@ KnownTags:
   sid-20240701-slim: {}
   sid-20240722: {}
   sid-20240722-slim: {}
+  sid-20240812: {}
+  sid-20240812-slim: {}
   sid-slim: {}
   stable: {}
   stable-20170606: {}
@@ -101174,6 +102228,8 @@ KnownTags:
   stable-20240701-slim: {}
   stable-20240722: {}
   stable-20240722-slim: {}
+  stable-20240812: {}
+  stable-20240812-slim: {}
   stable-backports: {}
   stable-slim: {}
   stretch: {}
@@ -101492,6 +102548,8 @@ KnownTags:
   testing-20240701-slim: {}
   testing-20240722: {}
   testing-20240722-slim: {}
+  testing-20240812: {}
+  testing-20240812-slim: {}
   testing-backports: {}
   testing-slim: {}
   trixie: {}
@@ -101537,6 +102595,8 @@ KnownTags:
   trixie-20240701-slim: {}
   trixie-20240722: {}
   trixie-20240722-slim: {}
+  trixie-20240812: {}
+  trixie-20240812-slim: {}
   trixie-backports: {}
   trixie-slim: {}
   unstable: {}
@@ -101734,6 +102794,8 @@ KnownTags:
   unstable-20240701-slim: {}
   unstable-20240722: {}
   unstable-20240722-slim: {}
+  unstable-20240812: {}
+  unstable-20240812-slim: {}
   unstable-slim: {}
   wheezy: {}
   wheezy-20170606: {}
