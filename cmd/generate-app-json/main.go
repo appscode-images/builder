@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	var name = flag.String("name", "elastic", "Name of binary")
+	var name = flag.String("name", "ferretdb", "Name of binary")
 	flag.Parse()
 
 	dir, err := os.Getwd()
