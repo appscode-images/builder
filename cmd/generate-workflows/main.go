@@ -119,7 +119,7 @@ const wf = `name: build-$name$
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 * * 0'
   workflow_dispatch:
 
 concurrency:
