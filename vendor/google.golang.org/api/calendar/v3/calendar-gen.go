@@ -8,6 +8,17 @@
 //
 // For product documentation, see: https://developers.google.com/google-apps/calendar/firstapp
 //
+// # Library status
+//
+// These client libraries are officially supported by Google. However, this
+// library is considered complete and is in maintenance mode. This means
+// that we will address critical bugs and security issues but will not add
+// any new features.
+//
+// When possible, we recommend using our newer
+// [Cloud Client Libraries for Go](https://pkg.go.dev/cloud.google.com/go)
+// that are still actively being worked and iterated on.
+//
 // # Creating a client
 //
 // Usage example:
@@ -17,28 +28,31 @@
 //	ctx := context.Background()
 //	calendarService, err := calendar.NewService(ctx)
 //
-// In this example, Google Application Default Credentials are used for authentication.
-//
-// For information on how to create and obtain Application Default Credentials, see https://developers.google.com/identity/protocols/application-default-credentials.
+// In this example, Google Application Default Credentials are used for
+// authentication. For information on how to create and obtain Application
+// Default Credentials, see https://developers.google.com/identity/protocols/application-default-credentials.
 //
 // # Other authentication options
 //
-// By default, all available scopes (see "Constants") are used to authenticate. To restrict scopes, use option.WithScopes:
+// By default, all available scopes (see "Constants") are used to authenticate.
+// To restrict scopes, use [google.golang.org/api/option.WithScopes]:
 //
 //	calendarService, err := calendar.NewService(ctx, option.WithScopes(calendar.CalendarSettingsReadonlyScope))
 //
-// To use an API key for authentication (note: some APIs do not support API keys), use option.WithAPIKey:
+// To use an API key for authentication (note: some APIs do not support API
+// keys), use [google.golang.org/api/option.WithAPIKey]:
 //
 //	calendarService, err := calendar.NewService(ctx, option.WithAPIKey("AIza..."))
 //
-// To use an OAuth token (e.g., a user token obtained via a three-legged OAuth flow), use option.WithTokenSource:
+// To use an OAuth token (e.g., a user token obtained via a three-legged OAuth
+// flow, use [google.golang.org/api/option.WithTokenSource]:
 //
 //	config := &oauth2.Config{...}
 //	// ...
 //	token, err := config.Exchange(ctx, ...)
 //	calendarService, err := calendar.NewService(ctx, option.WithTokenSource(config.TokenSource(ctx, token)))
 //
-// See https://godoc.org/google.golang.org/api/option/ for details on options.
+// See [google.golang.org/api/option.ClientOption] for details on options.
 package calendar // import "google.golang.org/api/calendar/v3"
 
 import (
@@ -1548,8 +1562,8 @@ type Event struct {
 	// compatibility reasons.
 	Visibility string `json:"visibility,omitempty"`
 
-	// WorkingLocationProperties: Developer Preview: Working Location event
-	// data. Read-only.
+	// WorkingLocationProperties: Working Location event data. Developer
+	// Preview.
 	WorkingLocationProperties *EventWorkingLocationProperties `json:"workingLocationProperties,omitempty"`
 
 	// ServerResponse contains the HTTP response code and headers from the
@@ -2032,6 +2046,11 @@ type EventWorkingLocationProperties struct {
 	// OfficeLocation: If present, specifies that the user is working from
 	// an office.
 	OfficeLocation *EventWorkingLocationPropertiesOfficeLocation `json:"officeLocation,omitempty"`
+
+	// Type: Indicates what kind of location this is. Any details are
+	// specified in a sub-field of the specified name (but which may be
+	// missing if empty). Any other fields are ignored.
+	Type string `json:"type,omitempty"`
 
 	// ForceSendFields is a list of field names (e.g. "CustomLocation") to
 	// unconditionally include in API requests. By default, fields with
@@ -7073,15 +7092,15 @@ func (c *EventsListCall) AlwaysIncludeEmail(alwaysIncludeEmail bool) *EventsList
 // - "outOfOffice"This parameter can be repeated multiple times to
 // return events of different types. Currently, this is the only allowed
 // value for this field:
-// - ["default", "focusTime", "outOfOffice"] This value will be the
+// - ["default", "focusTime", "outOfOffice"] This value is the
 // default.
 //
 // If you're enrolled in the Working Location developer preview program,
 // in addition to the default value above you can also set the
 // "workingLocation" event type:
 // - ["default", "focusTime", "outOfOffice", "workingLocation"]
-// - ["workingLocation"] Additional combinations of these 4 event types
-// will be made available in later releases. Developer Preview.
+// - ["workingLocation"] Additional combinations of these four event
+// types will be made available in later releases. Developer Preview.
 func (c *EventsListCall) EventTypes(eventTypes ...string) *EventsListCall {
 	c.urlParams_.SetMulti("eventTypes", append([]string{}, eventTypes...))
 	return c
@@ -7214,9 +7233,11 @@ func (c *EventsListCall) SingleEvents(singleEvents bool) *EventsListCall {
 // - sharedExtendedProperty
 // - timeMin
 // - timeMax
-// - updatedMin If the syncToken expires, the server will respond with a
-// 410 GONE response code and the client should clear its storage and
-// perform a full synchronization without any syncToken.
+// - updatedMin All other query parameters should be the same as for the
+// initial synchronization to avoid undefined behavior. If the syncToken
+// expires, the server will respond with a 410 GONE response code and
+// the client should clear its storage and perform a full
+// synchronization without any syncToken.
 // Learn more about incremental synchronization.
 //
 //	The default is to return all entries.
@@ -7382,7 +7403,7 @@ func (c *EventsListCall) Do(opts ...googleapi.CallOption) (*Events, error) {
 	//       "type": "string"
 	//     },
 	//     "eventTypes": {
-	//       "description": "Event types to return. Optional. Possible values are: \n- \"default\" \n- \"focusTime\" \n- \"outOfOffice\"This parameter can be repeated multiple times to return events of different types. Currently, this is the only allowed value for this field: \n- [\"default\", \"focusTime\", \"outOfOffice\"] This value will be the default.\n\nIf you're enrolled in the Working Location developer preview program, in addition to the default value above you can also set the \"workingLocation\" event type: \n- [\"default\", \"focusTime\", \"outOfOffice\", \"workingLocation\"] \n- [\"workingLocation\"] Additional combinations of these 4 event types will be made available in later releases. Developer Preview.",
+	//       "description": "Event types to return. Optional. Possible values are: \n- \"default\" \n- \"focusTime\" \n- \"outOfOffice\"This parameter can be repeated multiple times to return events of different types. Currently, this is the only allowed value for this field: \n- [\"default\", \"focusTime\", \"outOfOffice\"] This value is the default.\n\nIf you're enrolled in the Working Location developer preview program, in addition to the default value above you can also set the \"workingLocation\" event type: \n- [\"default\", \"focusTime\", \"outOfOffice\", \"workingLocation\"] \n- [\"workingLocation\"] Additional combinations of these four event types will be made available in later releases. Developer Preview.",
 	//       "location": "query",
 	//       "repeated": true,
 	//       "type": "string"
@@ -7458,7 +7479,7 @@ func (c *EventsListCall) Do(opts ...googleapi.CallOption) (*Events, error) {
 	//       "type": "boolean"
 	//     },
 	//     "syncToken": {
-	//       "description": "Token obtained from the nextSyncToken field returned on the last page of results from the previous list request. It makes the result of this list request contain only entries that have changed since then. All events deleted since the previous list request will always be in the result set and it is not allowed to set showDeleted to False.\nThere are several query parameters that cannot be specified together with nextSyncToken to ensure consistency of the client state.\n\nThese are: \n- iCalUID \n- orderBy \n- privateExtendedProperty \n- q \n- sharedExtendedProperty \n- timeMin \n- timeMax \n- updatedMin If the syncToken expires, the server will respond with a 410 GONE response code and the client should clear its storage and perform a full synchronization without any syncToken.\nLearn more about incremental synchronization.\nOptional. The default is to return all entries.",
+	//       "description": "Token obtained from the nextSyncToken field returned on the last page of results from the previous list request. It makes the result of this list request contain only entries that have changed since then. All events deleted since the previous list request will always be in the result set and it is not allowed to set showDeleted to False.\nThere are several query parameters that cannot be specified together with nextSyncToken to ensure consistency of the client state.\n\nThese are: \n- iCalUID \n- orderBy \n- privateExtendedProperty \n- q \n- sharedExtendedProperty \n- timeMin \n- timeMax \n- updatedMin All other query parameters should be the same as for the initial synchronization to avoid undefined behavior. If the syncToken expires, the server will respond with a 410 GONE response code and the client should clear its storage and perform a full synchronization without any syncToken.\nLearn more about incremental synchronization.\nOptional. The default is to return all entries.",
 	//       "location": "query",
 	//       "type": "string"
 	//     },
@@ -8497,15 +8518,15 @@ func (c *EventsWatchCall) AlwaysIncludeEmail(alwaysIncludeEmail bool) *EventsWat
 // - "outOfOffice"This parameter can be repeated multiple times to
 // return events of different types. Currently, this is the only allowed
 // value for this field:
-// - ["default", "focusTime", "outOfOffice"] This value will be the
+// - ["default", "focusTime", "outOfOffice"] This value is the
 // default.
 //
 // If you're enrolled in the Working Location developer preview program,
 // in addition to the default value above you can also set the
 // "workingLocation" event type:
 // - ["default", "focusTime", "outOfOffice", "workingLocation"]
-// - ["workingLocation"] Additional combinations of these 4 event types
-// will be made available in later releases. Developer Preview.
+// - ["workingLocation"] Additional combinations of these four event
+// types will be made available in later releases. Developer Preview.
 func (c *EventsWatchCall) EventTypes(eventTypes ...string) *EventsWatchCall {
 	c.urlParams_.SetMulti("eventTypes", append([]string{}, eventTypes...))
 	return c
@@ -8638,9 +8659,11 @@ func (c *EventsWatchCall) SingleEvents(singleEvents bool) *EventsWatchCall {
 // - sharedExtendedProperty
 // - timeMin
 // - timeMax
-// - updatedMin If the syncToken expires, the server will respond with a
-// 410 GONE response code and the client should clear its storage and
-// perform a full synchronization without any syncToken.
+// - updatedMin All other query parameters should be the same as for the
+// initial synchronization to avoid undefined behavior. If the syncToken
+// expires, the server will respond with a 410 GONE response code and
+// the client should clear its storage and perform a full
+// synchronization without any syncToken.
 // Learn more about incremental synchronization.
 //
 //	The default is to return all entries.
@@ -8798,7 +8821,7 @@ func (c *EventsWatchCall) Do(opts ...googleapi.CallOption) (*Channel, error) {
 	//       "type": "string"
 	//     },
 	//     "eventTypes": {
-	//       "description": "Event types to return. Optional. Possible values are: \n- \"default\" \n- \"focusTime\" \n- \"outOfOffice\"This parameter can be repeated multiple times to return events of different types. Currently, this is the only allowed value for this field: \n- [\"default\", \"focusTime\", \"outOfOffice\"] This value will be the default.\n\nIf you're enrolled in the Working Location developer preview program, in addition to the default value above you can also set the \"workingLocation\" event type: \n- [\"default\", \"focusTime\", \"outOfOffice\", \"workingLocation\"] \n- [\"workingLocation\"] Additional combinations of these 4 event types will be made available in later releases. Developer Preview.",
+	//       "description": "Event types to return. Optional. Possible values are: \n- \"default\" \n- \"focusTime\" \n- \"outOfOffice\"This parameter can be repeated multiple times to return events of different types. Currently, this is the only allowed value for this field: \n- [\"default\", \"focusTime\", \"outOfOffice\"] This value is the default.\n\nIf you're enrolled in the Working Location developer preview program, in addition to the default value above you can also set the \"workingLocation\" event type: \n- [\"default\", \"focusTime\", \"outOfOffice\", \"workingLocation\"] \n- [\"workingLocation\"] Additional combinations of these four event types will be made available in later releases. Developer Preview.",
 	//       "location": "query",
 	//       "repeated": true,
 	//       "type": "string"
@@ -8874,7 +8897,7 @@ func (c *EventsWatchCall) Do(opts ...googleapi.CallOption) (*Channel, error) {
 	//       "type": "boolean"
 	//     },
 	//     "syncToken": {
-	//       "description": "Token obtained from the nextSyncToken field returned on the last page of results from the previous list request. It makes the result of this list request contain only entries that have changed since then. All events deleted since the previous list request will always be in the result set and it is not allowed to set showDeleted to False.\nThere are several query parameters that cannot be specified together with nextSyncToken to ensure consistency of the client state.\n\nThese are: \n- iCalUID \n- orderBy \n- privateExtendedProperty \n- q \n- sharedExtendedProperty \n- timeMin \n- timeMax \n- updatedMin If the syncToken expires, the server will respond with a 410 GONE response code and the client should clear its storage and perform a full synchronization without any syncToken.\nLearn more about incremental synchronization.\nOptional. The default is to return all entries.",
+	//       "description": "Token obtained from the nextSyncToken field returned on the last page of results from the previous list request. It makes the result of this list request contain only entries that have changed since then. All events deleted since the previous list request will always be in the result set and it is not allowed to set showDeleted to False.\nThere are several query parameters that cannot be specified together with nextSyncToken to ensure consistency of the client state.\n\nThese are: \n- iCalUID \n- orderBy \n- privateExtendedProperty \n- q \n- sharedExtendedProperty \n- timeMin \n- timeMax \n- updatedMin All other query parameters should be the same as for the initial synchronization to avoid undefined behavior. If the syncToken expires, the server will respond with a 410 GONE response code and the client should clear its storage and perform a full synchronization without any syncToken.\nLearn more about incremental synchronization.\nOptional. The default is to return all entries.",
 	//       "location": "query",
 	//       "type": "string"
 	//     },
