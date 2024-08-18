@@ -4,32 +4,38 @@ Blocks:
       Architecture: amd64
       Directory: ""
       File: ""
-      GitCommit: f351639c499dcde9b2d9e3aeb2b0344c4a01fc1e
-      GitFetch: refs/tags/dist-focal-amd64-20240530-f351639c
+      GitCommit: 9699eddd402d702628046e17ab86ccc5ffb51adc
+      GitFetch: refs/tags/dist-focal-amd64-20240530-9699eddd
     arm32v7:
       Architecture: arm32v7
       Directory: ""
       File: ""
-      GitCommit: 21baaf519ae0a1e31b05bba90e54006cfb75dac4
-      GitFetch: refs/tags/dist-focal-arm32v7-20240530-21baaf51
+      GitCommit: 3d3355b763a102269523c0020a21f650b7d858d3
+      GitFetch: refs/tags/dist-focal-arm32v7-20240530-3d3355b7
     arm64v8:
       Architecture: arm64v8
       Directory: ""
       File: ""
-      GitCommit: ab38bd2f5fc6c745ba0732935126acedf7c17c0f
-      GitFetch: refs/tags/dist-focal-arm64v8-20240530-ab38bd2f
+      GitCommit: 1f176f17ceab7d58fafdcd0971ae7288c2390106
+      GitFetch: refs/tags/dist-focal-arm64v8-20240530-1f176f17
     ppc64le:
       Architecture: ppc64le
       Directory: ""
       File: ""
-      GitCommit: 8253a0d37295da483910b125f915b3e3956ca496
-      GitFetch: refs/tags/dist-focal-ppc64le-20240530-8253a0d3
+      GitCommit: 827b272f6bac95e1eb7488d4da3ae24a627aa258
+      GitFetch: refs/tags/dist-focal-ppc64le-20240530-827b272f
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ac4a9b7483ace251eb0d690944b720e6f869b6e1
+      GitFetch: refs/tags/dist-focal-riscv64-20240530-ac4a9b74
     s390x:
       Architecture: s390x
       Directory: ""
       File: ""
-      GitCommit: 4ee78698cc4fa3d53c5c9824da2fc792136740d8
-      GitFetch: refs/tags/dist-focal-s390x-20240530-4ee78698
+      GitCommit: 5a9a5178e1d3266c77aec02f24f0c3327ff232e3
+      GitFetch: refs/tags/dist-focal-s390x-20240530-5a9a5178
   Directory: oci
   File: ""
   GitCommit: fa42be9027eccb928a1f0f43d95ffd9a45d36737
@@ -37,6 +43,141 @@ Blocks:
   - "20.04"
   - focal-20240530
   - focal
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: 4cf8c608d2549bbd10cdce612c814dc60899ebde
+      GitFetch: refs/tags/dist-jammy-amd64-20240808-4cf8c608
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: 339e00120378c8cf2b5fbe7c1b04399c933afcbb
+      GitFetch: refs/tags/dist-jammy-arm32v7-20240808-339e0012
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: 72abb87bb65814d21ed334fa000fa7d55de9f210
+      GitFetch: refs/tags/dist-jammy-arm64v8-20240808-72abb87b
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: f2cc00f0a5a42e3c6bcc15f82e672b604eae3243
+      GitFetch: refs/tags/dist-jammy-ppc64le-20240808-f2cc00f0
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: 854a0baf652ab8596916f35262ede56cc980d3db
+      GitFetch: refs/tags/dist-jammy-riscv64-20240808-854a0baf
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: eae0690540ac9772e32ca0a4fa9e539b87d3d709
+      GitFetch: refs/tags/dist-jammy-s390x-20240808-eae06905
+  Directory: oci
+  File: ""
+  GitCommit: fa42be9027eccb928a1f0f43d95ffd9a45d36737
+  Tags:
+  - "22.04"
+  - jammy-20240808
+  - jammy
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: b0b2956a333896413ad26c7ad96520ffe4d0ea89
+      GitFetch: refs/tags/dist-noble-amd64-20240801-b0b2956a
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: b5430c81950f79eb8a9a2f33da56924c839088c2
+      GitFetch: refs/tags/dist-noble-arm32v7-20240801-b5430c81
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: bad0877baa53f5ffd34ced4b4ca3d3d60f8422ed
+      GitFetch: refs/tags/dist-noble-arm64v8-20240801-bad0877b
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: 41cba6ccd75f36bcaa18c65bdf6db8a3ba0b7f12
+      GitFetch: refs/tags/dist-noble-ppc64le-20240801-41cba6cc
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: da35f9f18e4a15b0d866c6a14606984cad923d1b
+      GitFetch: refs/tags/dist-noble-riscv64-20240801-da35f9f1
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: 679e5d1c48c4c91d30056b18d5b4f1d983c65adb
+      GitFetch: refs/tags/dist-noble-s390x-20240801-679e5d1c
+  Directory: oci
+  File: ""
+  GitCommit: fa42be9027eccb928a1f0f43d95ffd9a45d36737
+  Tags:
+  - "24.04"
+  - noble-20240801
+  - noble
+  - latest
+  - rolling
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: bee83f33ff87f39261ce0ef49970c4313c2772f6
+      GitFetch: refs/tags/dist-oracular-amd64-20240811.1-bee83f33
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: caa736496cde1b36fffd6236922b3ef391e74af6
+      GitFetch: refs/tags/dist-oracular-arm32v7-20240811.1-caa73649
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: 17f1ab677f15c0aa9aae6347340614846ebdee3e
+      GitFetch: refs/tags/dist-oracular-arm64v8-20240811.1-17f1ab67
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: 96d9112a794e0e3d65e0fe0e31f2d2ae60cf4fec
+      GitFetch: refs/tags/dist-oracular-ppc64le-20240811.1-96d9112a
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: 312a80fde3ddb6fb8e00dcbace0285a5040b93ec
+      GitFetch: refs/tags/dist-oracular-riscv64-20240811.1-312a80fd
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: 95f4bce3c4112829d7fd29bfe764bde698e3a274
+      GitFetch: refs/tags/dist-oracular-s390x-20240811.1-95f4bce3
+  Directory: oci
+  File: ""
+  GitCommit: fa42be9027eccb928a1f0f43d95ffd9a45d36737
+  Tags:
+  - "24.10"
+  - oracular-20240811.1
+  - oracular
+  - devel
 - Architectures:
     amd64:
       Architecture: amd64
@@ -72,9 +213,7 @@ Blocks:
   File: ""
   GitCommit: fa42be9027eccb928a1f0f43d95ffd9a45d36737
   Tags:
-  - "22.04"
   - jammy-20240627.1
-  - jammy
 - Architectures:
     amd64:
       Architecture: amd64
@@ -110,11 +249,7 @@ Blocks:
   File: ""
   GitCommit: fa42be9027eccb928a1f0f43d95ffd9a45d36737
   Tags:
-  - "24.04"
   - noble-20240605
-  - noble
-  - latest
-  - rolling
 - Architectures:
     amd64:
       Architecture: amd64
@@ -156,10 +291,7 @@ Blocks:
   File: ""
   GitCommit: fa42be9027eccb928a1f0f43d95ffd9a45d36737
   Tags:
-  - "24.10"
   - oracular-20240617
-  - oracular
-  - devel
 - Architectures:
     amd64:
       Architecture: amd64
@@ -16947,6 +17079,7 @@ KnownTags:
   jammy-20240427: {}
   jammy-20240530: {}
   jammy-20240627.1: {}
+  jammy-20240808: {}
   kinetic: {}
   kinetic-20220428: {}
   kinetic-20220602: {}
@@ -17010,9 +17143,11 @@ KnownTags:
   noble-20240429: {}
   noble-20240530: {}
   noble-20240605: {}
+  noble-20240801: {}
   oracular: {}
   oracular-20240527: {}
   oracular-20240617: {}
+  oracular-20240811.1: {}
   precise: {}
   precise-20160624: {}
   precise-20160707: {}
