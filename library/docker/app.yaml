@@ -24,6 +24,134 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+  Directory: 27/cli
+  File: ""
+  GitCommit: 3a19522aa3c9bb06216f71f0d7323764e72c80be
+  Tags:
+  - 27.2.0-cli
+  - 27.2-cli
+  - 27-cli
+  - cli
+  - 27.2.0-cli-alpine3.20
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 27/dind
+  File: ""
+  GitCommit: 3a19522aa3c9bb06216f71f0d7323764e72c80be
+  Tags:
+  - 27.2.0-dind
+  - 27.2-dind
+  - 27-dind
+  - dind
+  - 27.2.0-dind-alpine3.20
+  - 27.2.0
+  - "27.2"
+  - "27"
+  - latest
+  - 27.2.0-alpine3.20
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 27/dind-rootless
+  File: ""
+  GitCommit: 3a19522aa3c9bb06216f71f0d7323764e72c80be
+  Tags:
+  - 27.2.0-dind-rootless
+  - 27.2-dind-rootless
+  - 27-dind-rootless
+  - dind-rootless
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 27/windows/windowsservercore-ltsc2022
+  File: ""
+  GitCommit: 3a19522aa3c9bb06216f71f0d7323764e72c80be
+  Tags:
+  - 27.2.0-windowsservercore-ltsc2022
+  - 27.2-windowsservercore-ltsc2022
+  - 27-windowsservercore-ltsc2022
+  - windowsservercore-ltsc2022
+  - 27.2.0-windowsservercore
+  - 27.2-windowsservercore
+  - 27-windowsservercore
+  - windowsservercore
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 27/windows/windowsservercore-1809
+  File: ""
+  GitCommit: 3a19522aa3c9bb06216f71f0d7323764e72c80be
+  Tags:
+  - 27.2.0-windowsservercore-1809
+  - 27.2-windowsservercore-1809
+  - 27-windowsservercore-1809
+  - windowsservercore-1809
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
   Directory: 27-rc/cli
   File: ""
   GitCommit: 3fbcd5845e640f190468d9e023515e37dca8d94e
@@ -151,8 +279,6 @@ Blocks:
   Tags:
   - 27.1.2-cli
   - 27.1-cli
-  - 27-cli
-  - cli
   - 27.1.2-cli-alpine3.20
 - Architectures:
     amd64:
@@ -185,13 +311,9 @@ Blocks:
   Tags:
   - 27.1.2-dind
   - 27.1-dind
-  - 27-dind
-  - dind
   - 27.1.2-dind-alpine3.20
   - 27.1.2
   - "27.1"
-  - "27"
-  - latest
   - 27.1.2-alpine3.20
 - Architectures:
     amd64:
@@ -212,8 +334,6 @@ Blocks:
   Tags:
   - 27.1.2-dind-rootless
   - 27.1-dind-rootless
-  - 27-dind-rootless
-  - dind-rootless
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -227,12 +347,8 @@ Blocks:
   Tags:
   - 27.1.2-windowsservercore-ltsc2022
   - 27.1-windowsservercore-ltsc2022
-  - 27-windowsservercore-ltsc2022
-  - windowsservercore-ltsc2022
   - 27.1.2-windowsservercore
   - 27.1-windowsservercore
-  - 27-windowsservercore
-  - windowsservercore
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -246,8 +362,6 @@ Blocks:
   Tags:
   - 27.1.2-windowsservercore-1809
   - 27.1-windowsservercore-1809
-  - 27-windowsservercore-1809
-  - windowsservercore-1809
 - Architectures:
     amd64:
       Architecture: amd64
@@ -25358,6 +25472,20 @@ KnownTags:
   27.1.2-windowsservercore: {}
   27.1.2-windowsservercore-1809: {}
   27.1.2-windowsservercore-ltsc2022: {}
+  "27.2": {}
+  27.2-cli: {}
+  27.2-dind: {}
+  27.2-dind-rootless: {}
+  27.2-windowsservercore: {}
+  27.2-windowsservercore-1809: {}
+  27.2-windowsservercore-ltsc2022: {}
+  27.2.0: {}
+  27.2.0-alpine3.20: {}
+  27.2.0-cli: {}
+  27.2.0-cli-alpine3.20: {}
+  27.2.0-dind: {}
+  27.2.0-dind-alpine3.20: {}
+  27.2.0-dind-rootless: {}
   27.2.0-rc.1: {}
   27.2.0-rc.1-alpine3.20: {}
   27.2.0-rc.1-cli: {}
@@ -25368,6 +25496,9 @@ KnownTags:
   27.2.0-rc.1-windowsservercore: {}
   27.2.0-rc.1-windowsservercore-1809: {}
   27.2.0-rc.1-windowsservercore-ltsc2022: {}
+  27.2.0-windowsservercore: {}
+  27.2.0-windowsservercore-1809: {}
+  27.2.0-windowsservercore-ltsc2022: {}
   cli: {}
   dind: {}
   dind-rootless: {}

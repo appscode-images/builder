@@ -26,7 +26,7 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: ""
-  GitCommit: e493147cb7383bda672f4295c09e435d83047efa
+  GitCommit: b37b9b53c0aaf6824df6e79fe9ddaec0375851ce
   Tags:
   - "39"
 - Architectures:
@@ -56,7 +56,7 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: ""
-  GitCommit: 978adc7dc216f09fca95de7174734748710fe1df
+  GitCommit: c588370458a42b7cdad03e9ee6cd1ce24ac9aacf
   Tags:
   - "40"
   - latest
@@ -87,9 +87,39 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: ""
-  GitCommit: c527fe0bcd2f1d8fbbbe61467ad50546567a655b
+  GitCommit: 21b49b6f45cfb4b1f3a3ab52072e15651ebdc535
   Tags:
   - "41"
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: x86_64/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: aarch64/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ppc64le/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: s390x/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: ""
+  GitCommit: 8495862d5897d1571b0453e620b6b1a6c58ecb32
+  Tags:
+  - "42"
   - rawhide
 - Architectures:
     amd64:
@@ -640,6 +670,7 @@ KnownTags:
   "39": {}
   "40": {}
   "41": {}
+  "42": {}
   branched: {}
   heisenbug: {}
   latest: {}

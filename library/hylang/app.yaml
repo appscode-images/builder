@@ -44,7 +44,7 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: Dockerfile.python3.12-bookworm
-  GitCommit: cc3a452953d734499bb98275a0a71a3f41895112
+  GitCommit: 72b605d4755c0e13098e59442882ee8e6a708227
   Tags:
   - 0.29.0-python3.12-bookworm
   - 0.29-python3.12-bookworm
@@ -107,7 +107,7 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: Dockerfile.python3.12-bullseye
-  GitCommit: cc3a452953d734499bb98275a0a71a3f41895112
+  GitCommit: 72b605d4755c0e13098e59442882ee8e6a708227
   Tags:
   - 0.29.0-python3.12-bullseye
   - 0.29-python3.12-bullseye
@@ -162,7 +162,7 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: Dockerfile.python3.12-alpine3.20
-  GitCommit: cc3a452953d734499bb98275a0a71a3f41895112
+  GitCommit: 72b605d4755c0e13098e59442882ee8e6a708227
   Tags:
   - 0.29.0-python3.12-alpine3.20
   - 0.29-python3.12-alpine3.20
@@ -172,6 +172,14 @@ Blocks:
   - 0.29-alpine3.20
   - 0-alpine3.20
   - alpine3.20
+  - 0.29.0-python3.12-alpine
+  - 0.29-python3.12-alpine
+  - 0-python3.12-alpine
+  - python3.12-alpine
+  - 0.29.0-alpine
+  - 0.29-alpine
+  - 0-alpine
+  - alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -217,7 +225,7 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: Dockerfile.python3.12-alpine3.19
-  GitCommit: cc3a452953d734499bb98275a0a71a3f41895112
+  GitCommit: 72b605d4755c0e13098e59442882ee8e6a708227
   Tags:
   - 0.29.0-python3.12-alpine3.19
   - 0.29-python3.12-alpine3.19
@@ -227,14 +235,44 @@ Blocks:
   - 0.29-alpine3.19
   - 0-alpine3.19
   - alpine3.19
-  - 0.29.0-python3.12-alpine
-  - 0.29-python3.12-alpine
-  - 0-python3.12-alpine
-  - python3.12-alpine
-  - 0.29.0-alpine
-  - 0.29-alpine
-  - 0-alpine
-  - alpine
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.python3.12-windowsservercore-ltsc2022
+  GitCommit: 72b605d4755c0e13098e59442882ee8e6a708227
+  Tags:
+  - 0.29.0-python3.12-windowsservercore-ltsc2022
+  - 0.29-python3.12-windowsservercore-ltsc2022
+  - 0-python3.12-windowsservercore-ltsc2022
+  - python3.12-windowsservercore-ltsc2022
+  - 0.29.0-windowsservercore-ltsc2022
+  - 0.29-windowsservercore-ltsc2022
+  - 0-windowsservercore-ltsc2022
+  - windowsservercore-ltsc2022
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.python3.12-windowsservercore-1809
+  GitCommit: 72b605d4755c0e13098e59442882ee8e6a708227
+  Tags:
+  - 0.29.0-python3.12-windowsservercore-1809
+  - 0.29-python3.12-windowsservercore-1809
+  - 0-python3.12-windowsservercore-1809
+  - python3.12-windowsservercore-1809
+  - 0.29.0-windowsservercore-1809
+  - 0.29-windowsservercore-1809
+  - 0-windowsservercore-1809
+  - windowsservercore-1809
 - Architectures:
     amd64:
       Architecture: amd64
@@ -280,7 +318,7 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: Dockerfile.python3.11-bookworm
-  GitCommit: cc3a452953d734499bb98275a0a71a3f41895112
+  GitCommit: 72b605d4755c0e13098e59442882ee8e6a708227
   Tags:
   - 0.29.0-python3.11-bookworm
   - 0.29-python3.11-bookworm
@@ -335,7 +373,7 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: Dockerfile.python3.11-bullseye
-  GitCommit: cc3a452953d734499bb98275a0a71a3f41895112
+  GitCommit: 72b605d4755c0e13098e59442882ee8e6a708227
   Tags:
   - 0.29.0-python3.11-bullseye
   - 0.29-python3.11-bullseye
@@ -386,12 +424,16 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: Dockerfile.python3.11-alpine3.20
-  GitCommit: cc3a452953d734499bb98275a0a71a3f41895112
+  GitCommit: 72b605d4755c0e13098e59442882ee8e6a708227
   Tags:
   - 0.29.0-python3.11-alpine3.20
   - 0.29-python3.11-alpine3.20
   - 0-python3.11-alpine3.20
   - python3.11-alpine3.20
+  - 0.29.0-python3.11-alpine
+  - 0.29-python3.11-alpine
+  - 0-python3.11-alpine
+  - python3.11-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -437,16 +479,42 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: Dockerfile.python3.11-alpine3.19
-  GitCommit: cc3a452953d734499bb98275a0a71a3f41895112
+  GitCommit: 72b605d4755c0e13098e59442882ee8e6a708227
   Tags:
   - 0.29.0-python3.11-alpine3.19
   - 0.29-python3.11-alpine3.19
   - 0-python3.11-alpine3.19
   - python3.11-alpine3.19
-  - 0.29.0-python3.11-alpine
-  - 0.29-python3.11-alpine
-  - 0-python3.11-alpine
-  - python3.11-alpine
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.python3.11-windowsservercore-ltsc2022
+  GitCommit: 72b605d4755c0e13098e59442882ee8e6a708227
+  Tags:
+  - 0.29.0-python3.11-windowsservercore-ltsc2022
+  - 0.29-python3.11-windowsservercore-ltsc2022
+  - 0-python3.11-windowsservercore-ltsc2022
+  - python3.11-windowsservercore-ltsc2022
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.python3.11-windowsservercore-1809
+  GitCommit: 72b605d4755c0e13098e59442882ee8e6a708227
+  Tags:
+  - 0.29.0-python3.11-windowsservercore-1809
+  - 0.29-python3.11-windowsservercore-1809
+  - 0-python3.11-windowsservercore-1809
+  - python3.11-windowsservercore-1809
 - Architectures:
     amd64:
       Architecture: amd64
@@ -492,7 +560,7 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: Dockerfile.python3.10-bookworm
-  GitCommit: cc3a452953d734499bb98275a0a71a3f41895112
+  GitCommit: 72b605d4755c0e13098e59442882ee8e6a708227
   Tags:
   - 0.29.0-python3.10-bookworm
   - 0.29-python3.10-bookworm
@@ -547,7 +615,7 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: Dockerfile.python3.10-bullseye
-  GitCommit: cc3a452953d734499bb98275a0a71a3f41895112
+  GitCommit: 72b605d4755c0e13098e59442882ee8e6a708227
   Tags:
   - 0.29.0-python3.10-bullseye
   - 0.29-python3.10-bullseye
@@ -604,12 +672,16 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: Dockerfile.python3.10-alpine3.20
-  GitCommit: cc3a452953d734499bb98275a0a71a3f41895112
+  GitCommit: 72b605d4755c0e13098e59442882ee8e6a708227
   Tags:
   - 0.29.0-python3.10-alpine3.20
   - 0.29-python3.10-alpine3.20
   - 0-python3.10-alpine3.20
   - python3.10-alpine3.20
+  - 0.29.0-python3.10-alpine
+  - 0.29-python3.10-alpine
+  - 0-python3.10-alpine
+  - python3.10-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -655,16 +727,12 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: Dockerfile.python3.10-alpine3.19
-  GitCommit: cc3a452953d734499bb98275a0a71a3f41895112
+  GitCommit: 72b605d4755c0e13098e59442882ee8e6a708227
   Tags:
   - 0.29.0-python3.10-alpine3.19
   - 0.29-python3.10-alpine3.19
   - 0-python3.10-alpine3.19
   - python3.10-alpine3.19
-  - 0.29.0-python3.10-alpine
-  - 0.29-python3.10-alpine
-  - 0-python3.10-alpine
-  - python3.10-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -716,7 +784,7 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: Dockerfile.python3.9-bookworm
-  GitCommit: cc3a452953d734499bb98275a0a71a3f41895112
+  GitCommit: 72b605d4755c0e13098e59442882ee8e6a708227
   Tags:
   - 0.29.0-python3.9-bookworm
   - 0.29-python3.9-bookworm
@@ -777,7 +845,7 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: Dockerfile.python3.9-bullseye
-  GitCommit: cc3a452953d734499bb98275a0a71a3f41895112
+  GitCommit: 72b605d4755c0e13098e59442882ee8e6a708227
   Tags:
   - 0.29.0-python3.9-bullseye
   - 0.29-python3.9-bullseye
@@ -834,12 +902,16 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: Dockerfile.python3.9-alpine3.20
-  GitCommit: cc3a452953d734499bb98275a0a71a3f41895112
+  GitCommit: 72b605d4755c0e13098e59442882ee8e6a708227
   Tags:
   - 0.29.0-python3.9-alpine3.20
   - 0.29-python3.9-alpine3.20
   - 0-python3.9-alpine3.20
   - python3.9-alpine3.20
+  - 0.29.0-python3.9-alpine
+  - 0.29-python3.9-alpine
+  - 0-python3.9-alpine
+  - python3.9-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -885,16 +957,12 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: Dockerfile.python3.9-alpine3.19
-  GitCommit: cc3a452953d734499bb98275a0a71a3f41895112
+  GitCommit: 72b605d4755c0e13098e59442882ee8e6a708227
   Tags:
   - 0.29.0-python3.9-alpine3.19
   - 0.29-python3.9-alpine3.19
   - 0-python3.9-alpine3.19
   - python3.9-alpine3.19
-  - 0.29.0-python3.9-alpine
-  - 0.29-python3.9-alpine
-  - 0-python3.9-alpine
-  - python3.9-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -946,7 +1014,7 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: Dockerfile.python3.8-bookworm
-  GitCommit: cc3a452953d734499bb98275a0a71a3f41895112
+  GitCommit: 72b605d4755c0e13098e59442882ee8e6a708227
   Tags:
   - 0.29.0-python3.8-bookworm
   - 0.29-python3.8-bookworm
@@ -1007,7 +1075,7 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: Dockerfile.python3.8-bullseye
-  GitCommit: cc3a452953d734499bb98275a0a71a3f41895112
+  GitCommit: 72b605d4755c0e13098e59442882ee8e6a708227
   Tags:
   - 0.29.0-python3.8-bullseye
   - 0.29-python3.8-bullseye
@@ -1064,12 +1132,16 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: Dockerfile.python3.8-alpine3.20
-  GitCommit: cc3a452953d734499bb98275a0a71a3f41895112
+  GitCommit: 72b605d4755c0e13098e59442882ee8e6a708227
   Tags:
   - 0.29.0-python3.8-alpine3.20
   - 0.29-python3.8-alpine3.20
   - 0-python3.8-alpine3.20
   - python3.8-alpine3.20
+  - 0.29.0-python3.8-alpine
+  - 0.29-python3.8-alpine
+  - 0-python3.8-alpine
+  - python3.8-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1115,16 +1187,12 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: Dockerfile.python3.8-alpine3.19
-  GitCommit: cc3a452953d734499bb98275a0a71a3f41895112
+  GitCommit: 72b605d4755c0e13098e59442882ee8e6a708227
   Tags:
   - 0.29.0-python3.8-alpine3.19
   - 0.29-python3.8-alpine3.19
   - 0-python3.8-alpine3.19
   - python3.8-alpine3.19
-  - 0.29.0-python3.8-alpine
-  - 0.29-python3.8-alpine
-  - 0-python3.8-alpine
-  - python3.8-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1146,7 +1214,7 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: Dockerfile.pypy3.10-bookworm
-  GitCommit: cc3a452953d734499bb98275a0a71a3f41895112
+  GitCommit: 72b605d4755c0e13098e59442882ee8e6a708227
   Tags:
   - 0.29.0-pypy3.10-bookworm
   - 0.29-pypy3.10-bookworm
@@ -1185,7 +1253,7 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: Dockerfile.pypy3.10-bullseye
-  GitCommit: cc3a452953d734499bb98275a0a71a3f41895112
+  GitCommit: 72b605d4755c0e13098e59442882ee8e6a708227
   Tags:
   - 0.29.0-pypy3.10-bullseye
   - 0.29-pypy3.10-bullseye
@@ -1195,6 +1263,44 @@ Blocks:
   - 0.29-pypy-bullseye
   - 0-pypy-bullseye
   - pypy-bullseye
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.pypy3.10-windowsservercore-ltsc2022
+  GitCommit: 72b605d4755c0e13098e59442882ee8e6a708227
+  Tags:
+  - 0.29.0-pypy3.10-windowsservercore-ltsc2022
+  - 0.29-pypy3.10-windowsservercore-ltsc2022
+  - 0-pypy3.10-windowsservercore-ltsc2022
+  - pypy3.10-windowsservercore-ltsc2022
+  - 0.29.0-pypy-windowsservercore-ltsc2022
+  - 0.29-pypy-windowsservercore-ltsc2022
+  - 0-pypy-windowsservercore-ltsc2022
+  - pypy-windowsservercore-ltsc2022
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.pypy3.10-windowsservercore-1809
+  GitCommit: 72b605d4755c0e13098e59442882ee8e6a708227
+  Tags:
+  - 0.29.0-pypy3.10-windowsservercore-1809
+  - 0.29-pypy3.10-windowsservercore-1809
+  - 0-pypy3.10-windowsservercore-1809
+  - pypy3.10-windowsservercore-1809
+  - 0.29.0-pypy-windowsservercore-1809
+  - 0.29-pypy-windowsservercore-1809
+  - 0-pypy-windowsservercore-1809
+  - pypy-windowsservercore-1809
 - Architectures:
     amd64:
       Architecture: amd64
@@ -5566,8 +5672,6 @@ Blocks:
   Tags:
   - 0.26.0-pypy-windowsservercore-ltsc2022
   - 0.26-pypy-windowsservercore-ltsc2022
-  - 0-pypy-windowsservercore-ltsc2022
-  - pypy-windowsservercore-ltsc2022
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -5581,8 +5685,6 @@ Blocks:
   Tags:
   - 0.26.0-pypy-windowsservercore-1809
   - 0.26-pypy-windowsservercore-1809
-  - 0-pypy-windowsservercore-1809
-  - pypy-windowsservercore-1809
 - Architectures:
     amd64:
       Architecture: amd64
@@ -11033,7 +11135,6 @@ Blocks:
   GitCommit: e9814439299710b61a2d41a7ae6ae376436c9070
   Tags:
   - 1.0a3-windowsservercore-1809
-  - windowsservercore-1809
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -12487,7 +12588,6 @@ Blocks:
   - 0-python3.8-windowsservercore-1809
   - 0.20.0-windowsservercore-1809
   - 0.20-windowsservercore-1809
-  - 0-windowsservercore-1809
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -16783,6 +16883,8 @@ KnownTags:
   0-pypy3.10: {}
   0-pypy3.10-bookworm: {}
   0-pypy3.10-bullseye: {}
+  0-pypy3.10-windowsservercore-1809: {}
+  0-pypy3.10-windowsservercore-ltsc2022: {}
   0-python2.7: {}
   0-python2.7-alpine: {}
   0-python2.7-alpine3.8: {}
@@ -16889,6 +16991,8 @@ KnownTags:
   0-python3.11-bookworm: {}
   0-python3.11-bullseye: {}
   0-python3.11-buster: {}
+  0-python3.11-windowsservercore-1809: {}
+  0-python3.11-windowsservercore-ltsc2022: {}
   0-python3.12: {}
   0-python3.12-alpine: {}
   0-python3.12-alpine3.17: {}
@@ -16903,10 +17007,13 @@ KnownTags:
   0-python3.12-rc-alpine3.18: {}
   0-python3.12-rc-bookworm: {}
   0-python3.12-rc-bullseye: {}
+  0-python3.12-windowsservercore-1809: {}
+  0-python3.12-windowsservercore-ltsc2022: {}
   0-stretch: {}
   0-windowsservercore-1803: {}
   0-windowsservercore-1809: {}
   0-windowsservercore-ltsc2016: {}
+  0-windowsservercore-ltsc2022: {}
   "0.11": {}
   0.11.1: {}
   "0.12": {}
@@ -17859,6 +17966,8 @@ KnownTags:
   0.29-pypy: {}
   0.29-pypy-bookworm: {}
   0.29-pypy-bullseye: {}
+  0.29-pypy-windowsservercore-1809: {}
+  0.29-pypy-windowsservercore-ltsc2022: {}
   0.29-pypy3.9: {}
   0.29-pypy3.9-bookworm: {}
   0.29-pypy3.9-bullseye: {}
@@ -17867,6 +17976,8 @@ KnownTags:
   0.29-pypy3.10: {}
   0.29-pypy3.10-bookworm: {}
   0.29-pypy3.10-bullseye: {}
+  0.29-pypy3.10-windowsservercore-1809: {}
+  0.29-pypy3.10-windowsservercore-ltsc2022: {}
   0.29-python3.8: {}
   0.29-python3.8-alpine: {}
   0.29-python3.8-alpine3.18: {}
@@ -17895,6 +18006,8 @@ KnownTags:
   0.29-python3.11-alpine3.20: {}
   0.29-python3.11-bookworm: {}
   0.29-python3.11-bullseye: {}
+  0.29-python3.11-windowsservercore-1809: {}
+  0.29-python3.11-windowsservercore-ltsc2022: {}
   0.29-python3.12: {}
   0.29-python3.12-alpine: {}
   0.29-python3.12-alpine3.18: {}
@@ -17902,6 +18015,10 @@ KnownTags:
   0.29-python3.12-alpine3.20: {}
   0.29-python3.12-bookworm: {}
   0.29-python3.12-bullseye: {}
+  0.29-python3.12-windowsservercore-1809: {}
+  0.29-python3.12-windowsservercore-ltsc2022: {}
+  0.29-windowsservercore-1809: {}
+  0.29-windowsservercore-ltsc2022: {}
   0.29.0: {}
   0.29.0-alpine: {}
   0.29.0-alpine3.18: {}
@@ -17912,6 +18029,8 @@ KnownTags:
   0.29.0-pypy: {}
   0.29.0-pypy-bookworm: {}
   0.29.0-pypy-bullseye: {}
+  0.29.0-pypy-windowsservercore-1809: {}
+  0.29.0-pypy-windowsservercore-ltsc2022: {}
   0.29.0-pypy3.9: {}
   0.29.0-pypy3.9-bookworm: {}
   0.29.0-pypy3.9-bullseye: {}
@@ -17920,6 +18039,8 @@ KnownTags:
   0.29.0-pypy3.10: {}
   0.29.0-pypy3.10-bookworm: {}
   0.29.0-pypy3.10-bullseye: {}
+  0.29.0-pypy3.10-windowsservercore-1809: {}
+  0.29.0-pypy3.10-windowsservercore-ltsc2022: {}
   0.29.0-python3.8: {}
   0.29.0-python3.8-alpine: {}
   0.29.0-python3.8-alpine3.18: {}
@@ -17948,6 +18069,8 @@ KnownTags:
   0.29.0-python3.11-alpine3.20: {}
   0.29.0-python3.11-bookworm: {}
   0.29.0-python3.11-bullseye: {}
+  0.29.0-python3.11-windowsservercore-1809: {}
+  0.29.0-python3.11-windowsservercore-ltsc2022: {}
   0.29.0-python3.12: {}
   0.29.0-python3.12-alpine: {}
   0.29.0-python3.12-alpine3.18: {}
@@ -17955,6 +18078,10 @@ KnownTags:
   0.29.0-python3.12-alpine3.20: {}
   0.29.0-python3.12-bookworm: {}
   0.29.0-python3.12-bullseye: {}
+  0.29.0-python3.12-windowsservercore-1809: {}
+  0.29.0-python3.12-windowsservercore-ltsc2022: {}
+  0.29.0-windowsservercore-1809: {}
+  0.29.0-windowsservercore-ltsc2022: {}
   1.0a1: {}
   1.0a1-alpine: {}
   1.0a1-alpine3.12: {}
@@ -18173,6 +18300,8 @@ KnownTags:
   pypy3.10: {}
   pypy3.10-bookworm: {}
   pypy3.10-bullseye: {}
+  pypy3.10-windowsservercore-1809: {}
+  pypy3.10-windowsservercore-ltsc2022: {}
   python2.7: {}
   python2.7-alpine: {}
   python2.7-alpine3.8: {}
@@ -18299,6 +18428,8 @@ KnownTags:
   python3.11-bookworm: {}
   python3.11-bullseye: {}
   python3.11-buster: {}
+  python3.11-windowsservercore-1809: {}
+  python3.11-windowsservercore-ltsc2022: {}
   python3.12: {}
   python3.12-alpine: {}
   python3.12-alpine3.17: {}
@@ -18313,8 +18444,11 @@ KnownTags:
   python3.12-rc-alpine3.18: {}
   python3.12-rc-bookworm: {}
   python3.12-rc-bullseye: {}
+  python3.12-windowsservercore-1809: {}
+  python3.12-windowsservercore-ltsc2022: {}
   stretch: {}
   windowsservercore-1803: {}
   windowsservercore-1809: {}
   windowsservercore-ltsc2016: {}
+  windowsservercore-ltsc2022: {}
 Name: hylang
