@@ -14,11 +14,11 @@ Blocks:
       GitFetch: ""
   Directory: 8.0-rc
   File: ""
-  GitCommit: 439d0a9d8bba726a8a494937fe1b3561961e3f6b
+  GitCommit: 3915e9edebe40ba57a58faca2a4a55a3cfd37d23
   Tags:
-  - 8.0.0-rc18-noble
+  - 8.0.0-rc20-noble
   - 8.0-rc-noble
-  - 8.0.0-rc18
+  - 8.0.0-rc20
   - 8.0-rc
 - Architectures:
     windows-amd64:
@@ -29,11 +29,11 @@ Blocks:
       GitFetch: ""
   Directory: 8.0-rc/windows/windowsservercore-ltsc2022
   File: ""
-  GitCommit: 439d0a9d8bba726a8a494937fe1b3561961e3f6b
+  GitCommit: 3915e9edebe40ba57a58faca2a4a55a3cfd37d23
   Tags:
-  - 8.0.0-rc18-windowsservercore-ltsc2022
+  - 8.0.0-rc20-windowsservercore-ltsc2022
   - 8.0-rc-windowsservercore-ltsc2022
-  - 8.0.0-rc18-windowsservercore
+  - 8.0.0-rc20-windowsservercore
   - 8.0-rc-windowsservercore
 - Architectures:
     windows-amd64:
@@ -44,9 +44,9 @@ Blocks:
       GitFetch: ""
   Directory: 8.0-rc/windows/windowsservercore-1809
   File: ""
-  GitCommit: 439d0a9d8bba726a8a494937fe1b3561961e3f6b
+  GitCommit: 3915e9edebe40ba57a58faca2a4a55a3cfd37d23
   Tags:
-  - 8.0.0-rc18-windowsservercore-1809
+  - 8.0.0-rc20-windowsservercore-1809
   - 8.0-rc-windowsservercore-1809
 - Architectures:
     windows-amd64:
@@ -57,11 +57,11 @@ Blocks:
       GitFetch: ""
   Directory: 8.0-rc/windows/nanoserver-ltsc2022
   File: ""
-  GitCommit: 439d0a9d8bba726a8a494937fe1b3561961e3f6b
+  GitCommit: 3915e9edebe40ba57a58faca2a4a55a3cfd37d23
   Tags:
-  - 8.0.0-rc18-nanoserver-ltsc2022
+  - 8.0.0-rc20-nanoserver-ltsc2022
   - 8.0-rc-nanoserver-ltsc2022
-  - 8.0.0-rc18-nanoserver
+  - 8.0.0-rc20-nanoserver
   - 8.0-rc-nanoserver
 - Architectures:
     windows-amd64:
@@ -72,9 +72,9 @@ Blocks:
       GitFetch: ""
   Directory: 8.0-rc/windows/nanoserver-1809
   File: ""
-  GitCommit: 439d0a9d8bba726a8a494937fe1b3561961e3f6b
+  GitCommit: 3915e9edebe40ba57a58faca2a4a55a3cfd37d23
   Tags:
-  - 8.0.0-rc18-nanoserver-1809
+  - 8.0.0-rc20-nanoserver-1809
   - 8.0-rc-nanoserver-1809
 - Architectures:
     amd64:
@@ -169,6 +169,83 @@ Blocks:
   - 7.0-nanoserver-1809
   - 7-nanoserver-1809
   - nanoserver-1809
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 6.0-rc
+  File: ""
+  GitCommit: 24cbeb6dc9a04be2e33e5386f8e5722f1ed40949
+  Tags:
+  - 6.0.18-rc0-jammy
+  - 6.0-rc-jammy
+  - 6.0.18-rc0
+  - 6.0-rc
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 6.0-rc/windows/windowsservercore-ltsc2022
+  File: ""
+  GitCommit: 24cbeb6dc9a04be2e33e5386f8e5722f1ed40949
+  Tags:
+  - 6.0.18-rc0-windowsservercore-ltsc2022
+  - 6.0-rc-windowsservercore-ltsc2022
+  - 6.0.18-rc0-windowsservercore
+  - 6.0-rc-windowsservercore
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 6.0-rc/windows/windowsservercore-1809
+  File: ""
+  GitCommit: 24cbeb6dc9a04be2e33e5386f8e5722f1ed40949
+  Tags:
+  - 6.0.18-rc0-windowsservercore-1809
+  - 6.0-rc-windowsservercore-1809
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 6.0-rc/windows/nanoserver-ltsc2022
+  File: ""
+  GitCommit: 24cbeb6dc9a04be2e33e5386f8e5722f1ed40949
+  Tags:
+  - 6.0.18-rc0-nanoserver-ltsc2022
+  - 6.0-rc-nanoserver-ltsc2022
+  - 6.0.18-rc0-nanoserver
+  - 6.0-rc-nanoserver
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 6.0-rc/windows/nanoserver-1809
+  File: ""
+  GitCommit: 24cbeb6dc9a04be2e33e5386f8e5722f1ed40949
+  Tags:
+  - 6.0.18-rc0-nanoserver-1809
+  - 6.0-rc-nanoserver-1809
 - Architectures:
     amd64:
       Architecture: amd64
@@ -429,6 +506,144 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+  Directory: 8.0-rc
+  File: ""
+  GitCommit: 4d955bc67fc93c754fe1e2e9fd3185c9e4da731a
+  Tags:
+  - 8.0.0-rc19-noble
+  - 8.0.0-rc19
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 8.0-rc/windows/windowsservercore-ltsc2022
+  File: ""
+  GitCommit: 4d955bc67fc93c754fe1e2e9fd3185c9e4da731a
+  Tags:
+  - 8.0.0-rc19-windowsservercore-ltsc2022
+  - 8.0.0-rc19-windowsservercore
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 8.0-rc/windows/windowsservercore-1809
+  File: ""
+  GitCommit: 4d955bc67fc93c754fe1e2e9fd3185c9e4da731a
+  Tags:
+  - 8.0.0-rc19-windowsservercore-1809
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 8.0-rc/windows/nanoserver-ltsc2022
+  File: ""
+  GitCommit: 4d955bc67fc93c754fe1e2e9fd3185c9e4da731a
+  Tags:
+  - 8.0.0-rc19-nanoserver-ltsc2022
+  - 8.0.0-rc19-nanoserver
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 8.0-rc/windows/nanoserver-1809
+  File: ""
+  GitCommit: 4d955bc67fc93c754fe1e2e9fd3185c9e4da731a
+  Tags:
+  - 8.0.0-rc19-nanoserver-1809
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 8.0-rc
+  File: ""
+  GitCommit: 439d0a9d8bba726a8a494937fe1b3561961e3f6b
+  Tags:
+  - 8.0.0-rc18-noble
+  - 8.0.0-rc18
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 8.0-rc/windows/windowsservercore-ltsc2022
+  File: ""
+  GitCommit: 439d0a9d8bba726a8a494937fe1b3561961e3f6b
+  Tags:
+  - 8.0.0-rc18-windowsservercore-ltsc2022
+  - 8.0.0-rc18-windowsservercore
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 8.0-rc/windows/windowsservercore-1809
+  File: ""
+  GitCommit: 439d0a9d8bba726a8a494937fe1b3561961e3f6b
+  Tags:
+  - 8.0.0-rc18-windowsservercore-1809
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 8.0-rc/windows/nanoserver-ltsc2022
+  File: ""
+  GitCommit: 439d0a9d8bba726a8a494937fe1b3561961e3f6b
+  Tags:
+  - 8.0.0-rc18-nanoserver-ltsc2022
+  - 8.0.0-rc18-nanoserver
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 8.0-rc/windows/nanoserver-1809
+  File: ""
+  GitCommit: 439d0a9d8bba726a8a494937fe1b3561961e3f6b
+  Tags:
+  - 8.0.0-rc18-nanoserver-1809
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
   Directory: 7.0-rc
   File: ""
   GitCommit: 565a7272d885d670dcac102cc56450a030fe41ca
@@ -649,9 +864,7 @@ Blocks:
   GitCommit: c1653da4ae0d4fbf380306c4bb9d8fdeb3c33816
   Tags:
   - 6.0.17-rc0-jammy
-  - 6.0-rc-jammy
   - 6.0.17-rc0
-  - 6.0-rc
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -664,9 +877,7 @@ Blocks:
   GitCommit: c1653da4ae0d4fbf380306c4bb9d8fdeb3c33816
   Tags:
   - 6.0.17-rc0-windowsservercore-ltsc2022
-  - 6.0-rc-windowsservercore-ltsc2022
   - 6.0.17-rc0-windowsservercore
-  - 6.0-rc-windowsservercore
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -679,7 +890,6 @@ Blocks:
   GitCommit: c1653da4ae0d4fbf380306c4bb9d8fdeb3c33816
   Tags:
   - 6.0.17-rc0-windowsservercore-1809
-  - 6.0-rc-windowsservercore-1809
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -692,9 +902,7 @@ Blocks:
   GitCommit: c1653da4ae0d4fbf380306c4bb9d8fdeb3c33816
   Tags:
   - 6.0.17-rc0-nanoserver-ltsc2022
-  - 6.0-rc-nanoserver-ltsc2022
   - 6.0.17-rc0-nanoserver
-  - 6.0-rc-nanoserver
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -707,7 +915,6 @@ Blocks:
   GitCommit: c1653da4ae0d4fbf380306c4bb9d8fdeb3c33816
   Tags:
   - 6.0.17-rc0-nanoserver-1809
-  - 6.0-rc-nanoserver-1809
 - Architectures:
     amd64:
       Architecture: amd64
@@ -22212,6 +22419,14 @@ KnownTags:
   6.0.17-windowsservercore: {}
   6.0.17-windowsservercore-1809: {}
   6.0.17-windowsservercore-ltsc2022: {}
+  6.0.18-rc0: {}
+  6.0.18-rc0-jammy: {}
+  6.0.18-rc0-nanoserver: {}
+  6.0.18-rc0-nanoserver-1809: {}
+  6.0.18-rc0-nanoserver-ltsc2022: {}
+  6.0.18-rc0-windowsservercore: {}
+  6.0.18-rc0-windowsservercore-1809: {}
+  6.0.18-rc0-windowsservercore-ltsc2022: {}
   "7": {}
   7-jammy: {}
   7-nanoserver: {}
@@ -22622,6 +22837,22 @@ KnownTags:
   8.0.0-rc18-windowsservercore: {}
   8.0.0-rc18-windowsservercore-1809: {}
   8.0.0-rc18-windowsservercore-ltsc2022: {}
+  8.0.0-rc19: {}
+  8.0.0-rc19-nanoserver: {}
+  8.0.0-rc19-nanoserver-1809: {}
+  8.0.0-rc19-nanoserver-ltsc2022: {}
+  8.0.0-rc19-noble: {}
+  8.0.0-rc19-windowsservercore: {}
+  8.0.0-rc19-windowsservercore-1809: {}
+  8.0.0-rc19-windowsservercore-ltsc2022: {}
+  8.0.0-rc20: {}
+  8.0.0-rc20-nanoserver: {}
+  8.0.0-rc20-nanoserver-1809: {}
+  8.0.0-rc20-nanoserver-ltsc2022: {}
+  8.0.0-rc20-noble: {}
+  8.0.0-rc20-windowsservercore: {}
+  8.0.0-rc20-windowsservercore-1809: {}
+  8.0.0-rc20-windowsservercore-ltsc2022: {}
   bionic: {}
   focal: {}
   jammy: {}
