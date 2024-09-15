@@ -232,6 +232,10 @@
     "9.6.0-slim": {},
     "9.6.1": {},
     "9.6.1-slim": {},
+    "9.7": {},
+    "9.7-slim": {},
+    "9.7.0": {},
+    "9.7.0-slim": {},
     "alpine": {},
     "latest": {},
     "slim": {}
@@ -239,10 +243,90 @@
   "Blocks": [
     {
       "Tags": [
-        "9.6.1",
-        "9.6",
+        "9.7.0",
+        "9.7",
         "9",
         "latest"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "cabde2a16c99aa974e1882df2c55ca17eab0bd17",
+      "Directory": "9.7",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "9.7.0-slim",
+        "9.7-slim",
+        "9-slim",
+        "slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "cabde2a16c99aa974e1882df2c55ca17eab0bd17",
+      "Directory": "9.7-slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "9.6.1",
+        "9.6"
       ],
       "Architectures": {
         "amd64": {
@@ -281,9 +365,7 @@
     {
       "Tags": [
         "9.6.1-slim",
-        "9.6-slim",
-        "9-slim",
-        "slim"
+        "9.6-slim"
       ],
       "Architectures": {
         "amd64": {
@@ -317,84 +399,6 @@
       },
       "GitCommit": "9cd850b72309de05169544395c83a85b329d6b86",
       "Directory": "9.6-slim",
-      "File": ""
-    },
-    {
-      "Tags": [
-        "9.5.0",
-        "9.5"
-      ],
-      "Architectures": {
-        "amd64": {
-          "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm64v8": {
-          "Architecture": "arm64v8",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "ppc64le": {
-          "Architecture": "ppc64le",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "s390x": {
-          "Architecture": "s390x",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "a17dd804fead2a6581f8e4c116451ed268f32126",
-      "Directory": "9.5",
-      "File": ""
-    },
-    {
-      "Tags": [
-        "9.5.0-slim",
-        "9.5-slim"
-      ],
-      "Architectures": {
-        "amd64": {
-          "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm64v8": {
-          "Architecture": "arm64v8",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "ppc64le": {
-          "Architecture": "ppc64le",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "s390x": {
-          "Architecture": "s390x",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "a17dd804fead2a6581f8e4c116451ed268f32126",
-      "Directory": "9.5-slim",
       "File": ""
     },
     {
@@ -475,6 +479,84 @@
       },
       "GitCommit": "7156fa15807945939cd2a5525bbb63219da07b1e",
       "Directory": "8.11-slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "9.5.0",
+        "9.5"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "a17dd804fead2a6581f8e4c116451ed268f32126",
+      "Directory": "9.5",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "9.5.0-slim",
+        "9.5-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "a17dd804fead2a6581f8e4c116451ed268f32126",
+      "Directory": "9.5-slim",
       "File": ""
     },
     {

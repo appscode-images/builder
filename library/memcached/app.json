@@ -199,6 +199,10 @@
     "1.6.30-alpine": {},
     "1.6.30-alpine3.20": {},
     "1.6.30-bookworm": {},
+    "1.6.31": {},
+    "1.6.31-alpine": {},
+    "1.6.31-alpine3.20": {},
+    "1.6.31-bookworm": {},
     "1.6.5": {},
     "1.6.5-alpine": {},
     "1.6.6": {},
@@ -229,14 +233,133 @@
   "Blocks": [
     {
       "Tags": [
-        "1.6.30",
+        "1.6.31",
         "1.6",
         "1",
         "latest",
-        "1.6.30-bookworm",
+        "1.6.31-bookworm",
         "1.6-bookworm",
         "1-bookworm",
         "bookworm"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "mips64le": {
+          "Architecture": "mips64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "3598423e1058ace87504520c43095bf87438deaf",
+      "Directory": "1/debian",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.6.31-alpine",
+        "1.6-alpine",
+        "1-alpine",
+        "alpine",
+        "1.6.31-alpine3.20",
+        "1.6-alpine3.20",
+        "1-alpine3.20",
+        "alpine3.20"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "3598423e1058ace87504520c43095bf87438deaf",
+      "Directory": "1/alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.6.30",
+        "1.6.30-bookworm"
       ],
       "Architectures": {
         "amd64": {
@@ -296,13 +419,7 @@
     {
       "Tags": [
         "1.6.30-alpine",
-        "1.6-alpine",
-        "1-alpine",
-        "alpine",
-        "1.6.30-alpine3.20",
-        "1.6-alpine3.20",
-        "1-alpine3.20",
-        "alpine3.20"
+        "1.6.30-alpine3.20"
       ],
       "Architectures": {
         "amd64": {
