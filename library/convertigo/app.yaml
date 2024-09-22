@@ -14,11 +14,29 @@ Blocks:
       GitFetch: ""
   Directory: docker/default
   File: ""
+  GitCommit: fc2b338e7de86f316c01b00027aed7fc42c54322
+  Tags:
+  - 8.3.1
+  - "8.3"
+  - latest
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: docker/default
+  File: ""
   GitCommit: b2b3387e1d01034c010817e14de30f2ce60febdc
   Tags:
   - 8.3.0
-  - "8.3"
-  - latest
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1382,6 +1400,7 @@ KnownTags:
   8.2.7: {}
   "8.3": {}
   8.3.0: {}
+  8.3.1: {}
   aks: {}
   alpine: {}
   latest: {}

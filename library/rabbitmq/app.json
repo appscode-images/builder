@@ -1150,10 +1150,20 @@
     "3.9.9-alpine": {},
     "3.9.9-management": {},
     "3.9.9-management-alpine": {},
+    "4": {},
+    "4-alpine": {},
+    "4-management": {},
+    "4-management-alpine": {},
+    "4.0": {},
+    "4.0-alpine": {},
+    "4.0-management": {},
+    "4.0-management-alpine": {},
     "4.0-rc": {},
     "4.0-rc-alpine": {},
     "4.0-rc-management": {},
     "4.0-rc-management-alpine": {},
+    "4.0.0": {},
+    "4.0.0-alpine": {},
     "4.0.0-beta.1": {},
     "4.0.0-beta.1-alpine": {},
     "4.0.0-beta.1-management": {},
@@ -1174,10 +1184,20 @@
     "4.0.0-beta.6-alpine": {},
     "4.0.0-beta.6-management": {},
     "4.0.0-beta.6-management-alpine": {},
+    "4.0.0-management": {},
+    "4.0.0-management-alpine": {},
     "4.0.0-rc.1": {},
     "4.0.0-rc.1-alpine": {},
     "4.0.0-rc.1-management": {},
     "4.0.0-rc.1-management-alpine": {},
+    "4.0.0-rc.2": {},
+    "4.0.0-rc.2-alpine": {},
+    "4.0.0-rc.2-management": {},
+    "4.0.0-rc.2-management-alpine": {},
+    "4.0.1": {},
+    "4.0.1-alpine": {},
+    "4.0.1-management": {},
+    "4.0.1-management-alpine": {},
     "alpine": {},
     "latest": {},
     "management": {},
@@ -1186,8 +1206,10 @@
   "Blocks": [
     {
       "Tags": [
-        "4.0.0-rc.1",
-        "4.0-rc"
+        "4.0.1",
+        "4.0",
+        "4",
+        "latest"
       ],
       "Architectures": {
         "amd64": {
@@ -1233,14 +1255,16 @@
           "File": ""
         }
       },
-      "GitCommit": "319407a1d59ee26cdefb1d7f40af2028bb64e2d6",
-      "Directory": "4.0-rc/ubuntu",
+      "GitCommit": "efe509f5e9252e6085b1a34c27359ef51953deed",
+      "Directory": "4.0/ubuntu",
       "File": ""
     },
     {
       "Tags": [
-        "4.0.0-rc.1-management",
-        "4.0-rc-management"
+        "4.0.1-management",
+        "4.0-management",
+        "4-management",
+        "management"
       ],
       "Architectures": {
         "amd64": {
@@ -1286,14 +1310,16 @@
           "File": ""
         }
       },
-      "GitCommit": "3881658e776314fb145db712981c91c52a3e25b8",
-      "Directory": "4.0-rc/ubuntu/management",
+      "GitCommit": "266d9cdc38a670282b731e2a0ed0381c49ba9b96",
+      "Directory": "4.0/ubuntu/management",
       "File": ""
     },
     {
       "Tags": [
-        "4.0.0-rc.1-alpine",
-        "4.0-rc-alpine"
+        "4.0.1-alpine",
+        "4.0-alpine",
+        "4-alpine",
+        "alpine"
       ],
       "Architectures": {
         "amd64": {
@@ -1353,14 +1379,16 @@
           "File": ""
         }
       },
-      "GitCommit": "319407a1d59ee26cdefb1d7f40af2028bb64e2d6",
-      "Directory": "4.0-rc/alpine",
+      "GitCommit": "efe509f5e9252e6085b1a34c27359ef51953deed",
+      "Directory": "4.0/alpine",
       "File": ""
     },
     {
       "Tags": [
-        "4.0.0-rc.1-management-alpine",
-        "4.0-rc-management-alpine"
+        "4.0.1-management-alpine",
+        "4.0-management-alpine",
+        "4-management-alpine",
+        "management-alpine"
       ],
       "Architectures": {
         "amd64": {
@@ -1420,16 +1448,15 @@
           "File": ""
         }
       },
-      "GitCommit": "3881658e776314fb145db712981c91c52a3e25b8",
-      "Directory": "4.0-rc/alpine/management",
+      "GitCommit": "266d9cdc38a670282b731e2a0ed0381c49ba9b96",
+      "Directory": "4.0/alpine/management",
       "File": ""
     },
     {
       "Tags": [
         "3.13.7",
         "3.13",
-        "3",
-        "latest"
+        "3"
       ],
       "Architectures": {
         "amd64": {
@@ -1483,8 +1510,7 @@
       "Tags": [
         "3.13.7-management",
         "3.13-management",
-        "3-management",
-        "management"
+        "3-management"
       ],
       "Architectures": {
         "amd64": {
@@ -1538,8 +1564,7 @@
       "Tags": [
         "3.13.7-alpine",
         "3.13-alpine",
-        "3-alpine",
-        "alpine"
+        "3-alpine"
       ],
       "Architectures": {
         "amd64": {
@@ -1607,8 +1632,7 @@
       "Tags": [
         "3.13.7-management-alpine",
         "3.13-management-alpine",
-        "3-management-alpine",
-        "management-alpine"
+        "3-management-alpine"
       ],
       "Architectures": {
         "amd64": {
@@ -1721,7 +1745,7 @@
           "File": ""
         }
       },
-      "GitCommit": "fd645d88914a864e702b088ecb4bfecf2bb11156",
+      "GitCommit": "444c58b5b51433019a9422737ee98b05adcf7e06",
       "Directory": "3.12/ubuntu",
       "File": ""
     },
@@ -1841,7 +1865,7 @@
           "File": ""
         }
       },
-      "GitCommit": "fd645d88914a864e702b088ecb4bfecf2bb11156",
+      "GitCommit": "444c58b5b51433019a9422737ee98b05adcf7e06",
       "Directory": "3.12/alpine",
       "File": ""
     },
@@ -1910,6 +1934,718 @@
       },
       "GitCommit": "c30652127ae871535b7ec8ecda8046948a52ab79",
       "Directory": "3.12/alpine/management",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.0.0"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "266d9cdc38a670282b731e2a0ed0381c49ba9b96",
+      "Directory": "4.0/ubuntu",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.0.0-management"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "266d9cdc38a670282b731e2a0ed0381c49ba9b96",
+      "Directory": "4.0/ubuntu/management",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.0.0-alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "266d9cdc38a670282b731e2a0ed0381c49ba9b96",
+      "Directory": "4.0/alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.0.0-management-alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "266d9cdc38a670282b731e2a0ed0381c49ba9b96",
+      "Directory": "4.0/alpine/management",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.0.0-rc.2",
+        "4.0-rc"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "ef9ca15a89c29aca626a1b93536e1204c7959e86",
+      "Directory": "4.0-rc/ubuntu",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.0.0-rc.2-management",
+        "4.0-rc-management"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "3881658e776314fb145db712981c91c52a3e25b8",
+      "Directory": "4.0-rc/ubuntu/management",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.0.0-rc.2-alpine",
+        "4.0-rc-alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "ef9ca15a89c29aca626a1b93536e1204c7959e86",
+      "Directory": "4.0-rc/alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.0.0-rc.2-management-alpine",
+        "4.0-rc-management-alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "3881658e776314fb145db712981c91c52a3e25b8",
+      "Directory": "4.0-rc/alpine/management",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.0.0-rc.1"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "319407a1d59ee26cdefb1d7f40af2028bb64e2d6",
+      "Directory": "4.0-rc/ubuntu",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.0.0-rc.1-management"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "3881658e776314fb145db712981c91c52a3e25b8",
+      "Directory": "4.0-rc/ubuntu/management",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.0.0-rc.1-alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "319407a1d59ee26cdefb1d7f40af2028bb64e2d6",
+      "Directory": "4.0-rc/alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.0.0-rc.1-management-alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "3881658e776314fb145db712981c91c52a3e25b8",
+      "Directory": "4.0-rc/alpine/management",
       "File": ""
     },
     {
