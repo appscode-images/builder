@@ -1,29 +1,36 @@
 Blocks:
 - Architectures: null
+  Directory: docker/2.0-openssl
+  File: ""
+  GitCommit: e96ddfc6e58f7087b9fa57a717d7f56d2c00f9fe
+  Tags:
+  - 2.0.19
+  - 2.0.19-openssl
+  - "2.0"
+  - 2.0-openssl
+  - "2"
+  - 2-openssl
+  - openssl
+  - latest
+- Architectures: null
+  Directory: docker/1.6-openssl
+  File: ""
+  GitCommit: e96ddfc6e58f7087b9fa57a717d7f56d2c00f9fe
+  Tags:
+  - 1.6.15-openssl
+  - 1.6-openssl
+- Architectures: null
   Directory: docker/2.0
   File: ""
   GitCommit: f4400fa422eacac8417efbc45dd1284526dce8d4
   Tags:
   - 2.0.18
-  - "2.0"
-  - "2"
-  - latest
 - Architectures: null
   Directory: docker/2.0-openssl
   File: ""
   GitCommit: f4400fa422eacac8417efbc45dd1284526dce8d4
   Tags:
   - 2.0.18-openssl
-  - 2.0-openssl
-  - 2-openssl
-  - openssl
-- Architectures: null
-  Directory: docker/1.6-openssl
-  File: ""
-  GitCommit: f4400fa422eacac8417efbc45dd1284526dce8d4
-  Tags:
-  - 1.6.15-openssl
-  - 1.6-openssl
 - Architectures: null
   Directory: docker/2.0
   File: ""
@@ -493,6 +500,8 @@ KnownTags:
   2.0.17-openssl: {}
   2.0.18: {}
   2.0.18-openssl: {}
+  2.0.19: {}
+  2.0.19-openssl: {}
   latest: {}
   openssl: {}
 Name: eclipse-mosquitto

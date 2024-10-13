@@ -193,18 +193,6 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    s390x:
-      Architecture: s390x
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
   Directory: 22/bullseye
   File: ""
   GitCommit: 58c3b39e5948f82c594395857193cd97d01c690e
@@ -229,18 +217,6 @@ Blocks:
       GitFetch: ""
     arm64v8:
       Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    s390x:
-      Architecture: s390x
       Directory: ""
       File: ""
       GitCommit: ""
@@ -293,11 +269,11 @@ Blocks:
       GitFetch: ""
   Directory: 20/alpine3.19
   File: ""
-  GitCommit: 410410f6955bf8d052ef3ec7988cd41a54eab879
+  GitCommit: 8483b3edd9cc2a38360d88d360e3093d657ac3fe
   Tags:
   - 20-alpine3.19
-  - 20.17-alpine3.19
-  - 20.17.0-alpine3.19
+  - 20.18-alpine3.19
+  - 20.18.0-alpine3.19
   - iron-alpine3.19
   - lts-alpine3.19
 - Architectures:
@@ -339,14 +315,14 @@ Blocks:
       GitFetch: ""
   Directory: 20/alpine3.20
   File: ""
-  GitCommit: 410410f6955bf8d052ef3ec7988cd41a54eab879
+  GitCommit: 8483b3edd9cc2a38360d88d360e3093d657ac3fe
   Tags:
   - 20-alpine
   - 20-alpine3.20
-  - 20.17-alpine
-  - 20.17-alpine3.20
-  - 20.17.0-alpine
-  - 20.17.0-alpine3.20
+  - 20.18-alpine
+  - 20.18-alpine3.20
+  - 20.18.0-alpine
+  - 20.18.0-alpine3.20
   - iron-alpine
   - iron-alpine3.20
   - lts-alpine
@@ -384,14 +360,14 @@ Blocks:
       GitFetch: ""
   Directory: 20/bookworm
   File: ""
-  GitCommit: 410410f6955bf8d052ef3ec7988cd41a54eab879
+  GitCommit: 8483b3edd9cc2a38360d88d360e3093d657ac3fe
   Tags:
   - "20"
   - 20-bookworm
-  - "20.17"
-  - 20.17-bookworm
-  - 20.17.0
-  - 20.17.0-bookworm
+  - "20.18"
+  - 20.18-bookworm
+  - 20.18.0
+  - 20.18.0-bookworm
   - iron
   - iron-bookworm
   - lts
@@ -430,14 +406,14 @@ Blocks:
       GitFetch: ""
   Directory: 20/bookworm-slim
   File: ""
-  GitCommit: 410410f6955bf8d052ef3ec7988cd41a54eab879
+  GitCommit: 8483b3edd9cc2a38360d88d360e3093d657ac3fe
   Tags:
   - 20-bookworm-slim
   - 20-slim
-  - 20.17-bookworm-slim
-  - 20.17-slim
-  - 20.17.0-bookworm-slim
-  - 20.17.0-slim
+  - 20.18-bookworm-slim
+  - 20.18-slim
+  - 20.18.0-bookworm-slim
+  - 20.18.0-slim
   - iron-bookworm-slim
   - iron-slim
   - lts-bookworm-slim
@@ -461,25 +437,13 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    s390x:
-      Architecture: s390x
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
   Directory: 20/bullseye
   File: ""
-  GitCommit: 410410f6955bf8d052ef3ec7988cd41a54eab879
+  GitCommit: 8483b3edd9cc2a38360d88d360e3093d657ac3fe
   Tags:
   - 20-bullseye
-  - 20.17-bullseye
-  - 20.17.0-bullseye
+  - 20.18-bullseye
+  - 20.18.0-bullseye
   - iron-bullseye
   - lts-bullseye
 - Architectures:
@@ -501,25 +465,13 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    s390x:
-      Architecture: s390x
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
   Directory: 20/bullseye-slim
   File: ""
-  GitCommit: 410410f6955bf8d052ef3ec7988cd41a54eab879
+  GitCommit: 8483b3edd9cc2a38360d88d360e3093d657ac3fe
   Tags:
   - 20-bullseye-slim
-  - 20.17-bullseye-slim
-  - 20.17.0-bullseye-slim
+  - 20.18-bullseye-slim
+  - 20.18.0-bullseye-slim
   - iron-bullseye-slim
   - lts-bullseye-slim
 - Architectures:
@@ -721,6 +673,66 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+  Directory: 18/bullseye
+  File: ""
+  GitCommit: 619b871fb3d89dc6d6333914b46bf526e781eec5
+  Tags:
+  - 18-bullseye
+  - 18.20-bullseye
+  - 18.20.4-bullseye
+  - hydrogen-bullseye
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 18/bullseye-slim
+  File: ""
+  GitCommit: 619b871fb3d89dc6d6333914b46bf526e781eec5
+  Tags:
+  - 18-bullseye-slim
+  - 18.20-bullseye-slim
+  - 18.20.4-bullseye-slim
+  - hydrogen-bullseye-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
     ppc64le:
       Architecture: ppc64le
       Directory: ""
@@ -733,14 +745,57 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 18/bullseye
+  Directory: 20/alpine3.19
   File: ""
-  GitCommit: 619b871fb3d89dc6d6333914b46bf526e781eec5
+  GitCommit: 410410f6955bf8d052ef3ec7988cd41a54eab879
   Tags:
-  - 18-bullseye
-  - 18.20-bullseye
-  - 18.20.4-bullseye
-  - hydrogen-bullseye
+  - 20.17-alpine3.19
+  - 20.17.0-alpine3.19
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 20/alpine3.20
+  File: ""
+  GitCommit: 410410f6955bf8d052ef3ec7988cd41a54eab879
+  Tags:
+  - 20.17-alpine
+  - 20.17-alpine3.20
+  - 20.17.0-alpine
+  - 20.17.0-alpine3.20
 - Architectures:
     amd64:
       Architecture: amd64
@@ -772,14 +827,127 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 18/bullseye-slim
+  Directory: 20/bookworm
   File: ""
-  GitCommit: 619b871fb3d89dc6d6333914b46bf526e781eec5
+  GitCommit: 410410f6955bf8d052ef3ec7988cd41a54eab879
   Tags:
-  - 18-bullseye-slim
-  - 18.20-bullseye-slim
-  - 18.20.4-bullseye-slim
-  - hydrogen-bullseye-slim
+  - "20.17"
+  - 20.17-bookworm
+  - 20.17.0
+  - 20.17.0-bookworm
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 20/bookworm-slim
+  File: ""
+  GitCommit: 410410f6955bf8d052ef3ec7988cd41a54eab879
+  Tags:
+  - 20.17-bookworm-slim
+  - 20.17-slim
+  - 20.17.0-bookworm-slim
+  - 20.17.0-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 20/bullseye
+  File: ""
+  GitCommit: 410410f6955bf8d052ef3ec7988cd41a54eab879
+  Tags:
+  - 20.17-bullseye
+  - 20.17.0-bullseye
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 20/bullseye-slim
+  File: ""
+  GitCommit: 410410f6955bf8d052ef3ec7988cd41a54eab879
+  Tags:
+  - 20.17-bullseye-slim
+  - 20.17.0-bullseye-slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -108777,6 +108945,24 @@ KnownTags:
   20.17.0-bullseye: {}
   20.17.0-bullseye-slim: {}
   20.17.0-slim: {}
+  "20.18": {}
+  20.18-alpine: {}
+  20.18-alpine3.19: {}
+  20.18-alpine3.20: {}
+  20.18-bookworm: {}
+  20.18-bookworm-slim: {}
+  20.18-bullseye: {}
+  20.18-bullseye-slim: {}
+  20.18-slim: {}
+  20.18.0: {}
+  20.18.0-alpine: {}
+  20.18.0-alpine3.19: {}
+  20.18.0-alpine3.20: {}
+  20.18.0-bookworm: {}
+  20.18.0-bookworm-slim: {}
+  20.18.0-bullseye: {}
+  20.18.0-bullseye-slim: {}
+  20.18.0-slim: {}
   "21": {}
   21-alpine: {}
   21-alpine3.17: {}
