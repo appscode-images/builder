@@ -263,11 +263,13 @@ Blocks:
       GitFetch: ""
   Directory: 22/alpine3.19
   File: ""
-  GitCommit: 996a32420666439b409fd8d450ee99ef905ef66c
+  GitCommit: b0de582b8d4627cc9d65a89bf3af1bfcf67d2bef
   Tags:
   - 22-alpine3.19
-  - 22.10-alpine3.19
-  - 22.10.0-alpine3.19
+  - 22.11-alpine3.19
+  - 22.11.0-alpine3.19
+  - jod-alpine3.19
+  - lts-alpine3.19
 - Architectures:
     amd64:
       Architecture: amd64
@@ -301,14 +303,18 @@ Blocks:
       GitFetch: ""
   Directory: 22/alpine3.20
   File: ""
-  GitCommit: 996a32420666439b409fd8d450ee99ef905ef66c
+  GitCommit: b0de582b8d4627cc9d65a89bf3af1bfcf67d2bef
   Tags:
   - 22-alpine
   - 22-alpine3.20
-  - 22.10-alpine
-  - 22.10-alpine3.20
-  - 22.10.0-alpine
-  - 22.10.0-alpine3.20
+  - 22.11-alpine
+  - 22.11-alpine3.20
+  - 22.11.0-alpine
+  - 22.11.0-alpine3.20
+  - jod-alpine
+  - jod-alpine3.20
+  - lts-alpine
+  - lts-alpine3.20
 - Architectures:
     amd64:
       Architecture: amd64
@@ -342,14 +348,19 @@ Blocks:
       GitFetch: ""
   Directory: 22/bookworm
   File: ""
-  GitCommit: 996a32420666439b409fd8d450ee99ef905ef66c
+  GitCommit: b0de582b8d4627cc9d65a89bf3af1bfcf67d2bef
   Tags:
   - "22"
   - 22-bookworm
-  - "22.10"
-  - 22.10-bookworm
-  - 22.10.0
-  - 22.10.0-bookworm
+  - "22.11"
+  - 22.11-bookworm
+  - 22.11.0
+  - 22.11.0-bookworm
+  - jod
+  - jod-bookworm
+  - lts
+  - lts-bookworm
+  - lts-jod
 - Architectures:
     amd64:
       Architecture: amd64
@@ -383,14 +394,18 @@ Blocks:
       GitFetch: ""
   Directory: 22/bookworm-slim
   File: ""
-  GitCommit: 996a32420666439b409fd8d450ee99ef905ef66c
+  GitCommit: b0de582b8d4627cc9d65a89bf3af1bfcf67d2bef
   Tags:
   - 22-bookworm-slim
   - 22-slim
-  - 22.10-bookworm-slim
-  - 22.10-slim
-  - 22.10.0-bookworm-slim
-  - 22.10.0-slim
+  - 22.11-bookworm-slim
+  - 22.11-slim
+  - 22.11.0-bookworm-slim
+  - 22.11.0-slim
+  - jod-bookworm-slim
+  - jod-slim
+  - lts-bookworm-slim
+  - lts-slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -412,11 +427,13 @@ Blocks:
       GitFetch: ""
   Directory: 22/bullseye
   File: ""
-  GitCommit: 996a32420666439b409fd8d450ee99ef905ef66c
+  GitCommit: b0de582b8d4627cc9d65a89bf3af1bfcf67d2bef
   Tags:
   - 22-bullseye
-  - 22.10-bullseye
-  - 22.10.0-bullseye
+  - 22.11-bullseye
+  - 22.11.0-bullseye
+  - jod-bullseye
+  - lts-bullseye
 - Architectures:
     amd64:
       Architecture: amd64
@@ -438,11 +455,13 @@ Blocks:
       GitFetch: ""
   Directory: 22/bullseye-slim
   File: ""
-  GitCommit: 996a32420666439b409fd8d450ee99ef905ef66c
+  GitCommit: b0de582b8d4627cc9d65a89bf3af1bfcf67d2bef
   Tags:
   - 22-bullseye-slim
-  - 22.10-bullseye-slim
-  - 22.10.0-bullseye-slim
+  - 22.11-bullseye-slim
+  - 22.11.0-bullseye-slim
+  - jod-bullseye-slim
+  - lts-bullseye-slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -488,7 +507,6 @@ Blocks:
   - 20.18-alpine3.19
   - 20.18.0-alpine3.19
   - iron-alpine3.19
-  - lts-alpine3.19
 - Architectures:
     amd64:
       Architecture: amd64
@@ -538,8 +556,6 @@ Blocks:
   - 20.18.0-alpine3.20
   - iron-alpine
   - iron-alpine3.20
-  - lts-alpine
-  - lts-alpine3.20
 - Architectures:
     amd64:
       Architecture: amd64
@@ -583,9 +599,6 @@ Blocks:
   - 20.18.0-bookworm
   - iron
   - iron-bookworm
-  - lts
-  - lts-bookworm
-  - lts-iron
 - Architectures:
     amd64:
       Architecture: amd64
@@ -629,8 +642,6 @@ Blocks:
   - 20.18.0-slim
   - iron-bookworm-slim
   - iron-slim
-  - lts-bookworm-slim
-  - lts-slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -658,7 +669,6 @@ Blocks:
   - 20.18-bullseye
   - 20.18.0-bullseye
   - iron-bullseye
-  - lts-bullseye
 - Architectures:
     amd64:
       Architecture: amd64
@@ -686,7 +696,6 @@ Blocks:
   - 20.18-bullseye-slim
   - 20.18.0-bullseye-slim
   - iron-bullseye-slim
-  - lts-bullseye-slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -921,6 +930,246 @@ Blocks:
   - 18.20-bullseye-slim
   - 18.20.4-bullseye-slim
   - hydrogen-bullseye-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 22/alpine3.19
+  File: ""
+  GitCommit: 996a32420666439b409fd8d450ee99ef905ef66c
+  Tags:
+  - 22.10-alpine3.19
+  - 22.10.0-alpine3.19
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 22/alpine3.20
+  File: ""
+  GitCommit: 996a32420666439b409fd8d450ee99ef905ef66c
+  Tags:
+  - 22.10-alpine
+  - 22.10-alpine3.20
+  - 22.10.0-alpine
+  - 22.10.0-alpine3.20
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 22/bookworm
+  File: ""
+  GitCommit: 996a32420666439b409fd8d450ee99ef905ef66c
+  Tags:
+  - "22.10"
+  - 22.10-bookworm
+  - 22.10.0
+  - 22.10.0-bookworm
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 22/bookworm-slim
+  File: ""
+  GitCommit: 996a32420666439b409fd8d450ee99ef905ef66c
+  Tags:
+  - 22.10-bookworm-slim
+  - 22.10-slim
+  - 22.10.0-bookworm-slim
+  - 22.10.0-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 22/bullseye
+  File: ""
+  GitCommit: 996a32420666439b409fd8d450ee99ef905ef66c
+  Tags:
+  - 22.10-bullseye
+  - 22.10.0-bullseye
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 22/bullseye-slim
+  File: ""
+  GitCommit: 996a32420666439b409fd8d450ee99ef905ef66c
+  Tags:
+  - 22.10-bullseye-slim
+  - 22.10.0-bullseye-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 20/bookworm
+  File: ""
+  GitCommit: 8483b3edd9cc2a38360d88d360e3093d657ac3fe
+  Tags:
+  - lts-iron
 - Architectures:
     amd64:
       Architecture: amd64
@@ -110016,6 +110265,24 @@ KnownTags:
   22.10.0-bullseye: {}
   22.10.0-bullseye-slim: {}
   22.10.0-slim: {}
+  "22.11": {}
+  22.11-alpine: {}
+  22.11-alpine3.19: {}
+  22.11-alpine3.20: {}
+  22.11-bookworm: {}
+  22.11-bookworm-slim: {}
+  22.11-bullseye: {}
+  22.11-bullseye-slim: {}
+  22.11-slim: {}
+  22.11.0: {}
+  22.11.0-alpine: {}
+  22.11.0-alpine3.19: {}
+  22.11.0-alpine3.20: {}
+  22.11.0-bookworm: {}
+  22.11.0-bookworm-slim: {}
+  22.11.0-bullseye: {}
+  22.11.0-bullseye-slim: {}
+  22.11.0-slim: {}
   "23": {}
   23-alpine: {}
   23-alpine3.19: {}
@@ -110241,6 +110508,15 @@ KnownTags:
   iron-buster-slim: {}
   iron-slim: {}
   jessie: {}
+  jod: {}
+  jod-alpine: {}
+  jod-alpine3.19: {}
+  jod-alpine3.20: {}
+  jod-bookworm: {}
+  jod-bookworm-slim: {}
+  jod-bullseye: {}
+  jod-bullseye-slim: {}
+  jod-slim: {}
   latest: {}
   lts: {}
   lts-alpine: {}
@@ -110268,6 +110544,7 @@ KnownTags:
   lts-iron: {}
   lts-jessie: {}
   lts-jessie-slim: {}
+  lts-jod: {}
   lts-slim: {}
   lts-stretch: {}
   lts-stretch-slim: {}
