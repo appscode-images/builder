@@ -3,28 +3,170 @@
   "GitRepo": "https://github.com/ClickHouse/docker-library.git",
   "KnownTags": {
     "24": {},
+    "24-focal": {},
     "24-jammy": {},
     "24.10": {},
+    "24.10-focal": {},
     "24.10-jammy": {},
     "24.10.1": {},
+    "24.10.1-focal": {},
     "24.10.1-jammy": {},
     "24.10.1.2812": {},
+    "24.10.1.2812-focal": {},
     "24.10.1.2812-jammy": {},
+    "24.3": {},
+    "24.3-focal": {},
+    "24.3.13": {},
+    "24.3.13-focal": {},
+    "24.3.13.40": {},
+    "24.3.13.40-focal": {},
+    "24.8": {},
+    "24.8-focal": {},
+    "24.8.6": {},
+    "24.8.6-focal": {},
+    "24.8.6.70": {},
+    "24.8.6.70-focal": {},
+    "24.9": {},
+    "24.9-focal": {},
+    "24.9.2": {},
+    "24.9.2-focal": {},
+    "24.9.2.42": {},
+    "24.9.2.42-focal": {},
+    "focal": {},
+    "focal-lts": {},
     "jammy": {},
-    "latest": {}
+    "latest": {},
+    "lts": {}
   },
   "Blocks": [
     {
       "Tags": [
         "latest",
-        "jammy",
+        "focal",
         "24",
-        "24-jammy",
+        "24-focal",
         "24.10",
-        "24.10-jammy",
+        "24.10-focal",
         "24.10.1",
-        "24.10.1-jammy",
+        "24.10.1-focal",
         "24.10.1.2812",
+        "24.10.1.2812-focal"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "e991ffaf2d96bab935a248d5701c58f637d3040e",
+      "Directory": "server/24.10.1.2812",
+      "File": "Dockerfile.ubuntu"
+    },
+    {
+      "Tags": [
+        "24.9",
+        "24.9-focal",
+        "24.9.2",
+        "24.9.2-focal",
+        "24.9.2.42",
+        "24.9.2.42-focal"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "e991ffaf2d96bab935a248d5701c58f637d3040e",
+      "Directory": "server/24.9.2.42",
+      "File": "Dockerfile.ubuntu"
+    },
+    {
+      "Tags": [
+        "lts",
+        "focal-lts",
+        "24.8",
+        "24.8-focal",
+        "24.8.6",
+        "24.8.6-focal",
+        "24.8.6.70",
+        "24.8.6.70-focal"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "e991ffaf2d96bab935a248d5701c58f637d3040e",
+      "Directory": "server/24.8.6.70",
+      "File": "Dockerfile.ubuntu"
+    },
+    {
+      "Tags": [
+        "24.3",
+        "24.3-focal",
+        "24.3.13",
+        "24.3.13-focal",
+        "24.3.13.40",
+        "24.3.13.40-focal"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "e991ffaf2d96bab935a248d5701c58f637d3040e",
+      "Directory": "server/24.3.13.40",
+      "File": "Dockerfile.ubuntu"
+    },
+    {
+      "Tags": [
+        "jammy",
+        "24-jammy",
+        "24.10-jammy",
+        "24.10.1-jammy",
         "24.10.1.2812-jammy"
       ],
       "Architectures": {

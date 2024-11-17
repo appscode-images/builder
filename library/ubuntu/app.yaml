@@ -92,44 +92,44 @@ Blocks:
       Architecture: amd64
       Directory: ""
       File: ""
-      GitCommit: 494cd4d4ce68c2299acaca9d1591e21c45279864
-      GitFetch: refs/tags/dist-noble-amd64-20241011-494cd4d4
+      GitCommit: 047576572add2bd107e7dd3475c25033a446afe8
+      GitFetch: refs/tags/dist-noble-amd64-20241015-04757657
     arm32v7:
       Architecture: arm32v7
       Directory: ""
       File: ""
-      GitCommit: 08d5149059f84f9abcae571e99cc239d9321a75b
-      GitFetch: refs/tags/dist-noble-arm32v7-20241011-08d51490
+      GitCommit: a65aa4b0ad11b8095112b58ffd45c1231ae1a9f9
+      GitFetch: refs/tags/dist-noble-arm32v7-20241015-a65aa4b0
     arm64v8:
       Architecture: arm64v8
       Directory: ""
       File: ""
-      GitCommit: 2e5487e14796293fa6808c5bcba0c94236fa621f
-      GitFetch: refs/tags/dist-noble-arm64v8-20241011-2e5487e1
+      GitCommit: c2e3c91e0da17478bab7ecc2e508a5ce7829092e
+      GitFetch: refs/tags/dist-noble-arm64v8-20241015-c2e3c91e
     ppc64le:
       Architecture: ppc64le
       Directory: ""
       File: ""
-      GitCommit: f308343a1d697589ed3ab0149081b97291bba82c
-      GitFetch: refs/tags/dist-noble-ppc64le-20241011-f308343a
+      GitCommit: f87f568ecad194fb907143196d75d878be2ebbdc
+      GitFetch: refs/tags/dist-noble-ppc64le-20241015-f87f568e
     riscv64:
       Architecture: riscv64
       Directory: ""
       File: ""
-      GitCommit: 95cd355241167f8c7b4b4ff9b2f9b28381d5c460
-      GitFetch: refs/tags/dist-noble-riscv64-20241011-95cd3552
+      GitCommit: b4c6afab2c530a3d01426f41464535167ccebb73
+      GitFetch: refs/tags/dist-noble-riscv64-20241015-b4c6afab
     s390x:
       Architecture: s390x
       Directory: ""
       File: ""
-      GitCommit: 85d812b96402747cdfac9cf95f3e57167276a230
-      GitFetch: refs/tags/dist-noble-s390x-20241011-85d812b9
+      GitCommit: 2c5964515b6be91f09f49103ad01275023e9804b
+      GitFetch: refs/tags/dist-noble-s390x-20241015-2c596451
   Directory: oci
   File: ""
   GitCommit: fa42be9027eccb928a1f0f43d95ffd9a45d36737
   Tags:
   - "24.04"
-  - noble-20241011
+  - noble-20241015
   - noble
   - latest
 - Architectures:
@@ -177,6 +177,93 @@ Blocks:
   - oracular-20241009
   - oracular
   - rolling
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: 7922e9661bac5c40866fcee4838b8b3a87c71222
+      GitFetch: refs/tags/dist-plucky-amd64-20241111-7922e966
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ae9ac3bb9e509abe9c9f61006598106310733c96
+      GitFetch: refs/tags/dist-plucky-arm32v7-20241111-ae9ac3bb
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: 81f345b11bca08c015193d4d32dec8893295a885
+      GitFetch: refs/tags/dist-plucky-arm64v8-20241111-81f345b1
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: 8cf6f332fdc5d302bd3ba9bc4160340e89a7802f
+      GitFetch: refs/tags/dist-plucky-ppc64le-20241111-8cf6f332
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: 4191c9cae1e55b48d40b302d7a25b0c546dbfd6e
+      GitFetch: refs/tags/dist-plucky-riscv64-20241111-4191c9ca
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: 4ba3bd2950078659205805e80685f1dfc78a9b88
+      GitFetch: refs/tags/dist-plucky-s390x-20241111-4ba3bd29
+  Directory: oci
+  File: ""
+  GitCommit: fa42be9027eccb928a1f0f43d95ffd9a45d36737
+  Tags:
+  - "25.04"
+  - plucky-20241111
+  - plucky
+  - devel
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: 494cd4d4ce68c2299acaca9d1591e21c45279864
+      GitFetch: refs/tags/dist-noble-amd64-20241011-494cd4d4
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: 08d5149059f84f9abcae571e99cc239d9321a75b
+      GitFetch: refs/tags/dist-noble-arm32v7-20241011-08d51490
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: 2e5487e14796293fa6808c5bcba0c94236fa621f
+      GitFetch: refs/tags/dist-noble-arm64v8-20241011-2e5487e1
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: f308343a1d697589ed3ab0149081b97291bba82c
+      GitFetch: refs/tags/dist-noble-ppc64le-20241011-f308343a
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: 95cd355241167f8c7b4b4ff9b2f9b28381d5c460
+      GitFetch: refs/tags/dist-noble-riscv64-20241011-95cd3552
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: 85d812b96402747cdfac9cf95f3e57167276a230
+      GitFetch: refs/tags/dist-noble-s390x-20241011-85d812b9
+  Directory: oci
+  File: ""
+  GitCommit: fa42be9027eccb928a1f0f43d95ffd9a45d36737
+  Tags:
+  - noble-20241011
 - Architectures:
     amd64:
       Architecture: amd64
@@ -345,7 +432,6 @@ Blocks:
   GitCommit: fa42be9027eccb928a1f0f43d95ffd9a45d36737
   Tags:
   - oracular-20240918
-  - devel
 - Architectures:
     amd64:
       Architecture: amd64
@@ -17220,6 +17306,7 @@ KnownTags:
   "23.10": {}
   "24.04": {}
   "24.10": {}
+  "25.04": {}
   artful: {}
   artful-20170511.1: {}
   artful-20170601: {}
@@ -17571,6 +17658,7 @@ KnownTags:
   noble-20240904.1: {}
   noble-20241009: {}
   noble-20241011: {}
+  noble-20241015: {}
   oracular: {}
   oracular-20240527: {}
   oracular-20240617: {}
@@ -17578,6 +17666,8 @@ KnownTags:
   oracular-20240913: {}
   oracular-20240918: {}
   oracular-20241009: {}
+  plucky: {}
+  plucky-20241111: {}
   precise: {}
   precise-20160624: {}
   precise-20160707: {}

@@ -20,7 +20,7 @@ Blocks:
       GitFetch: ""
   Directory: stable/bookworm
   File: ""
-  GitCommit: da40aaeba0b58bee5fc5c8c9a2ebe340a69d94f8
+  GitCommit: 78d6abbd3622fd4643eba38db0530d546b964ee7
   Tags:
   - 3.5.4-sdk
   - 3.5-sdk
@@ -53,12 +53,37 @@ Blocks:
       GitFetch: ""
   Directory: beta/bookworm
   File: ""
+  GitCommit: 78d6abbd3622fd4643eba38db0530d546b964ee7
+  Tags:
+  - 3.6.0-334.4.beta-sdk
+  - beta-sdk
+  - 3.6.0-334.4.beta
+  - beta
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: beta/bookworm
+  File: ""
   GitCommit: da40aaeba0b58bee5fc5c8c9a2ebe340a69d94f8
   Tags:
   - 3.6.0-334.3.beta-sdk
-  - beta-sdk
   - 3.6.0-334.3.beta
-  - beta
 - Architectures:
     amd64:
       Architecture: amd64
@@ -3473,6 +3498,8 @@ KnownTags:
   3.6.0-216.1.beta-sdk: {}
   3.6.0-334.3.beta: {}
   3.6.0-334.3.beta-sdk: {}
+  3.6.0-334.4.beta: {}
+  3.6.0-334.4.beta-sdk: {}
   beta: {}
   beta-sdk: {}
   latest: {}
