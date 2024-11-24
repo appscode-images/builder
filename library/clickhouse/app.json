@@ -14,29 +14,46 @@
     "24.10.1.2812": {},
     "24.10.1.2812-focal": {},
     "24.10.1.2812-jammy": {},
+    "24.10.2": {},
+    "24.10.2-focal": {},
+    "24.10.2.80": {},
+    "24.10.2.80-focal": {},
     "24.3": {},
     "24.3-focal": {},
     "24.3.13": {},
     "24.3.13-focal": {},
     "24.3.13.40": {},
     "24.3.13.40-focal": {},
+    "24.3.14": {},
+    "24.3.14-focal": {},
+    "24.3.14.35": {},
+    "24.3.14.35-focal": {},
     "24.8": {},
     "24.8-focal": {},
     "24.8.6": {},
     "24.8.6-focal": {},
     "24.8.6.70": {},
     "24.8.6.70-focal": {},
+    "24.8.7": {},
+    "24.8.7-focal": {},
+    "24.8.7.41": {},
+    "24.8.7.41-focal": {},
     "24.9": {},
     "24.9-focal": {},
     "24.9.2": {},
     "24.9.2-focal": {},
     "24.9.2.42": {},
     "24.9.2.42-focal": {},
+    "24.9.3": {},
+    "24.9.3-focal": {},
+    "24.9.3.128": {},
+    "24.9.3.128-focal": {},
     "focal": {},
     "focal-lts": {},
     "jammy": {},
     "latest": {},
-    "lts": {}
+    "lts": {},
+    "lts-focal": {}
   },
   "Blocks": [
     {
@@ -47,6 +64,122 @@
         "24-focal",
         "24.10",
         "24.10-focal",
+        "24.10.2",
+        "24.10.2-focal",
+        "24.10.2.80",
+        "24.10.2.80-focal"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "5e5cd0415e8ba326f35f5066ab1b3b7314df153d",
+      "Directory": "server/24.10.2.80",
+      "File": "Dockerfile.ubuntu"
+    },
+    {
+      "Tags": [
+        "24.9",
+        "24.9-focal",
+        "24.9.3",
+        "24.9.3-focal",
+        "24.9.3.128",
+        "24.9.3.128-focal"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "5e5cd0415e8ba326f35f5066ab1b3b7314df153d",
+      "Directory": "server/24.9.3.128",
+      "File": "Dockerfile.ubuntu"
+    },
+    {
+      "Tags": [
+        "lts",
+        "lts-focal",
+        "24.8",
+        "24.8-focal",
+        "24.8.7",
+        "24.8.7-focal",
+        "24.8.7.41",
+        "24.8.7.41-focal"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "5e5cd0415e8ba326f35f5066ab1b3b7314df153d",
+      "Directory": "server/24.8.7.41",
+      "File": "Dockerfile.ubuntu"
+    },
+    {
+      "Tags": [
+        "24.3",
+        "24.3-focal",
+        "24.3.14",
+        "24.3.14-focal",
+        "24.3.14.35",
+        "24.3.14.35-focal"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "5e5cd0415e8ba326f35f5066ab1b3b7314df153d",
+      "Directory": "server/24.3.14.35",
+      "File": "Dockerfile.ubuntu"
+    },
+    {
+      "Tags": [
         "24.10.1",
         "24.10.1-focal",
         "24.10.1.2812",
@@ -74,8 +207,6 @@
     },
     {
       "Tags": [
-        "24.9",
-        "24.9-focal",
         "24.9.2",
         "24.9.2-focal",
         "24.9.2.42",
@@ -103,10 +234,7 @@
     },
     {
       "Tags": [
-        "lts",
         "focal-lts",
-        "24.8",
-        "24.8-focal",
         "24.8.6",
         "24.8.6-focal",
         "24.8.6.70",
@@ -134,8 +262,6 @@
     },
     {
       "Tags": [
-        "24.3",
-        "24.3-focal",
         "24.3.13",
         "24.3.13-focal",
         "24.3.13.40",
