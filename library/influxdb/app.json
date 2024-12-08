@@ -486,6 +486,8 @@
     "2.7.1-alpine": {},
     "2.7.10": {},
     "2.7.10-alpine": {},
+    "2.7.11": {},
+    "2.7.11-alpine": {},
     "2.7.3": {},
     "2.7.3-alpine": {},
     "2.7.4": {},
@@ -529,7 +531,7 @@
           "File": ""
         }
       },
-      "GitCommit": "7228bb390edf58e05357642839b33be637fcaa7b",
+      "GitCommit": "e15ac5b4cdfdc6effe2da373fd8963d04c1cd583",
       "Directory": "influxdb/1.11",
       "File": ""
     },
@@ -554,7 +556,7 @@
           "File": ""
         }
       },
-      "GitCommit": "7228bb390edf58e05357642839b33be637fcaa7b",
+      "GitCommit": "e15ac5b4cdfdc6effe2da373fd8963d04c1cd583",
       "Directory": "influxdb/1.11/alpine",
       "File": ""
     },
@@ -564,7 +566,7 @@
         "1.10.7-data"
       ],
       "Architectures": null,
-      "GitCommit": "7228bb390edf58e05357642839b33be637fcaa7b",
+      "GitCommit": "e15ac5b4cdfdc6effe2da373fd8963d04c1cd583",
       "Directory": "influxdb/1.10/data",
       "File": ""
     },
@@ -574,7 +576,7 @@
         "1.10.7-data-alpine"
       ],
       "Architectures": null,
-      "GitCommit": "7228bb390edf58e05357642839b33be637fcaa7b",
+      "GitCommit": "e15ac5b4cdfdc6effe2da373fd8963d04c1cd583",
       "Directory": "influxdb/1.10/data/alpine",
       "File": ""
     },
@@ -584,7 +586,7 @@
         "1.10.7-meta"
       ],
       "Architectures": null,
-      "GitCommit": "7228bb390edf58e05357642839b33be637fcaa7b",
+      "GitCommit": "e15ac5b4cdfdc6effe2da373fd8963d04c1cd583",
       "Directory": "influxdb/1.10/meta",
       "File": ""
     },
@@ -594,7 +596,7 @@
         "1.10.7-meta-alpine"
       ],
       "Architectures": null,
-      "GitCommit": "7228bb390edf58e05357642839b33be637fcaa7b",
+      "GitCommit": "e15ac5b4cdfdc6effe2da373fd8963d04c1cd583",
       "Directory": "influxdb/1.10/meta/alpine",
       "File": ""
     },
@@ -604,7 +606,7 @@
         "1.11.8-data"
       ],
       "Architectures": null,
-      "GitCommit": "7228bb390edf58e05357642839b33be637fcaa7b",
+      "GitCommit": "e15ac5b4cdfdc6effe2da373fd8963d04c1cd583",
       "Directory": "influxdb/1.11/data",
       "File": ""
     },
@@ -614,7 +616,7 @@
         "1.11.8-data-alpine"
       ],
       "Architectures": null,
-      "GitCommit": "7228bb390edf58e05357642839b33be637fcaa7b",
+      "GitCommit": "e15ac5b4cdfdc6effe2da373fd8963d04c1cd583",
       "Directory": "influxdb/1.11/data/alpine",
       "File": ""
     },
@@ -624,7 +626,7 @@
         "1.11.8-meta"
       ],
       "Architectures": null,
-      "GitCommit": "7228bb390edf58e05357642839b33be637fcaa7b",
+      "GitCommit": "e15ac5b4cdfdc6effe2da373fd8963d04c1cd583",
       "Directory": "influxdb/1.11/meta",
       "File": ""
     },
@@ -634,7 +636,7 @@
         "1.11.8-meta-alpine"
       ],
       "Architectures": null,
-      "GitCommit": "7228bb390edf58e05357642839b33be637fcaa7b",
+      "GitCommit": "e15ac5b4cdfdc6effe2da373fd8963d04c1cd583",
       "Directory": "influxdb/1.11/meta/alpine",
       "File": ""
     },
@@ -642,8 +644,59 @@
       "Tags": [
         "2",
         "2.7",
-        "2.7.10",
+        "2.7.11",
         "latest"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "e15ac5b4cdfdc6effe2da373fd8963d04c1cd583",
+      "Directory": "influxdb/2.7",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2-alpine",
+        "2.7-alpine",
+        "2.7.11-alpine",
+        "alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "e15ac5b4cdfdc6effe2da373fd8963d04c1cd583",
+      "Directory": "influxdb/2.7/alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.7.10"
       ],
       "Architectures": {
         "amd64": {
@@ -667,10 +720,7 @@
     },
     {
       "Tags": [
-        "2-alpine",
-        "2.7-alpine",
-        "2.7.10-alpine",
-        "alpine"
+        "2.7.10-alpine"
       ],
       "Architectures": {
         "amd64": {

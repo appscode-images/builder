@@ -1,121 +1,227 @@
 GitRepo: https://github.com/debuerreotype/docker-debian-artifacts.git
 
-Tags: bookworm,bookworm-20241111,12.8,12,latest
+Tags: bookworm,bookworm-20241202,12.8,12,latest
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+GitCommit: 7935fc7dd049cb343df42037c152f570069d274f
+Directory: bookworm/oci
+File: index.json
+
+Tags: bookworm-backports
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+GitCommit: 7935fc7dd049cb343df42037c152f570069d274f
+Directory: bookworm/backports
+
+Tags: bookworm-slim,bookworm-20241202-slim,12.8-slim,12-slim
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+GitCommit: 7935fc7dd049cb343df42037c152f570069d274f
+Directory: bookworm/slim/oci
+File: index.json
+
+Tags: bullseye,bullseye-20241202,11.11,11
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 7935fc7dd049cb343df42037c152f570069d274f
+Directory: bullseye/oci
+File: index.json
+
+Tags: bullseye-backports
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 7935fc7dd049cb343df42037c152f570069d274f
+Directory: bullseye/backports
+
+Tags: bullseye-slim,bullseye-20241202-slim,11.11-slim,11-slim
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 7935fc7dd049cb343df42037c152f570069d274f
+Directory: bullseye/slim/oci
+File: index.json
+
+Tags: experimental,experimental-20241202
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
+GitCommit: 7935fc7dd049cb343df42037c152f570069d274f
+Directory: experimental
+
+Tags: oldstable,oldstable-20241202
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 7935fc7dd049cb343df42037c152f570069d274f
+Directory: oldstable/oci
+File: index.json
+
+Tags: oldstable-backports
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 7935fc7dd049cb343df42037c152f570069d274f
+Directory: oldstable/backports
+
+Tags: oldstable-slim,oldstable-20241202-slim
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 7935fc7dd049cb343df42037c152f570069d274f
+Directory: oldstable/slim/oci
+File: index.json
+
+Tags: rc-buggy,rc-buggy-20241202
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
+GitCommit: 7935fc7dd049cb343df42037c152f570069d274f
+Directory: rc-buggy
+
+Tags: sid,sid-20241202
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
+GitCommit: 7935fc7dd049cb343df42037c152f570069d274f
+Directory: sid/oci
+File: index.json
+
+Tags: sid-slim,sid-20241202-slim
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
+GitCommit: 7935fc7dd049cb343df42037c152f570069d274f
+Directory: sid/slim/oci
+File: index.json
+
+Tags: stable,stable-20241202
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+GitCommit: 7935fc7dd049cb343df42037c152f570069d274f
+Directory: stable/oci
+File: index.json
+
+Tags: stable-backports
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+GitCommit: 7935fc7dd049cb343df42037c152f570069d274f
+Directory: stable/backports
+
+Tags: stable-slim,stable-20241202-slim
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+GitCommit: 7935fc7dd049cb343df42037c152f570069d274f
+Directory: stable/slim/oci
+File: index.json
+
+Tags: testing,testing-20241202
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
+GitCommit: 7935fc7dd049cb343df42037c152f570069d274f
+Directory: testing/oci
+File: index.json
+
+Tags: testing-backports
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
+GitCommit: 7935fc7dd049cb343df42037c152f570069d274f
+Directory: testing/backports
+
+Tags: testing-slim,testing-20241202-slim
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
+GitCommit: 7935fc7dd049cb343df42037c152f570069d274f
+Directory: testing/slim/oci
+File: index.json
+
+Tags: trixie,trixie-20241202
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
+GitCommit: 7935fc7dd049cb343df42037c152f570069d274f
+Directory: trixie/oci
+File: index.json
+
+Tags: trixie-backports
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
+GitCommit: 7935fc7dd049cb343df42037c152f570069d274f
+Directory: trixie/backports
+
+Tags: trixie-slim,trixie-20241202-slim
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
+GitCommit: 7935fc7dd049cb343df42037c152f570069d274f
+Directory: trixie/slim/oci
+File: index.json
+
+Tags: unstable,unstable-20241202
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
+GitCommit: 7935fc7dd049cb343df42037c152f570069d274f
+Directory: unstable/oci
+File: index.json
+
+Tags: unstable-slim,unstable-20241202-slim
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
+GitCommit: 7935fc7dd049cb343df42037c152f570069d274f
+Directory: unstable/slim/oci
+File: index.json
+
+Tags: bookworm-20241111
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: bookworm
 
-Tags: bookworm-backports
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
-GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
-Directory: bookworm/backports
-
-Tags: bookworm-slim,bookworm-20241111-slim,12.8-slim,12-slim
+Tags: bookworm-20241111-slim
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: bookworm/slim
 
-Tags: bullseye,bullseye-20241111,11.11,11
+Tags: bullseye-20241111
 Architectures: amd64,arm32v7,arm64v8,i386
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: bullseye
 
-Tags: bullseye-backports
-Architectures: amd64,arm32v7,arm64v8,i386
-GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
-Directory: bullseye/backports
-
-Tags: bullseye-slim,bullseye-20241111-slim,11.11-slim,11-slim
+Tags: bullseye-20241111-slim
 Architectures: amd64,arm32v7,arm64v8,i386
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: bullseye/slim
 
-Tags: experimental,experimental-20241111
+Tags: experimental-20241111
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: experimental
 
-Tags: oldstable,oldstable-20241111
+Tags: oldstable-20241111
 Architectures: amd64,arm32v7,arm64v8,i386
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: oldstable
 
-Tags: oldstable-backports
-Architectures: amd64,arm32v7,arm64v8,i386
-GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
-Directory: oldstable/backports
-
-Tags: oldstable-slim,oldstable-20241111-slim
+Tags: oldstable-20241111-slim
 Architectures: amd64,arm32v7,arm64v8,i386
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: oldstable/slim
 
-Tags: rc-buggy,rc-buggy-20241111
+Tags: rc-buggy-20241111
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: rc-buggy
 
-Tags: sid,sid-20241111
+Tags: sid-20241111
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: sid
 
-Tags: sid-slim,sid-20241111-slim
+Tags: sid-20241111-slim
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: sid/slim
 
-Tags: stable,stable-20241111
+Tags: stable-20241111
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: stable
 
-Tags: stable-backports
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
-GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
-Directory: stable/backports
-
-Tags: stable-slim,stable-20241111-slim
+Tags: stable-20241111-slim
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: stable/slim
 
-Tags: testing,testing-20241111
+Tags: testing-20241111
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: testing
 
-Tags: testing-backports
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
-GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
-Directory: testing/backports
-
-Tags: testing-slim,testing-20241111-slim
+Tags: testing-20241111-slim
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: testing/slim
 
-Tags: trixie,trixie-20241111
+Tags: trixie-20241111
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: trixie
 
-Tags: trixie-backports
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
-GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
-Directory: trixie/backports
-
-Tags: trixie-slim,trixie-20241111-slim
+Tags: trixie-20241111-slim
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: trixie/slim
 
-Tags: unstable,unstable-20241111
+Tags: unstable-20241111
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: unstable
 
-Tags: unstable-slim,unstable-20241111-slim
+Tags: unstable-20241111-slim
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,riscv64,s390x
 GitCommit: ea6ede8f53deaae64dd492001410b689d127e810
 Directory: unstable/slim
