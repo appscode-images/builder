@@ -16,7 +16,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        tag: [3.13.4-management-alpine, 3.12.12-management-alpine, 3.12.12-management, 3.12.12-alpine, 3.12.12]
+        tag: [4.0.4-management-alpine, 3.13.4-management-alpine, 3.12.12-management-alpine]
     steps:
     - uses: actions/checkout@v4
 
