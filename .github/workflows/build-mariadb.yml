@@ -16,7 +16,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        tag: [11.5.2-noble, 11.4.3-noble, 11.3.2-jammy, 11.2.2-jammy, 11.1.3-jammy, 11.0.4-jammy, 10.11.6-jammy, 10.10.7-jammy, 10.9.8-jammy, 10.8.8-jammy, 10.7.8-focal, 10.6.16-focal, 10.5.23-focal, 10.4.32-focal]
+        tag: [11.6.2-noble, 11.5.2-noble, 11.4.3-noble, 11.3.2-jammy, 11.2.2-jammy, 11.1.3-jammy, 11.0.4-jammy, 10.11.6-jammy, 10.10.7-jammy, 10.9.8-jammy, 10.8.8-jammy, 10.7.8-focal, 10.6.16-focal, 10.5.23-focal, 10.4.32-focal]
     steps:
     - uses: actions/checkout@v4
 
