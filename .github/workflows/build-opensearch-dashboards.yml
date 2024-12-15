@@ -2,7 +2,7 @@ name: build-opensearch-dashboards
 
 on:
   schedule:
-    - cron: '0 17 * * *'
+    - cron: '0 0 * * 6,0'
   workflow_dispatch:
 
 concurrency:
@@ -69,81 +69,81 @@ jobs:
     # - name: Setup upterm session
     #   uses: lhotari/action-upterm@v1
 
-    # https://github.com/opensearch-project/opensearch-build/tree/main/docker/release
+    # https://github.com/appscode-images/opensearch-build/tree/main/docker/release
     - name: Build
       run: |
-        git clone https://github.com/opensearch-project/opensearch-build.git
+        git clone https://github.com/appscode-images/opensearch-build.git
         cd opensearch-build/docker/release
         ./build-image-multi-arch.sh -v ${{ matrix.tag }} -f ./dockerfiles/opensearch-dashboards.al2.dockerfile -p opensearch-dashboards -a "x64,arm64" -r "ghcr.io/appscode-images/daily/opensearch-dashboards"
         crane cp ghcr.io/appscode-images/daily/opensearch-dashboards:${{ matrix.tag }} ghcr.io/appscode-images/daily/opensearch-dashboards:${{ matrix.tag }}_$(date -u +'%Y%m%d')
 
-  report:
-    name: Report
-    runs-on: firecracker
-    needs: build
-    if: always()
-    steps:
-    - uses: actions/checkout@v4
+  # report:
+  #   name: Report
+  #   runs-on: firecracker
+  #   needs: build
+  #   if: always()
+  #   steps:
+  #   - uses: actions/checkout@v4
 
-    - name: Set up Go
-      uses: actions/setup-go@v4
-      with:
-        go-version: '1.22'
+  #   - name: Set up Go
+  #     uses: actions/setup-go@v4
+  #     with:
+  #       go-version: '1.22'
 
-    - name: Prepare git
-      env:
-        GITHUB_USER: 1gtm
-        GITHUB_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
-      run: |
-        set -x
-        git config --global user.name "1gtm"
-        git config --global user.email "1gtm@appscode.com"
-        git config --global \
-          url."https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com".insteadOf \
-          "https://github.com"
-        # git remote set-url origin https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+  #   - name: Prepare git
+  #     env:
+  #       GITHUB_USER: 1gtm
+  #       GITHUB_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
+  #     run: |
+  #       set -x
+  #       git config --global user.name "1gtm"
+  #       git config --global user.email "1gtm@appscode.com"
+  #       git config --global \
+  #         url."https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com".insteadOf \
+  #         "https://github.com"
+  #       # git remote set-url origin https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
 
-    - name: Set up QEMU
-      id: qemu
-      uses: docker/setup-qemu-action@v3
+  #   - name: Set up QEMU
+  #     id: qemu
+  #     uses: docker/setup-qemu-action@v3
 
-    - name: Set up Docker Buildx
-      uses: docker/setup-buildx-action@v3
-      with:
-        platforms: linux/amd64,linux/arm64
+  #   - name: Set up Docker Buildx
+  #     uses: docker/setup-buildx-action@v3
+  #     with:
+  #       platforms: linux/amd64,linux/arm64
 
-    - name: Log in to the GitHub Container registry
-      uses: docker/login-action@v2
-      with:
-        registry: ghcr.io
-        username: ${{ github.actor }}
-        password: ${{ secrets.GITHUB_TOKEN }}
+  #   - name: Log in to the GitHub Container registry
+  #     uses: docker/login-action@v2
+  #     with:
+  #       registry: ghcr.io
+  #       username: ${{ github.actor }}
+  #       password: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Install trivy
-      run: |
-        # wget https://github.com/aquasecurity/trivy/releases/download/v0.18.3/trivy_0.18.3_Linux-64bit.deb
-        # sudo dpkg -i trivy_0.18.3_Linux-64bit.deb
-        sudo apt-get install -y --no-install-recommends wget apt-transport-https gnupg lsb-release
-        wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | sudo apt-key add -
-        echo deb https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main | sudo tee -a /etc/apt/sources.list.d/trivy.list
-        sudo apt-get update
-        sudo apt-get install -y --no-install-recommends trivy
+  #   - name: Install trivy
+  #     run: |
+  #       # wget https://github.com/aquasecurity/trivy/releases/download/v0.18.3/trivy_0.18.3_Linux-64bit.deb
+  #       # sudo dpkg -i trivy_0.18.3_Linux-64bit.deb
+  #       sudo apt-get install -y --no-install-recommends wget apt-transport-https gnupg lsb-release
+  #       wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | sudo apt-key add -
+  #       echo deb https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main | sudo tee -a /etc/apt/sources.list.d/trivy.list
+  #       sudo apt-get update
+  #       sudo apt-get install -y --no-install-recommends trivy
 
-    - name: Build
-      env:
-        SMTP_ADDRESS: ${{ secrets.SMTP_ADDRESS }}
-        SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
-        SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-      run: |
-        go run cmd/mail-report/main.go --name=opensearch-dashboards
+  #   - name: Build
+  #     env:
+  #       SMTP_ADDRESS: ${{ secrets.SMTP_ADDRESS }}
+  #       SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+  #       SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+  #     run: |
+  #       go run cmd/mail-report/main.go --name=opensearch-dashboards
 
-    - name: Update repo
-      run: |
-        git add --all
-        if [[ $(git status --porcelain) ]]; then
-          git commit -s -a -m "update opensearch-dashboards images $(date --rfc-3339=date)"
-          git fetch origin
-          # https://git-scm.com/docs/merge-strategies
-          git pull --rebase -s ours origin master
-          git push origin HEAD
-        fi
+  #   - name: Update repo
+  #     run: |
+  #       git add --all
+  #       if [[ $(git status --porcelain) ]]; then
+  #         git commit -s -a -m "update opensearch-dashboards images $(date --rfc-3339=date)"
+  #         git fetch origin
+  #         # https://git-scm.com/docs/merge-strategies
+  #         git pull --rebase -s ours origin master
+  #         git push origin HEAD
+  #       fi
