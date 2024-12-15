@@ -10,14 +10,14 @@ Blocks:
       Architecture: arm64v8
       Directory: ""
       File: ""
-      GitCommit: daef1a59f0d5434d490e8979de671459384c0291
-      GitFetch: refs/heads/aarch64/5.0-20241201
+      GitCommit: 4eb68b5f21cf84a873098966b5c9880721420ac5
+      GitFetch: refs/heads/aarch64/5.0-20241208
   Directory: ""
   File: ""
-  GitCommit: 0c7412e45f338f119f6593da2d56fd854b9474f2
+  GitCommit: b8f9a0825a1aab5af0ad692748af5174cb47302e
   Tags:
   - "5.0"
-  - 5.0-20241201
+  - 5.0-20241208
   - latest
 - Architectures:
     amd64:
@@ -49,13 +49,49 @@ Blocks:
       Architecture: arm64v8
       Directory: ""
       File: ""
+      GitCommit: 241b9cedbc3ee99b17a5f65cc679df81df2145a4
+      GitFetch: refs/heads/aarch64/3.0-20241209
+  Directory: ""
+  File: ""
+  GitCommit: 8ae627dc9c6e074b0bc9b14dff7b97c2946e6a66
+  Tags:
+  - "3.0"
+  - 3.0-20241209
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: daef1a59f0d5434d490e8979de671459384c0291
+      GitFetch: refs/heads/aarch64/5.0-20241201
+  Directory: ""
+  File: ""
+  GitCommit: 0c7412e45f338f119f6593da2d56fd854b9474f2
+  Tags:
+  - 5.0-20241201
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
       GitCommit: c9c06473e1c89cb9d0218ffc71a456f3cfa59002
       GitFetch: refs/heads/aarch64/3.0-20241023
   Directory: ""
   File: ""
   GitCommit: 03c99783ea1c9e664fc53fb18e970629a5e9495f
   Tags:
-  - "3.0"
   - 3.0-20241023
 - Architectures:
     amd64:
@@ -8814,6 +8850,7 @@ KnownTags:
   3.0-20240915: {}
   3.0-20241016: {}
   3.0-20241023: {}
+  3.0-20241209: {}
   "4.0": {}
   4.0-20210226: {}
   4.0-20210312: {}
@@ -9015,6 +9052,7 @@ KnownTags:
   5.0-20241110: {}
   5.0-20241117: {}
   5.0-20241201: {}
+  5.0-20241208: {}
   5.0-GA: {}
   5.0-RC: {}
   5.0-beta: {}

@@ -70,14 +70,14 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 1.11/alpine3.20
+  Directory: 1.11/alpine3.21
   File: ""
-  GitCommit: 4f01bdd0f40fb73588ec2fb1425939f0b942eaaf
+  GitCommit: c763e6dd2005540877917987840d0128b819de91
   Tags:
-  - 1.11.2-alpine3.20
-  - 1.11-alpine3.20
-  - 1-alpine3.20
-  - alpine3.20
+  - 1.11.2-alpine3.21
+  - 1.11-alpine3.21
+  - 1-alpine3.21
+  - alpine3.21
   - 1.11.2-alpine
   - 1.11-alpine
   - 1-alpine
@@ -89,14 +89,14 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 1.11/alpine3.19
+  Directory: 1.11/alpine3.20
   File: ""
   GitCommit: 4f01bdd0f40fb73588ec2fb1425939f0b942eaaf
   Tags:
-  - 1.11.2-alpine3.19
-  - 1.11-alpine3.19
-  - 1-alpine3.19
-  - alpine3.19
+  - 1.11.2-alpine3.20
+  - 1.11-alpine3.20
+  - 1-alpine3.20
+  - alpine3.20
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -217,6 +217,21 @@ Blocks:
   Tags:
   - 1.10.7-windowsservercore-1809
   - 1.10-windowsservercore-1809
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.11/alpine3.19
+  File: ""
+  GitCommit: 4f01bdd0f40fb73588ec2fb1425939f0b942eaaf
+  Tags:
+  - 1.11.2-alpine3.19
+  - 1.11-alpine3.19
+  - 1-alpine3.19
+  - alpine3.19
 - Architectures:
     amd64:
       Architecture: amd64
@@ -9918,6 +9933,7 @@ KnownTags:
   1-alpine3.18: {}
   1-alpine3.19: {}
   1-alpine3.20: {}
+  1-alpine3.21: {}
   1-bookworm: {}
   1-bullseye: {}
   1-buster: {}
@@ -10747,6 +10763,7 @@ KnownTags:
   1.11-alpine: {}
   1.11-alpine3.19: {}
   1.11-alpine3.20: {}
+  1.11-alpine3.21: {}
   1.11-bookworm: {}
   1.11-bullseye: {}
   1.11-rc: {}
@@ -10839,6 +10856,7 @@ KnownTags:
   1.11.2-alpine: {}
   1.11.2-alpine3.19: {}
   1.11.2-alpine3.20: {}
+  1.11.2-alpine3.21: {}
   1.11.2-bookworm: {}
   1.11.2-bullseye: {}
   1.11.2-windowsservercore: {}
@@ -10854,6 +10872,7 @@ KnownTags:
   alpine3.18: {}
   alpine3.19: {}
   alpine3.20: {}
+  alpine3.21: {}
   bookworm: {}
   bullseye: {}
   buster: {}

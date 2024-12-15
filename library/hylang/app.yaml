@@ -44,7 +44,7 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: Dockerfile.python3.13-bookworm
-  GitCommit: 0fd7c6620e53d9dfee4ab1984416c63f520ee25c
+  GitCommit: 8b2310e66ab1c3dacf6c5d6115598e64bcec934a
   Tags:
   - 1.0.0-python3.13-bookworm
   - 1.0-python3.13-bookworm
@@ -89,7 +89,7 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: Dockerfile.python3.13-bullseye
-  GitCommit: 0fd7c6620e53d9dfee4ab1984416c63f520ee25c
+  GitCommit: 8b2310e66ab1c3dacf6c5d6115598e64bcec934a
   Tags:
   - 1.0.0-python3.13-bullseye
   - 1.0-python3.13-bullseye
@@ -143,8 +143,71 @@ Blocks:
       GitCommit: ""
       GitFetch: ""
   Directory: ""
+  File: Dockerfile.python3.13-alpine3.21
+  GitCommit: 8b2310e66ab1c3dacf6c5d6115598e64bcec934a
+  Tags:
+  - 1.0.0-python3.13-alpine3.21
+  - 1.0-python3.13-alpine3.21
+  - 1-python3.13-alpine3.21
+  - python3.13-alpine3.21
+  - 1.0.0-alpine3.21
+  - 1.0-alpine3.21
+  - 1-alpine3.21
+  - alpine3.21
+  - 1.0.0-python3.13-alpine
+  - 1.0-python3.13-alpine
+  - 1-python3.13-alpine
+  - python3.13-alpine
+  - 1.0.0-alpine
+  - 1.0-alpine
+  - 1-alpine
+  - alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
   File: Dockerfile.python3.13-alpine3.20
-  GitCommit: 0fd7c6620e53d9dfee4ab1984416c63f520ee25c
+  GitCommit: 8b2310e66ab1c3dacf6c5d6115598e64bcec934a
   Tags:
   - 1.0.0-python3.13-alpine3.20
   - 1.0-python3.13-alpine3.20
@@ -154,14 +217,988 @@ Blocks:
   - 1.0-alpine3.20
   - 1-alpine3.20
   - alpine3.20
-  - 1.0.0-python3.13-alpine
-  - 1.0-python3.13-alpine
-  - 1-python3.13-alpine
-  - python3.13-alpine
-  - 1.0.0-alpine
-  - 1.0-alpine
-  - 1-alpine
-  - alpine
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.python3.13-windowsservercore-ltsc2022
+  GitCommit: 8b2310e66ab1c3dacf6c5d6115598e64bcec934a
+  Tags:
+  - 1.0.0-python3.13-windowsservercore-ltsc2022
+  - 1.0-python3.13-windowsservercore-ltsc2022
+  - 1-python3.13-windowsservercore-ltsc2022
+  - python3.13-windowsservercore-ltsc2022
+  - 1.0.0-windowsservercore-ltsc2022
+  - 1.0-windowsservercore-ltsc2022
+  - 1-windowsservercore-ltsc2022
+  - windowsservercore-ltsc2022
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.python3.13-windowsservercore-1809
+  GitCommit: 8b2310e66ab1c3dacf6c5d6115598e64bcec934a
+  Tags:
+  - 1.0.0-python3.13-windowsservercore-1809
+  - 1.0-python3.13-windowsservercore-1809
+  - 1-python3.13-windowsservercore-1809
+  - python3.13-windowsservercore-1809
+  - 1.0.0-windowsservercore-1809
+  - 1.0-windowsservercore-1809
+  - 1-windowsservercore-1809
+  - windowsservercore-1809
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.python3.12-bookworm
+  GitCommit: 8b2310e66ab1c3dacf6c5d6115598e64bcec934a
+  Tags:
+  - 1.0.0-python3.12-bookworm
+  - 1.0-python3.12-bookworm
+  - 1-python3.12-bookworm
+  - python3.12-bookworm
+  - 1.0.0-python3.12
+  - 1.0-python3.12
+  - 1-python3.12
+  - python3.12
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.python3.12-bullseye
+  GitCommit: 8b2310e66ab1c3dacf6c5d6115598e64bcec934a
+  Tags:
+  - 1.0.0-python3.12-bullseye
+  - 1.0-python3.12-bullseye
+  - 1-python3.12-bullseye
+  - python3.12-bullseye
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.python3.12-alpine3.21
+  GitCommit: 8b2310e66ab1c3dacf6c5d6115598e64bcec934a
+  Tags:
+  - 1.0.0-python3.12-alpine3.21
+  - 1.0-python3.12-alpine3.21
+  - 1-python3.12-alpine3.21
+  - python3.12-alpine3.21
+  - 1.0.0-python3.12-alpine
+  - 1.0-python3.12-alpine
+  - 1-python3.12-alpine
+  - python3.12-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.python3.12-alpine3.20
+  GitCommit: 8b2310e66ab1c3dacf6c5d6115598e64bcec934a
+  Tags:
+  - 1.0.0-python3.12-alpine3.20
+  - 1.0-python3.12-alpine3.20
+  - 1-python3.12-alpine3.20
+  - python3.12-alpine3.20
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.python3.12-windowsservercore-ltsc2022
+  GitCommit: 8b2310e66ab1c3dacf6c5d6115598e64bcec934a
+  Tags:
+  - 1.0.0-python3.12-windowsservercore-ltsc2022
+  - 1.0-python3.12-windowsservercore-ltsc2022
+  - 1-python3.12-windowsservercore-ltsc2022
+  - python3.12-windowsservercore-ltsc2022
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.python3.12-windowsservercore-1809
+  GitCommit: 8b2310e66ab1c3dacf6c5d6115598e64bcec934a
+  Tags:
+  - 1.0.0-python3.12-windowsservercore-1809
+  - 1.0-python3.12-windowsservercore-1809
+  - 1-python3.12-windowsservercore-1809
+  - python3.12-windowsservercore-1809
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.python3.11-bookworm
+  GitCommit: 8b2310e66ab1c3dacf6c5d6115598e64bcec934a
+  Tags:
+  - 1.0.0-python3.11-bookworm
+  - 1.0-python3.11-bookworm
+  - 1-python3.11-bookworm
+  - python3.11-bookworm
+  - 1.0.0-python3.11
+  - 1.0-python3.11
+  - 1-python3.11
+  - python3.11
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.python3.11-bullseye
+  GitCommit: 8b2310e66ab1c3dacf6c5d6115598e64bcec934a
+  Tags:
+  - 1.0.0-python3.11-bullseye
+  - 1.0-python3.11-bullseye
+  - 1-python3.11-bullseye
+  - python3.11-bullseye
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.python3.11-alpine3.21
+  GitCommit: 8b2310e66ab1c3dacf6c5d6115598e64bcec934a
+  Tags:
+  - 1.0.0-python3.11-alpine3.21
+  - 1.0-python3.11-alpine3.21
+  - 1-python3.11-alpine3.21
+  - python3.11-alpine3.21
+  - 1.0.0-python3.11-alpine
+  - 1.0-python3.11-alpine
+  - 1-python3.11-alpine
+  - python3.11-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.python3.11-alpine3.20
+  GitCommit: 8b2310e66ab1c3dacf6c5d6115598e64bcec934a
+  Tags:
+  - 1.0.0-python3.11-alpine3.20
+  - 1.0-python3.11-alpine3.20
+  - 1-python3.11-alpine3.20
+  - python3.11-alpine3.20
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.python3.10-bookworm
+  GitCommit: 8b2310e66ab1c3dacf6c5d6115598e64bcec934a
+  Tags:
+  - 1.0.0-python3.10-bookworm
+  - 1.0-python3.10-bookworm
+  - 1-python3.10-bookworm
+  - python3.10-bookworm
+  - 1.0.0-python3.10
+  - 1.0-python3.10
+  - 1-python3.10
+  - python3.10
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.python3.10-bullseye
+  GitCommit: 8b2310e66ab1c3dacf6c5d6115598e64bcec934a
+  Tags:
+  - 1.0.0-python3.10-bullseye
+  - 1.0-python3.10-bullseye
+  - 1-python3.10-bullseye
+  - python3.10-bullseye
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.python3.10-alpine3.21
+  GitCommit: 8b2310e66ab1c3dacf6c5d6115598e64bcec934a
+  Tags:
+  - 1.0.0-python3.10-alpine3.21
+  - 1.0-python3.10-alpine3.21
+  - 1-python3.10-alpine3.21
+  - python3.10-alpine3.21
+  - 1.0.0-python3.10-alpine
+  - 1.0-python3.10-alpine
+  - 1-python3.10-alpine
+  - python3.10-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.python3.10-alpine3.20
+  GitCommit: 8b2310e66ab1c3dacf6c5d6115598e64bcec934a
+  Tags:
+  - 1.0.0-python3.10-alpine3.20
+  - 1.0-python3.10-alpine3.20
+  - 1-python3.10-alpine3.20
+  - python3.10-alpine3.20
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.python3.9-bookworm
+  GitCommit: 8b2310e66ab1c3dacf6c5d6115598e64bcec934a
+  Tags:
+  - 1.0.0-python3.9-bookworm
+  - 1.0-python3.9-bookworm
+  - 1-python3.9-bookworm
+  - python3.9-bookworm
+  - 1.0.0-python3.9
+  - 1.0-python3.9
+  - 1-python3.9
+  - python3.9
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.python3.9-bullseye
+  GitCommit: 8b2310e66ab1c3dacf6c5d6115598e64bcec934a
+  Tags:
+  - 1.0.0-python3.9-bullseye
+  - 1.0-python3.9-bullseye
+  - 1-python3.9-bullseye
+  - python3.9-bullseye
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.python3.9-alpine3.21
+  GitCommit: 8b2310e66ab1c3dacf6c5d6115598e64bcec934a
+  Tags:
+  - 1.0.0-python3.9-alpine3.21
+  - 1.0-python3.9-alpine3.21
+  - 1-python3.9-alpine3.21
+  - python3.9-alpine3.21
+  - 1.0.0-python3.9-alpine
+  - 1.0-python3.9-alpine
+  - 1-python3.9-alpine
+  - python3.9-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.python3.9-alpine3.20
+  GitCommit: 8b2310e66ab1c3dacf6c5d6115598e64bcec934a
+  Tags:
+  - 1.0.0-python3.9-alpine3.20
+  - 1.0-python3.9-alpine3.20
+  - 1-python3.9-alpine3.20
+  - python3.9-alpine3.20
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.pypy3.10-bookworm
+  GitCommit: 8b2310e66ab1c3dacf6c5d6115598e64bcec934a
+  Tags:
+  - 1.0.0-pypy3.10-bookworm
+  - 1.0-pypy3.10-bookworm
+  - 1-pypy3.10-bookworm
+  - pypy3.10-bookworm
+  - 1.0.0-pypy-bookworm
+  - 1.0-pypy-bookworm
+  - 1-pypy-bookworm
+  - pypy-bookworm
+  - 1.0.0-pypy3.10
+  - 1.0-pypy3.10
+  - 1-pypy3.10
+  - pypy3.10
+  - 1.0.0-pypy
+  - 1.0-pypy
+  - 1-pypy
+  - pypy
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.pypy3.10-bullseye
+  GitCommit: 8b2310e66ab1c3dacf6c5d6115598e64bcec934a
+  Tags:
+  - 1.0.0-pypy3.10-bullseye
+  - 1.0-pypy3.10-bullseye
+  - 1-pypy3.10-bullseye
+  - pypy3.10-bullseye
+  - 1.0.0-pypy-bullseye
+  - 1.0-pypy-bullseye
+  - 1-pypy-bullseye
+  - pypy-bullseye
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.pypy3.10-windowsservercore-ltsc2022
+  GitCommit: 8b2310e66ab1c3dacf6c5d6115598e64bcec934a
+  Tags:
+  - 1.0.0-pypy3.10-windowsservercore-ltsc2022
+  - 1.0-pypy3.10-windowsservercore-ltsc2022
+  - 1-pypy3.10-windowsservercore-ltsc2022
+  - pypy3.10-windowsservercore-ltsc2022
+  - 1.0.0-pypy-windowsservercore-ltsc2022
+  - 1.0-pypy-windowsservercore-ltsc2022
+  - 1-pypy-windowsservercore-ltsc2022
+  - pypy-windowsservercore-ltsc2022
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: Dockerfile.pypy3.10-windowsservercore-1809
+  GitCommit: 8b2310e66ab1c3dacf6c5d6115598e64bcec934a
+  Tags:
+  - 1.0.0-pypy3.10-windowsservercore-1809
+  - 1.0-pypy3.10-windowsservercore-1809
+  - 1-pypy3.10-windowsservercore-1809
+  - pypy3.10-windowsservercore-1809
+  - 1.0.0-pypy-windowsservercore-1809
+  - 1.0-pypy-windowsservercore-1809
+  - 1-pypy-windowsservercore-1809
+  - pypy-windowsservercore-1809
 - Architectures:
     amd64:
       Architecture: amd64
@@ -218,187 +1255,6 @@ Blocks:
   - 1-alpine3.19
   - alpine3.19
 - Architectures:
-    windows-amd64:
-      Architecture: windows-amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: ""
-  File: Dockerfile.python3.13-windowsservercore-ltsc2022
-  GitCommit: 0fd7c6620e53d9dfee4ab1984416c63f520ee25c
-  Tags:
-  - 1.0.0-python3.13-windowsservercore-ltsc2022
-  - 1.0-python3.13-windowsservercore-ltsc2022
-  - 1-python3.13-windowsservercore-ltsc2022
-  - python3.13-windowsservercore-ltsc2022
-  - 1.0.0-windowsservercore-ltsc2022
-  - 1.0-windowsservercore-ltsc2022
-  - 1-windowsservercore-ltsc2022
-  - windowsservercore-ltsc2022
-- Architectures:
-    windows-amd64:
-      Architecture: windows-amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: ""
-  File: Dockerfile.python3.13-windowsservercore-1809
-  GitCommit: 0fd7c6620e53d9dfee4ab1984416c63f520ee25c
-  Tags:
-  - 1.0.0-python3.13-windowsservercore-1809
-  - 1.0-python3.13-windowsservercore-1809
-  - 1-python3.13-windowsservercore-1809
-  - python3.13-windowsservercore-1809
-  - 1.0.0-windowsservercore-1809
-  - 1.0-windowsservercore-1809
-  - 1-windowsservercore-1809
-  - windowsservercore-1809
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm32v5:
-      Architecture: arm32v5
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm32v7:
-      Architecture: arm32v7
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    i386:
-      Architecture: i386
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    s390x:
-      Architecture: s390x
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: ""
-  File: Dockerfile.python3.12-bookworm
-  GitCommit: 0fd7c6620e53d9dfee4ab1984416c63f520ee25c
-  Tags:
-  - 1.0.0-python3.12-bookworm
-  - 1.0-python3.12-bookworm
-  - 1-python3.12-bookworm
-  - python3.12-bookworm
-  - 1.0.0-python3.12
-  - 1.0-python3.12
-  - 1-python3.12
-  - python3.12
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm32v7:
-      Architecture: arm32v7
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    i386:
-      Architecture: i386
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: ""
-  File: Dockerfile.python3.12-bullseye
-  GitCommit: 0fd7c6620e53d9dfee4ab1984416c63f520ee25c
-  Tags:
-  - 1.0.0-python3.12-bullseye
-  - 1.0-python3.12-bullseye
-  - 1-python3.12-bullseye
-  - python3.12-bullseye
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm32v6:
-      Architecture: arm32v6
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm32v7:
-      Architecture: arm32v7
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    i386:
-      Architecture: i386
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    s390x:
-      Architecture: s390x
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: ""
-  File: Dockerfile.python3.12-alpine3.20
-  GitCommit: 0fd7c6620e53d9dfee4ab1984416c63f520ee25c
-  Tags:
-  - 1.0.0-python3.12-alpine3.20
-  - 1.0-python3.12-alpine3.20
-  - 1-python3.12-alpine3.20
-  - python3.12-alpine3.20
-  - 1.0.0-python3.12-alpine
-  - 1.0-python3.12-alpine
-  - 1-python3.12-alpine
-  - python3.12-alpine
-- Architectures:
     amd64:
       Architecture: amd64
       Directory: ""
@@ -449,179 +1305,6 @@ Blocks:
   - 1.0-python3.12-alpine3.19
   - 1-python3.12-alpine3.19
   - python3.12-alpine3.19
-- Architectures:
-    windows-amd64:
-      Architecture: windows-amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: ""
-  File: Dockerfile.python3.12-windowsservercore-ltsc2022
-  GitCommit: 0fd7c6620e53d9dfee4ab1984416c63f520ee25c
-  Tags:
-  - 1.0.0-python3.12-windowsservercore-ltsc2022
-  - 1.0-python3.12-windowsservercore-ltsc2022
-  - 1-python3.12-windowsservercore-ltsc2022
-  - python3.12-windowsservercore-ltsc2022
-- Architectures:
-    windows-amd64:
-      Architecture: windows-amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: ""
-  File: Dockerfile.python3.12-windowsservercore-1809
-  GitCommit: 0fd7c6620e53d9dfee4ab1984416c63f520ee25c
-  Tags:
-  - 1.0.0-python3.12-windowsservercore-1809
-  - 1.0-python3.12-windowsservercore-1809
-  - 1-python3.12-windowsservercore-1809
-  - python3.12-windowsservercore-1809
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm32v5:
-      Architecture: arm32v5
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm32v7:
-      Architecture: arm32v7
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    i386:
-      Architecture: i386
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    s390x:
-      Architecture: s390x
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: ""
-  File: Dockerfile.python3.11-bookworm
-  GitCommit: 0fd7c6620e53d9dfee4ab1984416c63f520ee25c
-  Tags:
-  - 1.0.0-python3.11-bookworm
-  - 1.0-python3.11-bookworm
-  - 1-python3.11-bookworm
-  - python3.11-bookworm
-  - 1.0.0-python3.11
-  - 1.0-python3.11
-  - 1-python3.11
-  - python3.11
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm32v7:
-      Architecture: arm32v7
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    i386:
-      Architecture: i386
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: ""
-  File: Dockerfile.python3.11-bullseye
-  GitCommit: 0fd7c6620e53d9dfee4ab1984416c63f520ee25c
-  Tags:
-  - 1.0.0-python3.11-bullseye
-  - 1.0-python3.11-bullseye
-  - 1-python3.11-bullseye
-  - python3.11-bullseye
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm32v6:
-      Architecture: arm32v6
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm32v7:
-      Architecture: arm32v7
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    i386:
-      Architecture: i386
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    s390x:
-      Architecture: s390x
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: ""
-  File: Dockerfile.python3.11-alpine3.20
-  GitCommit: 0fd7c6620e53d9dfee4ab1984416c63f520ee25c
-  Tags:
-  - 1.0.0-python3.11-alpine3.20
-  - 1.0-python3.11-alpine3.20
-  - 1-python3.11-alpine3.20
-  - python3.11-alpine3.20
-  - 1.0.0-python3.11-alpine
-  - 1.0-python3.11-alpine
-  - 1-python3.11-alpine
-  - python3.11-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -680,155 +1363,6 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-    arm32v5:
-      Architecture: arm32v5
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm32v7:
-      Architecture: arm32v7
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    i386:
-      Architecture: i386
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    s390x:
-      Architecture: s390x
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: ""
-  File: Dockerfile.python3.10-bookworm
-  GitCommit: 0fd7c6620e53d9dfee4ab1984416c63f520ee25c
-  Tags:
-  - 1.0.0-python3.10-bookworm
-  - 1.0-python3.10-bookworm
-  - 1-python3.10-bookworm
-  - python3.10-bookworm
-  - 1.0.0-python3.10
-  - 1.0-python3.10
-  - 1-python3.10
-  - python3.10
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm32v7:
-      Architecture: arm32v7
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    i386:
-      Architecture: i386
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: ""
-  File: Dockerfile.python3.10-bullseye
-  GitCommit: 0fd7c6620e53d9dfee4ab1984416c63f520ee25c
-  Tags:
-  - 1.0.0-python3.10-bullseye
-  - 1.0-python3.10-bullseye
-  - 1-python3.10-bullseye
-  - python3.10-bullseye
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm32v6:
-      Architecture: arm32v6
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm32v7:
-      Architecture: arm32v7
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    i386:
-      Architecture: i386
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    riscv64:
-      Architecture: riscv64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    s390x:
-      Architecture: s390x
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: ""
-  File: Dockerfile.python3.10-alpine3.20
-  GitCommit: 0fd7c6620e53d9dfee4ab1984416c63f520ee25c
-  Tags:
-  - 1.0.0-python3.10-alpine3.20
-  - 1.0-python3.10-alpine3.20
-  - 1-python3.10-alpine3.20
-  - python3.10-alpine3.20
-  - 1.0.0-python3.10-alpine
-  - 1.0-python3.10-alpine
-  - 1-python3.10-alpine
-  - python3.10-alpine
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
     arm32v6:
       Architecture: arm32v6
       Directory: ""
@@ -880,161 +1414,6 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-    arm32v5:
-      Architecture: arm32v5
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm32v7:
-      Architecture: arm32v7
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    i386:
-      Architecture: i386
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    mips64le:
-      Architecture: mips64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    s390x:
-      Architecture: s390x
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: ""
-  File: Dockerfile.python3.9-bookworm
-  GitCommit: 0fd7c6620e53d9dfee4ab1984416c63f520ee25c
-  Tags:
-  - 1.0.0-python3.9-bookworm
-  - 1.0-python3.9-bookworm
-  - 1-python3.9-bookworm
-  - python3.9-bookworm
-  - 1.0.0-python3.9
-  - 1.0-python3.9
-  - 1-python3.9
-  - python3.9
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm32v7:
-      Architecture: arm32v7
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    i386:
-      Architecture: i386
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: ""
-  File: Dockerfile.python3.9-bullseye
-  GitCommit: 0fd7c6620e53d9dfee4ab1984416c63f520ee25c
-  Tags:
-  - 1.0.0-python3.9-bullseye
-  - 1.0-python3.9-bullseye
-  - 1-python3.9-bullseye
-  - python3.9-bullseye
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm32v6:
-      Architecture: arm32v6
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm32v7:
-      Architecture: arm32v7
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    i386:
-      Architecture: i386
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    riscv64:
-      Architecture: riscv64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    s390x:
-      Architecture: s390x
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: ""
-  File: Dockerfile.python3.9-alpine3.20
-  GitCommit: 0fd7c6620e53d9dfee4ab1984416c63f520ee25c
-  Tags:
-  - 1.0.0-python3.9-alpine3.20
-  - 1.0-python3.9-alpine3.20
-  - 1-python3.9-alpine3.20
-  - python3.9-alpine3.20
-  - 1.0.0-python3.9-alpine
-  - 1.0-python3.9-alpine
-  - 1-python3.9-alpine
-  - python3.9-alpine
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
     arm32v6:
       Architecture: arm32v6
       Directory: ""
@@ -1079,114 +1458,6 @@ Blocks:
   - 1.0-python3.9-alpine3.19
   - 1-python3.9-alpine3.19
   - python3.9-alpine3.19
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    i386:
-      Architecture: i386
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: ""
-  File: Dockerfile.pypy3.10-bookworm
-  GitCommit: 0fd7c6620e53d9dfee4ab1984416c63f520ee25c
-  Tags:
-  - 1.0.0-pypy3.10-bookworm
-  - 1.0-pypy3.10-bookworm
-  - 1-pypy3.10-bookworm
-  - pypy3.10-bookworm
-  - 1.0.0-pypy-bookworm
-  - 1.0-pypy-bookworm
-  - 1-pypy-bookworm
-  - pypy-bookworm
-  - 1.0.0-pypy3.10
-  - 1.0-pypy3.10
-  - 1-pypy3.10
-  - pypy3.10
-  - 1.0.0-pypy
-  - 1.0-pypy
-  - 1-pypy
-  - pypy
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    i386:
-      Architecture: i386
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: ""
-  File: Dockerfile.pypy3.10-bullseye
-  GitCommit: 0fd7c6620e53d9dfee4ab1984416c63f520ee25c
-  Tags:
-  - 1.0.0-pypy3.10-bullseye
-  - 1.0-pypy3.10-bullseye
-  - 1-pypy3.10-bullseye
-  - pypy3.10-bullseye
-  - 1.0.0-pypy-bullseye
-  - 1.0-pypy-bullseye
-  - 1-pypy-bullseye
-  - pypy-bullseye
-- Architectures:
-    windows-amd64:
-      Architecture: windows-amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: ""
-  File: Dockerfile.pypy3.10-windowsservercore-ltsc2022
-  GitCommit: 0fd7c6620e53d9dfee4ab1984416c63f520ee25c
-  Tags:
-  - 1.0.0-pypy3.10-windowsservercore-ltsc2022
-  - 1.0-pypy3.10-windowsservercore-ltsc2022
-  - 1-pypy3.10-windowsservercore-ltsc2022
-  - pypy3.10-windowsservercore-ltsc2022
-  - 1.0.0-pypy-windowsservercore-ltsc2022
-  - 1.0-pypy-windowsservercore-ltsc2022
-  - 1-pypy-windowsservercore-ltsc2022
-  - pypy-windowsservercore-ltsc2022
-- Architectures:
-    windows-amd64:
-      Architecture: windows-amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: ""
-  File: Dockerfile.pypy3.10-windowsservercore-1809
-  GitCommit: 0fd7c6620e53d9dfee4ab1984416c63f520ee25c
-  Tags:
-  - 1.0.0-pypy3.10-windowsservercore-1809
-  - 1.0-pypy3.10-windowsservercore-1809
-  - 1-pypy3.10-windowsservercore-1809
-  - pypy3.10-windowsservercore-1809
-  - 1.0.0-pypy-windowsservercore-1809
-  - 1.0-pypy-windowsservercore-1809
-  - 1-pypy-windowsservercore-1809
-  - pypy-windowsservercore-1809
 - Architectures:
     amd64:
       Architecture: amd64
@@ -19642,6 +19913,7 @@ KnownTags:
   1-alpine: {}
   1-alpine3.19: {}
   1-alpine3.20: {}
+  1-alpine3.21: {}
   1-bookworm: {}
   1-bullseye: {}
   1-pypy: {}
@@ -19664,24 +19936,28 @@ KnownTags:
   1-python3.9-alpine: {}
   1-python3.9-alpine3.19: {}
   1-python3.9-alpine3.20: {}
+  1-python3.9-alpine3.21: {}
   1-python3.9-bookworm: {}
   1-python3.9-bullseye: {}
   1-python3.10: {}
   1-python3.10-alpine: {}
   1-python3.10-alpine3.19: {}
   1-python3.10-alpine3.20: {}
+  1-python3.10-alpine3.21: {}
   1-python3.10-bookworm: {}
   1-python3.10-bullseye: {}
   1-python3.11: {}
   1-python3.11-alpine: {}
   1-python3.11-alpine3.19: {}
   1-python3.11-alpine3.20: {}
+  1-python3.11-alpine3.21: {}
   1-python3.11-bookworm: {}
   1-python3.11-bullseye: {}
   1-python3.12: {}
   1-python3.12-alpine: {}
   1-python3.12-alpine3.19: {}
   1-python3.12-alpine3.20: {}
+  1-python3.12-alpine3.21: {}
   1-python3.12-bookworm: {}
   1-python3.12-bullseye: {}
   1-python3.12-windowsservercore-1809: {}
@@ -19690,6 +19966,7 @@ KnownTags:
   1-python3.13-alpine: {}
   1-python3.13-alpine3.19: {}
   1-python3.13-alpine3.20: {}
+  1-python3.13-alpine3.21: {}
   1-python3.13-bookworm: {}
   1-python3.13-bullseye: {}
   1-python3.13-rc: {}
@@ -19708,6 +19985,7 @@ KnownTags:
   1.0-alpine: {}
   1.0-alpine3.19: {}
   1.0-alpine3.20: {}
+  1.0-alpine3.21: {}
   1.0-bookworm: {}
   1.0-bullseye: {}
   1.0-pypy: {}
@@ -19730,24 +20008,28 @@ KnownTags:
   1.0-python3.9-alpine: {}
   1.0-python3.9-alpine3.19: {}
   1.0-python3.9-alpine3.20: {}
+  1.0-python3.9-alpine3.21: {}
   1.0-python3.9-bookworm: {}
   1.0-python3.9-bullseye: {}
   1.0-python3.10: {}
   1.0-python3.10-alpine: {}
   1.0-python3.10-alpine3.19: {}
   1.0-python3.10-alpine3.20: {}
+  1.0-python3.10-alpine3.21: {}
   1.0-python3.10-bookworm: {}
   1.0-python3.10-bullseye: {}
   1.0-python3.11: {}
   1.0-python3.11-alpine: {}
   1.0-python3.11-alpine3.19: {}
   1.0-python3.11-alpine3.20: {}
+  1.0-python3.11-alpine3.21: {}
   1.0-python3.11-bookworm: {}
   1.0-python3.11-bullseye: {}
   1.0-python3.12: {}
   1.0-python3.12-alpine: {}
   1.0-python3.12-alpine3.19: {}
   1.0-python3.12-alpine3.20: {}
+  1.0-python3.12-alpine3.21: {}
   1.0-python3.12-bookworm: {}
   1.0-python3.12-bullseye: {}
   1.0-python3.12-windowsservercore-1809: {}
@@ -19756,6 +20038,7 @@ KnownTags:
   1.0-python3.13-alpine: {}
   1.0-python3.13-alpine3.19: {}
   1.0-python3.13-alpine3.20: {}
+  1.0-python3.13-alpine3.21: {}
   1.0-python3.13-bookworm: {}
   1.0-python3.13-bullseye: {}
   1.0-python3.13-rc: {}
@@ -19774,6 +20057,7 @@ KnownTags:
   1.0.0-alpine: {}
   1.0.0-alpine3.19: {}
   1.0.0-alpine3.20: {}
+  1.0.0-alpine3.21: {}
   1.0.0-bookworm: {}
   1.0.0-bullseye: {}
   1.0.0-pypy: {}
@@ -19796,24 +20080,28 @@ KnownTags:
   1.0.0-python3.9-alpine: {}
   1.0.0-python3.9-alpine3.19: {}
   1.0.0-python3.9-alpine3.20: {}
+  1.0.0-python3.9-alpine3.21: {}
   1.0.0-python3.9-bookworm: {}
   1.0.0-python3.9-bullseye: {}
   1.0.0-python3.10: {}
   1.0.0-python3.10-alpine: {}
   1.0.0-python3.10-alpine3.19: {}
   1.0.0-python3.10-alpine3.20: {}
+  1.0.0-python3.10-alpine3.21: {}
   1.0.0-python3.10-bookworm: {}
   1.0.0-python3.10-bullseye: {}
   1.0.0-python3.11: {}
   1.0.0-python3.11-alpine: {}
   1.0.0-python3.11-alpine3.19: {}
   1.0.0-python3.11-alpine3.20: {}
+  1.0.0-python3.11-alpine3.21: {}
   1.0.0-python3.11-bookworm: {}
   1.0.0-python3.11-bullseye: {}
   1.0.0-python3.12: {}
   1.0.0-python3.12-alpine: {}
   1.0.0-python3.12-alpine3.19: {}
   1.0.0-python3.12-alpine3.20: {}
+  1.0.0-python3.12-alpine3.21: {}
   1.0.0-python3.12-bookworm: {}
   1.0.0-python3.12-bullseye: {}
   1.0.0-python3.12-windowsservercore-1809: {}
@@ -19822,6 +20110,7 @@ KnownTags:
   1.0.0-python3.13-alpine: {}
   1.0.0-python3.13-alpine3.19: {}
   1.0.0-python3.13-alpine3.20: {}
+  1.0.0-python3.13-alpine3.21: {}
   1.0.0-python3.13-bookworm: {}
   1.0.0-python3.13-bullseye: {}
   1.0.0-python3.13-rc: {}
@@ -20016,6 +20305,7 @@ KnownTags:
   alpine3.18: {}
   alpine3.19: {}
   alpine3.20: {}
+  alpine3.21: {}
   bookworm: {}
   bullseye: {}
   buster: {}
@@ -20143,6 +20433,7 @@ KnownTags:
   python3.9-alpine3.18: {}
   python3.9-alpine3.19: {}
   python3.9-alpine3.20: {}
+  python3.9-alpine3.21: {}
   python3.9-bookworm: {}
   python3.9-bullseye: {}
   python3.9-buster: {}
@@ -20159,6 +20450,7 @@ KnownTags:
   python3.10-alpine3.18: {}
   python3.10-alpine3.19: {}
   python3.10-alpine3.20: {}
+  python3.10-alpine3.21: {}
   python3.10-bookworm: {}
   python3.10-bullseye: {}
   python3.10-buster: {}
@@ -20179,6 +20471,7 @@ KnownTags:
   python3.11-alpine3.18: {}
   python3.11-alpine3.19: {}
   python3.11-alpine3.20: {}
+  python3.11-alpine3.21: {}
   python3.11-bookworm: {}
   python3.11-bullseye: {}
   python3.11-buster: {}
@@ -20190,6 +20483,7 @@ KnownTags:
   python3.12-alpine3.18: {}
   python3.12-alpine3.19: {}
   python3.12-alpine3.20: {}
+  python3.12-alpine3.21: {}
   python3.12-bookworm: {}
   python3.12-bullseye: {}
   python3.12-rc: {}
@@ -20204,6 +20498,7 @@ KnownTags:
   python3.13-alpine: {}
   python3.13-alpine3.19: {}
   python3.13-alpine3.20: {}
+  python3.13-alpine3.21: {}
   python3.13-bookworm: {}
   python3.13-bullseye: {}
   python3.13-rc: {}

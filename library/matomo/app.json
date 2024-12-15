@@ -388,6 +388,14 @@
     "5.1.2-apache": {},
     "5.1.2-fpm": {},
     "5.1.2-fpm-alpine": {},
+    "5.2": {},
+    "5.2-apache": {},
+    "5.2-fpm": {},
+    "5.2-fpm-alpine": {},
+    "5.2.0": {},
+    "5.2.0-apache": {},
+    "5.2.0-fpm": {},
+    "5.2.0-fpm-alpine": {},
     "apache": {},
     "fpm": {},
     "fpm-alpine": {},
@@ -396,14 +404,221 @@
   "Blocks": [
     {
       "Tags": [
-        "5.1.2-apache",
-        "5.1-apache",
+        "5.2.0-apache",
+        "5.2-apache",
         "5-apache",
         "apache",
-        "5.1.2",
-        "5.1",
+        "5.2.0",
+        "5.2",
         "5",
         "latest"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "mips64le": {
+          "Architecture": "mips64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "3e696d5aa7869c243774658282c07307e65723a6",
+      "Directory": "apache",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "5.2.0-fpm",
+        "5.2-fpm",
+        "5-fpm",
+        "fpm"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "mips64le": {
+          "Architecture": "mips64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "3e696d5aa7869c243774658282c07307e65723a6",
+      "Directory": "fpm",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "5.2.0-fpm-alpine",
+        "5.2-fpm-alpine",
+        "5-fpm-alpine",
+        "fpm-alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "3e696d5aa7869c243774658282c07307e65723a6",
+      "Directory": "fpm-alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "5.1.2-apache",
+        "5.1-apache",
+        "5.1.2",
+        "5.1"
       ],
       "Architectures": {
         "amd64": {
@@ -470,9 +685,7 @@
     {
       "Tags": [
         "5.1.2-fpm",
-        "5.1-fpm",
-        "5-fpm",
-        "fpm"
+        "5.1-fpm"
       ],
       "Architectures": {
         "amd64": {
@@ -539,9 +752,7 @@
     {
       "Tags": [
         "5.1.2-fpm-alpine",
-        "5.1-fpm-alpine",
-        "5-fpm-alpine",
-        "fpm-alpine"
+        "5.1-fpm-alpine"
       ],
       "Architectures": {
         "amd64": {
