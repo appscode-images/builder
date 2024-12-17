@@ -314,6 +314,15 @@
     "2.10.23-scratch": {},
     "2.10.23-windowsservercore": {},
     "2.10.23-windowsservercore-1809": {},
+    "2.10.24": {},
+    "2.10.24-alpine": {},
+    "2.10.24-alpine3.21": {},
+    "2.10.24-linux": {},
+    "2.10.24-nanoserver": {},
+    "2.10.24-nanoserver-1809": {},
+    "2.10.24-scratch": {},
+    "2.10.24-windowsservercore": {},
+    "2.10.24-windowsservercore-1809": {},
     "2.10.3": {},
     "2.10.3-alpine": {},
     "2.10.3-alpine3.18": {},
@@ -1009,14 +1018,178 @@
   "Blocks": [
     {
       "Tags": [
-        "2.10.23-alpine3.21",
+        "2.10.24-alpine3.21",
         "2.10-alpine3.21",
         "2-alpine3.21",
         "alpine3.21",
-        "2.10.23-alpine",
+        "2.10.24-alpine",
         "2.10-alpine",
         "2-alpine",
         "alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "c5135d645d12ee07bceea9c27d2dde79d784feb9",
+      "Directory": "2.10.x/alpine3.21",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.10.24-scratch",
+        "2.10-scratch",
+        "2-scratch",
+        "scratch",
+        "2.10.24-linux",
+        "2.10-linux",
+        "2-linux",
+        "linux",
+        "2.10.24",
+        "2.10",
+        "2",
+        "latest"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "c5135d645d12ee07bceea9c27d2dde79d784feb9",
+      "Directory": "2.10.x/scratch",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.10.24-windowsservercore-1809",
+        "2.10-windowsservercore-1809",
+        "2-windowsservercore-1809",
+        "windowsservercore-1809",
+        "2.10.24-windowsservercore",
+        "2.10-windowsservercore",
+        "2-windowsservercore",
+        "windowsservercore"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "c5135d645d12ee07bceea9c27d2dde79d784feb9",
+      "Directory": "2.10.x/windowsservercore-1809",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.10.24-nanoserver-1809",
+        "2.10-nanoserver-1809",
+        "2-nanoserver-1809",
+        "nanoserver-1809",
+        "2.10.24-nanoserver",
+        "2.10-nanoserver",
+        "2-nanoserver",
+        "nanoserver"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "c5135d645d12ee07bceea9c27d2dde79d784feb9",
+      "Directory": "2.10.x/nanoserver-1809",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.10.23-alpine3.21",
+        "2.10.23-alpine"
       ],
       "Architectures": {
         "amd64": {
@@ -1069,17 +1242,8 @@
     {
       "Tags": [
         "2.10.23-scratch",
-        "2.10-scratch",
-        "2-scratch",
-        "scratch",
         "2.10.23-linux",
-        "2.10-linux",
-        "2-linux",
-        "linux",
-        "2.10.23",
-        "2.10",
-        "2",
-        "latest"
+        "2.10.23"
       ],
       "Architectures": {
         "amd64": {
@@ -1132,13 +1296,7 @@
     {
       "Tags": [
         "2.10.23-windowsservercore-1809",
-        "2.10-windowsservercore-1809",
-        "2-windowsservercore-1809",
-        "windowsservercore-1809",
-        "2.10.23-windowsservercore",
-        "2.10-windowsservercore",
-        "2-windowsservercore",
-        "windowsservercore"
+        "2.10.23-windowsservercore"
       ],
       "Architectures": {
         "windows-amd64": {
@@ -1156,13 +1314,7 @@
     {
       "Tags": [
         "2.10.23-nanoserver-1809",
-        "2.10-nanoserver-1809",
-        "2-nanoserver-1809",
-        "nanoserver-1809",
-        "2.10.23-nanoserver",
-        "2.10-nanoserver",
-        "2-nanoserver",
-        "nanoserver"
+        "2.10.23-nanoserver"
       ],
       "Architectures": {
         "windows-amd64": {

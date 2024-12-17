@@ -38,13 +38,13 @@ Blocks:
       GitFetch: ""
   Directory: 2.10.x/alpine3.21
   File: ""
-  GitCommit: 72e115b56ee1840779e1c7fb83ba4f6fe3586e05
+  GitCommit: c5135d645d12ee07bceea9c27d2dde79d784feb9
   Tags:
-  - 2.10.23-alpine3.21
+  - 2.10.24-alpine3.21
   - 2.10-alpine3.21
   - 2-alpine3.21
   - alpine3.21
-  - 2.10.23-alpine
+  - 2.10.24-alpine
   - 2.10-alpine
   - 2-alpine
   - alpine
@@ -87,17 +87,17 @@ Blocks:
       GitFetch: ""
   Directory: 2.10.x/scratch
   File: ""
-  GitCommit: 72e115b56ee1840779e1c7fb83ba4f6fe3586e05
+  GitCommit: c5135d645d12ee07bceea9c27d2dde79d784feb9
   Tags:
-  - 2.10.23-scratch
+  - 2.10.24-scratch
   - 2.10-scratch
   - 2-scratch
   - scratch
-  - 2.10.23-linux
+  - 2.10.24-linux
   - 2.10-linux
   - 2-linux
   - linux
-  - 2.10.23
+  - 2.10.24
   - "2.10"
   - "2"
   - latest
@@ -110,13 +110,13 @@ Blocks:
       GitFetch: ""
   Directory: 2.10.x/windowsservercore-1809
   File: ""
-  GitCommit: 72e115b56ee1840779e1c7fb83ba4f6fe3586e05
+  GitCommit: c5135d645d12ee07bceea9c27d2dde79d784feb9
   Tags:
-  - 2.10.23-windowsservercore-1809
+  - 2.10.24-windowsservercore-1809
   - 2.10-windowsservercore-1809
   - 2-windowsservercore-1809
   - windowsservercore-1809
-  - 2.10.23-windowsservercore
+  - 2.10.24-windowsservercore
   - 2.10-windowsservercore
   - 2-windowsservercore
   - windowsservercore
@@ -129,16 +129,129 @@ Blocks:
       GitFetch: ""
   Directory: 2.10.x/nanoserver-1809
   File: ""
-  GitCommit: 72e115b56ee1840779e1c7fb83ba4f6fe3586e05
+  GitCommit: c5135d645d12ee07bceea9c27d2dde79d784feb9
   Tags:
-  - 2.10.23-nanoserver-1809
+  - 2.10.24-nanoserver-1809
   - 2.10-nanoserver-1809
   - 2-nanoserver-1809
   - nanoserver-1809
-  - 2.10.23-nanoserver
+  - 2.10.24-nanoserver
   - 2.10-nanoserver
   - 2-nanoserver
   - nanoserver
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 2.10.x/alpine3.21
+  File: ""
+  GitCommit: 72e115b56ee1840779e1c7fb83ba4f6fe3586e05
+  Tags:
+  - 2.10.23-alpine3.21
+  - 2.10.23-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 2.10.x/scratch
+  File: ""
+  GitCommit: 72e115b56ee1840779e1c7fb83ba4f6fe3586e05
+  Tags:
+  - 2.10.23-scratch
+  - 2.10.23-linux
+  - 2.10.23
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 2.10.x/windowsservercore-1809
+  File: ""
+  GitCommit: 72e115b56ee1840779e1c7fb83ba4f6fe3586e05
+  Tags:
+  - 2.10.23-windowsservercore-1809
+  - 2.10.23-windowsservercore
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 2.10.x/nanoserver-1809
+  File: ""
+  GitCommit: 72e115b56ee1840779e1c7fb83ba4f6fe3586e05
+  Tags:
+  - 2.10.23-nanoserver-1809
+  - 2.10.23-nanoserver
 - Architectures:
     amd64:
       Architecture: amd64
@@ -10190,6 +10303,15 @@ KnownTags:
   2.10.23-scratch: {}
   2.10.23-windowsservercore: {}
   2.10.23-windowsservercore-1809: {}
+  2.10.24: {}
+  2.10.24-alpine: {}
+  2.10.24-alpine3.21: {}
+  2.10.24-linux: {}
+  2.10.24-nanoserver: {}
+  2.10.24-nanoserver-1809: {}
+  2.10.24-scratch: {}
+  2.10.24-windowsservercore: {}
+  2.10.24-windowsservercore-1809: {}
   alpine: {}
   alpine3.10: {}
   alpine3.11: {}
