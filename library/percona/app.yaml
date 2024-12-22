@@ -1,18 +1,47 @@
 Blocks:
 - Architectures: null
   Directory: percona-server-8.0
+  File: Dockerfile-dockerhub
+  GitCommit: 5640bc536e5ce7d1559fc4f28868fda941bbaf1d
+  Tags:
+  - 8.0.39-30-centos
+  - 8.0-centos
+  - 8-centos
+  - 8.0.39-30
+  - "8.0"
+  - "8"
+  - ps-8.0.39-30
+  - ps-8.0
+  - ps-8
+- Architectures: null
+  Directory: percona-server-mongodb-7.0
+  File: Dockerfile-dockerhub
+  GitCommit: 5640bc536e5ce7d1559fc4f28868fda941bbaf1d
+  Tags:
+  - psmdb-7.0.15
+  - psmdb-7.0
+- Architectures: null
+  Directory: percona-server-mongodb-6.0
+  File: Dockerfile-dockerhub
+  GitCommit: 5640bc536e5ce7d1559fc4f28868fda941bbaf1d
+  Tags:
+  - psmdb-6.0.19
+  - psmdb-6.0
+- Architectures: null
+  Directory: percona-server-mongodb-5.0
+  File: Dockerfile-dockerhub
+  GitCommit: 5640bc536e5ce7d1559fc4f28868fda941bbaf1d
+  Tags:
+  - psmdb-5.0.29
+  - psmdb-5.0
+- Architectures: null
+  Directory: percona-server-8.0
   File: Dockerfile
   GitCommit: 02252c71b5fcf2d2235f7ec0d81940d4f2c45b64
   Tags:
   - 8.0.36-28-centos
-  - 8.0-centos
-  - 8-centos
   - 8.0.36-28
-  - "8.0"
-  - "8"
   - ps-8.0.36-28
-  - ps-8.0
-  - ps-8
 - Architectures: null
   Directory: percona-server-5.7
   File: Dockerfile-dockerhub
@@ -45,14 +74,12 @@ Blocks:
   GitCommit: 80ab68b2d84c7c17c8cbc07edb35e35399fd0a54
   Tags:
   - psmdb-6.0.6
-  - psmdb-6.0
 - Architectures: null
   Directory: percona-server-mongodb-5.0
   File: Dockerfile
   GitCommit: 80ab68b2d84c7c17c8cbc07edb35e35399fd0a54
   Tags:
   - psmdb-5.0.18
-  - psmdb-5.0
 - Architectures: null
   Directory: percona-server-mongodb-4.4
   File: Dockerfile
@@ -1306,6 +1333,8 @@ KnownTags:
   8.0.35-27-centos: {}
   8.0.36-28: {}
   8.0.36-28-centos: {}
+  8.0.39-30: {}
+  8.0.39-30-centos: {}
   centos: {}
   jessie: {}
   latest: {}
@@ -1361,6 +1390,7 @@ KnownTags:
   ps-8.0.34-26: {}
   ps-8.0.35-27: {}
   ps-8.0.36-28: {}
+  ps-8.0.39-30: {}
   psmdb-3.6: {}
   psmdb-3.6.8: {}
   psmdb-3.6.10: {}
@@ -1432,7 +1462,11 @@ KnownTags:
   psmdb-5.0.9: {}
   psmdb-5.0.10: {}
   psmdb-5.0.18: {}
+  psmdb-5.0.29: {}
   psmdb-6.0: {}
   psmdb-6.0.6: {}
+  psmdb-6.0.19: {}
+  psmdb-7.0: {}
+  psmdb-7.0.15: {}
   stretch: {}
 Name: percona

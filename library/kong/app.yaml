@@ -14,15 +14,36 @@ Blocks:
       GitFetch: ""
   Directory: ubuntu
   File: ""
+  GitCommit: d46098c09b6198efb71682fe7209bd6467bf3f67
+  Tags:
+  - 3.9.0-ubuntu
+  - 3.9-ubuntu
+  - 3.9.0
+  - "3.9"
+  - "3"
+  - latest
+  - ubuntu
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ubuntu
+  File: ""
   GitCommit: 1f5199f7da45c17f4344b811397e89899a160040
   Tags:
   - 3.8.0-ubuntu
   - 3.8-ubuntu
   - 3.8.0
   - "3.8"
-  - "3"
-  - latest
-  - ubuntu
 - Architectures:
     amd64:
       Architecture: amd64
@@ -80,27 +101,6 @@ Blocks:
       GitFetch: ""
   Directory: ubuntu
   File: ""
-  GitCommit: 8814c97a408d76ed004b05ea96f0d9eadf9b36be
-  Tags:
-  - 3.5.0-ubuntu
-  - 3.5-ubuntu
-  - 3.5.0
-  - "3.5"
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: ubuntu
-  File: ""
   GitCommit: e07de903edf213445a0540172d51529ac344b448
   Tags:
   - 3.4.2-ubuntu
@@ -136,6 +136,27 @@ Blocks:
   Tags:
   - 2.8.5-ubuntu
   - 2.8-ubuntu
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ubuntu
+  File: ""
+  GitCommit: 8814c97a408d76ed004b05ea96f0d9eadf9b36be
+  Tags:
+  - 3.5.0-ubuntu
+  - 3.5-ubuntu
+  - 3.5.0
+  - "3.5"
 - Architectures:
     amd64:
       Architecture: amd64
@@ -3662,6 +3683,10 @@ KnownTags:
   3.8-ubuntu: {}
   3.8.0: {}
   3.8.0-ubuntu: {}
+  "3.9": {}
+  3.9-ubuntu: {}
+  3.9.0: {}
+  3.9.0-ubuntu: {}
   alpine: {}
   centos: {}
   latest: {}

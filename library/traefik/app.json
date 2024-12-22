@@ -785,6 +785,10 @@
     "3.3.0-rc1-nanoserver-ltsc2022": {},
     "3.3.0-rc1-windowsservercore-1809": {},
     "3.3.0-rc1-windowsservercore-ltsc2022": {},
+    "3.3.0-rc2": {},
+    "3.3.0-rc2-nanoserver-ltsc2022": {},
+    "3.3.0-rc2-windowsservercore-1809": {},
+    "3.3.0-rc2-windowsservercore-ltsc2022": {},
     "alpine": {},
     "banon": {},
     "banon-windowsservercore-1809": {},
@@ -1651,6 +1655,10 @@
     "v3.3.0-rc1-nanoserver-ltsc2022": {},
     "v3.3.0-rc1-windowsservercore-1809": {},
     "v3.3.0-rc1-windowsservercore-ltsc2022": {},
+    "v3.3.0-rc2": {},
+    "v3.3.0-rc2-nanoserver-ltsc2022": {},
+    "v3.3.0-rc2-windowsservercore-1809": {},
+    "v3.3.0-rc2-windowsservercore-ltsc2022": {},
     "vacherin": {},
     "vacherin-windowsservercore-1809": {},
     "windowsservercore-1809": {},
@@ -1659,8 +1667,8 @@
   "Blocks": [
     {
       "Tags": [
-        "v3.3.0-rc1-windowsservercore-ltsc2022",
-        "3.3.0-rc1-windowsservercore-ltsc2022",
+        "v3.3.0-rc2-windowsservercore-ltsc2022",
+        "3.3.0-rc2-windowsservercore-ltsc2022",
         "saintnectaire-windowsservercore-ltsc2022"
       ],
       "Architectures": {
@@ -1672,14 +1680,14 @@
           "File": ""
         }
       },
-      "GitCommit": "137c5985e4ac8087166fbb08bdd3324addb462de",
+      "GitCommit": "441cc872203d05451071db9ae052eb8aef4610f8",
       "Directory": "v3.3/windows/servercore-ltsc2022",
       "File": ""
     },
     {
       "Tags": [
-        "v3.3.0-rc1-windowsservercore-1809",
-        "3.3.0-rc1-windowsservercore-1809",
+        "v3.3.0-rc2-windowsservercore-1809",
+        "3.3.0-rc2-windowsservercore-1809",
         "saintnectaire-windowsservercore-1809"
       ],
       "Architectures": {
@@ -1691,14 +1699,14 @@
           "File": ""
         }
       },
-      "GitCommit": "137c5985e4ac8087166fbb08bdd3324addb462de",
+      "GitCommit": "441cc872203d05451071db9ae052eb8aef4610f8",
       "Directory": "v3.3/windows/1809",
       "File": ""
     },
     {
       "Tags": [
-        "v3.3.0-rc1-nanoserver-ltsc2022",
-        "3.3.0-rc1-nanoserver-ltsc2022",
+        "v3.3.0-rc2-nanoserver-ltsc2022",
+        "3.3.0-rc2-nanoserver-ltsc2022",
         "saintnectaire-nanoserver-ltsc2022"
       ],
       "Architectures": {
@@ -1710,14 +1718,14 @@
           "File": ""
         }
       },
-      "GitCommit": "137c5985e4ac8087166fbb08bdd3324addb462de",
+      "GitCommit": "441cc872203d05451071db9ae052eb8aef4610f8",
       "Directory": "v3.3/windows/nanoserver-ltsc2022",
       "File": ""
     },
     {
       "Tags": [
-        "v3.3.0-rc1",
-        "3.3.0-rc1",
+        "v3.3.0-rc2",
+        "3.3.0-rc2",
         "saintnectaire"
       ],
       "Architectures": {
@@ -1764,7 +1772,7 @@
           "File": ""
         }
       },
-      "GitCommit": "137c5985e4ac8087166fbb08bdd3324addb462de",
+      "GitCommit": "441cc872203d05451071db9ae052eb8aef4610f8",
       "Directory": "v3.3/alpine",
       "File": ""
     },
@@ -2024,6 +2032,113 @@
       },
       "GitCommit": "82de16d0c92acf02ede81d841a58ce86dc7bbd53",
       "Directory": "v2.11/alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "v3.3.0-rc1-windowsservercore-ltsc2022",
+        "3.3.0-rc1-windowsservercore-ltsc2022"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "137c5985e4ac8087166fbb08bdd3324addb462de",
+      "Directory": "v3.3/windows/servercore-ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "v3.3.0-rc1-windowsservercore-1809",
+        "3.3.0-rc1-windowsservercore-1809"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "137c5985e4ac8087166fbb08bdd3324addb462de",
+      "Directory": "v3.3/windows/1809",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "v3.3.0-rc1-nanoserver-ltsc2022",
+        "3.3.0-rc1-nanoserver-ltsc2022"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "137c5985e4ac8087166fbb08bdd3324addb462de",
+      "Directory": "v3.3/windows/nanoserver-ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "v3.3.0-rc1",
+        "3.3.0-rc1"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "137c5985e4ac8087166fbb08bdd3324addb462de",
+      "Directory": "v3.3/alpine",
       "File": ""
     },
     {
