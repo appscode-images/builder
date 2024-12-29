@@ -50,13 +50,13 @@ Blocks:
       GitFetch: ""
   Directory: apache
   File: ""
-  GitCommit: fe2c83f82ac40829405890ad53b63a5b81bc2a57
+  GitCommit: 8fbed5d8d6b140e7c3c417a9dc45aafd5bdff774
   Tags:
-  - 3.3.14-apache
+  - 3.3.15-apache
   - 3.3-apache
   - 3-apache
   - apache
-  - 3.3.14
+  - 3.3.15
   - "3.3"
   - "3"
   - latest
@@ -111,9 +111,9 @@ Blocks:
       GitFetch: ""
   Directory: fpm
   File: ""
-  GitCommit: fe2c83f82ac40829405890ad53b63a5b81bc2a57
+  GitCommit: 8fbed5d8d6b140e7c3c417a9dc45aafd5bdff774
   Tags:
-  - 3.3.14-fpm
+  - 3.3.15-fpm
   - 3.3-fpm
   - 3-fpm
   - fpm
@@ -168,12 +168,175 @@ Blocks:
       GitFetch: ""
   Directory: fpm-alpine
   File: ""
-  GitCommit: fe2c83f82ac40829405890ad53b63a5b81bc2a57
+  GitCommit: 8fbed5d8d6b140e7c3c417a9dc45aafd5bdff774
   Tags:
-  - 3.3.14-fpm-alpine
+  - 3.3.15-fpm-alpine
   - 3.3-fpm-alpine
   - 3-fpm-alpine
   - fpm-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: apache
+  File: ""
+  GitCommit: fe2c83f82ac40829405890ad53b63a5b81bc2a57
+  Tags:
+  - 3.3.14-apache
+  - 3.3.14
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: fpm
+  File: ""
+  GitCommit: fe2c83f82ac40829405890ad53b63a5b81bc2a57
+  Tags:
+  - 3.3.14-fpm
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: fpm-alpine
+  File: ""
+  GitCommit: fe2c83f82ac40829405890ad53b63a5b81bc2a57
+  Tags:
+  - 3.3.14-fpm-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -2242,6 +2405,10 @@ KnownTags:
   3.3.14-apache: {}
   3.3.14-fpm: {}
   3.3.14-fpm-alpine: {}
+  3.3.15: {}
+  3.3.15-apache: {}
+  3.3.15-fpm: {}
+  3.3.15-fpm-alpine: {}
   apache: {}
   fpm: {}
   fpm-alpine: {}
