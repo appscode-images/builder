@@ -14,9 +14,9 @@ Blocks:
       GitFetch: ""
   Directory: pkg/docker
   File: Dockerfile.go1.23
-  GitCommit: 624debcf17ea7faab01fa841bd4dcd9f308cf306
+  GitCommit: d8acad350a52a20918c46c09cb0a0f5479400923
   Tags:
-  - 1.33.0-go1.23
+  - 1.34.0-go1.23
   - go1.23
   - go1
   - go
@@ -35,9 +35,9 @@ Blocks:
       GitFetch: ""
   Directory: pkg/docker
   File: Dockerfile.go1.22
-  GitCommit: 624debcf17ea7faab01fa841bd4dcd9f308cf306
+  GitCommit: d8acad350a52a20918c46c09cb0a0f5479400923
   Tags:
-  - 1.33.0-go1.22
+  - 1.34.0-go1.22
   - go1.22
 - Architectures:
     amd64:
@@ -54,9 +54,9 @@ Blocks:
       GitFetch: ""
   Directory: pkg/docker
   File: Dockerfile.jsc11
-  GitCommit: 624debcf17ea7faab01fa841bd4dcd9f308cf306
+  GitCommit: d8acad350a52a20918c46c09cb0a0f5479400923
   Tags:
-  - 1.33.0-jsc11
+  - 1.34.0-jsc11
   - jsc11
   - jsc
 - Architectures:
@@ -74,9 +74,9 @@ Blocks:
       GitFetch: ""
   Directory: pkg/docker
   File: Dockerfile.node22
-  GitCommit: 624debcf17ea7faab01fa841bd4dcd9f308cf306
+  GitCommit: d8acad350a52a20918c46c09cb0a0f5479400923
   Tags:
-  - 1.33.0-node22
+  - 1.34.0-node22
   - node22
   - node
 - Architectures:
@@ -94,9 +94,9 @@ Blocks:
       GitFetch: ""
   Directory: pkg/docker
   File: Dockerfile.node20
-  GitCommit: 624debcf17ea7faab01fa841bd4dcd9f308cf306
+  GitCommit: d8acad350a52a20918c46c09cb0a0f5479400923
   Tags:
-  - 1.33.0-node20
+  - 1.34.0-node20
   - node20
 - Architectures:
     amd64:
@@ -113,9 +113,9 @@ Blocks:
       GitFetch: ""
   Directory: pkg/docker
   File: Dockerfile.perl5.40
-  GitCommit: 624debcf17ea7faab01fa841bd4dcd9f308cf306
+  GitCommit: d8acad350a52a20918c46c09cb0a0f5479400923
   Tags:
-  - 1.33.0-perl5.40
+  - 1.34.0-perl5.40
   - perl5.40
   - perl5
   - perl
@@ -134,10 +134,335 @@ Blocks:
       GitFetch: ""
   Directory: pkg/docker
   File: Dockerfile.perl5.38
+  GitCommit: d8acad350a52a20918c46c09cb0a0f5479400923
+  Tags:
+  - 1.34.0-perl5.38
+  - perl5.38
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: pkg/docker
+  File: Dockerfile.php8.4
+  GitCommit: d8acad350a52a20918c46c09cb0a0f5479400923
+  Tags:
+  - 1.34.0-php8.4
+  - php8.4
+  - php8
+  - php
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: pkg/docker
+  File: Dockerfile.php8.3
+  GitCommit: d8acad350a52a20918c46c09cb0a0f5479400923
+  Tags:
+  - 1.34.0-php8.3
+  - php8.3
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: pkg/docker
+  File: Dockerfile.python3.13
+  GitCommit: d8acad350a52a20918c46c09cb0a0f5479400923
+  Tags:
+  - 1.34.0-python3.13
+  - python3.13
+  - python3
+  - python
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: pkg/docker
+  File: Dockerfile.python3.12
+  GitCommit: d8acad350a52a20918c46c09cb0a0f5479400923
+  Tags:
+  - 1.34.0-python3.12
+  - python3.12
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: pkg/docker
+  File: Dockerfile.ruby3.3
+  GitCommit: d8acad350a52a20918c46c09cb0a0f5479400923
+  Tags:
+  - 1.34.0-ruby3.3
+  - ruby3.3
+  - ruby3
+  - ruby
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: pkg/docker
+  File: Dockerfile.ruby3.2
+  GitCommit: d8acad350a52a20918c46c09cb0a0f5479400923
+  Tags:
+  - 1.34.0-ruby3.2
+  - ruby3.2
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: pkg/docker
+  File: Dockerfile.python3.13-slim
+  GitCommit: d8acad350a52a20918c46c09cb0a0f5479400923
+  Tags:
+  - 1.34.0-python3.13-slim
+  - python3.13-slim
+  - python3-slim
+  - python-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: pkg/docker
+  File: Dockerfile.python3.12-slim
+  GitCommit: d8acad350a52a20918c46c09cb0a0f5479400923
+  Tags:
+  - 1.34.0-python3.12-slim
+  - python3.12-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: pkg/docker
+  File: Dockerfile.wasm
+  GitCommit: d8acad350a52a20918c46c09cb0a0f5479400923
+  Tags:
+  - 1.34.0-wasm
+  - wasm
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: pkg/docker
+  File: Dockerfile.minimal
+  GitCommit: d8acad350a52a20918c46c09cb0a0f5479400923
+  Tags:
+  - 1.34.0-minimal
+  - minimal
+  - latest
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: pkg/docker
+  File: Dockerfile.go1.23
+  GitCommit: 624debcf17ea7faab01fa841bd4dcd9f308cf306
+  Tags:
+  - 1.33.0-go1.23
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: pkg/docker
+  File: Dockerfile.go1.22
+  GitCommit: 624debcf17ea7faab01fa841bd4dcd9f308cf306
+  Tags:
+  - 1.33.0-go1.22
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: pkg/docker
+  File: Dockerfile.jsc11
+  GitCommit: 624debcf17ea7faab01fa841bd4dcd9f308cf306
+  Tags:
+  - 1.33.0-jsc11
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: pkg/docker
+  File: Dockerfile.node22
+  GitCommit: 624debcf17ea7faab01fa841bd4dcd9f308cf306
+  Tags:
+  - 1.33.0-node22
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: pkg/docker
+  File: Dockerfile.node20
+  GitCommit: 624debcf17ea7faab01fa841bd4dcd9f308cf306
+  Tags:
+  - 1.33.0-node20
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: pkg/docker
+  File: Dockerfile.perl5.40
+  GitCommit: 624debcf17ea7faab01fa841bd4dcd9f308cf306
+  Tags:
+  - 1.33.0-perl5.40
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: pkg/docker
+  File: Dockerfile.perl5.38
   GitCommit: 624debcf17ea7faab01fa841bd4dcd9f308cf306
   Tags:
   - 1.33.0-perl5.38
-  - perl5.38
 - Architectures:
     amd64:
       Architecture: amd64
@@ -156,9 +481,6 @@ Blocks:
   GitCommit: 624debcf17ea7faab01fa841bd4dcd9f308cf306
   Tags:
   - 1.33.0-php8.3
-  - php8.3
-  - php8
-  - php
 - Architectures:
     amd64:
       Architecture: amd64
@@ -196,9 +518,6 @@ Blocks:
   GitCommit: 624debcf17ea7faab01fa841bd4dcd9f308cf306
   Tags:
   - 1.33.0-python3.12
-  - python3.12
-  - python3
-  - python
 - Architectures:
     amd64:
       Architecture: amd64
@@ -236,9 +555,6 @@ Blocks:
   GitCommit: 624debcf17ea7faab01fa841bd4dcd9f308cf306
   Tags:
   - 1.33.0-ruby3.3
-  - ruby3.3
-  - ruby3
-  - ruby
 - Architectures:
     amd64:
       Architecture: amd64
@@ -257,7 +573,6 @@ Blocks:
   GitCommit: 624debcf17ea7faab01fa841bd4dcd9f308cf306
   Tags:
   - 1.33.0-ruby3.2
-  - ruby3.2
 - Architectures:
     amd64:
       Architecture: amd64
@@ -276,9 +591,6 @@ Blocks:
   GitCommit: 624debcf17ea7faab01fa841bd4dcd9f308cf306
   Tags:
   - 1.33.0-python3.12-slim
-  - python3.12-slim
-  - python3-slim
-  - python-slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -316,7 +628,6 @@ Blocks:
   GitCommit: 624debcf17ea7faab01fa841bd4dcd9f308cf306
   Tags:
   - 1.33.0-wasm
-  - wasm
 - Architectures:
     amd64:
       Architecture: amd64
@@ -335,8 +646,6 @@ Blocks:
   GitCommit: 624debcf17ea7faab01fa841bd4dcd9f308cf306
   Tags:
   - 1.33.0-minimal
-  - minimal
-  - latest
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1691,6 +2000,23 @@ KnownTags:
   1.33.0-ruby3.2: {}
   1.33.0-ruby3.3: {}
   1.33.0-wasm: {}
+  1.34.0-go1.22: {}
+  1.34.0-go1.23: {}
+  1.34.0-jsc11: {}
+  1.34.0-minimal: {}
+  1.34.0-node20: {}
+  1.34.0-node22: {}
+  1.34.0-perl5.38: {}
+  1.34.0-perl5.40: {}
+  1.34.0-php8.3: {}
+  1.34.0-php8.4: {}
+  1.34.0-python3.12: {}
+  1.34.0-python3.12-slim: {}
+  1.34.0-python3.13: {}
+  1.34.0-python3.13-slim: {}
+  1.34.0-ruby3.2: {}
+  1.34.0-ruby3.3: {}
+  1.34.0-wasm: {}
   go: {}
   go1: {}
   go1.20: {}
@@ -1715,6 +2041,7 @@ KnownTags:
   php8: {}
   php8.2: {}
   php8.3: {}
+  php8.4: {}
   python: {}
   python-slim: {}
   python3: {}
@@ -1723,6 +2050,8 @@ KnownTags:
   python3.11-slim: {}
   python3.12: {}
   python3.12-slim: {}
+  python3.13: {}
+  python3.13-slim: {}
   ruby: {}
   ruby3: {}
   ruby3.2: {}
