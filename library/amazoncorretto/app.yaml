@@ -14,15 +14,15 @@ Blocks:
       GitFetch: ""
   Directory: 8/jdk/al2-generic
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - "8"
-  - 8u432
-  - 8u432-al2
+  - 8u442
+  - 8u442-al2
   - 8-al2-full
   - 8-al2-jdk
   - 8-al2-generic
-  - 8u432-al2-generic
+  - 8u442-al2-generic
   - 8-al2-generic-jdk
   - latest
 - Architectures:
@@ -40,10 +40,10 @@ Blocks:
       GitFetch: ""
   Directory: 8/jdk/al2023
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 8-al2023
-  - 8u432-al2023
+  - 8u442-al2023
   - 8-al2023-jdk
 - Architectures:
     amd64:
@@ -60,10 +60,10 @@ Blocks:
       GitFetch: ""
   Directory: 8/jdk/al2023
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 8-al2023-jre
-  - 8u432-al2023-jre
+  - 8u442-al2023-jre
 - Architectures:
     amd64:
       Architecture: amd64
@@ -79,10 +79,10 @@ Blocks:
       GitFetch: ""
   Directory: 8/jre/al2
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 8-al2-native-jre
-  - 8u432-al2-native-jre
+  - 8u442-al2-native-jre
 - Architectures:
     amd64:
       Architecture: amd64
@@ -98,10 +98,10 @@ Blocks:
       GitFetch: ""
   Directory: 8/jdk/al2
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 8-al2-native-jdk
-  - 8u432-al2-native-jdk
+  - 8u442-al2-native-jdk
 - Architectures:
     amd64:
       Architecture: amd64
@@ -117,10 +117,10 @@ Blocks:
       GitFetch: ""
   Directory: 8/jdk/alpine/3.18
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 8-alpine3.18
-  - 8u432-alpine3.18
+  - 8u442-alpine3.18
   - 8-alpine3.18-full
   - 8-alpine3.18-jdk
 - Architectures:
@@ -138,10 +138,10 @@ Blocks:
       GitFetch: ""
   Directory: 8/jre/alpine/3.18
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 8-alpine3.18-jre
-  - 8u432-alpine3.18-jre
+  - 8u442-alpine3.18-jre
 - Architectures:
     amd64:
       Architecture: amd64
@@ -157,10 +157,10 @@ Blocks:
       GitFetch: ""
   Directory: 8/jdk/alpine/3.19
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 8-alpine3.19
-  - 8u432-alpine3.19
+  - 8u442-alpine3.19
   - 8-alpine3.19-full
   - 8-alpine3.19-jdk
 - Architectures:
@@ -178,10 +178,10 @@ Blocks:
       GitFetch: ""
   Directory: 8/jre/alpine/3.19
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 8-alpine3.19-jre
-  - 8u432-alpine3.19-jre
+  - 8u442-alpine3.19-jre
 - Architectures:
     amd64:
       Architecture: amd64
@@ -197,16 +197,12 @@ Blocks:
       GitFetch: ""
   Directory: 8/jdk/alpine/3.20
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 8-alpine3.20
-  - 8u432-alpine3.20
+  - 8u442-alpine3.20
   - 8-alpine3.20-full
   - 8-alpine3.20-jdk
-  - 8-alpine
-  - 8u432-alpine
-  - 8-alpine-full
-  - 8-alpine-jdk
 - Architectures:
     amd64:
       Architecture: amd64
@@ -222,12 +218,56 @@ Blocks:
       GitFetch: ""
   Directory: 8/jre/alpine/3.20
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 8-alpine3.20-jre
-  - 8u432-alpine3.20-jre
+  - 8u442-alpine3.20-jre
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 8/jdk/alpine/3.21
+  File: ""
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
+  Tags:
+  - 8-alpine3.21
+  - 8u442-alpine3.21
+  - 8-alpine3.21-full
+  - 8-alpine3.21-jdk
+  - 8-alpine
+  - 8u442-alpine
+  - 8-alpine-full
+  - 8-alpine-jdk
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 8/jre/alpine/3.21
+  File: ""
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
+  Tags:
+  - 8-alpine3.21-jre
+  - 8u442-alpine3.21-jre
   - 8-alpine-jre
-  - 8u432-alpine-jre
+  - 8u442-alpine-jre
 - Architectures:
     amd64:
       Architecture: amd64
@@ -243,15 +283,15 @@ Blocks:
       GitFetch: ""
   Directory: 11/jdk/al2-generic
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - "11"
-  - 11.0.25
-  - 11.0.25-al2
+  - 11.0.26
+  - 11.0.26-al2
   - 11-al2-full
   - 11-al2-jdk
   - 11-al2-generic
-  - 11.0.25-al2-generic
+  - 11.0.26-al2-generic
   - 11-al2-generic-jdk
 - Architectures:
     amd64:
@@ -268,10 +308,10 @@ Blocks:
       GitFetch: ""
   Directory: 11/jdk/al2023
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 11-al2023
-  - 11.0.25-al2023
+  - 11.0.26-al2023
   - 11-al2023-jdk
 - Architectures:
     amd64:
@@ -288,10 +328,10 @@ Blocks:
       GitFetch: ""
   Directory: 11/headless/al2023
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 11-al2023-headless
-  - 11.0.25-al2023-headless
+  - 11.0.26-al2023-headless
 - Architectures:
     amd64:
       Architecture: amd64
@@ -307,10 +347,10 @@ Blocks:
       GitFetch: ""
   Directory: 11/headful/al2023
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 11-al2023-headful
-  - 11.0.25-al2023-headful
+  - 11.0.26-al2023-headful
 - Architectures:
     amd64:
       Architecture: amd64
@@ -326,10 +366,10 @@ Blocks:
       GitFetch: ""
   Directory: 11/headless/al2
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 11-al2-native-headless
-  - 11.0.25-al2-native-headless
+  - 11.0.26-al2-native-headless
 - Architectures:
     amd64:
       Architecture: amd64
@@ -345,10 +385,10 @@ Blocks:
       GitFetch: ""
   Directory: 11/jdk/al2
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 11-al2-native-jdk
-  - 11.0.25-al2-native-jdk
+  - 11.0.26-al2-native-jdk
 - Architectures:
     amd64:
       Architecture: amd64
@@ -364,10 +404,10 @@ Blocks:
       GitFetch: ""
   Directory: 11/jdk/alpine/3.18
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 11-alpine3.18
-  - 11.0.25-alpine3.18
+  - 11.0.26-alpine3.18
   - 11-alpine3.18-full
   - 11-alpine3.18-jdk
 - Architectures:
@@ -385,10 +425,10 @@ Blocks:
       GitFetch: ""
   Directory: 11/jdk/alpine/3.19
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 11-alpine3.19
-  - 11.0.25-alpine3.19
+  - 11.0.26-alpine3.19
   - 11-alpine3.19-full
   - 11-alpine3.19-jdk
 - Architectures:
@@ -406,14 +446,35 @@ Blocks:
       GitFetch: ""
   Directory: 11/jdk/alpine/3.20
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 11-alpine3.20
-  - 11.0.25-alpine3.20
+  - 11.0.26-alpine3.20
   - 11-alpine3.20-full
   - 11-alpine3.20-jdk
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 11/jdk/alpine/3.21
+  File: ""
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
+  Tags:
+  - 11-alpine3.21
+  - 11.0.26-alpine3.21
+  - 11-alpine3.21-full
+  - 11-alpine3.21-jdk
   - 11-alpine
-  - 11.0.25-alpine
+  - 11.0.26-alpine
   - 11-alpine-full
   - 11-alpine-jdk
 - Architectures:
@@ -431,15 +492,15 @@ Blocks:
       GitFetch: ""
   Directory: 17/jdk/al2-generic
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - "17"
-  - 17.0.13
-  - 17.0.13-al2
+  - 17.0.14
+  - 17.0.14-al2
   - 17-al2-full
   - 17-al2-jdk
   - 17-al2-generic
-  - 17.0.13-al2-generic
+  - 17.0.14-al2-generic
   - 17-al2-generic-jdk
 - Architectures:
     amd64:
@@ -456,10 +517,10 @@ Blocks:
       GitFetch: ""
   Directory: 17/jdk/al2023
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 17-al2023
-  - 17.0.13-al2023
+  - 17.0.14-al2023
   - 17-al2023-jdk
 - Architectures:
     amd64:
@@ -476,10 +537,10 @@ Blocks:
       GitFetch: ""
   Directory: 17/headless/al2023
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 17-al2023-headless
-  - 17.0.13-al2023-headless
+  - 17.0.14-al2023-headless
 - Architectures:
     amd64:
       Architecture: amd64
@@ -495,10 +556,10 @@ Blocks:
       GitFetch: ""
   Directory: 17/headful/al2023
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 17-al2023-headful
-  - 17.0.13-al2023-headful
+  - 17.0.14-al2023-headful
 - Architectures:
     amd64:
       Architecture: amd64
@@ -514,10 +575,10 @@ Blocks:
       GitFetch: ""
   Directory: 17/headless/al2
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 17-al2-native-headless
-  - 17.0.13-al2-native-headless
+  - 17.0.14-al2-native-headless
 - Architectures:
     amd64:
       Architecture: amd64
@@ -533,10 +594,10 @@ Blocks:
       GitFetch: ""
   Directory: 17/headful/al2
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 17-al2-native-headful
-  - 17.0.13-al2-native-headful
+  - 17.0.14-al2-native-headful
 - Architectures:
     amd64:
       Architecture: amd64
@@ -552,10 +613,10 @@ Blocks:
       GitFetch: ""
   Directory: 17/jdk/al2
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 17-al2-native-jdk
-  - 17.0.13-al2-native-jdk
+  - 17.0.14-al2-native-jdk
 - Architectures:
     amd64:
       Architecture: amd64
@@ -571,10 +632,10 @@ Blocks:
       GitFetch: ""
   Directory: 17/jdk/alpine/3.18
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 17-alpine3.18
-  - 17.0.13-alpine3.18
+  - 17.0.14-alpine3.18
   - 17-alpine3.18-full
   - 17-alpine3.18-jdk
 - Architectures:
@@ -592,10 +653,10 @@ Blocks:
       GitFetch: ""
   Directory: 17/jdk/alpine/3.19
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 17-alpine3.19
-  - 17.0.13-alpine3.19
+  - 17.0.14-alpine3.19
   - 17-alpine3.19-full
   - 17-alpine3.19-jdk
 - Architectures:
@@ -613,14 +674,35 @@ Blocks:
       GitFetch: ""
   Directory: 17/jdk/alpine/3.20
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 17-alpine3.20
-  - 17.0.13-alpine3.20
+  - 17.0.14-alpine3.20
   - 17-alpine3.20-full
   - 17-alpine3.20-jdk
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/jdk/alpine/3.21
+  File: ""
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
+  Tags:
+  - 17-alpine3.21
+  - 17.0.14-alpine3.21
+  - 17-alpine3.21-full
+  - 17-alpine3.21-jdk
   - 17-alpine
-  - 17.0.13-alpine
+  - 17.0.14-alpine
   - 17-alpine-full
   - 17-alpine-jdk
 - Architectures:
@@ -638,15 +720,15 @@ Blocks:
       GitFetch: ""
   Directory: 21/jdk/al2-generic
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - "21"
-  - 21.0.5
-  - 21.0.5-al2
+  - 21.0.6
+  - 21.0.6-al2
   - 21-al2-full
   - 21-al2-jdk
   - 21-al2-generic
-  - 21.0.5-al2-generic
+  - 21.0.6-al2-generic
   - 21-al2-generic-jdk
 - Architectures:
     amd64:
@@ -663,10 +745,10 @@ Blocks:
       GitFetch: ""
   Directory: 21/jdk/al2023
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 21-al2023
-  - 21.0.5-al2023
+  - 21.0.6-al2023
   - 21-al2023-jdk
 - Architectures:
     amd64:
@@ -683,10 +765,10 @@ Blocks:
       GitFetch: ""
   Directory: 21/headless/al2023
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 21-al2023-headless
-  - 21.0.5-al2023-headless
+  - 21.0.6-al2023-headless
 - Architectures:
     amd64:
       Architecture: amd64
@@ -702,10 +784,10 @@ Blocks:
       GitFetch: ""
   Directory: 21/headful/al2023
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 21-al2023-headful
-  - 21.0.5-al2023-headful
+  - 21.0.6-al2023-headful
 - Architectures:
     amd64:
       Architecture: amd64
@@ -721,10 +803,10 @@ Blocks:
       GitFetch: ""
   Directory: 21/jdk/alpine/3.18
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 21-alpine3.18
-  - 21.0.5-alpine3.18
+  - 21.0.6-alpine3.18
   - 21-alpine3.18-full
   - 21-alpine3.18-jdk
 - Architectures:
@@ -742,10 +824,10 @@ Blocks:
       GitFetch: ""
   Directory: 21/jdk/alpine/3.19
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 21-alpine3.19
-  - 21.0.5-alpine3.19
+  - 21.0.6-alpine3.19
   - 21-alpine3.19-full
   - 21-alpine3.19-jdk
 - Architectures:
@@ -763,14 +845,35 @@ Blocks:
       GitFetch: ""
   Directory: 21/jdk/alpine/3.20
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 21-alpine3.20
-  - 21.0.5-alpine3.20
+  - 21.0.6-alpine3.20
   - 21-alpine3.20-full
   - 21-alpine3.20-jdk
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/jdk/alpine/3.21
+  File: ""
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
+  Tags:
+  - 21-alpine3.21
+  - 21.0.6-alpine3.21
+  - 21-alpine3.21-full
+  - 21-alpine3.21-jdk
   - 21-alpine
-  - 21.0.5-alpine
+  - 21.0.6-alpine
   - 21-alpine-full
   - 21-alpine-jdk
 - Architectures:
@@ -788,10 +891,10 @@ Blocks:
       GitFetch: ""
   Directory: 23/jdk/al2023
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 23-al2023
-  - 23.0.1-al2023
+  - 23.0.2-al2023
   - 23-al2023-jdk
   - "23"
   - 23-jdk
@@ -810,10 +913,10 @@ Blocks:
       GitFetch: ""
   Directory: 23/headless/al2023
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 23-al2023-headless
-  - 23.0.1-al2023-headless
+  - 23.0.2-al2023-headless
   - 23-headless
 - Architectures:
     amd64:
@@ -830,10 +933,10 @@ Blocks:
       GitFetch: ""
   Directory: 23/headful/al2023
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 23-al2023-headful
-  - 23.0.1-al2023-headful
+  - 23.0.2-al2023-headful
   - 23-headful
 - Architectures:
     amd64:
@@ -850,10 +953,10 @@ Blocks:
       GitFetch: ""
   Directory: 23/jdk/alpine/3.18
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 23-alpine3.18
-  - 23.0.1-alpine3.18
+  - 23.0.2-alpine3.18
   - 23-alpine3.18-full
   - 23-alpine3.18-jdk
 - Architectures:
@@ -871,10 +974,10 @@ Blocks:
       GitFetch: ""
   Directory: 23/jdk/alpine/3.19
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 23-alpine3.19
-  - 23.0.1-alpine3.19
+  - 23.0.2-alpine3.19
   - 23-alpine3.19-full
   - 23-alpine3.19-jdk
 - Architectures:
@@ -892,16 +995,825 @@ Blocks:
       GitFetch: ""
   Directory: 23/jdk/alpine/3.20
   File: ""
-  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
   Tags:
   - 23-alpine3.20
-  - 23.0.1-alpine3.20
+  - 23.0.2-alpine3.20
   - 23-alpine3.20-full
   - 23-alpine3.20-jdk
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 23/jdk/alpine/3.21
+  File: ""
+  GitCommit: 89bc34902ac1a084562a2c6e7b02190eff3613bb
+  Tags:
+  - 23-alpine3.21
+  - 23.0.2-alpine3.21
+  - 23-alpine3.21-full
+  - 23-alpine3.21-jdk
   - 23-alpine
-  - 23.0.1-alpine
+  - 23.0.2-alpine
   - 23-alpine-full
   - 23-alpine-jdk
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 8/jdk/al2-generic
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 8u432
+  - 8u432-al2
+  - 8u432-al2-generic
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 8/jdk/al2023
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 8u432-al2023
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 8/jdk/al2023
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 8u432-al2023-jre
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 8/jre/al2
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 8u432-al2-native-jre
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 8/jdk/al2
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 8u432-al2-native-jdk
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 8/jdk/alpine/3.18
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 8u432-alpine3.18
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 8/jre/alpine/3.18
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 8u432-alpine3.18-jre
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 8/jdk/alpine/3.19
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 8u432-alpine3.19
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 8/jre/alpine/3.19
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 8u432-alpine3.19-jre
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 8/jdk/alpine/3.20
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 8u432-alpine3.20
+  - 8u432-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 8/jre/alpine/3.20
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 8u432-alpine3.20-jre
+  - 8u432-alpine-jre
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 11/jdk/al2-generic
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 11.0.25
+  - 11.0.25-al2
+  - 11.0.25-al2-generic
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 11/jdk/al2023
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 11.0.25-al2023
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 11/headless/al2023
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 11.0.25-al2023-headless
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 11/headful/al2023
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 11.0.25-al2023-headful
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 11/headless/al2
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 11.0.25-al2-native-headless
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 11/jdk/al2
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 11.0.25-al2-native-jdk
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 11/jdk/alpine/3.18
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 11.0.25-alpine3.18
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 11/jdk/alpine/3.19
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 11.0.25-alpine3.19
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 11/jdk/alpine/3.20
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 11.0.25-alpine3.20
+  - 11.0.25-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/jdk/al2-generic
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 17.0.13
+  - 17.0.13-al2
+  - 17.0.13-al2-generic
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/jdk/al2023
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 17.0.13-al2023
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/headless/al2023
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 17.0.13-al2023-headless
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/headful/al2023
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 17.0.13-al2023-headful
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/headless/al2
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 17.0.13-al2-native-headless
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/headful/al2
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 17.0.13-al2-native-headful
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/jdk/al2
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 17.0.13-al2-native-jdk
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/jdk/alpine/3.18
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 17.0.13-alpine3.18
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/jdk/alpine/3.19
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 17.0.13-alpine3.19
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/jdk/alpine/3.20
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 17.0.13-alpine3.20
+  - 17.0.13-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/jdk/al2-generic
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 21.0.5
+  - 21.0.5-al2
+  - 21.0.5-al2-generic
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/jdk/al2023
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 21.0.5-al2023
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/headless/al2023
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 21.0.5-al2023-headless
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/headful/al2023
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 21.0.5-al2023-headful
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/jdk/alpine/3.18
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 21.0.5-alpine3.18
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/jdk/alpine/3.19
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 21.0.5-alpine3.19
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 21/jdk/alpine/3.20
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 21.0.5-alpine3.20
+  - 21.0.5-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 23/jdk/al2023
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 23.0.1-al2023
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 23/headless/al2023
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 23.0.1-al2023-headless
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 23/headful/al2023
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 23.0.1-al2023-headful
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 23/jdk/alpine/3.18
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 23.0.1-alpine3.18
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 23/jdk/alpine/3.19
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 23.0.1-alpine3.19
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 23/jdk/alpine/3.20
+  File: ""
+  GitCommit: a2a619f2ff274d58df109c775ae79acc7b8605a2
+  Tags:
+  - 23.0.1-alpine3.20
+  - 23.0.1-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -9962,6 +10874,10 @@ KnownTags:
   8-alpine3.20-full: {}
   8-alpine3.20-jdk: {}
   8-alpine3.20-jre: {}
+  8-alpine3.21: {}
+  8-alpine3.21-full: {}
+  8-alpine3.21-jdk: {}
+  8-alpine3.21-jre: {}
   8u192: {}
   8u202: {}
   8u212: {}
@@ -10201,6 +11117,23 @@ KnownTags:
   8u432-alpine3.19-jre: {}
   8u432-alpine3.20: {}
   8u432-alpine3.20-jre: {}
+  8u442: {}
+  8u442-al2: {}
+  8u442-al2-generic: {}
+  8u442-al2-native-jdk: {}
+  8u442-al2-native-jre: {}
+  8u442-al2023: {}
+  8u442-al2023-jre: {}
+  8u442-alpine: {}
+  8u442-alpine-jre: {}
+  8u442-alpine3.18: {}
+  8u442-alpine3.18-jre: {}
+  8u442-alpine3.19: {}
+  8u442-alpine3.19-jre: {}
+  8u442-alpine3.20: {}
+  8u442-alpine3.20-jre: {}
+  8u442-alpine3.21: {}
+  8u442-alpine3.21-jre: {}
   "11": {}
   11-al2-full: {}
   11-al2-generic: {}
@@ -10252,6 +11185,9 @@ KnownTags:
   11-alpine3.20: {}
   11-alpine3.20-full: {}
   11-alpine3.20-jdk: {}
+  11-alpine3.21: {}
+  11-alpine3.21-full: {}
+  11-alpine3.21-jdk: {}
   11.0.2: {}
   11.0.3: {}
   11.0.4: {}
@@ -10423,6 +11359,19 @@ KnownTags:
   11.0.25-alpine3.18: {}
   11.0.25-alpine3.19: {}
   11.0.25-alpine3.20: {}
+  11.0.26: {}
+  11.0.26-al2: {}
+  11.0.26-al2-generic: {}
+  11.0.26-al2-native-headless: {}
+  11.0.26-al2-native-jdk: {}
+  11.0.26-al2023: {}
+  11.0.26-al2023-headful: {}
+  11.0.26-al2023-headless: {}
+  11.0.26-alpine: {}
+  11.0.26-alpine3.18: {}
+  11.0.26-alpine3.19: {}
+  11.0.26-alpine3.20: {}
+  11.0.26-alpine3.21: {}
   "15": {}
   15-al2-full: {}
   15-al2-jdk: {}
@@ -10514,6 +11463,9 @@ KnownTags:
   17-alpine3.20: {}
   17-alpine3.20-full: {}
   17-alpine3.20-jdk: {}
+  17-alpine3.21: {}
+  17-alpine3.21-full: {}
+  17-alpine3.21-jdk: {}
   17.0.0: {}
   17.0.0-al2: {}
   17.0.0-alpine: {}
@@ -10672,6 +11624,20 @@ KnownTags:
   17.0.13-alpine3.18: {}
   17.0.13-alpine3.19: {}
   17.0.13-alpine3.20: {}
+  17.0.14: {}
+  17.0.14-al2: {}
+  17.0.14-al2-generic: {}
+  17.0.14-al2-native-headful: {}
+  17.0.14-al2-native-headless: {}
+  17.0.14-al2-native-jdk: {}
+  17.0.14-al2023: {}
+  17.0.14-al2023-headful: {}
+  17.0.14-al2023-headless: {}
+  17.0.14-alpine: {}
+  17.0.14-alpine3.18: {}
+  17.0.14-alpine3.19: {}
+  17.0.14-alpine3.20: {}
+  17.0.14-alpine3.21: {}
   "18": {}
   18-al2-full: {}
   18-al2-jdk: {}
@@ -10835,6 +11801,9 @@ KnownTags:
   21-alpine3.20: {}
   21-alpine3.20-full: {}
   21-alpine3.20-jdk: {}
+  21-alpine3.21: {}
+  21-alpine3.21-full: {}
+  21-alpine3.21-jdk: {}
   21.0.0: {}
   21.0.0-al2: {}
   21.0.0-al2-generic: {}
@@ -10901,6 +11870,17 @@ KnownTags:
   21.0.5-alpine3.18: {}
   21.0.5-alpine3.19: {}
   21.0.5-alpine3.20: {}
+  21.0.6: {}
+  21.0.6-al2: {}
+  21.0.6-al2-generic: {}
+  21.0.6-al2023: {}
+  21.0.6-al2023-headful: {}
+  21.0.6-al2023-headless: {}
+  21.0.6-alpine: {}
+  21.0.6-alpine3.18: {}
+  21.0.6-alpine3.19: {}
+  21.0.6-alpine3.20: {}
+  21.0.6-alpine3.21: {}
   "22": {}
   22-al2023: {}
   22-al2023-headful: {}
@@ -10971,6 +11951,9 @@ KnownTags:
   23-alpine3.20: {}
   23-alpine3.20-full: {}
   23-alpine3.20-jdk: {}
+  23-alpine3.21: {}
+  23-alpine3.21-full: {}
+  23-alpine3.21-jdk: {}
   23-headful: {}
   23-headless: {}
   23-jdk: {}
@@ -10990,5 +11973,13 @@ KnownTags:
   23.0.1-alpine3.18: {}
   23.0.1-alpine3.19: {}
   23.0.1-alpine3.20: {}
+  23.0.2-al2023: {}
+  23.0.2-al2023-headful: {}
+  23.0.2-al2023-headless: {}
+  23.0.2-alpine: {}
+  23.0.2-alpine3.18: {}
+  23.0.2-alpine3.19: {}
+  23.0.2-alpine3.20: {}
+  23.0.2-alpine3.21: {}
   latest: {}
 Name: amazoncorretto
