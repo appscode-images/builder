@@ -24,9 +24,9 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: jdk8
+  Directory: jdk8-jammy
   File: ""
-  GitCommit: 92b67221f9fb6299230368dd887f09a04022ccca
+  GitCommit: ddb1b6322e9dc6367c1c0e962c070010967214b2
   Tags:
   - 8.12.1-jdk8
   - 8.12-jdk8
@@ -63,7 +63,7 @@ Blocks:
       GitFetch: ""
   Directory: jdk8-focal
   File: ""
-  GitCommit: 92b67221f9fb6299230368dd887f09a04022ccca
+  GitCommit: ddb1b6322e9dc6367c1c0e962c070010967214b2
   Tags:
   - 8.12.1-jdk8-focal
   - 8.12-jdk8-focal
@@ -84,7 +84,7 @@ Blocks:
       GitFetch: ""
   Directory: jdk8-corretto
   File: ""
-  GitCommit: 92b67221f9fb6299230368dd887f09a04022ccca
+  GitCommit: ddb1b6322e9dc6367c1c0e962c070010967214b2
   Tags:
   - 8.12.1-jdk8-corretto
   - 8.12-jdk8-corretto
@@ -125,9 +125,9 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: jdk11
+  Directory: jdk11-jammy
   File: ""
-  GitCommit: 92b67221f9fb6299230368dd887f09a04022ccca
+  GitCommit: ddb1b6322e9dc6367c1c0e962c070010967214b2
   Tags:
   - 8.12.1-jdk11
   - 8.12-jdk11
@@ -170,7 +170,7 @@ Blocks:
       GitFetch: ""
   Directory: jdk11-focal
   File: ""
-  GitCommit: 92b67221f9fb6299230368dd887f09a04022ccca
+  GitCommit: ddb1b6322e9dc6367c1c0e962c070010967214b2
   Tags:
   - 8.12.1-jdk11-focal
   - 8.12-jdk11-focal
@@ -185,7 +185,7 @@ Blocks:
       GitFetch: ""
   Directory: jdk11-alpine
   File: ""
-  GitCommit: 92b67221f9fb6299230368dd887f09a04022ccca
+  GitCommit: ddb1b6322e9dc6367c1c0e962c070010967214b2
   Tags:
   - 8.12.1-jdk11-alpine
   - 8.12-jdk11-alpine
@@ -206,7 +206,7 @@ Blocks:
       GitFetch: ""
   Directory: jdk11-corretto
   File: ""
-  GitCommit: 92b67221f9fb6299230368dd887f09a04022ccca
+  GitCommit: ddb1b6322e9dc6367c1c0e962c070010967214b2
   Tags:
   - 8.12.1-jdk11-corretto
   - 8.12-jdk11-corretto
@@ -247,14 +247,53 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: jdk17
+  Directory: jdk17-noble
   File: ""
-  GitCommit: 92b67221f9fb6299230368dd887f09a04022ccca
+  GitCommit: ddb1b6322e9dc6367c1c0e962c070010967214b2
   Tags:
   - 8.12.1-jdk17
   - 8.12-jdk17
   - 8-jdk17
   - jdk17
+  - 8.12.1-jdk17-noble
+  - 8.12-jdk17-noble
+  - 8-jdk17-noble
+  - jdk17-noble
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: jdk17-jammy
+  File: ""
+  GitCommit: ddb1b6322e9dc6367c1c0e962c070010967214b2
+  Tags:
   - 8.12.1-jdk17-jammy
   - 8.12-jdk17-jammy
   - 8-jdk17-jammy
@@ -292,7 +331,7 @@ Blocks:
       GitFetch: ""
   Directory: jdk17-focal
   File: ""
-  GitCommit: 92b67221f9fb6299230368dd887f09a04022ccca
+  GitCommit: ddb1b6322e9dc6367c1c0e962c070010967214b2
   Tags:
   - 8.12.1-jdk17-focal
   - 8.12-jdk17-focal
@@ -315,7 +354,7 @@ Blocks:
       GitFetch: ""
   Directory: jdk17-alpine
   File: ""
-  GitCommit: 92b67221f9fb6299230368dd887f09a04022ccca
+  GitCommit: ddb1b6322e9dc6367c1c0e962c070010967214b2
   Tags:
   - 8.12.1-jdk17-alpine
   - 8.12-jdk17-alpine
@@ -338,7 +377,7 @@ Blocks:
       GitFetch: ""
   Directory: jdk17-corretto
   File: ""
-  GitCommit: 92b67221f9fb6299230368dd887f09a04022ccca
+  GitCommit: ddb1b6322e9dc6367c1c0e962c070010967214b2
   Tags:
   - 8.12.1-jdk17-corretto
   - 8.12-jdk17-corretto
@@ -361,9 +400,9 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: jdk17-graal
+  Directory: jdk17-noble-graal
   File: ""
-  GitCommit: 92b67221f9fb6299230368dd887f09a04022ccca
+  GitCommit: ddb1b6322e9dc6367c1c0e962c070010967214b2
   Tags:
   - 8.12.1-jdk17-graal
   - 8.12-jdk17-graal
@@ -377,6 +416,35 @@ Blocks:
   - 8.12-graal
   - 8-graal
   - graal
+  - 8.12.1-jdk17-graal-noble
+  - 8.12-jdk17-graal-noble
+  - 8-jdk17-graal-noble
+  - jdk17-graal-noble
+  - 8.12.1-jdk-graal-noble
+  - 8.12-jdk-graal-noble
+  - 8-jdk-graal-noble
+  - jdk-graal-noble
+  - 8.12.1-graal-noble
+  - 8.12-graal-noble
+  - 8-graal-noble
+  - graal-noble
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: jdk17-jammy-graal
+  File: ""
+  GitCommit: ddb1b6322e9dc6367c1c0e962c070010967214b2
+  Tags:
   - 8.12.1-jdk17-graal-jammy
   - 8.12-jdk17-graal-jammy
   - 8-jdk17-graal-jammy
@@ -414,18 +482,18 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: jdk21
+  Directory: jdk21-noble
   File: ""
-  GitCommit: 92b67221f9fb6299230368dd887f09a04022ccca
+  GitCommit: ddb1b6322e9dc6367c1c0e962c070010967214b2
   Tags:
   - 8.12.1-jdk21
   - 8.12-jdk21
   - 8-jdk21
   - jdk21
-  - 8.12.1-jdk21-jammy
-  - 8.12-jdk21-jammy
-  - 8-jdk21-jammy
-  - jdk21-jammy
+  - 8.12.1-jdk21-noble
+  - 8.12-jdk21-noble
+  - 8-jdk21-noble
+  - jdk21-noble
   - latest
   - 8.12.1-jdk
   - 8.12-jdk
@@ -434,6 +502,47 @@ Blocks:
   - 8.12.1
   - "8.12"
   - "8"
+  - 8.12.1-jdk-noble
+  - 8.12-jdk-noble
+  - 8-jdk-noble
+  - jdk-noble
+  - 8.12.1-noble
+  - 8.12-noble
+  - 8-noble
+  - noble
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: jdk21-jammy
+  File: ""
+  GitCommit: ddb1b6322e9dc6367c1c0e962c070010967214b2
+  Tags:
+  - 8.12.1-jdk21-jammy
+  - 8.12-jdk21-jammy
+  - 8-jdk21-jammy
+  - jdk21-jammy
   - 8.12.1-jdk-jammy
   - 8.12-jdk-jammy
   - 8-jdk-jammy
@@ -457,7 +566,7 @@ Blocks:
       GitFetch: ""
   Directory: jdk21-alpine
   File: ""
-  GitCommit: 92b67221f9fb6299230368dd887f09a04022ccca
+  GitCommit: ddb1b6322e9dc6367c1c0e962c070010967214b2
   Tags:
   - 8.12.1-jdk21-alpine
   - 8.12-jdk21-alpine
@@ -484,7 +593,7 @@ Blocks:
       GitFetch: ""
   Directory: jdk21-corretto
   File: ""
-  GitCommit: 92b67221f9fb6299230368dd887f09a04022ccca
+  GitCommit: ddb1b6322e9dc6367c1c0e962c070010967214b2
   Tags:
   - 8.12.1-jdk21-corretto
   - 8.12-jdk21-corretto
@@ -509,14 +618,35 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: jdk21-graal
+  Directory: jdk21-noble-graal
   File: ""
-  GitCommit: 92b67221f9fb6299230368dd887f09a04022ccca
+  GitCommit: ddb1b6322e9dc6367c1c0e962c070010967214b2
   Tags:
   - 8.12.1-jdk21-graal
   - 8.12-jdk21-graal
   - 8-jdk21-graal
   - jdk21-graal
+  - 8.12.1-jdk21-graal-noble
+  - 8.12-jdk21-graal-noble
+  - 8-jdk21-graal-noble
+  - jdk21-graal-noble
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: jdk21-jammy-graal
+  File: ""
+  GitCommit: ddb1b6322e9dc6367c1c0e962c070010967214b2
+  Tags:
   - 8.12.1-jdk21-graal-jammy
   - 8.12-jdk21-graal-jammy
   - 8-jdk21-graal-jammy
@@ -546,18 +676,18 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: jdk23
+  Directory: jdk23-noble
   File: ""
-  GitCommit: 92b67221f9fb6299230368dd887f09a04022ccca
+  GitCommit: ddb1b6322e9dc6367c1c0e962c070010967214b2
   Tags:
   - 8.12.1-jdk23
   - 8.12-jdk23
   - 8-jdk23
   - jdk23
-  - 8.12.1-jdk23-jammy
-  - 8.12-jdk23-jammy
-  - 8-jdk23-jammy
-  - jdk23-jammy
+  - 8.12.1-jdk23-noble
+  - 8.12-jdk23-noble
+  - 8-jdk23-noble
+  - jdk23-noble
 - Architectures:
     amd64:
       Architecture: amd64
@@ -573,7 +703,7 @@ Blocks:
       GitFetch: ""
   Directory: jdk23-alpine
   File: ""
-  GitCommit: 92b67221f9fb6299230368dd887f09a04022ccca
+  GitCommit: ddb1b6322e9dc6367c1c0e962c070010967214b2
   Tags:
   - 8.12.1-jdk23-alpine
   - 8.12-jdk23-alpine
@@ -594,7 +724,7 @@ Blocks:
       GitFetch: ""
   Directory: jdk23-corretto
   File: ""
-  GitCommit: 92b67221f9fb6299230368dd887f09a04022ccca
+  GitCommit: ddb1b6322e9dc6367c1c0e962c070010967214b2
   Tags:
   - 8.12.1-jdk23-corretto
   - 8.12-jdk23-corretto
@@ -613,14 +743,18 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: jdk23-graal
+  Directory: jdk23-noble-graal
   File: ""
-  GitCommit: 92b67221f9fb6299230368dd887f09a04022ccca
+  GitCommit: ddb1b6322e9dc6367c1c0e962c070010967214b2
   Tags:
   - 8.12.1-jdk23-graal
   - 8.12-jdk23-graal
   - 8-jdk23-graal
   - jdk23-graal
+  - 8.12.1-jdk23-graal-noble
+  - 8.12-jdk23-graal-noble
+  - 8-jdk23-graal-noble
+  - jdk23-graal-noble
 - Architectures:
     amd64:
       Architecture: amd64
@@ -636,24 +770,24 @@ Blocks:
       GitFetch: ""
   Directory: jdk-lts-and-current
   File: ""
-  GitCommit: 92b67221f9fb6299230368dd887f09a04022ccca
+  GitCommit: ddb1b6322e9dc6367c1c0e962c070010967214b2
   Tags:
   - 8.12.1-jdk-lts-and-current
   - 8.12-jdk-lts-and-current
   - 8-jdk-lts-and-current
   - jdk-lts-and-current
-  - 8.12.1-jdk-lts-and-current-jammy
-  - 8.12-jdk-lts-and-current-jammy
-  - 8-jdk-lts-and-current-jammy
-  - jdk-lts-and-current-jammy
+  - 8.12.1-jdk-lts-and-current-noble
+  - 8.12-jdk-lts-and-current-noble
+  - 8-jdk-lts-and-current-noble
+  - jdk-lts-and-current-noble
   - 8.12.1-jdk-21-and-23
   - 8.12-jdk-21-and-23
   - 8-jdk-21-and-23
   - jdk-21-and-23
-  - 8.12.1-jdk-21-and-23-jammy
-  - 8.12-jdk-21-and-23-jammy
-  - 8-jdk-21-and-23-jammy
-  - jdk-21-and-23-jammy
+  - 8.12.1-jdk-21-and-23-noble
+  - 8.12-jdk-21-and-23-noble
+  - 8-jdk-21-and-23-noble
+  - jdk-21-and-23-noble
 - Architectures:
     amd64:
       Architecture: amd64
@@ -669,7 +803,7 @@ Blocks:
       GitFetch: ""
   Directory: jdk-lts-and-current-alpine
   File: ""
-  GitCommit: 92b67221f9fb6299230368dd887f09a04022ccca
+  GitCommit: ddb1b6322e9dc6367c1c0e962c070010967214b2
   Tags:
   - 8.12.1-jdk-lts-and-current-alpine
   - 8.12-jdk-lts-and-current-alpine
@@ -694,7 +828,7 @@ Blocks:
       GitFetch: ""
   Directory: jdk-lts-and-current-corretto
   File: ""
-  GitCommit: 92b67221f9fb6299230368dd887f09a04022ccca
+  GitCommit: ddb1b6322e9dc6367c1c0e962c070010967214b2
   Tags:
   - 8.12.1-jdk-lts-and-current-corretto
   - 8.12-jdk-lts-and-current-corretto
@@ -727,24 +861,24 @@ Blocks:
       GitFetch: ""
   Directory: jdk-lts-and-current-graal
   File: ""
-  GitCommit: 92b67221f9fb6299230368dd887f09a04022ccca
+  GitCommit: ddb1b6322e9dc6367c1c0e962c070010967214b2
   Tags:
   - 8.12.1-jdk-lts-and-current-graal
   - 8.12-jdk-lts-and-current-graal
   - 8-jdk-lts-and-current-graal
   - jdk-lts-and-current-graal
-  - 8.12.1-jdk-lts-and-current-graal-jammy
-  - 8.12-jdk-lts-and-current-graal-jammy
-  - 8-jdk-lts-and-current-graal-jammy
-  - jdk-lts-and-current-graal-jammy
+  - 8.12.1-jdk-lts-and-current-graal-noble
+  - 8.12-jdk-lts-and-current-graal-noble
+  - 8-jdk-lts-and-current-graal-noble
+  - jdk-lts-and-current-graal-noble
   - 8.12.1-jdk-21-and-23-graal
   - 8.12-jdk-21-and-23-graal
   - 8-jdk-21-and-23-graal
   - jdk-21-and-23-graal
-  - 8.12.1-jdk-21-and-23-graal-jammy
-  - 8.12-jdk-21-and-23-graal-jammy
-  - 8-jdk-21-and-23-graal-jammy
-  - jdk-21-and-23-graal-jammy
+  - 8.12.1-jdk-21-and-23-graal-noble
+  - 8.12-jdk-21-and-23-graal-noble
+  - 8-jdk-21-and-23-graal-noble
+  - jdk-21-and-23-graal-noble
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1299,6 +1433,89 @@ Blocks:
   - 6.9.4-alpine
   - 6.9-alpine
   - 6-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: jdk23
+  File: ""
+  GitCommit: 92b67221f9fb6299230368dd887f09a04022ccca
+  Tags:
+  - 8.12.1-jdk23-jammy
+  - 8.12-jdk23-jammy
+  - 8-jdk23-jammy
+  - jdk23-jammy
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: jdk-lts-and-current
+  File: ""
+  GitCommit: 92b67221f9fb6299230368dd887f09a04022ccca
+  Tags:
+  - 8.12.1-jdk-lts-and-current-jammy
+  - 8.12-jdk-lts-and-current-jammy
+  - 8-jdk-lts-and-current-jammy
+  - jdk-lts-and-current-jammy
+  - 8.12.1-jdk-21-and-23-jammy
+  - 8.12-jdk-21-and-23-jammy
+  - 8-jdk-21-and-23-jammy
+  - jdk-21-and-23-jammy
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: jdk-lts-and-current-graal
+  File: ""
+  GitCommit: 92b67221f9fb6299230368dd887f09a04022ccca
+  Tags:
+  - 8.12.1-jdk-lts-and-current-graal-jammy
+  - 8.12-jdk-lts-and-current-graal-jammy
+  - 8-jdk-lts-and-current-graal-jammy
+  - jdk-lts-and-current-graal-jammy
+  - 8.12.1-jdk-21-and-23-graal-jammy
+  - 8.12-jdk-21-and-23-graal-jammy
+  - 8-jdk-21-and-23-graal-jammy
+  - jdk-21-and-23-graal-jammy
 - Architectures:
     amd64:
       Architecture: amd64
@@ -35281,6 +35498,7 @@ KnownTags:
   8-focal: {}
   8-graal: {}
   8-graal-jammy: {}
+  8-graal-noble: {}
   8-jammy: {}
   8-jdk: {}
   8-jdk-21-and-22: {}
@@ -35294,11 +35512,14 @@ KnownTags:
   8-jdk-21-and-23-corretto-al2023: {}
   8-jdk-21-and-23-graal: {}
   8-jdk-21-and-23-graal-jammy: {}
+  8-jdk-21-and-23-graal-noble: {}
   8-jdk-21-and-23-jammy: {}
+  8-jdk-21-and-23-noble: {}
   8-jdk-alpine: {}
   8-jdk-focal: {}
   8-jdk-graal: {}
   8-jdk-graal-jammy: {}
+  8-jdk-graal-noble: {}
   8-jdk-jammy: {}
   8-jdk-lts-and-current: {}
   8-jdk-lts-and-current-alpine: {}
@@ -35306,7 +35527,10 @@ KnownTags:
   8-jdk-lts-and-current-corretto-al2023: {}
   8-jdk-lts-and-current-graal: {}
   8-jdk-lts-and-current-graal-jammy: {}
+  8-jdk-lts-and-current-graal-noble: {}
   8-jdk-lts-and-current-jammy: {}
+  8-jdk-lts-and-current-noble: {}
+  8-jdk-noble: {}
   8-jdk8: {}
   8-jdk8-corretto: {}
   8-jdk8-corretto-al2023: {}
@@ -35325,7 +35549,9 @@ KnownTags:
   8-jdk17-focal: {}
   8-jdk17-graal: {}
   8-jdk17-graal-jammy: {}
+  8-jdk17-graal-noble: {}
   8-jdk17-jammy: {}
+  8-jdk17-noble: {}
   8-jdk19: {}
   8-jdk19-alpine: {}
   8-jdk19-focal: {}
@@ -35341,7 +35567,9 @@ KnownTags:
   8-jdk21-corretto-al2023: {}
   8-jdk21-graal: {}
   8-jdk21-graal-jammy: {}
+  8-jdk21-graal-noble: {}
   8-jdk21-jammy: {}
+  8-jdk21-noble: {}
   8-jdk22: {}
   8-jdk22-alpine: {}
   8-jdk22-graal: {}
@@ -35350,7 +35578,10 @@ KnownTags:
   8-jdk23-alpine: {}
   8-jdk23-corretto: {}
   8-jdk23-graal: {}
+  8-jdk23-graal-noble: {}
   8-jdk23-jammy: {}
+  8-jdk23-noble: {}
+  8-noble: {}
   "8.0": {}
   8.0-alpine: {}
   8.0-focal: {}
@@ -36471,6 +36702,7 @@ KnownTags:
   8.12-focal: {}
   8.12-graal: {}
   8.12-graal-jammy: {}
+  8.12-graal-noble: {}
   8.12-jammy: {}
   8.12-jdk: {}
   8.12-jdk-21-and-23: {}
@@ -36479,11 +36711,14 @@ KnownTags:
   8.12-jdk-21-and-23-corretto-al2023: {}
   8.12-jdk-21-and-23-graal: {}
   8.12-jdk-21-and-23-graal-jammy: {}
+  8.12-jdk-21-and-23-graal-noble: {}
   8.12-jdk-21-and-23-jammy: {}
+  8.12-jdk-21-and-23-noble: {}
   8.12-jdk-alpine: {}
   8.12-jdk-focal: {}
   8.12-jdk-graal: {}
   8.12-jdk-graal-jammy: {}
+  8.12-jdk-graal-noble: {}
   8.12-jdk-jammy: {}
   8.12-jdk-lts-and-current: {}
   8.12-jdk-lts-and-current-alpine: {}
@@ -36491,7 +36726,10 @@ KnownTags:
   8.12-jdk-lts-and-current-corretto-al2023: {}
   8.12-jdk-lts-and-current-graal: {}
   8.12-jdk-lts-and-current-graal-jammy: {}
+  8.12-jdk-lts-and-current-graal-noble: {}
   8.12-jdk-lts-and-current-jammy: {}
+  8.12-jdk-lts-and-current-noble: {}
+  8.12-jdk-noble: {}
   8.12-jdk8: {}
   8.12-jdk8-corretto: {}
   8.12-jdk8-corretto-al2023: {}
@@ -36510,19 +36748,26 @@ KnownTags:
   8.12-jdk17-focal: {}
   8.12-jdk17-graal: {}
   8.12-jdk17-graal-jammy: {}
+  8.12-jdk17-graal-noble: {}
   8.12-jdk17-jammy: {}
+  8.12-jdk17-noble: {}
   8.12-jdk21: {}
   8.12-jdk21-alpine: {}
   8.12-jdk21-corretto: {}
   8.12-jdk21-corretto-al2023: {}
   8.12-jdk21-graal: {}
   8.12-jdk21-graal-jammy: {}
+  8.12-jdk21-graal-noble: {}
   8.12-jdk21-jammy: {}
+  8.12-jdk21-noble: {}
   8.12-jdk23: {}
   8.12-jdk23-alpine: {}
   8.12-jdk23-corretto: {}
   8.12-jdk23-graal: {}
+  8.12-jdk23-graal-noble: {}
   8.12-jdk23-jammy: {}
+  8.12-jdk23-noble: {}
+  8.12-noble: {}
   8.12.0: {}
   8.12.0-alpine: {}
   8.12.0-focal: {}
@@ -36585,6 +36830,7 @@ KnownTags:
   8.12.1-focal: {}
   8.12.1-graal: {}
   8.12.1-graal-jammy: {}
+  8.12.1-graal-noble: {}
   8.12.1-jammy: {}
   8.12.1-jdk: {}
   8.12.1-jdk-21-and-23: {}
@@ -36593,11 +36839,14 @@ KnownTags:
   8.12.1-jdk-21-and-23-corretto-al2023: {}
   8.12.1-jdk-21-and-23-graal: {}
   8.12.1-jdk-21-and-23-graal-jammy: {}
+  8.12.1-jdk-21-and-23-graal-noble: {}
   8.12.1-jdk-21-and-23-jammy: {}
+  8.12.1-jdk-21-and-23-noble: {}
   8.12.1-jdk-alpine: {}
   8.12.1-jdk-focal: {}
   8.12.1-jdk-graal: {}
   8.12.1-jdk-graal-jammy: {}
+  8.12.1-jdk-graal-noble: {}
   8.12.1-jdk-jammy: {}
   8.12.1-jdk-lts-and-current: {}
   8.12.1-jdk-lts-and-current-alpine: {}
@@ -36605,7 +36854,10 @@ KnownTags:
   8.12.1-jdk-lts-and-current-corretto-al2023: {}
   8.12.1-jdk-lts-and-current-graal: {}
   8.12.1-jdk-lts-and-current-graal-jammy: {}
+  8.12.1-jdk-lts-and-current-graal-noble: {}
   8.12.1-jdk-lts-and-current-jammy: {}
+  8.12.1-jdk-lts-and-current-noble: {}
+  8.12.1-jdk-noble: {}
   8.12.1-jdk8: {}
   8.12.1-jdk8-corretto: {}
   8.12.1-jdk8-corretto-al2023: {}
@@ -36624,25 +36876,33 @@ KnownTags:
   8.12.1-jdk17-focal: {}
   8.12.1-jdk17-graal: {}
   8.12.1-jdk17-graal-jammy: {}
+  8.12.1-jdk17-graal-noble: {}
   8.12.1-jdk17-jammy: {}
+  8.12.1-jdk17-noble: {}
   8.12.1-jdk21: {}
   8.12.1-jdk21-alpine: {}
   8.12.1-jdk21-corretto: {}
   8.12.1-jdk21-corretto-al2023: {}
   8.12.1-jdk21-graal: {}
   8.12.1-jdk21-graal-jammy: {}
+  8.12.1-jdk21-graal-noble: {}
   8.12.1-jdk21-jammy: {}
+  8.12.1-jdk21-noble: {}
   8.12.1-jdk23: {}
   8.12.1-jdk23-alpine: {}
   8.12.1-jdk23-corretto: {}
   8.12.1-jdk23-graal: {}
+  8.12.1-jdk23-graal-noble: {}
   8.12.1-jdk23-jammy: {}
+  8.12.1-jdk23-noble: {}
+  8.12.1-noble: {}
   alpine: {}
   corretto: {}
   corretto-al2023: {}
   focal: {}
   graal: {}
   graal-jammy: {}
+  graal-noble: {}
   hotspot: {}
   jammy: {}
   jdk: {}
@@ -36657,11 +36917,14 @@ KnownTags:
   jdk-21-and-23-corretto-al2023: {}
   jdk-21-and-23-graal: {}
   jdk-21-and-23-graal-jammy: {}
+  jdk-21-and-23-graal-noble: {}
   jdk-21-and-23-jammy: {}
+  jdk-21-and-23-noble: {}
   jdk-alpine: {}
   jdk-focal: {}
   jdk-graal: {}
   jdk-graal-jammy: {}
+  jdk-graal-noble: {}
   jdk-hotspot: {}
   jdk-jammy: {}
   jdk-lts-and-current: {}
@@ -36670,7 +36933,10 @@ KnownTags:
   jdk-lts-and-current-corretto-al2023: {}
   jdk-lts-and-current-graal: {}
   jdk-lts-and-current-graal-jammy: {}
+  jdk-lts-and-current-graal-noble: {}
   jdk-lts-and-current-jammy: {}
+  jdk-lts-and-current-noble: {}
+  jdk-noble: {}
   jdk-openj9: {}
   jdk-slim: {}
   jdk7: {}
@@ -36715,7 +36981,9 @@ KnownTags:
   jdk17-focal: {}
   jdk17-graal: {}
   jdk17-graal-jammy: {}
+  jdk17-graal-noble: {}
   jdk17-jammy: {}
+  jdk17-noble: {}
   jdk18: {}
   jdk18-alpine: {}
   jdk18-focal: {}
@@ -36735,7 +37003,9 @@ KnownTags:
   jdk21-corretto-al2023: {}
   jdk21-graal: {}
   jdk21-graal-jammy: {}
+  jdk21-graal-noble: {}
   jdk21-jammy: {}
+  jdk21-noble: {}
   jdk22: {}
   jdk22-alpine: {}
   jdk22-graal: {}
@@ -36744,7 +37014,9 @@ KnownTags:
   jdk23-alpine: {}
   jdk23-corretto: {}
   jdk23-graal: {}
+  jdk23-graal-noble: {}
   jdk23-jammy: {}
+  jdk23-noble: {}
   jre: {}
   jre-alpine: {}
   jre-hotspot: {}
@@ -36777,6 +37049,7 @@ KnownTags:
   jre16-hotspot: {}
   jre16-openj9: {}
   latest: {}
+  noble: {}
   openj9: {}
   slim: {}
 Name: gradle
