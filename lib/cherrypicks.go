@@ -2,6 +2,7 @@ package lib
 
 import (
 	"errors"
+	"fmt"
 	"os"
 	"path/filepath"
 	"sigs.k8s.io/yaml"
@@ -13,6 +14,7 @@ const (
 
 func LoadCherrypicks(dir, name string) (map[string][]string, error) {
 	filename := filepath.Join(dir, "library", name, FileCherrypicks)
+	fmt.Println("======================================     ", filename)
 	data, err := os.ReadFile(filename)
 	if errors.Is(err, os.ErrNotExist) {
 		return nil, nil
