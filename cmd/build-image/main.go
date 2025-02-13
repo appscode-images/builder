@@ -242,7 +242,9 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, cherrypicks []string, 
 		if err != nil {
 			return err
 		}
+		fmt.Println("######################################", cherrypicks)
 		for _, cp := range cherrypicks {
+			fmt.Println("cherrypick================================= ", cp)
 			err = sh.Command("git", "cherry-pick", cp).Run()
 			if err != nil {
 				return err
@@ -262,7 +264,11 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, cherrypicks []string, 
 		if err != nil {
 			return err
 		}
+
+		fmt.Println("111111111111111111111111111111111111", cherrypicks)
 		for _, cp := range cherrypicks {
+
+			fmt.Println("cherrypick 2222222222222222222================================= ", cp)
 			err = sh.Command("git", "cherry-pick", cp).Run()
 			if err != nil {
 				return err
