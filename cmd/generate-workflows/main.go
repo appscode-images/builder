@@ -140,7 +140,7 @@ jobs:
     - name: Set up Go
       uses: actions/setup-go@v4
       with:
-        go-version: '1.22'
+        go-version: '1.24'
 
     - name: Prepare git
       env:
@@ -158,6 +158,8 @@ jobs:
     - name: Set up QEMU
       id: qemu
       uses: docker/setup-qemu-action@v3
+      with:
+        cache-image: false
 
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v3
@@ -201,7 +203,7 @@ jobs:
 #    - name: Set up Go
 #      uses: actions/setup-go@v4
 #      with:
-#        go-version: '1.22'
+#        go-version: '1.24'
 #
 #    - name: Prepare git
 #      env:
@@ -219,6 +221,8 @@ jobs:
 #    - name: Set up QEMU
 #      id: qemu
 #      uses: docker/setup-qemu-action@v3
+#      with:
+#        cache-image: false
 #
 #    - name: Set up Docker Buildx
 #      uses: docker/setup-buildx-action@v3
