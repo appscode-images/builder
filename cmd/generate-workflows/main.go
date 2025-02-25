@@ -108,7 +108,7 @@ func GenerateWorkflows(dir string) error {
 
 func selectRunner(name string) string {
 	switch name {
-	case "node", "postgres", "memcached":
+	case "node", "postgres", "memcached", "solr":
 		return "firecracker"
 	default:
 		return "ubuntu-latest"
