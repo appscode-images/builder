@@ -4,7 +4,6 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"k8s.io/klog/v2"
 	"net/url"
 	"os"
 	"path/filepath"
@@ -274,7 +273,6 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, cherrypicks []string, 
 			return err
 		}
 	}
-	klog.Info("BASICALLY REPO CREATED**********************************************************")
 
 	// https://github.com/kubedb/mysql-init-docker/blob/release-8.0.31/Makefile
 	if len(b.Architectures) == 0 {
@@ -353,8 +351,6 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, cherrypicks []string, 
 		}
 	}
 
-	klog.Info("GOING TO CREATE MANIGEST????????????????????????????????????????????????????????????????")
-
 	// docker manifest create -a $(IMAGE):$(TAG) $(foreach PLATFORM,$(PLATFORM_ARCHS),$(IMAGE):$(TAG)_$(subst /,_,$(PLATFORM)))
 	// docker manifest push $(IMAGE):$(TAG)
 
@@ -364,7 +360,6 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, cherrypicks []string, 
 	if err != nil {
 		return err
 	}
-	klog.Info("Manifest has been created-->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
 	err = sh.Command("docker", "manifest", "push", img).Run()
 	if err != nil {
 		return err
