@@ -2,15 +2,15 @@ Blocks:
 - Architectures: null
   Directory: percona-server-8.0
   File: Dockerfile-dockerhub
-  GitCommit: aa29ac7b58f30ad459cbee36d5f1ad0891d5a0f4
+  GitCommit: 73ddc25d7165fa77bda3e92191ec2fc5536c500a
   Tags:
-  - 8.0.40-31-centos
+  - 8.0.41-32-centos
   - 8.0-centos
   - 8-centos
-  - 8.0.40-31
+  - 8.0.41-32
   - "8.0"
   - "8"
-  - ps-8.0.40-31
+  - ps-8.0.41-32
   - ps-8.0
   - ps-8
 - Architectures: null
@@ -34,6 +34,14 @@ Blocks:
   Tags:
   - psmdb-5.0.29
   - psmdb-5.0
+- Architectures: null
+  Directory: percona-server-8.0
+  File: Dockerfile-dockerhub
+  GitCommit: aa29ac7b58f30ad459cbee36d5f1ad0891d5a0f4
+  Tags:
+  - 8.0.40-31-centos
+  - 8.0.40-31
+  - ps-8.0.40-31
 - Architectures: null
   Directory: percona-server-8.0
   File: Dockerfile-dockerhub
@@ -1345,6 +1353,8 @@ KnownTags:
   8.0.39-30-centos: {}
   8.0.40-31: {}
   8.0.40-31-centos: {}
+  8.0.41-32: {}
+  8.0.41-32-centos: {}
   centos: {}
   jessie: {}
   latest: {}
@@ -1402,6 +1412,7 @@ KnownTags:
   ps-8.0.36-28: {}
   ps-8.0.39-30: {}
   ps-8.0.40-31: {}
+  ps-8.0.41-32: {}
   psmdb-3.6: {}
   psmdb-3.6.8: {}
   psmdb-3.6.10: {}
