@@ -12,13 +12,50 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+  Directory: 2025.02/bookworm
+  File: ""
+  GitCommit: 02696336f52874a3440ae2fa8f2cbf2a7c6176dd
+  Tags:
+  - latest
+  - "2025.02"
+  - bookworm
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 2025.02/alpine
+  File: ""
+  GitCommit: 02696336f52874a3440ae2fa8f2cbf2a7c6176dd
+  Tags:
+  - alpine
+  - 2025.02-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
   Directory: 2024.12/bookworm
   File: ""
   GitCommit: 5ee0f98efba56a1152775f861662c1774520aef9
   Tags:
-  - latest
   - "2024.12"
-  - bookworm
 - Architectures:
     amd64:
       Architecture: amd64
@@ -36,7 +73,6 @@ Blocks:
   File: ""
   GitCommit: 5ee0f98efba56a1152775f861662c1774520aef9
   Tags:
-  - alpine
   - 2024.12-alpine
 - Architectures:
     amd64:
@@ -704,7 +740,7 @@ Blocks:
   GitCommit: ""
   Tags:
   - "2018.04"
-GitRepo: https://github.com/Raku/docker
+GitRepo: https://github.com/rakudo/docker
 KnownTags:
   "2018.04": {}
   "2018.06": {}
@@ -747,6 +783,8 @@ KnownTags:
   2024.10-alpine: {}
   "2024.12": {}
   2024.12-alpine: {}
+  "2025.02": {}
+  2025.02-alpine: {}
   alpine: {}
   bookworm: {}
   latest: {}

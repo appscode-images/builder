@@ -75,6 +75,10 @@
     "1.30.0": {},
     "1.30.0-apache": {},
     "1.30.0-fpm": {},
+    "1.30.1": {},
+    "1.30.1-apache": {},
+    "1.30.1-fpm": {},
+    "1.31.0-fpm": {},
     "apache": {},
     "fpm": {},
     "latest": {}
@@ -82,14 +86,66 @@
   "Blocks": [
     {
       "Tags": [
-        "1.30.0",
+        "1.30.1",
         "1.30",
         "1",
-        "1.30.0-apache",
+        "1.30.1-apache",
         "1.30-apache",
         "1-apache",
         "apache",
         "latest"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0f037348948190b7ce4f2e1afe67514818c5a9fc",
+      "Directory": "1/apache",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.30.1-fpm",
+        "1.30-fpm",
+        "1-fpm",
+        "fpm"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0f037348948190b7ce4f2e1afe67514818c5a9fc",
+      "Directory": "1/fpm",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.30.0",
+        "1.30.0-apache"
       ],
       "Architectures": {
         "amd64": {
@@ -113,10 +169,7 @@
     },
     {
       "Tags": [
-        "1.30.0-fpm",
-        "1.30-fpm",
-        "1-fpm",
-        "fpm"
+        "1.30.0-fpm"
       ],
       "Architectures": {
         "amd64": {
@@ -774,6 +827,30 @@
         }
       },
       "GitCommit": "1c82e369b6bf1b8ab45becda7f9f9777fe7f6a7f",
+      "Directory": "1/fpm",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.31.0-fpm"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0f037348948190b7ce4f2e1afe67514818c5a9fc",
       "Directory": "1/fpm",
       "File": ""
     }

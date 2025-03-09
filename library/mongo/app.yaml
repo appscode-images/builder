@@ -219,6 +219,96 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+  Directory: 6.0-rc
+  File: ""
+  GitCommit: 33fc9935798bca0cdbf73944fd9a3d739019f3f0
+  Tags:
+  - 6.0.21-rc0-jammy
+  - 6.0-rc-jammy
+  - 6.0.21-rc0
+  - 6.0-rc
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 6.0-rc/windows/windowsservercore-ltsc2025
+  File: ""
+  GitCommit: 33fc9935798bca0cdbf73944fd9a3d739019f3f0
+  Tags:
+  - 6.0.21-rc0-windowsservercore-ltsc2025
+  - 6.0-rc-windowsservercore-ltsc2025
+  - 6.0.21-rc0-windowsservercore
+  - 6.0-rc-windowsservercore
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 6.0-rc/windows/windowsservercore-ltsc2022
+  File: ""
+  GitCommit: 33fc9935798bca0cdbf73944fd9a3d739019f3f0
+  Tags:
+  - 6.0.21-rc0-windowsservercore-ltsc2022
+  - 6.0-rc-windowsservercore-ltsc2022
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 6.0-rc/windows/windowsservercore-1809
+  File: ""
+  GitCommit: 33fc9935798bca0cdbf73944fd9a3d739019f3f0
+  Tags:
+  - 6.0.21-rc0-windowsservercore-1809
+  - 6.0-rc-windowsservercore-1809
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 6.0-rc/windows/nanoserver-ltsc2022
+  File: ""
+  GitCommit: 33fc9935798bca0cdbf73944fd9a3d739019f3f0
+  Tags:
+  - 6.0.21-rc0-nanoserver-ltsc2022
+  - 6.0-rc-nanoserver-ltsc2022
+  - 6.0.21-rc0-nanoserver
+  - 6.0-rc-nanoserver
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 6.0-rc/windows/nanoserver-1809
+  File: ""
+  GitCommit: 33fc9935798bca0cdbf73944fd9a3d739019f3f0
+  Tags:
+  - 6.0.21-rc0-nanoserver-1809
+  - 6.0-rc-nanoserver-1809
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
   Directory: "6.0"
   File: ""
   GitCommit: 396a030cd1168154d8e71863bfb6c9aef803dc17
@@ -966,9 +1056,7 @@ Blocks:
   GitCommit: b709726695914275c03b7dd9d61f8d895b44a3a3
   Tags:
   - 6.0.20-rc3-jammy
-  - 6.0-rc-jammy
   - 6.0.20-rc3
-  - 6.0-rc
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -981,9 +1069,7 @@ Blocks:
   GitCommit: b709726695914275c03b7dd9d61f8d895b44a3a3
   Tags:
   - 6.0.20-rc3-windowsservercore-ltsc2022
-  - 6.0-rc-windowsservercore-ltsc2022
   - 6.0.20-rc3-windowsservercore
-  - 6.0-rc-windowsservercore
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -996,7 +1082,6 @@ Blocks:
   GitCommit: b709726695914275c03b7dd9d61f8d895b44a3a3
   Tags:
   - 6.0.20-rc3-windowsservercore-1809
-  - 6.0-rc-windowsservercore-1809
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -1009,9 +1094,7 @@ Blocks:
   GitCommit: b709726695914275c03b7dd9d61f8d895b44a3a3
   Tags:
   - 6.0.20-rc3-nanoserver-ltsc2022
-  - 6.0-rc-nanoserver-ltsc2022
   - 6.0.20-rc3-nanoserver
-  - 6.0-rc-nanoserver
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -1024,7 +1107,6 @@ Blocks:
   GitCommit: b709726695914275c03b7dd9d61f8d895b44a3a3
   Tags:
   - 6.0.20-rc3-nanoserver-1809
-  - 6.0-rc-nanoserver-1809
 - Architectures:
     amd64:
       Architecture: amd64
@@ -24105,6 +24187,7 @@ KnownTags:
   6.0-rc-windowsservercore: {}
   6.0-rc-windowsservercore-1809: {}
   6.0-rc-windowsservercore-ltsc2022: {}
+  6.0-rc-windowsservercore-ltsc2025: {}
   6.0-windowsservercore: {}
   6.0-windowsservercore-1809: {}
   6.0-windowsservercore-ltsc2022: {}
@@ -24375,6 +24458,15 @@ KnownTags:
   6.0.20-windowsservercore-1809: {}
   6.0.20-windowsservercore-ltsc2022: {}
   6.0.20-windowsservercore-ltsc2025: {}
+  6.0.21-rc0: {}
+  6.0.21-rc0-jammy: {}
+  6.0.21-rc0-nanoserver: {}
+  6.0.21-rc0-nanoserver-1809: {}
+  6.0.21-rc0-nanoserver-ltsc2022: {}
+  6.0.21-rc0-windowsservercore: {}
+  6.0.21-rc0-windowsservercore-1809: {}
+  6.0.21-rc0-windowsservercore-ltsc2022: {}
+  6.0.21-rc0-windowsservercore-ltsc2025: {}
   "7": {}
   7-jammy: {}
   7-nanoserver: {}

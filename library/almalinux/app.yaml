@@ -88,10 +88,138 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: ""
-  GitCommit: 9220c28666f44af82172cba59a3ddc30fbae1cb7
+  GitCommit: 861f8cac54e81214b50b6f5d9bb6c6c8f3878651
   Tags:
   - "8"
   - "8.10"
+  - 8.10-20250307
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: minimal/amd64/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: minimal/arm64/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: minimal/ppc64le/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: minimal/s390x/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: ""
+  GitCommit: 861f8cac54e81214b50b6f5d9bb6c6c8f3878651
+  Tags:
+  - 8-minimal
+  - 8.10-minimal
+  - 8.10-minimal-20250307
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: default/amd64/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: default/arm64/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: default/ppc64le/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: default/s390x/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: ""
+  GitCommit: 42e0ab782d07aaf454c82face64cece898f109c8
+  Tags:
+  - latest
+  - "9"
+  - "9.5"
+  - 9.5-20250307
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: minimal/amd64/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: minimal/arm64/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: minimal/ppc64le/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: minimal/s390x/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: ""
+  GitCommit: 42e0ab782d07aaf454c82face64cece898f109c8
+  Tags:
+  - minimal
+  - 9-minimal
+  - 9.5-minimal
+  - 9.5-minimal-20250307
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: default/amd64/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: default/arm64/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: default/ppc64le/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: default/s390x/
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: ""
+  GitCommit: 9220c28666f44af82172cba59a3ddc30fbae1cb7
+  Tags:
   - 8.10-20240923
 - Architectures:
     amd64:
@@ -122,8 +250,6 @@ Blocks:
   File: ""
   GitCommit: 9220c28666f44af82172cba59a3ddc30fbae1cb7
   Tags:
-  - 8-minimal
-  - 8.10-minimal
   - 8.10-minimal-20240923
 - Architectures:
     amd64:
@@ -154,9 +280,6 @@ Blocks:
   File: ""
   GitCommit: 77b627bf5868945d5ae46e65af84a2de13a7319a
   Tags:
-  - latest
-  - "9"
-  - "9.5"
   - 9.5-20241118
 - Architectures:
     amd64:
@@ -187,9 +310,6 @@ Blocks:
   File: ""
   GitCommit: 77b627bf5868945d5ae46e65af84a2de13a7319a
   Tags:
-  - minimal
-  - 9-minimal
-  - 9.5-minimal
   - 9.5-minimal-20241118
 - Architectures:
     amd64:
@@ -2631,10 +2751,12 @@ KnownTags:
   8.10-20240528: {}
   8.10-20240723: {}
   8.10-20240923: {}
+  8.10-20250307: {}
   8.10-minimal: {}
   8.10-minimal-20240528: {}
   8.10-minimal-20240723: {}
   8.10-minimal-20240923: {}
+  8.10-minimal-20250307: {}
   "9": {}
   9-minimal: {}
   "9.0": {}
@@ -2691,8 +2813,10 @@ KnownTags:
   9.4-minimal-20240923: {}
   "9.5": {}
   9.5-20241118: {}
+  9.5-20250307: {}
   9.5-minimal: {}
   9.5-minimal-20241118: {}
+  9.5-minimal-20250307: {}
   10-kitten: {}
   10-kitten-20241024: {}
   10-kitten-20250204: {}
