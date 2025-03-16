@@ -126,6 +126,10 @@
     "2025.1.0-datacenter-search": {},
     "2025.1.0-developer": {},
     "2025.1.0-enterprise": {},
+    "2025.1.1-datacenter-app": {},
+    "2025.1.1-datacenter-search": {},
+    "2025.1.1-developer": {},
+    "2025.1.1-enterprise": {},
     "24.12.0.100206-community": {},
     "25.1.0.102122-community": {},
     "25.2.0.102705-community": {},
@@ -480,6 +484,9 @@
     "9.9.8-datacenter-search": {},
     "9.9.8-developer": {},
     "9.9.8-enterprise": {},
+    "9.9.9-datacenter-app": {},
+    "9.9.9-datacenter-search": {},
+    "9.9.9-enterprise": {},
     "alpine": {},
     "community": {},
     "community-beta": {},
@@ -501,7 +508,7 @@
   "Blocks": [
     {
       "Tags": [
-        "2025.1.0-developer",
+        "2025.1.1-developer",
         "2025.1-developer",
         "2025-lta-developer",
         "developer"
@@ -528,7 +535,7 @@
     },
     {
       "Tags": [
-        "2025.1.0-enterprise",
+        "2025.1.1-enterprise",
         "2025.1-enterprise",
         "2025-lta-enterprise",
         "enterprise"
@@ -555,7 +562,7 @@
     },
     {
       "Tags": [
-        "2025.1.0-datacenter-app",
+        "2025.1.1-datacenter-app",
         "2025.1-datacenter-app",
         "2025-lta-datacenter-app",
         "datacenter-app"
@@ -582,7 +589,7 @@
     },
     {
       "Tags": [
-        "2025.1.0-datacenter-search",
+        "2025.1.1-datacenter-search",
         "2025.1-datacenter-search",
         "2025-lta-datacenter-search",
         "datacenter-search"
@@ -690,7 +697,7 @@
     },
     {
       "Tags": [
-        "9.9.8-enterprise",
+        "9.9.9-enterprise",
         "9.9-enterprise",
         "9-enterprise",
         "lts-enterprise"
@@ -717,7 +724,7 @@
     },
     {
       "Tags": [
-        "9.9.8-datacenter-app",
+        "9.9.9-datacenter-app",
         "9.9-datacenter-app",
         "9-datacenter-app",
         "lts-datacenter-app"
@@ -744,10 +751,178 @@
     },
     {
       "Tags": [
-        "9.9.8-datacenter-search",
+        "9.9.9-datacenter-search",
         "9.9-datacenter-search",
         "9-datacenter-search",
         "lts-datacenter-search"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "",
+      "Directory": "9/datacenter/search",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2025.1.0-developer"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "",
+      "Directory": "2025.1/developer",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2025.1.0-enterprise"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "",
+      "Directory": "2025.1/enterprise",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2025.1.0-datacenter-app"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "",
+      "Directory": "2025.1/datacenter/app",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2025.1.0-datacenter-search"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "",
+      "Directory": "2025.1/datacenter/search",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "9.9.8-enterprise"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "",
+      "Directory": "9/enterprise",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "9.9.8-datacenter-app"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "",
+      "Directory": "9/datacenter/app",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "9.9.8-datacenter-search"
       ],
       "Architectures": {
         "amd64": {

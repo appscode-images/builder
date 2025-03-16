@@ -16,7 +16,7 @@ Blocks:
   File: ""
   GitCommit: ""
   Tags:
-  - 2025.1.0-developer
+  - 2025.1.1-developer
   - 2025.1-developer
   - 2025-lta-developer
   - developer
@@ -37,7 +37,7 @@ Blocks:
   File: ""
   GitCommit: ""
   Tags:
-  - 2025.1.0-enterprise
+  - 2025.1.1-enterprise
   - 2025.1-enterprise
   - 2025-lta-enterprise
   - enterprise
@@ -58,7 +58,7 @@ Blocks:
   File: ""
   GitCommit: ""
   Tags:
-  - 2025.1.0-datacenter-app
+  - 2025.1.1-datacenter-app
   - 2025.1-datacenter-app
   - 2025-lta-datacenter-app
   - datacenter-app
@@ -79,7 +79,7 @@ Blocks:
   File: ""
   GitCommit: ""
   Tags:
-  - 2025.1.0-datacenter-search
+  - 2025.1.1-datacenter-search
   - 2025.1-datacenter-search
   - 2025-lta-datacenter-search
   - datacenter-search
@@ -163,7 +163,7 @@ Blocks:
   File: ""
   GitCommit: ""
   Tags:
-  - 9.9.8-enterprise
+  - 9.9.9-enterprise
   - 9.9-enterprise
   - 9-enterprise
   - lts-enterprise
@@ -184,7 +184,7 @@ Blocks:
   File: ""
   GitCommit: ""
   Tags:
-  - 9.9.8-datacenter-app
+  - 9.9.9-datacenter-app
   - 9.9-datacenter-app
   - 9-datacenter-app
   - lts-datacenter-app
@@ -205,10 +205,136 @@ Blocks:
   File: ""
   GitCommit: ""
   Tags:
-  - 9.9.8-datacenter-search
+  - 9.9.9-datacenter-search
   - 9.9-datacenter-search
   - 9-datacenter-search
   - lts-datacenter-search
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 2025.1/developer
+  File: ""
+  GitCommit: ""
+  Tags:
+  - 2025.1.0-developer
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 2025.1/enterprise
+  File: ""
+  GitCommit: ""
+  Tags:
+  - 2025.1.0-enterprise
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 2025.1/datacenter/app
+  File: ""
+  GitCommit: ""
+  Tags:
+  - 2025.1.0-datacenter-app
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 2025.1/datacenter/search
+  File: ""
+  GitCommit: ""
+  Tags:
+  - 2025.1.0-datacenter-search
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 9/enterprise
+  File: ""
+  GitCommit: ""
+  Tags:
+  - 9.9.8-enterprise
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 9/datacenter/app
+  File: ""
+  GitCommit: ""
+  Tags:
+  - 9.9.8-datacenter-app
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 9/datacenter/search
+  File: ""
+  GitCommit: ""
+  Tags:
+  - 9.9.8-datacenter-search
 - Architectures:
     amd64:
       Architecture: amd64
@@ -3878,6 +4004,9 @@ KnownTags:
   9.9.8-datacenter-search: {}
   9.9.8-developer: {}
   9.9.8-enterprise: {}
+  9.9.9-datacenter-app: {}
+  9.9.9-datacenter-search: {}
+  9.9.9-enterprise: {}
   10-community: {}
   10-datacenter-app: {}
   10-datacenter-search: {}
@@ -4006,6 +4135,10 @@ KnownTags:
   2025.1.0-datacenter-search: {}
   2025.1.0-developer: {}
   2025.1.0-enterprise: {}
+  2025.1.1-datacenter-app: {}
+  2025.1.1-datacenter-search: {}
+  2025.1.1-developer: {}
+  2025.1.1-enterprise: {}
   alpine: {}
   community: {}
   community-beta: {}
