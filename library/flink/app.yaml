@@ -12,14 +12,45 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+  Directory: ./2.0/scala_2.12-java21-ubuntu
+  File: ""
+  GitCommit: d32c85bcf93b430d56685b54ab5732a20e472e2e
+  Tags:
+  - 2.0.0-scala_2.12-java21
+  - 2.0-scala_2.12-java21
+  - scala_2.12-java21
+  - 2.0.0-java21
+  - 2.0-java21
+  - java21
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
   Directory: ./2.0/scala_2.12-java17-ubuntu
   File: ""
-  GitCommit: 3a8ba480ff327674b0a090c6ce417f0437576e92
+  GitCommit: d32c85bcf93b430d56685b54ab5732a20e472e2e
   Tags:
-  - 2.0-preview1-scala_2.12-java17
+  - 2.0.0-scala_2.12-java17
   - 2.0-scala_2.12-java17
-  - 2.0-preview1-java17
+  - scala_2.12-java17
+  - 2.0.0-scala_2.12
+  - 2.0-scala_2.12
+  - scala_2.12
+  - 2.0.0-java17
   - 2.0-java17
+  - java17
+  - 2.0.0
+  - "2.0"
+  - latest
 - Architectures:
     amd64:
       Architecture: amd64
@@ -35,16 +66,14 @@ Blocks:
       GitFetch: ""
   Directory: ./2.0/scala_2.12-java11-ubuntu
   File: ""
-  GitCommit: 3a8ba480ff327674b0a090c6ce417f0437576e92
+  GitCommit: d32c85bcf93b430d56685b54ab5732a20e472e2e
   Tags:
-  - 2.0-preview1-scala_2.12-java11
+  - 2.0.0-scala_2.12-java11
   - 2.0-scala_2.12-java11
-  - 2.0-preview1-scala_2.12
-  - 2.0-scala_2.12
-  - 2.0-preview1-java11
+  - scala_2.12-java11
+  - 2.0.0-java11
   - 2.0-java11
-  - 2.0-preview1
-  - "2.0"
+  - java11
 - Architectures:
     amd64:
       Architecture: amd64
@@ -85,10 +114,8 @@ Blocks:
   Tags:
   - 1.20.1-scala_2.12-java17
   - 1.20-scala_2.12-java17
-  - scala_2.12-java17
-  - 1.20-java17
   - 1.20.1-java17
-  - java17
+  - 1.20-java17
 - Architectures:
     amd64:
       Architecture: amd64
@@ -108,16 +135,12 @@ Blocks:
   Tags:
   - 1.20.1-scala_2.12-java11
   - 1.20-scala_2.12-java11
-  - scala_2.12-java11
   - 1.20.1-scala_2.12
   - 1.20-scala_2.12
-  - scala_2.12
   - 1.20.1-java11
   - 1.20-java11
-  - java11
   - 1.20.1
   - "1.20"
-  - latest
 - Architectures:
     amd64:
       Architecture: amd64
@@ -185,6 +208,46 @@ Blocks:
   - 1.19-java11
   - 1.19.2
   - "1.19"
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ./2.0/scala_2.12-java17-ubuntu
+  File: ""
+  GitCommit: 3a8ba480ff327674b0a090c6ce417f0437576e92
+  Tags:
+  - 2.0-preview1-scala_2.12-java17
+  - 2.0-preview1-java17
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ./2.0/scala_2.12-java11-ubuntu
+  File: ""
+  GitCommit: 3a8ba480ff327674b0a090c6ce417f0437576e92
+  Tags:
+  - 2.0-preview1-scala_2.12-java11
+  - 2.0-preview1-scala_2.12
+  - 2.0-preview1-java11
+  - 2.0-preview1
 - Architectures:
     amd64:
       Architecture: amd64
@@ -12877,6 +12940,7 @@ KnownTags:
   "2.0": {}
   2.0-java11: {}
   2.0-java17: {}
+  2.0-java21: {}
   2.0-preview1: {}
   2.0-preview1-java11: {}
   2.0-preview1-java17: {}
@@ -12886,6 +12950,15 @@ KnownTags:
   2.0-scala_2.12: {}
   2.0-scala_2.12-java11: {}
   2.0-scala_2.12-java17: {}
+  2.0-scala_2.12-java21: {}
+  2.0.0: {}
+  2.0.0-java11: {}
+  2.0.0-java17: {}
+  2.0.0-java21: {}
+  2.0.0-scala_2.12: {}
+  2.0.0-scala_2.12-java11: {}
+  2.0.0-scala_2.12-java17: {}
+  2.0.0-scala_2.12-java21: {}
   alpine: {}
   hadoop2: {}
   hadoop2-alpine: {}
@@ -12900,6 +12973,7 @@ KnownTags:
   java8: {}
   java11: {}
   java17: {}
+  java21: {}
   latest: {}
   latest-java8: {}
   latest-java11: {}
@@ -12914,4 +12988,5 @@ KnownTags:
   scala_2.12-java8: {}
   scala_2.12-java11: {}
   scala_2.12-java17: {}
+  scala_2.12-java21: {}
 Name: flink

@@ -38,12 +38,12 @@ Blocks:
       GitFetch: ""
   Directory: fresh/debian
   File: ""
-  GitCommit: 1dab93d8d1ea339f8ff527c62c748be2c50962c8
+  GitCommit: b28634cf1517af2f6e2eb79b993f9bd42f7ad8bc
   Tags:
   - fresh
-  - 7.6.1
+  - 7.7.0
   - "7"
-  - "7.6"
+  - "7.7"
   - latest
 - Architectures:
     amd64:
@@ -84,13 +84,145 @@ Blocks:
       GitFetch: ""
   Directory: fresh/alpine
   File: ""
-  GitCommit: 1dab93d8d1ea339f8ff527c62c748be2c50962c8
+  GitCommit: b28634cf1517af2f6e2eb79b993f9bd42f7ad8bc
   Tags:
   - fresh-alpine
-  - 7.6.1-alpine
+  - 7.7.0-alpine
   - 7-alpine
-  - 7.6-alpine
+  - 7.7-alpine
   - alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: old/debian
+  File: ""
+  GitCommit: b28634cf1517af2f6e2eb79b993f9bd42f7ad8bc
+  Tags:
+  - old
+  - 7.6.1
+  - "7.6"
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: old/alpine
+  File: ""
+  GitCommit: b28634cf1517af2f6e2eb79b993f9bd42f7ad8bc
+  Tags:
+  - old-alpine
+  - 7.6.1-alpine
+  - 7.6-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: stable/debian
+  File: ""
+  GitCommit: 2195c6673d226d168014f6b7b65ab2c633246689
+  Tags:
+  - stable
+  - 6.0.13
+  - "6.0"
 - Architectures:
     amd64:
       Architecture: amd64
@@ -132,7 +264,6 @@ Blocks:
   File: ""
   GitCommit: b0128734bee4e7e3e987b74fe54e48257ea24a27
   Tags:
-  - old
   - 7.5.0
   - "7.5"
 - Architectures:
@@ -176,53 +307,8 @@ Blocks:
   File: ""
   GitCommit: b0128734bee4e7e3e987b74fe54e48257ea24a27
   Tags:
-  - old-alpine
   - 7.5.0-alpine
   - 7.5-alpine
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm32v7:
-      Architecture: arm32v7
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    i386:
-      Architecture: i386
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    s390x:
-      Architecture: s390x
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: stable/debian
-  File: ""
-  GitCommit: 1dab93d8d1ea339f8ff527c62c748be2c50962c8
-  Tags:
-  - stable
-  - 6.0.13
-  - "6.0"
 - Architectures:
     amd64:
       Architecture: amd64
@@ -2212,6 +2298,10 @@ KnownTags:
   7.6.0-alpine: {}
   7.6.1: {}
   7.6.1-alpine: {}
+  "7.7": {}
+  7.7-alpine: {}
+  7.7.0: {}
+  7.7.0-alpine: {}
   alpine: {}
   fresh: {}
   fresh-alpine: {}
