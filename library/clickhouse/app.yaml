@@ -12,12 +12,37 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: server/25.2.2.39
+  Directory: server/25.3.2.39
   File: Dockerfile.ubuntu
-  GitCommit: 3bcf01164f68ee4add1bf97aedf405c2956c88d3
+  GitCommit: 7f2f20f9efbf129d00085d4a6f4e8e93c29b5064
   Tags:
   - latest
   - jammy
+  - lts
+  - lts-jammy
+  - "25.3"
+  - 25.3-jammy
+  - 25.3.2
+  - 25.3.2-jammy
+  - 25.3.2.39
+  - 25.3.2.39-jammy
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: server/25.2.2.39
+  File: Dockerfile.ubuntu
+  GitCommit: 7f2f20f9efbf129d00085d4a6f4e8e93c29b5064
+  Tags:
   - "25.2"
   - 25.2-jammy
   - 25.2.2
@@ -39,7 +64,7 @@ Blocks:
       GitFetch: ""
   Directory: server/25.1.8.25
   File: Dockerfile.ubuntu
-  GitCommit: 3bcf01164f68ee4add1bf97aedf405c2956c88d3
+  GitCommit: 7f2f20f9efbf129d00085d4a6f4e8e93c29b5064
   Tags:
   - "25.1"
   - 25.1-jammy
@@ -47,6 +72,29 @@ Blocks:
   - 25.1.8-jammy
   - 25.1.8.25
   - 25.1.8.25-jammy
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: server/24.8.14.39
+  File: Dockerfile.ubuntu
+  GitCommit: 7f2f20f9efbf129d00085d4a6f4e8e93c29b5064
+  Tags:
+  - "24.8"
+  - 24.8-focal
+  - 24.8.14
+  - 24.8.14-focal
+  - 24.8.14.39
+  - 24.8.14.39-focal
 - Architectures:
     amd64:
       Architecture: amd64
@@ -87,14 +135,7 @@ Blocks:
   File: Dockerfile.ubuntu
   GitCommit: 3bcf01164f68ee4add1bf97aedf405c2956c88d3
   Tags:
-  - lts
   - lts-focal
-  - "24.8"
-  - 24.8-focal
-  - 24.8.14
-  - 24.8.14-focal
-  - 24.8.14.39
-  - 24.8.14.39-focal
 - Architectures:
     amd64:
       Architecture: amd64
@@ -718,10 +759,17 @@ KnownTags:
   25.2.2-jammy: {}
   25.2.2.39: {}
   25.2.2.39-jammy: {}
+  "25.3": {}
+  25.3-jammy: {}
+  25.3.2: {}
+  25.3.2-jammy: {}
+  25.3.2.39: {}
+  25.3.2.39-jammy: {}
   focal: {}
   focal-lts: {}
   jammy: {}
   latest: {}
   lts: {}
   lts-focal: {}
+  lts-jammy: {}
 Name: clickhouse
