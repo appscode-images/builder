@@ -44,9 +44,12 @@ Blocks:
       GitFetch: ""
   Directory: ""
   File: ""
-  GitCommit: 89160e7182642ca47e43f5a3cd2388ccf5663551
+  GitCommit: f83883590f5afda69afafbc5aaa5fde3686f47cf
   Tags:
-  - 3.0.0-rc.4
+  - 3.0.0
+  - "3.0"
+  - "3"
+  - latest
 - Architectures:
     amd64:
       Architecture: amd64
@@ -91,7 +94,54 @@ Blocks:
   - 2.8.3
   - "2.8"
   - "2"
-  - latest
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ""
+  File: ""
+  GitCommit: 89160e7182642ca47e43f5a3cd2388ccf5663551
+  Tags:
+  - 3.0.0-rc.4
 - Architectures:
     amd64:
       Architecture: amd64
@@ -628,6 +678,9 @@ KnownTags:
   2.8.2: {}
   2.8.2-beta.2: {}
   2.8.3: {}
+  "3": {}
+  "3.0": {}
+  3.0.0: {}
   3.0.0-alpha.1: {}
   3.0.0-beta.1: {}
   3.0.0-rc.1: {}

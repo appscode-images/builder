@@ -431,6 +431,20 @@
     "1.11.4-windowsservercore-1809": {},
     "1.11.4-windowsservercore-ltsc2022": {},
     "1.11.4-windowsservercore-ltsc2025": {},
+    "1.12-rc": {},
+    "1.12-rc-bookworm": {},
+    "1.12-rc-bullseye": {},
+    "1.12-rc-windowsservercore": {},
+    "1.12-rc-windowsservercore-1809": {},
+    "1.12-rc-windowsservercore-ltsc2022": {},
+    "1.12-rc-windowsservercore-ltsc2025": {},
+    "1.12.0-beta1": {},
+    "1.12.0-beta1-bookworm": {},
+    "1.12.0-beta1-bullseye": {},
+    "1.12.0-beta1-windowsservercore": {},
+    "1.12.0-beta1-windowsservercore-1809": {},
+    "1.12.0-beta1-windowsservercore-ltsc2022": {},
+    "1.12.0-beta1-windowsservercore-ltsc2025": {},
     "1.2": {},
     "1.2-buster": {},
     "1.2-stretch": {},
@@ -1070,6 +1084,7 @@
     "rc-windowsservercore-1809": {},
     "rc-windowsservercore-ltsc2016": {},
     "rc-windowsservercore-ltsc2022": {},
+    "rc-windowsservercore-ltsc2025": {},
     "stretch": {},
     "windowsservercore": {},
     "windowsservercore-1709": {},
@@ -1080,6 +1095,135 @@
     "windowsservercore-ltsc2025": {}
   },
   "Blocks": [
+    {
+      "Tags": [
+        "1.12.0-beta1-bookworm",
+        "1.12-rc-bookworm",
+        "rc-bookworm",
+        "1.12.0-beta1",
+        "1.12-rc",
+        "rc"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "ae74313380ef427d6d6f53f5b597867944bb3623",
+      "Directory": "1.12-rc/bookworm",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.12.0-beta1-bullseye",
+        "1.12-rc-bullseye",
+        "rc-bullseye"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "ae74313380ef427d6d6f53f5b597867944bb3623",
+      "Directory": "1.12-rc/bullseye",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.12.0-beta1-windowsservercore-ltsc2025",
+        "1.12-rc-windowsservercore-ltsc2025",
+        "rc-windowsservercore-ltsc2025",
+        "1.12.0-beta1-windowsservercore",
+        "1.12-rc-windowsservercore",
+        "rc-windowsservercore"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "ae74313380ef427d6d6f53f5b597867944bb3623",
+      "Directory": "1.12-rc/windows/windowsservercore-ltsc2025",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.12.0-beta1-windowsservercore-ltsc2022",
+        "1.12-rc-windowsservercore-ltsc2022",
+        "rc-windowsservercore-ltsc2022"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "ae74313380ef427d6d6f53f5b597867944bb3623",
+      "Directory": "1.12-rc/windows/windowsservercore-ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.12.0-beta1-windowsservercore-1809",
+        "1.12-rc-windowsservercore-1809",
+        "rc-windowsservercore-1809"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "ae74313380ef427d6d6f53f5b597867944bb3623",
+      "Directory": "1.12-rc/windows/windowsservercore-1809",
+      "File": ""
+    },
     {
       "Tags": [
         "1.11.4-bookworm",
@@ -2420,10 +2564,8 @@
       "Tags": [
         "1.11.0-rc4-bookworm",
         "1.11-rc-bookworm",
-        "rc-bookworm",
         "1.11.0-rc4",
-        "1.11-rc",
-        "rc"
+        "1.11-rc"
       ],
       "Architectures": {
         "amd64": {
@@ -2462,8 +2604,7 @@
     {
       "Tags": [
         "1.11.0-rc4-bullseye",
-        "1.11-rc-bullseye",
-        "rc-bullseye"
+        "1.11-rc-bullseye"
       ],
       "Architectures": {
         "amd64": {
@@ -2496,10 +2637,8 @@
       "Tags": [
         "1.11.0-rc4-windowsservercore-ltsc2022",
         "1.11-rc-windowsservercore-ltsc2022",
-        "rc-windowsservercore-ltsc2022",
         "1.11.0-rc4-windowsservercore",
-        "1.11-rc-windowsservercore",
-        "rc-windowsservercore"
+        "1.11-rc-windowsservercore"
       ],
       "Architectures": {
         "windows-amd64": {
@@ -2517,8 +2656,7 @@
     {
       "Tags": [
         "1.11.0-rc4-windowsservercore-1809",
-        "1.11-rc-windowsservercore-1809",
-        "rc-windowsservercore-1809"
+        "1.11-rc-windowsservercore-1809"
       ],
       "Architectures": {
         "windows-amd64": {

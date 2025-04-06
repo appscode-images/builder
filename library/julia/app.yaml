@@ -18,6 +18,106 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+  Directory: 1.12-rc/bookworm
+  File: ""
+  GitCommit: ae74313380ef427d6d6f53f5b597867944bb3623
+  Tags:
+  - 1.12.0-beta1-bookworm
+  - 1.12-rc-bookworm
+  - rc-bookworm
+  - 1.12.0-beta1
+  - 1.12-rc
+  - rc
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.12-rc/bullseye
+  File: ""
+  GitCommit: ae74313380ef427d6d6f53f5b597867944bb3623
+  Tags:
+  - 1.12.0-beta1-bullseye
+  - 1.12-rc-bullseye
+  - rc-bullseye
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.12-rc/windows/windowsservercore-ltsc2025
+  File: ""
+  GitCommit: ae74313380ef427d6d6f53f5b597867944bb3623
+  Tags:
+  - 1.12.0-beta1-windowsservercore-ltsc2025
+  - 1.12-rc-windowsservercore-ltsc2025
+  - rc-windowsservercore-ltsc2025
+  - 1.12.0-beta1-windowsservercore
+  - 1.12-rc-windowsservercore
+  - rc-windowsservercore
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.12-rc/windows/windowsservercore-ltsc2022
+  File: ""
+  GitCommit: ae74313380ef427d6d6f53f5b597867944bb3623
+  Tags:
+  - 1.12.0-beta1-windowsservercore-ltsc2022
+  - 1.12-rc-windowsservercore-ltsc2022
+  - rc-windowsservercore-ltsc2022
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.12-rc/windows/windowsservercore-1809
+  File: ""
+  GitCommit: ae74313380ef427d6d6f53f5b597867944bb3623
+  Tags:
+  - 1.12.0-beta1-windowsservercore-1809
+  - 1.12-rc-windowsservercore-1809
+  - rc-windowsservercore-1809
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
     ppc64le:
       Architecture: ppc64le
       Directory: ""
@@ -1046,10 +1146,8 @@ Blocks:
   Tags:
   - 1.11.0-rc4-bookworm
   - 1.11-rc-bookworm
-  - rc-bookworm
   - 1.11.0-rc4
   - 1.11-rc
-  - rc
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1075,7 +1173,6 @@ Blocks:
   Tags:
   - 1.11.0-rc4-bullseye
   - 1.11-rc-bullseye
-  - rc-bullseye
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -1089,10 +1186,8 @@ Blocks:
   Tags:
   - 1.11.0-rc4-windowsservercore-ltsc2022
   - 1.11-rc-windowsservercore-ltsc2022
-  - rc-windowsservercore-ltsc2022
   - 1.11.0-rc4-windowsservercore
   - 1.11-rc-windowsservercore
-  - rc-windowsservercore
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -1106,7 +1201,6 @@ Blocks:
   Tags:
   - 1.11.0-rc4-windowsservercore-1809
   - 1.11-rc-windowsservercore-1809
-  - rc-windowsservercore-1809
 - Architectures:
     amd64:
       Architecture: amd64
@@ -11336,6 +11430,20 @@ KnownTags:
   1.11.4-windowsservercore-1809: {}
   1.11.4-windowsservercore-ltsc2022: {}
   1.11.4-windowsservercore-ltsc2025: {}
+  1.12-rc: {}
+  1.12-rc-bookworm: {}
+  1.12-rc-bullseye: {}
+  1.12-rc-windowsservercore: {}
+  1.12-rc-windowsservercore-1809: {}
+  1.12-rc-windowsservercore-ltsc2022: {}
+  1.12-rc-windowsservercore-ltsc2025: {}
+  1.12.0-beta1: {}
+  1.12.0-beta1-bookworm: {}
+  1.12.0-beta1-bullseye: {}
+  1.12.0-beta1-windowsservercore: {}
+  1.12.0-beta1-windowsservercore-1809: {}
+  1.12.0-beta1-windowsservercore-ltsc2022: {}
+  1.12.0-beta1-windowsservercore-ltsc2025: {}
   alpine: {}
   alpine3.12: {}
   alpine3.13: {}
@@ -11369,6 +11477,7 @@ KnownTags:
   rc-windowsservercore-1809: {}
   rc-windowsservercore-ltsc2016: {}
   rc-windowsservercore-ltsc2022: {}
+  rc-windowsservercore-ltsc2025: {}
   stretch: {}
   windowsservercore: {}
   windowsservercore-1709: {}
