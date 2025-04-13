@@ -32,13 +32,13 @@ Blocks:
       GitFetch: ""
   Directory: "5.0"
   File: ""
-  GitCommit: 105daf8445a12fc96ef48a1314566e0f61f473b2
+  GitCommit: 0f32c04c976068ddf4b094044bd333ca46d42887
   Tags:
-  - 5.0.3
+  - 5.0.4
   - "5.0"
   - "5"
   - latest
-  - 5.0.3-jammy
+  - 5.0.4-jammy
   - 5.0-jammy
   - 5-jammy
   - jammy
@@ -75,7 +75,7 @@ Blocks:
       GitFetch: ""
   Directory: "4.1"
   File: ""
-  GitCommit: f49e80e172f29e2cad0a9acd054806d9709a4205
+  GitCommit: 4acdd8cbbc6f21083e9b8176452a2728fa08f2c7
   Tags:
   - 4.1.8
   - "4.1"
@@ -116,7 +116,7 @@ Blocks:
       GitFetch: ""
   Directory: "4.0"
   File: ""
-  GitCommit: 8b58b84f373e48382e49d59acd0b544b33b2c034
+  GitCommit: 4acdd8cbbc6f21083e9b8176452a2728fa08f2c7
   Tags:
   - 4.0.17
   - "4.0"
@@ -149,7 +149,7 @@ Blocks:
       GitFetch: ""
   Directory: "3.11"
   File: ""
-  GitCommit: 011007d5b4f1b8e73835366ebb0a85ee89c29436
+  GitCommit: 4acdd8cbbc6f21083e9b8176452a2728fa08f2c7
   Tags:
   - 3.11.19
   - "3.11"
@@ -184,12 +184,49 @@ Blocks:
       GitFetch: ""
   Directory: "3.0"
   File: ""
-  GitCommit: d47ed59f99316e94a333126a10db20a440d4642d
+  GitCommit: 4acdd8cbbc6f21083e9b8176452a2728fa08f2c7
   Tags:
   - 3.0.32
   - "3.0"
   - 3.0.32-jammy
   - 3.0-jammy
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: "5.0"
+  File: ""
+  GitCommit: 105daf8445a12fc96ef48a1314566e0f61f473b2
+  Tags:
+  - 5.0.3
+  - 5.0.3-jammy
 - Architectures:
     amd64:
       Architecture: amd64
@@ -3451,6 +3488,8 @@ KnownTags:
   5.0.2-jammy: {}
   5.0.3: {}
   5.0.3-jammy: {}
+  5.0.4: {}
+  5.0.4-jammy: {}
   focal: {}
   jammy: {}
   latest: {}
