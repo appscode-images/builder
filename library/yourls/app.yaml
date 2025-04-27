@@ -50,13 +50,13 @@ Blocks:
       GitFetch: ""
   Directory: apache
   File: ""
-  GitCommit: 0901e6c9dd655f24bdfe42680508309114b71aa8
+  GitCommit: d306b06d6b3e94f1441c65385395f7a384a46101
   Tags:
-  - 1.10.0-apache
+  - 1.10.1-apache
   - 1.10-apache
   - 1-apache
   - apache
-  - 1.10.0
+  - 1.10.1
   - "1.10"
   - "1"
   - latest
@@ -111,9 +111,9 @@ Blocks:
       GitFetch: ""
   Directory: fpm
   File: ""
-  GitCommit: 0901e6c9dd655f24bdfe42680508309114b71aa8
+  GitCommit: d306b06d6b3e94f1441c65385395f7a384a46101
   Tags:
-  - 1.10.0-fpm
+  - 1.10.1-fpm
   - 1.10-fpm
   - 1-fpm
   - fpm
@@ -168,12 +168,175 @@ Blocks:
       GitFetch: ""
   Directory: fpm-alpine
   File: ""
-  GitCommit: 0901e6c9dd655f24bdfe42680508309114b71aa8
+  GitCommit: d306b06d6b3e94f1441c65385395f7a384a46101
   Tags:
-  - 1.10.0-fpm-alpine
+  - 1.10.1-fpm-alpine
   - 1.10-fpm-alpine
   - 1-fpm-alpine
   - fpm-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: apache
+  File: ""
+  GitCommit: 0901e6c9dd655f24bdfe42680508309114b71aa8
+  Tags:
+  - 1.10.0-apache
+  - 1.10.0
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: fpm
+  File: ""
+  GitCommit: 0901e6c9dd655f24bdfe42680508309114b71aa8
+  Tags:
+  - 1.10.0-fpm
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: fpm-alpine
+  File: ""
+  GitCommit: 0901e6c9dd655f24bdfe42680508309114b71aa8
+  Tags:
+  - 1.10.0-fpm-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1666,6 +1829,10 @@ KnownTags:
   1.10.0-apache: {}
   1.10.0-fpm: {}
   1.10.0-fpm-alpine: {}
+  1.10.1: {}
+  1.10.1-apache: {}
+  1.10.1-fpm: {}
+  1.10.1-fpm-alpine: {}
   apache: {}
   fpm: {}
   fpm-alpine: {}

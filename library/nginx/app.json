@@ -715,6 +715,34 @@
     "1.27.5-bookworm-perl": {},
     "1.27.5-otel": {},
     "1.27.5-perl": {},
+    "1.28": {},
+    "1.28-alpine": {},
+    "1.28-alpine-otel": {},
+    "1.28-alpine-perl": {},
+    "1.28-alpine-slim": {},
+    "1.28-alpine3.21": {},
+    "1.28-alpine3.21-otel": {},
+    "1.28-alpine3.21-perl": {},
+    "1.28-alpine3.21-slim": {},
+    "1.28-bookworm": {},
+    "1.28-bookworm-otel": {},
+    "1.28-bookworm-perl": {},
+    "1.28-otel": {},
+    "1.28-perl": {},
+    "1.28.0": {},
+    "1.28.0-alpine": {},
+    "1.28.0-alpine-otel": {},
+    "1.28.0-alpine-perl": {},
+    "1.28.0-alpine-slim": {},
+    "1.28.0-alpine3.21": {},
+    "1.28.0-alpine3.21-otel": {},
+    "1.28.0-alpine3.21-perl": {},
+    "1.28.0-alpine3.21-slim": {},
+    "1.28.0-bookworm": {},
+    "1.28.0-bookworm-otel": {},
+    "1.28.0-bookworm-perl": {},
+    "1.28.0-otel": {},
+    "1.28.0-perl": {},
     "alpine": {},
     "alpine-otel": {},
     "alpine-perl": {},
@@ -793,6 +821,10 @@
     "stable-alpine3.20-otel": {},
     "stable-alpine3.20-perl": {},
     "stable-alpine3.20-slim": {},
+    "stable-alpine3.21": {},
+    "stable-alpine3.21-otel": {},
+    "stable-alpine3.21-perl": {},
+    "stable-alpine3.21-slim": {},
     "stable-bookworm": {},
     "stable-bookworm-otel": {},
     "stable-bookworm-perl": {},
@@ -1245,11 +1277,422 @@
     },
     {
       "Tags": [
-        "1.26.3",
+        "1.28.0",
         "stable",
+        "1.28",
+        "1.28.0-bookworm",
+        "stable-bookworm",
+        "1.28-bookworm"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "mips64le": {
+          "Architecture": "mips64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7f1d49f6f222f7e588a9066fd53a0ce43c3466a5",
+      "Directory": "stable/debian",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.28.0-perl",
+        "stable-perl",
+        "1.28-perl",
+        "1.28.0-bookworm-perl",
+        "stable-bookworm-perl",
+        "1.28-bookworm-perl"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "mips64le": {
+          "Architecture": "mips64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7f1d49f6f222f7e588a9066fd53a0ce43c3466a5",
+      "Directory": "stable/debian-perl",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.28.0-otel",
+        "stable-otel",
+        "1.28-otel",
+        "1.28.0-bookworm-otel",
+        "stable-bookworm-otel",
+        "1.28-bookworm-otel"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7f1d49f6f222f7e588a9066fd53a0ce43c3466a5",
+      "Directory": "stable/debian-otel",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.28.0-alpine",
+        "stable-alpine",
+        "1.28-alpine",
+        "1.28.0-alpine3.21",
+        "stable-alpine3.21",
+        "1.28-alpine3.21"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7f1d49f6f222f7e588a9066fd53a0ce43c3466a5",
+      "Directory": "stable/alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.28.0-alpine-perl",
+        "stable-alpine-perl",
+        "1.28-alpine-perl",
+        "1.28.0-alpine3.21-perl",
+        "stable-alpine3.21-perl",
+        "1.28-alpine3.21-perl"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7f1d49f6f222f7e588a9066fd53a0ce43c3466a5",
+      "Directory": "stable/alpine-perl",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.28.0-alpine-slim",
+        "stable-alpine-slim",
+        "1.28-alpine-slim",
+        "1.28.0-alpine3.21-slim",
+        "stable-alpine3.21-slim",
+        "1.28-alpine3.21-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7f1d49f6f222f7e588a9066fd53a0ce43c3466a5",
+      "Directory": "stable/alpine-slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.28.0-alpine-otel",
+        "stable-alpine-otel",
+        "1.28-alpine-otel",
+        "1.28.0-alpine3.21-otel",
+        "stable-alpine3.21-otel",
+        "1.28-alpine3.21-otel"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7f1d49f6f222f7e588a9066fd53a0ce43c3466a5",
+      "Directory": "stable/alpine-otel",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.26.3",
         "1.26",
         "1.26.3-bookworm",
-        "stable-bookworm",
         "1.26-bookworm"
       ],
       "Architectures": {
@@ -1317,10 +1760,8 @@
     {
       "Tags": [
         "1.26.3-perl",
-        "stable-perl",
         "1.26-perl",
         "1.26.3-bookworm-perl",
-        "stable-bookworm-perl",
         "1.26-bookworm-perl"
       ],
       "Architectures": {
@@ -1388,10 +1829,8 @@
     {
       "Tags": [
         "1.26.3-otel",
-        "stable-otel",
         "1.26-otel",
         "1.26.3-bookworm-otel",
-        "stable-bookworm-otel",
         "1.26-bookworm-otel"
       ],
       "Architectures": {
@@ -1417,7 +1856,6 @@
     {
       "Tags": [
         "1.26.3-alpine",
-        "stable-alpine",
         "1.26-alpine",
         "1.26.3-alpine3.20",
         "stable-alpine3.20",
@@ -1488,7 +1926,6 @@
     {
       "Tags": [
         "1.26.3-alpine-perl",
-        "stable-alpine-perl",
         "1.26-alpine-perl",
         "1.26.3-alpine3.20-perl",
         "stable-alpine3.20-perl",
@@ -1559,7 +1996,6 @@
     {
       "Tags": [
         "1.26.3-alpine-slim",
-        "stable-alpine-slim",
         "1.26-alpine-slim",
         "1.26.3-alpine3.20-slim",
         "stable-alpine3.20-slim",
@@ -1630,7 +2066,6 @@
     {
       "Tags": [
         "1.26.3-alpine-otel",
-        "stable-alpine-otel",
         "1.26-alpine-otel",
         "1.26.3-alpine3.20-otel",
         "stable-alpine3.20-otel",

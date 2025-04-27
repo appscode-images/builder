@@ -14,19 +14,38 @@ Blocks:
   - ps-8.0
   - ps-8
 - Architectures: null
+  Directory: percona-server-mongodb-8.0
+  File: Dockerfile-dockerhub
+  GitCommit: 01836bbd1b62ad6ee28226986b2d7fff660523b6
+  Tags:
+  - psmdb-8.0.4
+  - psmdb-8.0
+- Architectures: null
+  Directory: percona-server-mongodb-7.0
+  File: Dockerfile-dockerhub
+  GitCommit: 01836bbd1b62ad6ee28226986b2d7fff660523b6
+  Tags:
+  - psmdb-7.0.16
+  - psmdb-7.0
+- Architectures: null
+  Directory: percona-server-mongodb-6.0
+  File: Dockerfile-dockerhub
+  GitCommit: 01836bbd1b62ad6ee28226986b2d7fff660523b6
+  Tags:
+  - psmdb-6.0.21
+  - psmdb-6.0
+- Architectures: null
   Directory: percona-server-mongodb-7.0
   File: Dockerfile-dockerhub
   GitCommit: 5640bc536e5ce7d1559fc4f28868fda941bbaf1d
   Tags:
   - psmdb-7.0.15
-  - psmdb-7.0
 - Architectures: null
   Directory: percona-server-mongodb-6.0
   File: Dockerfile-dockerhub
   GitCommit: 5640bc536e5ce7d1559fc4f28868fda941bbaf1d
   Tags:
   - psmdb-6.0.19
-  - psmdb-6.0
 - Architectures: null
   Directory: percona-server-mongodb-5.0
   File: Dockerfile-dockerhub
@@ -1488,7 +1507,11 @@ KnownTags:
   psmdb-6.0: {}
   psmdb-6.0.6: {}
   psmdb-6.0.19: {}
+  psmdb-6.0.21: {}
   psmdb-7.0: {}
   psmdb-7.0.15: {}
+  psmdb-7.0.16: {}
+  psmdb-8.0: {}
+  psmdb-8.0.4: {}
   stretch: {}
 Name: percona
