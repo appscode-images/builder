@@ -321,6 +321,21 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, cherrypicks []string, 
 		}
 		sh.SetDir(dockerfileDir)
 
+		if name == "cassandra-management" {
+			// wget https://github.com/k8ssandra/management-api-for-apache-cassandra/releases/download/v0.1.102/jars.zip
+			// unzip jars.zip
+
+			err = sh.Command("wget", fmt.Sprintf("https://github.com/k8ssandra/management-api-for-apache-cassandra/releases/download/%s/jars.zip", b.GitCommit)).Run()
+			if err != nil {
+				return err
+			}
+
+			err = sh.Command("unzip", "-o", "jars.zip").Run()
+			if err != nil {
+				return err
+			}
+		}
+
 		img := fmt.Sprintf("%s/%s:%s_%s_%s", api.DAILY_REGISTRY, name, tag, ts, strings.ReplaceAll(lib.Platform(arch), "/", "_"))
 		archImages = append(archImages, img)
 		args := []any{
