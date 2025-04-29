@@ -1,121 +1,4 @@
-package main
-
-import (
-	"fmt"
-	"os"
-	"path/filepath"
-	"strings"
-
-	"github.com/appscode-images/builder/lib"
-	flag "github.com/spf13/pflag"
-	"gomodules.xyz/sets"
-	"k8s.io/klog/v2"
-)
-
-var skipApps sets.String
-
-func main() {
-	skipList := []string{
-		"ferretdb",
-		"opensearch",
-		"opensearch-dashboards",
-	}
-	flag.StringSliceVar(&skipList, "skip", skipList, "Skip official image (because manually maintained)")
-	flag.Parse()
-
-	skipApps = sets.NewString(skipList...)
-
-	dir, err := os.Getwd()
-	if err != nil {
-		panic(err)
-	}
-
-	if err := CleanupOldWorkflows(dir); err != nil {
-		panic(err)
-	}
-	if err := GenerateWorkflows(dir); err != nil {
-		panic(err)
-	}
-}
-
-func CleanupOldWorkflows(dir string) error {
-	wfDir := filepath.Join(dir, ".github", "workflows")
-	entries, err := os.ReadDir(wfDir)
-	if err != nil {
-		return err
-	}
-	for _, entry := range entries {
-		if entry.IsDir() {
-			continue
-		}
-		if strings.HasPrefix(entry.Name(), "build-") {
-			appName := strings.TrimSuffix(strings.TrimPrefix(entry.Name(), "build-"), filepath.Ext(entry.Name()))
-			if skipApps.Len() > 0 && skipApps.Has(appName) {
-				continue
-			}
-
-			if err = os.Remove(filepath.Join(wfDir, entry.Name())); err != nil {
-				return err
-			}
-		}
-	}
-	return nil
-}
-
-func GenerateWorkflows(dir string) error {
-	libDir := filepath.Join(dir, "library")
-	entries, err := os.ReadDir(libDir)
-	if err != nil {
-		return err
-	}
-	for _, entry := range entries {
-		if !entry.IsDir() {
-			continue
-		}
-
-		appName := entry.Name()
-		if skipApps.Len() > 0 && skipApps.Has(appName) {
-			klog.InfoS("skipping", "app", appName)
-			continue
-		}
-
-		tags, err := lib.ListBuildTags(dir, entry.Name())
-		if err != nil {
-			if os.IsNotExist(err) {
-				continue
-			}
-			return err
-		}
-		if len(tags) == 0 {
-			continue
-		}
-
-		wfDir := filepath.Join(dir, ".github", "workflows")
-		if err := os.MkdirAll(wfDir, 0755); err != nil {
-			return err
-		}
-		wfFile := filepath.Join(wfDir, fmt.Sprintf("build-%s.yml", entry.Name()))
-
-		wfYAML := strings.ReplaceAll(wf, "$name$", entry.Name())
-		wfYAML = strings.ReplaceAll(wfYAML, "$runner$", selectRunner(entry.Name()))
-		wfYAML = strings.ReplaceAll(wfYAML, "$tags$", strings.Join(tags, ", "))
-		if err := os.WriteFile(wfFile, []byte(wfYAML), 0644); err != nil {
-			return err
-		}
-	}
-	return nil
-}
-
-func selectRunner(name string) string {
-	switch name {
-	case "ignite", "node", "postgres", "memcached", "solr":
-		return "firecracker"
-	default:
-		return "ubuntu-latest"
-	}
-}
-
-const wf = `name: build-$name$
+name: build-ignite
 
 on:
   schedule:
@@ -129,11 +12,11 @@ concurrency:
 jobs:
   build:
     name: Build
-    runs-on: $runner$
+    runs-on: firecracker
     strategy:
       fail-fast: false
       matrix:
-        tag: [$tags$]
+        tag: [2.17.0]
     steps:
     - uses: actions/checkout@v4
 
@@ -190,11 +73,11 @@ jobs:
 
     - name: Build
       run: |
-        go run cmd/build-image/main.go --name=$name$ --tag=${{ matrix.tag }}
+        go run cmd/build-image/main.go --name=ignite --tag=${{ matrix.tag }}
 
 #  report:
 #    name: Report
-#    runs-on: $runner$
+#    runs-on: firecracker
 #    needs: build
 #    if: always()
 #    steps:
@@ -252,16 +135,15 @@ jobs:
 #        SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
 #        SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
 #      run: |
-#        go run cmd/mail-report/main.go --name=$name$
+#        go run cmd/mail-report/main.go --name=ignite
 #
 #    - name: Update repo
 #      run: |
 #        git add --all
 #        if [[ $(git status --porcelain) ]]; then
-#          git commit -s -a -m "update $name$ images $(date --rfc-3339=date)"
+#          git commit -s -a -m "update ignite images $(date --rfc-3339=date)"
 #          git fetch origin
 #          # https://git-scm.com/docs/merge-strategies
 #          git pull --rebase -s ours origin master
 #          git push origin HEAD
 #        fi
-`
