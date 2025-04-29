@@ -34,6 +34,7 @@ func main() {
 		"logstash",
 		"opensearch",
 		"opensearch-dashboards",
+		"valkey",
 	}
 	flag.StringSliceVar(&skipList, "skip", skipList, "Skip official image (because manually maintained)")
 	flag.Parse()
