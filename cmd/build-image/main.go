@@ -340,7 +340,7 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, cherrypicks []string, 
 			// ./mvnw clean install -Pall-java,licenses -DskipTests
 			// ./mvnw initialize -Prelease
 			// cd deliveries/docker/apache-ignite
-			// cp -rfv ../../../target/bin/apache-ignite-*.zip .
+			// curl https://archive.apache.org/dist/ignite/%v/apache-ignite-2.16.0-bin.zip -o apache-ignite-2.16.0-bin.zip
 			// unzip -o apache-ignite-*.zip
 
 			err = sh.Command("sudo", "apt-get", "install", "-y", "openjdk-11-jdk", "maven", "libnuma-dev", "unzip").Run()
@@ -356,11 +356,15 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, cherrypicks []string, 
 				return err
 			}
 			sh.SetDir(filepath.Join(dockerfileDir, "deliveries/docker/apache-ignite"))
-			err = sh.Command("cp", "-rfv", fmt.Sprintf("../../../target/bin/apache-ignite-%s-bin.zip", tag), ".").Run()
+
+			httpURL := fmt.Sprintf("https://archive.apache.org/dist/ignite/%v/apache-ignite-%v-bin.zip", tag, tag)
+			zip := fmt.Sprintf("apache-ignite-%v-bin.zip", tag)
+
+			err = sh.Command("curl", httpURL, "-o", zip).Run()
 			if err != nil {
 				return err
 			}
-			err = sh.Command("unzip", "-o", fmt.Sprintf("apache-ignite-%s-bin.zip", tag)).Run()
+			err = sh.Command("unzip", "-o", zip).Run()
 			if err != nil {
 				return err
 			}
