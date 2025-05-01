@@ -48,7 +48,7 @@ func listTags(dir, name, tagFile string) ([]string, error) {
 	tags := make([]string, 0, len(lines))
 	for _, line := range lines {
 		line = strings.TrimSpace(line)
-		if line == "" {
+		if line == "" || strings.HasPrefix(line, "#") || strings.HasPrefix(line, "//") {
 			continue
 		}
 		tags = append(tags, line)
