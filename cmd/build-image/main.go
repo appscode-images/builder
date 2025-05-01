@@ -334,7 +334,7 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, cherrypicks []string, 
 			if err != nil {
 				return err
 			}
-		} else {
+		} else if name == "ignite" {
 			// https://github.com/apache/ignite/blob/master/DEVNOTES.txt#L17C9-L17C61
 			// sudo apt-get install openjdk-11-jdk maven
 			// ./mvnw clean install -Pall-java,licenses -DskipTests
