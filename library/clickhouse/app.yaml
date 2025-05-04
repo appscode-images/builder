@@ -12,18 +12,18 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: server/25.4.1.2934
+  Directory: server/25.4.2.31
   File: Dockerfile.ubuntu
-  GitCommit: 887ac97b99841776d67267592c4cc96141a5d467
+  GitCommit: 5f600937076099ad4f7bee2e9e91d458a491dc8b
   Tags:
   - latest
   - jammy
   - "25.4"
   - 25.4-jammy
-  - 25.4.1
-  - 25.4.1-jammy
-  - 25.4.1.2934
-  - 25.4.1.2934-jammy
+  - 25.4.2
+  - 25.4.2-jammy
+  - 25.4.2.31
+  - 25.4.2.31-jammy
 - Architectures:
     amd64:
       Architecture: amd64
@@ -39,7 +39,7 @@ Blocks:
       GitFetch: ""
   Directory: server/25.3.3.42
   File: Dockerfile.ubuntu
-  GitCommit: 887ac97b99841776d67267592c4cc96141a5d467
+  GitCommit: 5f600937076099ad4f7bee2e9e91d458a491dc8b
   Tags:
   - lts
   - lts-jammy
@@ -64,7 +64,7 @@ Blocks:
       GitFetch: ""
   Directory: server/25.2.2.39
   File: Dockerfile.ubuntu
-  GitCommit: 887ac97b99841776d67267592c4cc96141a5d467
+  GitCommit: 5f600937076099ad4f7bee2e9e91d458a491dc8b
   Tags:
   - "25.2"
   - 25.2-jammy
@@ -87,7 +87,7 @@ Blocks:
       GitFetch: ""
   Directory: server/24.8.14.39
   File: Dockerfile.ubuntu
-  GitCommit: 887ac97b99841776d67267592c4cc96141a5d467
+  GitCommit: 5f600937076099ad4f7bee2e9e91d458a491dc8b
   Tags:
   - "24.8"
   - 24.8-focal
@@ -95,6 +95,27 @@ Blocks:
   - 24.8.14-focal
   - 24.8.14.39
   - 24.8.14.39-focal
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: server/25.4.1.2934
+  File: Dockerfile.ubuntu
+  GitCommit: 887ac97b99841776d67267592c4cc96141a5d467
+  Tags:
+  - 25.4.1
+  - 25.4.1-jammy
+  - 25.4.1.2934
+  - 25.4.1.2934-jammy
 - Architectures:
     amd64:
       Architecture: amd64
@@ -819,6 +840,10 @@ KnownTags:
   25.4.1-jammy: {}
   25.4.1.2934: {}
   25.4.1.2934-jammy: {}
+  25.4.2: {}
+  25.4.2-jammy: {}
+  25.4.2.31: {}
+  25.4.2.31-jammy: {}
   focal: {}
   focal-lts: {}
   jammy: {}
