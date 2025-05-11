@@ -1,31 +1,61 @@
 GitRepo: https://github.com/nodejs/docker-node.git
 
-Tags: 23-alpine3.20,23.11-alpine3.20,23.11.0-alpine3.20,alpine3.20,current-alpine3.20
+Tags: 24-alpine3.20,24.0-alpine3.20,24.0.1-alpine3.20,alpine3.20,current-alpine3.20
+Architectures: amd64,arm32v6,arm32v7,arm64v8,s390x
+GitCommit: d9138b93aec8cd4b4febaae0b4e40b3272015ca6
+Directory: 24/alpine3.20
+
+Tags: 24-alpine,24-alpine3.21,24.0-alpine,24.0-alpine3.21,24.0.1-alpine,24.0.1-alpine3.21,alpine,alpine3.21,current-alpine,current-alpine3.21
+Architectures: amd64,arm32v6,arm32v7,arm64v8,s390x
+GitCommit: d9138b93aec8cd4b4febaae0b4e40b3272015ca6
+Directory: 24/alpine3.21
+
+Tags: 24,24-bookworm,24.0,24.0-bookworm,24.0.1,24.0.1-bookworm,bookworm,current,current-bookworm,latest
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: d9138b93aec8cd4b4febaae0b4e40b3272015ca6
+Directory: 24/bookworm
+
+Tags: 24-bookworm-slim,24-slim,24.0-bookworm-slim,24.0-slim,24.0.1-bookworm-slim,24.0.1-slim,bookworm-slim,current-bookworm-slim,current-slim,slim
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: d9138b93aec8cd4b4febaae0b4e40b3272015ca6
+Directory: 24/bookworm-slim
+
+Tags: 24-bullseye,24.0-bullseye,24.0.1-bullseye,bullseye,current-bullseye
+Architectures: amd64,arm64v8
+GitCommit: d9138b93aec8cd4b4febaae0b4e40b3272015ca6
+Directory: 24/bullseye
+
+Tags: 24-bullseye-slim,24.0-bullseye-slim,24.0.1-bullseye-slim,bullseye-slim,current-bullseye-slim
+Architectures: amd64,arm64v8
+GitCommit: d9138b93aec8cd4b4febaae0b4e40b3272015ca6
+Directory: 24/bullseye-slim
+
+Tags: 23-alpine3.20,23.11-alpine3.20,23.11.0-alpine3.20
 Architectures: amd64,arm32v6,arm32v7,arm64v8,s390x
 GitCommit: f6908ff3eb35a5d0c8fc60086fd29ae16e3abdba
 Directory: 23/alpine3.20
 
-Tags: 23-alpine,23-alpine3.21,23.11-alpine,23.11-alpine3.21,23.11.0-alpine,23.11.0-alpine3.21,alpine,alpine3.21,current-alpine,current-alpine3.21
+Tags: 23-alpine,23-alpine3.21,23.11-alpine,23.11-alpine3.21,23.11.0-alpine,23.11.0-alpine3.21
 Architectures: amd64,arm32v6,arm32v7,arm64v8,s390x
 GitCommit: f6908ff3eb35a5d0c8fc60086fd29ae16e3abdba
 Directory: 23/alpine3.21
 
-Tags: 23,23-bookworm,23.11,23.11-bookworm,23.11.0,23.11.0-bookworm,bookworm,current,current-bookworm,latest
+Tags: 23,23-bookworm,23.11,23.11-bookworm,23.11.0,23.11.0-bookworm
 Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: f6908ff3eb35a5d0c8fc60086fd29ae16e3abdba
 Directory: 23/bookworm
 
-Tags: 23-bookworm-slim,23-slim,23.11-bookworm-slim,23.11-slim,23.11.0-bookworm-slim,23.11.0-slim,bookworm-slim,current-bookworm-slim,current-slim,slim
+Tags: 23-bookworm-slim,23-slim,23.11-bookworm-slim,23.11-slim,23.11.0-bookworm-slim,23.11.0-slim
 Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: f6908ff3eb35a5d0c8fc60086fd29ae16e3abdba
 Directory: 23/bookworm-slim
 
-Tags: 23-bullseye,23.11-bullseye,23.11.0-bullseye,bullseye,current-bullseye
+Tags: 23-bullseye,23.11-bullseye,23.11.0-bullseye
 Architectures: amd64,arm64v8
 GitCommit: f6908ff3eb35a5d0c8fc60086fd29ae16e3abdba
 Directory: 23/bullseye
 
-Tags: 23-bullseye-slim,23.11-bullseye-slim,23.11.0-bullseye-slim,bullseye-slim,current-bullseye-slim
+Tags: 23-bullseye-slim,23.11-bullseye-slim,23.11.0-bullseye-slim
 Architectures: amd64,arm64v8
 GitCommit: f6908ff3eb35a5d0c8fc60086fd29ae16e3abdba
 Directory: 23/bullseye-slim
@@ -119,6 +149,36 @@ Tags: 18-bullseye-slim,18.20-bullseye-slim,18.20.8-bullseye-slim,hydrogen-bullse
 Architectures: amd64,arm32v7,arm64v8
 GitCommit: ba2b3e61e6aaf4643108fb5f1cda9ee5238efde5
 Directory: 18/bullseye-slim
+
+Tags: 24.0.0-alpine3.20
+Architectures: amd64,arm32v6,arm32v7,arm64v8,s390x
+GitCommit: b3ae4060c7bb20d34896ab3e1f5f3d2ee7dcdd10
+Directory: 24/alpine3.20
+
+Tags: 24.0.0-alpine,24.0.0-alpine3.21
+Architectures: amd64,arm32v6,arm32v7,arm64v8,s390x
+GitCommit: b3ae4060c7bb20d34896ab3e1f5f3d2ee7dcdd10
+Directory: 24/alpine3.21
+
+Tags: 24.0.0,24.0.0-bookworm
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: b3ae4060c7bb20d34896ab3e1f5f3d2ee7dcdd10
+Directory: 24/bookworm
+
+Tags: 24.0.0-bookworm-slim,24.0.0-slim
+Architectures: amd64,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: b3ae4060c7bb20d34896ab3e1f5f3d2ee7dcdd10
+Directory: 24/bookworm-slim
+
+Tags: 24.0.0-bullseye
+Architectures: amd64,arm64v8
+GitCommit: b3ae4060c7bb20d34896ab3e1f5f3d2ee7dcdd10
+Directory: 24/bullseye
+
+Tags: 24.0.0-bullseye-slim
+Architectures: amd64,arm64v8
+GitCommit: b3ae4060c7bb20d34896ab3e1f5f3d2ee7dcdd10
+Directory: 24/bullseye-slim
 
 Tags: 22.14-alpine3.20,22.14.0-alpine3.20
 Architectures: amd64,arm32v6,arm32v7,arm64v8,s390x
