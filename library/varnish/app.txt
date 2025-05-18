@@ -1,26 +1,51 @@
 GitRepo: https://github.com/varnish/docker-varnish.git
 
-Tags: fresh,7.7.0,7,7.7,latest
+Tags: fresh,7.7.1,7,7.7,latest
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+GitCommit: ea97ed35f2b0eb438ccd6a9250c36567686bfb4a
+Directory: fresh/debian
+
+Tags: fresh-alpine,7.7.1-alpine,7-alpine,7.7-alpine,alpine
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+GitCommit: ea97ed35f2b0eb438ccd6a9250c36567686bfb4a
+Directory: fresh/alpine
+
+Tags: old,7.6.3,7.6
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+GitCommit: ea97ed35f2b0eb438ccd6a9250c36567686bfb4a
+Directory: old/debian
+
+Tags: old-alpine,7.6.3-alpine,7.6-alpine
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+GitCommit: ea97ed35f2b0eb438ccd6a9250c36567686bfb4a
+Directory: old/alpine
+
+Tags: stable,6.0.14,6.0
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+GitCommit: ea97ed35f2b0eb438ccd6a9250c36567686bfb4a
+Directory: stable/debian
+
+Tags: 7.7.0
 Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: b28634cf1517af2f6e2eb79b993f9bd42f7ad8bc
 Directory: fresh/debian
 
-Tags: fresh-alpine,7.7.0-alpine,7-alpine,7.7-alpine,alpine
+Tags: 7.7.0-alpine
 Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: b28634cf1517af2f6e2eb79b993f9bd42f7ad8bc
 Directory: fresh/alpine
 
-Tags: old,7.6.1,7.6
+Tags: 7.6.1
 Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: b28634cf1517af2f6e2eb79b993f9bd42f7ad8bc
 Directory: old/debian
 
-Tags: old-alpine,7.6.1-alpine,7.6-alpine
+Tags: 7.6.1-alpine
 Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: b28634cf1517af2f6e2eb79b993f9bd42f7ad8bc
 Directory: old/alpine
 
-Tags: stable,6.0.13,6.0
+Tags: 6.0.13
 Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 2195c6673d226d168014f6b7b65ab2c633246689
 Directory: stable/debian
