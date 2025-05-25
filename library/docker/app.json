@@ -2204,6 +2204,28 @@
     "28.1.1-windowsservercore-1809": {},
     "28.1.1-windowsservercore-ltsc2022": {},
     "28.1.1-windowsservercore-ltsc2025": {},
+    "28.2.0-rc.1": {},
+    "28.2.0-rc.1-alpine3.21": {},
+    "28.2.0-rc.1-cli": {},
+    "28.2.0-rc.1-cli-alpine3.21": {},
+    "28.2.0-rc.1-dind": {},
+    "28.2.0-rc.1-dind-alpine3.21": {},
+    "28.2.0-rc.1-dind-rootless": {},
+    "28.2.0-rc.1-windowsservercore": {},
+    "28.2.0-rc.1-windowsservercore-1809": {},
+    "28.2.0-rc.1-windowsservercore-ltsc2022": {},
+    "28.2.0-rc.1-windowsservercore-ltsc2025": {},
+    "28.2.0-rc.2": {},
+    "28.2.0-rc.2-alpine3.21": {},
+    "28.2.0-rc.2-cli": {},
+    "28.2.0-rc.2-cli-alpine3.21": {},
+    "28.2.0-rc.2-dind": {},
+    "28.2.0-rc.2-dind-alpine3.21": {},
+    "28.2.0-rc.2-dind-rootless": {},
+    "28.2.0-rc.2-windowsservercore": {},
+    "28.2.0-rc.2-windowsservercore-1809": {},
+    "28.2.0-rc.2-windowsservercore-ltsc2022": {},
+    "28.2.0-rc.2-windowsservercore-ltsc2025": {},
     "cli": {},
     "dind": {},
     "dind-rootless": {},
@@ -2248,6 +2270,178 @@
   "Blocks": [
     {
       "Tags": [
+        "28.2.0-rc.2-cli",
+        "28-rc-cli",
+        "rc-cli",
+        "28.2.0-rc.2-cli-alpine3.21"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "e3927bb31eb6732adf3837a3e99200fb63b55f66",
+      "Directory": "28-rc/cli",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "28.2.0-rc.2-dind",
+        "28-rc-dind",
+        "rc-dind",
+        "28.2.0-rc.2-dind-alpine3.21",
+        "28.2.0-rc.2",
+        "28-rc",
+        "rc",
+        "28.2.0-rc.2-alpine3.21"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "e3927bb31eb6732adf3837a3e99200fb63b55f66",
+      "Directory": "28-rc/dind",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "28.2.0-rc.2-dind-rootless",
+        "28-rc-dind-rootless",
+        "rc-dind-rootless"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "e3927bb31eb6732adf3837a3e99200fb63b55f66",
+      "Directory": "28-rc/dind-rootless",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "28.2.0-rc.2-windowsservercore-ltsc2025",
+        "28-rc-windowsservercore-ltsc2025",
+        "rc-windowsservercore-ltsc2025",
+        "28.2.0-rc.2-windowsservercore",
+        "28-rc-windowsservercore",
+        "rc-windowsservercore"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "e3927bb31eb6732adf3837a3e99200fb63b55f66",
+      "Directory": "28-rc/windows/windowsservercore-ltsc2025",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "28.2.0-rc.2-windowsservercore-ltsc2022",
+        "28-rc-windowsservercore-ltsc2022",
+        "rc-windowsservercore-ltsc2022"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "e3927bb31eb6732adf3837a3e99200fb63b55f66",
+      "Directory": "28-rc/windows/windowsservercore-ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "28.2.0-rc.2-windowsservercore-1809",
+        "28-rc-windowsservercore-1809",
+        "rc-windowsservercore-1809"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "e3927bb31eb6732adf3837a3e99200fb63b55f66",
+      "Directory": "28-rc/windows/windowsservercore-1809",
+      "File": ""
+    },
+    {
+      "Tags": [
         "28.1.1-cli",
         "28.1-cli",
         "28-cli",
@@ -2284,7 +2478,7 @@
           "File": ""
         }
       },
-      "GitCommit": "3dba50562769bdfb0ed701bcfc2bbbde4304c72a",
+      "GitCommit": "fd9ffd927316fe34adddaa0e1fccd65307b09e2c",
       "Directory": "28/cli",
       "File": ""
     },
@@ -2331,7 +2525,7 @@
           "File": ""
         }
       },
-      "GitCommit": "84fa8e735cf571bd16f439e8431ad23913dd19f4",
+      "GitCommit": "52c8bfa9869c9c5605c6c03dc9a82cfe426ace77",
       "Directory": "28/dind",
       "File": ""
     },
@@ -2382,7 +2576,7 @@
           "File": ""
         }
       },
-      "GitCommit": "3dba50562769bdfb0ed701bcfc2bbbde4304c72a",
+      "GitCommit": "fd9ffd927316fe34adddaa0e1fccd65307b09e2c",
       "Directory": "28/windows/windowsservercore-ltsc2025",
       "File": ""
     },
@@ -2402,7 +2596,7 @@
           "File": ""
         }
       },
-      "GitCommit": "3dba50562769bdfb0ed701bcfc2bbbde4304c72a",
+      "GitCommit": "fd9ffd927316fe34adddaa0e1fccd65307b09e2c",
       "Directory": "28/windows/windowsservercore-ltsc2022",
       "File": ""
     },
@@ -2422,8 +2616,164 @@
           "File": ""
         }
       },
-      "GitCommit": "3dba50562769bdfb0ed701bcfc2bbbde4304c72a",
+      "GitCommit": "fd9ffd927316fe34adddaa0e1fccd65307b09e2c",
       "Directory": "28/windows/windowsservercore-1809",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "28.2.0-rc.1-cli",
+        "28.2.0-rc.1-cli-alpine3.21"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0dcbded97a8c1fc306c5325566cbedb5b164955b",
+      "Directory": "28-rc/cli",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "28.2.0-rc.1-dind",
+        "28.2.0-rc.1-dind-alpine3.21",
+        "28.2.0-rc.1",
+        "28.2.0-rc.1-alpine3.21"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "861512c7e2e4945f0878d043e55262dd330843a4",
+      "Directory": "28-rc/dind",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "28.2.0-rc.1-dind-rootless"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "8daf44089ceb1c4996c1985f1ae6a17a70d52dfc",
+      "Directory": "28-rc/dind-rootless",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "28.2.0-rc.1-windowsservercore-ltsc2025",
+        "28.2.0-rc.1-windowsservercore"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0dcbded97a8c1fc306c5325566cbedb5b164955b",
+      "Directory": "28-rc/windows/windowsservercore-ltsc2025",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "28.2.0-rc.1-windowsservercore-ltsc2022"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0dcbded97a8c1fc306c5325566cbedb5b164955b",
+      "Directory": "28-rc/windows/windowsservercore-ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "28.2.0-rc.1-windowsservercore-1809"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0dcbded97a8c1fc306c5325566cbedb5b164955b",
+      "Directory": "28-rc/windows/windowsservercore-1809",
       "File": ""
     },
     {
@@ -2585,8 +2935,6 @@
     {
       "Tags": [
         "28.1.0-rc.1-cli",
-        "28-rc-cli",
-        "rc-cli",
         "28.1.0-rc.1-cli-alpine3.21"
       ],
       "Architectures": {
@@ -2626,12 +2974,8 @@
     {
       "Tags": [
         "28.1.0-rc.1-dind",
-        "28-rc-dind",
-        "rc-dind",
         "28.1.0-rc.1-dind-alpine3.21",
         "28.1.0-rc.1",
-        "28-rc",
-        "rc",
         "28.1.0-rc.1-alpine3.21"
       ],
       "Architectures": {
@@ -2670,9 +3014,7 @@
     },
     {
       "Tags": [
-        "28.1.0-rc.1-dind-rootless",
-        "28-rc-dind-rootless",
-        "rc-dind-rootless"
+        "28.1.0-rc.1-dind-rootless"
       ],
       "Architectures": {
         "amd64": {
@@ -2697,11 +3039,7 @@
     {
       "Tags": [
         "28.1.0-rc.1-windowsservercore-ltsc2025",
-        "28-rc-windowsservercore-ltsc2025",
-        "rc-windowsservercore-ltsc2025",
-        "28.1.0-rc.1-windowsservercore",
-        "28-rc-windowsservercore",
-        "rc-windowsservercore"
+        "28.1.0-rc.1-windowsservercore"
       ],
       "Architectures": {
         "windows-amd64": {
@@ -2718,9 +3056,7 @@
     },
     {
       "Tags": [
-        "28.1.0-rc.1-windowsservercore-ltsc2022",
-        "28-rc-windowsservercore-ltsc2022",
-        "rc-windowsservercore-ltsc2022"
+        "28.1.0-rc.1-windowsservercore-ltsc2022"
       ],
       "Architectures": {
         "windows-amd64": {
@@ -2737,9 +3073,7 @@
     },
     {
       "Tags": [
-        "28.1.0-rc.1-windowsservercore-1809",
-        "28-rc-windowsservercore-1809",
-        "rc-windowsservercore-1809"
+        "28.1.0-rc.1-windowsservercore-1809"
       ],
       "Architectures": {
         "windows-amd64": {

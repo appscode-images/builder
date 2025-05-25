@@ -14,7 +14,7 @@ Blocks:
       GitFetch: ""
   Directory: influxdb/1.11
   File: ""
-  GitCommit: a757de46ff8c42b19e05692e592c153bd52d2fc6
+  GitCommit: 25b752346444ed1f557dd2ce5d1a834f4448a5ec
   Tags:
   - "1.11"
   - 1.11.8
@@ -33,63 +33,63 @@ Blocks:
       GitFetch: ""
   Directory: influxdb/1.11/alpine
   File: ""
-  GitCommit: a757de46ff8c42b19e05692e592c153bd52d2fc6
+  GitCommit: 25b752346444ed1f557dd2ce5d1a834f4448a5ec
   Tags:
   - 1.11-alpine
   - 1.11.8-alpine
 - Architectures: null
   Directory: influxdb/1.10/data
   File: ""
-  GitCommit: a757de46ff8c42b19e05692e592c153bd52d2fc6
+  GitCommit: 25b752346444ed1f557dd2ce5d1a834f4448a5ec
   Tags:
   - 1.10-data
   - 1.10.8-data
 - Architectures: null
   Directory: influxdb/1.10/data/alpine
   File: ""
-  GitCommit: a757de46ff8c42b19e05692e592c153bd52d2fc6
+  GitCommit: 25b752346444ed1f557dd2ce5d1a834f4448a5ec
   Tags:
   - 1.10-data-alpine
   - 1.10.8-data-alpine
 - Architectures: null
   Directory: influxdb/1.10/meta
   File: ""
-  GitCommit: a757de46ff8c42b19e05692e592c153bd52d2fc6
+  GitCommit: 25b752346444ed1f557dd2ce5d1a834f4448a5ec
   Tags:
   - 1.10-meta
   - 1.10.8-meta
 - Architectures: null
   Directory: influxdb/1.10/meta/alpine
   File: ""
-  GitCommit: a757de46ff8c42b19e05692e592c153bd52d2fc6
+  GitCommit: 25b752346444ed1f557dd2ce5d1a834f4448a5ec
   Tags:
   - 1.10-meta-alpine
   - 1.10.8-meta-alpine
 - Architectures: null
   Directory: influxdb/1.11/data
   File: ""
-  GitCommit: a757de46ff8c42b19e05692e592c153bd52d2fc6
+  GitCommit: 25b752346444ed1f557dd2ce5d1a834f4448a5ec
   Tags:
   - 1.11-data
   - 1.11.8-data
 - Architectures: null
   Directory: influxdb/1.11/data/alpine
   File: ""
-  GitCommit: a757de46ff8c42b19e05692e592c153bd52d2fc6
+  GitCommit: 25b752346444ed1f557dd2ce5d1a834f4448a5ec
   Tags:
   - 1.11-data-alpine
   - 1.11.8-data-alpine
 - Architectures: null
   Directory: influxdb/1.11/meta
   File: ""
-  GitCommit: a757de46ff8c42b19e05692e592c153bd52d2fc6
+  GitCommit: 25b752346444ed1f557dd2ce5d1a834f4448a5ec
   Tags:
   - 1.11-meta
   - 1.11.8-meta
 - Architectures: null
   Directory: influxdb/1.11/meta/alpine
   File: ""
-  GitCommit: a757de46ff8c42b19e05692e592c153bd52d2fc6
+  GitCommit: 25b752346444ed1f557dd2ce5d1a834f4448a5ec
   Tags:
   - 1.11-meta-alpine
   - 1.11.8-meta-alpine
@@ -108,11 +108,11 @@ Blocks:
       GitFetch: ""
   Directory: influxdb/2.7
   File: ""
-  GitCommit: a757de46ff8c42b19e05692e592c153bd52d2fc6
+  GitCommit: 25b752346444ed1f557dd2ce5d1a834f4448a5ec
   Tags:
   - "2"
   - "2.7"
-  - 2.7.11
+  - 2.7.12
   - latest
 - Architectures:
     amd64:
@@ -129,7 +129,7 @@ Blocks:
       GitFetch: ""
   Directory: influxdb/2.7/alpine
   File: ""
-  GitCommit: a757de46ff8c42b19e05692e592c153bd52d2fc6
+  GitCommit: 25b752346444ed1f557dd2ce5d1a834f4448a5ec
   Tags:
   - 2-alpine
   - 2.7-alpine
@@ -150,7 +150,7 @@ Blocks:
       GitFetch: ""
   Directory: influxdb/3.0-core
   File: ""
-  GitCommit: a757de46ff8c42b19e05692e592c153bd52d2fc6
+  GitCommit: 25b752346444ed1f557dd2ce5d1a834f4448a5ec
   Tags:
   - 3-core
   - 3.0-core
@@ -171,12 +171,30 @@ Blocks:
       GitFetch: ""
   Directory: influxdb/3.0-enterprise
   File: ""
-  GitCommit: a757de46ff8c42b19e05692e592c153bd52d2fc6
+  GitCommit: 25b752346444ed1f557dd2ce5d1a834f4448a5ec
   Tags:
   - 3-enterprise
   - 3.0-enterprise
   - 3.0.3-enterprise
   - enterprise
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: influxdb/2.7
+  File: ""
+  GitCommit: a757de46ff8c42b19e05692e592c153bd52d2fc6
+  Tags:
+  - 2.7.11
 - Architectures:
     amd64:
       Architecture: amd64
@@ -4784,6 +4802,7 @@ KnownTags:
   2.7.10-alpine: {}
   2.7.11: {}
   2.7.11-alpine: {}
+  2.7.12: {}
   3-core: {}
   3-enterprise: {}
   3.0-core: {}

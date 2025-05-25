@@ -332,6 +332,9 @@
     "3.7.2-sdk": {},
     "3.7.3": {},
     "3.7.3-sdk": {},
+    "3.8": {},
+    "3.8-sdk": {},
+    "3.8.0": {},
     "3.8.0-171.1.beta": {},
     "3.8.0-171.1.beta-sdk": {},
     "3.8.0-171.2.beta": {},
@@ -342,6 +345,9 @@
     "3.8.0-278.2.beta-sdk": {},
     "3.8.0-70.1.beta": {},
     "3.8.0-70.1.beta-sdk": {},
+    "3.8.0-sdk": {},
+    "3.9.0-100.2.beta": {},
+    "3.9.0-100.2.beta-sdk": {},
     "beta": {},
     "beta-sdk": {},
     "latest": {},
@@ -352,16 +358,84 @@
   "Blocks": [
     {
       "Tags": [
-        "3.7.3-sdk",
-        "3.7-sdk",
+        "3.8.0-sdk",
+        "3.8-sdk",
         "3-sdk",
         "stable-sdk",
         "sdk",
-        "3.7.3",
-        "3.7",
+        "3.8.0",
+        "3.8",
         "3",
         "stable",
         "latest"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "18561563ab7693353929d54e9bee6bed9d7909a6",
+      "Directory": "stable/bookworm",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "3.9.0-100.2.beta-sdk",
+        "beta-sdk",
+        "3.9.0-100.2.beta",
+        "beta"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "18561563ab7693353929d54e9bee6bed9d7909a6",
+      "Directory": "beta/bookworm",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "3.7.3-sdk",
+        "3.7-sdk",
+        "3.7.3",
+        "3.7"
       ],
       "Architectures": {
         "amd64": {
@@ -393,9 +467,7 @@
     {
       "Tags": [
         "3.8.0-278.2.beta-sdk",
-        "beta-sdk",
-        "3.8.0-278.2.beta",
-        "beta"
+        "3.8.0-278.2.beta"
       ],
       "Architectures": {
         "amd64": {

@@ -2,11 +2,26 @@ Blocks:
 - Architectures: null
   Directory: ""
   File: Dockerfile
+  GitCommit: 5f25f074861b619a8bd3a3147d3ceeafb672f717
+  Tags:
+  - "4.32"
+  - 4.32.0
+  - latest
+- Architectures: null
+  Directory: ""
+  File: Dockerfile.alpine
+  GitCommit: 5f25f074861b619a8bd3a3147d3ceeafb672f717
+  Tags:
+  - 4.32-alpine
+  - 4.32.0-alpine
+  - alpine
+- Architectures: null
+  Directory: ""
+  File: Dockerfile
   GitCommit: 721daba2f67968383d82ce61e2f6891f444685ee
   Tags:
   - "4.31"
   - 4.31.1
-  - latest
 - Architectures: null
   Directory: ""
   File: Dockerfile.alpine
@@ -14,7 +29,6 @@ Blocks:
   Tags:
   - 4.31-alpine
   - 4.31.1-alpine
-  - alpine
 - Architectures: null
   Directory: ""
   File: Dockerfile
@@ -139,6 +153,10 @@ KnownTags:
   4.31.0-alpine: {}
   4.31.1: {}
   4.31.1-alpine: {}
+  "4.32": {}
+  4.32-alpine: {}
+  4.32.0: {}
+  4.32.0-alpine: {}
   alpine: {}
   latest: {}
 Name: liquibase
