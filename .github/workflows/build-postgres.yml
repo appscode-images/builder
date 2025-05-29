@@ -16,7 +16,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        tag: [17.4-alpine, 17.4-bookworm, 17.2-alpine, 17.2-bookworm, 16.8-alpine, 16.8-bookworm, 16.6-alpine, 16.6-bookworm, 16.4-alpine, 16.4-bookworm, 16.1-alpine, 16.1-bookworm, 15.12-alpine, 15.12-bookworm, 15.10-alpine, 15.10-bookworm, 15.8-alpine, 15.8-bookworm, 15.5-alpine, 15.5-bookworm, 14.17-alpine, 14.17-bookworm, 14.15-alpine, 14.15-bookworm, 14.13-alpine, 14.13-bookworm, 14.10-alpine, 14.10-bookworm, 13.20-alpine, 13.20-bookworm, 13.18-alpine, 13.18-bookworm, 13.13-alpine, 13.13-bookworm, 12.22-alpine, 12.22-bookworm, 12.17-alpine, 12.17-bookworm, 11.22-alpine, 11.22-bookworm, 10.23-alpine, 10.23-bullseye]
+        tag: [17.5-alpine, 17.5-bookworm, 17.4-alpine, 17.4-bookworm, 17.2-alpine, 17.2-bookworm, 16.9-alpine, 16.9-bookworm, 16.8-alpine, 16.8-bookworm, 16.6-alpine, 16.6-bookworm, 16.4-alpine, 16.4-bookworm, 16.1-alpine, 16.1-bookworm, 15.13-alpine, 15.13-bookworm, 15.12-alpine, 15.12-bookworm, 15.10-alpine, 15.10-bookworm, 15.8-alpine, 15.8-bookworm, 15.5-alpine, 15.5-bookworm, 14.18-alpine, 14.18-bookworm, 14.17-alpine, 14.17-bookworm, 14.15-alpine, 14.15-bookworm, 14.13-alpine, 14.13-bookworm, 14.10-alpine, 14.10-bookworm, 13.21-alpine, 13.21-bookworm, 13.20-alpine, 13.20-bookworm, 13.18-alpine, 13.18-bookworm, 13.13-alpine, 13.13-bookworm, 12.22-alpine, 12.22-bookworm, 12.17-alpine, 12.17-bookworm, 11.22-alpine, 11.22-bookworm, 10.23-alpine, 10.23-bullseye]
     steps:
     - uses: actions/checkout@v4
 
