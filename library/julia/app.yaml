@@ -61,13 +61,13 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 1.12-rc/alpine3.21
+  Directory: 1.12-rc/alpine3.22
   File: ""
-  GitCommit: 09ad25e2f355dd91cbd2f87978800fb90bf0a1c0
+  GitCommit: 7a8a43f0bd818b70b6856727c8ce87cd6f1ee26d
   Tags:
-  - 1.12.0-beta3-alpine3.21
-  - 1.12-rc-alpine3.21
-  - rc-alpine3.21
+  - 1.12.0-beta3-alpine3.22
+  - 1.12-rc-alpine3.22
+  - rc-alpine3.22
   - 1.12.0-beta3-alpine
   - 1.12-rc-alpine
   - rc-alpine
@@ -78,13 +78,13 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 1.12-rc/alpine3.20
+  Directory: 1.12-rc/alpine3.21
   File: ""
   GitCommit: 09ad25e2f355dd91cbd2f87978800fb90bf0a1c0
   Tags:
-  - 1.12.0-beta3-alpine3.20
-  - 1.12-rc-alpine3.20
-  - rc-alpine3.20
+  - 1.12.0-beta3-alpine3.21
+  - 1.12-rc-alpine3.21
+  - rc-alpine3.21
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -116,20 +116,6 @@ Blocks:
   - 1.12.0-beta3-windowsservercore-ltsc2022
   - 1.12-rc-windowsservercore-ltsc2022
   - rc-windowsservercore-ltsc2022
-- Architectures:
-    windows-amd64:
-      Architecture: windows-amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: 1.12-rc/windows/windowsservercore-1809
-  File: ""
-  GitCommit: 09ad25e2f355dd91cbd2f87978800fb90bf0a1c0
-  Tags:
-  - 1.12.0-beta3-windowsservercore-1809
-  - 1.12-rc-windowsservercore-1809
-  - rc-windowsservercore-1809
 - Architectures:
     amd64:
       Architecture: amd64
@@ -201,14 +187,14 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 1.11/alpine3.21
+  Directory: 1.11/alpine3.22
   File: ""
-  GitCommit: bd1d1d4ea366ccbfd675e942aed13022abd76eb6
+  GitCommit: 7a8a43f0bd818b70b6856727c8ce87cd6f1ee26d
   Tags:
-  - 1.11.5-alpine3.21
-  - 1.11-alpine3.21
-  - 1-alpine3.21
-  - alpine3.21
+  - 1.11.5-alpine3.22
+  - 1.11-alpine3.22
+  - 1-alpine3.22
+  - alpine3.22
   - 1.11.5-alpine
   - 1.11-alpine
   - 1-alpine
@@ -220,14 +206,14 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 1.11/alpine3.20
+  Directory: 1.11/alpine3.21
   File: ""
   GitCommit: bd1d1d4ea366ccbfd675e942aed13022abd76eb6
   Tags:
-  - 1.11.5-alpine3.20
-  - 1.11-alpine3.20
-  - 1-alpine3.20
-  - alpine3.20
+  - 1.11.5-alpine3.21
+  - 1.11-alpine3.21
+  - 1-alpine3.21
+  - alpine3.21
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -262,21 +248,6 @@ Blocks:
   - 1.11-windowsservercore-ltsc2022
   - 1-windowsservercore-ltsc2022
   - windowsservercore-ltsc2022
-- Architectures:
-    windows-amd64:
-      Architecture: windows-amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: 1.11/windows/windowsservercore-1809
-  File: ""
-  GitCommit: bd1d1d4ea366ccbfd675e942aed13022abd76eb6
-  Tags:
-  - 1.11.5-windowsservercore-1809
-  - 1.11-windowsservercore-1809
-  - 1-windowsservercore-1809
-  - windowsservercore-1809
 - Architectures:
     amd64:
       Architecture: amd64
@@ -342,12 +313,12 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 1.10/alpine3.21
+  Directory: 1.10/alpine3.22
   File: ""
-  GitCommit: 6f34d11736ca81e111e3ce285d6d7e08a4742300
+  GitCommit: 7a8a43f0bd818b70b6856727c8ce87cd6f1ee26d
   Tags:
-  - 1.10.9-alpine3.21
-  - 1.10-alpine3.21
+  - 1.10.9-alpine3.22
+  - 1.10-alpine3.22
   - 1.10.9-alpine
   - 1.10-alpine
 - Architectures:
@@ -357,12 +328,12 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 1.10/alpine3.20
+  Directory: 1.10/alpine3.21
   File: ""
   GitCommit: 6f34d11736ca81e111e3ce285d6d7e08a4742300
   Tags:
-  - 1.10.9-alpine3.20
-  - 1.10-alpine3.20
+  - 1.10.9-alpine3.21
+  - 1.10-alpine3.21
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -391,6 +362,77 @@ Blocks:
   Tags:
   - 1.10.9-windowsservercore-ltsc2022
   - 1.10-windowsservercore-ltsc2022
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.12-rc/alpine3.20
+  File: ""
+  GitCommit: 09ad25e2f355dd91cbd2f87978800fb90bf0a1c0
+  Tags:
+  - 1.12.0-beta3-alpine3.20
+  - 1.12-rc-alpine3.20
+  - rc-alpine3.20
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.12-rc/windows/windowsservercore-1809
+  File: ""
+  GitCommit: 09ad25e2f355dd91cbd2f87978800fb90bf0a1c0
+  Tags:
+  - 1.12.0-beta3-windowsservercore-1809
+  - 1.12-rc-windowsservercore-1809
+  - rc-windowsservercore-1809
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.11/alpine3.20
+  File: ""
+  GitCommit: bd1d1d4ea366ccbfd675e942aed13022abd76eb6
+  Tags:
+  - 1.11.5-alpine3.20
+  - 1.11-alpine3.20
+  - 1-alpine3.20
+  - alpine3.20
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.11/windows/windowsservercore-1809
+  File: ""
+  GitCommit: bd1d1d4ea366ccbfd675e942aed13022abd76eb6
+  Tags:
+  - 1.11.5-windowsservercore-1809
+  - 1.11-windowsservercore-1809
+  - 1-windowsservercore-1809
+  - windowsservercore-1809
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.10/alpine3.20
+  File: ""
+  GitCommit: 6f34d11736ca81e111e3ce285d6d7e08a4742300
+  Tags:
+  - 1.10.9-alpine3.20
+  - 1.10-alpine3.20
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -10806,6 +10848,7 @@ KnownTags:
   1-alpine3.19: {}
   1-alpine3.20: {}
   1-alpine3.21: {}
+  1-alpine3.22: {}
   1-bookworm: {}
   1-bullseye: {}
   1-buster: {}
@@ -11487,6 +11530,7 @@ KnownTags:
   1.10-alpine3.19: {}
   1.10-alpine3.20: {}
   1.10-alpine3.21: {}
+  1.10-alpine3.22: {}
   1.10-bookworm: {}
   1.10-bullseye: {}
   1.10-rc: {}
@@ -11649,6 +11693,7 @@ KnownTags:
   1.10.9-alpine: {}
   1.10.9-alpine3.20: {}
   1.10.9-alpine3.21: {}
+  1.10.9-alpine3.22: {}
   1.10.9-bookworm: {}
   1.10.9-bullseye: {}
   1.10.9-windowsservercore: {}
@@ -11660,6 +11705,7 @@ KnownTags:
   1.11-alpine3.19: {}
   1.11-alpine3.20: {}
   1.11-alpine3.21: {}
+  1.11-alpine3.22: {}
   1.11-bookworm: {}
   1.11-bullseye: {}
   1.11-rc: {}
@@ -11777,6 +11823,7 @@ KnownTags:
   1.11.5-alpine: {}
   1.11.5-alpine3.20: {}
   1.11.5-alpine3.21: {}
+  1.11.5-alpine3.22: {}
   1.11.5-bookworm: {}
   1.11.5-bullseye: {}
   1.11.5-windowsservercore: {}
@@ -11787,6 +11834,7 @@ KnownTags:
   1.12-rc-alpine: {}
   1.12-rc-alpine3.20: {}
   1.12-rc-alpine3.21: {}
+  1.12-rc-alpine3.22: {}
   1.12-rc-bookworm: {}
   1.12-rc-bullseye: {}
   1.12-rc-windowsservercore: {}
@@ -11814,6 +11862,7 @@ KnownTags:
   1.12.0-beta3-alpine: {}
   1.12.0-beta3-alpine3.20: {}
   1.12.0-beta3-alpine3.21: {}
+  1.12.0-beta3-alpine3.22: {}
   1.12.0-beta3-bookworm: {}
   1.12.0-beta3-bullseye: {}
   1.12.0-beta3-windowsservercore: {}
@@ -11831,6 +11880,7 @@ KnownTags:
   alpine3.19: {}
   alpine3.20: {}
   alpine3.21: {}
+  alpine3.22: {}
   bookworm: {}
   bullseye: {}
   buster: {}
@@ -11847,6 +11897,7 @@ KnownTags:
   rc-alpine3.19: {}
   rc-alpine3.20: {}
   rc-alpine3.21: {}
+  rc-alpine3.22: {}
   rc-bookworm: {}
   rc-bullseye: {}
   rc-buster: {}

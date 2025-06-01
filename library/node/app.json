@@ -4502,6 +4502,7 @@
     "20-alpine3.19": {},
     "20-alpine3.20": {},
     "20-alpine3.21": {},
+    "20-alpine3.22": {},
     "20-bookworm": {},
     "20-bookworm-slim": {},
     "20-bullseye": {},
@@ -4821,6 +4822,7 @@
     "20.19-alpine": {},
     "20.19-alpine3.20": {},
     "20.19-alpine3.21": {},
+    "20.19-alpine3.22": {},
     "20.19-bookworm": {},
     "20.19-bookworm-slim": {},
     "20.19-bullseye": {},
@@ -4848,6 +4850,7 @@
     "20.19.2-alpine": {},
     "20.19.2-alpine3.20": {},
     "20.19.2-alpine3.21": {},
+    "20.19.2-alpine3.22": {},
     "20.19.2-bookworm": {},
     "20.19.2-bookworm-slim": {},
     "20.19.2-bullseye": {},
@@ -5281,6 +5284,7 @@
     "22-alpine3.19": {},
     "22-alpine3.20": {},
     "22-alpine3.21": {},
+    "22-alpine3.22": {},
     "22-bookworm": {},
     "22-bookworm-slim": {},
     "22-bullseye": {},
@@ -5454,6 +5458,7 @@
     "22.16-alpine": {},
     "22.16-alpine3.20": {},
     "22.16-alpine3.21": {},
+    "22.16-alpine3.22": {},
     "22.16-bookworm": {},
     "22.16-bookworm-slim": {},
     "22.16-bullseye": {},
@@ -5463,6 +5468,7 @@
     "22.16.0-alpine": {},
     "22.16.0-alpine3.20": {},
     "22.16.0-alpine3.21": {},
+    "22.16.0-alpine3.22": {},
     "22.16.0-bookworm": {},
     "22.16.0-bookworm-slim": {},
     "22.16.0-bullseye": {},
@@ -5637,6 +5643,7 @@
     "23-alpine3.19": {},
     "23-alpine3.20": {},
     "23-alpine3.21": {},
+    "23-alpine3.22": {},
     "23-bookworm": {},
     "23-bookworm-slim": {},
     "23-bullseye": {},
@@ -5700,6 +5707,7 @@
     "23.11-alpine": {},
     "23.11-alpine3.20": {},
     "23.11-alpine3.21": {},
+    "23.11-alpine3.22": {},
     "23.11-bookworm": {},
     "23.11-bookworm-slim": {},
     "23.11-bullseye": {},
@@ -5718,6 +5726,7 @@
     "23.11.1-alpine": {},
     "23.11.1-alpine3.20": {},
     "23.11.1-alpine3.21": {},
+    "23.11.1-alpine3.22": {},
     "23.11.1-bookworm": {},
     "23.11.1-bookworm-slim": {},
     "23.11.1-bullseye": {},
@@ -5882,6 +5891,7 @@
     "24-alpine": {},
     "24-alpine3.20": {},
     "24-alpine3.21": {},
+    "24-alpine3.22": {},
     "24-bookworm": {},
     "24-bookworm-slim": {},
     "24-bullseye": {},
@@ -5923,6 +5933,26 @@
     "24.0.2-bullseye": {},
     "24.0.2-bullseye-slim": {},
     "24.0.2-slim": {},
+    "24.1": {},
+    "24.1-alpine": {},
+    "24.1-alpine3.20": {},
+    "24.1-alpine3.21": {},
+    "24.1-alpine3.22": {},
+    "24.1-bookworm": {},
+    "24.1-bookworm-slim": {},
+    "24.1-bullseye": {},
+    "24.1-bullseye-slim": {},
+    "24.1-slim": {},
+    "24.1.0": {},
+    "24.1.0-alpine": {},
+    "24.1.0-alpine3.20": {},
+    "24.1.0-alpine3.21": {},
+    "24.1.0-alpine3.22": {},
+    "24.1.0-bookworm": {},
+    "24.1.0-bookworm-slim": {},
+    "24.1.0-bullseye": {},
+    "24.1.0-bullseye-slim": {},
+    "24.1.0-slim": {},
     "4": {},
     "4-alpine": {},
     "4-onbuild": {},
@@ -7053,6 +7083,7 @@
     "alpine3.19": {},
     "alpine3.20": {},
     "alpine3.21": {},
+    "alpine3.22": {},
     "argon": {},
     "argon-alpine": {},
     "argon-onbuild": {},
@@ -7119,6 +7150,7 @@
     "current-alpine3.19": {},
     "current-alpine3.20": {},
     "current-alpine3.21": {},
+    "current-alpine3.22": {},
     "current-alpine3.9": {},
     "current-bookworm": {},
     "current-bookworm-slim": {},
@@ -7216,6 +7248,7 @@
     "iron-alpine3.19": {},
     "iron-alpine3.20": {},
     "iron-alpine3.21": {},
+    "iron-alpine3.22": {},
     "iron-bookworm": {},
     "iron-bookworm-slim": {},
     "iron-bullseye": {},
@@ -7229,6 +7262,7 @@
     "jod-alpine3.19": {},
     "jod-alpine3.20": {},
     "jod-alpine3.21": {},
+    "jod-alpine3.22": {},
     "jod-bookworm": {},
     "jod-bookworm-slim": {},
     "jod-bullseye": {},
@@ -7249,6 +7283,7 @@
     "lts-alpine3.19": {},
     "lts-alpine3.20": {},
     "lts-alpine3.21": {},
+    "lts-alpine3.22": {},
     "lts-alpine3.9": {},
     "lts-bookworm": {},
     "lts-bookworm-slim": {},
@@ -7275,64 +7310,10 @@
   "Blocks": [
     {
       "Tags": [
-        "24-alpine3.20",
-        "24.0-alpine3.20",
-        "24.0.2-alpine3.20",
-        "alpine3.20",
-        "current-alpine3.20"
-      ],
-      "Architectures": {
-        "amd64": {
-          "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm32v6": {
-          "Architecture": "arm32v6",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm32v7": {
-          "Architecture": "arm32v7",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm64v8": {
-          "Architecture": "arm64v8",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "s390x": {
-          "Architecture": "s390x",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "473bc763275ee20ce142b1e23ee253f6c248673d",
-      "Directory": "24/alpine3.20",
-      "File": ""
-    },
-    {
-      "Tags": [
-        "24-alpine",
         "24-alpine3.21",
-        "24.0-alpine",
-        "24.0-alpine3.21",
-        "24.0.2-alpine",
-        "24.0.2-alpine3.21",
-        "alpine",
+        "24.1-alpine3.21",
+        "24.1.0-alpine3.21",
         "alpine3.21",
-        "current-alpine",
         "current-alpine3.21"
       ],
       "Architectures": {
@@ -7343,15 +7324,41 @@
           "GitCommit": "",
           "File": ""
         },
-        "arm32v6": {
-          "Architecture": "arm32v6",
+        "arm64v8": {
+          "Architecture": "arm64v8",
           "Directory": "",
           "GitFetch": "",
           "GitCommit": "",
           "File": ""
         },
-        "arm32v7": {
-          "Architecture": "arm32v7",
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "292dea0c0077b0925717d708e641dfef6ad2b373",
+      "Directory": "24/alpine3.21",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "24-alpine",
+        "24-alpine3.22",
+        "24.1-alpine",
+        "24.1-alpine3.22",
+        "24.1.0-alpine",
+        "24.1.0-alpine3.22",
+        "alpine",
+        "alpine3.22",
+        "current-alpine",
+        "current-alpine3.22"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
           "Directory": "",
           "GitFetch": "",
           "GitCommit": "",
@@ -7372,18 +7379,18 @@
           "File": ""
         }
       },
-      "GitCommit": "473bc763275ee20ce142b1e23ee253f6c248673d",
-      "Directory": "24/alpine3.21",
+      "GitCommit": "b1e2c97844d5647bcfaf6d6c7862dd39fbc2ca51",
+      "Directory": "24/alpine3.22",
       "File": ""
     },
     {
       "Tags": [
         "24",
         "24-bookworm",
-        "24.0",
-        "24.0-bookworm",
-        "24.0.2",
-        "24.0.2-bookworm",
+        "24.1",
+        "24.1-bookworm",
+        "24.1.0",
+        "24.1.0-bookworm",
         "bookworm",
         "current",
         "current-bookworm",
@@ -7397,13 +7404,6 @@
           "GitCommit": "",
           "File": ""
         },
-        "arm32v7": {
-          "Architecture": "arm32v7",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
         "arm64v8": {
           "Architecture": "arm64v8",
           "Directory": "",
@@ -7426,7 +7426,7 @@
           "File": ""
         }
       },
-      "GitCommit": "473bc763275ee20ce142b1e23ee253f6c248673d",
+      "GitCommit": "292dea0c0077b0925717d708e641dfef6ad2b373",
       "Directory": "24/bookworm",
       "File": ""
     },
@@ -7434,10 +7434,10 @@
       "Tags": [
         "24-bookworm-slim",
         "24-slim",
-        "24.0-bookworm-slim",
-        "24.0-slim",
-        "24.0.2-bookworm-slim",
-        "24.0.2-slim",
+        "24.1-bookworm-slim",
+        "24.1-slim",
+        "24.1.0-bookworm-slim",
+        "24.1.0-slim",
         "bookworm-slim",
         "current-bookworm-slim",
         "current-slim",
@@ -7451,13 +7451,6 @@
           "GitCommit": "",
           "File": ""
         },
-        "arm32v7": {
-          "Architecture": "arm32v7",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
         "arm64v8": {
           "Architecture": "arm64v8",
           "Directory": "",
@@ -7480,15 +7473,15 @@
           "File": ""
         }
       },
-      "GitCommit": "473bc763275ee20ce142b1e23ee253f6c248673d",
+      "GitCommit": "292dea0c0077b0925717d708e641dfef6ad2b373",
       "Directory": "24/bookworm-slim",
       "File": ""
     },
     {
       "Tags": [
         "24-bullseye",
-        "24.0-bullseye",
-        "24.0.2-bullseye",
+        "24.1-bullseye",
+        "24.1.0-bullseye",
         "bullseye",
         "current-bullseye"
       ],
@@ -7508,15 +7501,15 @@
           "File": ""
         }
       },
-      "GitCommit": "473bc763275ee20ce142b1e23ee253f6c248673d",
+      "GitCommit": "292dea0c0077b0925717d708e641dfef6ad2b373",
       "Directory": "24/bullseye",
       "File": ""
     },
     {
       "Tags": [
         "24-bullseye-slim",
-        "24.0-bullseye-slim",
-        "24.0.2-bullseye-slim",
+        "24.1-bullseye-slim",
+        "24.1.0-bullseye-slim",
         "bullseye-slim",
         "current-bullseye-slim"
       ],
@@ -7536,64 +7529,14 @@
           "File": ""
         }
       },
-      "GitCommit": "473bc763275ee20ce142b1e23ee253f6c248673d",
+      "GitCommit": "292dea0c0077b0925717d708e641dfef6ad2b373",
       "Directory": "24/bullseye-slim",
       "File": ""
     },
     {
       "Tags": [
-        "23-alpine3.20",
-        "23.11-alpine3.20",
-        "23.11.1-alpine3.20"
-      ],
-      "Architectures": {
-        "amd64": {
-          "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm32v6": {
-          "Architecture": "arm32v6",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm32v7": {
-          "Architecture": "arm32v7",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm64v8": {
-          "Architecture": "arm64v8",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "s390x": {
-          "Architecture": "s390x",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "473bc763275ee20ce142b1e23ee253f6c248673d",
-      "Directory": "23/alpine3.20",
-      "File": ""
-    },
-    {
-      "Tags": [
-        "23-alpine",
         "23-alpine3.21",
-        "23.11-alpine",
         "23.11-alpine3.21",
-        "23.11.1-alpine",
         "23.11.1-alpine3.21"
       ],
       "Architectures": {
@@ -7635,6 +7578,56 @@
       },
       "GitCommit": "473bc763275ee20ce142b1e23ee253f6c248673d",
       "Directory": "23/alpine3.21",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "23-alpine",
+        "23-alpine3.22",
+        "23.11-alpine",
+        "23.11-alpine3.22",
+        "23.11.1-alpine",
+        "23.11.1-alpine3.22"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "b1e2c97844d5647bcfaf6d6c7862dd39fbc2ca51",
+      "Directory": "23/alpine3.22",
       "File": ""
     },
     {
@@ -7791,64 +7784,10 @@
     },
     {
       "Tags": [
-        "22-alpine3.20",
-        "22.16-alpine3.20",
-        "22.16.0-alpine3.20",
-        "jod-alpine3.20",
-        "lts-alpine3.20"
-      ],
-      "Architectures": {
-        "amd64": {
-          "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm32v6": {
-          "Architecture": "arm32v6",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm32v7": {
-          "Architecture": "arm32v7",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm64v8": {
-          "Architecture": "arm64v8",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "s390x": {
-          "Architecture": "s390x",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "d073523fcb78049b965f76d813627eb59ffb7a58",
-      "Directory": "22/alpine3.20",
-      "File": ""
-    },
-    {
-      "Tags": [
-        "22-alpine",
         "22-alpine3.21",
-        "22.16-alpine",
         "22.16-alpine3.21",
-        "22.16.0-alpine",
         "22.16.0-alpine3.21",
-        "jod-alpine",
         "jod-alpine3.21",
-        "lts-alpine",
         "lts-alpine3.21"
       ],
       "Architectures": {
@@ -7890,6 +7829,60 @@
       },
       "GitCommit": "d073523fcb78049b965f76d813627eb59ffb7a58",
       "Directory": "22/alpine3.21",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "22-alpine",
+        "22-alpine3.22",
+        "22.16-alpine",
+        "22.16-alpine3.22",
+        "22.16.0-alpine",
+        "22.16.0-alpine3.22",
+        "jod-alpine",
+        "jod-alpine3.22",
+        "lts-alpine",
+        "lts-alpine3.22"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "b1e2c97844d5647bcfaf6d6c7862dd39fbc2ca51",
+      "Directory": "22/alpine3.22",
       "File": ""
     },
     {
@@ -8073,68 +8066,9 @@
     },
     {
       "Tags": [
-        "20-alpine3.20",
-        "20.19-alpine3.20",
-        "20.19.2-alpine3.20",
-        "iron-alpine3.20"
-      ],
-      "Architectures": {
-        "amd64": {
-          "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm32v6": {
-          "Architecture": "arm32v6",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm32v7": {
-          "Architecture": "arm32v7",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm64v8": {
-          "Architecture": "arm64v8",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "ppc64le": {
-          "Architecture": "ppc64le",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "s390x": {
-          "Architecture": "s390x",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "a87fa26c1bb455170dac58c57c661e820a7390cb",
-      "Directory": "20/alpine3.20",
-      "File": ""
-    },
-    {
-      "Tags": [
-        "20-alpine",
         "20-alpine3.21",
-        "20.19-alpine",
         "20.19-alpine3.21",
-        "20.19.2-alpine",
         "20.19.2-alpine3.21",
-        "iron-alpine",
         "iron-alpine3.21"
       ],
       "Architectures": {
@@ -8183,6 +8117,65 @@
       },
       "GitCommit": "a87fa26c1bb455170dac58c57c661e820a7390cb",
       "Directory": "20/alpine3.21",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "20-alpine",
+        "20-alpine3.22",
+        "20.19-alpine",
+        "20.19-alpine3.22",
+        "20.19.2-alpine",
+        "20.19.2-alpine3.22",
+        "iron-alpine",
+        "iron-alpine3.22"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "b1e2c97844d5647bcfaf6d6c7862dd39fbc2ca51",
+      "Directory": "20/alpine3.22",
       "File": ""
     },
     {
@@ -8355,6 +8348,206 @@
       },
       "GitCommit": "a87fa26c1bb455170dac58c57c661e820a7390cb",
       "Directory": "20/bullseye-slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "24-alpine3.20",
+        "24.1-alpine3.20",
+        "24.1.0-alpine3.20",
+        "alpine3.20",
+        "current-alpine3.20"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "292dea0c0077b0925717d708e641dfef6ad2b373",
+      "Directory": "24/alpine3.20",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "23-alpine3.20",
+        "23.11-alpine3.20",
+        "23.11.1-alpine3.20"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "473bc763275ee20ce142b1e23ee253f6c248673d",
+      "Directory": "23/alpine3.20",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "22-alpine3.20",
+        "22.16-alpine3.20",
+        "22.16.0-alpine3.20",
+        "jod-alpine3.20",
+        "lts-alpine3.20"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "d073523fcb78049b965f76d813627eb59ffb7a58",
+      "Directory": "22/alpine3.20",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "20-alpine3.20",
+        "20.19-alpine3.20",
+        "20.19.2-alpine3.20",
+        "iron-alpine3.20"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "a87fa26c1bb455170dac58c57c661e820a7390cb",
+      "Directory": "20/alpine3.20",
       "File": ""
     },
     {
@@ -8641,6 +8834,246 @@
       },
       "GitCommit": "ba2b3e61e6aaf4643108fb5f1cda9ee5238efde5",
       "Directory": "18/bullseye-slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "24.0-alpine3.20",
+        "24.0.2-alpine3.20"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "473bc763275ee20ce142b1e23ee253f6c248673d",
+      "Directory": "24/alpine3.20",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "24.0-alpine",
+        "24.0-alpine3.21",
+        "24.0.2-alpine",
+        "24.0.2-alpine3.21"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "473bc763275ee20ce142b1e23ee253f6c248673d",
+      "Directory": "24/alpine3.21",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "24.0",
+        "24.0-bookworm",
+        "24.0.2",
+        "24.0.2-bookworm"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "473bc763275ee20ce142b1e23ee253f6c248673d",
+      "Directory": "24/bookworm",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "24.0-bookworm-slim",
+        "24.0-slim",
+        "24.0.2-bookworm-slim",
+        "24.0.2-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "473bc763275ee20ce142b1e23ee253f6c248673d",
+      "Directory": "24/bookworm-slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "24.0-bullseye",
+        "24.0.2-bullseye"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "473bc763275ee20ce142b1e23ee253f6c248673d",
+      "Directory": "24/bullseye",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "24.0-bullseye-slim",
+        "24.0.2-bullseye-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "473bc763275ee20ce142b1e23ee253f6c248673d",
+      "Directory": "24/bullseye-slim",
       "File": ""
     },
     {

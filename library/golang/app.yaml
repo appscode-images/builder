@@ -136,14 +136,14 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 1.24/alpine3.21
+  Directory: 1.24/alpine3.22
   File: ""
-  GitCommit: 6f5593131e9bccda9a4e83f858427d4d0d16b58d
+  GitCommit: 7162cd9bb639c8bc2c34b29dd8657b9a4a2ebb85
   Tags:
-  - 1.24.3-alpine3.21
-  - 1.24-alpine3.21
-  - 1-alpine3.21
-  - alpine3.21
+  - 1.24.3-alpine3.22
+  - 1.24-alpine3.22
+  - 1-alpine3.22
+  - alpine3.22
   - 1.24.3-alpine
   - 1.24-alpine
   - 1-alpine
@@ -197,14 +197,14 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 1.24/alpine3.20
+  Directory: 1.24/alpine3.21
   File: ""
   GitCommit: 6f5593131e9bccda9a4e83f858427d4d0d16b58d
   Tags:
-  - 1.24.3-alpine3.20
-  - 1.24-alpine3.20
-  - 1-alpine3.20
-  - alpine3.20
+  - 1.24.3-alpine3.21
+  - 1.24-alpine3.21
+  - 1-alpine3.21
+  - alpine3.21
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -246,21 +246,6 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 1.24/windows/windowsservercore-1809
-  File: ""
-  GitCommit: 6f5593131e9bccda9a4e83f858427d4d0d16b58d
-  Tags:
-  - 1.24.3-windowsservercore-1809
-  - 1.24-windowsservercore-1809
-  - 1-windowsservercore-1809
-  - windowsservercore-1809
-- Architectures:
-    windows-amd64:
-      Architecture: windows-amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
   Directory: 1.24/windows/nanoserver-ltsc2025
   File: ""
   GitCommit: 6f5593131e9bccda9a4e83f858427d4d0d16b58d
@@ -288,21 +273,6 @@ Blocks:
   - 1.24-nanoserver-ltsc2022
   - 1-nanoserver-ltsc2022
   - nanoserver-ltsc2022
-- Architectures:
-    windows-amd64:
-      Architecture: windows-amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: 1.24/windows/nanoserver-1809
-  File: ""
-  GitCommit: 6f5593131e9bccda9a4e83f858427d4d0d16b58d
-  Tags:
-  - 1.24.3-nanoserver-1809
-  - 1.24-nanoserver-1809
-  - 1-nanoserver-1809
-  - nanoserver-1809
 - Architectures:
     amd64:
       Architecture: amd64
@@ -434,14 +404,406 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+  Directory: 1.23/alpine3.22
+  File: ""
+  GitCommit: 7162cd9bb639c8bc2c34b29dd8657b9a4a2ebb85
+  Tags:
+  - 1.23.9-alpine3.22
+  - 1.23-alpine3.22
+  - 1.23.9-alpine
+  - 1.23-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
   Directory: 1.23/alpine3.21
   File: ""
   GitCommit: 93f44df27b2ca87cc4342447e0179fe0b8f7d226
   Tags:
   - 1.23.9-alpine3.21
   - 1.23-alpine3.21
-  - 1.23.9-alpine
-  - 1.23-alpine
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.23/windows/windowsservercore-ltsc2025
+  File: ""
+  GitCommit: 93f44df27b2ca87cc4342447e0179fe0b8f7d226
+  Tags:
+  - 1.23.9-windowsservercore-ltsc2025
+  - 1.23-windowsservercore-ltsc2025
+  - 1.23.9-windowsservercore
+  - 1.23-windowsservercore
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.23/windows/windowsservercore-ltsc2022
+  File: ""
+  GitCommit: 93f44df27b2ca87cc4342447e0179fe0b8f7d226
+  Tags:
+  - 1.23.9-windowsservercore-ltsc2022
+  - 1.23-windowsservercore-ltsc2022
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.23/windows/nanoserver-ltsc2025
+  File: ""
+  GitCommit: 93f44df27b2ca87cc4342447e0179fe0b8f7d226
+  Tags:
+  - 1.23.9-nanoserver-ltsc2025
+  - 1.23-nanoserver-ltsc2025
+  - 1.23.9-nanoserver
+  - 1.23-nanoserver
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.23/windows/nanoserver-ltsc2022
+  File: ""
+  GitCommit: 93f44df27b2ca87cc4342447e0179fe0b8f7d226
+  Tags:
+  - 1.23.9-nanoserver-ltsc2022
+  - 1.23-nanoserver-ltsc2022
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: tip/bookworm
+  File: ""
+  GitCommit: 34c6d91f503a3410cfeb68fd099619bf00f3ba7f
+  Tags:
+  - tip-20250524-bookworm
+  - tip-bookworm
+  - tip-20250524
+  - tip
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: tip/bullseye
+  File: ""
+  GitCommit: 34c6d91f503a3410cfeb68fd099619bf00f3ba7f
+  Tags:
+  - tip-20250524-bullseye
+  - tip-bullseye
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: tip/alpine3.22
+  File: ""
+  GitCommit: 7162cd9bb639c8bc2c34b29dd8657b9a4a2ebb85
+  Tags:
+  - tip-20250524-alpine3.22
+  - tip-alpine3.22
+  - tip-20250524-alpine
+  - tip-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: tip/alpine3.21
+  File: ""
+  GitCommit: 34c6d91f503a3410cfeb68fd099619bf00f3ba7f
+  Tags:
+  - tip-20250524-alpine3.21
+  - tip-alpine3.21
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.24/alpine3.20
+  File: ""
+  GitCommit: 6f5593131e9bccda9a4e83f858427d4d0d16b58d
+  Tags:
+  - 1.24.3-alpine3.20
+  - 1.24-alpine3.20
+  - 1-alpine3.20
+  - alpine3.20
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.24/windows/windowsservercore-1809
+  File: ""
+  GitCommit: 6f5593131e9bccda9a4e83f858427d4d0d16b58d
+  Tags:
+  - 1.24.3-windowsservercore-1809
+  - 1.24-windowsservercore-1809
+  - 1-windowsservercore-1809
+  - windowsservercore-1809
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.24/windows/nanoserver-1809
+  File: ""
+  GitCommit: 6f5593131e9bccda9a4e83f858427d4d0d16b58d
+  Tags:
+  - 1.24.3-nanoserver-1809
+  - 1.24-nanoserver-1809
+  - 1-nanoserver-1809
+  - nanoserver-1809
 - Architectures:
     amd64:
       Architecture: amd64
@@ -504,34 +866,6 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 1.23/windows/windowsservercore-ltsc2025
-  File: ""
-  GitCommit: 93f44df27b2ca87cc4342447e0179fe0b8f7d226
-  Tags:
-  - 1.23.9-windowsservercore-ltsc2025
-  - 1.23-windowsservercore-ltsc2025
-  - 1.23.9-windowsservercore
-  - 1.23-windowsservercore
-- Architectures:
-    windows-amd64:
-      Architecture: windows-amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: 1.23/windows/windowsservercore-ltsc2022
-  File: ""
-  GitCommit: 93f44df27b2ca87cc4342447e0179fe0b8f7d226
-  Tags:
-  - 1.23.9-windowsservercore-ltsc2022
-  - 1.23-windowsservercore-ltsc2022
-- Architectures:
-    windows-amd64:
-      Architecture: windows-amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
   Directory: 1.23/windows/windowsservercore-1809
   File: ""
   GitCommit: 93f44df27b2ca87cc4342447e0179fe0b8f7d226
@@ -545,40 +879,67 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 1.23/windows/nanoserver-ltsc2025
-  File: ""
-  GitCommit: 93f44df27b2ca87cc4342447e0179fe0b8f7d226
-  Tags:
-  - 1.23.9-nanoserver-ltsc2025
-  - 1.23-nanoserver-ltsc2025
-  - 1.23.9-nanoserver
-  - 1.23-nanoserver
-- Architectures:
-    windows-amd64:
-      Architecture: windows-amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: 1.23/windows/nanoserver-ltsc2022
-  File: ""
-  GitCommit: 93f44df27b2ca87cc4342447e0179fe0b8f7d226
-  Tags:
-  - 1.23.9-nanoserver-ltsc2022
-  - 1.23-nanoserver-ltsc2022
-- Architectures:
-    windows-amd64:
-      Architecture: windows-amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
   Directory: 1.23/windows/nanoserver-1809
   File: ""
   GitCommit: 93f44df27b2ca87cc4342447e0179fe0b8f7d226
   Tags:
   - 1.23.9-nanoserver-1809
   - 1.23-nanoserver-1809
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: tip/alpine3.20
+  File: ""
+  GitCommit: 34c6d91f503a3410cfeb68fd099619bf00f3ba7f
+  Tags:
+  - tip-20250524-alpine3.20
+  - tip-alpine3.20
 - Architectures:
     amd64:
       Architecture: amd64
@@ -627,9 +988,7 @@ Blocks:
   GitCommit: 96f7058a054cc34157a97d877ecd65c574f500b8
   Tags:
   - tip-20250517-bookworm
-  - tip-bookworm
   - tip-20250517
-  - tip
 - Architectures:
     amd64:
       Architecture: amd64
@@ -660,7 +1019,6 @@ Blocks:
   GitCommit: 96f7058a054cc34157a97d877ecd65c574f500b8
   Tags:
   - tip-20250517-bullseye
-  - tip-bullseye
 - Architectures:
     amd64:
       Architecture: amd64
@@ -715,9 +1073,7 @@ Blocks:
   GitCommit: 96f7058a054cc34157a97d877ecd65c574f500b8
   Tags:
   - tip-20250517-alpine3.21
-  - tip-alpine3.21
   - tip-20250517-alpine
-  - tip-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -772,7 +1128,6 @@ Blocks:
   GitCommit: 96f7058a054cc34157a97d877ecd65c574f500b8
   Tags:
   - tip-20250517-alpine3.20
-  - tip-alpine3.20
 - Architectures:
     amd64:
       Architecture: amd64
@@ -63488,6 +63843,7 @@ KnownTags:
   1-alpine3.19: {}
   1-alpine3.20: {}
   1-alpine3.21: {}
+  1-alpine3.22: {}
   1-bookworm: {}
   1-bullseye: {}
   1-buster: {}
@@ -66841,6 +67197,7 @@ KnownTags:
   1.23-alpine3.19: {}
   1.23-alpine3.20: {}
   1.23-alpine3.21: {}
+  1.23-alpine3.22: {}
   1.23-bookworm: {}
   1.23-bullseye: {}
   1.23-nanoserver: {}
@@ -66984,6 +67341,7 @@ KnownTags:
   1.23.9-alpine: {}
   1.23.9-alpine3.20: {}
   1.23.9-alpine3.21: {}
+  1.23.9-alpine3.22: {}
   1.23.9-bookworm: {}
   1.23.9-bullseye: {}
   1.23.9-nanoserver: {}
@@ -67022,6 +67380,7 @@ KnownTags:
   1.24-alpine: {}
   1.24-alpine3.20: {}
   1.24-alpine3.21: {}
+  1.24-alpine3.22: {}
   1.24-bookworm: {}
   1.24-bullseye: {}
   1.24-nanoserver: {}
@@ -67092,6 +67451,7 @@ KnownTags:
   1.24.3-alpine: {}
   1.24.3-alpine3.20: {}
   1.24.3-alpine3.21: {}
+  1.24.3-alpine3.22: {}
   1.24.3-bookworm: {}
   1.24.3-bullseye: {}
   1.24.3-nanoserver: {}
@@ -67160,6 +67520,7 @@ KnownTags:
   alpine3.19: {}
   alpine3.20: {}
   alpine3.21: {}
+  alpine3.22: {}
   bookworm: {}
   bullseye: {}
   buster: {}
@@ -67291,9 +67652,17 @@ KnownTags:
   tip-20250517-alpine3.21: {}
   tip-20250517-bookworm: {}
   tip-20250517-bullseye: {}
+  tip-20250524: {}
+  tip-20250524-alpine: {}
+  tip-20250524-alpine3.20: {}
+  tip-20250524-alpine3.21: {}
+  tip-20250524-alpine3.22: {}
+  tip-20250524-bookworm: {}
+  tip-20250524-bullseye: {}
   tip-alpine: {}
   tip-alpine3.20: {}
   tip-alpine3.21: {}
+  tip-alpine3.22: {}
   tip-bookworm: {}
   tip-bullseye: {}
   wheezy: {}

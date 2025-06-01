@@ -14,7 +14,7 @@ Blocks:
       GitFetch: ""
   Directory: influxdb/1.11
   File: ""
-  GitCommit: 25b752346444ed1f557dd2ce5d1a834f4448a5ec
+  GitCommit: 063caa0d729da41b70760c8f7362345f1bb79779
   Tags:
   - "1.11"
   - 1.11.8
@@ -33,63 +33,63 @@ Blocks:
       GitFetch: ""
   Directory: influxdb/1.11/alpine
   File: ""
-  GitCommit: 25b752346444ed1f557dd2ce5d1a834f4448a5ec
+  GitCommit: 063caa0d729da41b70760c8f7362345f1bb79779
   Tags:
   - 1.11-alpine
   - 1.11.8-alpine
 - Architectures: null
   Directory: influxdb/1.10/data
   File: ""
-  GitCommit: 25b752346444ed1f557dd2ce5d1a834f4448a5ec
+  GitCommit: 063caa0d729da41b70760c8f7362345f1bb79779
   Tags:
   - 1.10-data
   - 1.10.8-data
 - Architectures: null
   Directory: influxdb/1.10/data/alpine
   File: ""
-  GitCommit: 25b752346444ed1f557dd2ce5d1a834f4448a5ec
+  GitCommit: 063caa0d729da41b70760c8f7362345f1bb79779
   Tags:
   - 1.10-data-alpine
   - 1.10.8-data-alpine
 - Architectures: null
   Directory: influxdb/1.10/meta
   File: ""
-  GitCommit: 25b752346444ed1f557dd2ce5d1a834f4448a5ec
+  GitCommit: 063caa0d729da41b70760c8f7362345f1bb79779
   Tags:
   - 1.10-meta
   - 1.10.8-meta
 - Architectures: null
   Directory: influxdb/1.10/meta/alpine
   File: ""
-  GitCommit: 25b752346444ed1f557dd2ce5d1a834f4448a5ec
+  GitCommit: 063caa0d729da41b70760c8f7362345f1bb79779
   Tags:
   - 1.10-meta-alpine
   - 1.10.8-meta-alpine
 - Architectures: null
   Directory: influxdb/1.11/data
   File: ""
-  GitCommit: 25b752346444ed1f557dd2ce5d1a834f4448a5ec
+  GitCommit: 063caa0d729da41b70760c8f7362345f1bb79779
   Tags:
   - 1.11-data
   - 1.11.8-data
 - Architectures: null
   Directory: influxdb/1.11/data/alpine
   File: ""
-  GitCommit: 25b752346444ed1f557dd2ce5d1a834f4448a5ec
+  GitCommit: 063caa0d729da41b70760c8f7362345f1bb79779
   Tags:
   - 1.11-data-alpine
   - 1.11.8-data-alpine
 - Architectures: null
   Directory: influxdb/1.11/meta
   File: ""
-  GitCommit: 25b752346444ed1f557dd2ce5d1a834f4448a5ec
+  GitCommit: 063caa0d729da41b70760c8f7362345f1bb79779
   Tags:
   - 1.11-meta
   - 1.11.8-meta
 - Architectures: null
   Directory: influxdb/1.11/meta/alpine
   File: ""
-  GitCommit: 25b752346444ed1f557dd2ce5d1a834f4448a5ec
+  GitCommit: 063caa0d729da41b70760c8f7362345f1bb79779
   Tags:
   - 1.11-meta-alpine
   - 1.11.8-meta-alpine
@@ -108,7 +108,7 @@ Blocks:
       GitFetch: ""
   Directory: influxdb/2.7
   File: ""
-  GitCommit: 25b752346444ed1f557dd2ce5d1a834f4448a5ec
+  GitCommit: 063caa0d729da41b70760c8f7362345f1bb79779
   Tags:
   - "2"
   - "2.7"
@@ -129,7 +129,7 @@ Blocks:
       GitFetch: ""
   Directory: influxdb/2.7/alpine
   File: ""
-  GitCommit: 25b752346444ed1f557dd2ce5d1a834f4448a5ec
+  GitCommit: 063caa0d729da41b70760c8f7362345f1bb79779
   Tags:
   - 2-alpine
   - 2.7-alpine
@@ -148,14 +148,54 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+  Directory: influxdb/3.1-core
+  File: ""
+  GitCommit: 063caa0d729da41b70760c8f7362345f1bb79779
+  Tags:
+  - 3-core
+  - 3.1-core
+  - 3.1.0-core
+  - core
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: influxdb/3.1-enterprise
+  File: ""
+  GitCommit: 063caa0d729da41b70760c8f7362345f1bb79779
+  Tags:
+  - 3-enterprise
+  - 3.1-enterprise
+  - 3.1.0-enterprise
+  - enterprise
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
   Directory: influxdb/3.0-core
   File: ""
   GitCommit: 25b752346444ed1f557dd2ce5d1a834f4448a5ec
   Tags:
-  - 3-core
   - 3.0-core
   - 3.0.3-core
-  - core
 - Architectures:
     amd64:
       Architecture: amd64
@@ -173,10 +213,8 @@ Blocks:
   File: ""
   GitCommit: 25b752346444ed1f557dd2ce5d1a834f4448a5ec
   Tags:
-  - 3-enterprise
   - 3.0-enterprise
   - 3.0.3-enterprise
-  - enterprise
 - Architectures:
     amd64:
       Architecture: amd64
@@ -4815,6 +4853,10 @@ KnownTags:
   3.0.2-enterprise: {}
   3.0.3-core: {}
   3.0.3-enterprise: {}
+  3.1-core: {}
+  3.1-enterprise: {}
+  3.1.0-core: {}
+  3.1.0-enterprise: {}
   alpine: {}
   core: {}
   data: {}
