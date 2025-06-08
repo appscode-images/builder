@@ -2247,10 +2247,13 @@
     "28.2.1-windowsservercore-ltsc2025": {},
     "28.2.2": {},
     "28.2.2-alpine3.21": {},
+    "28.2.2-alpine3.22": {},
     "28.2.2-cli": {},
     "28.2.2-cli-alpine3.21": {},
+    "28.2.2-cli-alpine3.22": {},
     "28.2.2-dind": {},
     "28.2.2-dind-alpine3.21": {},
+    "28.2.2-dind-alpine3.22": {},
     "28.2.2-dind-rootless": {},
     "28.2.2-windowsservercore": {},
     "28.2.2-windowsservercore-1809": {},
@@ -2304,7 +2307,7 @@
         "28.2-cli",
         "28-cli",
         "cli",
-        "28.2.2-cli-alpine3.21"
+        "28.2.2-cli-alpine3.22"
       ],
       "Architectures": {
         "amd64": {
@@ -2336,7 +2339,7 @@
           "File": ""
         }
       },
-      "GitCommit": "ac216a48589a02162b04badf29b22a09ca5c9043",
+      "GitCommit": "e9f3fbf07fb73d5266464f898f71510f25fa3266",
       "Directory": "28/cli",
       "File": ""
     },
@@ -2346,12 +2349,12 @@
         "28.2-dind",
         "28-dind",
         "dind",
-        "28.2.2-dind-alpine3.21",
+        "28.2.2-dind-alpine3.22",
         "28.2.2",
         "28.2",
         "28",
         "latest",
-        "28.2.2-alpine3.21"
+        "28.2.2-alpine3.22"
       ],
       "Architectures": {
         "amd64": {
@@ -2383,7 +2386,7 @@
           "File": ""
         }
       },
-      "GitCommit": "ac216a48589a02162b04badf29b22a09ca5c9043",
+      "GitCommit": "e9f3fbf07fb73d5266464f898f71510f25fa3266",
       "Directory": "28/dind",
       "File": ""
     },
@@ -2434,7 +2437,7 @@
           "File": ""
         }
       },
-      "GitCommit": "ac216a48589a02162b04badf29b22a09ca5c9043",
+      "GitCommit": "5705e867cc73585b7e81cfd8acb2992ff4565868",
       "Directory": "28/windows/windowsservercore-ltsc2025",
       "File": ""
     },
@@ -2454,8 +2457,85 @@
           "File": ""
         }
       },
-      "GitCommit": "ac216a48589a02162b04badf29b22a09ca5c9043",
+      "GitCommit": "5705e867cc73585b7e81cfd8acb2992ff4565868",
       "Directory": "28/windows/windowsservercore-ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "28.2.2-cli-alpine3.21"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "ac216a48589a02162b04badf29b22a09ca5c9043",
+      "Directory": "28/cli",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "28.2.2-dind-alpine3.21",
+        "28.2.2-alpine3.21"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "ac216a48589a02162b04badf29b22a09ca5c9043",
+      "Directory": "28/dind",
       "File": ""
     },
     {

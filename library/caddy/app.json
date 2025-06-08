@@ -9,10 +9,12 @@
     "2-builder-windowsservercore-1809": {},
     "2-builder-windowsservercore-ltsc2016": {},
     "2-builder-windowsservercore-ltsc2022": {},
+    "2-builder-windowsservercore-ltsc2025": {},
     "2-windowsservercore": {},
     "2-windowsservercore-1809": {},
     "2-windowsservercore-ltsc2016": {},
     "2-windowsservercore-ltsc2022": {},
+    "2-windowsservercore-ltsc2025": {},
     "2.0.0": {},
     "2.0.0-alpine": {},
     "2.0.0-builder": {},
@@ -52,18 +54,22 @@
     "2.10-builder-alpine": {},
     "2.10-builder-windowsservercore-1809": {},
     "2.10-builder-windowsservercore-ltsc2022": {},
+    "2.10-builder-windowsservercore-ltsc2025": {},
     "2.10-windowsservercore": {},
     "2.10-windowsservercore-1809": {},
     "2.10-windowsservercore-ltsc2022": {},
+    "2.10-windowsservercore-ltsc2025": {},
     "2.10.0": {},
     "2.10.0-alpine": {},
     "2.10.0-builder": {},
     "2.10.0-builder-alpine": {},
     "2.10.0-builder-windowsservercore-1809": {},
     "2.10.0-builder-windowsservercore-ltsc2022": {},
+    "2.10.0-builder-windowsservercore-ltsc2025": {},
     "2.10.0-windowsservercore": {},
     "2.10.0-windowsservercore-1809": {},
     "2.10.0-windowsservercore-ltsc2022": {},
+    "2.10.0-windowsservercore-ltsc2025": {},
     "2.2.0": {},
     "2.2.0-alpine": {},
     "2.2.0-builder": {},
@@ -475,11 +481,13 @@
     "builder-windowsservercore-1809": {},
     "builder-windowsservercore-ltsc2016": {},
     "builder-windowsservercore-ltsc2022": {},
+    "builder-windowsservercore-ltsc2025": {},
     "latest": {},
     "windowsservercore": {},
     "windowsservercore-1809": {},
     "windowsservercore-ltsc2016": {},
-    "windowsservercore-ltsc2022": {}
+    "windowsservercore-ltsc2022": {},
+    "windowsservercore-ltsc2025": {}
   },
   "Blocks": [
     {
@@ -616,34 +624,14 @@
     },
     {
       "Tags": [
-        "2.10.0-windowsservercore-1809",
-        "2.10-windowsservercore-1809",
-        "2-windowsservercore-1809",
-        "windowsservercore-1809",
+        "2.10.0-windowsservercore-ltsc2022",
+        "2.10-windowsservercore-ltsc2022",
+        "2-windowsservercore-ltsc2022",
+        "windowsservercore-ltsc2022",
         "2.10.0-windowsservercore",
         "2.10-windowsservercore",
         "2-windowsservercore",
         "windowsservercore"
-      ],
-      "Architectures": {
-        "windows-amd64": {
-          "Architecture": "windows-amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "aa3e73e0731fbca665be75edef9fbb60d3169278",
-      "Directory": "2.10/windows/1809",
-      "File": ""
-    },
-    {
-      "Tags": [
-        "2.10.0-windowsservercore-ltsc2022",
-        "2.10-windowsservercore-ltsc2022",
-        "2-windowsservercore-ltsc2022",
-        "windowsservercore-ltsc2022"
       ],
       "Architectures": {
         "windows-amd64": {
@@ -660,10 +648,10 @@
     },
     {
       "Tags": [
-        "2.10.0-builder-windowsservercore-1809",
-        "2.10-builder-windowsservercore-1809",
-        "2-builder-windowsservercore-1809",
-        "builder-windowsservercore-1809"
+        "2.10.0-windowsservercore-ltsc2025",
+        "2.10-windowsservercore-ltsc2025",
+        "2-windowsservercore-ltsc2025",
+        "windowsservercore-ltsc2025"
       ],
       "Architectures": {
         "windows-amd64": {
@@ -674,8 +662,8 @@
           "File": ""
         }
       },
-      "GitCommit": "aa3e73e0731fbca665be75edef9fbb60d3169278",
-      "Directory": "2.10/windows-builder/1809",
+      "GitCommit": "b4226f27405e98d9330ca807a80807d5d523ebba",
+      "Directory": "2.10/windows/ltsc2025",
       "File": ""
     },
     {
@@ -696,6 +684,66 @@
       },
       "GitCommit": "aa3e73e0731fbca665be75edef9fbb60d3169278",
       "Directory": "2.10/windows-builder/ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.10.0-builder-windowsservercore-ltsc2025",
+        "2.10-builder-windowsservercore-ltsc2025",
+        "2-builder-windowsservercore-ltsc2025",
+        "builder-windowsservercore-ltsc2025"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "b4226f27405e98d9330ca807a80807d5d523ebba",
+      "Directory": "2.10/windows-builder/ltsc2025",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.10.0-windowsservercore-1809",
+        "2.10-windowsservercore-1809",
+        "2-windowsservercore-1809",
+        "windowsservercore-1809"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "aa3e73e0731fbca665be75edef9fbb60d3169278",
+      "Directory": "2.10/windows/1809",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.10.0-builder-windowsservercore-1809",
+        "2.10-builder-windowsservercore-1809",
+        "2-builder-windowsservercore-1809",
+        "builder-windowsservercore-1809"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "aa3e73e0731fbca665be75edef9fbb60d3169278",
+      "Directory": "2.10/windows-builder/1809",
       "File": ""
     },
     {

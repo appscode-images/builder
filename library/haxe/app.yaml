@@ -68,19 +68,6 @@ Blocks:
   - 4.3.6-windowsservercore
   - 4.3-windowsservercore
 - Architectures:
-    windows-amd64:
-      Architecture: windows-amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: 4.3/windowsservercore-1809
-  File: ""
-  GitCommit: 03cdd3f2df8800aff8f28313181564ed9443dedd
-  Tags:
-  - 4.3.6-windowsservercore-1809
-  - 4.3-windowsservercore-1809
-- Architectures:
     amd64:
       Architecture: amd64
       Directory: ""
@@ -120,25 +107,6 @@ Blocks:
   Tags:
   - 4.3.6-alpine3.19
   - 4.3-alpine3.19
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: 4.3/alpine3.18
-  File: ""
-  GitCommit: 483c3e2b958d83239d03f4469ea9e745c0852326
-  Tags:
-  - 4.3.6-alpine3.18
-  - 4.3-alpine3.18
 - Architectures:
     amd64:
       Architecture: amd64
@@ -207,19 +175,6 @@ Blocks:
   - 4.2.5-windowsservercore
   - 4.2-windowsservercore
 - Architectures:
-    windows-amd64:
-      Architecture: windows-amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: 4.2/windowsservercore-1809
-  File: ""
-  GitCommit: c0367972017a7b87845bf33477e29b1fe64ccc4a
-  Tags:
-  - 4.2.5-windowsservercore-1809
-  - 4.2-windowsservercore-1809
-- Architectures:
     amd64:
       Architecture: amd64
       Directory: ""
@@ -266,25 +221,6 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: 4.2/alpine3.18
-  File: ""
-  GitCommit: 483c3e2b958d83239d03f4469ea9e745c0852326
-  Tags:
-  - 4.2.5-alpine3.18
-  - 4.2-alpine3.18
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
     arm32v7:
       Architecture: arm32v7
       Directory: ""
@@ -320,19 +256,6 @@ Blocks:
   - 4.1-windowsservercore-ltsc2022
   - 4.1.5-windowsservercore
   - 4.1-windowsservercore
-- Architectures:
-    windows-amd64:
-      Architecture: windows-amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: 4.1/windowsservercore-1809
-  File: ""
-  GitCommit: c0367972017a7b87845bf33477e29b1fe64ccc4a
-  Tags:
-  - 4.1.5-windowsservercore-1809
-  - 4.1-windowsservercore-1809
 - Architectures:
     amd64:
       Architecture: amd64
@@ -380,25 +303,6 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: 4.1/alpine3.18
-  File: ""
-  GitCommit: 483c3e2b958d83239d03f4469ea9e745c0852326
-  Tags:
-  - 4.1.5-alpine3.18
-  - 4.1-alpine3.18
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
     arm32v7:
       Architecture: arm32v7
       Directory: ""
@@ -434,19 +338,6 @@ Blocks:
   - 4.0-windowsservercore-ltsc2022
   - 4.0.5-windowsservercore
   - 4.0-windowsservercore
-- Architectures:
-    windows-amd64:
-      Architecture: windows-amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: 4.0/windowsservercore-1809
-  File: ""
-  GitCommit: c0367972017a7b87845bf33477e29b1fe64ccc4a
-  Tags:
-  - 4.0.5-windowsservercore-1809
-  - 4.0-windowsservercore-1809
 - Architectures:
     amd64:
       Architecture: amd64
@@ -487,6 +378,115 @@ Blocks:
   Tags:
   - 4.0.5-alpine3.19
   - 4.0-alpine3.19
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 4.3/windowsservercore-1809
+  File: ""
+  GitCommit: 03cdd3f2df8800aff8f28313181564ed9443dedd
+  Tags:
+  - 4.3.6-windowsservercore-1809
+  - 4.3-windowsservercore-1809
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 4.2/windowsservercore-1809
+  File: ""
+  GitCommit: c0367972017a7b87845bf33477e29b1fe64ccc4a
+  Tags:
+  - 4.2.5-windowsservercore-1809
+  - 4.2-windowsservercore-1809
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 4.1/windowsservercore-1809
+  File: ""
+  GitCommit: c0367972017a7b87845bf33477e29b1fe64ccc4a
+  Tags:
+  - 4.1.5-windowsservercore-1809
+  - 4.1-windowsservercore-1809
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 4.0/windowsservercore-1809
+  File: ""
+  GitCommit: c0367972017a7b87845bf33477e29b1fe64ccc4a
+  Tags:
+  - 4.0.5-windowsservercore-1809
+  - 4.0-windowsservercore-1809
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 4.3/alpine3.18
+  File: ""
+  GitCommit: 483c3e2b958d83239d03f4469ea9e745c0852326
+  Tags:
+  - 4.3.6-alpine3.18
+  - 4.3-alpine3.18
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 4.2/alpine3.18
+  File: ""
+  GitCommit: 483c3e2b958d83239d03f4469ea9e745c0852326
+  Tags:
+  - 4.2.5-alpine3.18
+  - 4.2-alpine3.18
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 4.1/alpine3.18
+  File: ""
+  GitCommit: 483c3e2b958d83239d03f4469ea9e745c0852326
+  Tags:
+  - 4.1.5-alpine3.18
+  - 4.1-alpine3.18
 - Architectures:
     amd64:
       Architecture: amd64
