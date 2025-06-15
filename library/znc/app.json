@@ -2,6 +2,10 @@
   "Name": "znc",
   "GitRepo": "https://github.com/znc/znc-docker.git",
   "KnownTags": {
+    "1.10": {},
+    "1.10-slim": {},
+    "1.10.0": {},
+    "1.10.0-slim": {},
     "1.6": {},
     "1.6-slim": {},
     "1.6-small": {},
@@ -47,9 +51,30 @@
   "Blocks": [
     {
       "Tags": [
-        "1.9.1",
-        "1.9",
+        "1.10.0",
+        "1.10",
         "latest"
+      ],
+      "Architectures": null,
+      "GitCommit": "83082df630a0da0ef2d3724aa0299fba193ac096",
+      "Directory": "full",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.10.0-slim",
+        "1.10-slim",
+        "slim"
+      ],
+      "Architectures": null,
+      "GitCommit": "83082df630a0da0ef2d3724aa0299fba193ac096",
+      "Directory": "slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.9.1",
+        "1.9"
       ],
       "Architectures": null,
       "GitCommit": "14890ffcd1006eefbe0e2aeb9ea389b49eb995ce",
@@ -59,8 +84,7 @@
     {
       "Tags": [
         "1.9.1-slim",
-        "1.9-slim",
-        "slim"
+        "1.9-slim"
       ],
       "Architectures": null,
       "GitCommit": "14890ffcd1006eefbe0e2aeb9ea389b49eb995ce",

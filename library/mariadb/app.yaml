@@ -24,14 +24,84 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+  Directory: 12.0-ubi
+  File: ""
+  GitCommit: e9903b927ef46dc55fc6900ab015e4314349699a
+  Tags:
+  - 12.0.1-ubi9-rc
+  - 12.0-ubi9-rc
+  - 12.0.1-ubi-rc
+  - 12.0-ubi-rc
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: "12.0"
+  File: ""
+  GitCommit: e9903b927ef46dc55fc6900ab015e4314349699a
+  Tags:
+  - 12.0.1-noble-rc
+  - 12.0-noble-rc
+  - 12.0.1-rc
+  - 12.0-rc
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
   Directory: 11.8-ubi
   File: ""
-  GitCommit: 2d5103917774c4c53ec6bf3c6fdfc7b210e85690
+  GitCommit: 4c5048803b4785a1ef057c2d4c48b126a08348c6
   Tags:
-  - 11.8.1-ubi9-rc
-  - 11.8-ubi9-rc
-  - 11.8.1-ubi-rc
-  - 11.8-ubi-rc
+  - 11.8.2-ubi9
+  - 11.8-ubi9
+  - 11-ubi9
+  - lts-ubi9
+  - 11.8.2-ubi
+  - 11.8-ubi
+  - 11-ubi
+  - lts-ubi
 - Architectures:
     amd64:
       Architecture: amd64
@@ -59,84 +129,18 @@ Blocks:
       GitFetch: ""
   Directory: "11.8"
   File: ""
-  GitCommit: 2d5103917774c4c53ec6bf3c6fdfc7b210e85690
+  GitCommit: 4c5048803b4785a1ef057c2d4c48b126a08348c6
   Tags:
-  - 11.8.1-noble-rc
-  - 11.8-noble-rc
-  - 11.8.1-rc
-  - 11.8-rc
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    s390x:
-      Architecture: s390x
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: 11.7-ubi
-  File: ""
-  GitCommit: 853447019725b35685d5ec3c007096a266399bea
-  Tags:
-  - 11.7.2-ubi9
-  - 11.7-ubi9
-  - 11-ubi9
-  - 11.7.2-ubi
-  - 11.7-ubi
-  - 11-ubi
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    s390x:
-      Architecture: s390x
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: "11.7"
-  File: ""
-  GitCommit: 853447019725b35685d5ec3c007096a266399bea
-  Tags:
-  - 11.7.2-noble
-  - 11.7-noble
+  - 11.8.2-noble
+  - 11.8-noble
   - 11-noble
   - noble
-  - 11.7.2
-  - "11.7"
+  - lts-noble
+  - 11.8.2
+  - "11.8"
   - "11"
   - latest
+  - lts
 - Architectures:
     amd64:
       Architecture: amd64
@@ -168,10 +172,8 @@ Blocks:
   Tags:
   - 11.4.7-ubi9
   - 11.4-ubi9
-  - lts-ubi9
   - 11.4.7-ubi
   - 11.4-ubi
-  - lts-ubi
 - Architectures:
     amd64:
       Architecture: amd64
@@ -203,10 +205,8 @@ Blocks:
   Tags:
   - 11.4.7-noble
   - 11.4-noble
-  - lts-noble
   - 11.4.7
   - "11.4"
-  - lts
 - Architectures:
     amd64:
       Architecture: amd64
@@ -341,6 +341,138 @@ Blocks:
   Tags:
   - 10.6.22-jammy
   - 10.6-jammy
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 11.8-ubi
+  File: ""
+  GitCommit: 2d5103917774c4c53ec6bf3c6fdfc7b210e85690
+  Tags:
+  - 11.8.1-ubi9-rc
+  - 11.8-ubi9-rc
+  - 11.8.1-ubi-rc
+  - 11.8-ubi-rc
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: "11.8"
+  File: ""
+  GitCommit: 2d5103917774c4c53ec6bf3c6fdfc7b210e85690
+  Tags:
+  - 11.8.1-noble-rc
+  - 11.8-noble-rc
+  - 11.8.1-rc
+  - 11.8-rc
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 11.7-ubi
+  File: ""
+  GitCommit: 853447019725b35685d5ec3c007096a266399bea
+  Tags:
+  - 11.7.2-ubi9
+  - 11.7-ubi9
+  - 11.7.2-ubi
+  - 11.7-ubi
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: "11.7"
+  File: ""
+  GitCommit: 853447019725b35685d5ec3c007096a266399bea
+  Tags:
+  - 11.7.2-noble
+  - 11.7-noble
+  - 11.7.2
+  - "11.7"
 - Architectures:
     amd64:
       Architecture: amd64
@@ -8690,14 +8822,30 @@ KnownTags:
   11.7.2-noble: {}
   11.7.2-ubi: {}
   11.7.2-ubi9: {}
+  "11.8": {}
+  11.8-noble: {}
   11.8-noble-rc: {}
   11.8-rc: {}
+  11.8-ubi: {}
   11.8-ubi-rc: {}
+  11.8-ubi9: {}
   11.8-ubi9-rc: {}
   11.8.1-noble-rc: {}
   11.8.1-rc: {}
   11.8.1-ubi-rc: {}
   11.8.1-ubi9-rc: {}
+  11.8.2: {}
+  11.8.2-noble: {}
+  11.8.2-ubi: {}
+  11.8.2-ubi9: {}
+  12.0-noble-rc: {}
+  12.0-rc: {}
+  12.0-ubi-rc: {}
+  12.0-ubi9-rc: {}
+  12.0.1-noble-rc: {}
+  12.0.1-rc: {}
+  12.0.1-ubi-rc: {}
+  12.0.1-ubi9-rc: {}
   alpha: {}
   alpha-focal: {}
   beta: {}

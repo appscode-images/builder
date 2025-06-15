@@ -20,11 +20,11 @@ Blocks:
       GitFetch: ""
   Directory: 24/alpine3.21
   File: ""
-  GitCommit: 292dea0c0077b0925717d708e641dfef6ad2b373
+  GitCommit: 52a145e08a3c4e7b6e72addccc410e57530cd0c1
   Tags:
   - 24-alpine3.21
-  - 24.1-alpine3.21
-  - 24.1.0-alpine3.21
+  - 24.2-alpine3.21
+  - 24.2.0-alpine3.21
   - alpine3.21
   - current-alpine3.21
 - Architectures:
@@ -48,14 +48,14 @@ Blocks:
       GitFetch: ""
   Directory: 24/alpine3.22
   File: ""
-  GitCommit: b1e2c97844d5647bcfaf6d6c7862dd39fbc2ca51
+  GitCommit: 52a145e08a3c4e7b6e72addccc410e57530cd0c1
   Tags:
   - 24-alpine
   - 24-alpine3.22
-  - 24.1-alpine
-  - 24.1-alpine3.22
-  - 24.1.0-alpine
-  - 24.1.0-alpine3.22
+  - 24.2-alpine
+  - 24.2-alpine3.22
+  - 24.2.0-alpine
+  - 24.2.0-alpine3.22
   - alpine
   - alpine3.22
   - current-alpine
@@ -87,14 +87,14 @@ Blocks:
       GitFetch: ""
   Directory: 24/bookworm
   File: ""
-  GitCommit: 292dea0c0077b0925717d708e641dfef6ad2b373
+  GitCommit: 52a145e08a3c4e7b6e72addccc410e57530cd0c1
   Tags:
   - "24"
   - 24-bookworm
-  - "24.1"
-  - 24.1-bookworm
-  - 24.1.0
-  - 24.1.0-bookworm
+  - "24.2"
+  - 24.2-bookworm
+  - 24.2.0
+  - 24.2.0-bookworm
   - bookworm
   - current
   - current-bookworm
@@ -126,14 +126,14 @@ Blocks:
       GitFetch: ""
   Directory: 24/bookworm-slim
   File: ""
-  GitCommit: 292dea0c0077b0925717d708e641dfef6ad2b373
+  GitCommit: 52a145e08a3c4e7b6e72addccc410e57530cd0c1
   Tags:
   - 24-bookworm-slim
   - 24-slim
-  - 24.1-bookworm-slim
-  - 24.1-slim
-  - 24.1.0-bookworm-slim
-  - 24.1.0-slim
+  - 24.2-bookworm-slim
+  - 24.2-slim
+  - 24.2.0-bookworm-slim
+  - 24.2.0-slim
   - bookworm-slim
   - current-bookworm-slim
   - current-slim
@@ -153,11 +153,11 @@ Blocks:
       GitFetch: ""
   Directory: 24/bullseye
   File: ""
-  GitCommit: 292dea0c0077b0925717d708e641dfef6ad2b373
+  GitCommit: 52a145e08a3c4e7b6e72addccc410e57530cd0c1
   Tags:
   - 24-bullseye
-  - 24.1-bullseye
-  - 24.1.0-bullseye
+  - 24.2-bullseye
+  - 24.2.0-bullseye
   - bullseye
   - current-bullseye
 - Architectures:
@@ -175,11 +175,11 @@ Blocks:
       GitFetch: ""
   Directory: 24/bullseye-slim
   File: ""
-  GitCommit: 292dea0c0077b0925717d708e641dfef6ad2b373
+  GitCommit: 52a145e08a3c4e7b6e72addccc410e57530cd0c1
   Tags:
   - 24-bullseye-slim
-  - 24.1-bullseye-slim
-  - 24.1.0-bullseye-slim
+  - 24.2-bullseye-slim
+  - 24.2.0-bullseye-slim
   - bullseye-slim
   - current-bullseye-slim
 - Architectures:
@@ -648,6 +648,162 @@ Blocks:
   - 20.19-bullseye-slim
   - 20.19.2-bullseye-slim
   - iron-bullseye-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 24/alpine3.21
+  File: ""
+  GitCommit: 292dea0c0077b0925717d708e641dfef6ad2b373
+  Tags:
+  - 24.1-alpine3.21
+  - 24.1.0-alpine3.21
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 24/alpine3.22
+  File: ""
+  GitCommit: b1e2c97844d5647bcfaf6d6c7862dd39fbc2ca51
+  Tags:
+  - 24.1-alpine
+  - 24.1-alpine3.22
+  - 24.1.0-alpine
+  - 24.1.0-alpine3.22
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 24/bookworm
+  File: ""
+  GitCommit: 292dea0c0077b0925717d708e641dfef6ad2b373
+  Tags:
+  - "24.1"
+  - 24.1-bookworm
+  - 24.1.0
+  - 24.1.0-bookworm
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 24/bookworm-slim
+  File: ""
+  GitCommit: 292dea0c0077b0925717d708e641dfef6ad2b373
+  Tags:
+  - 24.1-bookworm-slim
+  - 24.1-slim
+  - 24.1.0-bookworm-slim
+  - 24.1.0-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 24/bullseye
+  File: ""
+  GitCommit: 292dea0c0077b0925717d708e641dfef6ad2b373
+  Tags:
+  - 24.1-bullseye
+  - 24.1.0-bullseye
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 24/bullseye-slim
+  File: ""
+  GitCommit: 292dea0c0077b0925717d708e641dfef6ad2b373
+  Tags:
+  - 24.1-bullseye-slim
+  - 24.1.0-bullseye-slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -117771,6 +117927,24 @@ KnownTags:
   24.1.0-bullseye: {}
   24.1.0-bullseye-slim: {}
   24.1.0-slim: {}
+  "24.2": {}
+  24.2-alpine: {}
+  24.2-alpine3.21: {}
+  24.2-alpine3.22: {}
+  24.2-bookworm: {}
+  24.2-bookworm-slim: {}
+  24.2-bullseye: {}
+  24.2-bullseye-slim: {}
+  24.2-slim: {}
+  24.2.0: {}
+  24.2.0-alpine: {}
+  24.2.0-alpine3.21: {}
+  24.2.0-alpine3.22: {}
+  24.2.0-bookworm: {}
+  24.2.0-bookworm-slim: {}
+  24.2.0-bullseye: {}
+  24.2.0-bullseye-slim: {}
+  24.2.0-slim: {}
   alpine: {}
   alpine3.10: {}
   alpine3.11: {}
