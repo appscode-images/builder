@@ -12,11 +12,11 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 2025/developer
+  Directory: commercial-editions/developer
   File: ""
   GitCommit: ""
   Tags:
-  - 2025.3.0-developer
+  - 2025.3.1-developer
   - 2025.3-developer
   - developer
 - Architectures:
@@ -32,11 +32,11 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 2025/enterprise
+  Directory: commercial-editions/enterprise
   File: ""
   GitCommit: ""
   Tags:
-  - 2025.3.0-enterprise
+  - 2025.3.1-enterprise
   - 2025.3-enterprise
   - enterprise
 - Architectures:
@@ -52,11 +52,11 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 2025/datacenter/app
+  Directory: commercial-editions/datacenter/app
   File: ""
   GitCommit: ""
   Tags:
-  - 2025.3.0-datacenter-app
+  - 2025.3.1-datacenter-app
   - 2025.3-datacenter-app
   - datacenter-app
 - Architectures:
@@ -72,11 +72,11 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 2025/datacenter/search
+  Directory: commercial-editions/datacenter/search
   File: ""
   GitCommit: ""
   Tags:
-  - 2025.3.0-datacenter-search
+  - 2025.3.1-datacenter-search
   - 2025.3-datacenter-search
   - datacenter-search
 - Architectures:
@@ -92,9 +92,9 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 2025.1/developer
+  Directory: commercial-editions/developer
   File: ""
-  GitCommit: ""
+  GitCommit: 31fac30f5087cc490c9cd266e2279729a2fbdd7c
   Tags:
   - 2025.1.2-developer
   - 2025.1-developer
@@ -112,9 +112,9 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 2025.1/enterprise
+  Directory: commercial-editions/enterprise
   File: ""
-  GitCommit: ""
+  GitCommit: 31fac30f5087cc490c9cd266e2279729a2fbdd7c
   Tags:
   - 2025.1.2-enterprise
   - 2025.1-enterprise
@@ -132,9 +132,9 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 2025.1/datacenter/app
+  Directory: commercial-editions/datacenter/app
   File: ""
-  GitCommit: ""
+  GitCommit: 31fac30f5087cc490c9cd266e2279729a2fbdd7c
   Tags:
   - 2025.1.2-datacenter-app
   - 2025.1-datacenter-app
@@ -152,9 +152,9 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 2025.1/datacenter/search
+  Directory: commercial-editions/datacenter/search
   File: ""
-  GitCommit: ""
+  GitCommit: 31fac30f5087cc490c9cd266e2279729a2fbdd7c
   Tags:
   - 2025.1.2-datacenter-search
   - 2025.1-datacenter-search
@@ -285,6 +285,78 @@ Blocks:
   - 9.9-datacenter-search
   - 9-datacenter-search
   - lts-datacenter-search
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 2025/developer
+  File: ""
+  GitCommit: ""
+  Tags:
+  - 2025.3.0-developer
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 2025/enterprise
+  File: ""
+  GitCommit: ""
+  Tags:
+  - 2025.3.0-enterprise
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 2025/datacenter/app
+  File: ""
+  GitCommit: ""
+  Tags:
+  - 2025.3.0-datacenter-app
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 2025/datacenter/search
+  File: ""
+  GitCommit: ""
+  Tags:
+  - 2025.3.0-datacenter-search
 - Architectures:
     amd64:
       Architecture: amd64
@@ -4440,6 +4512,10 @@ KnownTags:
   2025.3.0-datacenter-search: {}
   2025.3.0-developer: {}
   2025.3.0-enterprise: {}
+  2025.3.1-datacenter-app: {}
+  2025.3.1-datacenter-search: {}
+  2025.3.1-developer: {}
+  2025.3.1-enterprise: {}
   alpine: {}
   community: {}
   community-beta: {}

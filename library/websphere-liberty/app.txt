@@ -1,37 +1,105 @@
 GitRepo: https://github.com/WASdev/ci.docker.git
 
 Tags: kernel,kernel-java8-ibmjava
-GitCommit: c8dd82b972ab08fb1b63f65eff1e3681e58c3843
+GitCommit: 923e41779be731923cac0f6bb2d3c2f737eedd17
 Directory: ga/latest/kernel
 File: Dockerfile.ubuntu.ibmjava8
 
 Tags: kernel-java11-openj9
 Architectures: amd64,arm64v8,ppc64le,s390x
-GitCommit: c8dd82b972ab08fb1b63f65eff1e3681e58c3843
+GitCommit: 923e41779be731923cac0f6bb2d3c2f737eedd17
 Directory: ga/latest/kernel
 File: Dockerfile.ubuntu.openjdk11
 
 Tags: kernel-java17-openj9
 Architectures: amd64,arm64v8,ppc64le,s390x
-GitCommit: c8dd82b972ab08fb1b63f65eff1e3681e58c3843
+GitCommit: 923e41779be731923cac0f6bb2d3c2f737eedd17
 Directory: ga/latest/kernel
 File: Dockerfile.ubuntu.openjdk17
 
 Tags: full,latest,full-java8-ibmjava
-GitCommit: c8dd82b972ab08fb1b63f65eff1e3681e58c3843
+GitCommit: 923e41779be731923cac0f6bb2d3c2f737eedd17
 Directory: ga/latest/full
 File: Dockerfile.ubuntu.ibmjava8
 
 Tags: full-java11-openj9
 Architectures: amd64,arm64v8,ppc64le,s390x
-GitCommit: c8dd82b972ab08fb1b63f65eff1e3681e58c3843
+GitCommit: 923e41779be731923cac0f6bb2d3c2f737eedd17
 Directory: ga/latest/full
 File: Dockerfile.ubuntu.openjdk11
 
 Tags: full-java17-openj9
 Architectures: amd64,arm64v8,ppc64le,s390x
-GitCommit: c8dd82b972ab08fb1b63f65eff1e3681e58c3843
+GitCommit: 923e41779be731923cac0f6bb2d3c2f737eedd17
 Directory: ga/latest/full
+File: Dockerfile.ubuntu.openjdk17
+
+Tags: 25.0.0.3-kernel-java8-ibmjava
+GitCommit: 923e41779be731923cac0f6bb2d3c2f737eedd17
+Directory: ga/25.0.0.3/kernel
+File: Dockerfile.ubuntu.ibmjava8
+
+Tags: 25.0.0.3-kernel-java11-openj9
+Architectures: amd64,arm64v8,ppc64le,s390x
+GitCommit: 923e41779be731923cac0f6bb2d3c2f737eedd17
+Directory: ga/25.0.0.3/kernel
+File: Dockerfile.ubuntu.openjdk11
+
+Tags: 25.0.0.3-kernel-java17-openj9
+Architectures: amd64,arm64v8,ppc64le,s390x
+GitCommit: 923e41779be731923cac0f6bb2d3c2f737eedd17
+Directory: ga/25.0.0.3/kernel
+File: Dockerfile.ubuntu.openjdk17
+
+Tags: 25.0.0.3-full-java8-ibmjava
+GitCommit: 923e41779be731923cac0f6bb2d3c2f737eedd17
+Directory: ga/25.0.0.3/full
+File: Dockerfile.ubuntu.ibmjava8
+
+Tags: 25.0.0.3-full-java11-openj9
+Architectures: amd64,arm64v8,ppc64le,s390x
+GitCommit: 923e41779be731923cac0f6bb2d3c2f737eedd17
+Directory: ga/25.0.0.3/full
+File: Dockerfile.ubuntu.openjdk11
+
+Tags: 25.0.0.3-full-java17-openj9
+Architectures: amd64,arm64v8,ppc64le,s390x
+GitCommit: 923e41779be731923cac0f6bb2d3c2f737eedd17
+Directory: ga/25.0.0.3/full
+File: Dockerfile.ubuntu.openjdk17
+
+Tags: 25.0.0.6-kernel-java8-ibmjava
+GitCommit: 923e41779be731923cac0f6bb2d3c2f737eedd17
+Directory: ga/25.0.0.6/kernel
+File: Dockerfile.ubuntu.ibmjava8
+
+Tags: 25.0.0.6-kernel-java11-openj9
+Architectures: amd64,arm64v8,ppc64le,s390x
+GitCommit: 923e41779be731923cac0f6bb2d3c2f737eedd17
+Directory: ga/25.0.0.6/kernel
+File: Dockerfile.ubuntu.openjdk11
+
+Tags: 25.0.0.6-kernel-java17-openj9
+Architectures: amd64,arm64v8,ppc64le,s390x
+GitCommit: 923e41779be731923cac0f6bb2d3c2f737eedd17
+Directory: ga/25.0.0.6/kernel
+File: Dockerfile.ubuntu.openjdk17
+
+Tags: 25.0.0.6-full-java8-ibmjava
+GitCommit: 923e41779be731923cac0f6bb2d3c2f737eedd17
+Directory: ga/25.0.0.6/full
+File: Dockerfile.ubuntu.ibmjava8
+
+Tags: 25.0.0.6-full-java11-openj9
+Architectures: amd64,arm64v8,ppc64le,s390x
+GitCommit: 923e41779be731923cac0f6bb2d3c2f737eedd17
+Directory: ga/25.0.0.6/full
+File: Dockerfile.ubuntu.openjdk11
+
+Tags: 25.0.0.6-full-java17-openj9
+Architectures: amd64,arm64v8,ppc64le,s390x
+GitCommit: 923e41779be731923cac0f6bb2d3c2f737eedd17
+Directory: ga/25.0.0.6/full
 File: Dockerfile.ubuntu.openjdk17
 
 Tags: 24.0.0.12-kernel-java8-ibmjava
@@ -66,40 +134,6 @@ Tags: 24.0.0.12-full-java17-openj9
 Architectures: amd64,arm64v8,ppc64le,s390x
 GitCommit: c8dd82b972ab08fb1b63f65eff1e3681e58c3843
 Directory: ga/24.0.0.12/full
-File: Dockerfile.ubuntu.openjdk17
-
-Tags: 25.0.0.3-kernel-java8-ibmjava
-GitCommit: c8dd82b972ab08fb1b63f65eff1e3681e58c3843
-Directory: ga/25.0.0.3/kernel
-File: Dockerfile.ubuntu.ibmjava8
-
-Tags: 25.0.0.3-kernel-java11-openj9
-Architectures: amd64,arm64v8,ppc64le,s390x
-GitCommit: c8dd82b972ab08fb1b63f65eff1e3681e58c3843
-Directory: ga/25.0.0.3/kernel
-File: Dockerfile.ubuntu.openjdk11
-
-Tags: 25.0.0.3-kernel-java17-openj9
-Architectures: amd64,arm64v8,ppc64le,s390x
-GitCommit: c8dd82b972ab08fb1b63f65eff1e3681e58c3843
-Directory: ga/25.0.0.3/kernel
-File: Dockerfile.ubuntu.openjdk17
-
-Tags: 25.0.0.3-full-java8-ibmjava
-GitCommit: c8dd82b972ab08fb1b63f65eff1e3681e58c3843
-Directory: ga/25.0.0.3/full
-File: Dockerfile.ubuntu.ibmjava8
-
-Tags: 25.0.0.3-full-java11-openj9
-Architectures: amd64,arm64v8,ppc64le,s390x
-GitCommit: c8dd82b972ab08fb1b63f65eff1e3681e58c3843
-Directory: ga/25.0.0.3/full
-File: Dockerfile.ubuntu.openjdk11
-
-Tags: 25.0.0.3-full-java17-openj9
-Architectures: amd64,arm64v8,ppc64le,s390x
-GitCommit: c8dd82b972ab08fb1b63f65eff1e3681e58c3843
-Directory: ga/25.0.0.3/full
 File: Dockerfile.ubuntu.openjdk17
 
 Tags: 25.0.0.5-kernel-java8-ibmjava
