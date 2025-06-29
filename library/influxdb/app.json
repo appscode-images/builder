@@ -493,6 +493,7 @@
     "2.7.11": {},
     "2.7.11-alpine": {},
     "2.7.12": {},
+    "2.7.12-alpine": {},
     "2.7.3": {},
     "2.7.3-alpine": {},
     "2.7.4": {},
@@ -523,6 +524,10 @@
     "3.1-enterprise": {},
     "3.1.0-core": {},
     "3.1.0-enterprise": {},
+    "3.2-core": {},
+    "3.2-enterprise": {},
+    "3.2.0-core": {},
+    "3.2.0-enterprise": {},
     "alpine": {},
     "core": {},
     "data": {},
@@ -554,7 +559,7 @@
           "File": ""
         }
       },
-      "GitCommit": "063caa0d729da41b70760c8f7362345f1bb79779",
+      "GitCommit": "abb94994d78be45ccaa56282f36c36ad16bd5a5e",
       "Directory": "influxdb/1.11",
       "File": ""
     },
@@ -579,7 +584,7 @@
           "File": ""
         }
       },
-      "GitCommit": "063caa0d729da41b70760c8f7362345f1bb79779",
+      "GitCommit": "abb94994d78be45ccaa56282f36c36ad16bd5a5e",
       "Directory": "influxdb/1.11/alpine",
       "File": ""
     },
@@ -589,7 +594,7 @@
         "1.10.8-data"
       ],
       "Architectures": null,
-      "GitCommit": "063caa0d729da41b70760c8f7362345f1bb79779",
+      "GitCommit": "abb94994d78be45ccaa56282f36c36ad16bd5a5e",
       "Directory": "influxdb/1.10/data",
       "File": ""
     },
@@ -599,7 +604,7 @@
         "1.10.8-data-alpine"
       ],
       "Architectures": null,
-      "GitCommit": "063caa0d729da41b70760c8f7362345f1bb79779",
+      "GitCommit": "abb94994d78be45ccaa56282f36c36ad16bd5a5e",
       "Directory": "influxdb/1.10/data/alpine",
       "File": ""
     },
@@ -609,7 +614,7 @@
         "1.10.8-meta"
       ],
       "Architectures": null,
-      "GitCommit": "063caa0d729da41b70760c8f7362345f1bb79779",
+      "GitCommit": "abb94994d78be45ccaa56282f36c36ad16bd5a5e",
       "Directory": "influxdb/1.10/meta",
       "File": ""
     },
@@ -619,7 +624,7 @@
         "1.10.8-meta-alpine"
       ],
       "Architectures": null,
-      "GitCommit": "063caa0d729da41b70760c8f7362345f1bb79779",
+      "GitCommit": "abb94994d78be45ccaa56282f36c36ad16bd5a5e",
       "Directory": "influxdb/1.10/meta/alpine",
       "File": ""
     },
@@ -629,7 +634,7 @@
         "1.11.8-data"
       ],
       "Architectures": null,
-      "GitCommit": "063caa0d729da41b70760c8f7362345f1bb79779",
+      "GitCommit": "abb94994d78be45ccaa56282f36c36ad16bd5a5e",
       "Directory": "influxdb/1.11/data",
       "File": ""
     },
@@ -639,7 +644,7 @@
         "1.11.8-data-alpine"
       ],
       "Architectures": null,
-      "GitCommit": "063caa0d729da41b70760c8f7362345f1bb79779",
+      "GitCommit": "abb94994d78be45ccaa56282f36c36ad16bd5a5e",
       "Directory": "influxdb/1.11/data/alpine",
       "File": ""
     },
@@ -649,7 +654,7 @@
         "1.11.8-meta"
       ],
       "Architectures": null,
-      "GitCommit": "063caa0d729da41b70760c8f7362345f1bb79779",
+      "GitCommit": "abb94994d78be45ccaa56282f36c36ad16bd5a5e",
       "Directory": "influxdb/1.11/meta",
       "File": ""
     },
@@ -659,7 +664,7 @@
         "1.11.8-meta-alpine"
       ],
       "Architectures": null,
-      "GitCommit": "063caa0d729da41b70760c8f7362345f1bb79779",
+      "GitCommit": "abb94994d78be45ccaa56282f36c36ad16bd5a5e",
       "Directory": "influxdb/1.11/meta/alpine",
       "File": ""
     },
@@ -686,7 +691,7 @@
           "File": ""
         }
       },
-      "GitCommit": "063caa0d729da41b70760c8f7362345f1bb79779",
+      "GitCommit": "abb94994d78be45ccaa56282f36c36ad16bd5a5e",
       "Directory": "influxdb/2.7",
       "File": ""
     },
@@ -694,7 +699,7 @@
       "Tags": [
         "2-alpine",
         "2.7-alpine",
-        "2.7.11-alpine",
+        "2.7.12-alpine",
         "alpine"
       ],
       "Architectures": {
@@ -713,16 +718,92 @@
           "File": ""
         }
       },
-      "GitCommit": "063caa0d729da41b70760c8f7362345f1bb79779",
+      "GitCommit": "abb94994d78be45ccaa56282f36c36ad16bd5a5e",
       "Directory": "influxdb/2.7/alpine",
       "File": ""
     },
     {
       "Tags": [
         "3-core",
-        "3.1-core",
-        "3.1.0-core",
+        "3.2-core",
+        "3.2.0-core",
         "core"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "abb94994d78be45ccaa56282f36c36ad16bd5a5e",
+      "Directory": "influxdb/3.2-core",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "3-enterprise",
+        "3.2-enterprise",
+        "3.2.0-enterprise",
+        "enterprise"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "abb94994d78be45ccaa56282f36c36ad16bd5a5e",
+      "Directory": "influxdb/3.2-enterprise",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.7.11-alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "abb94994d78be45ccaa56282f36c36ad16bd5a5e",
+      "Directory": "influxdb/2.7/alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "3.1-core",
+        "3.1.0-core"
       ],
       "Architectures": {
         "amd64": {
@@ -746,10 +827,8 @@
     },
     {
       "Tags": [
-        "3-enterprise",
         "3.1-enterprise",
-        "3.1.0-enterprise",
-        "enterprise"
+        "3.1.0-enterprise"
       ],
       "Architectures": {
         "amd64": {
