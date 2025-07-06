@@ -2173,6 +2173,13 @@
     "6.0.24-windowsservercore": {},
     "6.0.24-windowsservercore-ltsc2022": {},
     "6.0.24-windowsservercore-ltsc2025": {},
+    "6.0.25-rc0": {},
+    "6.0.25-rc0-jammy": {},
+    "6.0.25-rc0-nanoserver": {},
+    "6.0.25-rc0-nanoserver-ltsc2022": {},
+    "6.0.25-rc0-windowsservercore": {},
+    "6.0.25-rc0-windowsservercore-ltsc2022": {},
+    "6.0.25-rc0-windowsservercore-ltsc2025": {},
     "6.0.3": {},
     "6.0.3-focal": {},
     "6.0.3-nanoserver": {},
@@ -2862,6 +2869,13 @@
     "8.0.10-windowsservercore": {},
     "8.0.10-windowsservercore-ltsc2022": {},
     "8.0.10-windowsservercore-ltsc2025": {},
+    "8.0.11": {},
+    "8.0.11-nanoserver": {},
+    "8.0.11-nanoserver-ltsc2022": {},
+    "8.0.11-noble": {},
+    "8.0.11-windowsservercore": {},
+    "8.0.11-windowsservercore-ltsc2022": {},
+    "8.0.11-windowsservercore-ltsc2025": {},
     "8.0.3": {},
     "8.0.3-nanoserver": {},
     "8.0.3-nanoserver-1809": {},
@@ -2982,11 +2996,11 @@
   "Blocks": [
     {
       "Tags": [
-        "8.0.10-noble",
+        "8.0.11-noble",
         "8.0-noble",
         "8-noble",
         "noble",
-        "8.0.10",
+        "8.0.11",
         "8.0",
         "8",
         "latest"
@@ -3007,17 +3021,17 @@
           "File": ""
         }
       },
-      "GitCommit": "f8081e0e624789f709b6d7e1c5591962bebc059e",
+      "GitCommit": "5a86595e24c7e0baa61884297c01dfebfaff3521",
       "Directory": "8.0",
       "File": ""
     },
     {
       "Tags": [
-        "8.0.10-windowsservercore-ltsc2025",
+        "8.0.11-windowsservercore-ltsc2025",
         "8.0-windowsservercore-ltsc2025",
         "8-windowsservercore-ltsc2025",
         "windowsservercore-ltsc2025",
-        "8.0.10-windowsservercore",
+        "8.0.11-windowsservercore",
         "8.0-windowsservercore",
         "8-windowsservercore",
         "windowsservercore"
@@ -3031,13 +3045,13 @@
           "File": ""
         }
       },
-      "GitCommit": "f8081e0e624789f709b6d7e1c5591962bebc059e",
+      "GitCommit": "5a86595e24c7e0baa61884297c01dfebfaff3521",
       "Directory": "8.0/windows/windowsservercore-ltsc2025",
       "File": ""
     },
     {
       "Tags": [
-        "8.0.10-windowsservercore-ltsc2022",
+        "8.0.11-windowsservercore-ltsc2022",
         "8.0-windowsservercore-ltsc2022",
         "8-windowsservercore-ltsc2022",
         "windowsservercore-ltsc2022"
@@ -3051,17 +3065,17 @@
           "File": ""
         }
       },
-      "GitCommit": "f8081e0e624789f709b6d7e1c5591962bebc059e",
+      "GitCommit": "5a86595e24c7e0baa61884297c01dfebfaff3521",
       "Directory": "8.0/windows/windowsservercore-ltsc2022",
       "File": ""
     },
     {
       "Tags": [
-        "8.0.10-nanoserver-ltsc2022",
+        "8.0.11-nanoserver-ltsc2022",
         "8.0-nanoserver-ltsc2022",
         "8-nanoserver-ltsc2022",
         "nanoserver-ltsc2022",
-        "8.0.10-nanoserver",
+        "8.0.11-nanoserver",
         "8.0-nanoserver",
         "8-nanoserver",
         "nanoserver"
@@ -3075,7 +3089,7 @@
           "File": ""
         }
       },
-      "GitCommit": "f8081e0e624789f709b6d7e1c5591962bebc059e",
+      "GitCommit": "5a86595e24c7e0baa61884297c01dfebfaff3521",
       "Directory": "8.0/windows/nanoserver-ltsc2022",
       "File": ""
     },
@@ -3173,6 +3187,91 @@
     },
     {
       "Tags": [
+        "6.0.25-rc0-jammy",
+        "6.0-rc-jammy",
+        "6.0.25-rc0",
+        "6.0-rc"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "38cc7d8fd8b278a66d9f85a0123c8ce62e6b1ef6",
+      "Directory": "6.0-rc",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.0.25-rc0-windowsservercore-ltsc2025",
+        "6.0-rc-windowsservercore-ltsc2025",
+        "6.0.25-rc0-windowsservercore",
+        "6.0-rc-windowsservercore"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "38cc7d8fd8b278a66d9f85a0123c8ce62e6b1ef6",
+      "Directory": "6.0-rc/windows/windowsservercore-ltsc2025",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.0.25-rc0-windowsservercore-ltsc2022",
+        "6.0-rc-windowsservercore-ltsc2022"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "38cc7d8fd8b278a66d9f85a0123c8ce62e6b1ef6",
+      "Directory": "6.0-rc/windows/windowsservercore-ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.0.25-rc0-nanoserver-ltsc2022",
+        "6.0-rc-nanoserver-ltsc2022",
+        "6.0.25-rc0-nanoserver",
+        "6.0-rc-nanoserver"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "38cc7d8fd8b278a66d9f85a0123c8ce62e6b1ef6",
+      "Directory": "6.0-rc/windows/nanoserver-ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
         "6.0.24-jammy",
         "6.0-jammy",
         "6-jammy",
@@ -3261,6 +3360,84 @@
       },
       "GitCommit": "562f49de7c6f7fc87bce26a51ab4806806c6de79",
       "Directory": "6.0/windows/nanoserver-ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.10-noble",
+        "8.0.10"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f8081e0e624789f709b6d7e1c5591962bebc059e",
+      "Directory": "8.0",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.10-windowsservercore-ltsc2025",
+        "8.0.10-windowsservercore"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f8081e0e624789f709b6d7e1c5591962bebc059e",
+      "Directory": "8.0/windows/windowsservercore-ltsc2025",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.10-windowsservercore-ltsc2022"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f8081e0e624789f709b6d7e1c5591962bebc059e",
+      "Directory": "8.0/windows/windowsservercore-ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.10-nanoserver-ltsc2022",
+        "8.0.10-nanoserver"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f8081e0e624789f709b6d7e1c5591962bebc059e",
+      "Directory": "8.0/windows/nanoserver-ltsc2022",
       "File": ""
     },
     {
@@ -3592,9 +3769,7 @@
     {
       "Tags": [
         "6.0.24-rc0-jammy",
-        "6.0-rc-jammy",
-        "6.0.24-rc0",
-        "6.0-rc"
+        "6.0.24-rc0"
       ],
       "Architectures": {
         "amd64": {
@@ -3619,9 +3794,7 @@
     {
       "Tags": [
         "6.0.24-rc0-windowsservercore-ltsc2025",
-        "6.0-rc-windowsservercore-ltsc2025",
-        "6.0.24-rc0-windowsservercore",
-        "6.0-rc-windowsservercore"
+        "6.0.24-rc0-windowsservercore"
       ],
       "Architectures": {
         "windows-amd64": {
@@ -3638,8 +3811,7 @@
     },
     {
       "Tags": [
-        "6.0.24-rc0-windowsservercore-ltsc2022",
-        "6.0-rc-windowsservercore-ltsc2022"
+        "6.0.24-rc0-windowsservercore-ltsc2022"
       ],
       "Architectures": {
         "windows-amd64": {
@@ -3657,9 +3829,7 @@
     {
       "Tags": [
         "6.0.24-rc0-nanoserver-ltsc2022",
-        "6.0-rc-nanoserver-ltsc2022",
-        "6.0.24-rc0-nanoserver",
-        "6.0-rc-nanoserver"
+        "6.0.24-rc0-nanoserver"
       ],
       "Architectures": {
         "windows-amd64": {

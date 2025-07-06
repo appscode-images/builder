@@ -38,14 +38,14 @@ Blocks:
       GitFetch: ""
   Directory: "1.18"
   File: ""
-  GitCommit: d3c21f12232230e6d199446ccfc4fc34e02fc060
+  GitCommit: 1e80f1b239228598d4d086882e92a9cfe585c1b2
   Tags:
   - 1.18.4
   - "1.18"
   - latest
-  - 1.18.4-otp-27
-  - 1.18-otp-27
-  - otp-27
+  - 1.18.4-otp-28
+  - 1.18-otp-28
+  - otp-28
 - Architectures:
     amd64:
       Architecture: amd64
@@ -85,14 +85,14 @@ Blocks:
       GitFetch: ""
   Directory: 1.18/slim
   File: ""
-  GitCommit: d3c21f12232230e6d199446ccfc4fc34e02fc060
+  GitCommit: 1e80f1b239228598d4d086882e92a9cfe585c1b2
   Tags:
   - 1.18.4-slim
   - 1.18-slim
   - slim
-  - 1.18.4-otp-27-slim
-  - 1.18-otp-27-slim
-  - otp-27-slim
+  - 1.18.4-otp-28-slim
+  - 1.18-otp-28-slim
+  - otp-28-slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -132,14 +132,14 @@ Blocks:
       GitFetch: ""
   Directory: 1.18/alpine
   File: ""
-  GitCommit: d3c21f12232230e6d199446ccfc4fc34e02fc060
+  GitCommit: 1e80f1b239228598d4d086882e92a9cfe585c1b2
   Tags:
   - 1.18.4-alpine
   - 1.18-alpine
   - alpine
-  - 1.18.4-otp-27-alpine
-  - 1.18-otp-27-alpine
-  - otp-27-alpine
+  - 1.18.4-otp-28-alpine
+  - 1.18-otp-28-alpine
+  - otp-28-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -368,6 +368,138 @@ Blocks:
   - 1.18.4-otp-26-slim
   - 1.18-otp-26-slim
   - otp-26-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.18/otp-27
+  File: ""
+  GitCommit: 1e80f1b239228598d4d086882e92a9cfe585c1b2
+  Tags:
+  - 1.18.4-otp-27
+  - 1.18-otp-27
+  - otp-27
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.18/otp-27-alpine
+  File: ""
+  GitCommit: 1e80f1b239228598d4d086882e92a9cfe585c1b2
+  Tags:
+  - 1.18.4-otp-27-alpine
+  - 1.18-otp-27-alpine
+  - otp-27-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.18/otp-27-slim
+  File: ""
+  GitCommit: 1e80f1b239228598d4d086882e92a9cfe585c1b2
+  Tags:
+  - 1.18.4-otp-27-slim
+  - 1.18-otp-27-slim
+  - otp-27-slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -16468,6 +16600,9 @@ KnownTags:
   1.18-otp-27: {}
   1.18-otp-27-alpine: {}
   1.18-otp-27-slim: {}
+  1.18-otp-28: {}
+  1.18-otp-28-alpine: {}
+  1.18-otp-28-slim: {}
   1.18-slim: {}
   1.18.0: {}
   1.18.0-alpine: {}
@@ -16528,6 +16663,9 @@ KnownTags:
   1.18.4-otp-27: {}
   1.18.4-otp-27-alpine: {}
   1.18.4-otp-27-slim: {}
+  1.18.4-otp-28: {}
+  1.18.4-otp-28-alpine: {}
+  1.18.4-otp-28-slim: {}
   1.18.4-slim: {}
   alpine: {}
   latest: {}
@@ -16547,5 +16685,8 @@ KnownTags:
   otp-27: {}
   otp-27-alpine: {}
   otp-27-slim: {}
+  otp-28: {}
+  otp-28-alpine: {}
+  otp-28-slim: {}
   slim: {}
 Name: elixir

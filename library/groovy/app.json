@@ -856,12 +856,31 @@
     "4": {},
     "4-alpine": {},
     "4-jammy": {},
+    "4-jdk": {},
+    "4-jdk-alpine": {},
+    "4-jdk-jammy": {},
+    "4-jdk-noble": {},
+    "4-jdk11": {},
+    "4-jdk11-alpine": {},
+    "4-jdk11-jammy": {},
+    "4-jdk17": {},
+    "4-jdk17-alpine": {},
+    "4-jdk17-jammy": {},
+    "4-jdk17-noble": {},
+    "4-jdk21": {},
+    "4-jdk21-alpine": {},
+    "4-jdk21-jammy": {},
+    "4-jdk21-noble": {},
+    "4-jdk8": {},
+    "4-jdk8-jammy": {},
+    "4-noble": {},
     "4.0": {},
     "4.0-alpine": {},
     "4.0-jammy": {},
     "4.0-jdk": {},
     "4.0-jdk-alpine": {},
     "4.0-jdk-jammy": {},
+    "4.0-jdk-noble": {},
     "4.0-jdk11": {},
     "4.0-jdk11-alpine": {},
     "4.0-jdk11-jammy": {},
@@ -871,12 +890,14 @@
     "4.0-jdk17": {},
     "4.0-jdk17-alpine": {},
     "4.0-jdk17-jammy": {},
+    "4.0-jdk17-noble": {},
     "4.0-jdk18": {},
     "4.0-jdk18-alpine": {},
     "4.0-jdk18-jammy": {},
     "4.0-jdk21": {},
     "4.0-jdk21-alpine": {},
     "4.0-jdk21-jammy": {},
+    "4.0-jdk21-noble": {},
     "4.0-jdk8": {},
     "4.0-jdk8-jammy": {},
     "4.0-jre": {},
@@ -885,6 +906,7 @@
     "4.0-jre15": {},
     "4.0-jre16": {},
     "4.0-jre8": {},
+    "4.0-noble": {},
     "4.0.0": {},
     "4.0.0-alpha-1": {},
     "4.0.0-alpha-1-jdk": {},
@@ -1196,6 +1218,27 @@
     "4.0.25-jdk21-jammy": {},
     "4.0.25-jdk8": {},
     "4.0.25-jdk8-jammy": {},
+    "4.0.27": {},
+    "4.0.27-alpine": {},
+    "4.0.27-jammy": {},
+    "4.0.27-jdk": {},
+    "4.0.27-jdk-alpine": {},
+    "4.0.27-jdk-jammy": {},
+    "4.0.27-jdk-noble": {},
+    "4.0.27-jdk11": {},
+    "4.0.27-jdk11-alpine": {},
+    "4.0.27-jdk11-jammy": {},
+    "4.0.27-jdk17": {},
+    "4.0.27-jdk17-alpine": {},
+    "4.0.27-jdk17-jammy": {},
+    "4.0.27-jdk17-noble": {},
+    "4.0.27-jdk21": {},
+    "4.0.27-jdk21-alpine": {},
+    "4.0.27-jdk21-jammy": {},
+    "4.0.27-jdk21-noble": {},
+    "4.0.27-jdk8": {},
+    "4.0.27-jdk8-jammy": {},
+    "4.0.27-noble": {},
     "4.0.3": {},
     "4.0.3-alpine": {},
     "4.0.3-jammy": {},
@@ -1297,6 +1340,7 @@
     "jdk": {},
     "jdk-alpine": {},
     "jdk-jammy": {},
+    "jdk-noble": {},
     "jdk10": {},
     "jdk11": {},
     "jdk11-alpine": {},
@@ -1309,9 +1353,11 @@
     "jdk17": {},
     "jdk17-alpine": {},
     "jdk17-jammy": {},
+    "jdk17-noble": {},
     "jdk21": {},
     "jdk21-alpine": {},
     "jdk21-jammy": {},
+    "jdk21-noble": {},
     "jdk7": {},
     "jdk7-alpine": {},
     "jdk8": {},
@@ -1332,17 +1378,394 @@
     "jre8": {},
     "jre8-alpine": {},
     "jre9": {},
-    "latest": {}
+    "latest": {},
+    "noble": {}
   },
   "Blocks": [
     {
       "Tags": [
-        "4.0.25-jdk8",
+        "4.0.27-jdk21",
+        "4.0-jdk21",
+        "4-jdk21",
+        "jdk21",
+        "4.0.27-jdk21-noble",
+        "4.0-jdk21-noble",
+        "4-jdk21-noble",
+        "jdk21-noble",
+        "latest",
+        "4.0.27-jdk",
+        "4.0-jdk",
+        "4-jdk",
+        "jdk",
+        "4.0.27",
+        "4.0",
+        "4",
+        "4.0.27-jdk-noble",
+        "4.0-jdk-noble",
+        "4-jdk-noble",
+        "jdk-noble",
+        "4.0.27-noble",
+        "4.0-noble",
+        "4-noble",
+        "noble"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "5a3c63b31c157987812e0b7d7d510cf83490e259",
+      "Directory": "jdk21",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.0.27-jdk21-alpine",
+        "4.0-jdk21-alpine",
+        "4-jdk21-alpine",
+        "jdk21-alpine",
+        "4.0.27-jdk-alpine",
+        "4.0-jdk-alpine",
+        "4-jdk-alpine",
+        "jdk-alpine",
+        "4.0.27-alpine",
+        "4.0-alpine",
+        "4-alpine",
+        "alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "5a3c63b31c157987812e0b7d7d510cf83490e259",
+      "Directory": "jdk21-alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.0.27-jdk17",
+        "4.0-jdk17",
+        "4-jdk17",
+        "jdk17",
+        "4.0.27-jdk17-noble",
+        "4.0-jdk17-noble",
+        "4-jdk17-noble",
+        "jdk17-noble"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "5a3c63b31c157987812e0b7d7d510cf83490e259",
+      "Directory": "jdk17",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.0.27-jdk17-alpine",
+        "4.0-jdk17-alpine",
+        "4-jdk17-alpine",
+        "jdk17-alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "5a3c63b31c157987812e0b7d7d510cf83490e259",
+      "Directory": "jdk17-alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.0.27-jdk11",
+        "4.0-jdk11",
+        "4-jdk11",
+        "jdk11",
+        "4.0.27-jdk11-jammy",
+        "4.0-jdk11-jammy",
+        "4-jdk11-jammy",
+        "jdk11-jammy",
+        "4.0.27-jdk-jammy",
+        "4.0-jdk-jammy",
+        "4-jdk-jammy",
+        "jdk-jammy",
+        "4.0.27-jammy",
+        "4.0-jammy",
+        "4-jammy",
+        "jammy"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "5a3c63b31c157987812e0b7d7d510cf83490e259",
+      "Directory": "jdk11",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.0.27-jdk11-alpine",
+        "4.0-jdk11-alpine",
+        "4-jdk11-alpine",
+        "jdk11-alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "5a3c63b31c157987812e0b7d7d510cf83490e259",
+      "Directory": "jdk11-alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.0.27-jdk8",
         "4.0-jdk8",
+        "4-jdk8",
         "jdk8",
-        "4.0.25-jdk8-jammy",
+        "4.0.27-jdk8-jammy",
         "4.0-jdk8-jammy",
+        "4-jdk8-jammy",
         "jdk8-jammy"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "5a3c63b31c157987812e0b7d7d510cf83490e259",
+      "Directory": "jdk8",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.0.27-jdk17-jammy",
+        "4.0-jdk17-jammy",
+        "jdk17-jammy"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "56e8c6f9da9d12e66437fab7e591eb1cd535f731",
+      "Directory": "jdk17",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.0.27-jdk21-jammy",
+        "4.0-jdk21-jammy",
+        "jdk21-jammy"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "56e8c6f9da9d12e66437fab7e591eb1cd535f731",
+      "Directory": "jdk21",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4.0.25-jdk8",
+        "4.0.25-jdk8-jammy"
       ],
       "Architectures": {
         "amd64": {
@@ -1381,11 +1804,7 @@
     {
       "Tags": [
         "4.0.25-jdk11",
-        "4.0-jdk11",
-        "jdk11",
-        "4.0.25-jdk11-jammy",
-        "4.0-jdk11-jammy",
-        "jdk11-jammy"
+        "4.0.25-jdk11-jammy"
       ],
       "Architectures": {
         "amd64": {
@@ -1430,9 +1849,7 @@
     },
     {
       "Tags": [
-        "4.0.25-jdk11-alpine",
-        "4.0-jdk11-alpine",
-        "jdk11-alpine"
+        "4.0.25-jdk11-alpine"
       ],
       "Architectures": {
         "amd64": {
@@ -1450,25 +1867,11 @@
     {
       "Tags": [
         "4.0.25-jdk17",
-        "4.0-jdk17",
-        "jdk17",
         "4.0.25-jdk",
-        "4.0-jdk",
         "4.0.25",
-        "4.0",
-        "4",
-        "jdk",
-        "latest",
         "4.0.25-jdk17-jammy",
-        "4.0-jdk17-jammy",
-        "jdk17-jammy",
         "4.0.25-jdk-jammy",
-        "4.0-jdk-jammy",
-        "4.0.25-jammy",
-        "4.0-jammy",
-        "4-jammy",
-        "jdk-jammy",
-        "jammy"
+        "4.0.25-jammy"
       ],
       "Architectures": {
         "amd64": {
@@ -1514,15 +1917,8 @@
     {
       "Tags": [
         "4.0.25-jdk17-alpine",
-        "4.0-jdk17-alpine",
-        "jdk17-alpine",
         "4.0.25-jdk-alpine",
-        "4.0-jdk-alpine",
-        "4.0.25-alpine",
-        "4.0-alpine",
-        "4-alpine",
-        "jdk-alpine",
-        "alpine"
+        "4.0.25-alpine"
       ],
       "Architectures": {
         "amd64": {
@@ -1540,11 +1936,7 @@
     {
       "Tags": [
         "4.0.25-jdk21",
-        "4.0-jdk21",
-        "jdk21",
-        "4.0.25-jdk21-jammy",
-        "4.0-jdk21-jammy",
-        "jdk21-jammy"
+        "4.0.25-jdk21-jammy"
       ],
       "Architectures": {
         "amd64": {
@@ -1568,9 +1960,7 @@
     },
     {
       "Tags": [
-        "4.0.25-jdk21-alpine",
-        "4.0-jdk21-alpine",
-        "jdk21-alpine"
+        "4.0.25-jdk21-alpine"
       ],
       "Architectures": {
         "amd64": {
@@ -22224,6 +22614,89 @@
       },
       "GitCommit": "834070ffcdc4afdb48573f0e3ec4587f7706f873",
       "Directory": "jdk18-alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4-jdk21-jammy"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "56e8c6f9da9d12e66437fab7e591eb1cd535f731",
+      "Directory": "jdk21",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "4-jdk17-jammy"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "56e8c6f9da9d12e66437fab7e591eb1cd535f731",
+      "Directory": "jdk17",
       "File": ""
     }
   ]

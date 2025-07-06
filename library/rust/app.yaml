@@ -170,6 +170,96 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: stable/trixie
+  File: ""
+  GitCommit: 521720d715e0c4884c7424a27208568a83484baf
+  Tags:
+  - 1-trixie
+  - 1.88-trixie
+  - 1.88.0-trixie
+  - trixie
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: stable/trixie/slim
+  File: ""
+  GitCommit: 521720d715e0c4884c7424a27208568a83484baf
+  Tags:
+  - 1-slim-trixie
+  - 1.88-slim-trixie
+  - 1.88.0-slim-trixie
+  - slim-trixie
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
     arm64v8:
       Architecture: arm64v8
       Directory: ""
@@ -15949,10 +16039,8 @@ Blocks:
   File: ""
   GitCommit: 5ede3cc7db4695645dfb1a9923cbafa519fb5c49
   Tags:
-  - 1-trixie
   - 1.72-trixie
   - 1.72.0-trixie
-  - trixie
 - Architectures:
     amd64:
       Architecture: amd64
@@ -15982,10 +16070,8 @@ Blocks:
   File: ""
   GitCommit: 5ede3cc7db4695645dfb1a9923cbafa519fb5c49
   Tags:
-  - 1-slim-trixie
   - 1.72-slim-trixie
   - 1.72.0-slim-trixie
-  - slim-trixie
 GitRepo: https://github.com/rust-lang/docker-rust.git
 KnownTags:
   "1": {}
@@ -17391,6 +17477,8 @@ KnownTags:
   1.88-slim: {}
   1.88-slim-bookworm: {}
   1.88-slim-bullseye: {}
+  1.88-slim-trixie: {}
+  1.88-trixie: {}
   1.88.0: {}
   1.88.0-alpine: {}
   1.88.0-alpine3.20: {}
@@ -17401,6 +17489,8 @@ KnownTags:
   1.88.0-slim: {}
   1.88.0-slim-bookworm: {}
   1.88.0-slim-bullseye: {}
+  1.88.0-slim-trixie: {}
+  1.88.0-trixie: {}
   alpine: {}
   alpine3.10: {}
   alpine3.11: {}
