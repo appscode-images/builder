@@ -6,6 +6,7 @@
     "8-alpine": {},
     "8-alpine3.16": {},
     "8-alpine3.19": {},
+    "8-alpine3.22": {},
     "8-bookworm": {},
     "8-bullseye": {},
     "8.1": {},
@@ -32,9 +33,18 @@
     "8.4.0-alpine": {},
     "8.4.0-alpine3.19": {},
     "8.4.0-bookworm": {},
+    "8.5": {},
+    "8.5-alpine": {},
+    "8.5-alpine3.22": {},
+    "8.5-bookworm": {},
+    "8.5.1": {},
+    "8.5.1-alpine": {},
+    "8.5.1-alpine3.22": {},
+    "8.5.1-bookworm": {},
     "alpine": {},
     "alpine3.16": {},
     "alpine3.19": {},
+    "alpine3.22": {},
     "bookworm": {},
     "bullseye": {},
     "latest": {}
@@ -42,14 +52,100 @@
   "Blocks": [
     {
       "Tags": [
-        "8.4.0-bookworm",
-        "8.4-bookworm",
+        "8.5.1-bookworm",
+        "8.5-bookworm",
         "8-bookworm",
         "bookworm",
-        "8.4.0",
-        "8.4",
+        "8.5.1",
+        "8.5",
         "8",
         "latest"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "dd0928a83ef54c8bed05691325f026d155e58dd3",
+      "Directory": "8.5/bookworm",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.5.1-alpine3.22",
+        "8.5-alpine3.22",
+        "8-alpine3.22",
+        "alpine3.22",
+        "8.5.1-alpine",
+        "8.5-alpine",
+        "8-alpine",
+        "alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "dd0928a83ef54c8bed05691325f026d155e58dd3",
+      "Directory": "8.5/alpine3.22",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.4.0-bookworm",
+        "8.4-bookworm",
+        "8.4.0",
+        "8.4"
       ],
       "Architectures": {
         "amd64": {
@@ -78,9 +174,7 @@
         "8-alpine3.19",
         "alpine3.19",
         "8.4.0-alpine",
-        "8.4-alpine",
-        "8-alpine",
-        "alpine"
+        "8.4-alpine"
       ],
       "Architectures": {
         "amd64": {

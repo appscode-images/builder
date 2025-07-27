@@ -164,6 +164,10 @@
     "25.4.12-jammy": {},
     "25.4.12.9": {},
     "25.4.12.9-jammy": {},
+    "25.4.13": {},
+    "25.4.13-jammy": {},
+    "25.4.13.22": {},
+    "25.4.13.22-jammy": {},
     "25.4.2": {},
     "25.4.2-jammy": {},
     "25.4.2.31": {},
@@ -202,6 +206,10 @@
     "25.5.8-jammy": {},
     "25.5.8.13": {},
     "25.5.8.13-jammy": {},
+    "25.5.9": {},
+    "25.5.9-jammy": {},
+    "25.5.9.14": {},
+    "25.5.9.14-jammy": {},
     "25.6": {},
     "25.6-jammy": {},
     "25.6.1": {},
@@ -220,6 +228,10 @@
     "25.6.4-jammy": {},
     "25.6.4.12": {},
     "25.6.4.12-jammy": {},
+    "25.6.5": {},
+    "25.6.5-jammy": {},
+    "25.6.5.41": {},
+    "25.6.5.41-jammy": {},
     "focal": {},
     "focal-lts": {},
     "jammy": {},
@@ -235,10 +247,10 @@
         "jammy",
         "25.6",
         "25.6-jammy",
-        "25.6.4",
-        "25.6.4-jammy",
-        "25.6.4.12",
-        "25.6.4.12-jammy"
+        "25.6.5",
+        "25.6.5-jammy",
+        "25.6.5.41",
+        "25.6.5.41-jammy"
       ],
       "Architectures": {
         "amd64": {
@@ -256,18 +268,18 @@
           "File": ""
         }
       },
-      "GitCommit": "86ece85bf5a04bdb8bdf1ca73722e8ed116252f9",
-      "Directory": "server/25.6.4.12",
+      "GitCommit": "8a2ccf4a8e675cf081f27afa8917d5a9c180c1a5",
+      "Directory": "server/25.6.5.41",
       "File": "Dockerfile.ubuntu"
     },
     {
       "Tags": [
         "25.5",
         "25.5-jammy",
-        "25.5.8",
-        "25.5.8-jammy",
-        "25.5.8.13",
-        "25.5.8.13-jammy"
+        "25.5.9",
+        "25.5.9-jammy",
+        "25.5.9.14",
+        "25.5.9.14-jammy"
       ],
       "Architectures": {
         "amd64": {
@@ -285,18 +297,18 @@
           "File": ""
         }
       },
-      "GitCommit": "86ece85bf5a04bdb8bdf1ca73722e8ed116252f9",
-      "Directory": "server/25.5.8.13",
+      "GitCommit": "8a2ccf4a8e675cf081f27afa8917d5a9c180c1a5",
+      "Directory": "server/25.5.9.14",
       "File": "Dockerfile.ubuntu"
     },
     {
       "Tags": [
         "25.4",
         "25.4-jammy",
-        "25.4.12",
-        "25.4.12-jammy",
-        "25.4.12.9",
-        "25.4.12.9-jammy"
+        "25.4.13",
+        "25.4.13-jammy",
+        "25.4.13.22",
+        "25.4.13.22-jammy"
       ],
       "Architectures": {
         "amd64": {
@@ -314,8 +326,8 @@
           "File": ""
         }
       },
-      "GitCommit": "86ece85bf5a04bdb8bdf1ca73722e8ed116252f9",
-      "Directory": "server/25.4.12.9",
+      "GitCommit": "8a2ccf4a8e675cf081f27afa8917d5a9c180c1a5",
+      "Directory": "server/25.4.13.22",
       "File": "Dockerfile.ubuntu"
     },
     {
@@ -345,8 +357,89 @@
           "File": ""
         }
       },
-      "GitCommit": "86ece85bf5a04bdb8bdf1ca73722e8ed116252f9",
+      "GitCommit": "8a2ccf4a8e675cf081f27afa8917d5a9c180c1a5",
       "Directory": "server/25.3.6.56",
+      "File": "Dockerfile.ubuntu"
+    },
+    {
+      "Tags": [
+        "25.6.4",
+        "25.6.4-jammy",
+        "25.6.4.12",
+        "25.6.4.12-jammy"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "86ece85bf5a04bdb8bdf1ca73722e8ed116252f9",
+      "Directory": "server/25.6.4.12",
+      "File": "Dockerfile.ubuntu"
+    },
+    {
+      "Tags": [
+        "25.5.8",
+        "25.5.8-jammy",
+        "25.5.8.13",
+        "25.5.8.13-jammy"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "86ece85bf5a04bdb8bdf1ca73722e8ed116252f9",
+      "Directory": "server/25.5.8.13",
+      "File": "Dockerfile.ubuntu"
+    },
+    {
+      "Tags": [
+        "25.4.12",
+        "25.4.12-jammy",
+        "25.4.12.9",
+        "25.4.12.9-jammy"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "86ece85bf5a04bdb8bdf1ca73722e8ed116252f9",
+      "Directory": "server/25.4.12.9",
       "File": "Dockerfile.ubuntu"
     },
     {

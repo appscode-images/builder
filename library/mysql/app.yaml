@@ -14,20 +14,20 @@ Blocks:
       GitFetch: ""
   Directory: innovation
   File: Dockerfile.oracle
-  GitCommit: 1b9d0c10ad8569c9419d76aacec9dbab23c48e9e
+  GitCommit: cfdf0f31c85e777afa46157194ea8363dccc0260
   Tags:
-  - 9.3.0
-  - "9.3"
+  - 9.4.0
+  - "9.4"
   - "9"
   - innovation
   - latest
-  - 9.3.0-oraclelinux9
-  - 9.3-oraclelinux9
+  - 9.4.0-oraclelinux9
+  - 9.4-oraclelinux9
   - 9-oraclelinux9
   - innovation-oraclelinux9
   - oraclelinux9
-  - 9.3.0-oracle
-  - 9.3-oracle
+  - 9.4.0-oracle
+  - 9.4-oracle
   - 9-oracle
   - innovation-oracle
   - oracle
@@ -46,17 +46,17 @@ Blocks:
       GitFetch: ""
   Directory: "8.4"
   File: Dockerfile.oracle
-  GitCommit: 8ade9b2c9a32a79fbaa44b564d09a40744f1d105
+  GitCommit: 516237cdb5e0991abc0c6dcbbc7a66cc6444d3a3
   Tags:
-  - 8.4.5
+  - 8.4.6
   - "8.4"
   - "8"
   - lts
-  - 8.4.5-oraclelinux9
+  - 8.4.6-oraclelinux9
   - 8.4-oraclelinux9
   - 8-oraclelinux9
   - lts-oraclelinux9
-  - 8.4.5-oracle
+  - 8.4.6-oracle
   - 8.4-oracle
   - 8-oracle
   - lts-oracle
@@ -75,14 +75,49 @@ Blocks:
       GitFetch: ""
   Directory: "8.0"
   File: Dockerfile.oracle
+  GitCommit: 4ea634473f3ca9b1dcd476236e6d617258e2d63b
+  Tags:
+  - 8.0.43
+  - "8.0"
+  - 8.0.43-oraclelinux9
+  - 8.0-oraclelinux9
+  - 8.0.43-oracle
+  - 8.0-oracle
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: "8.0"
+  File: Dockerfile.debian
+  GitCommit: 4ea634473f3ca9b1dcd476236e6d617258e2d63b
+  Tags:
+  - 8.0.43-bookworm
+  - 8.0-bookworm
+  - 8.0.43-debian
+  - 8.0-debian
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: "8.0"
+  File: Dockerfile.oracle
   GitCommit: 94583e54d3bc02af523af720fdd58f8215287da9
   Tags:
   - 8.0.42
-  - "8.0"
   - 8.0.42-oraclelinux9
-  - 8.0-oraclelinux9
   - 8.0.42-oracle
-  - 8.0-oracle
 - Architectures:
     amd64:
       Architecture: amd64
@@ -95,9 +130,50 @@ Blocks:
   GitCommit: 94583e54d3bc02af523af720fdd58f8215287da9
   Tags:
   - 8.0.42-bookworm
-  - 8.0-bookworm
   - 8.0.42-debian
-  - 8.0-debian
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: innovation
+  File: Dockerfile.oracle
+  GitCommit: 1b9d0c10ad8569c9419d76aacec9dbab23c48e9e
+  Tags:
+  - 9.3.0
+  - "9.3"
+  - 9.3.0-oraclelinux9
+  - 9.3-oraclelinux9
+  - 9.3.0-oracle
+  - 9.3-oracle
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: "8.4"
+  File: Dockerfile.oracle
+  GitCommit: 8ade9b2c9a32a79fbaa44b564d09a40744f1d105
+  Tags:
+  - 8.4.5
+  - 8.4.5-oraclelinux9
+  - 8.4.5-oracle
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1729,6 +1805,11 @@ KnownTags:
   8.0.42-debian: {}
   8.0.42-oracle: {}
   8.0.42-oraclelinux9: {}
+  8.0.43: {}
+  8.0.43-bookworm: {}
+  8.0.43-debian: {}
+  8.0.43-oracle: {}
+  8.0.43-oraclelinux9: {}
   "8.1": {}
   8.1-oracle: {}
   8.1.0: {}
@@ -1768,6 +1849,9 @@ KnownTags:
   8.4.5: {}
   8.4.5-oracle: {}
   8.4.5-oraclelinux9: {}
+  8.4.6: {}
+  8.4.6-oracle: {}
+  8.4.6-oraclelinux9: {}
   "9": {}
   9-oracle: {}
   9-oraclelinux9: {}
@@ -1798,6 +1882,12 @@ KnownTags:
   9.3.0: {}
   9.3.0-oracle: {}
   9.3.0-oraclelinux9: {}
+  "9.4": {}
+  9.4-oracle: {}
+  9.4-oraclelinux9: {}
+  9.4.0: {}
+  9.4.0-oracle: {}
+  9.4.0-oraclelinux9: {}
   debian: {}
   innovation: {}
   innovation-oracle: {}
