@@ -32,7 +32,145 @@ Blocks:
       GitFetch: ""
   Directory: 6-rc/debian
   File: ""
-  GitCommit: 540828ee43ace0b3c7d994a3457b78fab003817d
+  GitCommit: 4c141439c875c1d90091a8e6d79f56ba3104cd09
+  Tags:
+  - 6.0.0-rc.2
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 6-rc/alpine
+  File: ""
+  GitCommit: 4c141439c875c1d90091a8e6d79f56ba3104cd09
+  Tags:
+  - 6.0.0-rc.2-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 5/debian
+  File: ""
+  GitCommit: ce47e6e3c1e58d76d5a9d7fa56042306a7767977
+  Tags:
+  - 5.130.3
+  - "5.130"
+  - "5"
+  - latest
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 5/alpine
+  File: ""
+  GitCommit: ce47e6e3c1e58d76d5a9d7fa56042306a7767977
+  Tags:
+  - 5.130.3-alpine
+  - 5.130-alpine
+  - 5-alpine
+  - alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 6-rc/debian
+  File: ""
+  GitCommit: 5200f34ed5fcff769a62b3c72f059f4c516142a4
   Tags:
   - 6.0.0-rc.0
 - Architectures:
@@ -62,7 +200,7 @@ Blocks:
       GitFetch: ""
   Directory: 6-rc/alpine
   File: ""
-  GitCommit: 540828ee43ace0b3c7d994a3457b78fab003817d
+  GitCommit: 5200f34ed5fcff769a62b3c72f059f4c516142a4
   Tags:
   - 6.0.0-rc.0-alpine
 - Architectures:
@@ -98,12 +236,9 @@ Blocks:
       GitFetch: ""
   Directory: 5/debian
   File: ""
-  GitCommit: 9646b20a5604936a2ee5b703cfe4f2f8a30135a7
+  GitCommit: 315fd829a562dc5e7c2edf6a2f9dc919a1961478
   Tags:
   - 5.130.2
-  - "5.130"
-  - "5"
-  - latest
 - Architectures:
     amd64:
       Architecture: amd64
@@ -131,12 +266,9 @@ Blocks:
       GitFetch: ""
   Directory: 5/alpine
   File: ""
-  GitCommit: 9646b20a5604936a2ee5b703cfe4f2f8a30135a7
+  GitCommit: 315fd829a562dc5e7c2edf6a2f9dc919a1961478
   Tags:
   - 5.130.2-alpine
-  - 5.130-alpine
-  - 5-alpine
-  - alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -43281,12 +43413,16 @@ KnownTags:
   5.130.1-alpine: {}
   5.130.2: {}
   5.130.2-alpine: {}
+  5.130.3: {}
+  5.130.3-alpine: {}
   6.0.0-alpha.1: {}
   6.0.0-alpha.1-alpine: {}
   6.0.0-alpha.2: {}
   6.0.0-alpha.2-alpine: {}
   6.0.0-rc.0: {}
   6.0.0-rc.0-alpine: {}
+  6.0.0-rc.2: {}
+  6.0.0-rc.2-alpine: {}
   alpine: {}
   latest: {}
 Name: ghost
