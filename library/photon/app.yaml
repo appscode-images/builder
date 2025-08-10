@@ -10,14 +10,14 @@ Blocks:
       Architecture: arm64v8
       Directory: ""
       File: ""
-      GitCommit: 7b78a173cef14b5cd43ab34a640938a4e2b2a7de
-      GitFetch: refs/heads/aarch64/5.0-20250727
+      GitCommit: e17e30444e1933ecf64146b178ce9209b9706d4a
+      GitFetch: refs/heads/aarch64/5.0-20250803
   Directory: ""
   File: ""
-  GitCommit: 2a752800a81f25811605bd82f7f387a31d7bec31
+  GitCommit: d4d934013de5b37db69230704a65ebae3c52b28d
   Tags:
   - "5.0"
-  - 5.0-20250727
+  - 5.0-20250803
   - latest
 - Architectures:
     amd64:
@@ -57,6 +57,24 @@ Blocks:
   Tags:
   - "3.0"
   - 3.0-20250316
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: 7b78a173cef14b5cd43ab34a640938a4e2b2a7de
+      GitFetch: refs/heads/aarch64/5.0-20250727
+  Directory: ""
+  File: ""
+  GitCommit: 2a752800a81f25811605bd82f7f387a31d7bec31
+  Tags:
+  - 5.0-20250727
 - Architectures:
     amd64:
       Architecture: amd64
@@ -9623,6 +9641,7 @@ KnownTags:
   5.0-20250629: {}
   5.0-20250720: {}
   5.0-20250727: {}
+  5.0-20250803: {}
   5.0-GA: {}
   5.0-RC: {}
   5.0-beta: {}

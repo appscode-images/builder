@@ -20,14 +20,14 @@ Blocks:
       GitFetch: ""
   Directory: stable/bookworm
   File: ""
-  GitCommit: b3e6c15a66ef81c416efa30c2316a731cdc694a7
+  GitCommit: 19c93897da021cf96a8466f017fbba294b9cb4f6
   Tags:
-  - 3.8.2-sdk
+  - 3.8.3-sdk
   - 3.8-sdk
   - 3-sdk
   - stable-sdk
   - sdk
-  - 3.8.2
+  - 3.8.3
   - "3.8"
   - "3"
   - stable
@@ -53,12 +53,62 @@ Blocks:
       GitFetch: ""
   Directory: beta/bookworm
   File: ""
+  GitCommit: 19c93897da021cf96a8466f017fbba294b9cb4f6
+  Tags:
+  - 3.9.0-333.4.beta-sdk
+  - beta-sdk
+  - 3.9.0-333.4.beta
+  - beta
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: stable/bookworm
+  File: ""
+  GitCommit: b3e6c15a66ef81c416efa30c2316a731cdc694a7
+  Tags:
+  - 3.8.2-sdk
+  - 3.8.2
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: beta/bookworm
+  File: ""
   GitCommit: b3e6c15a66ef81c416efa30c2316a731cdc694a7
   Tags:
   - 3.9.0-333.3.beta-sdk
-  - beta-sdk
   - 3.9.0-333.3.beta
-  - beta
 - Architectures:
     amd64:
       Architecture: amd64
@@ -4073,12 +4123,16 @@ KnownTags:
   3.8.1-sdk: {}
   3.8.2: {}
   3.8.2-sdk: {}
+  3.8.3: {}
+  3.8.3-sdk: {}
   3.9.0-100.2.beta: {}
   3.9.0-100.2.beta-sdk: {}
   3.9.0-196.1.beta: {}
   3.9.0-196.1.beta-sdk: {}
   3.9.0-333.3.beta: {}
   3.9.0-333.3.beta-sdk: {}
+  3.9.0-333.4.beta: {}
+  3.9.0-333.4.beta-sdk: {}
   beta: {}
   beta-sdk: {}
   latest: {}

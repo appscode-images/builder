@@ -32,13 +32,13 @@ Blocks:
       GitFetch: ""
   Directory: "5.0"
   File: ""
-  GitCommit: 0f32c04c976068ddf4b094044bd333ca46d42887
+  GitCommit: da543c94df2e77fbbc83023c3259527aec45ec12
   Tags:
-  - 5.0.4
+  - 5.0.5
   - "5.0"
   - "5"
   - latest
-  - 5.0.4-jammy
+  - 5.0.5-jammy
   - 5.0-jammy
   - 5-jammy
   - jammy
@@ -190,6 +190,43 @@ Blocks:
   - "3.0"
   - 3.0.32-jammy
   - 3.0-jammy
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: "5.0"
+  File: ""
+  GitCommit: 0f32c04c976068ddf4b094044bd333ca46d42887
+  Tags:
+  - 5.0.4
+  - 5.0.4-jammy
 - Architectures:
     amd64:
       Architecture: amd64
@@ -3568,6 +3605,8 @@ KnownTags:
   5.0.3-jammy: {}
   5.0.4: {}
   5.0.4-jammy: {}
+  5.0.5: {}
+  5.0.5-jammy: {}
   focal: {}
   jammy: {}
   latest: {}
