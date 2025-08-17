@@ -87,6 +87,9 @@
     "focal": {},
     "focal-curl": {},
     "focal-scm": {},
+    "forky": {},
+    "forky-curl": {},
+    "forky-scm": {},
     "groovy": {},
     "groovy-curl": {},
     "groovy-scm": {},
@@ -175,8 +178,7 @@
     {
       "Tags": [
         "bookworm-curl",
-        "stable-curl",
-        "curl"
+        "oldstable-curl"
       ],
       "Architectures": {
         "amd64": {
@@ -243,8 +245,7 @@
     {
       "Tags": [
         "bookworm-scm",
-        "stable-scm",
-        "scm"
+        "oldstable-scm"
       ],
       "Architectures": {
         "amd64": {
@@ -311,8 +312,7 @@
     {
       "Tags": [
         "bookworm",
-        "stable",
-        "latest"
+        "oldstable"
       ],
       "Architectures": {
         "amd64": {
@@ -379,7 +379,7 @@
     {
       "Tags": [
         "bullseye-curl",
-        "oldstable-curl"
+        "oldoldstable-curl"
       ],
       "Architectures": {
         "amd64": {
@@ -418,7 +418,7 @@
     {
       "Tags": [
         "bullseye-scm",
-        "oldstable-scm"
+        "oldoldstable-scm"
       ],
       "Architectures": {
         "amd64": {
@@ -457,7 +457,7 @@
     {
       "Tags": [
         "bullseye",
-        "oldstable"
+        "oldoldstable"
       ],
       "Architectures": {
         "amd64": {
@@ -491,6 +491,207 @@
       },
       "GitCommit": "d0ecd4b7313e9bc6b00d9a4fe62ad5787bc197ae",
       "Directory": "debian/bullseye",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "forky-curl",
+        "testing-curl"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "6fbd1fd6aa17031b10f11a97c31b9da1ac09db76",
+      "Directory": "debian/forky/curl",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "forky-scm",
+        "testing-scm"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "6fbd1fd6aa17031b10f11a97c31b9da1ac09db76",
+      "Directory": "debian/forky/scm",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "forky",
+        "testing"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "6fbd1fd6aa17031b10f11a97c31b9da1ac09db76",
+      "Directory": "debian/forky",
       "File": ""
     },
     {
@@ -718,7 +919,8 @@
     {
       "Tags": [
         "trixie-curl",
-        "testing-curl"
+        "stable-curl",
+        "curl"
       ],
       "Architectures": {
         "amd64": {
@@ -785,7 +987,8 @@
     {
       "Tags": [
         "trixie-scm",
-        "testing-scm"
+        "stable-scm",
+        "scm"
       ],
       "Architectures": {
         "amd64": {
@@ -852,7 +1055,8 @@
     {
       "Tags": [
         "trixie",
-        "testing"
+        "stable",
+        "latest"
       ],
       "Architectures": {
         "amd64": {
@@ -1427,13 +1631,6 @@
           "GitCommit": "",
           "File": ""
         },
-        "riscv64": {
-          "Architecture": "riscv64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
         "s390x": {
           "Architecture": "s390x",
           "Directory": "",
@@ -1480,13 +1677,6 @@
           "GitCommit": "",
           "File": ""
         },
-        "riscv64": {
-          "Architecture": "riscv64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
         "s390x": {
           "Architecture": "s390x",
           "Directory": "",
@@ -1528,13 +1718,6 @@
         },
         "ppc64le": {
           "Architecture": "ppc64le",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "riscv64": {
-          "Architecture": "riscv64",
           "Directory": "",
           "GitFetch": "",
           "GitCommit": "",
@@ -1996,8 +2179,7 @@
     },
     {
       "Tags": [
-        "buster-curl",
-        "oldoldstable-curl"
+        "buster-curl"
       ],
       "Architectures": {
         "amd64": {
@@ -2035,8 +2217,7 @@
     },
     {
       "Tags": [
-        "buster-scm",
-        "oldoldstable-scm"
+        "buster-scm"
       ],
       "Architectures": {
         "amd64": {
@@ -2074,8 +2255,7 @@
     },
     {
       "Tags": [
-        "buster",
-        "oldoldstable"
+        "buster"
       ],
       "Architectures": {
         "amd64": {

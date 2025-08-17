@@ -18,20 +18,86 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: stable/trixie
+  File: ""
+  GitCommit: 6c30628c249e3915b95da3876f0c8f607e286bee
+  Tags:
+  - 3.9.0-sdk
+  - 3.9-sdk
+  - 3-sdk
+  - stable-sdk
+  - sdk
+  - 3.9.0
+  - "3.9"
+  - "3"
+  - stable
+  - latest
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: beta/trixie
+  File: ""
+  GitCommit: 6c30628c249e3915b95da3876f0c8f607e286bee
+  Tags:
+  - 3.10.0-75.1.beta-sdk
+  - beta-sdk
+  - 3.10.0-75.1.beta
+  - beta
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
   Directory: stable/bookworm
   File: ""
   GitCommit: 19c93897da021cf96a8466f017fbba294b9cb4f6
   Tags:
   - 3.8.3-sdk
   - 3.8-sdk
-  - 3-sdk
-  - stable-sdk
-  - sdk
   - 3.8.3
   - "3.8"
-  - "3"
-  - stable
-  - latest
 - Architectures:
     amd64:
       Architecture: amd64
@@ -56,9 +122,7 @@ Blocks:
   GitCommit: 19c93897da021cf96a8466f017fbba294b9cb4f6
   Tags:
   - 3.9.0-333.4.beta-sdk
-  - beta-sdk
   - 3.9.0-333.4.beta
-  - beta
 - Architectures:
     amd64:
       Architecture: amd64
@@ -4125,6 +4189,9 @@ KnownTags:
   3.8.2-sdk: {}
   3.8.3: {}
   3.8.3-sdk: {}
+  "3.9": {}
+  3.9-sdk: {}
+  3.9.0: {}
   3.9.0-100.2.beta: {}
   3.9.0-100.2.beta-sdk: {}
   3.9.0-196.1.beta: {}
@@ -4133,6 +4200,9 @@ KnownTags:
   3.9.0-333.3.beta-sdk: {}
   3.9.0-333.4.beta: {}
   3.9.0-333.4.beta-sdk: {}
+  3.9.0-sdk: {}
+  3.10.0-75.1.beta: {}
+  3.10.0-75.1.beta-sdk: {}
   beta: {}
   beta-sdk: {}
   latest: {}

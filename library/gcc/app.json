@@ -96,6 +96,7 @@
     "13.4.0-bookworm": {},
     "14": {},
     "14-bookworm": {},
+    "14-trixie": {},
     "14.1": {},
     "14.1-bookworm": {},
     "14.1.0": {},
@@ -106,18 +107,23 @@
     "14.2.0-bookworm": {},
     "14.3": {},
     "14.3-bookworm": {},
+    "14.3-trixie": {},
     "14.3.0": {},
     "14.3.0-bookworm": {},
+    "14.3.0-trixie": {},
     "15": {},
     "15-bookworm": {},
+    "15-trixie": {},
     "15.1": {},
     "15.1-bookworm": {},
     "15.1.0": {},
     "15.1.0-bookworm": {},
     "15.2": {},
     "15.2-bookworm": {},
+    "15.2-trixie": {},
     "15.2.0": {},
     "15.2.0-bookworm": {},
+    "15.2.0-trixie": {},
     "4": {},
     "4.8": {},
     "4.8.5": {},
@@ -197,7 +203,8 @@
     "9.5.0-buster": {},
     "bookworm": {},
     "bullseye": {},
-    "latest": {}
+    "latest": {},
+    "trixie": {}
   },
   "Blocks": [
     {
@@ -206,10 +213,10 @@
         "15.2",
         "15",
         "latest",
-        "15.2.0-bookworm",
-        "15.2-bookworm",
-        "15-bookworm",
-        "bookworm"
+        "15.2.0-trixie",
+        "15.2-trixie",
+        "15-trixie",
+        "trixie"
       ],
       "Architectures": {
         "amd64": {
@@ -247,6 +254,13 @@
           "GitCommit": "",
           "File": ""
         },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
         "s390x": {
           "Architecture": "s390x",
           "Directory": "",
@@ -255,7 +269,7 @@
           "File": ""
         }
       },
-      "GitCommit": "339fcb5f09293ecdb47d6ae0b36b12509f0080e3",
+      "GitCommit": "915af5ccbb6b09575e244f280c26925e77172039",
       "Directory": "15",
       "File": ""
     },
@@ -264,9 +278,9 @@
         "14.3.0",
         "14.3",
         "14",
-        "14.3.0-bookworm",
-        "14.3-bookworm",
-        "14-bookworm"
+        "14.3.0-trixie",
+        "14.3-trixie",
+        "14-trixie"
       ],
       "Architectures": {
         "amd64": {
@@ -304,6 +318,13 @@
           "GitCommit": "",
           "File": ""
         },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
         "s390x": {
           "Architecture": "s390x",
           "Directory": "",
@@ -312,7 +333,7 @@
           "File": ""
         }
       },
-      "GitCommit": "d262936418fbf062bb25907d5126a178578ab58b",
+      "GitCommit": "280306a58a2ff0c21a95ed8abe882ac483d03c8b",
       "Directory": "14",
       "File": ""
     },
@@ -428,6 +449,115 @@
       },
       "GitCommit": "7070981b23d22d3ca790f87bff26f13f3614dd4c",
       "Directory": "12",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "15.2.0-bookworm",
+        "15.2-bookworm",
+        "15-bookworm",
+        "bookworm"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "339fcb5f09293ecdb47d6ae0b36b12509f0080e3",
+      "Directory": "15",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "14.3.0-bookworm",
+        "14.3-bookworm",
+        "14-bookworm"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "d262936418fbf062bb25907d5126a178578ab58b",
+      "Directory": "14",
       "File": ""
     },
     {

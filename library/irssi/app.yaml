@@ -30,14 +30,14 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-    mips64le:
-      Architecture: mips64le
+    ppc64le:
+      Architecture: ppc64le
       Directory: ""
       File: ""
       GitCommit: ""
       GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
+    riscv64:
+      Architecture: riscv64
       Directory: ""
       File: ""
       GitCommit: ""
@@ -50,16 +50,16 @@ Blocks:
       GitFetch: ""
   Directory: debian
   File: ""
-  GitCommit: b8ea417aaa1a29a6003756627d748450a5bf6abe
+  GitCommit: 071b281a8011fb7ac5c5d6b6928e13fee8ab719c
   Tags:
   - 1.4.5
   - "1.4"
   - "1"
   - latest
-  - 1.4.5-bookworm
-  - 1.4-bookworm
-  - 1-bookworm
-  - bookworm
+  - 1.4.5-trixie
+  - 1.4-trixie
+  - 1-trixie
+  - trixie
 - Architectures:
     amd64:
       Architecture: amd64
@@ -121,6 +121,63 @@ Blocks:
   - 1.4-alpine3.22
   - 1-alpine3.22
   - alpine3.22
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: debian
+  File: ""
+  GitCommit: b8ea417aaa1a29a6003756627d748450a5bf6abe
+  Tags:
+  - 1.4.5-bookworm
+  - 1.4-bookworm
+  - 1-bookworm
+  - bookworm
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1833,6 +1890,7 @@ KnownTags:
   1-alpine3.22: {}
   1-bookworm: {}
   1-bullseye: {}
+  1-trixie: {}
   "1.0": {}
   1.0-alpine: {}
   1.0.0: {}
@@ -1876,6 +1934,7 @@ KnownTags:
   1.4-alpine3.22: {}
   1.4-bookworm: {}
   1.4-bullseye: {}
+  1.4-trixie: {}
   1.4.1: {}
   1.4.1-alpine: {}
   1.4.2: {}
@@ -1895,6 +1954,7 @@ KnownTags:
   1.4.5-alpine3.21: {}
   1.4.5-alpine3.22: {}
   1.4.5-bookworm: {}
+  1.4.5-trixie: {}
   alpine: {}
   alpine3.17: {}
   alpine3.18: {}
@@ -1904,4 +1964,5 @@ KnownTags:
   bookworm: {}
   bullseye: {}
   latest: {}
+  trixie: {}
 Name: irssi

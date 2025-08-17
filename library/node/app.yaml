@@ -20,11 +20,11 @@ Blocks:
       GitFetch: ""
   Directory: 24/alpine3.21
   File: ""
-  GitCommit: de1c8c994e1bf8a5843ff7d4d987eee0cad69243
+  GitCommit: dea02d37e9858fd72c5f63b493e9eea74a672c1b
   Tags:
   - 24-alpine3.21
-  - 24.5-alpine3.21
-  - 24.5.0-alpine3.21
+  - 24.6-alpine3.21
+  - 24.6.0-alpine3.21
   - alpine3.21
   - current-alpine3.21
 - Architectures:
@@ -48,14 +48,14 @@ Blocks:
       GitFetch: ""
   Directory: 24/alpine3.22
   File: ""
-  GitCommit: de1c8c994e1bf8a5843ff7d4d987eee0cad69243
+  GitCommit: dea02d37e9858fd72c5f63b493e9eea74a672c1b
   Tags:
   - 24-alpine
   - 24-alpine3.22
-  - 24.5-alpine
-  - 24.5-alpine3.22
-  - 24.5.0-alpine
-  - 24.5.0-alpine3.22
+  - 24.6-alpine
+  - 24.6-alpine3.22
+  - 24.6.0-alpine
+  - 24.6.0-alpine3.22
   - alpine
   - alpine3.22
   - current-alpine
@@ -87,14 +87,14 @@ Blocks:
       GitFetch: ""
   Directory: 24/bookworm
   File: ""
-  GitCommit: de1c8c994e1bf8a5843ff7d4d987eee0cad69243
+  GitCommit: dea02d37e9858fd72c5f63b493e9eea74a672c1b
   Tags:
   - "24"
   - 24-bookworm
-  - "24.5"
-  - 24.5-bookworm
-  - 24.5.0
-  - 24.5.0-bookworm
+  - "24.6"
+  - 24.6-bookworm
+  - 24.6.0
+  - 24.6.0-bookworm
   - bookworm
   - current
   - current-bookworm
@@ -126,14 +126,14 @@ Blocks:
       GitFetch: ""
   Directory: 24/bookworm-slim
   File: ""
-  GitCommit: de1c8c994e1bf8a5843ff7d4d987eee0cad69243
+  GitCommit: dea02d37e9858fd72c5f63b493e9eea74a672c1b
   Tags:
   - 24-bookworm-slim
   - 24-slim
-  - 24.5-bookworm-slim
-  - 24.5-slim
-  - 24.5.0-bookworm-slim
-  - 24.5.0-slim
+  - 24.6-bookworm-slim
+  - 24.6-slim
+  - 24.6.0-bookworm-slim
+  - 24.6.0-slim
   - bookworm-slim
   - current-bookworm-slim
   - current-slim
@@ -153,11 +153,11 @@ Blocks:
       GitFetch: ""
   Directory: 24/bullseye
   File: ""
-  GitCommit: de1c8c994e1bf8a5843ff7d4d987eee0cad69243
+  GitCommit: dea02d37e9858fd72c5f63b493e9eea74a672c1b
   Tags:
   - 24-bullseye
-  - 24.5-bullseye
-  - 24.5.0-bullseye
+  - 24.6-bullseye
+  - 24.6.0-bullseye
   - bullseye
   - current-bullseye
 - Architectures:
@@ -175,13 +175,81 @@ Blocks:
       GitFetch: ""
   Directory: 24/bullseye-slim
   File: ""
-  GitCommit: de1c8c994e1bf8a5843ff7d4d987eee0cad69243
+  GitCommit: dea02d37e9858fd72c5f63b493e9eea74a672c1b
   Tags:
   - 24-bullseye-slim
-  - 24.5-bullseye-slim
-  - 24.5.0-bullseye-slim
+  - 24.6-bullseye-slim
+  - 24.6.0-bullseye-slim
   - bullseye-slim
   - current-bullseye-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 24/trixie
+  File: ""
+  GitCommit: dea02d37e9858fd72c5f63b493e9eea74a672c1b
+  Tags:
+  - 24-trixie
+  - 24.6-trixie
+  - 24.6.0-trixie
+  - current-trixie
+  - trixie
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 24/trixie-slim
+  File: ""
+  GitCommit: dea02d37e9858fd72c5f63b493e9eea74a672c1b
+  Tags:
+  - 24-trixie-slim
+  - 24.6-trixie-slim
+  - 24.6.0-trixie-slim
+  - current-trixie-slim
+  - trixie-slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -421,6 +489,74 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 22/trixie
+  File: ""
+  GitCommit: f9e105af51a35a84638d79cf717c507075f33985
+  Tags:
+  - 22-trixie
+  - 22.18-trixie
+  - 22.18.0-trixie
+  - jod-trixie
+  - lts-trixie
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 22/trixie-slim
+  File: ""
+  GitCommit: f9e105af51a35a84638d79cf717c507075f33985
+  Tags:
+  - 22-trixie-slim
+  - 22.18-trixie-slim
+  - 22.18.0-trixie-slim
+  - jod-trixie-slim
+  - lts-trixie-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
     arm32v6:
       Architecture: arm32v6
       Directory: ""
@@ -648,6 +784,290 @@ Blocks:
   - 20.19-bullseye-slim
   - 20.19.4-bullseye-slim
   - iron-bullseye-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 20/trixie
+  File: ""
+  GitCommit: f9e105af51a35a84638d79cf717c507075f33985
+  Tags:
+  - 20-trixie
+  - 20.19-trixie
+  - 20.19.4-trixie
+  - iron-trixie
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 20/trixie-slim
+  File: ""
+  GitCommit: f9e105af51a35a84638d79cf717c507075f33985
+  Tags:
+  - 20-trixie-slim
+  - 20.19-trixie-slim
+  - 20.19.4-trixie-slim
+  - iron-trixie-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 24/alpine3.21
+  File: ""
+  GitCommit: de1c8c994e1bf8a5843ff7d4d987eee0cad69243
+  Tags:
+  - 24.5-alpine3.21
+  - 24.5.0-alpine3.21
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 24/alpine3.22
+  File: ""
+  GitCommit: de1c8c994e1bf8a5843ff7d4d987eee0cad69243
+  Tags:
+  - 24.5-alpine
+  - 24.5-alpine3.22
+  - 24.5.0-alpine
+  - 24.5.0-alpine3.22
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 24/bookworm
+  File: ""
+  GitCommit: de1c8c994e1bf8a5843ff7d4d987eee0cad69243
+  Tags:
+  - "24.5"
+  - 24.5-bookworm
+  - 24.5.0
+  - 24.5.0-bookworm
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 24/bookworm-slim
+  File: ""
+  GitCommit: de1c8c994e1bf8a5843ff7d4d987eee0cad69243
+  Tags:
+  - 24.5-bookworm-slim
+  - 24.5-slim
+  - 24.5.0-bookworm-slim
+  - 24.5.0-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 24/bullseye
+  File: ""
+  GitCommit: de1c8c994e1bf8a5843ff7d4d987eee0cad69243
+  Tags:
+  - 24.5-bullseye
+  - 24.5.0-bullseye
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 24/bullseye-slim
+  File: ""
+  GitCommit: de1c8c994e1bf8a5843ff7d4d987eee0cad69243
+  Tags:
+  - 24.5-bullseye-slim
+  - 24.5.0-bullseye-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 24/trixie
+  File: ""
+  GitCommit: f9e105af51a35a84638d79cf717c507075f33985
+  Tags:
+  - 24.5-trixie
+  - 24.5.0-trixie
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 24/trixie-slim
+  File: ""
+  GitCommit: f9e105af51a35a84638d79cf717c507075f33985
+  Tags:
+  - 24.5-trixie-slim
+  - 24.5.0-trixie-slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -118116,6 +118536,8 @@ KnownTags:
   20-buster: {}
   20-buster-slim: {}
   20-slim: {}
+  20-trixie: {}
+  20-trixie-slim: {}
   "20.0": {}
   20.0-alpine: {}
   20.0-alpine3.16: {}
@@ -118652,6 +119074,8 @@ KnownTags:
   20.19-bullseye: {}
   20.19-bullseye-slim: {}
   20.19-slim: {}
+  20.19-trixie: {}
+  20.19-trixie-slim: {}
   20.19.0: {}
   20.19.0-alpine: {}
   20.19.0-alpine3.20: {}
@@ -118698,6 +119122,8 @@ KnownTags:
   20.19.4-bullseye: {}
   20.19.4-bullseye-slim: {}
   20.19.4-slim: {}
+  20.19.4-trixie: {}
+  20.19.4-trixie-slim: {}
   "21": {}
   21-alpine: {}
   21-alpine3.17: {}
@@ -118914,6 +119340,8 @@ KnownTags:
   22-bullseye: {}
   22-bullseye-slim: {}
   22-slim: {}
+  22-trixie: {}
+  22-trixie-slim: {}
   "22.0": {}
   22.0-alpine: {}
   22.0-alpine3.18: {}
@@ -119298,6 +119726,8 @@ KnownTags:
   22.18-bullseye: {}
   22.18-bullseye-slim: {}
   22.18-slim: {}
+  22.18-trixie: {}
+  22.18-trixie-slim: {}
   22.18.0: {}
   22.18.0-alpine: {}
   22.18.0-alpine3.21: {}
@@ -119307,6 +119737,8 @@ KnownTags:
   22.18.0-bullseye: {}
   22.18.0-bullseye-slim: {}
   22.18.0-slim: {}
+  22.18.0-trixie: {}
+  22.18.0-trixie-slim: {}
   "23": {}
   23-alpine: {}
   23-alpine3.19: {}
@@ -119566,6 +119998,8 @@ KnownTags:
   24-bullseye: {}
   24-bullseye-slim: {}
   24-slim: {}
+  24-trixie: {}
+  24-trixie-slim: {}
   "24.0": {}
   24.0-alpine: {}
   24.0-alpine3.20: {}
@@ -119694,6 +120128,8 @@ KnownTags:
   24.5-bullseye: {}
   24.5-bullseye-slim: {}
   24.5-slim: {}
+  24.5-trixie: {}
+  24.5-trixie-slim: {}
   24.5.0: {}
   24.5.0-alpine: {}
   24.5.0-alpine3.21: {}
@@ -119703,6 +120139,30 @@ KnownTags:
   24.5.0-bullseye: {}
   24.5.0-bullseye-slim: {}
   24.5.0-slim: {}
+  24.5.0-trixie: {}
+  24.5.0-trixie-slim: {}
+  "24.6": {}
+  24.6-alpine: {}
+  24.6-alpine3.21: {}
+  24.6-alpine3.22: {}
+  24.6-bookworm: {}
+  24.6-bookworm-slim: {}
+  24.6-bullseye: {}
+  24.6-bullseye-slim: {}
+  24.6-slim: {}
+  24.6-trixie: {}
+  24.6-trixie-slim: {}
+  24.6.0: {}
+  24.6.0-alpine: {}
+  24.6.0-alpine3.21: {}
+  24.6.0-alpine3.22: {}
+  24.6.0-bookworm: {}
+  24.6.0-bookworm-slim: {}
+  24.6.0-bullseye: {}
+  24.6.0-bullseye-slim: {}
+  24.6.0-slim: {}
+  24.6.0-trixie: {}
+  24.6.0-trixie-slim: {}
   alpine: {}
   alpine3.10: {}
   alpine3.11: {}
@@ -119794,6 +120254,8 @@ KnownTags:
   current-slim: {}
   current-stretch: {}
   current-stretch-slim: {}
+  current-trixie: {}
+  current-trixie-slim: {}
   dubnium: {}
   dubnium-alpine: {}
   dubnium-alpine3.9: {}
@@ -119889,6 +120351,8 @@ KnownTags:
   iron-buster: {}
   iron-buster-slim: {}
   iron-slim: {}
+  iron-trixie: {}
+  iron-trixie-slim: {}
   jessie: {}
   jod: {}
   jod-alpine: {}
@@ -119901,6 +120365,8 @@ KnownTags:
   jod-bullseye: {}
   jod-bullseye-slim: {}
   jod-slim: {}
+  jod-trixie: {}
+  jod-trixie-slim: {}
   latest: {}
   lts: {}
   lts-alpine: {}
@@ -119934,9 +120400,13 @@ KnownTags:
   lts-slim: {}
   lts-stretch: {}
   lts-stretch-slim: {}
+  lts-trixie: {}
+  lts-trixie-slim: {}
   onbuild: {}
   slim: {}
   stretch: {}
   stretch-slim: {}
+  trixie: {}
+  trixie-slim: {}
   wheezy: {}
 Name: node

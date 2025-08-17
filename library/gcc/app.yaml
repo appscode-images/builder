@@ -30,6 +30,12 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
     s390x:
       Architecture: s390x
       Directory: ""
@@ -38,16 +44,16 @@ Blocks:
       GitFetch: ""
   Directory: "15"
   File: ""
-  GitCommit: 339fcb5f09293ecdb47d6ae0b36b12509f0080e3
+  GitCommit: 915af5ccbb6b09575e244f280c26925e77172039
   Tags:
   - 15.2.0
   - "15.2"
   - "15"
   - latest
-  - 15.2.0-bookworm
-  - 15.2-bookworm
-  - 15-bookworm
-  - bookworm
+  - 15.2.0-trixie
+  - 15.2-trixie
+  - 15-trixie
+  - trixie
 - Architectures:
     amd64:
       Architecture: amd64
@@ -79,6 +85,12 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
     s390x:
       Architecture: s390x
       Directory: ""
@@ -87,14 +99,14 @@ Blocks:
       GitFetch: ""
   Directory: "14"
   File: ""
-  GitCommit: d262936418fbf062bb25907d5126a178578ab58b
+  GitCommit: 280306a58a2ff0c21a95ed8abe882ac483d03c8b
   Tags:
   - 14.3.0
   - "14.3"
   - "14"
-  - 14.3.0-bookworm
-  - 14.3-bookworm
-  - 14-bookworm
+  - 14.3.0-trixie
+  - 14.3-trixie
+  - 14-trixie
 - Architectures:
     amd64:
       Architecture: amd64
@@ -189,6 +201,95 @@ Blocks:
   - 12.5.0-bookworm
   - 12.5-bookworm
   - 12-bookworm
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: "15"
+  File: ""
+  GitCommit: 339fcb5f09293ecdb47d6ae0b36b12509f0080e3
+  Tags:
+  - 15.2.0-bookworm
+  - 15.2-bookworm
+  - 15-bookworm
+  - bookworm
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: "14"
+  File: ""
+  GitCommit: d262936418fbf062bb25907d5126a178578ab58b
+  Tags:
+  - 14.3.0-bookworm
+  - 14.3-bookworm
+  - 14-bookworm
 - Architectures:
     amd64:
       Architecture: amd64
@@ -2416,6 +2517,7 @@ KnownTags:
   13.4.0-bookworm: {}
   "14": {}
   14-bookworm: {}
+  14-trixie: {}
   "14.1": {}
   14.1-bookworm: {}
   14.1.0: {}
@@ -2426,19 +2528,25 @@ KnownTags:
   14.2.0-bookworm: {}
   "14.3": {}
   14.3-bookworm: {}
+  14.3-trixie: {}
   14.3.0: {}
   14.3.0-bookworm: {}
+  14.3.0-trixie: {}
   "15": {}
   15-bookworm: {}
+  15-trixie: {}
   "15.1": {}
   15.1-bookworm: {}
   15.1.0: {}
   15.1.0-bookworm: {}
   "15.2": {}
   15.2-bookworm: {}
+  15.2-trixie: {}
   15.2.0: {}
   15.2.0-bookworm: {}
+  15.2.0-trixie: {}
   bookworm: {}
   bullseye: {}
   latest: {}
+  trixie: {}
 Name: gcc

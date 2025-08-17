@@ -50,14 +50,14 @@ Blocks:
       GitFetch: ""
   Directory: mainline/debian
   File: ""
-  GitCommit: b2faad22d5d15d966e46922033681639b2a6d6fa
+  GitCommit: 5a4ad48c733b365d69a4d1c9946a9d8480469c7f
   Tags:
-  - 1.29.0
+  - 1.29.1
   - mainline
   - "1"
   - "1.29"
   - latest
-  - 1.29.0-bookworm
+  - 1.29.1-bookworm
   - mainline-bookworm
   - 1-bookworm
   - 1.29-bookworm
@@ -113,14 +113,14 @@ Blocks:
       GitFetch: ""
   Directory: mainline/debian-perl
   File: ""
-  GitCommit: 7895505c41013f66d3841cd2613b436229c1fe0e
+  GitCommit: 5a4ad48c733b365d69a4d1c9946a9d8480469c7f
   Tags:
-  - 1.29.0-perl
+  - 1.29.1-perl
   - mainline-perl
   - 1-perl
   - 1.29-perl
   - perl
-  - 1.29.0-bookworm-perl
+  - 1.29.1-bookworm-perl
   - mainline-bookworm-perl
   - 1-bookworm-perl
   - 1.29-bookworm-perl
@@ -140,14 +140,14 @@ Blocks:
       GitFetch: ""
   Directory: mainline/debian-otel
   File: ""
-  GitCommit: 7895505c41013f66d3841cd2613b436229c1fe0e
+  GitCommit: 5a4ad48c733b365d69a4d1c9946a9d8480469c7f
   Tags:
-  - 1.29.0-otel
+  - 1.29.1-otel
   - mainline-otel
   - 1-otel
   - 1.29-otel
   - otel
-  - 1.29.0-bookworm-otel
+  - 1.29.1-bookworm-otel
   - mainline-bookworm-otel
   - 1-bookworm-otel
   - 1.29-bookworm-otel
@@ -203,14 +203,14 @@ Blocks:
       GitFetch: ""
   Directory: mainline/alpine
   File: ""
-  GitCommit: 7895505c41013f66d3841cd2613b436229c1fe0e
+  GitCommit: 5a4ad48c733b365d69a4d1c9946a9d8480469c7f
   Tags:
-  - 1.29.0-alpine
+  - 1.29.1-alpine
   - mainline-alpine
   - 1-alpine
   - 1.29-alpine
   - alpine
-  - 1.29.0-alpine3.22
+  - 1.29.1-alpine3.22
   - mainline-alpine3.22
   - 1-alpine3.22
   - 1.29-alpine3.22
@@ -266,14 +266,14 @@ Blocks:
       GitFetch: ""
   Directory: mainline/alpine-perl
   File: ""
-  GitCommit: 7895505c41013f66d3841cd2613b436229c1fe0e
+  GitCommit: 5a4ad48c733b365d69a4d1c9946a9d8480469c7f
   Tags:
-  - 1.29.0-alpine-perl
+  - 1.29.1-alpine-perl
   - mainline-alpine-perl
   - 1-alpine-perl
   - 1.29-alpine-perl
   - alpine-perl
-  - 1.29.0-alpine3.22-perl
+  - 1.29.1-alpine3.22-perl
   - mainline-alpine3.22-perl
   - 1-alpine3.22-perl
   - 1.29-alpine3.22-perl
@@ -329,14 +329,14 @@ Blocks:
       GitFetch: ""
   Directory: mainline/alpine-slim
   File: ""
-  GitCommit: 7895505c41013f66d3841cd2613b436229c1fe0e
+  GitCommit: 5a4ad48c733b365d69a4d1c9946a9d8480469c7f
   Tags:
-  - 1.29.0-alpine-slim
+  - 1.29.1-alpine-slim
   - mainline-alpine-slim
   - 1-alpine-slim
   - 1.29-alpine-slim
   - alpine-slim
-  - 1.29.0-alpine3.22-slim
+  - 1.29.1-alpine3.22-slim
   - mainline-alpine3.22-slim
   - 1-alpine3.22-slim
   - 1.29-alpine3.22-slim
@@ -356,14 +356,14 @@ Blocks:
       GitFetch: ""
   Directory: mainline/alpine-otel
   File: ""
-  GitCommit: 7895505c41013f66d3841cd2613b436229c1fe0e
+  GitCommit: 5a4ad48c733b365d69a4d1c9946a9d8480469c7f
   Tags:
-  - 1.29.0-alpine-otel
+  - 1.29.1-alpine-otel
   - mainline-alpine-otel
   - 1-alpine-otel
   - 1.29-alpine-otel
   - alpine-otel
-  - 1.29.0-alpine3.22-otel
+  - 1.29.1-alpine3.22-otel
   - mainline-alpine3.22-otel
   - 1-alpine3.22-otel
   - 1.29-alpine3.22-otel
@@ -419,7 +419,7 @@ Blocks:
       GitFetch: ""
   Directory: stable/debian
   File: ""
-  GitCommit: b2faad22d5d15d966e46922033681639b2a6d6fa
+  GitCommit: 9b549fdf936778810dbe95a4813899c60444ef1c
   Tags:
   - 1.28.0
   - stable
@@ -678,7 +678,7 @@ Blocks:
       GitFetch: ""
   Directory: stable/alpine-slim
   File: ""
-  GitCommit: 7f1d49f6f222f7e588a9066fd53a0ce43c3466a5
+  GitCommit: 9b549fdf936778810dbe95a4813899c60444ef1c
   Tags:
   - 1.28.0-alpine-slim
   - stable-alpine-slim
@@ -709,6 +709,319 @@ Blocks:
   - 1.28.0-alpine3.21-otel
   - stable-alpine3.21-otel
   - 1.28-alpine3.21-otel
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: mainline/debian
+  File: ""
+  GitCommit: b2faad22d5d15d966e46922033681639b2a6d6fa
+  Tags:
+  - 1.29.0
+  - 1.29.0-bookworm
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: mainline/debian-perl
+  File: ""
+  GitCommit: 7895505c41013f66d3841cd2613b436229c1fe0e
+  Tags:
+  - 1.29.0-perl
+  - 1.29.0-bookworm-perl
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: mainline/debian-otel
+  File: ""
+  GitCommit: 7895505c41013f66d3841cd2613b436229c1fe0e
+  Tags:
+  - 1.29.0-otel
+  - 1.29.0-bookworm-otel
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: mainline/alpine
+  File: ""
+  GitCommit: 7895505c41013f66d3841cd2613b436229c1fe0e
+  Tags:
+  - 1.29.0-alpine
+  - 1.29.0-alpine3.22
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: mainline/alpine-perl
+  File: ""
+  GitCommit: 7895505c41013f66d3841cd2613b436229c1fe0e
+  Tags:
+  - 1.29.0-alpine-perl
+  - 1.29.0-alpine3.22-perl
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: mainline/alpine-slim
+  File: ""
+  GitCommit: 7895505c41013f66d3841cd2613b436229c1fe0e
+  Tags:
+  - 1.29.0-alpine-slim
+  - 1.29.0-alpine3.22-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: mainline/alpine-otel
+  File: ""
+  GitCommit: 7895505c41013f66d3841cd2613b436229c1fe0e
+  Tags:
+  - 1.29.0-alpine-otel
+  - 1.29.0-alpine3.22-otel
 - Architectures:
     amd64:
       Architecture: amd64
@@ -18874,6 +19187,20 @@ KnownTags:
   1.29.0-bookworm-perl: {}
   1.29.0-otel: {}
   1.29.0-perl: {}
+  1.29.1: {}
+  1.29.1-alpine: {}
+  1.29.1-alpine-otel: {}
+  1.29.1-alpine-perl: {}
+  1.29.1-alpine-slim: {}
+  1.29.1-alpine3.22: {}
+  1.29.1-alpine3.22-otel: {}
+  1.29.1-alpine3.22-perl: {}
+  1.29.1-alpine3.22-slim: {}
+  1.29.1-bookworm: {}
+  1.29.1-bookworm-otel: {}
+  1.29.1-bookworm-perl: {}
+  1.29.1-otel: {}
+  1.29.1-perl: {}
   alpine: {}
   alpine-otel: {}
   alpine-perl: {}

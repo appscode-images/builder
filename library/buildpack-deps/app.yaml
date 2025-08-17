@@ -53,8 +53,7 @@ Blocks:
   GitCommit: 3e18c3af1f5dce6a48abf036857f9097b6bd79cc
   Tags:
   - bookworm-curl
-  - stable-curl
-  - curl
+  - oldstable-curl
 - Architectures:
     amd64:
       Architecture: amd64
@@ -109,8 +108,7 @@ Blocks:
   GitCommit: d0ecd4b7313e9bc6b00d9a4fe62ad5787bc197ae
   Tags:
   - bookworm-scm
-  - stable-scm
-  - scm
+  - oldstable-scm
 - Architectures:
     amd64:
       Architecture: amd64
@@ -165,8 +163,7 @@ Blocks:
   GitCommit: d0ecd4b7313e9bc6b00d9a4fe62ad5787bc197ae
   Tags:
   - bookworm
-  - stable
-  - latest
+  - oldstable
 - Architectures:
     amd64:
       Architecture: amd64
@@ -197,7 +194,7 @@ Blocks:
   GitCommit: 93d6db0797f91ab674535553b7e0e762941a02d0
   Tags:
   - bullseye-curl
-  - oldstable-curl
+  - oldoldstable-curl
 - Architectures:
     amd64:
       Architecture: amd64
@@ -228,7 +225,7 @@ Blocks:
   GitCommit: d0ecd4b7313e9bc6b00d9a4fe62ad5787bc197ae
   Tags:
   - bullseye-scm
-  - oldstable-scm
+  - oldoldstable-scm
 - Architectures:
     amd64:
       Architecture: amd64
@@ -259,7 +256,172 @@ Blocks:
   GitCommit: d0ecd4b7313e9bc6b00d9a4fe62ad5787bc197ae
   Tags:
   - bullseye
-  - oldstable
+  - oldoldstable
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: debian/forky/curl
+  File: ""
+  GitCommit: 6fbd1fd6aa17031b10f11a97c31b9da1ac09db76
+  Tags:
+  - forky-curl
+  - testing-curl
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: debian/forky/scm
+  File: ""
+  GitCommit: 6fbd1fd6aa17031b10f11a97c31b9da1ac09db76
+  Tags:
+  - forky-scm
+  - testing-scm
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: debian/forky
+  File: ""
+  GitCommit: 6fbd1fd6aa17031b10f11a97c31b9da1ac09db76
+  Tags:
+  - forky
+  - testing
 - Architectures:
     amd64:
       Architecture: amd64
@@ -497,7 +659,8 @@ Blocks:
   GitCommit: 1f4fe499c668d9a2e1578aa8db4f0b2d14482cf5
   Tags:
   - trixie-curl
-  - testing-curl
+  - stable-curl
+  - curl
 - Architectures:
     amd64:
       Architecture: amd64
@@ -552,7 +715,8 @@ Blocks:
   GitCommit: 1f4fe499c668d9a2e1578aa8db4f0b2d14482cf5
   Tags:
   - trixie-scm
-  - testing-scm
+  - stable-scm
+  - scm
 - Architectures:
     amd64:
       Architecture: amd64
@@ -607,7 +771,8 @@ Blocks:
   GitCommit: 1f4fe499c668d9a2e1578aa8db4f0b2d14482cf5
   Tags:
   - trixie
-  - testing
+  - stable
+  - latest
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1020,12 +1185,6 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-    riscv64:
-      Architecture: riscv64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
     s390x:
       Architecture: s390x
       Directory: ""
@@ -1063,12 +1222,6 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-    riscv64:
-      Architecture: riscv64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
     s390x:
       Architecture: s390x
       Directory: ""
@@ -1102,12 +1255,6 @@ Blocks:
       GitFetch: ""
     ppc64le:
       Architecture: ppc64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    riscv64:
-      Architecture: riscv64
       Directory: ""
       File: ""
       GitCommit: ""
@@ -1511,7 +1658,6 @@ Blocks:
   GitCommit: 93d6db0797f91ab674535553b7e0e762941a02d0
   Tags:
   - buster-curl
-  - oldoldstable-curl
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1542,7 +1688,6 @@ Blocks:
   GitCommit: d0ecd4b7313e9bc6b00d9a4fe62ad5787bc197ae
   Tags:
   - buster-scm
-  - oldoldstable-scm
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1573,7 +1718,6 @@ Blocks:
   GitCommit: d0ecd4b7313e9bc6b00d9a4fe62ad5787bc197ae
   Tags:
   - buster
-  - oldoldstable
 - Architectures:
     amd64:
       Architecture: amd64
@@ -3731,6 +3875,9 @@ KnownTags:
   focal: {}
   focal-curl: {}
   focal-scm: {}
+  forky: {}
+  forky-curl: {}
+  forky-scm: {}
   groovy: {}
   groovy-curl: {}
   groovy-scm: {}

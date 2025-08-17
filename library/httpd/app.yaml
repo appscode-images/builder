@@ -30,14 +30,14 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-    mips64le:
-      Architecture: mips64le
+    ppc64le:
+      Architecture: ppc64le
       Directory: ""
       File: ""
       GitCommit: ""
       GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
+    riscv64:
+      Architecture: riscv64
       Directory: ""
       File: ""
       GitCommit: ""
@@ -50,16 +50,16 @@ Blocks:
       GitFetch: ""
   Directory: "2.4"
   File: ""
-  GitCommit: 42b1c8997488557ae90e80ff64a90830b1563d75
+  GitCommit: 684a447a23a8035356d5cce42e1f85212cfd39a3
   Tags:
   - 2.4.65
   - "2.4"
   - "2"
   - latest
-  - 2.4.65-bookworm
-  - 2.4-bookworm
-  - 2-bookworm
-  - bookworm
+  - 2.4.65-trixie
+  - 2.4-trixie
+  - 2-trixie
+  - trixie
 - Architectures:
     amd64:
       Architecture: amd64
@@ -121,6 +121,63 @@ Blocks:
   - 2.4-alpine3.22
   - 2-alpine3.22
   - alpine3.22
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    mips64le:
+      Architecture: mips64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: "2.4"
+  File: ""
+  GitCommit: 42b1c8997488557ae90e80ff64a90830b1563d75
+  Tags:
+  - 2.4.65-bookworm
+  - 2.4-bookworm
+  - 2-bookworm
+  - bookworm
 - Architectures:
     amd64:
       Architecture: amd64
@@ -3975,6 +4032,7 @@ KnownTags:
   2-bookworm: {}
   2-bullseye: {}
   2-buster: {}
+  2-trixie: {}
   "2.2": {}
   2.2-alpine: {}
   2.2.31: {}
@@ -3998,6 +4056,7 @@ KnownTags:
   2.4-bookworm: {}
   2.4-bullseye: {}
   2.4-buster: {}
+  2.4-trixie: {}
   2.4.20: {}
   2.4.23: {}
   2.4.23-alpine: {}
@@ -4114,6 +4173,7 @@ KnownTags:
   2.4.65-alpine: {}
   2.4.65-alpine3.22: {}
   2.4.65-bookworm: {}
+  2.4.65-trixie: {}
   alpine: {}
   alpine3.13: {}
   alpine3.14: {}
@@ -4129,4 +4189,5 @@ KnownTags:
   bullseye: {}
   buster: {}
   latest: {}
+  trixie: {}
 Name: httpd
