@@ -13,11 +13,11 @@ Blocks:
       GitCommit: ""
       GitFetch: ""
   Directory: pkg/docker
-  File: Dockerfile.go1.24
-  GitCommit: bda6a949b8a9f3f5ebe0e961ae52756ceb9dbb68
+  File: Dockerfile.go1.25
+  GitCommit: e89c9e743ec1585fa64206f8757e077e7dd5dbc9
   Tags:
-  - 1.34.2-go1.24
-  - go1.24
+  - 1.34.2-go1.25
+  - go1.25
   - go1
   - go
 - Architectures:
@@ -34,11 +34,11 @@ Blocks:
       GitCommit: ""
       GitFetch: ""
   Directory: pkg/docker
-  File: Dockerfile.go1.23
-  GitCommit: bda6a949b8a9f3f5ebe0e961ae52756ceb9dbb68
+  File: Dockerfile.go1.24
+  GitCommit: e89c9e743ec1585fa64206f8757e077e7dd5dbc9
   Tags:
-  - 1.34.2-go1.23
-  - go1.23
+  - 1.34.2-go1.24
+  - go1.24
 - Architectures:
     amd64:
       Architecture: amd64
@@ -337,6 +337,25 @@ Blocks:
   - 1.34.2-minimal
   - minimal
   - latest
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: pkg/docker
+  File: Dockerfile.go1.23
+  GitCommit: bda6a949b8a9f3f5ebe0e961ae52756ceb9dbb68
+  Tags:
+  - 1.34.2-go1.23
+  - go1.23
 - Architectures:
     amd64:
       Architecture: amd64
@@ -2649,6 +2668,7 @@ KnownTags:
   1.34.1-wasm: {}
   1.34.2-go1.23: {}
   1.34.2-go1.24: {}
+  1.34.2-go1.25: {}
   1.34.2-jsc11: {}
   1.34.2-minimal: {}
   1.34.2-node20: {}
@@ -2671,6 +2691,7 @@ KnownTags:
   go1.22: {}
   go1.23: {}
   go1.24: {}
+  go1.25: {}
   jsc: {}
   jsc11: {}
   latest: {}

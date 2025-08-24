@@ -32,9 +32,9 @@ Blocks:
       GitFetch: ""
   Directory: 6/debian
   File: ""
-  GitCommit: 93e6f0b2a07742f7e023ddf20115eab0099e7cd1
+  GitCommit: 268610fc7ea18f293eb51c4533fef9c1cbb802be
   Tags:
-  - 6.0.4
+  - 6.0.5
   - "6.0"
   - "6"
   - latest
@@ -65,9 +65,9 @@ Blocks:
       GitFetch: ""
   Directory: 6/alpine
   File: ""
-  GitCommit: 93e6f0b2a07742f7e023ddf20115eab0099e7cd1
+  GitCommit: 268610fc7ea18f293eb51c4533fef9c1cbb802be
   Tags:
-  - 6.0.4-alpine
+  - 6.0.5-alpine
   - 6.0-alpine
   - 6-alpine
   - alpine
@@ -141,6 +141,72 @@ Blocks:
   - 5.130.4-alpine
   - 5.130-alpine
   - 5-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 6/debian
+  File: ""
+  GitCommit: 93e6f0b2a07742f7e023ddf20115eab0099e7cd1
+  Tags:
+  - 6.0.4
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 6/alpine
+  File: ""
+  GitCommit: 93e6f0b2a07742f7e023ddf20115eab0099e7cd1
+  Tags:
+  - 6.0.4-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -43839,6 +43905,8 @@ KnownTags:
   6.0.3-alpine: {}
   6.0.4: {}
   6.0.4-alpine: {}
+  6.0.5: {}
+  6.0.5-alpine: {}
   alpine: {}
   latest: {}
 Name: ghost

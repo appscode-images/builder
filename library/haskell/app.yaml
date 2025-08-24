@@ -14,7 +14,7 @@ Blocks:
       GitFetch: ""
   Directory: 9.12/bookworm
   File: ""
-  GitCommit: 9f6ddaa037edbbf26bf162c0285264aa3ffda638
+  GitCommit: c34f97738d08a138ef07878a4a1402b10670f87b
   Tags:
   - 9.12.2-bookworm
   - 9.12-bookworm
@@ -39,7 +39,7 @@ Blocks:
       GitFetch: ""
   Directory: 9.12/slim-bookworm
   File: ""
-  GitCommit: 9f6ddaa037edbbf26bf162c0285264aa3ffda638
+  GitCommit: c34f97738d08a138ef07878a4a1402b10670f87b
   Tags:
   - 9.12.2-slim-bookworm
   - 9.12-slim-bookworm
@@ -62,13 +62,13 @@ Blocks:
       GitFetch: ""
   Directory: 9.10/bullseye
   File: ""
-  GitCommit: 9f6ddaa037edbbf26bf162c0285264aa3ffda638
+  GitCommit: c34f97738d08a138ef07878a4a1402b10670f87b
   Tags:
-  - 9.10.1-bullseye
+  - 9.10.2-bullseye
   - 9.10-bullseye
   - 9-bullseye
   - bullseye
-  - 9.10.1
+  - 9.10.2
   - "9.10"
 - Architectures:
     amd64:
@@ -85,9 +85,9 @@ Blocks:
       GitFetch: ""
   Directory: 9.10/slim-bullseye
   File: ""
-  GitCommit: 9f6ddaa037edbbf26bf162c0285264aa3ffda638
+  GitCommit: c34f97738d08a138ef07878a4a1402b10670f87b
   Tags:
-  - 9.10.1-slim-bullseye
+  - 9.10.2-slim-bullseye
   - 9.10-slim-bullseye
   - 9-slim-bullseye
   - slim-bullseye
@@ -106,7 +106,7 @@ Blocks:
       GitFetch: ""
   Directory: 9.8/bullseye
   File: ""
-  GitCommit: 9f6ddaa037edbbf26bf162c0285264aa3ffda638
+  GitCommit: c34f97738d08a138ef07878a4a1402b10670f87b
   Tags:
   - 9.8.4-bullseye
   - 9.8-bullseye
@@ -127,7 +127,7 @@ Blocks:
       GitFetch: ""
   Directory: 9.8/slim-bullseye
   File: ""
-  GitCommit: 9f6ddaa037edbbf26bf162c0285264aa3ffda638
+  GitCommit: c34f97738d08a138ef07878a4a1402b10670f87b
   Tags:
   - 9.8.4-slim-bullseye
   - 9.8-slim-bullseye
@@ -148,7 +148,7 @@ Blocks:
       GitFetch: ""
   Directory: 9.6/bullseye
   File: ""
-  GitCommit: 9f6ddaa037edbbf26bf162c0285264aa3ffda638
+  GitCommit: c34f97738d08a138ef07878a4a1402b10670f87b
   Tags:
   - 9.6.7-bullseye
   - 9.6-bullseye
@@ -169,12 +169,49 @@ Blocks:
       GitFetch: ""
   Directory: 9.6/slim-bullseye
   File: ""
-  GitCommit: 9f6ddaa037edbbf26bf162c0285264aa3ffda638
+  GitCommit: c34f97738d08a138ef07878a4a1402b10670f87b
   Tags:
   - 9.6.7-slim-bullseye
   - 9.6-slim-bullseye
   - 9.6.7-slim
   - 9.6-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 9.10/bullseye
+  File: ""
+  GitCommit: 9f6ddaa037edbbf26bf162c0285264aa3ffda638
+  Tags:
+  - 9.10.1-bullseye
+  - 9.10.1
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 9.10/slim-bullseye
+  File: ""
+  GitCommit: 9f6ddaa037edbbf26bf162c0285264aa3ffda638
+  Tags:
+  - 9.10.1-slim-bullseye
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1595,6 +1632,9 @@ KnownTags:
   9.10.1-buster: {}
   9.10.1-slim-bullseye: {}
   9.10.1-slim-buster: {}
+  9.10.2: {}
+  9.10.2-bullseye: {}
+  9.10.2-slim-bullseye: {}
   "9.12": {}
   9.12-bookworm: {}
   9.12-slim-bookworm: {}
