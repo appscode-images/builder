@@ -528,6 +528,12 @@
     "1.12.0-rc1-windowsservercore": {},
     "1.12.0-rc1-windowsservercore-ltsc2022": {},
     "1.12.0-rc1-windowsservercore-ltsc2025": {},
+    "1.12.0-rc2": {},
+    "1.12.0-rc2-bookworm": {},
+    "1.12.0-rc2-trixie": {},
+    "1.12.0-rc2-windowsservercore": {},
+    "1.12.0-rc2-windowsservercore-ltsc2022": {},
+    "1.12.0-rc2-windowsservercore-ltsc2025": {},
     "1.2": {},
     "1.2-buster": {},
     "1.2-stretch": {},
@@ -1185,10 +1191,10 @@
   "Blocks": [
     {
       "Tags": [
-        "1.12.0-rc1-trixie",
+        "1.12.0-rc2-trixie",
         "1.12-rc-trixie",
         "rc-trixie",
-        "1.12.0-rc1",
+        "1.12.0-rc2",
         "1.12-rc",
         "rc"
       ],
@@ -1215,13 +1221,13 @@
           "File": ""
         }
       },
-      "GitCommit": "25081b47fd632d8a7140a3fede2da1db2d96aee5",
+      "GitCommit": "fb289f3839d56d64fa120b1d733fc684e44c31c9",
       "Directory": "1.12-rc/trixie",
       "File": ""
     },
     {
       "Tags": [
-        "1.12.0-rc1-bookworm",
+        "1.12.0-rc2-bookworm",
         "1.12-rc-bookworm",
         "rc-bookworm"
       ],
@@ -1248,57 +1254,16 @@
           "File": ""
         }
       },
-      "GitCommit": "ae32a8143b0792d4b9859822e8c8b2f8cf29455a",
+      "GitCommit": "fb289f3839d56d64fa120b1d733fc684e44c31c9",
       "Directory": "1.12-rc/bookworm",
       "File": ""
     },
     {
       "Tags": [
-        "1.12.0-rc1-alpine3.22",
-        "1.12-rc-alpine3.22",
-        "rc-alpine3.22",
-        "1.12.0-rc1-alpine",
-        "1.12-rc-alpine",
-        "rc-alpine"
-      ],
-      "Architectures": {
-        "amd64": {
-          "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "ae32a8143b0792d4b9859822e8c8b2f8cf29455a",
-      "Directory": "1.12-rc/alpine3.22",
-      "File": ""
-    },
-    {
-      "Tags": [
-        "1.12.0-rc1-alpine3.21",
-        "1.12-rc-alpine3.21",
-        "rc-alpine3.21"
-      ],
-      "Architectures": {
-        "amd64": {
-          "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "ae32a8143b0792d4b9859822e8c8b2f8cf29455a",
-      "Directory": "1.12-rc/alpine3.21",
-      "File": ""
-    },
-    {
-      "Tags": [
-        "1.12.0-rc1-windowsservercore-ltsc2025",
+        "1.12.0-rc2-windowsservercore-ltsc2025",
         "1.12-rc-windowsservercore-ltsc2025",
         "rc-windowsservercore-ltsc2025",
-        "1.12.0-rc1-windowsservercore",
+        "1.12.0-rc2-windowsservercore",
         "1.12-rc-windowsservercore",
         "rc-windowsservercore"
       ],
@@ -1311,13 +1276,13 @@
           "File": ""
         }
       },
-      "GitCommit": "ae32a8143b0792d4b9859822e8c8b2f8cf29455a",
+      "GitCommit": "fb289f3839d56d64fa120b1d733fc684e44c31c9",
       "Directory": "1.12-rc/windows/windowsservercore-ltsc2025",
       "File": ""
     },
     {
       "Tags": [
-        "1.12.0-rc1-windowsservercore-ltsc2022",
+        "1.12.0-rc2-windowsservercore-ltsc2022",
         "1.12-rc-windowsservercore-ltsc2022",
         "rc-windowsservercore-ltsc2022"
       ],
@@ -1330,7 +1295,7 @@
           "File": ""
         }
       },
-      "GitCommit": "ae32a8143b0792d4b9859822e8c8b2f8cf29455a",
+      "GitCommit": "fb289f3839d56d64fa120b1d733fc684e44c31c9",
       "Directory": "1.12-rc/windows/windowsservercore-ltsc2022",
       "File": ""
     },
@@ -1662,6 +1627,145 @@
       },
       "GitCommit": "36ec8a84fe6a3ac59872725f20e892e472b45227",
       "Directory": "1.10/windows/windowsservercore-ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.12.0-rc1-trixie",
+        "1.12.0-rc1"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "25081b47fd632d8a7140a3fede2da1db2d96aee5",
+      "Directory": "1.12-rc/trixie",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.12.0-rc1-bookworm"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "ae32a8143b0792d4b9859822e8c8b2f8cf29455a",
+      "Directory": "1.12-rc/bookworm",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.12.0-rc1-alpine3.22",
+        "1.12-rc-alpine3.22",
+        "rc-alpine3.22",
+        "1.12.0-rc1-alpine",
+        "1.12-rc-alpine",
+        "rc-alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "ae32a8143b0792d4b9859822e8c8b2f8cf29455a",
+      "Directory": "1.12-rc/alpine3.22",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.12.0-rc1-alpine3.21",
+        "1.12-rc-alpine3.21",
+        "rc-alpine3.21"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "ae32a8143b0792d4b9859822e8c8b2f8cf29455a",
+      "Directory": "1.12-rc/alpine3.21",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.12.0-rc1-windowsservercore-ltsc2025",
+        "1.12.0-rc1-windowsservercore"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "ae32a8143b0792d4b9859822e8c8b2f8cf29455a",
+      "Directory": "1.12-rc/windows/windowsservercore-ltsc2025",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.12.0-rc1-windowsservercore-ltsc2022"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "ae32a8143b0792d4b9859822e8c8b2f8cf29455a",
+      "Directory": "1.12-rc/windows/windowsservercore-ltsc2022",
       "File": ""
     },
     {

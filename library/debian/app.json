@@ -68,6 +68,8 @@
     "12.10-slim": {},
     "12.11": {},
     "12.11-slim": {},
+    "12.12": {},
+    "12.12-slim": {},
     "12.2": {},
     "12.2-slim": {},
     "12.4": {},
@@ -86,6 +88,8 @@
     "13-slim": {},
     "13.0": {},
     "13.0-slim": {},
+    "13.1": {},
+    "13.1-slim": {},
     "7": {},
     "7-slim": {},
     "7.10": {},
@@ -269,6 +273,8 @@
     "bookworm-20250721-slim": {},
     "bookworm-20250811": {},
     "bookworm-20250811-slim": {},
+    "bookworm-20250908": {},
+    "bookworm-20250908-slim": {},
     "bookworm-backports": {},
     "bookworm-slim": {},
     "bullseye": {},
@@ -470,6 +476,8 @@
     "bullseye-20250721-slim": {},
     "bullseye-20250811": {},
     "bullseye-20250811-slim": {},
+    "bullseye-20250908": {},
+    "bullseye-20250908-slim": {},
     "bullseye-backports": {},
     "bullseye-slim": {},
     "buster": {},
@@ -784,9 +792,12 @@
     "experimental-20250630": {},
     "experimental-20250721": {},
     "experimental-20250811": {},
+    "experimental-20250908": {},
     "forky": {},
     "forky-20250811": {},
     "forky-20250811-slim": {},
+    "forky-20250908": {},
+    "forky-20250908-slim": {},
     "forky-backports": {},
     "forky-slim": {},
     "jessie": {},
@@ -1011,6 +1022,8 @@
     "oldoldstable-20240612-slim": {},
     "oldoldstable-20250811": {},
     "oldoldstable-20250811-slim": {},
+    "oldoldstable-20250908": {},
+    "oldoldstable-20250908-slim": {},
     "oldoldstable-backports": {},
     "oldoldstable-slim": {},
     "oldstable": {},
@@ -1242,6 +1255,8 @@
     "oldstable-20250721-slim": {},
     "oldstable-20250811": {},
     "oldstable-20250811-slim": {},
+    "oldstable-20250908": {},
+    "oldstable-20250908-slim": {},
     "oldstable-backports": {},
     "oldstable-slim": {},
     "rc-buggy": {},
@@ -1366,6 +1381,7 @@
     "rc-buggy-20250630": {},
     "rc-buggy-20250721": {},
     "rc-buggy-20250811": {},
+    "rc-buggy-20250908": {},
     "sid": {},
     "sid-20170606": {},
     "sid-20170620": {},
@@ -1597,6 +1613,8 @@
     "sid-20250721-slim": {},
     "sid-20250811": {},
     "sid-20250811-slim": {},
+    "sid-20250908": {},
+    "sid-20250908-slim": {},
     "sid-slim": {},
     "stable": {},
     "stable-20170606": {},
@@ -1827,6 +1845,8 @@
     "stable-20250721-slim": {},
     "stable-20250811": {},
     "stable-20250811-slim": {},
+    "stable-20250908": {},
+    "stable-20250908-slim": {},
     "stable-backports": {},
     "stable-slim": {},
     "stretch": {},
@@ -2181,6 +2201,8 @@
     "testing-20250721-slim": {},
     "testing-20250811": {},
     "testing-20250811-slim": {},
+    "testing-20250908": {},
+    "testing-20250908-slim": {},
     "testing-backports": {},
     "testing-slim": {},
     "trixie": {},
@@ -2262,6 +2284,8 @@
     "trixie-20250721-slim": {},
     "trixie-20250811": {},
     "trixie-20250811-slim": {},
+    "trixie-20250908": {},
+    "trixie-20250908-slim": {},
     "trixie-backports": {},
     "trixie-slim": {},
     "unstable": {},
@@ -2495,6 +2519,8 @@
     "unstable-20250721-slim": {},
     "unstable-20250811": {},
     "unstable-20250811-slim": {},
+    "unstable-20250908": {},
+    "unstable-20250908-slim": {},
     "unstable-slim": {},
     "wheezy": {},
     "wheezy-20170606": {},
@@ -2528,8 +2554,8 @@
     {
       "Tags": [
         "bookworm",
-        "bookworm-20250811",
-        "12.11",
+        "bookworm-20250908",
+        "12.12",
         "12"
       ],
       "Architectures": {
@@ -2663,8 +2689,8 @@
     {
       "Tags": [
         "bookworm-slim",
-        "bookworm-20250811-slim",
-        "12.11-slim",
+        "bookworm-20250908-slim",
+        "12.12-slim",
         "12-slim"
       ],
       "Architectures": {
@@ -2732,7 +2758,7 @@
     {
       "Tags": [
         "bullseye",
-        "bullseye-20250811",
+        "bullseye-20250908",
         "11.11",
         "11"
       ],
@@ -2773,7 +2799,7 @@
     {
       "Tags": [
         "bullseye-slim",
-        "bullseye-20250811-slim",
+        "bullseye-20250908-slim",
         "11.11-slim",
         "11-slim"
       ],
@@ -2814,7 +2840,7 @@
     {
       "Tags": [
         "experimental",
-        "experimental-20250811"
+        "experimental-20250908"
       ],
       "Architectures": {
         "amd64": {
@@ -2888,18 +2914,11 @@
     {
       "Tags": [
         "forky",
-        "forky-20250811"
+        "forky-20250908"
       ],
       "Architectures": {
         "amd64": {
           "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm32v5": {
-          "Architecture": "arm32v5",
           "Directory": "",
           "GitFetch": "",
           "GitCommit": "",
@@ -2964,13 +2983,6 @@
           "GitCommit": "",
           "File": ""
         },
-        "arm32v5": {
-          "Architecture": "arm32v5",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
         "arm32v7": {
           "Architecture": "arm32v7",
           "Directory": "",
@@ -3021,18 +3033,11 @@
     {
       "Tags": [
         "forky-slim",
-        "forky-20250811-slim"
+        "forky-20250908-slim"
       ],
       "Architectures": {
         "amd64": {
           "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm32v5": {
-          "Architecture": "arm32v5",
           "Directory": "",
           "GitFetch": "",
           "GitCommit": "",
@@ -3088,7 +3093,7 @@
     {
       "Tags": [
         "oldoldstable",
-        "oldoldstable-20250811"
+        "oldoldstable-20250908"
       ],
       "Architectures": {
         "amd64": {
@@ -3127,7 +3132,7 @@
     {
       "Tags": [
         "oldoldstable-slim",
-        "oldoldstable-20250811-slim"
+        "oldoldstable-20250908-slim"
       ],
       "Architectures": {
         "amd64": {
@@ -3166,7 +3171,7 @@
     {
       "Tags": [
         "oldstable",
-        "oldstable-20250811"
+        "oldstable-20250908"
       ],
       "Architectures": {
         "amd64": {
@@ -3299,7 +3304,7 @@
     {
       "Tags": [
         "oldstable-slim",
-        "oldstable-20250811-slim"
+        "oldstable-20250908-slim"
       ],
       "Architectures": {
         "amd64": {
@@ -3366,7 +3371,7 @@
     {
       "Tags": [
         "rc-buggy",
-        "rc-buggy-20250811"
+        "rc-buggy-20250908"
       ],
       "Architectures": {
         "amd64": {
@@ -3440,7 +3445,7 @@
     {
       "Tags": [
         "sid",
-        "sid-20250811"
+        "sid-20250908"
       ],
       "Architectures": {
         "amd64": {
@@ -3514,7 +3519,7 @@
     {
       "Tags": [
         "sid-slim",
-        "sid-20250811-slim"
+        "sid-20250908-slim"
       ],
       "Architectures": {
         "amd64": {
@@ -3588,7 +3593,7 @@
     {
       "Tags": [
         "stable",
-        "stable-20250811"
+        "stable-20250908"
       ],
       "Architectures": {
         "amd64": {
@@ -3721,7 +3726,7 @@
     {
       "Tags": [
         "stable-slim",
-        "stable-20250811-slim"
+        "stable-20250908-slim"
       ],
       "Architectures": {
         "amd64": {
@@ -3788,18 +3793,11 @@
     {
       "Tags": [
         "testing",
-        "testing-20250811"
+        "testing-20250908"
       ],
       "Architectures": {
         "amd64": {
           "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm32v5": {
-          "Architecture": "arm32v5",
           "Directory": "",
           "GitFetch": "",
           "GitCommit": "",
@@ -3864,13 +3862,6 @@
           "GitCommit": "",
           "File": ""
         },
-        "arm32v5": {
-          "Architecture": "arm32v5",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
         "arm32v7": {
           "Architecture": "arm32v7",
           "Directory": "",
@@ -3921,18 +3912,11 @@
     {
       "Tags": [
         "testing-slim",
-        "testing-20250811-slim"
+        "testing-20250908-slim"
       ],
       "Architectures": {
         "amd64": {
           "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm32v5": {
-          "Architecture": "arm32v5",
           "Directory": "",
           "GitFetch": "",
           "GitCommit": "",
@@ -3988,8 +3972,8 @@
     {
       "Tags": [
         "trixie",
-        "trixie-20250811",
-        "13.0",
+        "trixie-20250908",
+        "13.1",
         "13",
         "latest"
       ],
@@ -4124,8 +4108,8 @@
     {
       "Tags": [
         "trixie-slim",
-        "trixie-20250811-slim",
-        "13.0-slim",
+        "trixie-20250908-slim",
+        "13.1-slim",
         "13-slim"
       ],
       "Architectures": {
@@ -4193,7 +4177,7 @@
     {
       "Tags": [
         "unstable",
-        "unstable-20250811"
+        "unstable-20250908"
       ],
       "Architectures": {
         "amd64": {
@@ -4267,6 +4251,1392 @@
     {
       "Tags": [
         "unstable-slim",
+        "unstable-20250908-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "mips64le": {
+          "Architecture": "mips64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7935fc7dd049cb343df42037c152f570069d274f",
+      "Directory": "unstable/slim/oci",
+      "File": "index.json"
+    },
+    {
+      "Tags": [
+        "bookworm-20250811",
+        "12.11"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "mips64le": {
+          "Architecture": "mips64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7935fc7dd049cb343df42037c152f570069d274f",
+      "Directory": "bookworm/oci",
+      "File": "index.json"
+    },
+    {
+      "Tags": [
+        "bookworm-20250811-slim",
+        "12.11-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "mips64le": {
+          "Architecture": "mips64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7935fc7dd049cb343df42037c152f570069d274f",
+      "Directory": "bookworm/slim/oci",
+      "File": "index.json"
+    },
+    {
+      "Tags": [
+        "bullseye-20250811"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7935fc7dd049cb343df42037c152f570069d274f",
+      "Directory": "bullseye/oci",
+      "File": "index.json"
+    },
+    {
+      "Tags": [
+        "bullseye-20250811-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7935fc7dd049cb343df42037c152f570069d274f",
+      "Directory": "bullseye/slim/oci",
+      "File": "index.json"
+    },
+    {
+      "Tags": [
+        "experimental-20250811"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "mips64le": {
+          "Architecture": "mips64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7935fc7dd049cb343df42037c152f570069d274f",
+      "Directory": "experimental",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "forky-20250811"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7935fc7dd049cb343df42037c152f570069d274f",
+      "Directory": "forky/oci",
+      "File": "index.json"
+    },
+    {
+      "Tags": [
+        "forky-20250811-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7935fc7dd049cb343df42037c152f570069d274f",
+      "Directory": "forky/slim/oci",
+      "File": "index.json"
+    },
+    {
+      "Tags": [
+        "oldoldstable-20250811"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7935fc7dd049cb343df42037c152f570069d274f",
+      "Directory": "oldoldstable/oci",
+      "File": "index.json"
+    },
+    {
+      "Tags": [
+        "oldoldstable-20250811-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7935fc7dd049cb343df42037c152f570069d274f",
+      "Directory": "oldoldstable/slim/oci",
+      "File": "index.json"
+    },
+    {
+      "Tags": [
+        "oldstable-20250811"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "mips64le": {
+          "Architecture": "mips64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7935fc7dd049cb343df42037c152f570069d274f",
+      "Directory": "oldstable/oci",
+      "File": "index.json"
+    },
+    {
+      "Tags": [
+        "oldstable-20250811-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "mips64le": {
+          "Architecture": "mips64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7935fc7dd049cb343df42037c152f570069d274f",
+      "Directory": "oldstable/slim/oci",
+      "File": "index.json"
+    },
+    {
+      "Tags": [
+        "rc-buggy-20250811"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "mips64le": {
+          "Architecture": "mips64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7935fc7dd049cb343df42037c152f570069d274f",
+      "Directory": "rc-buggy",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "sid-20250811"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "mips64le": {
+          "Architecture": "mips64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7935fc7dd049cb343df42037c152f570069d274f",
+      "Directory": "sid/oci",
+      "File": "index.json"
+    },
+    {
+      "Tags": [
+        "sid-20250811-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "mips64le": {
+          "Architecture": "mips64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7935fc7dd049cb343df42037c152f570069d274f",
+      "Directory": "sid/slim/oci",
+      "File": "index.json"
+    },
+    {
+      "Tags": [
+        "stable-20250811"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7935fc7dd049cb343df42037c152f570069d274f",
+      "Directory": "stable/oci",
+      "File": "index.json"
+    },
+    {
+      "Tags": [
+        "stable-20250811-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7935fc7dd049cb343df42037c152f570069d274f",
+      "Directory": "stable/slim/oci",
+      "File": "index.json"
+    },
+    {
+      "Tags": [
+        "testing-20250811"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7935fc7dd049cb343df42037c152f570069d274f",
+      "Directory": "testing/oci",
+      "File": "index.json"
+    },
+    {
+      "Tags": [
+        "testing-20250811-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7935fc7dd049cb343df42037c152f570069d274f",
+      "Directory": "testing/slim/oci",
+      "File": "index.json"
+    },
+    {
+      "Tags": [
+        "trixie-20250811",
+        "13.0"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7935fc7dd049cb343df42037c152f570069d274f",
+      "Directory": "trixie/oci",
+      "File": "index.json"
+    },
+    {
+      "Tags": [
+        "trixie-20250811-slim",
+        "13.0-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7935fc7dd049cb343df42037c152f570069d274f",
+      "Directory": "trixie/slim/oci",
+      "File": "index.json"
+    },
+    {
+      "Tags": [
+        "unstable-20250811"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "mips64le": {
+          "Architecture": "mips64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7935fc7dd049cb343df42037c152f570069d274f",
+      "Directory": "unstable/oci",
+      "File": "index.json"
+    },
+    {
+      "Tags": [
         "unstable-20250811-slim"
       ],
       "Architectures": {

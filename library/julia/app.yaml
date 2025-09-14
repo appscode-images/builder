@@ -20,12 +20,12 @@ Blocks:
       GitFetch: ""
   Directory: 1.12-rc/trixie
   File: ""
-  GitCommit: 25081b47fd632d8a7140a3fede2da1db2d96aee5
+  GitCommit: fb289f3839d56d64fa120b1d733fc684e44c31c9
   Tags:
-  - 1.12.0-rc1-trixie
+  - 1.12.0-rc2-trixie
   - 1.12-rc-trixie
   - rc-trixie
-  - 1.12.0-rc1
+  - 1.12.0-rc2
   - 1.12-rc
   - rc
 - Architectures:
@@ -49,42 +49,11 @@ Blocks:
       GitFetch: ""
   Directory: 1.12-rc/bookworm
   File: ""
-  GitCommit: ae32a8143b0792d4b9859822e8c8b2f8cf29455a
+  GitCommit: fb289f3839d56d64fa120b1d733fc684e44c31c9
   Tags:
-  - 1.12.0-rc1-bookworm
+  - 1.12.0-rc2-bookworm
   - 1.12-rc-bookworm
   - rc-bookworm
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: 1.12-rc/alpine3.22
-  File: ""
-  GitCommit: ae32a8143b0792d4b9859822e8c8b2f8cf29455a
-  Tags:
-  - 1.12.0-rc1-alpine3.22
-  - 1.12-rc-alpine3.22
-  - rc-alpine3.22
-  - 1.12.0-rc1-alpine
-  - 1.12-rc-alpine
-  - rc-alpine
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: 1.12-rc/alpine3.21
-  File: ""
-  GitCommit: ae32a8143b0792d4b9859822e8c8b2f8cf29455a
-  Tags:
-  - 1.12.0-rc1-alpine3.21
-  - 1.12-rc-alpine3.21
-  - rc-alpine3.21
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -94,12 +63,12 @@ Blocks:
       GitFetch: ""
   Directory: 1.12-rc/windows/windowsservercore-ltsc2025
   File: ""
-  GitCommit: ae32a8143b0792d4b9859822e8c8b2f8cf29455a
+  GitCommit: fb289f3839d56d64fa120b1d733fc684e44c31c9
   Tags:
-  - 1.12.0-rc1-windowsservercore-ltsc2025
+  - 1.12.0-rc2-windowsservercore-ltsc2025
   - 1.12-rc-windowsservercore-ltsc2025
   - rc-windowsservercore-ltsc2025
-  - 1.12.0-rc1-windowsservercore
+  - 1.12.0-rc2-windowsservercore
   - 1.12-rc-windowsservercore
   - rc-windowsservercore
 - Architectures:
@@ -111,9 +80,9 @@ Blocks:
       GitFetch: ""
   Directory: 1.12-rc/windows/windowsservercore-ltsc2022
   File: ""
-  GitCommit: ae32a8143b0792d4b9859822e8c8b2f8cf29455a
+  GitCommit: fb289f3839d56d64fa120b1d733fc684e44c31c9
   Tags:
-  - 1.12.0-rc1-windowsservercore-ltsc2022
+  - 1.12.0-rc2-windowsservercore-ltsc2022
   - 1.12-rc-windowsservercore-ltsc2022
   - rc-windowsservercore-ltsc2022
 - Architectures:
@@ -374,6 +343,111 @@ Blocks:
   Tags:
   - 1.10.10-windowsservercore-ltsc2022
   - 1.10-windowsservercore-ltsc2022
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.12-rc/trixie
+  File: ""
+  GitCommit: 25081b47fd632d8a7140a3fede2da1db2d96aee5
+  Tags:
+  - 1.12.0-rc1-trixie
+  - 1.12.0-rc1
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.12-rc/bookworm
+  File: ""
+  GitCommit: ae32a8143b0792d4b9859822e8c8b2f8cf29455a
+  Tags:
+  - 1.12.0-rc1-bookworm
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.12-rc/alpine3.22
+  File: ""
+  GitCommit: ae32a8143b0792d4b9859822e8c8b2f8cf29455a
+  Tags:
+  - 1.12.0-rc1-alpine3.22
+  - 1.12-rc-alpine3.22
+  - rc-alpine3.22
+  - 1.12.0-rc1-alpine
+  - 1.12-rc-alpine
+  - rc-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.12-rc/alpine3.21
+  File: ""
+  GitCommit: ae32a8143b0792d4b9859822e8c8b2f8cf29455a
+  Tags:
+  - 1.12.0-rc1-alpine3.21
+  - 1.12-rc-alpine3.21
+  - rc-alpine3.21
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.12-rc/windows/windowsservercore-ltsc2025
+  File: ""
+  GitCommit: ae32a8143b0792d4b9859822e8c8b2f8cf29455a
+  Tags:
+  - 1.12.0-rc1-windowsservercore-ltsc2025
+  - 1.12.0-rc1-windowsservercore
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1.12-rc/windows/windowsservercore-ltsc2022
+  File: ""
+  GitCommit: ae32a8143b0792d4b9859822e8c8b2f8cf29455a
+  Tags:
+  - 1.12.0-rc1-windowsservercore-ltsc2022
 - Architectures:
     amd64:
       Architecture: amd64
@@ -12410,6 +12484,12 @@ KnownTags:
   1.12.0-rc1-windowsservercore: {}
   1.12.0-rc1-windowsservercore-ltsc2022: {}
   1.12.0-rc1-windowsservercore-ltsc2025: {}
+  1.12.0-rc2: {}
+  1.12.0-rc2-bookworm: {}
+  1.12.0-rc2-trixie: {}
+  1.12.0-rc2-windowsservercore: {}
+  1.12.0-rc2-windowsservercore-ltsc2022: {}
+  1.12.0-rc2-windowsservercore-ltsc2025: {}
   alpine: {}
   alpine3.12: {}
   alpine3.13: {}
