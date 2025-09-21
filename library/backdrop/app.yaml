@@ -14,16 +14,58 @@ Blocks:
       GitFetch: ""
   Directory: 1/apache
   File: ""
+  GitCommit: c7b2ec4e51f6cd53fce2d04198130959b67cd0ec
+  Tags:
+  - 1.32.0
+  - "1.32"
+  - "1"
+  - 1.32.0-apache
+  - 1.32-apache
+  - 1-apache
+  - apache
+  - latest
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1/fpm
+  File: ""
+  GitCommit: c7b2ec4e51f6cd53fce2d04198130959b67cd0ec
+  Tags:
+  - 1.32.0-fpm
+  - 1.32-fpm
+  - 1-fpm
+  - fpm
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1/apache
+  File: ""
   GitCommit: 82f5f08f12c2e861cde61b7b4dac8ebd76f3ee1f
   Tags:
   - 1.31.0
   - "1.31"
-  - "1"
   - 1.31.0-apache
   - 1.31-apache
-  - 1-apache
-  - apache
-  - latest
 - Architectures:
     amd64:
       Architecture: amd64
@@ -43,8 +85,6 @@ Blocks:
   Tags:
   - 1.31.0-fpm
   - 1.31-fpm
-  - 1-fpm
-  - fpm
 - Architectures:
     amd64:
       Architecture: amd64
@@ -735,6 +775,12 @@ KnownTags:
   1.31.0: {}
   1.31.0-apache: {}
   1.31.0-fpm: {}
+  "1.32": {}
+  1.32-apache: {}
+  1.32-fpm: {}
+  1.32.0: {}
+  1.32.0-apache: {}
+  1.32.0-fpm: {}
   apache: {}
   fpm: {}
   latest: {}
