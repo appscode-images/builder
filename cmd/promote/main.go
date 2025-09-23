@@ -9,6 +9,7 @@ import (
 	"github.com/appscode-images/builder/api"
 	"github.com/appscode-images/builder/lib"
 	"github.com/pkg/errors"
+	"k8s.io/klog/v2"
 )
 
 func main() {
@@ -42,6 +43,7 @@ func PromoteTags(dir string) error {
 			}
 			return err
 		}
+		klog.Infof("Promote tags for %s: %s", entry.Name(), strings.Join(tags, ","))
 		if len(tags) == 0 {
 			continue
 		}
