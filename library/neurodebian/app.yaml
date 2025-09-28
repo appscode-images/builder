@@ -14,7 +14,7 @@ Blocks:
       GitFetch: ""
   Directory: dockerfiles/jammy
   File: ""
-  GitCommit: 89ca52860d80889fd878392a29150e46d9d91a71
+  GitCommit: 763e5953e63f2e0f46d2304dfd6c2f051ca378ca
   Tags:
   - jammy
   - nd22.04
@@ -33,10 +33,86 @@ Blocks:
       GitFetch: ""
   Directory: dockerfiles/jammy-non-free
   File: ""
-  GitCommit: 89ca52860d80889fd878392a29150e46d9d91a71
+  GitCommit: 763e5953e63f2e0f46d2304dfd6c2f051ca378ca
   Tags:
   - jammy-non-free
   - nd22.04-non-free
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/noble
+  File: ""
+  GitCommit: 763e5953e63f2e0f46d2304dfd6c2f051ca378ca
+  Tags:
+  - noble
+  - nd24.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/noble-non-free
+  File: ""
+  GitCommit: 763e5953e63f2e0f46d2304dfd6c2f051ca378ca
+  Tags:
+  - noble-non-free
+  - nd24.04-non-free
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/plucky
+  File: ""
+  GitCommit: 763e5953e63f2e0f46d2304dfd6c2f051ca378ca
+  Tags:
+  - plucky
+  - nd25.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/plucky-non-free
+  File: ""
+  GitCommit: 763e5953e63f2e0f46d2304dfd6c2f051ca378ca
+  Tags:
+  - plucky-non-free
+  - nd25.04-non-free
 - Architectures:
     amd64:
       Architecture: amd64
@@ -58,7 +134,7 @@ Blocks:
       GitFetch: ""
   Directory: dockerfiles/bullseye
   File: ""
-  GitCommit: 89ca52860d80889fd878392a29150e46d9d91a71
+  GitCommit: 763e5953e63f2e0f46d2304dfd6c2f051ca378ca
   Tags:
   - bullseye
   - nd110
@@ -83,7 +159,7 @@ Blocks:
       GitFetch: ""
   Directory: dockerfiles/bullseye-non-free
   File: ""
-  GitCommit: 89ca52860d80889fd878392a29150e46d9d91a71
+  GitCommit: 763e5953e63f2e0f46d2304dfd6c2f051ca378ca
   Tags:
   - bullseye-non-free
   - nd110-non-free
@@ -108,11 +184,10 @@ Blocks:
       GitFetch: ""
   Directory: dockerfiles/bookworm
   File: ""
-  GitCommit: 89ca52860d80889fd878392a29150e46d9d91a71
+  GitCommit: 763e5953e63f2e0f46d2304dfd6c2f051ca378ca
   Tags:
   - bookworm
   - nd120
-  - latest
 - Architectures:
     amd64:
       Architecture: amd64
@@ -134,11 +209,162 @@ Blocks:
       GitFetch: ""
   Directory: dockerfiles/bookworm-non-free
   File: ""
-  GitCommit: 89ca52860d80889fd878392a29150e46d9d91a71
+  GitCommit: 763e5953e63f2e0f46d2304dfd6c2f051ca378ca
   Tags:
   - bookworm-non-free
   - nd120-non-free
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/trixie
+  File: ""
+  GitCommit: 763e5953e63f2e0f46d2304dfd6c2f051ca378ca
+  Tags:
+  - trixie
+  - nd130
+  - latest
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/trixie-non-free
+  File: ""
+  GitCommit: 763e5953e63f2e0f46d2304dfd6c2f051ca378ca
+  Tags:
+  - trixie-non-free
+  - nd130-non-free
   - non-free
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/forky
+  File: ""
+  GitCommit: 763e5953e63f2e0f46d2304dfd6c2f051ca378ca
+  Tags:
+  - forky
+  - nd140
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/forky-non-free
+  File: ""
+  GitCommit: 763e5953e63f2e0f46d2304dfd6c2f051ca378ca
+  Tags:
+  - forky-non-free
+  - nd140-non-free
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/sid
+  File: ""
+  GitCommit: 763e5953e63f2e0f46d2304dfd6c2f051ca378ca
+  Tags:
+  - sid
+  - nd
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/sid-non-free
+  File: ""
+  GitCommit: 763e5953e63f2e0f46d2304dfd6c2f051ca378ca
+  Tags:
+  - sid-non-free
+  - nd-non-free
 - Architectures:
     amd64:
       Architecture: amd64
@@ -177,144 +403,6 @@ Blocks:
   Tags:
   - focal-non-free
   - nd20.04-non-free
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: dockerfiles/noble
-  File: ""
-  GitCommit: 89ca52860d80889fd878392a29150e46d9d91a71
-  Tags:
-  - noble
-  - nd24.04
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: dockerfiles/noble-non-free
-  File: ""
-  GitCommit: 89ca52860d80889fd878392a29150e46d9d91a71
-  Tags:
-  - noble-non-free
-  - nd24.04-non-free
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    i386:
-      Architecture: i386
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: dockerfiles/trixie
-  File: ""
-  GitCommit: a0af1d460705d7efc9d6de9483f1ce4aa48ad152
-  Tags:
-  - trixie
-  - nd130
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    i386:
-      Architecture: i386
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: dockerfiles/trixie-non-free
-  File: ""
-  GitCommit: a0af1d460705d7efc9d6de9483f1ce4aa48ad152
-  Tags:
-  - trixie-non-free
-  - nd130-non-free
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    i386:
-      Architecture: i386
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: dockerfiles/sid
-  File: ""
-  GitCommit: a0af1d460705d7efc9d6de9483f1ce4aa48ad152
-  Tags:
-  - sid
-  - nd
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    i386:
-      Architecture: i386
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: dockerfiles/sid-non-free
-  File: ""
-  GitCommit: a0af1d460705d7efc9d6de9483f1ce4aa48ad152
-  Tags:
-  - sid-non-free
-  - nd-non-free
 - Architectures:
     amd64:
       Architecture: amd64
@@ -637,6 +725,8 @@ KnownTags:
   disco-non-free: {}
   focal: {}
   focal-non-free: {}
+  forky: {}
+  forky-non-free: {}
   groovy: {}
   groovy-non-free: {}
   hirsute: {}
@@ -676,6 +766,8 @@ KnownTags:
   nd22.04-non-free: {}
   nd24.04: {}
   nd24.04-non-free: {}
+  nd25.04: {}
+  nd25.04-non-free: {}
   nd70: {}
   nd70-non-free: {}
   nd80: {}
@@ -690,9 +782,13 @@ KnownTags:
   nd120-non-free: {}
   nd130: {}
   nd130-non-free: {}
+  nd140: {}
+  nd140-non-free: {}
   noble: {}
   noble-non-free: {}
   non-free: {}
+  plucky: {}
+  plucky-non-free: {}
   sid: {}
   sid-non-free: {}
   stretch: {}

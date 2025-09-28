@@ -32,9 +32,9 @@ Blocks:
       GitFetch: ""
   Directory: 6/debian
   File: ""
-  GitCommit: f2d920fb0f79d8ea79950da700178d3070812923
+  GitCommit: fdba3d80f50da610007165f5fe46f9b8af69764b
   Tags:
-  - 6.0.9
+  - 6.0.10
   - "6.0"
   - "6"
   - latest
@@ -65,9 +65,9 @@ Blocks:
       GitFetch: ""
   Directory: 6/alpine
   File: ""
-  GitCommit: f2d920fb0f79d8ea79950da700178d3070812923
+  GitCommit: fdba3d80f50da610007165f5fe46f9b8af69764b
   Tags:
-  - 6.0.9-alpine
+  - 6.0.10-alpine
   - 6.0-alpine
   - 6-alpine
   - alpine
@@ -104,7 +104,7 @@ Blocks:
       GitFetch: ""
   Directory: 5/debian
   File: ""
-  GitCommit: 80812d80f7ac88de34e1ddfe8c9601a572a63638
+  GitCommit: fdba3d80f50da610007165f5fe46f9b8af69764b
   Tags:
   - 5.130.5
   - "5.130"
@@ -136,11 +136,77 @@ Blocks:
       GitFetch: ""
   Directory: 5/alpine
   File: ""
-  GitCommit: 80812d80f7ac88de34e1ddfe8c9601a572a63638
+  GitCommit: fdba3d80f50da610007165f5fe46f9b8af69764b
   Tags:
   - 5.130.5-alpine
   - 5.130-alpine
   - 5-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 6/debian
+  File: ""
+  GitCommit: f2d920fb0f79d8ea79950da700178d3070812923
+  Tags:
+  - 6.0.9
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 6/alpine
+  File: ""
+  GitCommit: f2d920fb0f79d8ea79950da700178d3070812923
+  Tags:
+  - 6.0.9-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -44179,6 +44245,8 @@ KnownTags:
   6.0.7-alpine: {}
   6.0.9: {}
   6.0.9-alpine: {}
+  6.0.10: {}
+  6.0.10-alpine: {}
   alpine: {}
   latest: {}
 Name: ghost

@@ -46,6 +46,8 @@
     "2025.02": {},
     "2025.02-alpine": {},
     "2025.04": {},
+    "2025.08.1": {},
+    "2025.08.1-alpine": {},
     "alpine": {},
     "bookworm": {},
     "latest": {}
@@ -54,8 +56,57 @@
     {
       "Tags": [
         "latest",
-        "2025.04",
+        "2025.08.1",
         "bookworm"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "8c213b2fb89d60eb631068eecba27dab9a0989bc",
+      "Directory": "2025.08.1/bookworm",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "alpine",
+        "2025.08.1-alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "8c213b2fb89d60eb631068eecba27dab9a0989bc",
+      "Directory": "2025.08.1/alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2025.04"
       ],
       "Architectures": {
         "amd64": {
@@ -79,7 +130,6 @@
     },
     {
       "Tags": [
-        "alpine",
         "2025.02-alpine"
       ],
       "Architectures": {

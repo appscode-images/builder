@@ -18,6 +18,8 @@
     "disco-non-free": {},
     "focal": {},
     "focal-non-free": {},
+    "forky": {},
+    "forky-non-free": {},
     "groovy": {},
     "groovy-non-free": {},
     "hirsute": {},
@@ -41,6 +43,8 @@
     "nd130-non-free": {},
     "nd14.04": {},
     "nd14.04-non-free": {},
+    "nd140": {},
+    "nd140-non-free": {},
     "nd16.04": {},
     "nd16.04-non-free": {},
     "nd17.04": {},
@@ -65,6 +69,8 @@
     "nd22.04-non-free": {},
     "nd24.04": {},
     "nd24.04-non-free": {},
+    "nd25.04": {},
+    "nd25.04-non-free": {},
     "nd70": {},
     "nd70-non-free": {},
     "nd80": {},
@@ -74,6 +80,8 @@
     "noble": {},
     "noble-non-free": {},
     "non-free": {},
+    "plucky": {},
+    "plucky-non-free": {},
     "sid": {},
     "sid-non-free": {},
     "stretch": {},
@@ -111,7 +119,7 @@
           "File": ""
         }
       },
-      "GitCommit": "89ca52860d80889fd878392a29150e46d9d91a71",
+      "GitCommit": "763e5953e63f2e0f46d2304dfd6c2f051ca378ca",
       "Directory": "dockerfiles/jammy",
       "File": ""
     },
@@ -136,8 +144,108 @@
           "File": ""
         }
       },
-      "GitCommit": "89ca52860d80889fd878392a29150e46d9d91a71",
+      "GitCommit": "763e5953e63f2e0f46d2304dfd6c2f051ca378ca",
       "Directory": "dockerfiles/jammy-non-free",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "noble",
+        "nd24.04"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "763e5953e63f2e0f46d2304dfd6c2f051ca378ca",
+      "Directory": "dockerfiles/noble",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "noble-non-free",
+        "nd24.04-non-free"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "763e5953e63f2e0f46d2304dfd6c2f051ca378ca",
+      "Directory": "dockerfiles/noble-non-free",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "plucky",
+        "nd25.04"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "763e5953e63f2e0f46d2304dfd6c2f051ca378ca",
+      "Directory": "dockerfiles/plucky",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "plucky-non-free",
+        "nd25.04-non-free"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "763e5953e63f2e0f46d2304dfd6c2f051ca378ca",
+      "Directory": "dockerfiles/plucky-non-free",
       "File": ""
     },
     {
@@ -168,7 +276,7 @@
           "File": ""
         }
       },
-      "GitCommit": "89ca52860d80889fd878392a29150e46d9d91a71",
+      "GitCommit": "763e5953e63f2e0f46d2304dfd6c2f051ca378ca",
       "Directory": "dockerfiles/bullseye",
       "File": ""
     },
@@ -200,14 +308,78 @@
           "File": ""
         }
       },
-      "GitCommit": "89ca52860d80889fd878392a29150e46d9d91a71",
+      "GitCommit": "763e5953e63f2e0f46d2304dfd6c2f051ca378ca",
       "Directory": "dockerfiles/bullseye-non-free",
       "File": ""
     },
     {
       "Tags": [
         "bookworm",
-        "nd120",
+        "nd120"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "763e5953e63f2e0f46d2304dfd6c2f051ca378ca",
+      "Directory": "dockerfiles/bookworm",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "bookworm-non-free",
+        "nd120-non-free"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "763e5953e63f2e0f46d2304dfd6c2f051ca378ca",
+      "Directory": "dockerfiles/bookworm-non-free",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "trixie",
+        "nd130",
         "latest"
       ],
       "Architectures": {
@@ -233,14 +405,14 @@
           "File": ""
         }
       },
-      "GitCommit": "89ca52860d80889fd878392a29150e46d9d91a71",
-      "Directory": "dockerfiles/bookworm",
+      "GitCommit": "763e5953e63f2e0f46d2304dfd6c2f051ca378ca",
+      "Directory": "dockerfiles/trixie",
       "File": ""
     },
     {
       "Tags": [
-        "bookworm-non-free",
-        "nd120-non-free",
+        "trixie-non-free",
+        "nd130-non-free",
         "non-free"
       ],
       "Architectures": {
@@ -266,8 +438,136 @@
           "File": ""
         }
       },
-      "GitCommit": "89ca52860d80889fd878392a29150e46d9d91a71",
-      "Directory": "dockerfiles/bookworm-non-free",
+      "GitCommit": "763e5953e63f2e0f46d2304dfd6c2f051ca378ca",
+      "Directory": "dockerfiles/trixie-non-free",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "forky",
+        "nd140"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "763e5953e63f2e0f46d2304dfd6c2f051ca378ca",
+      "Directory": "dockerfiles/forky",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "forky-non-free",
+        "nd140-non-free"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "763e5953e63f2e0f46d2304dfd6c2f051ca378ca",
+      "Directory": "dockerfiles/forky-non-free",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "sid",
+        "nd"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "763e5953e63f2e0f46d2304dfd6c2f051ca378ca",
+      "Directory": "dockerfiles/sid",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "sid-non-free",
+        "nd-non-free"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "763e5953e63f2e0f46d2304dfd6c2f051ca378ca",
+      "Directory": "dockerfiles/sid-non-free",
       "File": ""
     },
     {
@@ -318,184 +618,6 @@
       },
       "GitCommit": "89ca52860d80889fd878392a29150e46d9d91a71",
       "Directory": "dockerfiles/focal-non-free",
-      "File": ""
-    },
-    {
-      "Tags": [
-        "noble",
-        "nd24.04"
-      ],
-      "Architectures": {
-        "amd64": {
-          "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm64v8": {
-          "Architecture": "arm64v8",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "89ca52860d80889fd878392a29150e46d9d91a71",
-      "Directory": "dockerfiles/noble",
-      "File": ""
-    },
-    {
-      "Tags": [
-        "noble-non-free",
-        "nd24.04-non-free"
-      ],
-      "Architectures": {
-        "amd64": {
-          "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm64v8": {
-          "Architecture": "arm64v8",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "89ca52860d80889fd878392a29150e46d9d91a71",
-      "Directory": "dockerfiles/noble-non-free",
-      "File": ""
-    },
-    {
-      "Tags": [
-        "trixie",
-        "nd130"
-      ],
-      "Architectures": {
-        "amd64": {
-          "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm64v8": {
-          "Architecture": "arm64v8",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "i386": {
-          "Architecture": "i386",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
-      "Directory": "dockerfiles/trixie",
-      "File": ""
-    },
-    {
-      "Tags": [
-        "trixie-non-free",
-        "nd130-non-free"
-      ],
-      "Architectures": {
-        "amd64": {
-          "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm64v8": {
-          "Architecture": "arm64v8",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "i386": {
-          "Architecture": "i386",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
-      "Directory": "dockerfiles/trixie-non-free",
-      "File": ""
-    },
-    {
-      "Tags": [
-        "sid",
-        "nd"
-      ],
-      "Architectures": {
-        "amd64": {
-          "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm64v8": {
-          "Architecture": "arm64v8",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "i386": {
-          "Architecture": "i386",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
-      "Directory": "dockerfiles/sid",
-      "File": ""
-    },
-    {
-      "Tags": [
-        "sid-non-free",
-        "nd-non-free"
-      ],
-      "Architectures": {
-        "amd64": {
-          "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm64v8": {
-          "Architecture": "arm64v8",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "i386": {
-          "Architecture": "i386",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
-      "Directory": "dockerfiles/sid-non-free",
       "File": ""
     },
     {
