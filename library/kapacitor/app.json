@@ -116,6 +116,8 @@
     "1.8.0-alpine": {},
     "1.8.1": {},
     "1.8.1-alpine": {},
+    "1.8.2": {},
+    "1.8.2-alpine": {},
     "alpine": {},
     "latest": {}
   },
@@ -141,7 +143,7 @@
           "File": ""
         }
       },
-      "GitCommit": "9cb0ff12b0bc21addb924704e1d1f63221cc1bc1",
+      "GitCommit": "add887456e0d1657ae822e422bc5cbb2b9b723bc",
       "Directory": "kapacitor/1.7",
       "File": ""
     },
@@ -152,15 +154,49 @@
         "alpine"
       ],
       "Architectures": null,
-      "GitCommit": "9cb0ff12b0bc21addb924704e1d1f63221cc1bc1",
+      "GitCommit": "add887456e0d1657ae822e422bc5cbb2b9b723bc",
       "Directory": "kapacitor/1.7/alpine",
       "File": ""
     },
     {
       "Tags": [
         "1.8",
-        "1.8.1",
+        "1.8.2",
         "latest"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "add887456e0d1657ae822e422bc5cbb2b9b723bc",
+      "Directory": "kapacitor/1.8",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.8-alpine",
+        "1.8.2-alpine"
+      ],
+      "Architectures": null,
+      "GitCommit": "add887456e0d1657ae822e422bc5cbb2b9b723bc",
+      "Directory": "kapacitor/1.8/alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.8.1"
       ],
       "Architectures": {
         "amd64": {
@@ -184,7 +220,6 @@
     },
     {
       "Tags": [
-        "1.8-alpine",
         "1.8.1-alpine"
       ],
       "Architectures": null,

@@ -48,16 +48,19 @@
     "2025.04": {},
     "2025.08.1": {},
     "2025.08.1-alpine": {},
+    "2025.08.1-bookworm": {},
+    "2025.08.1-trixie": {},
     "alpine": {},
     "bookworm": {},
-    "latest": {}
+    "latest": {},
+    "trixie": {}
   },
   "Blocks": [
     {
       "Tags": [
-        "latest",
-        "2025.08.1",
-        "bookworm"
+        "trixie",
+        "2025.08.1-trixie",
+        "latest"
       ],
       "Architectures": {
         "amd64": {
@@ -75,7 +78,32 @@
           "File": ""
         }
       },
-      "GitCommit": "8c213b2fb89d60eb631068eecba27dab9a0989bc",
+      "GitCommit": "c40c9a549916b02b0c6c8d5cda7dbd444c094278",
+      "Directory": "2025.08.1/trixie",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "bookworm",
+        "2025.08.1-bookworm"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "c40c9a549916b02b0c6c8d5cda7dbd444c094278",
       "Directory": "2025.08.1/bookworm",
       "File": ""
     },
@@ -100,8 +128,32 @@
           "File": ""
         }
       },
-      "GitCommit": "8c213b2fb89d60eb631068eecba27dab9a0989bc",
+      "GitCommit": "c40c9a549916b02b0c6c8d5cda7dbd444c094278",
       "Directory": "2025.08.1/alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2025.08.1"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "8c213b2fb89d60eb631068eecba27dab9a0989bc",
+      "Directory": "2025.08.1/bookworm",
       "File": ""
     },
     {
