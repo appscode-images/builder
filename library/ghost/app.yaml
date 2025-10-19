@@ -32,10 +32,10 @@ Blocks:
       GitFetch: ""
   Directory: 6/debian
   File: ""
-  GitCommit: d9131c1c24594d782e0ddac3a98daae9237a1202
+  GitCommit: e092f980a4b38a19303f42b7eceb7b80d441e202
   Tags:
-  - 6.3.1
-  - "6.3"
+  - 6.4.0
+  - "6.4"
   - "6"
   - latest
 - Architectures:
@@ -65,10 +65,10 @@ Blocks:
       GitFetch: ""
   Directory: 6/alpine
   File: ""
-  GitCommit: d9131c1c24594d782e0ddac3a98daae9237a1202
+  GitCommit: e092f980a4b38a19303f42b7eceb7b80d441e202
   Tags:
-  - 6.3.1-alpine
-  - 6.3-alpine
+  - 6.4.0-alpine
+  - 6.4-alpine
   - 6-alpine
   - alpine
 - Architectures:
@@ -141,6 +141,74 @@ Blocks:
   - 5.130.5-alpine
   - 5.130-alpine
   - 5-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 6/debian
+  File: ""
+  GitCommit: d9131c1c24594d782e0ddac3a98daae9237a1202
+  Tags:
+  - 6.3.1
+  - "6.3"
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 6/alpine
+  File: ""
+  GitCommit: d9131c1c24594d782e0ddac3a98daae9237a1202
+  Tags:
+  - 6.3.1-alpine
+  - 6.3-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -44531,6 +44599,10 @@ KnownTags:
   6.3.0-alpine: {}
   6.3.1: {}
   6.3.1-alpine: {}
+  "6.4": {}
+  6.4-alpine: {}
+  6.4.0: {}
+  6.4.0-alpine: {}
   alpine: {}
   latest: {}
 Name: ghost
