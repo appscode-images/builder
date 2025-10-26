@@ -12,14 +12,52 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+  Directory: enterprise/couchbase-server/8.0.0
+  File: ""
+  GitCommit: c11b8eac06fe26a16b2e2b17020a965d45d7f329
+  Tags:
+  - 8.0.0
+  - enterprise
+  - enterprise-8.0.0
+  - latest
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: community/couchbase-server/8.0.0
+  File: ""
+  GitCommit: e2600d59a2b84984adeccbe1c0f8b5d926d4b529
+  Tags:
+  - community
+  - community-8.0.0
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
   Directory: enterprise/couchbase-server/7.6.7
   File: ""
   GitCommit: a322cc7110124b2581339f52d88bab80fb50016d
   Tags:
   - 7.6.7
-  - enterprise
   - enterprise-7.6.7
-  - latest
 - Architectures:
     amd64:
       Architecture: amd64
@@ -132,7 +170,6 @@ Blocks:
   File: ""
   GitCommit: 3f81af158b7f307e42f8c42ceaf7657b2690bfca
   Tags:
-  - community
   - community-7.6.2
 - Architectures:
     amd64:
@@ -208,6 +245,25 @@ Blocks:
   GitCommit: 6d669d0e34e6990b43c1b91ea74720235c96c4ac
   Tags:
   - community-7.6.0
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: enterprise/couchbase-server/7.2.8
+  File: ""
+  GitCommit: 5023e9104d765a15cde8e978be5266a6f1889fb0
+  Tags:
+  - 7.2.8
+  - enterprise-7.2.8
 - Architectures:
     amd64:
       Architecture: amd64
@@ -812,6 +868,7 @@ KnownTags:
   7.2.5: {}
   7.2.6: {}
   7.2.7: {}
+  7.2.8: {}
   7.6.0: {}
   7.6.1: {}
   7.6.2: {}
@@ -820,6 +877,7 @@ KnownTags:
   7.6.5: {}
   7.6.6: {}
   7.6.7: {}
+  8.0.0: {}
   community: {}
   community-6.5.0: {}
   community-6.5.1: {}
@@ -837,6 +895,7 @@ KnownTags:
   community-7.6.0: {}
   community-7.6.1: {}
   community-7.6.2: {}
+  community-8.0.0: {}
   enterprise: {}
   enterprise-6.0.1: {}
   enterprise-6.0.2: {}
@@ -875,6 +934,7 @@ KnownTags:
   enterprise-7.2.5: {}
   enterprise-7.2.6: {}
   enterprise-7.2.7: {}
+  enterprise-7.2.8: {}
   enterprise-7.6.0: {}
   enterprise-7.6.1: {}
   enterprise-7.6.2: {}
@@ -883,5 +943,6 @@ KnownTags:
   enterprise-7.6.5: {}
   enterprise-7.6.6: {}
   enterprise-7.6.7: {}
+  enterprise-8.0.0: {}
   latest: {}
 Name: couchbase

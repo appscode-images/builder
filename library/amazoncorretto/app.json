@@ -256,6 +256,19 @@
     "11.0.28-alpine3.20": {},
     "11.0.28-alpine3.21": {},
     "11.0.28-alpine3.22": {},
+    "11.0.29": {},
+    "11.0.29-al2": {},
+    "11.0.29-al2-generic": {},
+    "11.0.29-al2-native-headless": {},
+    "11.0.29-al2-native-jdk": {},
+    "11.0.29-al2023": {},
+    "11.0.29-al2023-headful": {},
+    "11.0.29-al2023-headless": {},
+    "11.0.29-alpine": {},
+    "11.0.29-alpine3.19": {},
+    "11.0.29-alpine3.20": {},
+    "11.0.29-alpine3.21": {},
+    "11.0.29-alpine3.22": {},
     "11.0.3": {},
     "11.0.4": {},
     "11.0.5": {},
@@ -477,6 +490,20 @@
     "17.0.16-alpine3.20": {},
     "17.0.16-alpine3.21": {},
     "17.0.16-alpine3.22": {},
+    "17.0.17": {},
+    "17.0.17-al2": {},
+    "17.0.17-al2-generic": {},
+    "17.0.17-al2-native-headful": {},
+    "17.0.17-al2-native-headless": {},
+    "17.0.17-al2-native-jdk": {},
+    "17.0.17-al2023": {},
+    "17.0.17-al2023-headful": {},
+    "17.0.17-al2023-headless": {},
+    "17.0.17-alpine": {},
+    "17.0.17-alpine3.19": {},
+    "17.0.17-alpine3.20": {},
+    "17.0.17-alpine3.21": {},
+    "17.0.17-alpine3.22": {},
     "17.0.2": {},
     "17.0.2-al2": {},
     "17.0.2-alpine": {},
@@ -834,6 +861,17 @@
     "21.0.8-alpine3.20": {},
     "21.0.8-alpine3.21": {},
     "21.0.8-alpine3.22": {},
+    "21.0.9": {},
+    "21.0.9-al2": {},
+    "21.0.9-al2-generic": {},
+    "21.0.9-al2023": {},
+    "21.0.9-al2023-headful": {},
+    "21.0.9-al2023-headless": {},
+    "21.0.9-alpine": {},
+    "21.0.9-alpine3.19": {},
+    "21.0.9-alpine3.20": {},
+    "21.0.9-alpine3.21": {},
+    "21.0.9-alpine3.22": {},
     "22": {},
     "22-al2023": {},
     "22-al2023-headful": {},
@@ -1015,6 +1053,14 @@
     "25.0.0-alpine3.20": {},
     "25.0.0-alpine3.21": {},
     "25.0.0-alpine3.22": {},
+    "25.0.1-al2023": {},
+    "25.0.1-al2023-headful": {},
+    "25.0.1-al2023-headless": {},
+    "25.0.1-alpine": {},
+    "25.0.1-alpine3.19": {},
+    "25.0.1-alpine3.20": {},
+    "25.0.1-alpine3.21": {},
+    "25.0.1-alpine3.22": {},
     "8": {},
     "8-al2-full": {},
     "8-al2-generic": {},
@@ -1370,20 +1416,1352 @@
     "8u462-alpine3.21-jre": {},
     "8u462-alpine3.22": {},
     "8u462-alpine3.22-jre": {},
+    "8u472": {},
+    "8u472-al2": {},
+    "8u472-al2-generic": {},
+    "8u472-al2-native-jdk": {},
+    "8u472-al2-native-jre": {},
+    "8u472-al2023": {},
+    "8u472-al2023-jre": {},
+    "8u472-alpine": {},
+    "8u472-alpine-jre": {},
+    "8u472-alpine3.19": {},
+    "8u472-alpine3.19-jre": {},
+    "8u472-alpine3.20": {},
+    "8u472-alpine3.20-jre": {},
+    "8u472-alpine3.21": {},
+    "8u472-alpine3.21-jre": {},
+    "8u472-alpine3.22": {},
+    "8u472-alpine3.22-jre": {},
     "latest": {}
   },
   "Blocks": [
     {
       "Tags": [
         "8",
-        "8u462",
-        "8u462-al2",
+        "8u472",
+        "8u472-al2",
         "8-al2-full",
         "8-al2-jdk",
         "8-al2-generic",
-        "8u462-al2-generic",
+        "8u472-al2-generic",
         "8-al2-generic-jdk",
         "latest"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "8/jdk/al2-generic",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8-al2023",
+        "8u472-al2023",
+        "8-al2023-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "8/jdk/al2023",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8-al2023-jre",
+        "8u472-al2023-jre"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "8/jdk/al2023",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8-al2-native-jre",
+        "8u472-al2-native-jre"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "8/jre/al2",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8-al2-native-jdk",
+        "8u472-al2-native-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "8/jdk/al2",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8-alpine3.19",
+        "8u472-alpine3.19",
+        "8-alpine3.19-full",
+        "8-alpine3.19-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "8/jdk/alpine/3.19",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8-alpine3.19-jre",
+        "8u472-alpine3.19-jre"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "8/jre/alpine/3.19",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8-alpine3.20",
+        "8u472-alpine3.20",
+        "8-alpine3.20-full",
+        "8-alpine3.20-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "8/jdk/alpine/3.20",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8-alpine3.20-jre",
+        "8u472-alpine3.20-jre"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "8/jre/alpine/3.20",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8-alpine3.21",
+        "8u472-alpine3.21",
+        "8-alpine3.21-full",
+        "8-alpine3.21-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "8/jdk/alpine/3.21",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8-alpine3.21-jre",
+        "8u472-alpine3.21-jre"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "8/jre/alpine/3.21",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8-alpine3.22",
+        "8u472-alpine3.22",
+        "8-alpine3.22-full",
+        "8-alpine3.22-jdk",
+        "8-alpine",
+        "8u472-alpine",
+        "8-alpine-full",
+        "8-alpine-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "8/jdk/alpine/3.22",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8-alpine3.22-jre",
+        "8u472-alpine3.22-jre",
+        "8-alpine-jre",
+        "8u472-alpine-jre"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "8/jre/alpine/3.22",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "11",
+        "11.0.29",
+        "11.0.29-al2",
+        "11-al2-full",
+        "11-al2-jdk",
+        "11-al2-generic",
+        "11.0.29-al2-generic",
+        "11-al2-generic-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "11/jdk/al2-generic",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "11-al2023",
+        "11.0.29-al2023",
+        "11-al2023-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "11/jdk/al2023",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "11-al2023-headless",
+        "11.0.29-al2023-headless"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "11/headless/al2023",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "11-al2023-headful",
+        "11.0.29-al2023-headful"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "11/headful/al2023",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "11-al2-native-headless",
+        "11.0.29-al2-native-headless"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "11/headless/al2",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "11-al2-native-jdk",
+        "11.0.29-al2-native-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "11/jdk/al2",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "11-alpine3.19",
+        "11.0.29-alpine3.19",
+        "11-alpine3.19-full",
+        "11-alpine3.19-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "11/jdk/alpine/3.19",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "11-alpine3.20",
+        "11.0.29-alpine3.20",
+        "11-alpine3.20-full",
+        "11-alpine3.20-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "11/jdk/alpine/3.20",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "11-alpine3.21",
+        "11.0.29-alpine3.21",
+        "11-alpine3.21-full",
+        "11-alpine3.21-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "11/jdk/alpine/3.21",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "11-alpine3.22",
+        "11.0.29-alpine3.22",
+        "11-alpine3.22-full",
+        "11-alpine3.22-jdk",
+        "11-alpine",
+        "11.0.29-alpine",
+        "11-alpine-full",
+        "11-alpine-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "11/jdk/alpine/3.22",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "17",
+        "17.0.17",
+        "17.0.17-al2",
+        "17-al2-full",
+        "17-al2-jdk",
+        "17-al2-generic",
+        "17.0.17-al2-generic",
+        "17-al2-generic-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "17/jdk/al2-generic",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "17-al2023",
+        "17.0.17-al2023",
+        "17-al2023-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "17/jdk/al2023",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "17-al2023-headless",
+        "17.0.17-al2023-headless"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "17/headless/al2023",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "17-al2023-headful",
+        "17.0.17-al2023-headful"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "17/headful/al2023",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "17-al2-native-headless",
+        "17.0.17-al2-native-headless"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "17/headless/al2",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "17-al2-native-headful",
+        "17.0.17-al2-native-headful"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "17/headful/al2",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "17-al2-native-jdk",
+        "17.0.17-al2-native-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "17/jdk/al2",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "17-alpine3.19",
+        "17.0.17-alpine3.19",
+        "17-alpine3.19-full",
+        "17-alpine3.19-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "17/jdk/alpine/3.19",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "17-alpine3.20",
+        "17.0.17-alpine3.20",
+        "17-alpine3.20-full",
+        "17-alpine3.20-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "17/jdk/alpine/3.20",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "17-alpine3.21",
+        "17.0.17-alpine3.21",
+        "17-alpine3.21-full",
+        "17-alpine3.21-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "17/jdk/alpine/3.21",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "17-alpine3.22",
+        "17.0.17-alpine3.22",
+        "17-alpine3.22-full",
+        "17-alpine3.22-jdk",
+        "17-alpine",
+        "17.0.17-alpine",
+        "17-alpine-full",
+        "17-alpine-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "17/jdk/alpine/3.22",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "21",
+        "21.0.9",
+        "21.0.9-al2",
+        "21-al2-full",
+        "21-al2-jdk",
+        "21-al2-generic",
+        "21.0.9-al2-generic",
+        "21-al2-generic-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "21/jdk/al2-generic",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "21-al2023",
+        "21.0.9-al2023",
+        "21-al2023-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "21/jdk/al2023",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "21-al2023-headless",
+        "21.0.9-al2023-headless"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "21/headless/al2023",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "21-al2023-headful",
+        "21.0.9-al2023-headful"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "21/headful/al2023",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "21-alpine3.19",
+        "21.0.9-alpine3.19",
+        "21-alpine3.19-full",
+        "21-alpine3.19-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "21/jdk/alpine/3.19",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "21-alpine3.20",
+        "21.0.9-alpine3.20",
+        "21-alpine3.20-full",
+        "21-alpine3.20-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "21/jdk/alpine/3.20",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "21-alpine3.21",
+        "21.0.9-alpine3.21",
+        "21-alpine3.21-full",
+        "21-alpine3.21-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "21/jdk/alpine/3.21",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "21-alpine3.22",
+        "21.0.9-alpine3.22",
+        "21-alpine3.22-full",
+        "21-alpine3.22-jdk",
+        "21-alpine",
+        "21.0.9-alpine",
+        "21-alpine-full",
+        "21-alpine-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "21/jdk/alpine/3.22",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "25-al2023",
+        "25.0.1-al2023",
+        "25-al2023-jdk",
+        "25",
+        "25-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "25/jdk/al2023",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "25-al2023-headless",
+        "25.0.1-al2023-headless",
+        "25-headless"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "25/headless/al2023",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "25-al2023-headful",
+        "25.0.1-al2023-headful",
+        "25-headful"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "25/headful/al2023",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "25-alpine3.19",
+        "25.0.1-alpine3.19",
+        "25-alpine3.19-full",
+        "25-alpine3.19-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "25/jdk/alpine/3.19",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "25-alpine3.20",
+        "25.0.1-alpine3.20",
+        "25-alpine3.20-full",
+        "25-alpine3.20-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "25/jdk/alpine/3.20",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "25-alpine3.21",
+        "25.0.1-alpine3.21",
+        "25-alpine3.21-full",
+        "25-alpine3.21-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "25/jdk/alpine/3.21",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "25-alpine3.22",
+        "25.0.1-alpine3.22",
+        "25-alpine3.22-full",
+        "25-alpine3.22-jdk",
+        "25-alpine",
+        "25.0.1-alpine",
+        "25-alpine-full",
+        "25-alpine-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "da9c78f521c6ae2e0d63eaf6827a9d27168ff6d8",
+      "Directory": "25/jdk/alpine/3.22",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8u462",
+        "8u462-al2",
+        "8u462-al2-generic"
       ],
       "Architectures": {
         "amd64": {
@@ -1407,9 +2785,7 @@
     },
     {
       "Tags": [
-        "8-al2023",
-        "8u462-al2023",
-        "8-al2023-jdk"
+        "8u462-al2023"
       ],
       "Architectures": {
         "amd64": {
@@ -1433,7 +2809,6 @@
     },
     {
       "Tags": [
-        "8-al2023-jre",
         "8u462-al2023-jre"
       ],
       "Architectures": {
@@ -1458,7 +2833,6 @@
     },
     {
       "Tags": [
-        "8-al2-native-jre",
         "8u462-al2-native-jre"
       ],
       "Architectures": {
@@ -1483,7 +2857,6 @@
     },
     {
       "Tags": [
-        "8-al2-native-jdk",
         "8u462-al2-native-jdk"
       ],
       "Architectures": {
@@ -1508,10 +2881,7 @@
     },
     {
       "Tags": [
-        "8-alpine3.19",
-        "8u462-alpine3.19",
-        "8-alpine3.19-full",
-        "8-alpine3.19-jdk"
+        "8u462-alpine3.19"
       ],
       "Architectures": {
         "amd64": {
@@ -1535,7 +2905,6 @@
     },
     {
       "Tags": [
-        "8-alpine3.19-jre",
         "8u462-alpine3.19-jre"
       ],
       "Architectures": {
@@ -1560,10 +2929,7 @@
     },
     {
       "Tags": [
-        "8-alpine3.20",
-        "8u462-alpine3.20",
-        "8-alpine3.20-full",
-        "8-alpine3.20-jdk"
+        "8u462-alpine3.20"
       ],
       "Architectures": {
         "amd64": {
@@ -1587,7 +2953,6 @@
     },
     {
       "Tags": [
-        "8-alpine3.20-jre",
         "8u462-alpine3.20-jre"
       ],
       "Architectures": {
@@ -1612,10 +2977,7 @@
     },
     {
       "Tags": [
-        "8-alpine3.21",
-        "8u462-alpine3.21",
-        "8-alpine3.21-full",
-        "8-alpine3.21-jdk"
+        "8u462-alpine3.21"
       ],
       "Architectures": {
         "amd64": {
@@ -1639,7 +3001,6 @@
     },
     {
       "Tags": [
-        "8-alpine3.21-jre",
         "8u462-alpine3.21-jre"
       ],
       "Architectures": {
@@ -1664,14 +3025,8 @@
     },
     {
       "Tags": [
-        "8-alpine3.22",
         "8u462-alpine3.22",
-        "8-alpine3.22-full",
-        "8-alpine3.22-jdk",
-        "8-alpine",
-        "8u462-alpine",
-        "8-alpine-full",
-        "8-alpine-jdk"
+        "8u462-alpine"
       ],
       "Architectures": {
         "amd64": {
@@ -1695,9 +3050,7 @@
     },
     {
       "Tags": [
-        "8-alpine3.22-jre",
         "8u462-alpine3.22-jre",
-        "8-alpine-jre",
         "8u462-alpine-jre"
       ],
       "Architectures": {
@@ -1722,14 +3075,9 @@
     },
     {
       "Tags": [
-        "11",
         "11.0.28",
         "11.0.28-al2",
-        "11-al2-full",
-        "11-al2-jdk",
-        "11-al2-generic",
-        "11.0.28-al2-generic",
-        "11-al2-generic-jdk"
+        "11.0.28-al2-generic"
       ],
       "Architectures": {
         "amd64": {
@@ -1753,9 +3101,7 @@
     },
     {
       "Tags": [
-        "11-al2023",
-        "11.0.28-al2023",
-        "11-al2023-jdk"
+        "11.0.28-al2023"
       ],
       "Architectures": {
         "amd64": {
@@ -1779,7 +3125,6 @@
     },
     {
       "Tags": [
-        "11-al2023-headless",
         "11.0.28-al2023-headless"
       ],
       "Architectures": {
@@ -1804,7 +3149,6 @@
     },
     {
       "Tags": [
-        "11-al2023-headful",
         "11.0.28-al2023-headful"
       ],
       "Architectures": {
@@ -1829,7 +3173,6 @@
     },
     {
       "Tags": [
-        "11-al2-native-headless",
         "11.0.28-al2-native-headless"
       ],
       "Architectures": {
@@ -1854,7 +3197,6 @@
     },
     {
       "Tags": [
-        "11-al2-native-jdk",
         "11.0.28-al2-native-jdk"
       ],
       "Architectures": {
@@ -1879,10 +3221,7 @@
     },
     {
       "Tags": [
-        "11-alpine3.19",
-        "11.0.28-alpine3.19",
-        "11-alpine3.19-full",
-        "11-alpine3.19-jdk"
+        "11.0.28-alpine3.19"
       ],
       "Architectures": {
         "amd64": {
@@ -1906,10 +3245,7 @@
     },
     {
       "Tags": [
-        "11-alpine3.20",
-        "11.0.28-alpine3.20",
-        "11-alpine3.20-full",
-        "11-alpine3.20-jdk"
+        "11.0.28-alpine3.20"
       ],
       "Architectures": {
         "amd64": {
@@ -1933,10 +3269,7 @@
     },
     {
       "Tags": [
-        "11-alpine3.21",
-        "11.0.28-alpine3.21",
-        "11-alpine3.21-full",
-        "11-alpine3.21-jdk"
+        "11.0.28-alpine3.21"
       ],
       "Architectures": {
         "amd64": {
@@ -1960,14 +3293,8 @@
     },
     {
       "Tags": [
-        "11-alpine3.22",
         "11.0.28-alpine3.22",
-        "11-alpine3.22-full",
-        "11-alpine3.22-jdk",
-        "11-alpine",
-        "11.0.28-alpine",
-        "11-alpine-full",
-        "11-alpine-jdk"
+        "11.0.28-alpine"
       ],
       "Architectures": {
         "amd64": {
@@ -1991,14 +3318,9 @@
     },
     {
       "Tags": [
-        "17",
         "17.0.16",
         "17.0.16-al2",
-        "17-al2-full",
-        "17-al2-jdk",
-        "17-al2-generic",
-        "17.0.16-al2-generic",
-        "17-al2-generic-jdk"
+        "17.0.16-al2-generic"
       ],
       "Architectures": {
         "amd64": {
@@ -2022,9 +3344,7 @@
     },
     {
       "Tags": [
-        "17-al2023",
-        "17.0.16-al2023",
-        "17-al2023-jdk"
+        "17.0.16-al2023"
       ],
       "Architectures": {
         "amd64": {
@@ -2048,7 +3368,6 @@
     },
     {
       "Tags": [
-        "17-al2023-headless",
         "17.0.16-al2023-headless"
       ],
       "Architectures": {
@@ -2073,7 +3392,6 @@
     },
     {
       "Tags": [
-        "17-al2023-headful",
         "17.0.16-al2023-headful"
       ],
       "Architectures": {
@@ -2098,7 +3416,6 @@
     },
     {
       "Tags": [
-        "17-al2-native-headless",
         "17.0.16-al2-native-headless"
       ],
       "Architectures": {
@@ -2123,7 +3440,6 @@
     },
     {
       "Tags": [
-        "17-al2-native-headful",
         "17.0.16-al2-native-headful"
       ],
       "Architectures": {
@@ -2148,7 +3464,6 @@
     },
     {
       "Tags": [
-        "17-al2-native-jdk",
         "17.0.16-al2-native-jdk"
       ],
       "Architectures": {
@@ -2173,10 +3488,7 @@
     },
     {
       "Tags": [
-        "17-alpine3.19",
-        "17.0.16-alpine3.19",
-        "17-alpine3.19-full",
-        "17-alpine3.19-jdk"
+        "17.0.16-alpine3.19"
       ],
       "Architectures": {
         "amd64": {
@@ -2200,10 +3512,7 @@
     },
     {
       "Tags": [
-        "17-alpine3.20",
-        "17.0.16-alpine3.20",
-        "17-alpine3.20-full",
-        "17-alpine3.20-jdk"
+        "17.0.16-alpine3.20"
       ],
       "Architectures": {
         "amd64": {
@@ -2227,10 +3536,7 @@
     },
     {
       "Tags": [
-        "17-alpine3.21",
-        "17.0.16-alpine3.21",
-        "17-alpine3.21-full",
-        "17-alpine3.21-jdk"
+        "17.0.16-alpine3.21"
       ],
       "Architectures": {
         "amd64": {
@@ -2254,14 +3560,8 @@
     },
     {
       "Tags": [
-        "17-alpine3.22",
         "17.0.16-alpine3.22",
-        "17-alpine3.22-full",
-        "17-alpine3.22-jdk",
-        "17-alpine",
-        "17.0.16-alpine",
-        "17-alpine-full",
-        "17-alpine-jdk"
+        "17.0.16-alpine"
       ],
       "Architectures": {
         "amd64": {
@@ -2285,14 +3585,9 @@
     },
     {
       "Tags": [
-        "21",
         "21.0.8",
         "21.0.8-al2",
-        "21-al2-full",
-        "21-al2-jdk",
-        "21-al2-generic",
-        "21.0.8-al2-generic",
-        "21-al2-generic-jdk"
+        "21.0.8-al2-generic"
       ],
       "Architectures": {
         "amd64": {
@@ -2316,9 +3611,7 @@
     },
     {
       "Tags": [
-        "21-al2023",
-        "21.0.8-al2023",
-        "21-al2023-jdk"
+        "21.0.8-al2023"
       ],
       "Architectures": {
         "amd64": {
@@ -2342,7 +3635,6 @@
     },
     {
       "Tags": [
-        "21-al2023-headless",
         "21.0.8-al2023-headless"
       ],
       "Architectures": {
@@ -2367,7 +3659,6 @@
     },
     {
       "Tags": [
-        "21-al2023-headful",
         "21.0.8-al2023-headful"
       ],
       "Architectures": {
@@ -2392,10 +3683,7 @@
     },
     {
       "Tags": [
-        "21-alpine3.19",
-        "21.0.8-alpine3.19",
-        "21-alpine3.19-full",
-        "21-alpine3.19-jdk"
+        "21.0.8-alpine3.19"
       ],
       "Architectures": {
         "amd64": {
@@ -2419,10 +3707,7 @@
     },
     {
       "Tags": [
-        "21-alpine3.20",
-        "21.0.8-alpine3.20",
-        "21-alpine3.20-full",
-        "21-alpine3.20-jdk"
+        "21.0.8-alpine3.20"
       ],
       "Architectures": {
         "amd64": {
@@ -2446,10 +3731,7 @@
     },
     {
       "Tags": [
-        "21-alpine3.21",
-        "21.0.8-alpine3.21",
-        "21-alpine3.21-full",
-        "21-alpine3.21-jdk"
+        "21.0.8-alpine3.21"
       ],
       "Architectures": {
         "amd64": {
@@ -2473,14 +3755,8 @@
     },
     {
       "Tags": [
-        "21-alpine3.22",
         "21.0.8-alpine3.22",
-        "21-alpine3.22-full",
-        "21-alpine3.22-jdk",
-        "21-alpine",
-        "21.0.8-alpine",
-        "21-alpine-full",
-        "21-alpine-jdk"
+        "21.0.8-alpine"
       ],
       "Architectures": {
         "amd64": {
@@ -2696,11 +3972,7 @@
     },
     {
       "Tags": [
-        "25-al2023",
-        "25.0.0-al2023",
-        "25-al2023-jdk",
-        "25",
-        "25-jdk"
+        "25.0.0-al2023"
       ],
       "Architectures": {
         "amd64": {
@@ -2724,9 +3996,7 @@
     },
     {
       "Tags": [
-        "25-al2023-headless",
-        "25.0.0-al2023-headless",
-        "25-headless"
+        "25.0.0-al2023-headless"
       ],
       "Architectures": {
         "amd64": {
@@ -2750,9 +4020,7 @@
     },
     {
       "Tags": [
-        "25-al2023-headful",
-        "25.0.0-al2023-headful",
-        "25-headful"
+        "25.0.0-al2023-headful"
       ],
       "Architectures": {
         "amd64": {
@@ -2776,10 +4044,7 @@
     },
     {
       "Tags": [
-        "25-alpine3.19",
-        "25.0.0-alpine3.19",
-        "25-alpine3.19-full",
-        "25-alpine3.19-jdk"
+        "25.0.0-alpine3.19"
       ],
       "Architectures": {
         "amd64": {
@@ -2803,10 +4068,7 @@
     },
     {
       "Tags": [
-        "25-alpine3.20",
-        "25.0.0-alpine3.20",
-        "25-alpine3.20-full",
-        "25-alpine3.20-jdk"
+        "25.0.0-alpine3.20"
       ],
       "Architectures": {
         "amd64": {
@@ -2830,10 +4092,7 @@
     },
     {
       "Tags": [
-        "25-alpine3.21",
-        "25.0.0-alpine3.21",
-        "25-alpine3.21-full",
-        "25-alpine3.21-jdk"
+        "25.0.0-alpine3.21"
       ],
       "Architectures": {
         "amd64": {
@@ -2857,14 +4116,8 @@
     },
     {
       "Tags": [
-        "25-alpine3.22",
         "25.0.0-alpine3.22",
-        "25-alpine3.22-full",
-        "25-alpine3.22-jdk",
-        "25-alpine",
-        "25.0.0-alpine",
-        "25-alpine-full",
-        "25-alpine-jdk"
+        "25.0.0-alpine"
       ],
       "Architectures": {
         "amd64": {
