@@ -26,12 +26,12 @@ Blocks:
       GitFetch: ""
   Directory: 29-rc/cli
   File: ""
-  GitCommit: 3cb6ed40f1274ee9041835533bb625cf55f63e91
+  GitCommit: 30aaaecb3e69c151fd7af0e9f590c97c6196d4d3
   Tags:
-  - 29.0.0-rc.1-cli
+  - 29.0.0-rc.2-cli
   - 29-rc-cli
   - rc-cli
-  - 29.0.0-rc.1-cli-alpine3.22
+  - 29.0.0-rc.2-cli-alpine3.22
 - Architectures:
     amd64:
       Architecture: amd64
@@ -59,16 +59,16 @@ Blocks:
       GitFetch: ""
   Directory: 29-rc/dind
   File: ""
-  GitCommit: 3cb6ed40f1274ee9041835533bb625cf55f63e91
+  GitCommit: 30aaaecb3e69c151fd7af0e9f590c97c6196d4d3
   Tags:
-  - 29.0.0-rc.1-dind
+  - 29.0.0-rc.2-dind
   - 29-rc-dind
   - rc-dind
-  - 29.0.0-rc.1-dind-alpine3.22
-  - 29.0.0-rc.1
+  - 29.0.0-rc.2-dind-alpine3.22
+  - 29.0.0-rc.2
   - 29-rc
   - rc
-  - 29.0.0-rc.1-alpine3.22
+  - 29.0.0-rc.2-alpine3.22
 - Architectures:
     amd64:
       Architecture: amd64
@@ -84,9 +84,9 @@ Blocks:
       GitFetch: ""
   Directory: 29-rc/dind-rootless
   File: ""
-  GitCommit: 3cb6ed40f1274ee9041835533bb625cf55f63e91
+  GitCommit: 30aaaecb3e69c151fd7af0e9f590c97c6196d4d3
   Tags:
-  - 29.0.0-rc.1-dind-rootless
+  - 29.0.0-rc.2-dind-rootless
   - 29-rc-dind-rootless
   - rc-dind-rootless
 - Architectures:
@@ -98,12 +98,12 @@ Blocks:
       GitFetch: ""
   Directory: 29-rc/windows/windowsservercore-ltsc2025
   File: ""
-  GitCommit: 3cb6ed40f1274ee9041835533bb625cf55f63e91
+  GitCommit: 30aaaecb3e69c151fd7af0e9f590c97c6196d4d3
   Tags:
-  - 29.0.0-rc.1-windowsservercore-ltsc2025
+  - 29.0.0-rc.2-windowsservercore-ltsc2025
   - 29-rc-windowsservercore-ltsc2025
   - rc-windowsservercore-ltsc2025
-  - 29.0.0-rc.1-windowsservercore
+  - 29.0.0-rc.2-windowsservercore
   - 29-rc-windowsservercore
   - rc-windowsservercore
 - Architectures:
@@ -115,9 +115,9 @@ Blocks:
       GitFetch: ""
   Directory: 29-rc/windows/windowsservercore-ltsc2022
   File: ""
-  GitCommit: 3cb6ed40f1274ee9041835533bb625cf55f63e91
+  GitCommit: 30aaaecb3e69c151fd7af0e9f590c97c6196d4d3
   Tags:
-  - 29.0.0-rc.1-windowsservercore-ltsc2022
+  - 29.0.0-rc.2-windowsservercore-ltsc2022
   - 29-rc-windowsservercore-ltsc2022
   - rc-windowsservercore-ltsc2022
 - Architectures:
@@ -147,7 +147,7 @@ Blocks:
       GitFetch: ""
   Directory: 28/cli
   File: ""
-  GitCommit: b510c2bbe64b878dee6480992ab5d8cd9c02027d
+  GitCommit: 1b231c4016afe59156bb992c5baab0f05d49dc77
   Tags:
   - 28.5.1-cli
   - 28.5-cli
@@ -223,7 +223,7 @@ Blocks:
       GitFetch: ""
   Directory: 28/windows/windowsservercore-ltsc2025
   File: ""
-  GitCommit: b510c2bbe64b878dee6480992ab5d8cd9c02027d
+  GitCommit: 1b231c4016afe59156bb992c5baab0f05d49dc77
   Tags:
   - 28.5.1-windowsservercore-ltsc2025
   - 28.5-windowsservercore-ltsc2025
@@ -242,12 +242,119 @@ Blocks:
       GitFetch: ""
   Directory: 28/windows/windowsservercore-ltsc2022
   File: ""
-  GitCommit: b510c2bbe64b878dee6480992ab5d8cd9c02027d
+  GitCommit: 1b231c4016afe59156bb992c5baab0f05d49dc77
   Tags:
   - 28.5.1-windowsservercore-ltsc2022
   - 28.5-windowsservercore-ltsc2022
   - 28-windowsservercore-ltsc2022
   - windowsservercore-ltsc2022
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 29-rc/cli
+  File: ""
+  GitCommit: 3cb6ed40f1274ee9041835533bb625cf55f63e91
+  Tags:
+  - 29.0.0-rc.1-cli
+  - 29.0.0-rc.1-cli-alpine3.22
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 29-rc/dind
+  File: ""
+  GitCommit: 3cb6ed40f1274ee9041835533bb625cf55f63e91
+  Tags:
+  - 29.0.0-rc.1-dind
+  - 29.0.0-rc.1-dind-alpine3.22
+  - 29.0.0-rc.1
+  - 29.0.0-rc.1-alpine3.22
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 29-rc/dind-rootless
+  File: ""
+  GitCommit: 3cb6ed40f1274ee9041835533bb625cf55f63e91
+  Tags:
+  - 29.0.0-rc.1-dind-rootless
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 29-rc/windows/windowsservercore-ltsc2025
+  File: ""
+  GitCommit: 3cb6ed40f1274ee9041835533bb625cf55f63e91
+  Tags:
+  - 29.0.0-rc.1-windowsservercore-ltsc2025
+  - 29.0.0-rc.1-windowsservercore
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 29-rc/windows/windowsservercore-ltsc2022
+  File: ""
+  GitCommit: 3cb6ed40f1274ee9041835533bb625cf55f63e91
+  Tags:
+  - 29.0.0-rc.1-windowsservercore-ltsc2022
 - Architectures:
     amd64:
       Architecture: amd64
@@ -30856,6 +30963,16 @@ KnownTags:
   29.0.0-rc.1-windowsservercore: {}
   29.0.0-rc.1-windowsservercore-ltsc2022: {}
   29.0.0-rc.1-windowsservercore-ltsc2025: {}
+  29.0.0-rc.2: {}
+  29.0.0-rc.2-alpine3.22: {}
+  29.0.0-rc.2-cli: {}
+  29.0.0-rc.2-cli-alpine3.22: {}
+  29.0.0-rc.2-dind: {}
+  29.0.0-rc.2-dind-alpine3.22: {}
+  29.0.0-rc.2-dind-rootless: {}
+  29.0.0-rc.2-windowsservercore: {}
+  29.0.0-rc.2-windowsservercore-ltsc2022: {}
+  29.0.0-rc.2-windowsservercore-ltsc2025: {}
   cli: {}
   dind: {}
   dind-rootless: {}
