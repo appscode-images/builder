@@ -80,8 +80,10 @@
     "9.0.2-slim": {},
     "9.0.2-slim-buster": {},
     "9.10": {},
+    "9.10-bookworm": {},
     "9.10-bullseye": {},
     "9.10-buster": {},
+    "9.10-slim-bookworm": {},
     "9.10-slim-bullseye": {},
     "9.10-slim-buster": {},
     "9.10.1": {},
@@ -92,6 +94,11 @@
     "9.10.2": {},
     "9.10.2-bullseye": {},
     "9.10.2-slim-bullseye": {},
+    "9.10.3": {},
+    "9.10.3-bookworm": {},
+    "9.10.3-bullseye": {},
+    "9.10.3-slim-bookworm": {},
+    "9.10.3-slim-bullseye": {},
     "9.12": {},
     "9.12-bookworm": {},
     "9.12-slim-bookworm": {},
@@ -256,7 +263,7 @@
           "File": ""
         }
       },
-      "GitCommit": "c34f97738d08a138ef07878a4a1402b10670f87b",
+      "GitCommit": "d478ceb8ff33f6208db87008e48cd084fd9747a1",
       "Directory": "9.12/bookworm",
       "File": ""
     },
@@ -285,17 +292,67 @@
           "File": ""
         }
       },
-      "GitCommit": "c34f97738d08a138ef07878a4a1402b10670f87b",
+      "GitCommit": "d478ceb8ff33f6208db87008e48cd084fd9747a1",
       "Directory": "9.12/slim-bookworm",
       "File": ""
     },
     {
       "Tags": [
-        "9.10.2-bullseye",
+        "9.10.3-bookworm",
+        "9.10-bookworm"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "d478ceb8ff33f6208db87008e48cd084fd9747a1",
+      "Directory": "9.10/bookworm",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "9.10.3-slim-bookworm",
+        "9.10-slim-bookworm"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "d478ceb8ff33f6208db87008e48cd084fd9747a1",
+      "Directory": "9.10/slim-bookworm",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "9.10.3-bullseye",
         "9.10-bullseye",
         "9-bullseye",
         "bullseye",
-        "9.10.2",
+        "9.10.3",
         "9.10"
       ],
       "Architectures": {
@@ -314,13 +371,13 @@
           "File": ""
         }
       },
-      "GitCommit": "c34f97738d08a138ef07878a4a1402b10670f87b",
+      "GitCommit": "d478ceb8ff33f6208db87008e48cd084fd9747a1",
       "Directory": "9.10/bullseye",
       "File": ""
     },
     {
       "Tags": [
-        "9.10.2-slim-bullseye",
+        "9.10.3-slim-bullseye",
         "9.10-slim-bullseye",
         "9-slim-bullseye",
         "slim-bullseye"
@@ -341,7 +398,7 @@
           "File": ""
         }
       },
-      "GitCommit": "c34f97738d08a138ef07878a4a1402b10670f87b",
+      "GitCommit": "d478ceb8ff33f6208db87008e48cd084fd9747a1",
       "Directory": "9.10/slim-bullseye",
       "File": ""
     },
@@ -368,7 +425,7 @@
           "File": ""
         }
       },
-      "GitCommit": "c34f97738d08a138ef07878a4a1402b10670f87b",
+      "GitCommit": "d478ceb8ff33f6208db87008e48cd084fd9747a1",
       "Directory": "9.8/bullseye",
       "File": ""
     },
@@ -395,7 +452,7 @@
           "File": ""
         }
       },
-      "GitCommit": "c34f97738d08a138ef07878a4a1402b10670f87b",
+      "GitCommit": "d478ceb8ff33f6208db87008e48cd084fd9747a1",
       "Directory": "9.8/slim-bullseye",
       "File": ""
     },
@@ -422,7 +479,7 @@
           "File": ""
         }
       },
-      "GitCommit": "c34f97738d08a138ef07878a4a1402b10670f87b",
+      "GitCommit": "d478ceb8ff33f6208db87008e48cd084fd9747a1",
       "Directory": "9.6/bullseye",
       "File": ""
     },
@@ -449,8 +506,57 @@
           "File": ""
         }
       },
-      "GitCommit": "c34f97738d08a138ef07878a4a1402b10670f87b",
+      "GitCommit": "d478ceb8ff33f6208db87008e48cd084fd9747a1",
       "Directory": "9.6/slim-bullseye",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "9.10.2-bullseye",
+        "9.10.2"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "c34f97738d08a138ef07878a4a1402b10670f87b",
+      "Directory": "9.10/bullseye",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "9.10.2-slim-bullseye"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "c34f97738d08a138ef07878a4a1402b10670f87b",
+      "Directory": "9.10/slim-bullseye",
       "File": ""
     },
     {

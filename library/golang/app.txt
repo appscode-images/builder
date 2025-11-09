@@ -1,101 +1,201 @@
 GitRepo: https://github.com/docker-library/golang.git
 
-Tags: 1.25.3-trixie,1.25-trixie,1-trixie,trixie,1.25.3,1.25,1,latest
+Tags: 1.25.4-trixie,1.25-trixie,1-trixie,trixie,1.25.4,1.25,1,latest
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 63f58b7160c9e82a88a7befcda362794b7d21750
+Directory: 1.25/trixie
+
+Tags: 1.25.4-bookworm,1.25-bookworm,1-bookworm,bookworm
+Architectures: amd64,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+GitCommit: 63f58b7160c9e82a88a7befcda362794b7d21750
+Directory: 1.25/bookworm
+
+Tags: 1.25.4-alpine3.22,1.25-alpine3.22,1-alpine3.22,alpine3.22,1.25.4-alpine,1.25-alpine,1-alpine,alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 63f58b7160c9e82a88a7befcda362794b7d21750
+Directory: 1.25/alpine3.22
+
+Tags: 1.25.4-alpine3.21,1.25-alpine3.21,1-alpine3.21,alpine3.21
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 63f58b7160c9e82a88a7befcda362794b7d21750
+Directory: 1.25/alpine3.21
+
+Tags: 1.25.4-windowsservercore-ltsc2025,1.25-windowsservercore-ltsc2025,1-windowsservercore-ltsc2025,windowsservercore-ltsc2025,1.25.4-windowsservercore,1.25-windowsservercore,1-windowsservercore,windowsservercore
+Architectures: windows-amd64
+GitCommit: 63f58b7160c9e82a88a7befcda362794b7d21750
+Directory: 1.25/windows/windowsservercore-ltsc2025
+
+Tags: 1.25.4-windowsservercore-ltsc2022,1.25-windowsservercore-ltsc2022,1-windowsservercore-ltsc2022,windowsservercore-ltsc2022
+Architectures: windows-amd64
+GitCommit: 63f58b7160c9e82a88a7befcda362794b7d21750
+Directory: 1.25/windows/windowsservercore-ltsc2022
+
+Tags: 1.25.4-nanoserver-ltsc2025,1.25-nanoserver-ltsc2025,1-nanoserver-ltsc2025,nanoserver-ltsc2025,1.25.4-nanoserver,1.25-nanoserver,1-nanoserver,nanoserver
+Architectures: windows-amd64
+GitCommit: 63f58b7160c9e82a88a7befcda362794b7d21750
+Directory: 1.25/windows/nanoserver-ltsc2025
+
+Tags: 1.25.4-nanoserver-ltsc2022,1.25-nanoserver-ltsc2022,1-nanoserver-ltsc2022,nanoserver-ltsc2022
+Architectures: windows-amd64
+GitCommit: 63f58b7160c9e82a88a7befcda362794b7d21750
+Directory: 1.25/windows/nanoserver-ltsc2022
+
+Tags: 1.24.10-trixie,1.24-trixie,1.24.10,1.24
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 6302d466bdcf34f867e69179bddf77bfe701f0c9
+Directory: 1.24/trixie
+
+Tags: 1.24.10-bookworm,1.24-bookworm
+Architectures: amd64,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+GitCommit: 6302d466bdcf34f867e69179bddf77bfe701f0c9
+Directory: 1.24/bookworm
+
+Tags: 1.24.10-alpine3.22,1.24-alpine3.22,1.24.10-alpine,1.24-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 6302d466bdcf34f867e69179bddf77bfe701f0c9
+Directory: 1.24/alpine3.22
+
+Tags: 1.24.10-alpine3.21,1.24-alpine3.21
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 6302d466bdcf34f867e69179bddf77bfe701f0c9
+Directory: 1.24/alpine3.21
+
+Tags: 1.24.10-windowsservercore-ltsc2025,1.24-windowsservercore-ltsc2025,1.24.10-windowsservercore,1.24-windowsservercore
+Architectures: windows-amd64
+GitCommit: 6302d466bdcf34f867e69179bddf77bfe701f0c9
+Directory: 1.24/windows/windowsservercore-ltsc2025
+
+Tags: 1.24.10-windowsservercore-ltsc2022,1.24-windowsservercore-ltsc2022
+Architectures: windows-amd64
+GitCommit: 6302d466bdcf34f867e69179bddf77bfe701f0c9
+Directory: 1.24/windows/windowsservercore-ltsc2022
+
+Tags: 1.24.10-nanoserver-ltsc2025,1.24-nanoserver-ltsc2025,1.24.10-nanoserver,1.24-nanoserver
+Architectures: windows-amd64
+GitCommit: 6302d466bdcf34f867e69179bddf77bfe701f0c9
+Directory: 1.24/windows/nanoserver-ltsc2025
+
+Tags: 1.24.10-nanoserver-ltsc2022,1.24-nanoserver-ltsc2022
+Architectures: windows-amd64
+GitCommit: 6302d466bdcf34f867e69179bddf77bfe701f0c9
+Directory: 1.24/windows/nanoserver-ltsc2022
+
+Tags: tip-20251102-trixie,tip-trixie,tip-20251102,tip
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: daa7d63e82d0193790f023875771a8b285f3702b
+Directory: tip/trixie
+
+Tags: tip-20251102-bookworm,tip-bookworm
+Architectures: amd64,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
+GitCommit: daa7d63e82d0193790f023875771a8b285f3702b
+Directory: tip/bookworm
+
+Tags: tip-20251102-alpine3.22,tip-alpine3.22,tip-20251102-alpine,tip-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: daa7d63e82d0193790f023875771a8b285f3702b
+Directory: tip/alpine3.22
+
+Tags: tip-20251102-alpine3.21,tip-alpine3.21
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: daa7d63e82d0193790f023875771a8b285f3702b
+Directory: tip/alpine3.21
+
+Tags: 1.25.3-trixie,1.25.3
 Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: fca8040176e4e0c3d409c87d58fd8a81b16f2429
 Directory: 1.25/trixie
 
-Tags: 1.25.3-bookworm,1.25-bookworm,1-bookworm,bookworm
+Tags: 1.25.3-bookworm
 Architectures: amd64,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: fca8040176e4e0c3d409c87d58fd8a81b16f2429
 Directory: 1.25/bookworm
 
-Tags: 1.25.3-alpine3.22,1.25-alpine3.22,1-alpine3.22,alpine3.22,1.25.3-alpine,1.25-alpine,1-alpine,alpine
+Tags: 1.25.3-alpine3.22,1.25.3-alpine
 Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: fca8040176e4e0c3d409c87d58fd8a81b16f2429
 Directory: 1.25/alpine3.22
 
-Tags: 1.25.3-alpine3.21,1.25-alpine3.21,1-alpine3.21,alpine3.21
+Tags: 1.25.3-alpine3.21
 Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: fca8040176e4e0c3d409c87d58fd8a81b16f2429
 Directory: 1.25/alpine3.21
 
-Tags: 1.25.3-windowsservercore-ltsc2025,1.25-windowsservercore-ltsc2025,1-windowsservercore-ltsc2025,windowsservercore-ltsc2025,1.25.3-windowsservercore,1.25-windowsservercore,1-windowsservercore,windowsservercore
+Tags: 1.25.3-windowsservercore-ltsc2025,1.25.3-windowsservercore
 Architectures: windows-amd64
 GitCommit: fca8040176e4e0c3d409c87d58fd8a81b16f2429
 Directory: 1.25/windows/windowsservercore-ltsc2025
 
-Tags: 1.25.3-windowsservercore-ltsc2022,1.25-windowsservercore-ltsc2022,1-windowsservercore-ltsc2022,windowsservercore-ltsc2022
+Tags: 1.25.3-windowsservercore-ltsc2022
 Architectures: windows-amd64
 GitCommit: fca8040176e4e0c3d409c87d58fd8a81b16f2429
 Directory: 1.25/windows/windowsservercore-ltsc2022
 
-Tags: 1.25.3-nanoserver-ltsc2025,1.25-nanoserver-ltsc2025,1-nanoserver-ltsc2025,nanoserver-ltsc2025,1.25.3-nanoserver,1.25-nanoserver,1-nanoserver,nanoserver
+Tags: 1.25.3-nanoserver-ltsc2025,1.25.3-nanoserver
 Architectures: windows-amd64
 GitCommit: fca8040176e4e0c3d409c87d58fd8a81b16f2429
 Directory: 1.25/windows/nanoserver-ltsc2025
 
-Tags: 1.25.3-nanoserver-ltsc2022,1.25-nanoserver-ltsc2022,1-nanoserver-ltsc2022,nanoserver-ltsc2022
+Tags: 1.25.3-nanoserver-ltsc2022
 Architectures: windows-amd64
 GitCommit: fca8040176e4e0c3d409c87d58fd8a81b16f2429
 Directory: 1.25/windows/nanoserver-ltsc2022
 
-Tags: 1.24.9-trixie,1.24-trixie,1.24.9,1.24
+Tags: 1.24.9-trixie,1.24.9
 Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 411dd143e04f39d9664f81d5284d7dd55949dbde
 Directory: 1.24/trixie
 
-Tags: 1.24.9-bookworm,1.24-bookworm
+Tags: 1.24.9-bookworm
 Architectures: amd64,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: 411dd143e04f39d9664f81d5284d7dd55949dbde
 Directory: 1.24/bookworm
 
-Tags: 1.24.9-alpine3.22,1.24-alpine3.22,1.24.9-alpine,1.24-alpine
+Tags: 1.24.9-alpine3.22,1.24.9-alpine
 Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 411dd143e04f39d9664f81d5284d7dd55949dbde
 Directory: 1.24/alpine3.22
 
-Tags: 1.24.9-alpine3.21,1.24-alpine3.21
+Tags: 1.24.9-alpine3.21
 Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 411dd143e04f39d9664f81d5284d7dd55949dbde
 Directory: 1.24/alpine3.21
 
-Tags: 1.24.9-windowsservercore-ltsc2025,1.24-windowsservercore-ltsc2025,1.24.9-windowsservercore,1.24-windowsservercore
+Tags: 1.24.9-windowsservercore-ltsc2025,1.24.9-windowsservercore
 Architectures: windows-amd64
 GitCommit: 411dd143e04f39d9664f81d5284d7dd55949dbde
 Directory: 1.24/windows/windowsservercore-ltsc2025
 
-Tags: 1.24.9-windowsservercore-ltsc2022,1.24-windowsservercore-ltsc2022
+Tags: 1.24.9-windowsservercore-ltsc2022
 Architectures: windows-amd64
 GitCommit: 411dd143e04f39d9664f81d5284d7dd55949dbde
 Directory: 1.24/windows/windowsservercore-ltsc2022
 
-Tags: 1.24.9-nanoserver-ltsc2025,1.24-nanoserver-ltsc2025,1.24.9-nanoserver,1.24-nanoserver
+Tags: 1.24.9-nanoserver-ltsc2025,1.24.9-nanoserver
 Architectures: windows-amd64
 GitCommit: 411dd143e04f39d9664f81d5284d7dd55949dbde
 Directory: 1.24/windows/nanoserver-ltsc2025
 
-Tags: 1.24.9-nanoserver-ltsc2022,1.24-nanoserver-ltsc2022
+Tags: 1.24.9-nanoserver-ltsc2022
 Architectures: windows-amd64
 GitCommit: 411dd143e04f39d9664f81d5284d7dd55949dbde
 Directory: 1.24/windows/nanoserver-ltsc2022
 
-Tags: tip-20251026-trixie,tip-trixie,tip-20251026,tip
+Tags: tip-20251026-trixie,tip-20251026
 Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 24849f5e551b991d9c82c6e2c55975267bd9d2e5
 Directory: tip/trixie
 
-Tags: tip-20251026-bookworm,tip-bookworm
+Tags: tip-20251026-bookworm
 Architectures: amd64,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: 24849f5e551b991d9c82c6e2c55975267bd9d2e5
 Directory: tip/bookworm
 
-Tags: tip-20251026-alpine3.22,tip-alpine3.22,tip-20251026-alpine,tip-alpine
+Tags: tip-20251026-alpine3.22,tip-20251026-alpine
 Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 24849f5e551b991d9c82c6e2c55975267bd9d2e5
 Directory: tip/alpine3.22
 
-Tags: tip-20251026-alpine3.21,tip-alpine3.21
+Tags: tip-20251026-alpine3.21
 Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 24849f5e551b991d9c82c6e2c55975267bd9d2e5
 Directory: tip/alpine3.21
