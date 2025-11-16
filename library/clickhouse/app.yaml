@@ -12,18 +12,18 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: server/25.10.1.3832
+  Directory: server/25.10.2.65
   File: Dockerfile.ubuntu
-  GitCommit: b254f18990635545f939c8c6bd542c2d31878427
+  GitCommit: 2dbcfdb9cc31c10427dacd9a41484fda9dbc2426
   Tags:
   - latest
   - jammy
   - "25.10"
   - 25.10-jammy
-  - 25.10.1
-  - 25.10.1-jammy
-  - 25.10.1.3832
-  - 25.10.1.3832-jammy
+  - 25.10.2
+  - 25.10.2-jammy
+  - 25.10.2.65
+  - 25.10.2.65-jammy
 - Architectures:
     amd64:
       Architecture: amd64
@@ -39,7 +39,7 @@ Blocks:
       GitFetch: ""
   Directory: server/25.9.5.21
   File: Dockerfile.ubuntu
-  GitCommit: b254f18990635545f939c8c6bd542c2d31878427
+  GitCommit: 2dbcfdb9cc31c10427dacd9a41484fda9dbc2426
   Tags:
   - "25.9"
   - 25.9-jammy
@@ -62,7 +62,7 @@ Blocks:
       GitFetch: ""
   Directory: server/25.8.11.66
   File: Dockerfile.ubuntu
-  GitCommit: b254f18990635545f939c8c6bd542c2d31878427
+  GitCommit: 2dbcfdb9cc31c10427dacd9a41484fda9dbc2426
   Tags:
   - lts
   - lts-jammy
@@ -87,7 +87,7 @@ Blocks:
       GitFetch: ""
   Directory: server/25.3.8.23
   File: Dockerfile.ubuntu
-  GitCommit: b254f18990635545f939c8c6bd542c2d31878427
+  GitCommit: 2dbcfdb9cc31c10427dacd9a41484fda9dbc2426
   Tags:
   - "25.3"
   - 25.3-jammy
@@ -95,6 +95,27 @@ Blocks:
   - 25.3.8-jammy
   - 25.3.8.23
   - 25.3.8.23-jammy
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: server/25.10.1.3832
+  File: Dockerfile.ubuntu
+  GitCommit: b254f18990635545f939c8c6bd542c2d31878427
+  Tags:
+  - 25.10.1
+  - 25.10.1-jammy
+  - 25.10.1.3832
+  - 25.10.1.3832-jammy
 - Architectures:
     amd64:
       Architecture: amd64
@@ -2018,6 +2039,10 @@ KnownTags:
   25.10.1-jammy: {}
   25.10.1.3832: {}
   25.10.1.3832-jammy: {}
+  25.10.2: {}
+  25.10.2-jammy: {}
+  25.10.2.65: {}
+  25.10.2.65-jammy: {}
   focal: {}
   focal-lts: {}
   jammy: {}

@@ -12,13 +12,31 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+  Directory: alpine/3.12.6.1
+  File: ""
+  GitCommit: f27c35fb66fe7040ea0cad2dce4688dd06e07dba
+  Tags:
+  - "3.12"
+  - 3.12.6.1
+  - latest
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
   Directory: alpine/3.12.6
   File: ""
   GitCommit: 40964db5669220f47a2168249f2f24bc38499df5
   Tags:
-  - "3.12"
   - 3.12.6
-  - latest
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1243,5 +1261,6 @@ KnownTags:
   3.12.5: {}
   3.12.5.2: {}
   3.12.6: {}
+  3.12.6.1: {}
   latest: {}
 Name: arangodb
