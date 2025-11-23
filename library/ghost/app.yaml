@@ -26,10 +26,10 @@ Blocks:
       GitFetch: ""
   Directory: 6/bookworm
   File: ""
-  GitCommit: 266fb5d0fca5b33a10411634f921f3067758ced4
+  GitCommit: 3eecd713770d3848dab020088ececf23dd518076
   Tags:
-  - 6.8.0-bookworm
-  - 6.8.0
+  - 6.8.1-bookworm
+  - 6.8.1
   - 6.8-bookworm
   - "6.8"
   - 6-bookworm
@@ -51,10 +51,10 @@ Blocks:
       GitFetch: ""
   Directory: 6/alpine3.22
   File: ""
-  GitCommit: 266fb5d0fca5b33a10411634f921f3067758ced4
+  GitCommit: 3eecd713770d3848dab020088ececf23dd518076
   Tags:
-  - 6.8.0-alpine3.22
-  - 6.8.0-alpine
+  - 6.8.1-alpine3.22
+  - 6.8.1-alpine
   - 6.8-alpine3.22
   - 6.8-alpine
   - 6-alpine3.22
@@ -88,7 +88,7 @@ Blocks:
       GitFetch: ""
   Directory: 5/bookworm
   File: ""
-  GitCommit: 266fb5d0fca5b33a10411634f921f3067758ced4
+  GitCommit: 3eecd713770d3848dab020088ececf23dd518076
   Tags:
   - 5.130.5-bookworm
   - 5.130.5
@@ -111,7 +111,7 @@ Blocks:
       GitFetch: ""
   Directory: 5/alpine3.22
   File: ""
-  GitCommit: 266fb5d0fca5b33a10411634f921f3067758ced4
+  GitCommit: 3eecd713770d3848dab020088ececf23dd518076
   Tags:
   - 5.130.5-alpine3.22
   - 5.130.5-alpine
@@ -119,6 +119,56 @@ Blocks:
   - 5.130-alpine
   - 5-alpine3.22
   - 5-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 6/bookworm
+  File: ""
+  GitCommit: 266fb5d0fca5b33a10411634f921f3067758ced4
+  Tags:
+  - 6.8.0-bookworm
+  - 6.8.0
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 6/alpine3.22
+  File: ""
+  GitCommit: 266fb5d0fca5b33a10411634f921f3067758ced4
+  Tags:
+  - 6.8.0-alpine3.22
+  - 6.8.0-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -45051,6 +45101,10 @@ KnownTags:
   6.8.0-alpine: {}
   6.8.0-alpine3.22: {}
   6.8.0-bookworm: {}
+  6.8.1: {}
+  6.8.1-alpine: {}
+  6.8.1-alpine3.22: {}
+  6.8.1-bookworm: {}
   alpine: {}
   alpine3.22: {}
   bookworm: {}
