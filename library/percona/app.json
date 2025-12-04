@@ -174,6 +174,8 @@
     "8.0.42-33-centos": {},
     "8.0.43-34": {},
     "8.0.43-34-centos": {},
+    "8.0.44-35": {},
+    "8.0.44-35-centos": {},
     "centos": {},
     "jessie": {},
     "latest": {},
@@ -234,6 +236,7 @@
     "ps-8.0.41-32": {},
     "ps-8.0.42-33": {},
     "ps-8.0.43-34": {},
+    "ps-8.0.44-35": {},
     "psmdb-3.6": {},
     "psmdb-3.6.10": {},
     "psmdb-3.6.11": {},
@@ -318,8 +321,10 @@
     "psmdb-7.0.18": {},
     "psmdb-7.0.22": {},
     "psmdb-7.0.24": {},
+    "psmdb-7.0.26": {},
     "psmdb-8.0": {},
     "psmdb-8.0.12": {},
+    "psmdb-8.0.16": {},
     "psmdb-8.0.4": {},
     "psmdb-8.0.8": {},
     "stretch": {}
@@ -327,38 +332,38 @@
   "Blocks": [
     {
       "Tags": [
-        "8.0.43-34-centos",
+        "8.0.44-35-centos",
         "8.0-centos",
         "8-centos",
-        "8.0.43-34",
+        "8.0.44-35",
         "8.0",
         "8",
-        "ps-8.0.43-34",
+        "ps-8.0.44-35",
         "ps-8.0",
         "ps-8"
       ],
       "Architectures": null,
-      "GitCommit": "1a5a6f51cda0ad561e5afcbd9b1ec9e2dd3564d1",
+      "GitCommit": "cb6b91407fb88415d55554bc103d6e9fb128e221",
       "Directory": "percona-server-8.0",
       "File": "Dockerfile-dockerhub"
     },
     {
       "Tags": [
-        "psmdb-8.0.12",
+        "psmdb-8.0.16",
         "psmdb-8.0"
       ],
       "Architectures": null,
-      "GitCommit": "725e757d51b83f0a0a9c3b5242f6be02066e0a9b",
+      "GitCommit": "5b32d0ed9fca21b391cb2fa453ac85602120f1f6",
       "Directory": "percona-server-mongodb-8.0",
       "File": "Dockerfile-dockerhub"
     },
     {
       "Tags": [
-        "psmdb-7.0.24",
+        "psmdb-7.0.26",
         "psmdb-7.0"
       ],
       "Architectures": null,
-      "GitCommit": "725e757d51b83f0a0a9c3b5242f6be02066e0a9b",
+      "GitCommit": "5b32d0ed9fca21b391cb2fa453ac85602120f1f6",
       "Directory": "percona-server-mongodb-7.0",
       "File": "Dockerfile-dockerhub"
     },
@@ -370,6 +375,35 @@
       "Architectures": null,
       "GitCommit": "c37d7c35b5d3ddeacdf8b6c837e7735c14ace89b",
       "Directory": "percona-server-mongodb-6.0",
+      "File": "Dockerfile-dockerhub"
+    },
+    {
+      "Tags": [
+        "psmdb-8.0.12"
+      ],
+      "Architectures": null,
+      "GitCommit": "725e757d51b83f0a0a9c3b5242f6be02066e0a9b",
+      "Directory": "percona-server-mongodb-8.0",
+      "File": "Dockerfile-dockerhub"
+    },
+    {
+      "Tags": [
+        "psmdb-7.0.24"
+      ],
+      "Architectures": null,
+      "GitCommit": "725e757d51b83f0a0a9c3b5242f6be02066e0a9b",
+      "Directory": "percona-server-mongodb-7.0",
+      "File": "Dockerfile-dockerhub"
+    },
+    {
+      "Tags": [
+        "8.0.43-34-centos",
+        "8.0.43-34",
+        "ps-8.0.43-34"
+      ],
+      "Architectures": null,
+      "GitCommit": "1a5a6f51cda0ad561e5afcbd9b1ec9e2dd3564d1",
+      "Directory": "percona-server-8.0",
       "File": "Dockerfile-dockerhub"
     },
     {

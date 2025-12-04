@@ -147,14 +147,14 @@ Blocks:
       GitFetch: ""
   Directory: 16/mysql-tomcat
   File: ""
-  GitCommit: 62a954917dc052a551a79ffb0cc2b5397fa0c4ea
+  GitCommit: e0b607a585020256b8517302ac7ad2cb1e6e0e1e
   Tags:
   - "16"
   - "16.10"
-  - 16.10.14
+  - 16.10.15
   - 16-mysql-tomcat
   - 16.10-mysql-tomcat
-  - 16.10.14-mysql-tomcat
+  - 16.10.15-mysql-tomcat
   - lts-mysql-tomcat
   - lts-mysql
   - lts
@@ -173,11 +173,11 @@ Blocks:
       GitFetch: ""
   Directory: 16/postgres-tomcat
   File: ""
-  GitCommit: 62a954917dc052a551a79ffb0cc2b5397fa0c4ea
+  GitCommit: e0b607a585020256b8517302ac7ad2cb1e6e0e1e
   Tags:
   - 16-postgres-tomcat
   - 16.10-postgres-tomcat
-  - 16.10.14-postgres-tomcat
+  - 16.10.15-postgres-tomcat
   - lts-postgres-tomcat
   - lts-postgres
 - Architectures:
@@ -195,13 +195,68 @@ Blocks:
       GitFetch: ""
   Directory: 16/mariadb-tomcat
   File: ""
-  GitCommit: 62a954917dc052a551a79ffb0cc2b5397fa0c4ea
+  GitCommit: e0b607a585020256b8517302ac7ad2cb1e6e0e1e
   Tags:
   - 16-mariadb-tomcat
   - 16.10-mariadb-tomcat
-  - 16.10.14-mariadb-tomcat
+  - 16.10.15-mariadb-tomcat
   - lts-mariadb-tomcat
   - lts-mariadb
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 16/mysql-tomcat
+  File: ""
+  GitCommit: 62a954917dc052a551a79ffb0cc2b5397fa0c4ea
+  Tags:
+  - 16.10.14
+  - 16.10.14-mysql-tomcat
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 16/postgres-tomcat
+  File: ""
+  GitCommit: 62a954917dc052a551a79ffb0cc2b5397fa0c4ea
+  Tags:
+  - 16.10.14-postgres-tomcat
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 16/mariadb-tomcat
+  File: ""
+  GitCommit: 62a954917dc052a551a79ffb0cc2b5397fa0c4ea
+  Tags:
+  - 16.10.14-mariadb-tomcat
 - Architectures:
     amd64:
       Architecture: amd64
@@ -12029,6 +12084,10 @@ KnownTags:
   16.10.14-mariadb-tomcat: {}
   16.10.14-mysql-tomcat: {}
   16.10.14-postgres-tomcat: {}
+  16.10.15: {}
+  16.10.15-mariadb-tomcat: {}
+  16.10.15-mysql-tomcat: {}
+  16.10.15-postgres-tomcat: {}
   "17": {}
   17-mariadb-tomcat: {}
   17-mysql-tomcat: {}

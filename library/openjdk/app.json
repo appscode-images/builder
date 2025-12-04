@@ -14937,6 +14937,36 @@
     "26-ea-25-windowsservercore": {},
     "26-ea-25-windowsservercore-ltsc2022": {},
     "26-ea-25-windowsservercore-ltsc2025": {},
+    "26-ea-26": {},
+    "26-ea-26-bookworm": {},
+    "26-ea-26-jdk": {},
+    "26-ea-26-jdk-bookworm": {},
+    "26-ea-26-jdk-nanoserver": {},
+    "26-ea-26-jdk-nanoserver-ltsc2022": {},
+    "26-ea-26-jdk-nanoserver-ltsc2025": {},
+    "26-ea-26-jdk-oracle": {},
+    "26-ea-26-jdk-oraclelinux8": {},
+    "26-ea-26-jdk-oraclelinux9": {},
+    "26-ea-26-jdk-slim": {},
+    "26-ea-26-jdk-slim-bookworm": {},
+    "26-ea-26-jdk-slim-trixie": {},
+    "26-ea-26-jdk-trixie": {},
+    "26-ea-26-jdk-windowsservercore": {},
+    "26-ea-26-jdk-windowsservercore-ltsc2022": {},
+    "26-ea-26-jdk-windowsservercore-ltsc2025": {},
+    "26-ea-26-nanoserver": {},
+    "26-ea-26-nanoserver-ltsc2022": {},
+    "26-ea-26-nanoserver-ltsc2025": {},
+    "26-ea-26-oracle": {},
+    "26-ea-26-oraclelinux8": {},
+    "26-ea-26-oraclelinux9": {},
+    "26-ea-26-slim": {},
+    "26-ea-26-slim-bookworm": {},
+    "26-ea-26-slim-trixie": {},
+    "26-ea-26-trixie": {},
+    "26-ea-26-windowsservercore": {},
+    "26-ea-26-windowsservercore-ltsc2022": {},
+    "26-ea-26-windowsservercore-ltsc2025": {},
     "26-ea-3": {},
     "26-ea-3-bookworm": {},
     "26-ea-3-bullseye": {},
@@ -16484,18 +16514,274 @@
   "Blocks": [
     {
       "Tags": [
-        "26-ea-25-jdk-oraclelinux9",
-        "26-ea-25-oraclelinux9",
+        "26-ea-26-jdk-oraclelinux9",
+        "26-ea-26-oraclelinux9",
         "26-ea-jdk-oraclelinux9",
         "26-ea-oraclelinux9",
-        "26-ea-25-jdk-oracle",
-        "26-ea-25-oracle",
+        "26-ea-26-jdk-oracle",
+        "26-ea-26-oracle",
         "26-ea-jdk-oracle",
         "26-ea-oracle",
-        "26-ea-25-jdk",
-        "26-ea-25",
+        "26-ea-26-jdk",
+        "26-ea-26",
         "26-ea-jdk",
         "26-ea"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f17fabbdd8db9ae5976042d73470d5dce20533a0",
+      "Directory": "26/oraclelinux9",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "26-ea-26-jdk-oraclelinux8",
+        "26-ea-26-oraclelinux8",
+        "26-ea-jdk-oraclelinux8",
+        "26-ea-oraclelinux8"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f17fabbdd8db9ae5976042d73470d5dce20533a0",
+      "Directory": "26/oraclelinux8",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "26-ea-26-jdk-trixie",
+        "26-ea-26-trixie",
+        "26-ea-jdk-trixie",
+        "26-ea-trixie"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f17fabbdd8db9ae5976042d73470d5dce20533a0",
+      "Directory": "26/trixie",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "26-ea-26-jdk-slim-trixie",
+        "26-ea-26-slim-trixie",
+        "26-ea-jdk-slim-trixie",
+        "26-ea-slim-trixie",
+        "26-ea-26-jdk-slim",
+        "26-ea-26-slim",
+        "26-ea-jdk-slim",
+        "26-ea-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f17fabbdd8db9ae5976042d73470d5dce20533a0",
+      "Directory": "26/slim-trixie",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "26-ea-26-jdk-bookworm",
+        "26-ea-26-bookworm",
+        "26-ea-jdk-bookworm",
+        "26-ea-bookworm"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f17fabbdd8db9ae5976042d73470d5dce20533a0",
+      "Directory": "26/bookworm",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "26-ea-26-jdk-slim-bookworm",
+        "26-ea-26-slim-bookworm",
+        "26-ea-jdk-slim-bookworm",
+        "26-ea-slim-bookworm"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f17fabbdd8db9ae5976042d73470d5dce20533a0",
+      "Directory": "26/slim-bookworm",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "26-ea-26-jdk-windowsservercore-ltsc2025",
+        "26-ea-26-windowsservercore-ltsc2025",
+        "26-ea-jdk-windowsservercore-ltsc2025",
+        "26-ea-windowsservercore-ltsc2025",
+        "26-ea-26-jdk-windowsservercore",
+        "26-ea-26-windowsservercore",
+        "26-ea-jdk-windowsservercore",
+        "26-ea-windowsservercore"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f17fabbdd8db9ae5976042d73470d5dce20533a0",
+      "Directory": "26/windows/windowsservercore-ltsc2025",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "26-ea-26-jdk-windowsservercore-ltsc2022",
+        "26-ea-26-windowsservercore-ltsc2022",
+        "26-ea-jdk-windowsservercore-ltsc2022",
+        "26-ea-windowsservercore-ltsc2022"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f17fabbdd8db9ae5976042d73470d5dce20533a0",
+      "Directory": "26/windows/windowsservercore-ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "26-ea-26-jdk-nanoserver-ltsc2025",
+        "26-ea-26-nanoserver-ltsc2025",
+        "26-ea-jdk-nanoserver-ltsc2025",
+        "26-ea-nanoserver-ltsc2025",
+        "26-ea-26-jdk-nanoserver",
+        "26-ea-26-nanoserver",
+        "26-ea-jdk-nanoserver",
+        "26-ea-nanoserver"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f17fabbdd8db9ae5976042d73470d5dce20533a0",
+      "Directory": "26/windows/nanoserver-ltsc2025",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "26-ea-26-jdk-nanoserver-ltsc2022",
+        "26-ea-26-nanoserver-ltsc2022",
+        "26-ea-jdk-nanoserver-ltsc2022",
+        "26-ea-nanoserver-ltsc2022"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f17fabbdd8db9ae5976042d73470d5dce20533a0",
+      "Directory": "26/windows/nanoserver-ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "26-ea-25-jdk-oraclelinux9",
+        "26-ea-25-oraclelinux9",
+        "26-ea-25-jdk-oracle",
+        "26-ea-25-oracle",
+        "26-ea-25-jdk",
+        "26-ea-25"
       ],
       "Architectures": {
         "amd64": {
@@ -16520,9 +16806,7 @@
     {
       "Tags": [
         "26-ea-25-jdk-oraclelinux8",
-        "26-ea-25-oraclelinux8",
-        "26-ea-jdk-oraclelinux8",
-        "26-ea-oraclelinux8"
+        "26-ea-25-oraclelinux8"
       ],
       "Architectures": {
         "amd64": {
@@ -16547,9 +16831,7 @@
     {
       "Tags": [
         "26-ea-25-jdk-trixie",
-        "26-ea-25-trixie",
-        "26-ea-jdk-trixie",
-        "26-ea-trixie"
+        "26-ea-25-trixie"
       ],
       "Architectures": {
         "amd64": {
@@ -16575,12 +16857,8 @@
       "Tags": [
         "26-ea-25-jdk-slim-trixie",
         "26-ea-25-slim-trixie",
-        "26-ea-jdk-slim-trixie",
-        "26-ea-slim-trixie",
         "26-ea-25-jdk-slim",
-        "26-ea-25-slim",
-        "26-ea-jdk-slim",
-        "26-ea-slim"
+        "26-ea-25-slim"
       ],
       "Architectures": {
         "amd64": {
@@ -16605,9 +16883,7 @@
     {
       "Tags": [
         "26-ea-25-jdk-bookworm",
-        "26-ea-25-bookworm",
-        "26-ea-jdk-bookworm",
-        "26-ea-bookworm"
+        "26-ea-25-bookworm"
       ],
       "Architectures": {
         "amd64": {
@@ -16632,9 +16908,7 @@
     {
       "Tags": [
         "26-ea-25-jdk-slim-bookworm",
-        "26-ea-25-slim-bookworm",
-        "26-ea-jdk-slim-bookworm",
-        "26-ea-slim-bookworm"
+        "26-ea-25-slim-bookworm"
       ],
       "Architectures": {
         "amd64": {
@@ -16660,12 +16934,8 @@
       "Tags": [
         "26-ea-25-jdk-windowsservercore-ltsc2025",
         "26-ea-25-windowsservercore-ltsc2025",
-        "26-ea-jdk-windowsservercore-ltsc2025",
-        "26-ea-windowsservercore-ltsc2025",
         "26-ea-25-jdk-windowsservercore",
-        "26-ea-25-windowsservercore",
-        "26-ea-jdk-windowsservercore",
-        "26-ea-windowsservercore"
+        "26-ea-25-windowsservercore"
       ],
       "Architectures": {
         "windows-amd64": {
@@ -16683,9 +16953,7 @@
     {
       "Tags": [
         "26-ea-25-jdk-windowsservercore-ltsc2022",
-        "26-ea-25-windowsservercore-ltsc2022",
-        "26-ea-jdk-windowsservercore-ltsc2022",
-        "26-ea-windowsservercore-ltsc2022"
+        "26-ea-25-windowsservercore-ltsc2022"
       ],
       "Architectures": {
         "windows-amd64": {
@@ -16704,12 +16972,8 @@
       "Tags": [
         "26-ea-25-jdk-nanoserver-ltsc2025",
         "26-ea-25-nanoserver-ltsc2025",
-        "26-ea-jdk-nanoserver-ltsc2025",
-        "26-ea-nanoserver-ltsc2025",
         "26-ea-25-jdk-nanoserver",
-        "26-ea-25-nanoserver",
-        "26-ea-jdk-nanoserver",
-        "26-ea-nanoserver"
+        "26-ea-25-nanoserver"
       ],
       "Architectures": {
         "windows-amd64": {
@@ -16727,9 +16991,7 @@
     {
       "Tags": [
         "26-ea-25-jdk-nanoserver-ltsc2022",
-        "26-ea-25-nanoserver-ltsc2022",
-        "26-ea-jdk-nanoserver-ltsc2022",
-        "26-ea-nanoserver-ltsc2022"
+        "26-ea-25-nanoserver-ltsc2022"
       ],
       "Architectures": {
         "windows-amd64": {
