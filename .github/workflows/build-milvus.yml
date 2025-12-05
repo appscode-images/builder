@@ -73,13 +73,18 @@ jobs:
     #   uses: lhotari/action-upterm@v1
 
     # Build non-root Milvus image from official base
-    # Uses library/milvus/Dockerfile which adds non-root user support
+    # Uses https://github.com/appscode-images/milvus/blob/master/Dockerfile which adds non-root user support
     - name: Build
       run: |
-        cd library/milvus
+        # Clone the appscode-images/milvus repo containing the Dockerfile
+        git clone https://github.com/appscode-images/milvus.git
+        cd milvus
+        git checkout master
+        
+        # Generate date tag (e.g., 20251205)
         DATE_TAG=$(date -u +'%Y%m%d')
         
-        # Build multi-arch image with non-root user
+        # Build and push MULTI-ARCH image (amd64 + arm64 combined)
         docker buildx build \
           --platform linux/amd64,linux/arm64 \
           --build-arg MILVUS_VERSION=${{ matrix.tag }} \
