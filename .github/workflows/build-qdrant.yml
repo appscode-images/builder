@@ -65,17 +65,10 @@ jobs:
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
 
-    # Use official unprivileged image (already runs as non-root user)
+    # Build from source using Qdrant's Dockerfile with USER_ID=1000 for non-root
     - name: Build
       run: |
-        SOURCE_IMAGE="qdrant/qdrant:v${{ matrix.tag }}-unprivileged"
-        DEST_IMAGE="ghcr.io/appscode-images/daily/qdrant:${{ matrix.tag }}_$(date -u +'%Y%m%d')"
-        
-        # Copy the unprivileged image to our registry
-        crane copy ${SOURCE_IMAGE} ${DEST_IMAGE}
-        
-        # Also tag without date for easy reference
-        crane copy ${SOURCE_IMAGE} ghcr.io/appscode-images/daily/qdrant:${{ matrix.tag }}
+        go run cmd/build-image/main.go --name=qdrant --tag=${{ matrix.tag }}
 
 #  report:
 #    name: Report
@@ -143,4 +136,3 @@ jobs:
 #          git pull --rebase -s ours origin master
 #          git push origin HEAD
 #        fi
-#
