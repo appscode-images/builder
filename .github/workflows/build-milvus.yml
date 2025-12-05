@@ -1,122 +1,4 @@
-package main
-
-import (
-	"fmt"
-	"os"
-	"path/filepath"
-	"strings"
-
-	"github.com/appscode-images/builder/lib"
-	flag "github.com/spf13/pflag"
-	"gomodules.xyz/sets"
-	"k8s.io/klog/v2"
-)
-
-var skipApps sets.String
-
-func main() {
-	skipList := []string{
-		"ferretdb",
-		"milvus",
-		"opensearch",
-		"opensearch-dashboards",
-	}
-	flag.StringSliceVar(&skipList, "skip", skipList, "Skip official image (because manually maintained)")
-	flag.Parse()
-
-	skipApps = sets.NewString(skipList...)
-
-	dir, err := os.Getwd()
-	if err != nil {
-		panic(err)
-	}
-
-	if err := CleanupOldWorkflows(dir); err != nil {
-		panic(err)
-	}
-	if err := GenerateWorkflows(dir); err != nil {
-		panic(err)
-	}
-}
-
-func CleanupOldWorkflows(dir string) error {
-	wfDir := filepath.Join(dir, ".github", "workflows")
-	entries, err := os.ReadDir(wfDir)
-	if err != nil {
-		return err
-	}
-	for _, entry := range entries {
-		if entry.IsDir() {
-			continue
-		}
-		if strings.HasPrefix(entry.Name(), "build-") {
-			appName := strings.TrimSuffix(strings.TrimPrefix(entry.Name(), "build-"), filepath.Ext(entry.Name()))
-			if skipApps.Len() > 0 && skipApps.Has(appName) {
-				continue
-			}
-
-			if err = os.Remove(filepath.Join(wfDir, entry.Name())); err != nil {
-				return err
-			}
-		}
-	}
-	return nil
-}
-
-func GenerateWorkflows(dir string) error {
-	libDir := filepath.Join(dir, "library")
-	entries, err := os.ReadDir(libDir)
-	if err != nil {
-		return err
-	}
-	for _, entry := range entries {
-		if !entry.IsDir() {
-			continue
-		}
-
-		appName := entry.Name()
-		if skipApps.Len() > 0 && skipApps.Has(appName) {
-			klog.InfoS("skipping", "app", appName)
-			continue
-		}
-
-		tags, err := lib.ListBuildTags(dir, entry.Name())
-		if err != nil {
-			if os.IsNotExist(err) {
-				continue
-			}
-			return err
-		}
-		if len(tags) == 0 {
-			continue
-		}
-
-		wfDir := filepath.Join(dir, ".github", "workflows")
-		if err := os.MkdirAll(wfDir, 0755); err != nil {
-			return err
-		}
-		wfFile := filepath.Join(wfDir, fmt.Sprintf("build-%s.yml", entry.Name()))
-
-		wfYAML := strings.ReplaceAll(wf, "$name$", entry.Name())
-		wfYAML = strings.ReplaceAll(wfYAML, "$runner$", selectRunner(entry.Name()))
-		wfYAML = strings.ReplaceAll(wfYAML, "$tags$", strings.Join(tags, ", "))
-		if err := os.WriteFile(wfFile, []byte(wfYAML), 0644); err != nil {
-			return err
-		}
-	}
-	return nil
-}
-
-func selectRunner(name string) string {
-	switch name {
-	case "ignite", "node", "postgres", "memcached", "solr":
-		return "firecracker"
-	default:
-		return "ubuntu-latest"
-	}
-}
-
-const wf = `name: build-$name$
+name: build-milvus
 
 on:
   schedule:
@@ -130,11 +12,11 @@ concurrency:
 jobs:
   build:
     name: Build
-    runs-on: $runner$
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
-        tag: [$tags$]
+        tag: [2.6.1, 2.6.2, 2.6.7]
     steps:
     - uses: actions/checkout@v4
 
@@ -190,13 +72,39 @@ jobs:
     # - name: Setup upterm session
     #   uses: lhotari/action-upterm@v1
 
+    # Build non-root Milvus image from official base
+    # Uses https://github.com/appscode-images/milvus/blob/master/Dockerfile which adds non-root user support
     - name: Build
       run: |
-        go run cmd/build-image/main.go --name=$name$ --tag=${{ matrix.tag }}
+        # Clone the appscode-images/milvus repo containing the Dockerfile
+        git clone https://github.com/appscode-images/milvus.git
+        cd milvus
+        git checkout master
+        
+        # Generate date tag (e.g., 20251205)
+        DATE_TAG=$(date -u +'%Y%m%d')
+        
+        # Build and push MULTI-ARCH image (amd64 + arm64 combined)
+        docker buildx build \
+          --platform linux/amd64,linux/arm64 \
+          --build-arg MILVUS_VERSION=${{ matrix.tag }} \
+          --tag ghcr.io/appscode-images/daily/milvus:${{ matrix.tag }}_${DATE_TAG} \
+          --push \
+          .
+        
+        # Also build and push individual arch images for compatibility
+        for arch in amd64 arm64; do
+          docker buildx build \
+            --platform linux/${arch} \
+            --build-arg MILVUS_VERSION=${{ matrix.tag }} \
+            --tag ghcr.io/appscode-images/daily/milvus:${{ matrix.tag }}_${DATE_TAG}_linux_${arch} \
+            --push \
+            .
+        done
 
 #  report:
 #    name: Report
-#    runs-on: $runner$
+#    runs-on: ubuntu-latest
 #    needs: build
 #    if: always()
 #    steps:
@@ -243,8 +151,8 @@ jobs:
 #        # wget https://github.com/aquasecurity/trivy/releases/download/v0.18.3/trivy_0.18.3_Linux-64bit.deb
 #        # sudo dpkg -i trivy_0.18.3_Linux-64bit.deb
 #        sudo apt-get install -y --no-install-recommends wget apt-transport-https gnupg lsb-release
-#        wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | sudo apt-key add -
-#        echo deb https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main | sudo tee -a /etc/apt/sources.list.d/trivy.list
+#        wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | gpg --dearmor | sudo tee /usr/share/keyrings/trivy.gpg > /dev/null
+#        echo "deb [signed-by=/usr/share/keyrings/trivy.gpg] https://aquasecurity.github.io/trivy-repo/deb generic main" | sudo tee -a /etc/apt/sources.list.d/trivy.list
 #        sudo apt-get update
 #        sudo apt-get install -y --no-install-recommends trivy
 #
@@ -254,16 +162,16 @@ jobs:
 #        SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
 #        SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
 #      run: |
-#        go run cmd/mail-report/main.go --name=$name$
+#        go run cmd/mail-report/main.go --name=milvus
 #
 #    - name: Update repo
 #      run: |
 #        git add --all
 #        if [[ $(git status --porcelain) ]]; then
-#          git commit -s -a -m "update $name$ images $(date --rfc-3339=date)"
+#          git commit -s -a -m "update milvus images $(date --rfc-3339=date)"
 #          git fetch origin
 #          # https://git-scm.com/docs/merge-strategies
 #          git pull --rebase -s ours origin master
 #          git push origin HEAD
 #        fi
-`
+
