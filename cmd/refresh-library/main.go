@@ -32,6 +32,7 @@ func main() {
 		"ferretdb",
 		"kibana",
 		"logstash",
+		"milvus",
 		"opensearch",
 		"opensearch-dashboards",
 		"valkey",
