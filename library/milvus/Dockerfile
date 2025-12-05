@@ -14,6 +14,9 @@ RUN groupadd --gid 1000 milvus && \
 RUN chown -R 1000:1000 /milvus/bin /milvus/lib && \
     chmod -R 755 /milvus/bin /milvus/lib
 
+# Allow 'Others' (user 1000) to traverse (enter) the configs folder
+RUN chmod o+rx /milvus/configs
+
 # Switch to non-root user
 USER 1000:1000
 
