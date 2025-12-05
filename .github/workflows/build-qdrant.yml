@@ -65,78 +65,82 @@ jobs:
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
 
-    # Copy official Qdrant unprivileged image (already non-root)
+    # Use official unprivileged image (already runs as non-root user)
     - name: Build
       run: |
-        DATE_TAG=$(date -u +'%Y%m%d')
+        SOURCE_IMAGE="qdrant/qdrant:v${{ matrix.tag }}-unprivileged"
+        DEST_IMAGE="ghcr.io/appscode-images/daily/qdrant:${{ matrix.tag }}_$(date -u +'%Y%m%d')"
         
-        # Copy multi-arch unprivileged image from Docker Hub to GHCR
-        crane cp qdrant/qdrant:v${{ matrix.tag }}-unprivileged ghcr.io/appscode-images/daily/qdrant:${{ matrix.tag }}_${DATE_TAG}
+        # Copy the unprivileged image to our registry
+        crane copy ${SOURCE_IMAGE} ${DEST_IMAGE}
+        
+        # Also tag without date for easy reference
+        crane copy ${SOURCE_IMAGE} ghcr.io/appscode-images/daily/qdrant:${{ matrix.tag }}
 
-  report:
-    name: Report
-    runs-on: ubuntu-latest
-    needs: build
-    if: always()
-    steps:
-    - uses: actions/checkout@v4
-
-    - name: Set up Go
-      uses: actions/setup-go@v5
-      with:
-        go-version: '1.25'
-
-    - name: Prepare git
-      env:
-        GITHUB_USER: 1gtm
-        GITHUB_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
-      run: |
-        set -x
-        git config --global user.name "1gtm"
-        git config --global user.email "1gtm@appscode.com"
-        git config --global \
-          url."https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com".insteadOf \
-          "https://github.com"
-
-    - name: Set up QEMU
-      id: qemu
-      uses: docker/setup-qemu-action@v3
-
-    - name: Set up Docker Buildx
-      uses: docker/setup-buildx-action@v3
-      with:
-        platforms: linux/amd64,linux/arm64
-
-    - name: Log in to the GitHub Container registry
-      uses: docker/login-action@v2
-      with:
-        registry: ghcr.io
-        username: ${{ github.actor }}
-        password: ${{ secrets.GITHUB_TOKEN }}
-
-    - name: Install trivy
-      run: |
-        sudo apt-get install -y --no-install-recommends wget apt-transport-https gnupg lsb-release
-        wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | gpg --dearmor | sudo tee /usr/share/keyrings/trivy.gpg > /dev/null
-        echo "deb [signed-by=/usr/share/keyrings/trivy.gpg] https://aquasecurity.github.io/trivy-repo/deb generic main" | sudo tee -a /etc/apt/sources.list.d/trivy.list
-        sudo apt-get update
-        sudo apt-get install -y --no-install-recommends trivy
-
-    - name: Generate Report
-      env:
-        SMTP_ADDRESS: ${{ secrets.SMTP_ADDRESS }}
-        SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
-        SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-      run: |
-        go run cmd/mail-report/main.go --name=qdrant
-
-    - name: Update repo
-      run: |
-        git add --all
-        if [[ $(git status --porcelain) ]]; then
-          git commit -s -a -m "update qdrant images $(date --rfc-3339=date)"
-          git fetch origin
-          git pull --rebase -s ours origin master
-          git push origin HEAD
-        fi
-
+#  report:
+#    name: Report
+#    runs-on: ubuntu-latest
+#    needs: build
+#    if: always()
+#    steps:
+#    - uses: actions/checkout@v4
+#
+#    - name: Set up Go
+#      uses: actions/setup-go@v5
+#      with:
+#        go-version: '1.25'
+#
+#    - name: Prepare git
+#      env:
+#        GITHUB_USER: 1gtm
+#        GITHUB_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
+#      run: |
+#        set -x
+#        git config --global user.name "1gtm"
+#        git config --global user.email "1gtm@appscode.com"
+#        git config --global \
+#          url."https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com".insteadOf \
+#          "https://github.com"
+#
+#    - name: Set up QEMU
+#      id: qemu
+#      uses: docker/setup-qemu-action@v3
+#
+#    - name: Set up Docker Buildx
+#      uses: docker/setup-buildx-action@v3
+#      with:
+#        platforms: linux/amd64,linux/arm64
+#
+#    - name: Log in to the GitHub Container registry
+#      uses: docker/login-action@v2
+#      with:
+#        registry: ghcr.io
+#        username: ${{ github.actor }}
+#        password: ${{ secrets.GITHUB_TOKEN }}
+#
+#    - name: Install trivy
+#      run: |
+#        sudo apt-get install -y --no-install-recommends wget apt-transport-https gnupg lsb-release
+#        wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | gpg --dearmor | sudo tee /usr/share/keyrings/trivy.gpg > /dev/null
+#        echo "deb [signed-by=/usr/share/keyrings/trivy.gpg] https://aquasecurity.github.io/trivy-repo/deb generic main" | sudo tee -a /etc/apt/sources.list.d/trivy.list
+#        sudo apt-get update
+#        sudo apt-get install -y --no-install-recommends trivy
+#
+#    - name: Generate Report
+#      env:
+#        SMTP_ADDRESS: ${{ secrets.SMTP_ADDRESS }}
+#        SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+#        SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+#      run: |
+#        go run cmd/mail-report/main.go --name=qdrant
+#
+#    - name: Update repo
+#      run: |
+#        git add --all
+#        if [[ $(git status --porcelain) ]]; then
+#          git commit -s -a -m "update qdrant images $(date --rfc-3339=date)"
+#          git fetch origin
+#          git pull --rebase -s ours origin master
+#          git push origin HEAD
+#        fi
+#
