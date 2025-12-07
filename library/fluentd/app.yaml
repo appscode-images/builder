@@ -6,8 +6,14 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-    arm32v6:
-      Architecture: arm32v6
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
       Directory: ""
       File: ""
       GitCommit: ""
@@ -36,12 +42,64 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: v1.16/alpine
+  Directory: v1.16/debian
   File: ""
-  GitCommit: 505a1af75b4a4adb40d576df7b18cebab853264e
+  GitCommit: e63e0aa7b96fafc49b55e72476503e02fc8144f8
   Tags:
-  - v1.16.9-1.0
-  - v1.16-1
+  - v1.16.10-debian-1.0
+  - v1.16-debian-1
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: v1.19/debian
+  File: ""
+  GitCommit: 1e7ff373975402c1e5b10e9b2ae41e50b3d273a3
+  Tags:
+  - v1.19.1-debian-1.0
+  - v1.19-debian-1
+  - v1.19.0-1.0
+  - v1.19-1
+  - latest
 - Architectures:
     amd64:
       Architecture: amd64
@@ -90,7 +148,6 @@ Blocks:
   GitCommit: 505a1af75b4a4adb40d576df7b18cebab853264e
   Tags:
   - v1.16.9-debian-1.0
-  - v1.16-debian-1
 - Architectures:
     amd64:
       Architecture: amd64
@@ -139,10 +196,49 @@ Blocks:
   GitCommit: 42a0afa30b3821482bce1ba8e67266d745619724
   Tags:
   - v1.19.0-debian-1.0
-  - v1.19-debian-1
-  - v1.19.0-1.0
-  - v1.19-1
-  - latest
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: v1.16/alpine
+  File: ""
+  GitCommit: 505a1af75b4a4adb40d576df7b18cebab853264e
+  Tags:
+  - v1.16.9-1.0
+  - v1.16-1
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1466,6 +1562,7 @@ KnownTags:
   v1.16.8-debian-1.0: {}
   v1.16.9-1.0: {}
   v1.16.9-debian-1.0: {}
+  v1.16.10-debian-1.0: {}
   v1.17-1: {}
   v1.17-debian-1: {}
   v1.17.1-1.0: {}
@@ -1478,4 +1575,5 @@ KnownTags:
   v1.19-debian-1: {}
   v1.19.0-1.0: {}
   v1.19.0-debian-1.0: {}
+  v1.19.1-debian-1.0: {}
 Name: fluentd

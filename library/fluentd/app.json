@@ -11,6 +11,7 @@
     "v1.16-debian-1": {},
     "v1.16.0-1.0": {},
     "v1.16.0-debian-1.0": {},
+    "v1.16.10-debian-1.0": {},
     "v1.16.2-1.1": {},
     "v1.16.2-debian-1.1": {},
     "v1.16.6-1.0": {},
@@ -33,6 +34,7 @@
     "v1.19-debian-1": {},
     "v1.19.0-1.0": {},
     "v1.19.0-debian-1.0": {},
+    "v1.19.1-debian-1.0": {},
     "v1.3-1": {},
     "v1.3-debian-1": {},
     "v1.3-debian-onbuild-1": {},
@@ -61,8 +63,8 @@
   "Blocks": [
     {
       "Tags": [
-        "v1.16.9-1.0",
-        "v1.16-1"
+        "v1.16.10-debian-1.0",
+        "v1.16-debian-1"
       ],
       "Architectures": {
         "amd64": {
@@ -72,8 +74,15 @@
           "GitCommit": "",
           "File": ""
         },
-        "arm32v6": {
-          "Architecture": "arm32v6",
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
           "Directory": "",
           "GitFetch": "",
           "GitCommit": "",
@@ -108,14 +117,76 @@
           "File": ""
         }
       },
-      "GitCommit": "505a1af75b4a4adb40d576df7b18cebab853264e",
-      "Directory": "v1.16/alpine",
+      "GitCommit": "e63e0aa7b96fafc49b55e72476503e02fc8144f8",
+      "Directory": "v1.16/debian",
       "File": ""
     },
     {
       "Tags": [
-        "v1.16.9-debian-1.0",
-        "v1.16-debian-1"
+        "v1.19.1-debian-1.0",
+        "v1.19-debian-1",
+        "v1.19.0-1.0",
+        "v1.19-1",
+        "latest"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v5": {
+          "Architecture": "arm32v5",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "1e7ff373975402c1e5b10e9b2ae41e50b3d273a3",
+      "Directory": "v1.19/debian",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "v1.16.9-debian-1.0"
       ],
       "Architectures": {
         "amd64": {
@@ -174,11 +245,7 @@
     },
     {
       "Tags": [
-        "v1.19.0-debian-1.0",
-        "v1.19-debian-1",
-        "v1.19.0-1.0",
-        "v1.19-1",
-        "latest"
+        "v1.19.0-debian-1.0"
       ],
       "Architectures": {
         "amd64": {
@@ -233,6 +300,59 @@
       },
       "GitCommit": "42a0afa30b3821482bce1ba8e67266d745619724",
       "Directory": "v1.19/debian",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "v1.16.9-1.0",
+        "v1.16-1"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "505a1af75b4a4adb40d576df7b18cebab853264e",
+      "Directory": "v1.16/alpine",
       "File": ""
     },
     {
