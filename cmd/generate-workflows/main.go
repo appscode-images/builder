@@ -20,6 +20,7 @@ func main() {
 		"milvus",
 		"opensearch",
 		"opensearch-dashboards",
+		"qdrant",
 	}
 	flag.StringSliceVar(&skipList, "skip", skipList, "Skip official image (because manually maintained)")
 	flag.Parse()

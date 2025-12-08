@@ -35,6 +35,7 @@ func main() {
 		"milvus",
 		"opensearch",
 		"opensearch-dashboards",
+		"qdrant",
 		"valkey",
 	}
 	flag.StringSliceVar(&skipList, "skip", skipList, "Skip official image (because manually maintained)")

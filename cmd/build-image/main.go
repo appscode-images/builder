@@ -380,6 +380,10 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, cherrypicks []string, 
 		} else if b.File != "" {
 			args = append(args, "-f", b.File)
 		}
+		// Qdrant: build with non-root user (USER_ID=1000)
+		if name == "qdrant" {
+			args = append(args, "--build-arg", "USER_ID=1000")
+		}
 		args = append(args, ".")
 		err = sh.Command("docker", args...).Run()
 		if err != nil {
