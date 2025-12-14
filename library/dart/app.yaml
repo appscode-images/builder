@@ -26,14 +26,14 @@ Blocks:
       GitFetch: ""
   Directory: stable/trixie
   File: ""
-  GitCommit: 630db39b919e7a225a8ca1a4f6e285fd2c947513
+  GitCommit: 468345e3481f707abb7e064c1308d8d93703266b
   Tags:
-  - 3.10.3-sdk
+  - 3.10.4-sdk
   - 3.10-sdk
   - 3-sdk
   - stable-sdk
   - sdk
-  - 3.10.3
+  - 3.10.4
   - "3.10"
   - "3"
   - stable
@@ -65,12 +65,43 @@ Blocks:
       GitFetch: ""
   Directory: beta/trixie
   File: ""
-  GitCommit: 630db39b919e7a225a8ca1a4f6e285fd2c947513
+  GitCommit: 468345e3481f707abb7e064c1308d8d93703266b
   Tags:
   - 3.11.0-200.1.beta-sdk
   - beta-sdk
   - 3.11.0-200.1.beta
   - beta
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: stable/trixie
+  File: ""
+  GitCommit: 630db39b919e7a225a8ca1a4f6e285fd2c947513
+  Tags:
+  - 3.10.3-sdk
+  - 3.10.3
 - Architectures:
     amd64:
       Architecture: amd64
@@ -4762,6 +4793,8 @@ KnownTags:
   3.10.2-sdk: {}
   3.10.3: {}
   3.10.3-sdk: {}
+  3.10.4: {}
+  3.10.4-sdk: {}
   3.11.0-93.1.beta: {}
   3.11.0-93.1.beta-sdk: {}
   3.11.0-93.2.beta: {}

@@ -10,6 +10,9 @@
     "2-builder-windowsservercore-ltsc2016": {},
     "2-builder-windowsservercore-ltsc2022": {},
     "2-builder-windowsservercore-ltsc2025": {},
+    "2-nanoserver": {},
+    "2-nanoserver-ltsc2022": {},
+    "2-nanoserver-ltsc2025": {},
     "2-windowsservercore": {},
     "2-windowsservercore-1809": {},
     "2-windowsservercore-ltsc2016": {},
@@ -55,6 +58,9 @@
     "2.10-builder-windowsservercore-1809": {},
     "2.10-builder-windowsservercore-ltsc2022": {},
     "2.10-builder-windowsservercore-ltsc2025": {},
+    "2.10-nanoserver": {},
+    "2.10-nanoserver-ltsc2022": {},
+    "2.10-nanoserver-ltsc2025": {},
     "2.10-windowsservercore": {},
     "2.10-windowsservercore-1809": {},
     "2.10-windowsservercore-ltsc2022": {},
@@ -76,9 +82,36 @@
     "2.10.2-builder-alpine": {},
     "2.10.2-builder-windowsservercore-ltsc2022": {},
     "2.10.2-builder-windowsservercore-ltsc2025": {},
+    "2.10.2-nanoserver": {},
+    "2.10.2-nanoserver-ltsc2022": {},
+    "2.10.2-nanoserver-ltsc2025": {},
     "2.10.2-windowsservercore": {},
     "2.10.2-windowsservercore-ltsc2022": {},
     "2.10.2-windowsservercore-ltsc2025": {},
+    "2.11": {},
+    "2.11-alpine": {},
+    "2.11-builder": {},
+    "2.11-builder-alpine": {},
+    "2.11-builder-windowsservercore-ltsc2022": {},
+    "2.11-builder-windowsservercore-ltsc2025": {},
+    "2.11-nanoserver": {},
+    "2.11-nanoserver-ltsc2022": {},
+    "2.11-nanoserver-ltsc2025": {},
+    "2.11-windowsservercore": {},
+    "2.11-windowsservercore-ltsc2022": {},
+    "2.11-windowsservercore-ltsc2025": {},
+    "2.11.0-beta.1": {},
+    "2.11.0-beta.1-alpine": {},
+    "2.11.0-beta.1-builder": {},
+    "2.11.0-beta.1-builder-alpine": {},
+    "2.11.0-beta.1-builder-windowsservercore-ltsc2022": {},
+    "2.11.0-beta.1-builder-windowsservercore-ltsc2025": {},
+    "2.11.0-beta.1-nanoserver": {},
+    "2.11.0-beta.1-nanoserver-ltsc2022": {},
+    "2.11.0-beta.1-nanoserver-ltsc2025": {},
+    "2.11.0-beta.1-windowsservercore": {},
+    "2.11.0-beta.1-windowsservercore-ltsc2022": {},
+    "2.11.0-beta.1-windowsservercore-ltsc2025": {},
     "2.2.0": {},
     "2.2.0-alpine": {},
     "2.2.0-builder": {},
@@ -492,6 +525,9 @@
     "builder-windowsservercore-ltsc2022": {},
     "builder-windowsservercore-ltsc2025": {},
     "latest": {},
+    "nanoserver": {},
+    "nanoserver-ltsc2022": {},
+    "nanoserver-ltsc2025": {},
     "windowsservercore": {},
     "windowsservercore-1809": {},
     "windowsservercore-ltsc2016": {},
@@ -499,6 +535,242 @@
     "windowsservercore-ltsc2025": {}
   },
   "Blocks": [
+    {
+      "Tags": [
+        "2.11.0-beta.1-alpine",
+        "2.11-alpine",
+        "2.11.0-beta.1",
+        "2.11"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "33c593c5bd99287e66de4187a4e9a4097426253d",
+      "Directory": "2.11/alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.11.0-beta.1-builder-alpine",
+        "2.11-builder-alpine",
+        "2.11.0-beta.1-builder",
+        "2.11-builder"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "33c593c5bd99287e66de4187a4e9a4097426253d",
+      "Directory": "2.11/builder",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.11.0-beta.1-windowsservercore-ltsc2022",
+        "2.11-windowsservercore-ltsc2022",
+        "2.11.0-beta.1-windowsservercore",
+        "2.11-windowsservercore"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "33c593c5bd99287e66de4187a4e9a4097426253d",
+      "Directory": "2.11/windows/ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.11.0-beta.1-windowsservercore-ltsc2025",
+        "2.11-windowsservercore-ltsc2025"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "33c593c5bd99287e66de4187a4e9a4097426253d",
+      "Directory": "2.11/windows/ltsc2025",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.11.0-beta.1-nanoserver-ltsc2022",
+        "2.11-nanoserver-ltsc2022",
+        "2.11.0-beta.1-nanoserver",
+        "2.11-nanoserver"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "33c593c5bd99287e66de4187a4e9a4097426253d",
+      "Directory": "2.11/windows-nanoserver/ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.11.0-beta.1-nanoserver-ltsc2025",
+        "2.11-nanoserver-ltsc2025"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "33c593c5bd99287e66de4187a4e9a4097426253d",
+      "Directory": "2.11/windows-nanoserver/ltsc2025",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.11.0-beta.1-builder-windowsservercore-ltsc2022",
+        "2.11-builder-windowsservercore-ltsc2022"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "33c593c5bd99287e66de4187a4e9a4097426253d",
+      "Directory": "2.11/windows-builder/ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.11.0-beta.1-builder-windowsservercore-ltsc2025",
+        "2.11-builder-windowsservercore-ltsc2025"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "33c593c5bd99287e66de4187a4e9a4097426253d",
+      "Directory": "2.11/windows-builder/ltsc2025",
+      "File": ""
+    },
     {
       "Tags": [
         "2.10.2-alpine",
@@ -673,6 +945,50 @@
       },
       "GitCommit": "5572371a83e48fd0368a4917d0fc48e44ef30582",
       "Directory": "2.10/windows/ltsc2025",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.10.2-nanoserver-ltsc2022",
+        "2.10-nanoserver-ltsc2022",
+        "2-nanoserver-ltsc2022",
+        "nanoserver-ltsc2022",
+        "2.10.2-nanoserver",
+        "2.10-nanoserver",
+        "2-nanoserver",
+        "nanoserver"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "33c593c5bd99287e66de4187a4e9a4097426253d",
+      "Directory": "2.10/windows-nanoserver/ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "2.10.2-nanoserver-ltsc2025",
+        "2.10-nanoserver-ltsc2025",
+        "2-nanoserver-ltsc2025",
+        "nanoserver-ltsc2025"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "33c593c5bd99287e66de4187a4e9a4097426253d",
+      "Directory": "2.10/windows-nanoserver/ltsc2025",
       "File": ""
     },
     {
