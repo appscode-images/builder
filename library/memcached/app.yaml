@@ -50,13 +50,13 @@ Blocks:
       GitFetch: ""
   Directory: 1/debian
   File: ""
-  GitCommit: 4569a8aaadebe2cfc4c1b5b052eb0764519db470
+  GitCommit: 0cae68bd1c08a8251bad77c2a1a38049fcab420b
   Tags:
-  - 1.6.39
+  - 1.6.40
   - "1.6"
   - "1"
   - latest
-  - 1.6.39-trixie
+  - 1.6.40-trixie
   - 1.6-trixie
   - 1-trixie
   - trixie
@@ -111,16 +111,126 @@ Blocks:
       GitFetch: ""
   Directory: 1/alpine
   File: ""
-  GitCommit: 33a3da9f436d9c5a5965aecba1b02ad1edcb0fef
+  GitCommit: 0cae68bd1c08a8251bad77c2a1a38049fcab420b
   Tags:
-  - 1.6.39-alpine
+  - 1.6.40-alpine
   - 1.6-alpine
   - 1-alpine
   - alpine
-  - 1.6.39-alpine3.23
+  - 1.6.40-alpine3.23
   - 1.6-alpine3.23
   - 1-alpine3.23
   - alpine3.23
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1/debian
+  File: ""
+  GitCommit: 4569a8aaadebe2cfc4c1b5b052eb0764519db470
+  Tags:
+  - 1.6.39
+  - 1.6.39-trixie
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 1/alpine
+  File: ""
+  GitCommit: 33a3da9f436d9c5a5965aecba1b02ad1edcb0fef
+  Tags:
+  - 1.6.39-alpine
+  - 1.6.39-alpine3.23
 - Architectures:
     amd64:
       Architecture: amd64
@@ -6782,6 +6892,10 @@ KnownTags:
   1.6.39-alpine3.23: {}
   1.6.39-bookworm: {}
   1.6.39-trixie: {}
+  1.6.40: {}
+  1.6.40-alpine: {}
+  1.6.40-alpine3.23: {}
+  1.6.40-trixie: {}
   alpine: {}
   alpine3.13: {}
   alpine3.14: {}
