@@ -137,44 +137,44 @@ Blocks:
       Architecture: amd64
       Directory: ""
       File: ""
-      GitCommit: 91c87e7b5197434a1a7673d8f49ba82206aba0da
-      GitFetch: refs/tags/dist-questing-amd64-20251029-91c87e7b
+      GitCommit: 883bce4d25b37c4c52e6d25bcd3f2961671ce1c7
+      GitFetch: refs/tags/dist-questing-amd64-20251217-883bce4d
     arm32v7:
       Architecture: arm32v7
       Directory: ""
       File: ""
-      GitCommit: 53de3203212d6f0353753b62cc1c7513e7af6bf5
-      GitFetch: refs/tags/dist-questing-arm32v7-20251029-53de3203
+      GitCommit: 901b73b813514f365fa4280269da65fd4224854a
+      GitFetch: refs/tags/dist-questing-arm32v7-20251217-901b73b8
     arm64v8:
       Architecture: arm64v8
       Directory: ""
       File: ""
-      GitCommit: 4291b5266786798fa1b2de831a44e0858ef5f8fe
-      GitFetch: refs/tags/dist-questing-arm64v8-20251029-4291b526
+      GitCommit: 41a75589d45706ed8b39be5fa7224bec8f3ee8c3
+      GitFetch: refs/tags/dist-questing-arm64v8-20251217-41a75589
     ppc64le:
       Architecture: ppc64le
       Directory: ""
       File: ""
-      GitCommit: 20ee0191d4e1228d15972eb8b7b04e8ade6a6237
-      GitFetch: refs/tags/dist-questing-ppc64le-20251029-20ee0191
+      GitCommit: 46dbfc28e23fb2a587c03af962388164a259c70d
+      GitFetch: refs/tags/dist-questing-ppc64le-20251217-46dbfc28
     riscv64:
       Architecture: riscv64
       Directory: ""
       File: ""
-      GitCommit: 20b258fd5ad045883b9a889722d25538ba7ac31e
-      GitFetch: refs/tags/dist-questing-riscv64-20251029-20b258fd
+      GitCommit: b8e624be1b921be8e3ec88a25bc4f3cd5f8c97ab
+      GitFetch: refs/tags/dist-questing-riscv64-20251217-b8e624be
     s390x:
       Architecture: s390x
       Directory: ""
       File: ""
-      GitCommit: 812397c0942f324e465695a60266077246dcce28
-      GitFetch: refs/tags/dist-questing-s390x-20251029-812397c0
+      GitCommit: 6b4d506a5d09422a94e8092c120977f38e20256d
+      GitFetch: refs/tags/dist-questing-s390x-20251217-6b4d506a
   Directory: oci
   File: ""
   GitCommit: fa42be9027eccb928a1f0f43d95ffd9a45d36737
   Tags:
   - "25.10"
-  - questing-20251029
+  - questing-20251217
   - questing
   - rolling
 - Architectures:
@@ -222,6 +222,48 @@ Blocks:
   - resolute-20251208
   - resolute
   - devel
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: 91c87e7b5197434a1a7673d8f49ba82206aba0da
+      GitFetch: refs/tags/dist-questing-amd64-20251029-91c87e7b
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: 53de3203212d6f0353753b62cc1c7513e7af6bf5
+      GitFetch: refs/tags/dist-questing-arm32v7-20251029-53de3203
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: 4291b5266786798fa1b2de831a44e0858ef5f8fe
+      GitFetch: refs/tags/dist-questing-arm64v8-20251029-4291b526
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: 20ee0191d4e1228d15972eb8b7b04e8ade6a6237
+      GitFetch: refs/tags/dist-questing-ppc64le-20251029-20ee0191
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: 20b258fd5ad045883b9a889722d25538ba7ac31e
+      GitFetch: refs/tags/dist-questing-riscv64-20251029-20b258fd
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: 812397c0942f324e465695a60266077246dcce28
+      GitFetch: refs/tags/dist-questing-s390x-20251029-812397c0
+  Directory: oci
+  File: ""
+  GitCommit: fa42be9027eccb928a1f0f43d95ffd9a45d36737
+  Tags:
+  - questing-20251029
 - Architectures:
     amd64:
       Architecture: amd64
@@ -19832,6 +19874,7 @@ KnownTags:
   questing-20250830: {}
   questing-20251007: {}
   questing-20251029: {}
+  questing-20251217: {}
   resolute: {}
   resolute-20251101: {}
   resolute-20251130: {}

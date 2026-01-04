@@ -488,6 +488,9 @@
     "2.11.33": {},
     "2.11.33-nanoserver-ltsc2022": {},
     "2.11.33-windowsservercore-ltsc2022": {},
+    "2.11.34": {},
+    "2.11.34-nanoserver-ltsc2022": {},
+    "2.11.34-windowsservercore-ltsc2022": {},
     "2.11.4": {},
     "2.11.4-nanoserver-ltsc2022": {},
     "2.11.4-windowsservercore-1809": {},
@@ -966,6 +969,9 @@
     "3.6.5": {},
     "3.6.5-nanoserver-ltsc2022": {},
     "3.6.5-windowsservercore-ltsc2022": {},
+    "3.6.6": {},
+    "3.6.6-nanoserver-ltsc2022": {},
+    "3.6.6-windowsservercore-ltsc2022": {},
     "alpine": {},
     "banon": {},
     "banon-windowsservercore-1809": {},
@@ -1544,6 +1550,9 @@
     "v2.11.33": {},
     "v2.11.33-nanoserver-ltsc2022": {},
     "v2.11.33-windowsservercore-ltsc2022": {},
+    "v2.11.34": {},
+    "v2.11.34-nanoserver-ltsc2022": {},
+    "v2.11.34-windowsservercore-ltsc2022": {},
     "v2.11.4": {},
     "v2.11.4-nanoserver-ltsc2022": {},
     "v2.11.4-windowsservercore-1809": {},
@@ -2023,6 +2032,9 @@
     "v3.6.5": {},
     "v3.6.5-nanoserver-ltsc2022": {},
     "v3.6.5-windowsservercore-ltsc2022": {},
+    "v3.6.6": {},
+    "v3.6.6-nanoserver-ltsc2022": {},
+    "v3.6.6-windowsservercore-ltsc2022": {},
     "vacherin": {},
     "vacherin-windowsservercore-1809": {},
     "windowsservercore-1809": {},
@@ -2031,14 +2043,219 @@
   "Blocks": [
     {
       "Tags": [
-        "v3.6.5-windowsservercore-ltsc2022",
-        "3.6.5-windowsservercore-ltsc2022",
+        "v3.6.6-windowsservercore-ltsc2022",
+        "3.6.6-windowsservercore-ltsc2022",
         "v3.6-windowsservercore-ltsc2022",
         "3.6-windowsservercore-ltsc2022",
         "v3-windowsservercore-ltsc2022",
         "3-windowsservercore-ltsc2022",
         "ramequin-windowsservercore-ltsc2022",
         "windowsservercore-ltsc2022"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "368aa812477878a262e80b82de66a3636489a9b8",
+      "Directory": "v3.6/windows/servercore-ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "v3.6.6-nanoserver-ltsc2022",
+        "3.6.6-nanoserver-ltsc2022",
+        "v3.6-nanoserver-ltsc2022",
+        "3.6-nanoserver-ltsc2022",
+        "v3-nanoserver-ltsc2022",
+        "3-nanoserver-ltsc2022",
+        "ramequin-nanoserver-ltsc2022",
+        "nanoserver-ltsc2022"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "368aa812477878a262e80b82de66a3636489a9b8",
+      "Directory": "v3.6/windows/nanoserver-ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "v3.6.6",
+        "3.6.6",
+        "v3.6",
+        "3.6",
+        "v3",
+        "3",
+        "ramequin",
+        "latest"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "368aa812477878a262e80b82de66a3636489a9b8",
+      "Directory": "v3.6/alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "v2.11.34-windowsservercore-ltsc2022",
+        "2.11.34-windowsservercore-ltsc2022",
+        "v2.11-windowsservercore-ltsc2022",
+        "2.11-windowsservercore-ltsc2022",
+        "v2-windowsservercore-ltsc2022",
+        "2-windowsservercore-ltsc2022",
+        "mimolette-windowsservercore-ltsc2022"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "6bd551b88fba257629db9d0d1daa73331026cff8",
+      "Directory": "v2.11/windows/servercore-ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "v2.11.34-nanoserver-ltsc2022",
+        "2.11.34-nanoserver-ltsc2022",
+        "v2.11-nanoserver-ltsc2022",
+        "2.11-nanoserver-ltsc2022",
+        "v2-nanoserver-ltsc2022",
+        "2-nanoserver-ltsc2022",
+        "mimolette-nanoserver-ltsc2022"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "6bd551b88fba257629db9d0d1daa73331026cff8",
+      "Directory": "v2.11/windows/nanoserver-ltsc2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "v2.11.34",
+        "2.11.34",
+        "v2.11",
+        "2.11",
+        "v2",
+        "2",
+        "mimolette"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "6bd551b88fba257629db9d0d1daa73331026cff8",
+      "Directory": "v2.11/alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "v3.6.5-windowsservercore-ltsc2022",
+        "3.6.5-windowsservercore-ltsc2022"
       ],
       "Architectures": {
         "windows-amd64": {
@@ -2056,13 +2273,7 @@
     {
       "Tags": [
         "v3.6.5-nanoserver-ltsc2022",
-        "3.6.5-nanoserver-ltsc2022",
-        "v3.6-nanoserver-ltsc2022",
-        "3.6-nanoserver-ltsc2022",
-        "v3-nanoserver-ltsc2022",
-        "3-nanoserver-ltsc2022",
-        "ramequin-nanoserver-ltsc2022",
-        "nanoserver-ltsc2022"
+        "3.6.5-nanoserver-ltsc2022"
       ],
       "Architectures": {
         "windows-amd64": {
@@ -2080,13 +2291,7 @@
     {
       "Tags": [
         "v3.6.5",
-        "3.6.5",
-        "v3.6",
-        "3.6",
-        "v3",
-        "3",
-        "ramequin",
-        "latest"
+        "3.6.5"
       ],
       "Architectures": {
         "amd64": {
@@ -2139,12 +2344,7 @@
     {
       "Tags": [
         "v2.11.33-windowsservercore-ltsc2022",
-        "2.11.33-windowsservercore-ltsc2022",
-        "v2.11-windowsservercore-ltsc2022",
-        "2.11-windowsservercore-ltsc2022",
-        "v2-windowsservercore-ltsc2022",
-        "2-windowsservercore-ltsc2022",
-        "mimolette-windowsservercore-ltsc2022"
+        "2.11.33-windowsservercore-ltsc2022"
       ],
       "Architectures": {
         "windows-amd64": {
@@ -2162,12 +2362,7 @@
     {
       "Tags": [
         "v2.11.33-nanoserver-ltsc2022",
-        "2.11.33-nanoserver-ltsc2022",
-        "v2.11-nanoserver-ltsc2022",
-        "2.11-nanoserver-ltsc2022",
-        "v2-nanoserver-ltsc2022",
-        "2-nanoserver-ltsc2022",
-        "mimolette-nanoserver-ltsc2022"
+        "2.11.33-nanoserver-ltsc2022"
       ],
       "Architectures": {
         "windows-amd64": {
@@ -2185,12 +2380,7 @@
     {
       "Tags": [
         "v2.11.33",
-        "2.11.33",
-        "v2.11",
-        "2.11",
-        "v2",
-        "2",
-        "mimolette"
+        "2.11.33"
       ],
       "Architectures": {
         "amd64": {

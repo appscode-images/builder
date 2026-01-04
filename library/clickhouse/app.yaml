@@ -12,18 +12,41 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: server/25.11.3.54
+  Directory: server/25.12.1.649
   File: Dockerfile.ubuntu
-  GitCommit: 0c4bb9a84fbfbffcb21177640485093f9da0cbd5
+  GitCommit: cd196aa6badbfd339e21977014152af82a893d5a
   Tags:
   - latest
   - jammy
+  - "25.12"
+  - 25.12-jammy
+  - 25.12.1
+  - 25.12.1-jammy
+  - 25.12.1.649
+  - 25.12.1.649-jammy
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: server/25.11.5.8
+  File: Dockerfile.ubuntu
+  GitCommit: cd196aa6badbfd339e21977014152af82a893d5a
+  Tags:
   - "25.11"
   - 25.11-jammy
-  - 25.11.3
-  - 25.11.3-jammy
-  - 25.11.3.54
-  - 25.11.3.54-jammy
+  - 25.11.5
+  - 25.11.5-jammy
+  - 25.11.5.8
+  - 25.11.5.8-jammy
 - Architectures:
     amd64:
       Architecture: amd64
@@ -39,7 +62,7 @@ Blocks:
       GitFetch: ""
   Directory: server/25.10.3.100
   File: Dockerfile.ubuntu
-  GitCommit: 0c4bb9a84fbfbffcb21177640485093f9da0cbd5
+  GitCommit: cd196aa6badbfd339e21977014152af82a893d5a
   Tags:
   - "25.10"
   - 25.10-jammy
@@ -47,6 +70,75 @@ Blocks:
   - 25.10.3-jammy
   - 25.10.3.100
   - 25.10.3.100-jammy
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: server/25.8.13.73
+  File: Dockerfile.ubuntu
+  GitCommit: cd196aa6badbfd339e21977014152af82a893d5a
+  Tags:
+  - lts
+  - lts-jammy
+  - "25.8"
+  - 25.8-jammy
+  - 25.8.13
+  - 25.8.13-jammy
+  - 25.8.13.73
+  - 25.8.13.73-jammy
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: server/25.3.11.20
+  File: Dockerfile.ubuntu
+  GitCommit: cd196aa6badbfd339e21977014152af82a893d5a
+  Tags:
+  - "25.3"
+  - 25.3-jammy
+  - 25.3.11
+  - 25.3.11-jammy
+  - 25.3.11.20
+  - 25.3.11.20-jammy
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: server/25.11.3.54
+  File: Dockerfile.ubuntu
+  GitCommit: 0c4bb9a84fbfbffcb21177640485093f9da0cbd5
+  Tags:
+  - 25.11.3
+  - 25.11.3-jammy
+  - 25.11.3.54
+  - 25.11.3.54-jammy
 - Architectures:
     amd64:
       Architecture: amd64
@@ -87,10 +179,6 @@ Blocks:
   File: Dockerfile.ubuntu
   GitCommit: 0c4bb9a84fbfbffcb21177640485093f9da0cbd5
   Tags:
-  - lts
-  - lts-jammy
-  - "25.8"
-  - 25.8-jammy
   - 25.8.12
   - 25.8.12-jammy
   - 25.8.12.129
@@ -112,8 +200,6 @@ Blocks:
   File: Dockerfile.ubuntu
   GitCommit: 0c4bb9a84fbfbffcb21177640485093f9da0cbd5
   Tags:
-  - "25.3"
-  - 25.3-jammy
   - 25.3.10
   - 25.3.10-jammy
   - 25.3.10.19
@@ -2031,6 +2117,10 @@ KnownTags:
   25.3.10-jammy: {}
   25.3.10.19: {}
   25.3.10.19-jammy: {}
+  25.3.11: {}
+  25.3.11-jammy: {}
+  25.3.11.20: {}
+  25.3.11.20-jammy: {}
   "25.4": {}
   25.4-jammy: {}
   25.4.1: {}
@@ -2197,6 +2287,10 @@ KnownTags:
   25.8.12-jammy: {}
   25.8.12.129: {}
   25.8.12.129-jammy: {}
+  25.8.13: {}
+  25.8.13-jammy: {}
+  25.8.13.73: {}
+  25.8.13.73-jammy: {}
   "25.9": {}
   25.9-jammy: {}
   25.9.2: {}
@@ -2247,6 +2341,16 @@ KnownTags:
   25.11.3-jammy: {}
   25.11.3.54: {}
   25.11.3.54-jammy: {}
+  25.11.5: {}
+  25.11.5-jammy: {}
+  25.11.5.8: {}
+  25.11.5.8-jammy: {}
+  "25.12": {}
+  25.12-jammy: {}
+  25.12.1: {}
+  25.12.1-jammy: {}
+  25.12.1.649: {}
+  25.12.1.649-jammy: {}
   focal: {}
   focal-lts: {}
   jammy: {}
