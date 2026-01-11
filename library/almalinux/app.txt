@@ -1,6 +1,70 @@
 GitRepo: https://github.com/AlmaLinux/container-images.git
 
-Tags: 10-kitten,10-kitten-20251117
+Tags: 10-kitten,10-kitten-20260104
+amd64-Directory: default/amd64/
+arm64v8-Directory: default/arm64/
+ppc64le-Directory: default/ppc64le/
+s390x-Directory: default/s390x/
+Architectures: amd64,arm64v8,ppc64le,s390x
+GitCommit: fd84458856f8b0c39524fa60423d8d6a8e5264fe
+
+Tags: 10-kitten-minimal,10-kitten-minimal-20260104
+amd64-Directory: minimal/amd64/
+arm64v8-Directory: minimal/arm64/
+ppc64le-Directory: minimal/ppc64le/
+s390x-Directory: minimal/s390x/
+Architectures: amd64,arm64v8,ppc64le,s390x
+GitCommit: fd84458856f8b0c39524fa60423d8d6a8e5264fe
+
+Tags: latest,10,10.1,10.1-20260104
+amd64-Directory: default/amd64/
+arm64v8-Directory: default/arm64/
+ppc64le-Directory: default/ppc64le/
+s390x-Directory: default/s390x/
+Architectures: amd64,arm64v8,ppc64le,s390x
+GitCommit: f0589ddff39cfd769e15d03db746b027874e1689
+
+Tags: minimal,10-minimal,10.1-minimal,10.1-minimal-20260104
+amd64-Directory: minimal/amd64/
+arm64v8-Directory: minimal/arm64/
+ppc64le-Directory: minimal/ppc64le/
+s390x-Directory: minimal/s390x/
+Architectures: amd64,arm64v8,ppc64le,s390x
+GitCommit: f0589ddff39cfd769e15d03db746b027874e1689
+
+Tags: 8,8.10,8.10-20260104
+amd64-Directory: default/amd64/
+arm64v8-Directory: default/arm64/
+ppc64le-Directory: default/ppc64le/
+s390x-Directory: default/s390x/
+Architectures: amd64,arm64v8,ppc64le,s390x
+GitCommit: 8b044da8c6d012fb95c9d1cad7f0e9c1d2b202cd
+
+Tags: 8-minimal,8.10-minimal,8.10-minimal-20260104
+amd64-Directory: minimal/amd64/
+arm64v8-Directory: minimal/arm64/
+ppc64le-Directory: minimal/ppc64le/
+s390x-Directory: minimal/s390x/
+Architectures: amd64,arm64v8,ppc64le,s390x
+GitCommit: 8b044da8c6d012fb95c9d1cad7f0e9c1d2b202cd
+
+Tags: 9,9.7,9.7-20260104
+amd64-Directory: default/amd64/
+arm64v8-Directory: default/arm64/
+ppc64le-Directory: default/ppc64le/
+s390x-Directory: default/s390x/
+Architectures: amd64,arm64v8,ppc64le,s390x
+GitCommit: ac877dc6b0325c084e9423317e39d99017531844
+
+Tags: 9-minimal,9.7-minimal,9.7-minimal-20260104
+amd64-Directory: minimal/amd64/
+arm64v8-Directory: minimal/arm64/
+ppc64le-Directory: minimal/ppc64le/
+s390x-Directory: minimal/s390x/
+Architectures: amd64,arm64v8,ppc64le,s390x
+GitCommit: ac877dc6b0325c084e9423317e39d99017531844
+
+Tags: 10-kitten-20251117
 amd64-Directory: default/amd64/
 arm64v8-Directory: default/arm64/
 ppc64le-Directory: default/ppc64le/
@@ -8,7 +72,7 @@ s390x-Directory: default/s390x/
 Architectures: amd64,arm64v8,ppc64le,s390x
 GitCommit: 919257c8a7b3479ff572b14a36973938536efb4b
 
-Tags: 10-kitten-minimal,10-kitten-minimal-20251117
+Tags: 10-kitten-minimal-20251117
 amd64-Directory: minimal/amd64/
 arm64v8-Directory: minimal/arm64/
 ppc64le-Directory: minimal/ppc64le/
@@ -16,7 +80,7 @@ s390x-Directory: minimal/s390x/
 Architectures: amd64,arm64v8,ppc64le,s390x
 GitCommit: 919257c8a7b3479ff572b14a36973938536efb4b
 
-Tags: latest,10,10.1,10.1-20251124
+Tags: 10.1-20251124
 amd64-Directory: default/amd64/
 arm64v8-Directory: default/arm64/
 ppc64le-Directory: default/ppc64le/
@@ -24,7 +88,7 @@ s390x-Directory: default/s390x/
 Architectures: amd64,arm64v8,ppc64le,s390x
 GitCommit: 48fb0a288bbfb503e3bd07953a79f9e0ff689040
 
-Tags: minimal,10-minimal,10.1-minimal,10.1-minimal-20251124
+Tags: 10.1-minimal-20251124
 amd64-Directory: minimal/amd64/
 arm64v8-Directory: minimal/arm64/
 ppc64le-Directory: minimal/ppc64le/
@@ -32,7 +96,7 @@ s390x-Directory: minimal/s390x/
 Architectures: amd64,arm64v8,ppc64le,s390x
 GitCommit: 48fb0a288bbfb503e3bd07953a79f9e0ff689040
 
-Tags: 8,8.10,8.10-20251124
+Tags: 8.10-20251124
 amd64-Directory: default/amd64/
 arm64v8-Directory: default/arm64/
 ppc64le-Directory: default/ppc64le/
@@ -40,7 +104,7 @@ s390x-Directory: default/s390x/
 Architectures: amd64,arm64v8,ppc64le,s390x
 GitCommit: a94c300f975f8ab8d7eaf9cad37c014a87bdf411
 
-Tags: 8-minimal,8.10-minimal,8.10-minimal-20251124
+Tags: 8.10-minimal-20251124
 amd64-Directory: minimal/amd64/
 arm64v8-Directory: minimal/arm64/
 ppc64le-Directory: minimal/ppc64le/
@@ -48,7 +112,7 @@ s390x-Directory: minimal/s390x/
 Architectures: amd64,arm64v8,ppc64le,s390x
 GitCommit: a94c300f975f8ab8d7eaf9cad37c014a87bdf411
 
-Tags: 9,9.7,9.7-20251125
+Tags: 9.7-20251125
 amd64-Directory: default/amd64/
 arm64v8-Directory: default/arm64/
 ppc64le-Directory: default/ppc64le/
@@ -56,7 +120,7 @@ s390x-Directory: default/s390x/
 Architectures: amd64,arm64v8,ppc64le,s390x
 GitCommit: 4b338f5aee5571a62c6f921da191980b19f26d60
 
-Tags: 9-minimal,9.7-minimal,9.7-minimal-20251125
+Tags: 9.7-minimal-20251125
 amd64-Directory: minimal/amd64/
 arm64v8-Directory: minimal/arm64/
 ppc64le-Directory: minimal/ppc64le/
