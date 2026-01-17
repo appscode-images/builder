@@ -20,7 +20,7 @@ Blocks:
       GitFetch: ""
   Directory: stable/trixie
   File: ""
-  GitCommit: e0fe71f662a13f89d4b7c1ca9352aa5eb9993041
+  GitCommit: aeb025c8621d071a8bc347f58829d88947e31267
   Tags:
   - 1.12.4-trixie
   - 1.12-trixie
@@ -51,7 +51,7 @@ Blocks:
       GitFetch: ""
   Directory: stable/bookworm
   File: ""
-  GitCommit: e0fe71f662a13f89d4b7c1ca9352aa5eb9993041
+  GitCommit: aeb025c8621d071a8bc347f58829d88947e31267
   Tags:
   - 1.12.4-bookworm
   - 1.12-bookworm
@@ -66,7 +66,7 @@ Blocks:
       GitFetch: ""
   Directory: stable/windows/servercore-ltsc2025
   File: ""
-  GitCommit: e0fe71f662a13f89d4b7c1ca9352aa5eb9993041
+  GitCommit: aeb025c8621d071a8bc347f58829d88947e31267
   Tags:
   - 1.12.4-windowsservercore-ltsc2025
   - 1.12-windowsservercore-ltsc2025
@@ -85,7 +85,7 @@ Blocks:
       GitFetch: ""
   Directory: stable/windows/servercore-ltsc2022
   File: ""
-  GitCommit: e0fe71f662a13f89d4b7c1ca9352aa5eb9993041
+  GitCommit: aeb025c8621d071a8bc347f58829d88947e31267
   Tags:
   - 1.12.4-windowsservercore-ltsc2022
   - 1.12-windowsservercore-ltsc2022
@@ -118,7 +118,7 @@ Blocks:
       GitFetch: ""
   Directory: 1.10/trixie
   File: ""
-  GitCommit: e0fe71f662a13f89d4b7c1ca9352aa5eb9993041
+  GitCommit: aeb025c8621d071a8bc347f58829d88947e31267
   Tags:
   - 1.10.10-trixie
   - 1.10-trixie
@@ -151,7 +151,7 @@ Blocks:
       GitFetch: ""
   Directory: 1.10/bookworm
   File: ""
-  GitCommit: e0fe71f662a13f89d4b7c1ca9352aa5eb9993041
+  GitCommit: aeb025c8621d071a8bc347f58829d88947e31267
   Tags:
   - 1.10.10-bookworm
   - 1.10-bookworm
@@ -164,7 +164,7 @@ Blocks:
       GitFetch: ""
   Directory: 1.10/alpine3.23
   File: ""
-  GitCommit: e0fe71f662a13f89d4b7c1ca9352aa5eb9993041
+  GitCommit: aeb025c8621d071a8bc347f58829d88947e31267
   Tags:
   - 1.10.10-alpine3.23
   - 1.10-alpine3.23
@@ -179,7 +179,7 @@ Blocks:
       GitFetch: ""
   Directory: 1.10/alpine3.22
   File: ""
-  GitCommit: e0fe71f662a13f89d4b7c1ca9352aa5eb9993041
+  GitCommit: aeb025c8621d071a8bc347f58829d88947e31267
   Tags:
   - 1.10.10-alpine3.22
   - 1.10-alpine3.22
@@ -192,7 +192,7 @@ Blocks:
       GitFetch: ""
   Directory: 1.10/windows/servercore-ltsc2025
   File: ""
-  GitCommit: e0fe71f662a13f89d4b7c1ca9352aa5eb9993041
+  GitCommit: aeb025c8621d071a8bc347f58829d88947e31267
   Tags:
   - 1.10.10-windowsservercore-ltsc2025
   - 1.10-windowsservercore-ltsc2025
@@ -207,7 +207,7 @@ Blocks:
       GitFetch: ""
   Directory: 1.10/windows/servercore-ltsc2022
   File: ""
-  GitCommit: e0fe71f662a13f89d4b7c1ca9352aa5eb9993041
+  GitCommit: aeb025c8621d071a8bc347f58829d88947e31267
   Tags:
   - 1.10.10-windowsservercore-ltsc2022
   - 1.10-windowsservercore-ltsc2022
@@ -232,14 +232,96 @@ Blocks:
       GitFetch: ""
   Directory: rc/trixie
   File: ""
+  GitCommit: aeb025c8621d071a8bc347f58829d88947e31267
+  Tags:
+  - 1.13.0-beta1-trixie
+  - 1.13-rc-trixie
+  - rc-trixie
+  - 1.13.0-beta1
+  - 1.13-rc
+  - rc
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: rc/bookworm
+  File: ""
+  GitCommit: aeb025c8621d071a8bc347f58829d88947e31267
+  Tags:
+  - 1.13.0-beta1-bookworm
+  - 1.13-rc-bookworm
+  - rc-bookworm
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: rc/windows/servercore-ltsc2025
+  File: ""
+  GitCommit: aeb025c8621d071a8bc347f58829d88947e31267
+  Tags:
+  - 1.13.0-beta1-windowsservercore-ltsc2025
+  - 1.13-rc-windowsservercore-ltsc2025
+  - rc-windowsservercore-ltsc2025
+  - 1.13.0-beta1-windowsservercore
+  - 1.13-rc-windowsservercore
+  - rc-windowsservercore
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: rc/windows/servercore-ltsc2022
+  File: ""
+  GitCommit: aeb025c8621d071a8bc347f58829d88947e31267
+  Tags:
+  - 1.13.0-beta1-windowsservercore-ltsc2022
+  - 1.13-rc-windowsservercore-ltsc2022
+  - rc-windowsservercore-ltsc2022
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: rc/trixie
+  File: ""
   GitCommit: e0fe71f662a13f89d4b7c1ca9352aa5eb9993041
   Tags:
   - 1.13.0-alpha2-trixie
-  - 1.13-rc-trixie
-  - rc-trixie
   - 1.13.0-alpha2
-  - 1.13-rc
-  - rc
 - Architectures:
     amd64:
       Architecture: amd64
@@ -264,8 +346,6 @@ Blocks:
   GitCommit: e0fe71f662a13f89d4b7c1ca9352aa5eb9993041
   Tags:
   - 1.13.0-alpha2-bookworm
-  - 1.13-rc-bookworm
-  - rc-bookworm
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -278,11 +358,7 @@ Blocks:
   GitCommit: e0fe71f662a13f89d4b7c1ca9352aa5eb9993041
   Tags:
   - 1.13.0-alpha2-windowsservercore-ltsc2025
-  - 1.13-rc-windowsservercore-ltsc2025
-  - rc-windowsservercore-ltsc2025
   - 1.13.0-alpha2-windowsservercore
-  - 1.13-rc-windowsservercore
-  - rc-windowsservercore
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -295,8 +371,6 @@ Blocks:
   GitCommit: e0fe71f662a13f89d4b7c1ca9352aa5eb9993041
   Tags:
   - 1.13.0-alpha2-windowsservercore-ltsc2022
-  - 1.13-rc-windowsservercore-ltsc2022
-  - rc-windowsservercore-ltsc2022
 - Architectures:
     amd64:
       Architecture: amd64
@@ -13181,6 +13255,12 @@ KnownTags:
   1.13.0-alpha2-windowsservercore: {}
   1.13.0-alpha2-windowsservercore-ltsc2022: {}
   1.13.0-alpha2-windowsservercore-ltsc2025: {}
+  1.13.0-beta1: {}
+  1.13.0-beta1-bookworm: {}
+  1.13.0-beta1-trixie: {}
+  1.13.0-beta1-windowsservercore: {}
+  1.13.0-beta1-windowsservercore-ltsc2022: {}
+  1.13.0-beta1-windowsservercore-ltsc2025: {}
   alpine: {}
   alpine3.12: {}
   alpine3.13: {}
