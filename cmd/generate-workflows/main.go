@@ -16,6 +16,7 @@ var skipApps sets.String
 
 func main() {
 	skipList := []string{
+		"elastic",
 		"ferretdb",
 		"milvus",
 		"opensearch",
