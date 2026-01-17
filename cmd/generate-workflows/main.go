@@ -18,6 +18,7 @@ func main() {
 	skipList := []string{
 		"elastic",
 		"ferretdb",
+		"kibana",
 		"milvus",
 		"opensearch",
 		"opensearch-dashboards",
