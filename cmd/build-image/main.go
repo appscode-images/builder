@@ -16,6 +16,7 @@ import (
 	"github.com/google/go-containerregistry/pkg/crane"
 	flag "github.com/spf13/pflag"
 	shell "gomodules.xyz/go-sh"
+	"k8s.io/klog/v2"
 	"sigs.k8s.io/yaml"
 )
 
@@ -223,6 +224,8 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, cherrypicks []string, 
 	}
 
 	branch := tag + "-" + ts
+	klog.Infof("Building %s branch; libRepoURL = %v, repoURL = %v , block = %v \n", branch, libRepoURL, repoURL, b.String())
+
 	if lib.RemoteBranchExists(sh, branch) {
 		err = sh.Command("git", "checkout", "-b", branch, "--track", "origin/"+branch).Run()
 		if err != nil {
