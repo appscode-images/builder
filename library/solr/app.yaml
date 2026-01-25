@@ -26,9 +26,9 @@ Blocks:
       GitFetch: ""
   Directory: "9.10"
   File: ""
-  GitCommit: 566a79e9212bc9eb117bffb338b6200b102962a7
+  GitCommit: 9c4aa799df40c506a48bc487cc6b4aaed24f9149
   Tags:
-  - 9.10.0
+  - 9.10.1
   - "9.10"
   - "9"
   - latest
@@ -59,9 +59,9 @@ Blocks:
       GitFetch: ""
   Directory: 9.10-slim
   File: ""
-  GitCommit: 566a79e9212bc9eb117bffb338b6200b102962a7
+  GitCommit: 9c4aa799df40c506a48bc487cc6b4aaed24f9149
   Tags:
-  - 9.10.0-slim
+  - 9.10.1-slim
   - 9.10-slim
   - 9-slim
   - slim
@@ -127,6 +127,66 @@ Blocks:
   Tags:
   - 9.9.0-slim
   - 9.9-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: "9.10"
+  File: ""
+  GitCommit: 566a79e9212bc9eb117bffb338b6200b102962a7
+  Tags:
+  - 9.10.0
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 9.10-slim
+  File: ""
+  GitCommit: 566a79e9212bc9eb117bffb338b6200b102962a7
+  Tags:
+  - 9.10.0-slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -5169,6 +5229,8 @@ KnownTags:
   9.10-slim: {}
   9.10.0: {}
   9.10.0-slim: {}
+  9.10.1: {}
+  9.10.1-slim: {}
   alpine: {}
   latest: {}
   slim: {}
