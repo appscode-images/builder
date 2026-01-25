@@ -2,7 +2,9 @@ name: build-kibana
 
 on:
   schedule:
-    - cron: '0 0 * * 6,0'
+    - cron: '0 21 * * 6,0'
+      # The elastic builds should be done by this time. We are triggering kibana later because es & kibana works on the same repo https://github.com/appscode-images/elastic/
+      # And if kibana builds first, the <major>.<minor>.<patch>-<year-month-day> branches will not have the cherrypick change.
   workflow_dispatch:
 
 concurrency:
