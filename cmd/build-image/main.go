@@ -376,7 +376,7 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, cherrypicks []string, 
 		img := fmt.Sprintf("%s/%s:%s_%s_%s", api.DAILY_REGISTRY, name, tag, ts, strings.ReplaceAll(lib.Platform(arch), "/", "_"))
 		archImages = append(archImages, img)
 		args := []any{
-			"build", "--platform=" + lib.Platform(arch), "--load", "--pull", "-t", img,
+			"build", "--provenance=false", "--sbom=false", "--platform=" + lib.Platform(arch), "--load", "--pull", "-t", img,
 		}
 		if info.File != "" {
 			args = append(args, "-f", info.File)
