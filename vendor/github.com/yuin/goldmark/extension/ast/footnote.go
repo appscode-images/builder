@@ -12,7 +12,6 @@ type FootnoteLink struct {
 	gast.BaseInline
 	Index    int
 	RefCount int
-	RefIndex int
 }
 
 // Dump implements Node.Dump.
@@ -20,7 +19,6 @@ func (n *FootnoteLink) Dump(source []byte, level int) {
 	m := map[string]string{}
 	m["Index"] = fmt.Sprintf("%v", n.Index)
 	m["RefCount"] = fmt.Sprintf("%v", n.RefCount)
-	m["RefIndex"] = fmt.Sprintf("%v", n.RefIndex)
 	gast.DumpHelper(n, source, level, m, nil)
 }
 
@@ -37,7 +35,6 @@ func NewFootnoteLink(index int) *FootnoteLink {
 	return &FootnoteLink{
 		Index:    index,
 		RefCount: 0,
-		RefIndex: 0,
 	}
 }
 
@@ -47,7 +44,6 @@ type FootnoteBacklink struct {
 	gast.BaseInline
 	Index    int
 	RefCount int
-	RefIndex int
 }
 
 // Dump implements Node.Dump.
@@ -55,7 +51,6 @@ func (n *FootnoteBacklink) Dump(source []byte, level int) {
 	m := map[string]string{}
 	m["Index"] = fmt.Sprintf("%v", n.Index)
 	m["RefCount"] = fmt.Sprintf("%v", n.RefCount)
-	m["RefIndex"] = fmt.Sprintf("%v", n.RefIndex)
 	gast.DumpHelper(n, source, level, m, nil)
 }
 
@@ -72,7 +67,6 @@ func NewFootnoteBacklink(index int) *FootnoteBacklink {
 	return &FootnoteBacklink{
 		Index:    index,
 		RefCount: 0,
-		RefIndex: 0,
 	}
 }
 

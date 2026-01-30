@@ -3,17 +3,19 @@ package main
 import (
 	"bytes"
 	"fmt"
-	"github.com/appscode-images/builder/api"
-	"github.com/appscode-images/builder/lib"
-	"github.com/olekukonko/tablewriter"
-	flag "github.com/spf13/pflag"
-	"gomodules.xyz/mailer"
 	"os"
 	"path/filepath"
 	"sort"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/appscode-images/builder/api"
+	"github.com/appscode-images/builder/lib"
+	"github.com/olekukonko/tablewriter"
+	"github.com/olekukonko/tablewriter/renderer"
+	flag "github.com/spf13/pflag"
+	"gomodules.xyz/mailer"
 )
 
 func main() {
@@ -256,12 +258,17 @@ func generateMarkdownTable(reports []TagReport) []byte {
 
 	var buf bytes.Buffer
 
-	table := tablewriter.NewWriter(&buf)
-	table.SetHeader(tr.Headers())
-	table.SetBorders(tablewriter.Border{Left: true, Top: false, Right: true, Bottom: false})
-	table.SetCenterSeparator("|")
-	table.AppendBulk(data) // Add Bulk Data
-	table.Render()
-
+	table := tablewriter.NewTable(&buf,
+		tablewriter.WithRenderer(renderer.NewMarkdown()),
+	)
+	table.Header(tr.Headers())
+	err := table.Bulk(data)
+	if err != nil {
+		panic(err)
+	}
+	err = table.Render()
+	if err != nil {
+		panic(err)
+	}
 	return buf.Bytes()
 }
