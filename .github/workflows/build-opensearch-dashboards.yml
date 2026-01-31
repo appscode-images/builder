@@ -78,7 +78,22 @@ jobs:
         cd opensearch-build
         git checkout opensearch-${{ matrix.tag }}
         cd docker/release
-        ./build-image-multi-arch.sh -v ${{ matrix.tag }} -f ./dockerfiles/opensearch-dashboards.al2.dockerfile -p opensearch-dashboards -a "x64,arm64" -r "ghcr.io/appscode-images/daily/opensearch-dashboards"
+        
+        # Determine which Dockerfile to use based on version
+        VERSION="${{ matrix.tag }}"
+        MAJOR=$(echo $VERSION | cut -d. -f1)
+        MINOR=$(echo $VERSION | cut -d. -f2)
+        
+        # Use al2.dockerfile for versions < 2.10, otherwise use al2023.dockerfile
+        if [ "$MAJOR" -lt 2 ] || ([ "$MAJOR" -eq 2 ] && [ "$MINOR" -lt 10 ]); then
+          DOCKERFILE="./dockerfiles/opensearch-dashboards.al2.dockerfile"
+          echo "Using AL2 Dockerfile for version $VERSION (< 2.10)"
+        else
+          DOCKERFILE="./dockerfiles/opensearch-dashboards.al2023.dockerfile"
+          echo "Using AL2023 Dockerfile for version $VERSION (>= 2.10)"
+        fi
+        
+        ./build-image-multi-arch.sh -v ${{ matrix.tag }} -f $DOCKERFILE -p opensearch-dashboards -a "x64,arm64" -r "ghcr.io/appscode-images/daily/opensearch-dashboards"
         crane cp ghcr.io/appscode-images/daily/opensearch-dashboards:${{ matrix.tag }} ghcr.io/appscode-images/daily/opensearch-dashboards:${{ matrix.tag }}_$(date -u +'%Y%m%d')
 
   # report:
