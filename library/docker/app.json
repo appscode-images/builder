@@ -2581,6 +2581,20 @@
     "29.1.5-windowsservercore": {},
     "29.1.5-windowsservercore-ltsc2022": {},
     "29.1.5-windowsservercore-ltsc2025": {},
+    "29.2": {},
+    "29.2-cli": {},
+    "29.2-dind": {},
+    "29.2-dind-rootless": {},
+    "29.2-windowsservercore": {},
+    "29.2-windowsservercore-ltsc2022": {},
+    "29.2-windowsservercore-ltsc2025": {},
+    "29.2.0": {},
+    "29.2.0-alpine3.23": {},
+    "29.2.0-cli": {},
+    "29.2.0-cli-alpine3.23": {},
+    "29.2.0-dind": {},
+    "29.2.0-dind-alpine3.23": {},
+    "29.2.0-dind-rootless": {},
     "29.2.0-rc.1": {},
     "29.2.0-rc.1-alpine3.23": {},
     "29.2.0-rc.1-cli": {},
@@ -2601,6 +2615,9 @@
     "29.2.0-rc.2-windowsservercore": {},
     "29.2.0-rc.2-windowsservercore-ltsc2022": {},
     "29.2.0-rc.2-windowsservercore-ltsc2025": {},
+    "29.2.0-windowsservercore": {},
+    "29.2.0-windowsservercore-ltsc2022": {},
+    "29.2.0-windowsservercore-ltsc2025": {},
     "cli": {},
     "dind": {},
     "dind-rootless": {},
@@ -2643,6 +2660,166 @@
     "windowsservercore-ltsc2025": {}
   },
   "Blocks": [
+    {
+      "Tags": [
+        "29.2.0-cli",
+        "29.2-cli",
+        "29-cli",
+        "cli",
+        "29.2.0-cli-alpine3.23"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "e436640ce7609716ca4ace514a6d2b629f8d4997",
+      "Directory": "29/cli",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "29.2.0-dind",
+        "29.2-dind",
+        "29-dind",
+        "dind",
+        "29.2.0-dind-alpine3.23",
+        "29.2.0",
+        "29.2",
+        "29",
+        "latest",
+        "29.2.0-alpine3.23"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "e436640ce7609716ca4ace514a6d2b629f8d4997",
+      "Directory": "29/dind",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "29.2.0-dind-rootless",
+        "29.2-dind-rootless",
+        "29-dind-rootless",
+        "dind-rootless"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "e436640ce7609716ca4ace514a6d2b629f8d4997",
+      "Directory": "29/dind-rootless",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "29.2.0-windowsservercore-ltsc2025",
+        "29.2-windowsservercore-ltsc2025",
+        "29-windowsservercore-ltsc2025",
+        "windowsservercore-ltsc2025",
+        "29.2.0-windowsservercore",
+        "29.2-windowsservercore",
+        "29-windowsservercore",
+        "windowsservercore"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "e436640ce7609716ca4ace514a6d2b629f8d4997",
+      "Directory": "29/windows/windowsservercore-ltsc2025",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "29.2.0-windowsservercore-ltsc2022",
+        "29.2-windowsservercore-ltsc2022",
+        "29-windowsservercore-ltsc2022",
+        "windowsservercore-ltsc2022"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "e436640ce7609716ca4ace514a6d2b629f8d4997",
+      "Directory": "29/windows/windowsservercore-ltsc2022",
+      "File": ""
+    },
     {
       "Tags": [
         "29.2.0-rc.2-cli",
@@ -2800,8 +2977,6 @@
       "Tags": [
         "29.1.5-cli",
         "29.1-cli",
-        "29-cli",
-        "cli",
         "29.1.5-cli-alpine3.23"
       ],
       "Architectures": {
@@ -2842,13 +3017,9 @@
       "Tags": [
         "29.1.5-dind",
         "29.1-dind",
-        "29-dind",
-        "dind",
         "29.1.5-dind-alpine3.23",
         "29.1.5",
         "29.1",
-        "29",
-        "latest",
         "29.1.5-alpine3.23"
       ],
       "Architectures": {
@@ -2888,9 +3059,7 @@
     {
       "Tags": [
         "29.1.5-dind-rootless",
-        "29.1-dind-rootless",
-        "29-dind-rootless",
-        "dind-rootless"
+        "29.1-dind-rootless"
       ],
       "Architectures": {
         "amd64": {
@@ -2916,12 +3085,8 @@
       "Tags": [
         "29.1.5-windowsservercore-ltsc2025",
         "29.1-windowsservercore-ltsc2025",
-        "29-windowsservercore-ltsc2025",
-        "windowsservercore-ltsc2025",
         "29.1.5-windowsservercore",
-        "29.1-windowsservercore",
-        "29-windowsservercore",
-        "windowsservercore"
+        "29.1-windowsservercore"
       ],
       "Architectures": {
         "windows-amd64": {
@@ -2939,9 +3104,7 @@
     {
       "Tags": [
         "29.1.5-windowsservercore-ltsc2022",
-        "29.1-windowsservercore-ltsc2022",
-        "29-windowsservercore-ltsc2022",
-        "windowsservercore-ltsc2022"
+        "29.1-windowsservercore-ltsc2022"
       ],
       "Architectures": {
         "windows-amd64": {

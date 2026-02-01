@@ -12,18 +12,62 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+  Directory: 9.14/bookworm
+  File: ""
+  GitCommit: 507dcd550c1eb050a5839572f74b908e3a3e306b
+  Tags:
+  - 9.14.1-bookworm
+  - 9.14-bookworm
+  - 9-bookworm
+  - bookworm
+  - 9.14.1
+  - "9.14"
+  - "9"
+  - latest
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 9.14/slim-bookworm
+  File: ""
+  GitCommit: 507dcd550c1eb050a5839572f74b908e3a3e306b
+  Tags:
+  - 9.14.1-slim-bookworm
+  - 9.14-slim-bookworm
+  - 9-slim-bookworm
+  - slim-bookworm
+  - 9-slim
+  - slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
   Directory: 9.12/bookworm
   File: ""
   GitCommit: d478ceb8ff33f6208db87008e48cd084fd9747a1
   Tags:
   - 9.12.2-bookworm
   - 9.12-bookworm
-  - 9-bookworm
-  - bookworm
   - 9.12.2
   - "9.12"
-  - "9"
-  - latest
 - Architectures:
     amd64:
       Architecture: amd64
@@ -43,10 +87,6 @@ Blocks:
   Tags:
   - 9.12.2-slim-bookworm
   - 9.12-slim-bookworm
-  - 9-slim-bookworm
-  - slim-bookworm
-  - 9-slim
-  - slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1723,6 +1763,12 @@ KnownTags:
   9.12.2: {}
   9.12.2-bookworm: {}
   9.12.2-slim-bookworm: {}
+  "9.14": {}
+  9.14-bookworm: {}
+  9.14-slim-bookworm: {}
+  9.14.1: {}
+  9.14.1-bookworm: {}
+  9.14.1-slim-bookworm: {}
   bookworm: {}
   bullseye: {}
   buster: {}

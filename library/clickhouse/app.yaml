@@ -14,7 +14,7 @@ Blocks:
       GitFetch: ""
   Directory: server/25.12.4.35
   File: Dockerfile.ubuntu
-  GitCommit: 69243cde1850a965e5bd88e04d6c43d1bf47d324
+  GitCommit: 2c81da116266ab26b274d2afe0f89c71916d1fbf
   Tags:
   - latest
   - jammy
@@ -37,16 +37,16 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: server/25.11.7.41
+  Directory: server/25.11.8.25
   File: Dockerfile.ubuntu
-  GitCommit: 69243cde1850a965e5bd88e04d6c43d1bf47d324
+  GitCommit: 2c81da116266ab26b274d2afe0f89c71916d1fbf
   Tags:
   - "25.11"
   - 25.11-jammy
-  - 25.11.7
-  - 25.11.7-jammy
-  - 25.11.7.41
-  - 25.11.7.41-jammy
+  - 25.11.8
+  - 25.11.8-jammy
+  - 25.11.8.25
+  - 25.11.8.25-jammy
 - Architectures:
     amd64:
       Architecture: amd64
@@ -62,7 +62,7 @@ Blocks:
       GitFetch: ""
   Directory: server/25.10.5.40
   File: Dockerfile.ubuntu
-  GitCommit: 69243cde1850a965e5bd88e04d6c43d1bf47d324
+  GitCommit: 2c81da116266ab26b274d2afe0f89c71916d1fbf
   Tags:
   - "25.10"
   - 25.10-jammy
@@ -85,7 +85,7 @@ Blocks:
       GitFetch: ""
   Directory: server/25.8.15.35
   File: Dockerfile.ubuntu
-  GitCommit: 69243cde1850a965e5bd88e04d6c43d1bf47d324
+  GitCommit: 2c81da116266ab26b274d2afe0f89c71916d1fbf
   Tags:
   - lts
   - lts-jammy
@@ -110,7 +110,7 @@ Blocks:
       GitFetch: ""
   Directory: server/25.3.13.19
   File: Dockerfile.ubuntu
-  GitCommit: 69243cde1850a965e5bd88e04d6c43d1bf47d324
+  GitCommit: 2c81da116266ab26b274d2afe0f89c71916d1fbf
   Tags:
   - "25.3"
   - 25.3-jammy
@@ -118,6 +118,27 @@ Blocks:
   - 25.3.13-jammy
   - 25.3.13.19
   - 25.3.13.19-jammy
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: server/25.11.7.41
+  File: Dockerfile.ubuntu
+  GitCommit: 69243cde1850a965e5bd88e04d6c43d1bf47d324
+  Tags:
+  - 25.11.7
+  - 25.11.7-jammy
+  - 25.11.7.41
+  - 25.11.7.41-jammy
 - Architectures:
     amd64:
       Architecture: amd64
@@ -2608,6 +2629,10 @@ KnownTags:
   25.11.7-jammy: {}
   25.11.7.41: {}
   25.11.7.41-jammy: {}
+  25.11.8: {}
+  25.11.8-jammy: {}
+  25.11.8.25: {}
+  25.11.8.25-jammy: {}
   "25.12": {}
   25.12-jammy: {}
   25.12.1: {}
