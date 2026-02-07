@@ -16,7 +16,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        tag: [2.10.29-alpine]
+        tag: [2.12.4-alpine, 2.11.12-alpine, 2.10.29-alpine]
     steps:
     - uses: actions/checkout@v4
 
