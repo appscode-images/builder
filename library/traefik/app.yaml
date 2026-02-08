@@ -95,10 +95,10 @@ Blocks:
       GitFetch: ""
   Directory: v2.11/windows/servercore-ltsc2022
   File: ""
-  GitCommit: 7d230718b0052756551f0ef84f256755c40463a1
+  GitCommit: cce3f80cb9b088ee9d01791dc7705f8d966b292e
   Tags:
-  - v2.11.35-windowsservercore-ltsc2022
-  - 2.11.35-windowsservercore-ltsc2022
+  - v2.11.36-windowsservercore-ltsc2022
+  - 2.11.36-windowsservercore-ltsc2022
   - v2.11-windowsservercore-ltsc2022
   - 2.11-windowsservercore-ltsc2022
   - v2-windowsservercore-ltsc2022
@@ -113,10 +113,10 @@ Blocks:
       GitFetch: ""
   Directory: v2.11/windows/nanoserver-ltsc2022
   File: ""
-  GitCommit: 7d230718b0052756551f0ef84f256755c40463a1
+  GitCommit: cce3f80cb9b088ee9d01791dc7705f8d966b292e
   Tags:
-  - v2.11.35-nanoserver-ltsc2022
-  - 2.11.35-nanoserver-ltsc2022
+  - v2.11.36-nanoserver-ltsc2022
+  - 2.11.36-nanoserver-ltsc2022
   - v2.11-nanoserver-ltsc2022
   - 2.11-nanoserver-ltsc2022
   - v2-nanoserver-ltsc2022
@@ -161,15 +161,84 @@ Blocks:
       GitFetch: ""
   Directory: v2.11/alpine
   File: ""
-  GitCommit: 7d230718b0052756551f0ef84f256755c40463a1
+  GitCommit: cce3f80cb9b088ee9d01791dc7705f8d966b292e
   Tags:
-  - v2.11.35
-  - 2.11.35
+  - v2.11.36
+  - 2.11.36
   - v2.11
   - "2.11"
   - v2
   - "2"
   - mimolette
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: v2.11/windows/servercore-ltsc2022
+  File: ""
+  GitCommit: 7d230718b0052756551f0ef84f256755c40463a1
+  Tags:
+  - v2.11.35-windowsservercore-ltsc2022
+  - 2.11.35-windowsservercore-ltsc2022
+- Architectures:
+    windows-amd64:
+      Architecture: windows-amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: v2.11/windows/nanoserver-ltsc2022
+  File: ""
+  GitCommit: 7d230718b0052756551f0ef84f256755c40463a1
+  Tags:
+  - v2.11.35-nanoserver-ltsc2022
+  - 2.11.35-nanoserver-ltsc2022
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: v2.11/alpine
+  File: ""
+  GitCommit: 7d230718b0052756551f0ef84f256755c40463a1
+  Tags:
+  - v2.11.35
+  - 2.11.35
 - Architectures:
     windows-amd64:
       Architecture: windows-amd64
@@ -18632,6 +18701,9 @@ KnownTags:
   2.11.35: {}
   2.11.35-nanoserver-ltsc2022: {}
   2.11.35-windowsservercore-ltsc2022: {}
+  2.11.36: {}
+  2.11.36-nanoserver-ltsc2022: {}
+  2.11.36-windowsservercore-ltsc2022: {}
   "3": {}
   3-nanoserver-ltsc2022: {}
   3-windowsservercore-1809: {}
@@ -19701,6 +19773,9 @@ KnownTags:
   v2.11.35: {}
   v2.11.35-nanoserver-ltsc2022: {}
   v2.11.35-windowsservercore-ltsc2022: {}
+  v2.11.36: {}
+  v2.11.36-nanoserver-ltsc2022: {}
+  v2.11.36-windowsservercore-ltsc2022: {}
   v3: {}
   v3-nanoserver-ltsc2022: {}
   v3-windowsservercore-1809: {}
