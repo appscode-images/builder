@@ -4,7 +4,7 @@ go 1.25.0
 
 require (
 	github.com/Masterminds/semver/v3 v3.4.0
-	github.com/go-git/go-git/v5 v5.16.4
+	github.com/go-git/go-git/v5 v5.16.5
 	github.com/google/go-containerregistry v0.20.7
 	github.com/google/go-github/v56 v56.0.0
 	github.com/olekukonko/tablewriter v1.1.3
