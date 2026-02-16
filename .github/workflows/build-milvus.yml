@@ -16,7 +16,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        tag: [2.6.1, 2.6.2, 2.6.7]
+        tag: [2.6.1, 2.6.2, 2.6.7, 2.6.9, 2.6.11]
     steps:
     - uses: actions/checkout@v4
 
@@ -79,7 +79,7 @@ jobs:
         # Clone the appscode-images/milvus repo containing the Dockerfile
         git clone https://github.com/appscode-images/milvus.git
         cd milvus
-        git checkout master
+        git checkout upd
         
         # Generate date tag (e.g., 20251205)
         DATE_TAG=$(date -u +'%Y%m%d')
