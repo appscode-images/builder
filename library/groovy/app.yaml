@@ -30,9 +30,9 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: jdk21
+  Directory: groovy-5/jdk21
   File: ""
-  GitCommit: 1f32e098b3586526e078e46938d8904c2067269c
+  GitCommit: 083f73d5193ae7fff1b17d6f990000b45ab83593
   Tags:
   - 5.0.4-jdk21
   - 5.0-jdk21
@@ -71,9 +71,9 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: jdk21-alpine
+  Directory: groovy-5/jdk21-alpine
   File: ""
-  GitCommit: 1f32e098b3586526e078e46938d8904c2067269c
+  GitCommit: 083f73d5193ae7fff1b17d6f990000b45ab83593
   Tags:
   - 5.0.4-jdk21-alpine
   - 5.0-jdk21-alpine
@@ -124,9 +124,9 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: jdk17
+  Directory: groovy-5/jdk17
   File: ""
-  GitCommit: 1f32e098b3586526e078e46938d8904c2067269c
+  GitCommit: 083f73d5193ae7fff1b17d6f990000b45ab83593
   Tags:
   - 5.0.4-jdk17
   - 5.0-jdk17
@@ -143,9 +143,9 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: jdk17-alpine
+  Directory: groovy-5/jdk17-alpine
   File: ""
-  GitCommit: 1f32e098b3586526e078e46938d8904c2067269c
+  GitCommit: 083f73d5193ae7fff1b17d6f990000b45ab83593
   Tags:
   - 5.0.4-jdk17-alpine
   - 5.0-jdk17-alpine
@@ -182,9 +182,9 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: jdk11
+  Directory: groovy-5/jdk11
   File: ""
-  GitCommit: 1f32e098b3586526e078e46938d8904c2067269c
+  GitCommit: 083f73d5193ae7fff1b17d6f990000b45ab83593
   Tags:
   - 5.0.4-jdk11
   - 5.0-jdk11
@@ -209,14 +209,529 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: jdk11-alpine
+  Directory: groovy-5/jdk11-alpine
   File: ""
-  GitCommit: 1f32e098b3586526e078e46938d8904c2067269c
+  GitCommit: 083f73d5193ae7fff1b17d6f990000b45ab83593
   Tags:
   - 5.0.4-jdk11-alpine
   - 5.0-jdk11-alpine
   - 5-jdk11-alpine
   - jdk11-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: groovy-4/jdk21
+  File: ""
+  GitCommit: f388b50e37ff68b227be28b78ba855d61f1061ba
+  Tags:
+  - 4.0.30-jdk21
+  - 4.0-jdk21
+  - 4-jdk21
+  - 4.0.30-jdk21-noble
+  - 4.0-jdk21-noble
+  - 4-jdk21-noble
+  - 4.0.30-jdk
+  - 4.0-jdk
+  - 4-jdk
+  - 4.0.30
+  - "4.0"
+  - "4"
+  - 4.0.30-jdk-noble
+  - 4.0-jdk-noble
+  - 4-jdk-noble
+  - 4.0.30-noble
+  - 4.0-noble
+  - 4-noble
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: groovy-4/jdk21-alpine
+  File: ""
+  GitCommit: f388b50e37ff68b227be28b78ba855d61f1061ba
+  Tags:
+  - 4.0.30-jdk21-alpine
+  - 4.0-jdk21-alpine
+  - 4-jdk21-alpine
+  - 4.0.30-jdk-alpine
+  - 4.0-jdk-alpine
+  - 4-jdk-alpine
+  - 4.0.30-alpine
+  - 4.0-alpine
+  - 4-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: groovy-4/jdk17
+  File: ""
+  GitCommit: f388b50e37ff68b227be28b78ba855d61f1061ba
+  Tags:
+  - 4.0.30-jdk17
+  - 4.0-jdk17
+  - 4-jdk17
+  - 4.0.30-jdk17-noble
+  - 4.0-jdk17-noble
+  - 4-jdk17-noble
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: groovy-4/jdk17-alpine
+  File: ""
+  GitCommit: f388b50e37ff68b227be28b78ba855d61f1061ba
+  Tags:
+  - 4.0.30-jdk17-alpine
+  - 4.0-jdk17-alpine
+  - 4-jdk17-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: groovy-4/jdk11
+  File: ""
+  GitCommit: f388b50e37ff68b227be28b78ba855d61f1061ba
+  Tags:
+  - 4.0.30-jdk11
+  - 4.0-jdk11
+  - 4-jdk11
+  - 4.0.30-jdk11-jammy
+  - 4.0-jdk11-jammy
+  - 4-jdk11-jammy
+  - 4.0.30-jdk-jammy
+  - 4.0-jdk-jammy
+  - 4-jdk-jammy
+  - 4.0.30-jammy
+  - 4.0-jammy
+  - 4-jammy
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: groovy-4/jdk11-alpine
+  File: ""
+  GitCommit: f388b50e37ff68b227be28b78ba855d61f1061ba
+  Tags:
+  - 4.0.30-jdk11-alpine
+  - 4.0-jdk11-alpine
+  - 4-jdk11-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: groovy-4/jdk8
+  File: ""
+  GitCommit: f388b50e37ff68b227be28b78ba855d61f1061ba
+  Tags:
+  - 4.0.30-jdk8
+  - 4.0-jdk8
+  - 4-jdk8
+  - jdk8
+  - 4.0.30-jdk8-jammy
+  - 4.0-jdk8-jammy
+  - 4-jdk8-jammy
+  - jdk8-jammy
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: groovy-4/jdk8-alpine
+  File: ""
+  GitCommit: f388b50e37ff68b227be28b78ba855d61f1061ba
+  Tags:
+  - 4.0.30-jdk8-alpine
+  - 4.0-jdk8-alpine
+  - 4-jdk8-alpine
+  - jdk8-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: groovy-3/jdk21
+  File: ""
+  GitCommit: 5eca48a32862bf352bae6c28683df5ac0850625b
+  Tags:
+  - 3.0.25-jdk21
+  - 3.0-jdk21
+  - 3-jdk21
+  - 3.0.25-jdk21-noble
+  - 3.0-jdk21-noble
+  - 3-jdk21-noble
+  - 3.0.25-jdk
+  - 3.0-jdk
+  - 3-jdk
+  - 3.0.25
+  - "3.0"
+  - "3"
+  - 3.0.25-jdk-noble
+  - 3.0-jdk-noble
+  - 3-jdk-noble
+  - 3.0.25-noble
+  - 3.0-noble
+  - 3-noble
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: groovy-3/jdk21-alpine
+  File: ""
+  GitCommit: 5eca48a32862bf352bae6c28683df5ac0850625b
+  Tags:
+  - 3.0.25-jdk21-alpine
+  - 3.0-jdk21-alpine
+  - 3-jdk21-alpine
+  - 3.0.25-jdk-alpine
+  - 3.0-jdk-alpine
+  - 3-jdk-alpine
+  - 3.0.25-alpine
+  - 3.0-alpine
+  - 3-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: groovy-3/jdk17
+  File: ""
+  GitCommit: 5eca48a32862bf352bae6c28683df5ac0850625b
+  Tags:
+  - 3.0.25-jdk17
+  - 3.0-jdk17
+  - 3-jdk17
+  - 3.0.25-jdk17-noble
+  - 3.0-jdk17-noble
+  - 3-jdk17-noble
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: groovy-3/jdk17-alpine
+  File: ""
+  GitCommit: 5eca48a32862bf352bae6c28683df5ac0850625b
+  Tags:
+  - 3.0.25-jdk17-alpine
+  - 3.0-jdk17-alpine
+  - 3-jdk17-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: groovy-3/jdk11
+  File: ""
+  GitCommit: 5eca48a32862bf352bae6c28683df5ac0850625b
+  Tags:
+  - 3.0.25-jdk11
+  - 3.0-jdk11
+  - 3-jdk11
+  - 3.0.25-jdk11-jammy
+  - 3.0-jdk11-jammy
+  - 3-jdk11-jammy
+  - 3.0.25-jdk-jammy
+  - 3.0-jdk-jammy
+  - 3-jdk-jammy
+  - 3.0.25-jammy
+  - 3.0-jammy
+  - 3-jammy
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: groovy-3/jdk11-alpine
+  File: ""
+  GitCommit: 5eca48a32862bf352bae6c28683df5ac0850625b
+  Tags:
+  - 3.0.25-jdk11-alpine
+  - 3.0-jdk11-alpine
+  - 3-jdk11-alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: groovy-3/jdk8
+  File: ""
+  GitCommit: 5eca48a32862bf352bae6c28683df5ac0850625b
+  Tags:
+  - 3.0.25-jdk8
+  - 3.0-jdk8
+  - 3-jdk8
+  - 3.0.25-jdk8-jammy
+  - 3.0-jdk8-jammy
+  - 3-jdk8-jammy
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: groovy-3/jdk8-alpine
+  File: ""
+  GitCommit: 5eca48a32862bf352bae6c28683df5ac0850625b
+  Tags:
+  - 3.0.25-jdk8-alpine
+  - 3.0-jdk8-alpine
+  - 3-jdk8-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -256,7 +771,6 @@ Blocks:
   - 5.0.3-jdk21-noble
   - 5.0.3-jdk
   - 5.0.3
-  - "4"
   - 5.0.3-jdk-noble
   - 5.0.3-noble
 - Architectures:
@@ -485,22 +999,11 @@ Blocks:
   GitCommit: 5a3c63b31c157987812e0b7d7d510cf83490e259
   Tags:
   - 4.0.27-jdk21
-  - 4.0-jdk21
-  - 4-jdk21
   - 4.0.27-jdk21-noble
-  - 4.0-jdk21-noble
-  - 4-jdk21-noble
   - 4.0.27-jdk
-  - 4.0-jdk
-  - 4-jdk
   - 4.0.27
-  - "4.0"
   - 4.0.27-jdk-noble
-  - 4.0-jdk-noble
-  - 4-jdk-noble
   - 4.0.27-noble
-  - 4.0-noble
-  - 4-noble
 - Architectures:
     amd64:
       Architecture: amd64
@@ -519,14 +1022,8 @@ Blocks:
   GitCommit: 5a3c63b31c157987812e0b7d7d510cf83490e259
   Tags:
   - 4.0.27-jdk21-alpine
-  - 4.0-jdk21-alpine
-  - 4-jdk21-alpine
   - 4.0.27-jdk-alpine
-  - 4.0-jdk-alpine
-  - 4-jdk-alpine
   - 4.0.27-alpine
-  - 4.0-alpine
-  - 4-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -569,11 +1066,7 @@ Blocks:
   GitCommit: 5a3c63b31c157987812e0b7d7d510cf83490e259
   Tags:
   - 4.0.27-jdk17
-  - 4.0-jdk17
-  - 4-jdk17
   - 4.0.27-jdk17-noble
-  - 4.0-jdk17-noble
-  - 4-jdk17-noble
 - Architectures:
     amd64:
       Architecture: amd64
@@ -586,8 +1079,6 @@ Blocks:
   GitCommit: 5a3c63b31c157987812e0b7d7d510cf83490e259
   Tags:
   - 4.0.27-jdk17-alpine
-  - 4.0-jdk17-alpine
-  - 4-jdk17-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -624,17 +1115,9 @@ Blocks:
   GitCommit: 5a3c63b31c157987812e0b7d7d510cf83490e259
   Tags:
   - 4.0.27-jdk11
-  - 4.0-jdk11
-  - 4-jdk11
   - 4.0.27-jdk11-jammy
-  - 4.0-jdk11-jammy
-  - 4-jdk11-jammy
   - 4.0.27-jdk-jammy
-  - 4.0-jdk-jammy
-  - 4-jdk-jammy
   - 4.0.27-jammy
-  - 4.0-jammy
-  - 4-jammy
 - Architectures:
     amd64:
       Architecture: amd64
@@ -647,8 +1130,6 @@ Blocks:
   GitCommit: 5a3c63b31c157987812e0b7d7d510cf83490e259
   Tags:
   - 4.0.27-jdk11-alpine
-  - 4.0-jdk11-alpine
-  - 4-jdk11-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -679,13 +1160,7 @@ Blocks:
   GitCommit: 5a3c63b31c157987812e0b7d7d510cf83490e259
   Tags:
   - 4.0.27-jdk8
-  - 4.0-jdk8
-  - 4-jdk8
-  - jdk8
   - 4.0.27-jdk8-jammy
-  - 4.0-jdk8-jammy
-  - 4-jdk8-jammy
-  - jdk8-jammy
 - Architectures:
     amd64:
       Architecture: amd64
@@ -2960,9 +3435,7 @@ Blocks:
   GitCommit: bc4c3ee2a4e26f14458b121f238bb862c9de6b27
   Tags:
   - 3.0.14-jdk8
-  - 3.0-jdk8
   - 3.0.14-jdk8-jammy
-  - 3.0-jdk8-jammy
 - Architectures:
     amd64:
       Architecture: amd64
@@ -2999,9 +3472,7 @@ Blocks:
   GitCommit: bc4c3ee2a4e26f14458b121f238bb862c9de6b27
   Tags:
   - 3.0.14-jdk11
-  - 3.0-jdk11
   - 3.0.14-jdk11-jammy
-  - 3.0-jdk11-jammy
 - Architectures:
     amd64:
       Architecture: amd64
@@ -3014,7 +3485,6 @@ Blocks:
   GitCommit: bc4c3ee2a4e26f14458b121f238bb862c9de6b27
   Tags:
   - 3.0.14-jdk11-alpine
-  - 3.0-jdk11-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -3051,19 +3521,12 @@ Blocks:
   GitCommit: bc4c3ee2a4e26f14458b121f238bb862c9de6b27
   Tags:
   - 3.0.14-jdk17
-  - 3.0-jdk17
   - 3.0.14-jdk
-  - 3.0-jdk
   - 3.0.14
-  - "3.0"
-  - "3"
   - 3.0.14-jdk17-jammy
   - 3.0-jdk17-jammy
   - 3.0.14-jdk-jammy
-  - 3.0-jdk-jammy
   - 3.0.14-jammy
-  - 3.0-jammy
-  - 3-jammy
 - Architectures:
     amd64:
       Architecture: amd64
@@ -3076,12 +3539,8 @@ Blocks:
   GitCommit: bc4c3ee2a4e26f14458b121f238bb862c9de6b27
   Tags:
   - 3.0.14-jdk17-alpine
-  - 3.0-jdk17-alpine
   - 3.0.14-jdk-alpine
-  - 3.0-jdk-alpine
   - 3.0.14-alpine
-  - 3.0-alpine
-  - 3-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -9916,7 +10375,6 @@ Blocks:
   - 2.5-jdk8-alpine
   - 2.5.7-jdk-alpine
   - 2.5-jdk-alpine
-  - jdk8-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -10008,7 +10466,6 @@ Blocks:
   GitCommit: 1e376c0bdf078b96d03ac32dd8d2dcfcb86ca4ff
   Tags:
   - 3.0.0-beta-1-jdk8-alpine
-  - 3.0-jdk8-alpine
   - 3.0.0-beta-1-jdk-alpine
 - Architectures:
     amd64:
@@ -17833,12 +18290,30 @@ KnownTags:
   "3": {}
   3-alpine: {}
   3-jammy: {}
+  3-jdk: {}
+  3-jdk-alpine: {}
+  3-jdk-jammy: {}
+  3-jdk-noble: {}
+  3-jdk8: {}
+  3-jdk8-alpine: {}
+  3-jdk8-jammy: {}
+  3-jdk11: {}
+  3-jdk11-alpine: {}
+  3-jdk11-jammy: {}
+  3-jdk17: {}
+  3-jdk17-alpine: {}
+  3-jdk17-noble: {}
+  3-jdk21: {}
+  3-jdk21-alpine: {}
+  3-jdk21-noble: {}
+  3-noble: {}
   "3.0": {}
   3.0-alpine: {}
   3.0-jammy: {}
   3.0-jdk: {}
   3.0-jdk-alpine: {}
   3.0-jdk-jammy: {}
+  3.0-jdk-noble: {}
   3.0-jdk8: {}
   3.0-jdk8-alpine: {}
   3.0-jdk8-jammy: {}
@@ -17855,6 +18330,10 @@ KnownTags:
   3.0-jdk17: {}
   3.0-jdk17-alpine: {}
   3.0-jdk17-jammy: {}
+  3.0-jdk17-noble: {}
+  3.0-jdk21: {}
+  3.0-jdk21-alpine: {}
+  3.0-jdk21-noble: {}
   3.0-jre: {}
   3.0-jre-alpine: {}
   3.0-jre8: {}
@@ -17867,6 +18346,7 @@ KnownTags:
   3.0-jre14: {}
   3.0-jre15: {}
   3.0-jre16: {}
+  3.0-noble: {}
   3.0.0: {}
   3.0.0-alpha-1: {}
   3.0.0-alpha-1-alpine: {}
@@ -18136,6 +18616,26 @@ KnownTags:
   3.0.14-jdk17: {}
   3.0.14-jdk17-alpine: {}
   3.0.14-jdk17-jammy: {}
+  3.0.25: {}
+  3.0.25-alpine: {}
+  3.0.25-jammy: {}
+  3.0.25-jdk: {}
+  3.0.25-jdk-alpine: {}
+  3.0.25-jdk-jammy: {}
+  3.0.25-jdk-noble: {}
+  3.0.25-jdk8: {}
+  3.0.25-jdk8-alpine: {}
+  3.0.25-jdk8-jammy: {}
+  3.0.25-jdk11: {}
+  3.0.25-jdk11-alpine: {}
+  3.0.25-jdk11-jammy: {}
+  3.0.25-jdk17: {}
+  3.0.25-jdk17-alpine: {}
+  3.0.25-jdk17-noble: {}
+  3.0.25-jdk21: {}
+  3.0.25-jdk21-alpine: {}
+  3.0.25-jdk21-noble: {}
+  3.0.25-noble: {}
   "4": {}
   4-alpine: {}
   4-jammy: {}
@@ -18144,6 +18644,7 @@ KnownTags:
   4-jdk-jammy: {}
   4-jdk-noble: {}
   4-jdk8: {}
+  4-jdk8-alpine: {}
   4-jdk8-jammy: {}
   4-jdk11: {}
   4-jdk11-alpine: {}
@@ -18165,6 +18666,7 @@ KnownTags:
   4.0-jdk-jammy: {}
   4.0-jdk-noble: {}
   4.0-jdk8: {}
+  4.0-jdk8-alpine: {}
   4.0-jdk8-jammy: {}
   4.0-jdk11: {}
   4.0-jdk11-alpine: {}
@@ -18618,6 +19120,26 @@ KnownTags:
   4.0.27-jdk21-jammy: {}
   4.0.27-jdk21-noble: {}
   4.0.27-noble: {}
+  4.0.30: {}
+  4.0.30-alpine: {}
+  4.0.30-jammy: {}
+  4.0.30-jdk: {}
+  4.0.30-jdk-alpine: {}
+  4.0.30-jdk-jammy: {}
+  4.0.30-jdk-noble: {}
+  4.0.30-jdk8: {}
+  4.0.30-jdk8-alpine: {}
+  4.0.30-jdk8-jammy: {}
+  4.0.30-jdk11: {}
+  4.0.30-jdk11-alpine: {}
+  4.0.30-jdk11-jammy: {}
+  4.0.30-jdk17: {}
+  4.0.30-jdk17-alpine: {}
+  4.0.30-jdk17-noble: {}
+  4.0.30-jdk21: {}
+  4.0.30-jdk21-alpine: {}
+  4.0.30-jdk21-noble: {}
+  4.0.30-noble: {}
   "5": {}
   5-alpine: {}
   5-jammy: {}

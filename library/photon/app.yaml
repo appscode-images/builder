@@ -30,14 +30,14 @@ Blocks:
       Architecture: arm64v8
       Directory: ""
       File: ""
-      GitCommit: da1876b35986f9aedd0175fc59fa92d732110317
-      GitFetch: refs/heads/aarch64/4.0-20260111
+      GitCommit: 56a3da42f78ab0c87f43cda707f582ee6d9f2209
+      GitFetch: refs/heads/aarch64/4.0-20260201
   Directory: ""
   File: ""
-  GitCommit: cf8cd01e8856fa27129822919d90b97011b013d3
+  GitCommit: f800a3f0c8e9f534e40b3d1023fc8b7414dbf2b5
   Tags:
   - "4.0"
-  - 4.0-20260111
+  - 4.0-20260201
 - Architectures:
     amd64:
       Architecture: amd64
@@ -57,6 +57,24 @@ Blocks:
   Tags:
   - "3.0"
   - 3.0-20250316
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: da1876b35986f9aedd0175fc59fa92d732110317
+      GitFetch: refs/heads/aarch64/4.0-20260111
+  Directory: ""
+  File: ""
+  GitCommit: cf8cd01e8856fa27129822919d90b97011b013d3
+  Tags:
+  - 4.0-20260111
 - Architectures:
     amd64:
       Architecture: amd64
@@ -9888,6 +9906,7 @@ KnownTags:
   4.0-20251116: {}
   4.0-20251207: {}
   4.0-20260111: {}
+  4.0-20260201: {}
   4.0-GA: {}
   "5.0": {}
   5.0-20230128: {}

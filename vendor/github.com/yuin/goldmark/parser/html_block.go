@@ -201,7 +201,7 @@ func (b *htmlBlockParser) Continue(node ast.Node, reader text.Reader, pc Context
 		}
 		if bytes.Contains(line, closurePattern) {
 			htmlBlock.ClosureLine = segment
-			reader.Advance(segment.Len())
+			reader.Advance(segment.Len() - 1)
 			return Close
 		}
 

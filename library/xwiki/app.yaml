@@ -12,21 +12,90 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 17/mysql-tomcat
+  Directory: 18/mysql-tomcat
   File: ""
-  GitCommit: a7602018132edae5f6fc023fd172692ff2794452
+  GitCommit: 067117f2ba0ba5d728d1a5e3f1e65722ace35667
   Tags:
-  - "17"
-  - "17.10"
-  - 17.10.2
-  - 17-mysql-tomcat
-  - 17.10-mysql-tomcat
-  - 17.10.2-mysql-tomcat
+  - "18"
+  - "18.0"
+  - 18.0.1
+  - 18-mysql-tomcat
+  - 18.0-mysql-tomcat
+  - 18.0.1-mysql-tomcat
   - mysql-tomcat
   - stable-mysql-tomcat
   - stable-mysql
   - stable
   - latest
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 18/postgres-tomcat
+  File: ""
+  GitCommit: 067117f2ba0ba5d728d1a5e3f1e65722ace35667
+  Tags:
+  - 18-postgres-tomcat
+  - 18.0-postgres-tomcat
+  - 18.0.1-postgres-tomcat
+  - postgres-tomcat
+  - stable-postgres-tomcat
+  - stable-postgres
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 18/mariadb-tomcat
+  File: ""
+  GitCommit: 067117f2ba0ba5d728d1a5e3f1e65722ace35667
+  Tags:
+  - 18-mariadb-tomcat
+  - 18.0-mariadb-tomcat
+  - 18.0.1-mariadb-tomcat
+  - mariadb-tomcat
+  - stable-mariadb-tomcat
+  - stable-mariadb
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/mysql-tomcat
+  File: ""
+  GitCommit: 767de9316448ff981a5691d3bd2cd87f41aae157
+  Tags:
+  - "17"
+  - "17.10"
+  - 17.10.3
+  - 17-mysql-tomcat
+  - 17.10-mysql-tomcat
+  - 17.10.3-mysql-tomcat
   - lts-mysql-tomcat
   - lts-mysql
   - lts
@@ -45,14 +114,11 @@ Blocks:
       GitFetch: ""
   Directory: 17/postgres-tomcat
   File: ""
-  GitCommit: a7602018132edae5f6fc023fd172692ff2794452
+  GitCommit: 767de9316448ff981a5691d3bd2cd87f41aae157
   Tags:
   - 17-postgres-tomcat
   - 17.10-postgres-tomcat
-  - 17.10.2-postgres-tomcat
-  - postgres-tomcat
-  - stable-postgres-tomcat
-  - stable-postgres
+  - 17.10.3-postgres-tomcat
   - lts-postgres-tomcat
   - lts-postgres
 - Architectures:
@@ -70,14 +136,11 @@ Blocks:
       GitFetch: ""
   Directory: 17/mariadb-tomcat
   File: ""
-  GitCommit: a7602018132edae5f6fc023fd172692ff2794452
+  GitCommit: 767de9316448ff981a5691d3bd2cd87f41aae157
   Tags:
   - 17-mariadb-tomcat
   - 17.10-mariadb-tomcat
-  - 17.10.2-mariadb-tomcat
-  - mariadb-tomcat
-  - stable-mariadb-tomcat
-  - stable-mariadb
+  - 17.10.3-mariadb-tomcat
   - lts-mariadb-tomcat
   - lts-mariadb
 - Architectures:
@@ -95,12 +158,12 @@ Blocks:
       GitFetch: ""
   Directory: 17.4/mysql-tomcat
   File: ""
-  GitCommit: a7ef84c19ddd999639f06a2dc666e15b6c9077fb
+  GitCommit: a072e83efeb49b9a537cab0b57482ae6d956f572
   Tags:
   - "17.4"
-  - 17.4.8
+  - 17.4.9
   - 17.4-mysql-tomcat
-  - 17.4.8-mysql-tomcat
+  - 17.4.9-mysql-tomcat
 - Architectures:
     amd64:
       Architecture: amd64
@@ -116,10 +179,10 @@ Blocks:
       GitFetch: ""
   Directory: 17.4/postgres-tomcat
   File: ""
-  GitCommit: a7ef84c19ddd999639f06a2dc666e15b6c9077fb
+  GitCommit: a072e83efeb49b9a537cab0b57482ae6d956f572
   Tags:
   - 17.4-postgres-tomcat
-  - 17.4.8-postgres-tomcat
+  - 17.4.9-postgres-tomcat
 - Architectures:
     amd64:
       Architecture: amd64
@@ -135,10 +198,10 @@ Blocks:
       GitFetch: ""
   Directory: 17.4/mariadb-tomcat
   File: ""
-  GitCommit: a7ef84c19ddd999639f06a2dc666e15b6c9077fb
+  GitCommit: a072e83efeb49b9a537cab0b57482ae6d956f572
   Tags:
   - 17.4-mariadb-tomcat
-  - 17.4.8-mariadb-tomcat
+  - 17.4.9-mariadb-tomcat
 - Architectures:
     amd64:
       Architecture: amd64
@@ -202,6 +265,171 @@ Blocks:
   - 16-mariadb-tomcat
   - 16.10-mariadb-tomcat
   - 16.10.16-mariadb-tomcat
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17.4/mysql-tomcat
+  File: ""
+  GitCommit: a7ef84c19ddd999639f06a2dc666e15b6c9077fb
+  Tags:
+  - 17.4.8
+  - 17.4.8-mysql-tomcat
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17.4/postgres-tomcat
+  File: ""
+  GitCommit: a7ef84c19ddd999639f06a2dc666e15b6c9077fb
+  Tags:
+  - 17.4.8-postgres-tomcat
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17.4/mariadb-tomcat
+  File: ""
+  GitCommit: a7ef84c19ddd999639f06a2dc666e15b6c9077fb
+  Tags:
+  - 17.4.8-mariadb-tomcat
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 18/mysql-tomcat
+  File: ""
+  GitCommit: 5a25d43b7c4593cc427e1d6564e4ec5cb3f7c4a1
+  Tags:
+  - 18.0.0
+  - 18.0.0-mysql-tomcat
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 18/postgres-tomcat
+  File: ""
+  GitCommit: 5a25d43b7c4593cc427e1d6564e4ec5cb3f7c4a1
+  Tags:
+  - 18.0.0-postgres-tomcat
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 18/mariadb-tomcat
+  File: ""
+  GitCommit: 5a25d43b7c4593cc427e1d6564e4ec5cb3f7c4a1
+  Tags:
+  - 18.0.0-mariadb-tomcat
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/mysql-tomcat
+  File: ""
+  GitCommit: a7602018132edae5f6fc023fd172692ff2794452
+  Tags:
+  - 17.10.2
+  - 17.10.2-mysql-tomcat
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/postgres-tomcat
+  File: ""
+  GitCommit: a7602018132edae5f6fc023fd172692ff2794452
+  Tags:
+  - 17.10.2-postgres-tomcat
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 17/mariadb-tomcat
+  File: ""
+  GitCommit: a7602018132edae5f6fc023fd172692ff2794452
+  Tags:
+  - 17.10.2-mariadb-tomcat
 - Architectures:
     amd64:
       Architecture: amd64
@@ -12396,6 +12624,10 @@ KnownTags:
   17.4.8-mariadb-tomcat: {}
   17.4.8-mysql-tomcat: {}
   17.4.8-postgres-tomcat: {}
+  17.4.9: {}
+  17.4.9-mariadb-tomcat: {}
+  17.4.9-mysql-tomcat: {}
+  17.4.9-postgres-tomcat: {}
   "17.5": {}
   17.5-mariadb-tomcat: {}
   17.5-mysql-tomcat: {}
@@ -12452,6 +12684,26 @@ KnownTags:
   17.10.2-mariadb-tomcat: {}
   17.10.2-mysql-tomcat: {}
   17.10.2-postgres-tomcat: {}
+  17.10.3: {}
+  17.10.3-mariadb-tomcat: {}
+  17.10.3-mysql-tomcat: {}
+  17.10.3-postgres-tomcat: {}
+  "18": {}
+  18-mariadb-tomcat: {}
+  18-mysql-tomcat: {}
+  18-postgres-tomcat: {}
+  "18.0": {}
+  18.0-mariadb-tomcat: {}
+  18.0-mysql-tomcat: {}
+  18.0-postgres-tomcat: {}
+  18.0.0: {}
+  18.0.0-mariadb-tomcat: {}
+  18.0.0-mysql-tomcat: {}
+  18.0.0-postgres-tomcat: {}
+  18.0.1: {}
+  18.0.1-mariadb-tomcat: {}
+  18.0.1-mysql-tomcat: {}
+  18.0.1-postgres-tomcat: {}
   latest: {}
   latest-mysql-tomcat: {}
   latest-postgres: {}
