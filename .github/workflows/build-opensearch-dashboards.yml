@@ -16,7 +16,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        tag: [3.1.0, 2.19.2, 2.19.0, 2.18.0, 2.17.1, 2.16.0, 2.14.0, 2.11.1, 2.8.0, 2.5.0, 2.0.1, 1.3.20, 1.3.19, 1.3.18, 1.3.13, 1.2.0, 1.1.0]
+        tag: [3.4.0, 3.1.0, 2.19.2, 2.19.0, 2.18.0, 2.17.1, 2.16.0, 2.14.0, 2.11.1, 2.8.0, 2.5.0, 2.0.1, 1.3.20, 1.3.19, 1.3.18, 1.3.13, 1.2.0]
     steps:
     - uses: actions/checkout@v4
 
@@ -75,8 +75,25 @@ jobs:
     - name: Build
       run: |
         git clone https://github.com/appscode-images/opensearch-build.git
-        cd opensearch-build/docker/release
-        ./build-image-multi-arch.sh -v ${{ matrix.tag }} -f ./dockerfiles/opensearch-dashboards.al2.dockerfile -p opensearch-dashboards -a "x64,arm64" -r "ghcr.io/appscode-images/daily/opensearch-dashboards"
+        cd opensearch-build
+        git checkout opensearch-${{ matrix.tag }}
+        cd docker/release
+        
+        # Determine which Dockerfile to use based on version
+        VERSION="${{ matrix.tag }}"
+        MAJOR=$(echo $VERSION | cut -d. -f1)
+        MINOR=$(echo $VERSION | cut -d. -f2)
+        
+        # Use al2.dockerfile for versions < 2.10, otherwise use al2023.dockerfile
+        if [ "$MAJOR" -lt 2 ] || ([ "$MAJOR" -eq 2 ] && [ "$MINOR" -lt 10 ]); then
+          DOCKERFILE="./dockerfiles/opensearch-dashboards.al2.dockerfile"
+          echo "Using AL2 Dockerfile for version $VERSION (< 2.10)"
+        else
+          DOCKERFILE="./dockerfiles/opensearch-dashboards.al2023.dockerfile"
+          echo "Using AL2023 Dockerfile for version $VERSION (>= 2.10)"
+        fi
+        
+        ./build-image-multi-arch.sh -v ${{ matrix.tag }} -f $DOCKERFILE -p opensearch-dashboards -a "x64,arm64" -r "ghcr.io/appscode-images/daily/opensearch-dashboards"
         crane cp ghcr.io/appscode-images/daily/opensearch-dashboards:${{ matrix.tag }} ghcr.io/appscode-images/daily/opensearch-dashboards:${{ matrix.tag }}_$(date -u +'%Y%m%d')
 
   # report:
