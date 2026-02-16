@@ -79,7 +79,7 @@ jobs:
         # Clone the appscode-images/milvus repo containing the Dockerfile
         git clone https://github.com/appscode-images/milvus.git
         cd milvus
-        git checkout upd
+        git checkout master
         
         # Generate date tag (e.g., 20251205)
         DATE_TAG=$(date -u +'%Y%m%d')
