@@ -16,7 +16,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        tag: [2.6.1, 2.6.2, 2.6.7]
+        tag: [2.6.1, 2.6.2, 2.6.7, 2.6.9, 2.6.11]
     steps:
     - uses: actions/checkout@v4
 
