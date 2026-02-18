@@ -384,8 +384,11 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, cherrypicks []string, 
 			args = append(args, "-f", b.File)
 		}
 		// Qdrant: build with non-root user (USER_ID=1000)
+		// Also add --provenance=false --sbom=false to prevent buildx from creating manifest lists
+		// for single-arch images (required for docker manifest create to work)
 		if name == "qdrant" {
 			args = append(args, "--build-arg", "USER_ID=1000")
+			args = append(args, "--provenance=false", "--sbom=false")
 		}
 		args = append(args, ".")
 		err = sh.Command("docker", args...).Run()
@@ -398,12 +401,16 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, cherrypicks []string, 
 		}
 
 		// > crane mutate ghcr.io/appscode-images/alpine:3.17.3_20231012 -a abc=xyz3 --tag ghcr.io/appscode-images/alpine:3.17.3_20231012
-		args = []any{"mutate", img, "--tag=" + img}
-		args = append(args, "-a", KeyImageSource+"="+repoURL)
-		args = append(args, "-a", KeyImageRevision+"="+lib.LastCommitSHA(sh))
-		err = sh.Command("crane", args...).Run()
-		if err != nil {
-			return err
+		// Skip crane mutate for qdrant - its Dockerfile uses multi-platform FROM instructions (BUILDPLATFORM)
+		// which creates manifest indexes that crane mutate doesn't support. Qdrant Dockerfile already has OCI labels.
+		if name != "qdrant" {
+			args = []any{"mutate", img, "--tag=" + img}
+			args = append(args, "-a", KeyImageSource+"="+repoURL)
+			args = append(args, "-a", KeyImageRevision+"="+lib.LastCommitSHA(sh))
+			err = sh.Command("crane", args...).Run()
+			if err != nil {
+				return err
+			}
 		}
 	}
 
