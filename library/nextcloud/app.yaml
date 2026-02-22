@@ -227,10 +227,14 @@ Blocks:
   - 32.0-apache
   - 32-apache
   - apache
+  - stable-apache
+  - production-apache
   - 32.0.6
   - "32.0"
   - "32"
   - latest
+  - stable
+  - production
 - Architectures:
     amd64:
       Architecture: amd64
@@ -288,6 +292,8 @@ Blocks:
   - 32.0-fpm
   - 32-fpm
   - fpm
+  - stable-fpm
+  - production-fpm
 - Architectures:
     amd64:
       Architecture: amd64
@@ -345,6 +351,8 @@ Blocks:
   - 32.0-fpm-alpine
   - 32-fpm-alpine
   - fpm-alpine
+  - stable-fpm-alpine
+  - production-fpm-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -399,11 +407,7 @@ Blocks:
   GitCommit: b91ae50a73884f5b086ad03e61d30e219b376ebb
   Tags:
   - 31.0.13-apache
-  - stable-apache
-  - production-apache
   - 31.0.13
-  - stable
-  - production
 - Architectures:
     amd64:
       Architecture: amd64
@@ -458,8 +462,6 @@ Blocks:
   GitCommit: b91ae50a73884f5b086ad03e61d30e219b376ebb
   Tags:
   - 31.0.13-fpm
-  - stable-fpm
-  - production-fpm
 - Architectures:
     amd64:
       Architecture: amd64
@@ -514,8 +516,6 @@ Blocks:
   GitCommit: b91ae50a73884f5b086ad03e61d30e219b376ebb
   Tags:
   - 31.0.13-fpm-alpine
-  - stable-fpm-alpine
-  - production-fpm-alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -64565,6 +64565,18 @@ KnownTags:
   18.0.1-rc-apache: {}
   18.0.1-rc-fpm: {}
   18.0.1-rc-fpm-alpine: {}
+  18.0.1RC1: {}
+  18.0.1RC1-apache: {}
+  18.0.1RC1-fpm: {}
+  18.0.1RC1-fpm-alpine: {}
+  18.0.1RC2: {}
+  18.0.1RC2-apache: {}
+  18.0.1RC2-fpm: {}
+  18.0.1RC2-fpm-alpine: {}
+  18.0.1RC3: {}
+  18.0.1RC3-apache: {}
+  18.0.1RC3-fpm: {}
+  18.0.1RC3-fpm-alpine: {}
   18.0.2: {}
   18.0.2-apache: {}
   18.0.2-fpm: {}
@@ -64681,18 +64693,6 @@ KnownTags:
   18.0.14-apache: {}
   18.0.14-fpm: {}
   18.0.14-fpm-alpine: {}
-  18.0.1RC1: {}
-  18.0.1RC1-apache: {}
-  18.0.1RC1-fpm: {}
-  18.0.1RC1-fpm-alpine: {}
-  18.0.1RC2: {}
-  18.0.1RC2-apache: {}
-  18.0.1RC2-fpm: {}
-  18.0.1RC2-fpm-alpine: {}
-  18.0.1RC3: {}
-  18.0.1RC3-apache: {}
-  18.0.1RC3-fpm: {}
-  18.0.1RC3-fpm-alpine: {}
   "19": {}
   19-apache: {}
   19-beta: {}

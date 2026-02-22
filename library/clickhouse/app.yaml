@@ -12,18 +12,18 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: server/26.1.2.11
+  Directory: server/26.1.3.52
   File: Dockerfile.ubuntu
-  GitCommit: f24cb6bb313671475174e2d76171220d6aec0705
+  GitCommit: bcf897861b58250d41d195a20fb216c51a3bb81e
   Tags:
   - latest
   - jammy
   - "26.1"
   - 26.1-jammy
-  - 26.1.2
-  - 26.1.2-jammy
-  - 26.1.2.11
-  - 26.1.2.11-jammy
+  - 26.1.3
+  - 26.1.3-jammy
+  - 26.1.3.52
+  - 26.1.3.52-jammy
 - Architectures:
     amd64:
       Architecture: amd64
@@ -37,16 +37,16 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: server/25.12.5.44
+  Directory: server/25.12.6.38
   File: Dockerfile.ubuntu
-  GitCommit: f24cb6bb313671475174e2d76171220d6aec0705
+  GitCommit: bcf897861b58250d41d195a20fb216c51a3bb81e
   Tags:
   - "25.12"
   - 25.12-jammy
-  - 25.12.5
-  - 25.12.5-jammy
-  - 25.12.5.44
-  - 25.12.5.44-jammy
+  - 25.12.6
+  - 25.12.6-jammy
+  - 25.12.6.38
+  - 25.12.6.38-jammy
 - Architectures:
     amd64:
       Architecture: amd64
@@ -60,16 +60,16 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: server/25.11.8.25
+  Directory: server/25.11.9.34
   File: Dockerfile.ubuntu
-  GitCommit: f24cb6bb313671475174e2d76171220d6aec0705
+  GitCommit: bcf897861b58250d41d195a20fb216c51a3bb81e
   Tags:
   - "25.11"
   - 25.11-jammy
-  - 25.11.8
-  - 25.11.8-jammy
-  - 25.11.8.25
-  - 25.11.8.25-jammy
+  - 25.11.9
+  - 25.11.9-jammy
+  - 25.11.9.34
+  - 25.11.9.34-jammy
 - Architectures:
     amd64:
       Architecture: amd64
@@ -85,7 +85,7 @@ Blocks:
       GitFetch: ""
   Directory: server/25.8.16.34
   File: Dockerfile.ubuntu
-  GitCommit: f24cb6bb313671475174e2d76171220d6aec0705
+  GitCommit: bcf897861b58250d41d195a20fb216c51a3bb81e
   Tags:
   - lts
   - lts-jammy
@@ -110,7 +110,7 @@ Blocks:
       GitFetch: ""
   Directory: server/25.3.14.14
   File: Dockerfile.ubuntu
-  GitCommit: f24cb6bb313671475174e2d76171220d6aec0705
+  GitCommit: bcf897861b58250d41d195a20fb216c51a3bb81e
   Tags:
   - "25.3"
   - 25.3-jammy
@@ -118,6 +118,69 @@ Blocks:
   - 25.3.14-jammy
   - 25.3.14.14
   - 25.3.14.14-jammy
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: server/26.1.2.11
+  File: Dockerfile.ubuntu
+  GitCommit: f24cb6bb313671475174e2d76171220d6aec0705
+  Tags:
+  - 26.1.2
+  - 26.1.2-jammy
+  - 26.1.2.11
+  - 26.1.2.11-jammy
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: server/25.12.5.44
+  File: Dockerfile.ubuntu
+  GitCommit: f24cb6bb313671475174e2d76171220d6aec0705
+  Tags:
+  - 25.12.5
+  - 25.12.5-jammy
+  - 25.12.5.44
+  - 25.12.5.44-jammy
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: server/25.11.8.25
+  File: Dockerfile.ubuntu
+  GitCommit: f24cb6bb313671475174e2d76171220d6aec0705
+  Tags:
+  - 25.11.8
+  - 25.11.8-jammy
+  - 25.11.8.25
+  - 25.11.8.25-jammy
 - Architectures:
     amd64:
       Architecture: amd64
@@ -2748,6 +2811,10 @@ KnownTags:
   25.11.8-jammy: {}
   25.11.8.25: {}
   25.11.8.25-jammy: {}
+  25.11.9: {}
+  25.11.9-jammy: {}
+  25.11.9.34: {}
+  25.11.9.34-jammy: {}
   "25.12": {}
   25.12-jammy: {}
   25.12.1: {}
@@ -2770,6 +2837,10 @@ KnownTags:
   25.12.5-jammy: {}
   25.12.5.44: {}
   25.12.5.44-jammy: {}
+  25.12.6: {}
+  25.12.6-jammy: {}
+  25.12.6.38: {}
+  25.12.6.38-jammy: {}
   "26.1": {}
   26.1-jammy: {}
   26.1.1: {}
@@ -2780,6 +2851,10 @@ KnownTags:
   26.1.2-jammy: {}
   26.1.2.11: {}
   26.1.2.11-jammy: {}
+  26.1.3: {}
+  26.1.3-jammy: {}
+  26.1.3.52: {}
+  26.1.3.52-jammy: {}
   focal: {}
   focal-lts: {}
   jammy: {}

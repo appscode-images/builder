@@ -24,9 +24,75 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 12.2-ubi
+  Directory: 12.3-ubi
+  File: ""
+  GitCommit: fff6ab37913bbbe25bfc6c6ea6f095e4ad7a039c
+  Tags:
+  - 12.3.1-ubi10-rc
+  - 12.3-ubi10-rc
+  - 12.3.1-ubi-rc
+  - 12.3-ubi-rc
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: "12.3"
   File: ""
   GitCommit: 3fbf86c7b9301bcb6b0dc0f4f478800ee458224f
+  Tags:
+  - 12.3.1-noble-rc
+  - 12.3-noble-rc
+  - 12.3.1-rc
+  - 12.3-rc
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 12.2-ubi
+  File: ""
+  GitCommit: fff6ab37913bbbe25bfc6c6ea6f095e4ad7a039c
   Tags:
   - 12.2.2-ubi10
   - 12.2-ubi10
@@ -96,75 +162,9 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: 12.1-ubi
-  File: ""
-  GitCommit: b6c0c786de44bb9651d687daa9561d0643bb3d2e
-  Tags:
-  - 12.1.2-ubi10
-  - 12.1-ubi10
-  - 12.1.2-ubi
-  - 12.1-ubi
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    s390x:
-      Architecture: s390x
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-  Directory: "12.1"
-  File: ""
-  GitCommit: 4ef487565005c1acf62dcfaa87110a39262b8150
-  Tags:
-  - 12.1.2-noble
-  - 12.1-noble
-  - 12.1.2
-  - "12.1"
-- Architectures:
-    amd64:
-      Architecture: amd64
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    arm64v8:
-      Architecture: arm64v8
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    ppc64le:
-      Architecture: ppc64le
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
-    s390x:
-      Architecture: s390x
-      Directory: ""
-      File: ""
-      GitCommit: ""
-      GitFetch: ""
   Directory: 11.8-ubi
   File: ""
-  GitCommit: 66972bc2e0c6fd33dcd5d98de0653c5696a1166e
+  GitCommit: fff6ab37913bbbe25bfc6c6ea6f095e4ad7a039c
   Tags:
   - 11.8.6-ubi9
   - 11.8-ubi9
@@ -238,7 +238,7 @@ Blocks:
       GitFetch: ""
   Directory: 11.4-ubi
   File: ""
-  GitCommit: 66972bc2e0c6fd33dcd5d98de0653c5696a1166e
+  GitCommit: fff6ab37913bbbe25bfc6c6ea6f095e4ad7a039c
   Tags:
   - 11.4.10-ubi9
   - 11.4-ubi9
@@ -304,7 +304,7 @@ Blocks:
       GitFetch: ""
   Directory: 10.11-ubi
   File: ""
-  GitCommit: 66972bc2e0c6fd33dcd5d98de0653c5696a1166e
+  GitCommit: fff6ab37913bbbe25bfc6c6ea6f095e4ad7a039c
   Tags:
   - 10.11.16-ubi9
   - 10.11-ubi9
@@ -374,7 +374,7 @@ Blocks:
       GitFetch: ""
   Directory: 10.6-ubi
   File: ""
-  GitCommit: 66972bc2e0c6fd33dcd5d98de0653c5696a1166e
+  GitCommit: fff6ab37913bbbe25bfc6c6ea6f095e4ad7a039c
   Tags:
   - 10.6.25-ubi9
   - 10.6-ubi9
@@ -413,6 +413,72 @@ Blocks:
   - 10.6-jammy
   - 10.6.25
   - "10.6"
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 12.1-ubi
+  File: ""
+  GitCommit: b6c0c786de44bb9651d687daa9561d0643bb3d2e
+  Tags:
+  - 12.1.2-ubi10
+  - 12.1-ubi10
+  - 12.1.2-ubi
+  - 12.1-ubi
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: "12.1"
+  File: ""
+  GitCommit: 4ef487565005c1acf62dcfaa87110a39262b8150
+  Tags:
+  - 12.1.2-noble
+  - 12.1-noble
+  - 12.1.2
+  - "12.1"
 - Architectures:
     amd64:
       Architecture: amd64
@@ -10082,6 +10148,14 @@ KnownTags:
   12.2.2-noble: {}
   12.2.2-ubi: {}
   12.2.2-ubi10: {}
+  12.3-noble-rc: {}
+  12.3-rc: {}
+  12.3-ubi-rc: {}
+  12.3-ubi10-rc: {}
+  12.3.1-noble-rc: {}
+  12.3.1-rc: {}
+  12.3.1-ubi-rc: {}
+  12.3.1-ubi10-rc: {}
   alpha: {}
   alpha-focal: {}
   beta: {}
