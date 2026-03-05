@@ -2,6 +2,12 @@
   "Name": "solr",
   "GitRepo": "https://github.com/apache/solr-docker.git",
   "KnownTags": {
+    "10": {},
+    "10-slim": {},
+    "10.0": {},
+    "10.0-slim": {},
+    "10.0.0": {},
+    "10.0.0-slim": {},
     "5": {},
     "5-alpine": {},
     "5-slim": {},
@@ -261,10 +267,105 @@
   "Blocks": [
     {
       "Tags": [
+        "10.0.0",
+        "10.0",
+        "10",
+        "latest"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "884b2e6692174ea09cdb5183b8dd585760b5e9fb",
+      "Directory": "10.0",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "10.0.0-slim",
+        "10.0-slim",
+        "10-slim",
+        "slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "riscv64": {
+          "Architecture": "riscv64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "884b2e6692174ea09cdb5183b8dd585760b5e9fb",
+      "Directory": "10.0-slim",
+      "File": ""
+    },
+    {
+      "Tags": [
         "9.10.1",
         "9.10",
-        "9",
-        "latest"
+        "9"
       ],
       "Architectures": {
         "amd64": {
@@ -304,8 +405,7 @@
       "Tags": [
         "9.10.1-slim",
         "9.10-slim",
-        "9-slim",
-        "slim"
+        "9-slim"
       ],
       "Architectures": {
         "amd64": {
