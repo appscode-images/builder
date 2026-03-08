@@ -1,41 +1,81 @@
 GitRepo: https://github.com/caddyserver/caddy-docker.git
 
-Tags: 2.11.1-alpine,2.11-alpine,2-alpine,alpine,2.11.1,2.11,2,latest
+Tags: 2.11.2-alpine,2.11-alpine,2-alpine,alpine,2.11.2,2.11,2,latest
+Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,riscv64,s390x
+GitCommit: 03d78cdcd835a384ab5567ea2a5ffa022ce3ec3b
+Directory: 2.11/alpine
+
+Tags: 2.11.2-builder-alpine,2.11-builder-alpine,2-builder-alpine,builder-alpine,2.11.2-builder,2.11-builder,2-builder,builder
+Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,riscv64,s390x
+GitCommit: 03d78cdcd835a384ab5567ea2a5ffa022ce3ec3b
+Directory: 2.11/builder
+
+Tags: 2.11.2-windowsservercore-ltsc2022,2.11-windowsservercore-ltsc2022,2-windowsservercore-ltsc2022,windowsservercore-ltsc2022,2.11.2-windowsservercore,2.11-windowsservercore,2-windowsservercore,windowsservercore
+Architectures: windows-amd64
+GitCommit: 03d78cdcd835a384ab5567ea2a5ffa022ce3ec3b
+Directory: 2.11/windows/ltsc2022
+
+Tags: 2.11.2-windowsservercore-ltsc2025,2.11-windowsservercore-ltsc2025,2-windowsservercore-ltsc2025,windowsservercore-ltsc2025
+Architectures: windows-amd64
+GitCommit: 03d78cdcd835a384ab5567ea2a5ffa022ce3ec3b
+Directory: 2.11/windows/ltsc2025
+
+Tags: 2.11.2-nanoserver-ltsc2022,2.11-nanoserver-ltsc2022,2-nanoserver-ltsc2022,nanoserver-ltsc2022,2.11.2-nanoserver,2.11-nanoserver,2-nanoserver,nanoserver
+Architectures: windows-amd64
+GitCommit: 03d78cdcd835a384ab5567ea2a5ffa022ce3ec3b
+Directory: 2.11/windows-nanoserver/ltsc2022
+
+Tags: 2.11.2-nanoserver-ltsc2025,2.11-nanoserver-ltsc2025,2-nanoserver-ltsc2025,nanoserver-ltsc2025
+Architectures: windows-amd64
+GitCommit: 03d78cdcd835a384ab5567ea2a5ffa022ce3ec3b
+Directory: 2.11/windows-nanoserver/ltsc2025
+
+Tags: 2.11.2-builder-windowsservercore-ltsc2022,2.11-builder-windowsservercore-ltsc2022,2-builder-windowsservercore-ltsc2022,builder-windowsservercore-ltsc2022
+Architectures: windows-amd64
+GitCommit: 03d78cdcd835a384ab5567ea2a5ffa022ce3ec3b
+Directory: 2.11/windows-builder/ltsc2022
+
+Tags: 2.11.2-builder-windowsservercore-ltsc2025,2.11-builder-windowsservercore-ltsc2025,2-builder-windowsservercore-ltsc2025,builder-windowsservercore-ltsc2025
+Architectures: windows-amd64
+GitCommit: 03d78cdcd835a384ab5567ea2a5ffa022ce3ec3b
+Directory: 2.11/windows-builder/ltsc2025
+
+Tags: 2.11.1-alpine,2.11.1
 Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: 1dc09bb684f72bde5259ea55eae3297f69c86637
 Directory: 2.11/alpine
 
-Tags: 2.11.1-builder-alpine,2.11-builder-alpine,2-builder-alpine,builder-alpine,2.11.1-builder,2.11-builder,2-builder,builder
+Tags: 2.11.1-builder-alpine,2.11.1-builder
 Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,riscv64,s390x
 GitCommit: 1dc09bb684f72bde5259ea55eae3297f69c86637
 Directory: 2.11/builder
 
-Tags: 2.11.1-windowsservercore-ltsc2022,2.11-windowsservercore-ltsc2022,2-windowsservercore-ltsc2022,windowsservercore-ltsc2022,2.11.1-windowsservercore,2.11-windowsservercore,2-windowsservercore,windowsservercore
+Tags: 2.11.1-windowsservercore-ltsc2022,2.11.1-windowsservercore
 Architectures: windows-amd64
 GitCommit: 1dc09bb684f72bde5259ea55eae3297f69c86637
 Directory: 2.11/windows/ltsc2022
 
-Tags: 2.11.1-windowsservercore-ltsc2025,2.11-windowsservercore-ltsc2025,2-windowsservercore-ltsc2025,windowsservercore-ltsc2025
+Tags: 2.11.1-windowsservercore-ltsc2025
 Architectures: windows-amd64
 GitCommit: 1dc09bb684f72bde5259ea55eae3297f69c86637
 Directory: 2.11/windows/ltsc2025
 
-Tags: 2.11.1-nanoserver-ltsc2022,2.11-nanoserver-ltsc2022,2-nanoserver-ltsc2022,nanoserver-ltsc2022,2.11.1-nanoserver,2.11-nanoserver,2-nanoserver,nanoserver
+Tags: 2.11.1-nanoserver-ltsc2022,2.11.1-nanoserver
 Architectures: windows-amd64
 GitCommit: 1dc09bb684f72bde5259ea55eae3297f69c86637
 Directory: 2.11/windows-nanoserver/ltsc2022
 
-Tags: 2.11.1-nanoserver-ltsc2025,2.11-nanoserver-ltsc2025,2-nanoserver-ltsc2025,nanoserver-ltsc2025
+Tags: 2.11.1-nanoserver-ltsc2025
 Architectures: windows-amd64
 GitCommit: 1dc09bb684f72bde5259ea55eae3297f69c86637
 Directory: 2.11/windows-nanoserver/ltsc2025
 
-Tags: 2.11.1-builder-windowsservercore-ltsc2022,2.11-builder-windowsservercore-ltsc2022,2-builder-windowsservercore-ltsc2022,builder-windowsservercore-ltsc2022
+Tags: 2.11.1-builder-windowsservercore-ltsc2022
 Architectures: windows-amd64
 GitCommit: 1dc09bb684f72bde5259ea55eae3297f69c86637
 Directory: 2.11/windows-builder/ltsc2022
 
-Tags: 2.11.1-builder-windowsservercore-ltsc2025,2.11-builder-windowsservercore-ltsc2025,2-builder-windowsservercore-ltsc2025,builder-windowsservercore-ltsc2025
+Tags: 2.11.1-builder-windowsservercore-ltsc2025
 Architectures: windows-amd64
 GitCommit: 1dc09bb684f72bde5259ea55eae3297f69c86637
 Directory: 2.11/windows-builder/ltsc2025
