@@ -20,7 +20,12 @@ Architectures: windows-amd64
 GitCommit: 2636eee6b67d0c99730e4ab1d0d752d66809e3fa
 Directory: 4.3/windowsservercore-ltsc2022
 
-Tags: 4.3.7-alpine3.22,4.3-alpine3.22,4.3.7-alpine,4.3-alpine
+Tags: 4.3.7-alpine3.23,4.3-alpine3.23,4.3.7-alpine,4.3-alpine
+Architectures: amd64,arm64v8
+GitCommit: b235f810bf048b25bc8fc70ef20915452a5a76f9
+Directory: 4.3/alpine3.23
+
+Tags: 4.3.7-alpine3.22,4.3-alpine3.22
 Architectures: amd64,arm64v8
 GitCommit: 29c1c10f60a3d5d96c92c23ed8d07f5393c962b5
 Directory: 4.3/alpine3.22
@@ -34,11 +39,6 @@ Tags: 4.3.7-alpine3.20,4.3-alpine3.20
 Architectures: amd64,arm64v8
 GitCommit: 2636eee6b67d0c99730e4ab1d0d752d66809e3fa
 Directory: 4.3/alpine3.20
-
-Tags: 4.3.7-alpine3.19,4.3-alpine3.19
-Architectures: amd64,arm64v8
-GitCommit: 2636eee6b67d0c99730e4ab1d0d752d66809e3fa
-Directory: 4.3/alpine3.19
 
 Tags: 5.0.0-preview.1-bookworm,5.0.0-bookworm,5.0-bookworm,5.0.0-preview.1,5.0.0,5.0
 Architectures: amd64,arm32v7,arm64v8
@@ -60,7 +60,12 @@ Architectures: windows-amd64
 GitCommit: 2636eee6b67d0c99730e4ab1d0d752d66809e3fa
 Directory: 5.0/windowsservercore-ltsc2022
 
-Tags: 5.0.0-preview.1-alpine3.22,5.0.0-preview.1-alpine,5.0.0-alpine3.22,5.0-alpine3.22,5.0.0-alpine,5.0-alpine
+Tags: 5.0.0-preview.1-alpine3.23,5.0.0-preview.1-alpine,5.0.0-alpine3.23,5.0-alpine3.23,5.0.0-alpine,5.0-alpine
+Architectures: amd64,arm64v8
+GitCommit: b235f810bf048b25bc8fc70ef20915452a5a76f9
+Directory: 5.0/alpine3.23
+
+Tags: 5.0.0-preview.1-alpine3.22,5.0.0-alpine3.22,5.0-alpine3.22
 Architectures: amd64,arm64v8
 GitCommit: 29c1c10f60a3d5d96c92c23ed8d07f5393c962b5
 Directory: 5.0/alpine3.22
@@ -74,11 +79,6 @@ Tags: 5.0.0-preview.1-alpine3.20,5.0.0-alpine3.20,5.0-alpine3.20
 Architectures: amd64,arm64v8
 GitCommit: 2636eee6b67d0c99730e4ab1d0d752d66809e3fa
 Directory: 5.0/alpine3.20
-
-Tags: 5.0.0-preview.1-alpine3.19,5.0.0-alpine3.19,5.0-alpine3.19
-Architectures: amd64,arm64v8
-GitCommit: 2636eee6b67d0c99730e4ab1d0d752d66809e3fa
-Directory: 5.0/alpine3.19
 
 Tags: 4.2.5-bookworm,4.2-bookworm,4.2.5,4.2
 Architectures: amd64,arm32v7,arm64v8
@@ -105,11 +105,6 @@ Architectures: amd64,arm64v8
 GitCommit: 2636eee6b67d0c99730e4ab1d0d752d66809e3fa
 Directory: 4.2/alpine3.20
 
-Tags: 4.2.5-alpine3.19,4.2-alpine3.19
-Architectures: amd64,arm64v8
-GitCommit: 2636eee6b67d0c99730e4ab1d0d752d66809e3fa
-Directory: 4.2/alpine3.19
-
 Tags: 4.1.5-bullseye,4.1-bullseye,4.1.5,4.1
 Architectures: amd64,arm32v7,arm64v8
 GitCommit: 2636eee6b67d0c99730e4ab1d0d752d66809e3fa
@@ -130,11 +125,6 @@ Architectures: amd64,arm64v8
 GitCommit: 2636eee6b67d0c99730e4ab1d0d752d66809e3fa
 Directory: 4.1/alpine3.20
 
-Tags: 4.1.5-alpine3.19,4.1-alpine3.19
-Architectures: amd64,arm64v8
-GitCommit: 2636eee6b67d0c99730e4ab1d0d752d66809e3fa
-Directory: 4.1/alpine3.19
-
 Tags: 4.0.5-bullseye,4.0-bullseye,4.0.5,4.0
 Architectures: amd64,arm32v7,arm64v8
 GitCommit: 2636eee6b67d0c99730e4ab1d0d752d66809e3fa
@@ -154,6 +144,26 @@ Tags: 4.0.5-alpine3.20,4.0-alpine3.20,4.0.5-alpine,4.0-alpine
 Architectures: amd64,arm64v8
 GitCommit: 2636eee6b67d0c99730e4ab1d0d752d66809e3fa
 Directory: 4.0/alpine3.20
+
+Tags: 4.3.7-alpine3.19,4.3-alpine3.19
+Architectures: amd64,arm64v8
+GitCommit: 2636eee6b67d0c99730e4ab1d0d752d66809e3fa
+Directory: 4.3/alpine3.19
+
+Tags: 5.0.0-preview.1-alpine3.19,5.0.0-alpine3.19,5.0-alpine3.19
+Architectures: amd64,arm64v8
+GitCommit: 2636eee6b67d0c99730e4ab1d0d752d66809e3fa
+Directory: 5.0/alpine3.19
+
+Tags: 4.2.5-alpine3.19,4.2-alpine3.19
+Architectures: amd64,arm64v8
+GitCommit: 2636eee6b67d0c99730e4ab1d0d752d66809e3fa
+Directory: 4.2/alpine3.19
+
+Tags: 4.1.5-alpine3.19,4.1-alpine3.19
+Architectures: amd64,arm64v8
+GitCommit: 2636eee6b67d0c99730e4ab1d0d752d66809e3fa
+Directory: 4.1/alpine3.19
 
 Tags: 4.0.5-alpine3.19,4.0-alpine3.19
 Architectures: amd64,arm64v8
