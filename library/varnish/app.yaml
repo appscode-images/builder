@@ -14,13 +14,33 @@ Blocks:
       GitFetch: ""
   Directory: fresh/debian
   File: ""
-  GitCommit: 9a68f156ac2fa5d6c2d08ebca5cd80fa7f5a4623
+  GitCommit: 9549601f65e81660417432a6963cdb9a41da3caf
   Tags:
   - fresh
+  - 9.0.0
+  - "9"
+  - "9.0"
+  - latest
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: fresh/debian
+  File: ""
+  GitCommit: 9a68f156ac2fa5d6c2d08ebca5cd80fa7f5a4623
+  Tags:
   - 8.0.0
   - "8"
   - "8.0"
-  - latest
 - Architectures:
     amd64:
       Architecture: amd64
@@ -3003,6 +3023,9 @@ KnownTags:
   8.0-alpine: {}
   8.0.0: {}
   8.0.0-alpine: {}
+  "9": {}
+  "9.0": {}
+  9.0.0: {}
   alpine: {}
   fresh: {}
   fresh-alpine: {}

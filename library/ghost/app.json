@@ -1993,6 +1993,10 @@
     "6.22.0-alpine": {},
     "6.22.0-alpine3.23": {},
     "6.22.0-bookworm": {},
+    "6.22.1": {},
+    "6.22.1-alpine": {},
+    "6.22.1-alpine3.23": {},
+    "6.22.1-bookworm": {},
     "6.3": {},
     "6.3-alpine": {},
     "6.3.0": {},
@@ -2070,14 +2074,84 @@
   "Blocks": [
     {
       "Tags": [
-        "6.22.0-bookworm",
-        "6.22.0",
+        "6.22.1-bookworm",
+        "6.22.1",
         "6.22-bookworm",
         "6.22",
         "6-bookworm",
         "6",
         "bookworm",
         "latest"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "c576eebcb19e49434f6d17ed4092204e73e55ac1",
+      "Directory": "6/bookworm",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.22.1-alpine3.23",
+        "6.22.1-alpine",
+        "6.22-alpine3.23",
+        "6.22-alpine",
+        "6-alpine3.23",
+        "6-alpine",
+        "alpine3.23",
+        "alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "c576eebcb19e49434f6d17ed4092204e73e55ac1",
+      "Directory": "6/alpine3.23",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.22.0-bookworm",
+        "6.22.0"
       ],
       "Architectures": {
         "amd64": {
@@ -2116,13 +2190,7 @@
     {
       "Tags": [
         "6.22.0-alpine3.23",
-        "6.22.0-alpine",
-        "6.22-alpine3.23",
-        "6.22-alpine",
-        "6-alpine3.23",
-        "6-alpine",
-        "alpine3.23",
-        "alpine"
+        "6.22.0-alpine"
       ],
       "Architectures": {
         "amd64": {
