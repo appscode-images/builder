@@ -468,6 +468,12 @@
     "26.0.0.2-kernel-java11-openj9": {},
     "26.0.0.2-kernel-java17-openj9": {},
     "26.0.0.2-kernel-java8-ibmjava": {},
+    "26.0.0.3-full-java11-openj9": {},
+    "26.0.0.3-full-java17-openj9": {},
+    "26.0.0.3-full-java8-ibmjava": {},
+    "26.0.0.3-kernel-java11-openj9": {},
+    "26.0.0.3-kernel-java17-openj9": {},
+    "26.0.0.3-kernel-java8-ibmjava": {},
     "beta": {},
     "full": {},
     "full-java11-openj9": {},
@@ -507,7 +513,7 @@
         "kernel-java8-ibmjava"
       ],
       "Architectures": null,
-      "GitCommit": "02b09e4a968331f1083b1e1d5cb18e6aaf15c219",
+      "GitCommit": "54529ecf782ed915ecac031a5f1edf5add0392f6",
       "Directory": "ga/latest/kernel",
       "File": "Dockerfile.ubuntu.ibmjava8"
     },
@@ -545,7 +551,7 @@
           "File": ""
         }
       },
-      "GitCommit": "02b09e4a968331f1083b1e1d5cb18e6aaf15c219",
+      "GitCommit": "54529ecf782ed915ecac031a5f1edf5add0392f6",
       "Directory": "ga/latest/kernel",
       "File": "Dockerfile.ubuntu.openjdk11"
     },
@@ -583,7 +589,7 @@
           "File": ""
         }
       },
-      "GitCommit": "02b09e4a968331f1083b1e1d5cb18e6aaf15c219",
+      "GitCommit": "54529ecf782ed915ecac031a5f1edf5add0392f6",
       "Directory": "ga/latest/kernel",
       "File": "Dockerfile.ubuntu.openjdk17"
     },
@@ -594,7 +600,7 @@
         "full-java8-ibmjava"
       ],
       "Architectures": null,
-      "GitCommit": "02b09e4a968331f1083b1e1d5cb18e6aaf15c219",
+      "GitCommit": "54529ecf782ed915ecac031a5f1edf5add0392f6",
       "Directory": "ga/latest/full",
       "File": "Dockerfile.ubuntu.ibmjava8"
     },
@@ -632,7 +638,7 @@
           "File": ""
         }
       },
-      "GitCommit": "02b09e4a968331f1083b1e1d5cb18e6aaf15c219",
+      "GitCommit": "54529ecf782ed915ecac031a5f1edf5add0392f6",
       "Directory": "ga/latest/full",
       "File": "Dockerfile.ubuntu.openjdk11"
     },
@@ -670,8 +676,518 @@
           "File": ""
         }
       },
-      "GitCommit": "02b09e4a968331f1083b1e1d5cb18e6aaf15c219",
+      "GitCommit": "54529ecf782ed915ecac031a5f1edf5add0392f6",
       "Directory": "ga/latest/full",
+      "File": "Dockerfile.ubuntu.openjdk17"
+    },
+    {
+      "Tags": [
+        "25.0.0.9-kernel-java8-ibmjava"
+      ],
+      "Architectures": null,
+      "GitCommit": "54529ecf782ed915ecac031a5f1edf5add0392f6",
+      "Directory": "ga/25.0.0.9/kernel",
+      "File": "Dockerfile.ubuntu.ibmjava8"
+    },
+    {
+      "Tags": [
+        "25.0.0.9-kernel-java11-openj9"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "54529ecf782ed915ecac031a5f1edf5add0392f6",
+      "Directory": "ga/25.0.0.9/kernel",
+      "File": "Dockerfile.ubuntu.openjdk11"
+    },
+    {
+      "Tags": [
+        "25.0.0.9-kernel-java17-openj9"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "54529ecf782ed915ecac031a5f1edf5add0392f6",
+      "Directory": "ga/25.0.0.9/kernel",
+      "File": "Dockerfile.ubuntu.openjdk17"
+    },
+    {
+      "Tags": [
+        "25.0.0.9-full-java8-ibmjava"
+      ],
+      "Architectures": null,
+      "GitCommit": "54529ecf782ed915ecac031a5f1edf5add0392f6",
+      "Directory": "ga/25.0.0.9/full",
+      "File": "Dockerfile.ubuntu.ibmjava8"
+    },
+    {
+      "Tags": [
+        "25.0.0.9-full-java11-openj9"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "54529ecf782ed915ecac031a5f1edf5add0392f6",
+      "Directory": "ga/25.0.0.9/full",
+      "File": "Dockerfile.ubuntu.openjdk11"
+    },
+    {
+      "Tags": [
+        "25.0.0.9-full-java17-openj9"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "54529ecf782ed915ecac031a5f1edf5add0392f6",
+      "Directory": "ga/25.0.0.9/full",
+      "File": "Dockerfile.ubuntu.openjdk17"
+    },
+    {
+      "Tags": [
+        "25.0.0.12-kernel-java8-ibmjava"
+      ],
+      "Architectures": null,
+      "GitCommit": "54529ecf782ed915ecac031a5f1edf5add0392f6",
+      "Directory": "ga/25.0.0.12/kernel",
+      "File": "Dockerfile.ubuntu.ibmjava8"
+    },
+    {
+      "Tags": [
+        "25.0.0.12-kernel-java11-openj9"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "54529ecf782ed915ecac031a5f1edf5add0392f6",
+      "Directory": "ga/25.0.0.12/kernel",
+      "File": "Dockerfile.ubuntu.openjdk11"
+    },
+    {
+      "Tags": [
+        "25.0.0.12-kernel-java17-openj9"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "54529ecf782ed915ecac031a5f1edf5add0392f6",
+      "Directory": "ga/25.0.0.12/kernel",
+      "File": "Dockerfile.ubuntu.openjdk17"
+    },
+    {
+      "Tags": [
+        "25.0.0.12-full-java8-ibmjava"
+      ],
+      "Architectures": null,
+      "GitCommit": "54529ecf782ed915ecac031a5f1edf5add0392f6",
+      "Directory": "ga/25.0.0.12/full",
+      "File": "Dockerfile.ubuntu.ibmjava8"
+    },
+    {
+      "Tags": [
+        "25.0.0.12-full-java11-openj9"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "54529ecf782ed915ecac031a5f1edf5add0392f6",
+      "Directory": "ga/25.0.0.12/full",
+      "File": "Dockerfile.ubuntu.openjdk11"
+    },
+    {
+      "Tags": [
+        "25.0.0.12-full-java17-openj9"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "54529ecf782ed915ecac031a5f1edf5add0392f6",
+      "Directory": "ga/25.0.0.12/full",
+      "File": "Dockerfile.ubuntu.openjdk17"
+    },
+    {
+      "Tags": [
+        "26.0.0.3-kernel-java8-ibmjava"
+      ],
+      "Architectures": null,
+      "GitCommit": "54529ecf782ed915ecac031a5f1edf5add0392f6",
+      "Directory": "ga/26.0.0.3/kernel",
+      "File": "Dockerfile.ubuntu.ibmjava8"
+    },
+    {
+      "Tags": [
+        "26.0.0.3-kernel-java11-openj9"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "54529ecf782ed915ecac031a5f1edf5add0392f6",
+      "Directory": "ga/26.0.0.3/kernel",
+      "File": "Dockerfile.ubuntu.openjdk11"
+    },
+    {
+      "Tags": [
+        "26.0.0.3-kernel-java17-openj9"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "54529ecf782ed915ecac031a5f1edf5add0392f6",
+      "Directory": "ga/26.0.0.3/kernel",
+      "File": "Dockerfile.ubuntu.openjdk17"
+    },
+    {
+      "Tags": [
+        "26.0.0.3-full-java8-ibmjava"
+      ],
+      "Architectures": null,
+      "GitCommit": "54529ecf782ed915ecac031a5f1edf5add0392f6",
+      "Directory": "ga/26.0.0.3/full",
+      "File": "Dockerfile.ubuntu.ibmjava8"
+    },
+    {
+      "Tags": [
+        "26.0.0.3-full-java11-openj9"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "54529ecf782ed915ecac031a5f1edf5add0392f6",
+      "Directory": "ga/26.0.0.3/full",
+      "File": "Dockerfile.ubuntu.openjdk11"
+    },
+    {
+      "Tags": [
+        "26.0.0.3-full-java17-openj9"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "54529ecf782ed915ecac031a5f1edf5add0392f6",
+      "Directory": "ga/26.0.0.3/full",
       "File": "Dockerfile.ubuntu.openjdk17"
     },
     {
@@ -842,346 +1358,6 @@
       },
       "GitCommit": "02b09e4a968331f1083b1e1d5cb18e6aaf15c219",
       "Directory": "ga/25.0.0.6/full",
-      "File": "Dockerfile.ubuntu.openjdk17"
-    },
-    {
-      "Tags": [
-        "25.0.0.9-kernel-java8-ibmjava"
-      ],
-      "Architectures": null,
-      "GitCommit": "02b09e4a968331f1083b1e1d5cb18e6aaf15c219",
-      "Directory": "ga/25.0.0.9/kernel",
-      "File": "Dockerfile.ubuntu.ibmjava8"
-    },
-    {
-      "Tags": [
-        "25.0.0.9-kernel-java11-openj9"
-      ],
-      "Architectures": {
-        "amd64": {
-          "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm64v8": {
-          "Architecture": "arm64v8",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "ppc64le": {
-          "Architecture": "ppc64le",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "s390x": {
-          "Architecture": "s390x",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "02b09e4a968331f1083b1e1d5cb18e6aaf15c219",
-      "Directory": "ga/25.0.0.9/kernel",
-      "File": "Dockerfile.ubuntu.openjdk11"
-    },
-    {
-      "Tags": [
-        "25.0.0.9-kernel-java17-openj9"
-      ],
-      "Architectures": {
-        "amd64": {
-          "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm64v8": {
-          "Architecture": "arm64v8",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "ppc64le": {
-          "Architecture": "ppc64le",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "s390x": {
-          "Architecture": "s390x",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "02b09e4a968331f1083b1e1d5cb18e6aaf15c219",
-      "Directory": "ga/25.0.0.9/kernel",
-      "File": "Dockerfile.ubuntu.openjdk17"
-    },
-    {
-      "Tags": [
-        "25.0.0.9-full-java8-ibmjava"
-      ],
-      "Architectures": null,
-      "GitCommit": "02b09e4a968331f1083b1e1d5cb18e6aaf15c219",
-      "Directory": "ga/25.0.0.9/full",
-      "File": "Dockerfile.ubuntu.ibmjava8"
-    },
-    {
-      "Tags": [
-        "25.0.0.9-full-java11-openj9"
-      ],
-      "Architectures": {
-        "amd64": {
-          "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm64v8": {
-          "Architecture": "arm64v8",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "ppc64le": {
-          "Architecture": "ppc64le",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "s390x": {
-          "Architecture": "s390x",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "02b09e4a968331f1083b1e1d5cb18e6aaf15c219",
-      "Directory": "ga/25.0.0.9/full",
-      "File": "Dockerfile.ubuntu.openjdk11"
-    },
-    {
-      "Tags": [
-        "25.0.0.9-full-java17-openj9"
-      ],
-      "Architectures": {
-        "amd64": {
-          "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm64v8": {
-          "Architecture": "arm64v8",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "ppc64le": {
-          "Architecture": "ppc64le",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "s390x": {
-          "Architecture": "s390x",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "02b09e4a968331f1083b1e1d5cb18e6aaf15c219",
-      "Directory": "ga/25.0.0.9/full",
-      "File": "Dockerfile.ubuntu.openjdk17"
-    },
-    {
-      "Tags": [
-        "25.0.0.12-kernel-java8-ibmjava"
-      ],
-      "Architectures": null,
-      "GitCommit": "02b09e4a968331f1083b1e1d5cb18e6aaf15c219",
-      "Directory": "ga/25.0.0.12/kernel",
-      "File": "Dockerfile.ubuntu.ibmjava8"
-    },
-    {
-      "Tags": [
-        "25.0.0.12-kernel-java11-openj9"
-      ],
-      "Architectures": {
-        "amd64": {
-          "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm64v8": {
-          "Architecture": "arm64v8",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "ppc64le": {
-          "Architecture": "ppc64le",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "s390x": {
-          "Architecture": "s390x",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "02b09e4a968331f1083b1e1d5cb18e6aaf15c219",
-      "Directory": "ga/25.0.0.12/kernel",
-      "File": "Dockerfile.ubuntu.openjdk11"
-    },
-    {
-      "Tags": [
-        "25.0.0.12-kernel-java17-openj9"
-      ],
-      "Architectures": {
-        "amd64": {
-          "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm64v8": {
-          "Architecture": "arm64v8",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "ppc64le": {
-          "Architecture": "ppc64le",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "s390x": {
-          "Architecture": "s390x",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "02b09e4a968331f1083b1e1d5cb18e6aaf15c219",
-      "Directory": "ga/25.0.0.12/kernel",
-      "File": "Dockerfile.ubuntu.openjdk17"
-    },
-    {
-      "Tags": [
-        "25.0.0.12-full-java8-ibmjava"
-      ],
-      "Architectures": null,
-      "GitCommit": "02b09e4a968331f1083b1e1d5cb18e6aaf15c219",
-      "Directory": "ga/25.0.0.12/full",
-      "File": "Dockerfile.ubuntu.ibmjava8"
-    },
-    {
-      "Tags": [
-        "25.0.0.12-full-java11-openj9"
-      ],
-      "Architectures": {
-        "amd64": {
-          "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm64v8": {
-          "Architecture": "arm64v8",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "ppc64le": {
-          "Architecture": "ppc64le",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "s390x": {
-          "Architecture": "s390x",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "02b09e4a968331f1083b1e1d5cb18e6aaf15c219",
-      "Directory": "ga/25.0.0.12/full",
-      "File": "Dockerfile.ubuntu.openjdk11"
-    },
-    {
-      "Tags": [
-        "25.0.0.12-full-java17-openj9"
-      ],
-      "Architectures": {
-        "amd64": {
-          "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm64v8": {
-          "Architecture": "arm64v8",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "ppc64le": {
-          "Architecture": "ppc64le",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "s390x": {
-          "Architecture": "s390x",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "02b09e4a968331f1083b1e1d5cb18e6aaf15c219",
-      "Directory": "ga/25.0.0.12/full",
       "File": "Dockerfile.ubuntu.openjdk17"
     },
     {
