@@ -151,6 +151,9 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+	if b == nil {
+		panic(fmt.Sprintf("%s app.txt is missing tag %s", *name, *tag))
+	}
 	var repoURL string
 	if strings.Contains(libRepoURL, "github.com/"+api.GH_IMG_REPO_OWNER) {
 		repoURL = libRepoURL
