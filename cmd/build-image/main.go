@@ -7,6 +7,7 @@ import (
 	"net/url"
 	"os"
 	"path/filepath"
+	"slices"
 	"strings"
 	"time"
 
@@ -458,18 +459,9 @@ func FindBlock(dir, name, tag string) (string, *api.Block, error) {
 	}
 
 	for _, b := range h.Blocks {
-		if contains(b.Tags, tag) {
+		if slices.Contains(b.Tags, tag) {
 			return h.GitRepo, &b, nil
 		}
 	}
 	return h.GitRepo, nil, nil
-}
-
-func contains(arr []string, s string) bool {
-	for _, x := range arr {
-		if x == s {
-			return true
-		}
-	}
-	return false
 }

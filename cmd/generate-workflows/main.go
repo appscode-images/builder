@@ -52,8 +52,8 @@ func CleanupOldWorkflows(dir string) error {
 		if entry.IsDir() {
 			continue
 		}
-		if strings.HasPrefix(entry.Name(), "build-") {
-			appName := strings.TrimSuffix(strings.TrimPrefix(entry.Name(), "build-"), filepath.Ext(entry.Name()))
+		if after, ok := strings.CutPrefix(entry.Name(), "build-"); ok {
+			appName := strings.TrimSuffix(after, filepath.Ext(entry.Name()))
 			if skipApps.Len() > 0 && skipApps.Has(appName) {
 				continue
 			}
