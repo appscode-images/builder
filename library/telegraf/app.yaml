@@ -20,7 +20,7 @@ Blocks:
       GitFetch: ""
   Directory: telegraf/1.36
   File: ""
-  GitCommit: b6f2742f0229e7657169d7bfc5be3c097ed3e38d
+  GitCommit: 412a80aac2770ac6e10739a8c384569f6007f649
   Tags:
   - "1.36"
   - 1.36.4
@@ -39,7 +39,7 @@ Blocks:
       GitFetch: ""
   Directory: telegraf/1.36/alpine
   File: ""
-  GitCommit: b6f2742f0229e7657169d7bfc5be3c097ed3e38d
+  GitCommit: 412a80aac2770ac6e10739a8c384569f6007f649
   Tags:
   - 1.36-alpine
   - 1.36.4-alpine
@@ -64,7 +64,7 @@ Blocks:
       GitFetch: ""
   Directory: telegraf/1.37
   File: ""
-  GitCommit: b6f2742f0229e7657169d7bfc5be3c097ed3e38d
+  GitCommit: 412a80aac2770ac6e10739a8c384569f6007f649
   Tags:
   - "1.37"
   - 1.37.3
@@ -83,7 +83,7 @@ Blocks:
       GitFetch: ""
   Directory: telegraf/1.37/alpine
   File: ""
-  GitCommit: b6f2742f0229e7657169d7bfc5be3c097ed3e38d
+  GitCommit: 412a80aac2770ac6e10739a8c384569f6007f649
   Tags:
   - 1.37-alpine
   - 1.37.3-alpine
@@ -108,11 +108,55 @@ Blocks:
       GitFetch: ""
   Directory: telegraf/1.38
   File: ""
-  GitCommit: b6f2742f0229e7657169d7bfc5be3c097ed3e38d
+  GitCommit: 412a80aac2770ac6e10739a8c384569f6007f649
   Tags:
   - "1.38"
-  - 1.38.1
+  - 1.38.2
   - latest
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: telegraf/1.38/alpine
+  File: ""
+  GitCommit: 412a80aac2770ac6e10739a8c384569f6007f649
+  Tags:
+  - 1.38-alpine
+  - 1.38.2-alpine
+  - alpine
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: telegraf/1.38
+  File: ""
+  GitCommit: b6f2742f0229e7657169d7bfc5be3c097ed3e38d
+  Tags:
+  - 1.38.1
 - Architectures:
     amd64:
       Architecture: amd64
@@ -130,9 +174,7 @@ Blocks:
   File: ""
   GitCommit: b6f2742f0229e7657169d7bfc5be3c097ed3e38d
   Tags:
-  - 1.38-alpine
   - 1.38.1-alpine
-  - alpine
 - Architectures:
     amd64:
       Architecture: amd64
@@ -6318,6 +6360,8 @@ KnownTags:
   1.38.0-alpine: {}
   1.38.1: {}
   1.38.1-alpine: {}
+  1.38.2: {}
+  1.38.2-alpine: {}
   alpine: {}
   latest: {}
 Name: telegraf
