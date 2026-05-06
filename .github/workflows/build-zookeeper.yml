@@ -50,11 +50,8 @@ jobs:
           docker buildx build \
             https://raw.githubusercontent.com/souravbiswassanto/catalog/refs/heads/main/image/postgres/debian-13/18.yaml \
             --platform linux/amd64,linux/arm64 \
-            --sbom=generator=dhi.io/scout-sbom-indexer:1 \
-            --provenance=1 \
             --tag souravbiswassanto/pg-dhi:18 \
-            --tag souravbiswassanto/pg-dhi:18-${{ github.sha }} \
-            --push
+            --tag souravbiswassanto/pg-dhi:18-${{ github.sha }} 
 
       # Add your Mongo build steps here later
       # Example:
