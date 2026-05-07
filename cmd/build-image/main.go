@@ -154,6 +154,7 @@ func main() {
 	if b == nil {
 		panic(fmt.Sprintf("%s app.txt is missing tag %s", *name, *tag))
 	}
+	klog.Infoln(b.String())
 	var repoURL string
 	if strings.Contains(libRepoURL, "github.com/"+api.GH_IMG_REPO_OWNER) {
 		repoURL = libRepoURL
@@ -449,7 +450,19 @@ func GetFullName(s string) (string, error) {
 }
 
 func FindBlock(dir, name, tag string) (string, *api.Block, error) {
-	filename := filepath.Join(dir, "library", name, "app.json")
+	filename := ""
+	klog.Infoln(tag)
+	if strings.HasSuffix(tag, "dhi") {
+		filename = filepath.Join(dir, "library", name, "dhi.json")
+	} else {
+		filename = filepath.Join(dir, "library", name, "app.json")
+	}
+	klog.Infoln(filename)
+	return FindBlockWithGivenFile(filename, tag)
+}
+
+func FindBlockWithGivenFile(filename, tag string) (string, *api.Block, error) {
+
 	data, err := os.ReadFile(filename)
 	if err != nil {
 		return "", nil, err
@@ -466,5 +479,6 @@ func FindBlock(dir, name, tag string) (string, *api.Block, error) {
 			return h.GitRepo, &b, nil
 		}
 	}
+
 	return h.GitRepo, nil, nil
 }
