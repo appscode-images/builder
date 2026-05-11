@@ -5,10 +5,6 @@ on:
     - cron: '0 0 */14 * *'
   workflow_dispatch:
 
-permissions:
-  contents: read
-  packages: write
-
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.ref }}
   cancel-in-progress: true
@@ -17,6 +13,9 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+      packages: write
     strategy:
       fail-fast: false
       matrix:
