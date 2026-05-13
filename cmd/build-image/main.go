@@ -452,9 +452,13 @@ func GetFullName(s string) (string, error) {
 func FindBlock(dir, name, tag string) (string, *api.Block, error) {
 	filename := ""
 	klog.Infoln(tag)
-	if strings.HasSuffix(tag, "dhi") {
+	suf := strings.Split(tag, "-")[len(strings.Split(tag, "-"))-1]
+	switch suf {
+	case "dhi":
 		filename = filepath.Join(dir, "library", name, "dhi.json")
-	} else {
+	case "ext":
+		filename = filepath.Join(dir, "library", name, "ext.json")
+	default:
 		filename = filepath.Join(dir, "library", name, "app.json")
 	}
 	klog.Infoln(filename)
