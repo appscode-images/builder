@@ -13,6 +13,8 @@ jobs:
   build:
     name: Build
     runs-on: firecracker
+    permissions:
+      packages: write
     strategy:
       fail-fast: false
       matrix:

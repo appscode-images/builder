@@ -17,6 +17,8 @@ jobs:
       fail-fast: false
       matrix:
         tag: [2.0.0, 1.23.0, 1.18.0]
+    permissions:
+      packages: write
     steps:
     - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
 
