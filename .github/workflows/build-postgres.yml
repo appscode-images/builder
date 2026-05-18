@@ -12,7 +12,7 @@ concurrency:
 jobs:
   build:
     name: Build
-    runs-on: firecracker
+    runs-on: ubuntu-latest # TODO: Change to firecracker
     permissions:
       packages: write
     strategy:
