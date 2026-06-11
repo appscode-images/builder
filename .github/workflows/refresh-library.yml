@@ -16,6 +16,8 @@ jobs:
       packages: write
     steps:
     - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+      with:
+        persist-credentials: false
 
     - name: Set up Go
       uses: actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff # v5.6.0
@@ -41,7 +43,6 @@ jobs:
         git config --global \
           url."https://x-access-token:${LGTM_APP_TOKEN}@github.com".insteadOf \
           "https://github.com"
-        git remote set-url origin https://x-access-token:${LGTM_APP_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
 
     - name: Refresh Library
       run: |
