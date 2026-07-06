@@ -68,6 +68,6 @@ jobs:
         if [[ $(git status --porcelain) ]]; then
           git commit -s -a -m "update libary $(date --rfc-3339=date)"
           git fetch origin
-          git pull --rebase -s ours origin master
+          git pull --rebase origin master
           git push origin HEAD
         fi
