@@ -178,6 +178,12 @@
     "open-11.0.30_7.1-jre": {},
     "open-11.0.30_7.1-jre-jammy": {},
     "open-11.0.30_7.1-jre-noble": {},
+    "open-11.0.31.0-jdk": {},
+    "open-11.0.31.0-jdk-jammy": {},
+    "open-11.0.31.0-jdk-noble": {},
+    "open-11.0.31.0-jre": {},
+    "open-11.0.31.0-jre-jammy": {},
+    "open-11.0.31.0-jre-noble": {},
     "open-16-jdk": {},
     "open-16-jdk-centos7": {},
     "open-16-jdk-focal": {},
@@ -274,6 +280,12 @@
     "open-17.0.18_8.1-jre": {},
     "open-17.0.18_8.1-jre-jammy": {},
     "open-17.0.18_8.1-jre-noble": {},
+    "open-17.0.19.0-jdk": {},
+    "open-17.0.19.0-jdk-jammy": {},
+    "open-17.0.19.0-jdk-noble": {},
+    "open-17.0.19.0-jre": {},
+    "open-17.0.19.0-jre-jammy": {},
+    "open-17.0.19.0-jre-noble": {},
     "open-17.0.1_12-jdk": {},
     "open-17.0.1_12-jdk-centos7": {},
     "open-17.0.1_12-jdk-focal": {},
@@ -444,6 +456,12 @@
     "open-21.0.10_7.1-jre": {},
     "open-21.0.10_7.1-jre-jammy": {},
     "open-21.0.10_7.1-jre-noble": {},
+    "open-21.0.11.0-jdk": {},
+    "open-21.0.11.0-jdk-jammy": {},
+    "open-21.0.11.0-jdk-noble": {},
+    "open-21.0.11.0-jre": {},
+    "open-21.0.11.0-jre-jammy": {},
+    "open-21.0.11.0-jre-noble": {},
     "open-21.0.1_12-jdk": {},
     "open-21.0.1_12-jdk-centos7": {},
     "open-21.0.1_12-jdk-focal": {},
@@ -588,6 +606,12 @@
     "open-26-jre": {},
     "open-26-jre-jammy": {},
     "open-26-jre-noble": {},
+    "open-26.0.1.0-jdk": {},
+    "open-26.0.1.0-jdk-jammy": {},
+    "open-26.0.1.0-jdk-noble": {},
+    "open-26.0.1.0-jre": {},
+    "open-26.0.1.0-jre-jammy": {},
+    "open-26.0.1.0-jre-noble": {},
     "open-26_35-jdk": {},
     "open-26_35-jdk-jammy": {},
     "open-26_35-jdk-noble": {},
@@ -604,6 +628,12 @@
     "open-8-jre-focal": {},
     "open-8-jre-jammy": {},
     "open-8-jre-noble": {},
+    "open-8.0.492.0-jdk": {},
+    "open-8.0.492.0-jdk-jammy": {},
+    "open-8.0.492.0-jdk-noble": {},
+    "open-8.0.492.0-jre": {},
+    "open-8.0.492.0-jre-jammy": {},
+    "open-8.0.492.0-jre-noble": {},
     "open-8u302-b08-jdk": {},
     "open-8u302-b08-jdk-centos7": {},
     "open-8u302-b08-jdk-focal": {},
@@ -773,13 +803,978 @@
     "open-jdk-25.0.2_10.1-jdk-noble": {},
     "open-jdk-25.0.2_10.1-jre": {},
     "open-jdk-25.0.2_10.1-jre-jammy": {},
-    "open-jdk-25.0.2_10.1-jre-noble": {}
+    "open-jdk-25.0.2_10.1-jre-noble": {},
+    "open-jdk-25.0.3.0-jdk": {},
+    "open-jdk-25.0.3.0-jdk-jammy": {},
+    "open-jdk-25.0.3.0-jdk-noble": {},
+    "open-jdk-25.0.3.0-jre": {},
+    "open-jdk-25.0.3.0-jre-jammy": {},
+    "open-jdk-25.0.3.0-jre-noble": {}
   },
   "Blocks": [
     {
       "Tags": [
-        "open-8u482-b08.1-jdk-jammy",
+        "open-8.0.492.0-jdk-jammy",
         "open-8-jdk-jammy"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0f59b627ab4b1c79cc642f1930b2d3f4ac028bdd",
+      "Directory": "8/jdk/ubuntu/jammy",
+      "File": "Dockerfile.open.releases.full"
+    },
+    {
+      "Tags": [
+        "open-8.0.492.0-jdk-noble",
+        "open-8-jdk-noble",
+        "open-8.0.492.0-jdk",
+        "open-8-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0f59b627ab4b1c79cc642f1930b2d3f4ac028bdd",
+      "Directory": "8/jdk/ubuntu/noble",
+      "File": "Dockerfile.open.releases.full"
+    },
+    {
+      "Tags": [
+        "open-8.0.492.0-jre-jammy",
+        "open-8-jre-jammy"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0f59b627ab4b1c79cc642f1930b2d3f4ac028bdd",
+      "Directory": "8/jre/ubuntu/jammy",
+      "File": "Dockerfile.open.releases.full"
+    },
+    {
+      "Tags": [
+        "open-8.0.492.0-jre-noble",
+        "open-8-jre-noble",
+        "open-8.0.492.0-jre",
+        "open-8-jre"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0f59b627ab4b1c79cc642f1930b2d3f4ac028bdd",
+      "Directory": "8/jre/ubuntu/noble",
+      "File": "Dockerfile.open.releases.full"
+    },
+    {
+      "Tags": [
+        "open-11.0.31.0-jdk-jammy",
+        "open-11-jdk-jammy"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0f59b627ab4b1c79cc642f1930b2d3f4ac028bdd",
+      "Directory": "11/jdk/ubuntu/jammy",
+      "File": "Dockerfile.open.releases.full"
+    },
+    {
+      "Tags": [
+        "open-11.0.31.0-jdk-noble",
+        "open-11-jdk-noble",
+        "open-11.0.31.0-jdk",
+        "open-11-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0f59b627ab4b1c79cc642f1930b2d3f4ac028bdd",
+      "Directory": "11/jdk/ubuntu/noble",
+      "File": "Dockerfile.open.releases.full"
+    },
+    {
+      "Tags": [
+        "open-11.0.31.0-jre-jammy",
+        "open-11-jre-jammy"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0f59b627ab4b1c79cc642f1930b2d3f4ac028bdd",
+      "Directory": "11/jre/ubuntu/jammy",
+      "File": "Dockerfile.open.releases.full"
+    },
+    {
+      "Tags": [
+        "open-11.0.31.0-jre-noble",
+        "open-11-jre-noble",
+        "open-11.0.31.0-jre",
+        "open-11-jre"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0f59b627ab4b1c79cc642f1930b2d3f4ac028bdd",
+      "Directory": "11/jre/ubuntu/noble",
+      "File": "Dockerfile.open.releases.full"
+    },
+    {
+      "Tags": [
+        "open-17.0.19.0-jdk-jammy",
+        "open-17-jdk-jammy"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0f59b627ab4b1c79cc642f1930b2d3f4ac028bdd",
+      "Directory": "17/jdk/ubuntu/jammy",
+      "File": "Dockerfile.open.releases.full"
+    },
+    {
+      "Tags": [
+        "open-17.0.19.0-jdk-noble",
+        "open-17-jdk-noble",
+        "open-17.0.19.0-jdk",
+        "open-17-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0f59b627ab4b1c79cc642f1930b2d3f4ac028bdd",
+      "Directory": "17/jdk/ubuntu/noble",
+      "File": "Dockerfile.open.releases.full"
+    },
+    {
+      "Tags": [
+        "open-17.0.19.0-jre-jammy",
+        "open-17-jre-jammy"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0f59b627ab4b1c79cc642f1930b2d3f4ac028bdd",
+      "Directory": "17/jre/ubuntu/jammy",
+      "File": "Dockerfile.open.releases.full"
+    },
+    {
+      "Tags": [
+        "open-17.0.19.0-jre-noble",
+        "open-17-jre-noble",
+        "open-17.0.19.0-jre",
+        "open-17-jre"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0f59b627ab4b1c79cc642f1930b2d3f4ac028bdd",
+      "Directory": "17/jre/ubuntu/noble",
+      "File": "Dockerfile.open.releases.full"
+    },
+    {
+      "Tags": [
+        "open-21.0.11.0-jdk-jammy",
+        "open-21-jdk-jammy"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0f59b627ab4b1c79cc642f1930b2d3f4ac028bdd",
+      "Directory": "21/jdk/ubuntu/jammy",
+      "File": "Dockerfile.open.releases.full"
+    },
+    {
+      "Tags": [
+        "open-21.0.11.0-jdk-noble",
+        "open-21-jdk-noble",
+        "open-21.0.11.0-jdk",
+        "open-21-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0f59b627ab4b1c79cc642f1930b2d3f4ac028bdd",
+      "Directory": "21/jdk/ubuntu/noble",
+      "File": "Dockerfile.open.releases.full"
+    },
+    {
+      "Tags": [
+        "open-21.0.11.0-jre-jammy",
+        "open-21-jre-jammy"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0f59b627ab4b1c79cc642f1930b2d3f4ac028bdd",
+      "Directory": "21/jre/ubuntu/jammy",
+      "File": "Dockerfile.open.releases.full"
+    },
+    {
+      "Tags": [
+        "open-21.0.11.0-jre-noble",
+        "open-21-jre-noble",
+        "open-21.0.11.0-jre",
+        "open-21-jre"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0f59b627ab4b1c79cc642f1930b2d3f4ac028bdd",
+      "Directory": "21/jre/ubuntu/noble",
+      "File": "Dockerfile.open.releases.full"
+    },
+    {
+      "Tags": [
+        "open-jdk-25.0.3.0-jdk-jammy",
+        "open-25-jdk-jammy"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0f59b627ab4b1c79cc642f1930b2d3f4ac028bdd",
+      "Directory": "25/jdk/ubuntu/jammy",
+      "File": "Dockerfile.open.releases.full"
+    },
+    {
+      "Tags": [
+        "open-jdk-25.0.3.0-jdk-noble",
+        "open-25-jdk-noble",
+        "open-jdk-25.0.3.0-jdk",
+        "open-25-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0f59b627ab4b1c79cc642f1930b2d3f4ac028bdd",
+      "Directory": "25/jdk/ubuntu/noble",
+      "File": "Dockerfile.open.releases.full"
+    },
+    {
+      "Tags": [
+        "open-jdk-25.0.3.0-jre-jammy",
+        "open-25-jre-jammy"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0f59b627ab4b1c79cc642f1930b2d3f4ac028bdd",
+      "Directory": "25/jre/ubuntu/jammy",
+      "File": "Dockerfile.open.releases.full"
+    },
+    {
+      "Tags": [
+        "open-jdk-25.0.3.0-jre-noble",
+        "open-25-jre-noble",
+        "open-jdk-25.0.3.0-jre",
+        "open-25-jre"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0f59b627ab4b1c79cc642f1930b2d3f4ac028bdd",
+      "Directory": "25/jre/ubuntu/noble",
+      "File": "Dockerfile.open.releases.full"
+    },
+    {
+      "Tags": [
+        "open-26.0.1.0-jdk-jammy",
+        "open-26-jdk-jammy"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0f59b627ab4b1c79cc642f1930b2d3f4ac028bdd",
+      "Directory": "26/jdk/ubuntu/jammy",
+      "File": "Dockerfile.open.releases.full"
+    },
+    {
+      "Tags": [
+        "open-26.0.1.0-jdk-noble",
+        "open-26-jdk-noble",
+        "open-26.0.1.0-jdk",
+        "open-26-jdk"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0f59b627ab4b1c79cc642f1930b2d3f4ac028bdd",
+      "Directory": "26/jdk/ubuntu/noble",
+      "File": "Dockerfile.open.releases.full"
+    },
+    {
+      "Tags": [
+        "open-26.0.1.0-jre-jammy",
+        "open-26-jre-jammy"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0f59b627ab4b1c79cc642f1930b2d3f4ac028bdd",
+      "Directory": "26/jre/ubuntu/jammy",
+      "File": "Dockerfile.open.releases.full"
+    },
+    {
+      "Tags": [
+        "open-26.0.1.0-jre-noble",
+        "open-26-jre-noble",
+        "open-26.0.1.0-jre",
+        "open-26-jre"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "s390x": {
+          "Architecture": "s390x",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0f59b627ab4b1c79cc642f1930b2d3f4ac028bdd",
+      "Directory": "26/jre/ubuntu/noble",
+      "File": "Dockerfile.open.releases.full"
+    },
+    {
+      "Tags": [
+        "open-8u482-b08.1-jdk-jammy"
       ],
       "Architectures": {
         "amd64": {
@@ -818,9 +1813,7 @@
     {
       "Tags": [
         "open-8u482-b08.1-jdk-noble",
-        "open-8-jdk-noble",
-        "open-8u482-b08.1-jdk",
-        "open-8-jdk"
+        "open-8u482-b08.1-jdk"
       ],
       "Architectures": {
         "amd64": {
@@ -858,8 +1851,7 @@
     },
     {
       "Tags": [
-        "open-8u482-b08.1-jre-jammy",
-        "open-8-jre-jammy"
+        "open-8u482-b08.1-jre-jammy"
       ],
       "Architectures": {
         "amd64": {
@@ -898,9 +1890,7 @@
     {
       "Tags": [
         "open-8u482-b08.1-jre-noble",
-        "open-8-jre-noble",
-        "open-8u482-b08.1-jre",
-        "open-8-jre"
+        "open-8u482-b08.1-jre"
       ],
       "Architectures": {
         "amd64": {
@@ -938,8 +1928,7 @@
     },
     {
       "Tags": [
-        "open-11.0.30_7.1-jdk-jammy",
-        "open-11-jdk-jammy"
+        "open-11.0.30_7.1-jdk-jammy"
       ],
       "Architectures": {
         "amd64": {
@@ -978,9 +1967,7 @@
     {
       "Tags": [
         "open-11.0.30_7.1-jdk-noble",
-        "open-11-jdk-noble",
-        "open-11.0.30_7.1-jdk",
-        "open-11-jdk"
+        "open-11.0.30_7.1-jdk"
       ],
       "Architectures": {
         "amd64": {
@@ -1018,8 +2005,7 @@
     },
     {
       "Tags": [
-        "open-11.0.30_7.1-jre-jammy",
-        "open-11-jre-jammy"
+        "open-11.0.30_7.1-jre-jammy"
       ],
       "Architectures": {
         "amd64": {
@@ -1058,9 +2044,7 @@
     {
       "Tags": [
         "open-11.0.30_7.1-jre-noble",
-        "open-11-jre-noble",
-        "open-11.0.30_7.1-jre",
-        "open-11-jre"
+        "open-11.0.30_7.1-jre"
       ],
       "Architectures": {
         "amd64": {
@@ -1098,8 +2082,7 @@
     },
     {
       "Tags": [
-        "open-17.0.18_8.1-jdk-jammy",
-        "open-17-jdk-jammy"
+        "open-17.0.18_8.1-jdk-jammy"
       ],
       "Architectures": {
         "amd64": {
@@ -1138,9 +2121,7 @@
     {
       "Tags": [
         "open-17.0.18_8.1-jdk-noble",
-        "open-17-jdk-noble",
-        "open-17.0.18_8.1-jdk",
-        "open-17-jdk"
+        "open-17.0.18_8.1-jdk"
       ],
       "Architectures": {
         "amd64": {
@@ -1178,8 +2159,7 @@
     },
     {
       "Tags": [
-        "open-17.0.18_8.1-jre-jammy",
-        "open-17-jre-jammy"
+        "open-17.0.18_8.1-jre-jammy"
       ],
       "Architectures": {
         "amd64": {
@@ -1218,9 +2198,7 @@
     {
       "Tags": [
         "open-17.0.18_8.1-jre-noble",
-        "open-17-jre-noble",
-        "open-17.0.18_8.1-jre",
-        "open-17-jre"
+        "open-17.0.18_8.1-jre"
       ],
       "Architectures": {
         "amd64": {
@@ -1258,8 +2236,7 @@
     },
     {
       "Tags": [
-        "open-21.0.10_7.1-jdk-jammy",
-        "open-21-jdk-jammy"
+        "open-21.0.10_7.1-jdk-jammy"
       ],
       "Architectures": {
         "amd64": {
@@ -1298,9 +2275,7 @@
     {
       "Tags": [
         "open-21.0.10_7.1-jdk-noble",
-        "open-21-jdk-noble",
-        "open-21.0.10_7.1-jdk",
-        "open-21-jdk"
+        "open-21.0.10_7.1-jdk"
       ],
       "Architectures": {
         "amd64": {
@@ -1338,8 +2313,7 @@
     },
     {
       "Tags": [
-        "open-21.0.10_7.1-jre-jammy",
-        "open-21-jre-jammy"
+        "open-21.0.10_7.1-jre-jammy"
       ],
       "Architectures": {
         "amd64": {
@@ -1378,9 +2352,7 @@
     {
       "Tags": [
         "open-21.0.10_7.1-jre-noble",
-        "open-21-jre-noble",
-        "open-21.0.10_7.1-jre",
-        "open-21-jre"
+        "open-21.0.10_7.1-jre"
       ],
       "Architectures": {
         "amd64": {
@@ -1418,8 +2390,7 @@
     },
     {
       "Tags": [
-        "open-jdk-25.0.2_10.1-jdk-jammy",
-        "open-25-jdk-jammy"
+        "open-jdk-25.0.2_10.1-jdk-jammy"
       ],
       "Architectures": {
         "amd64": {
@@ -1458,9 +2429,7 @@
     {
       "Tags": [
         "open-jdk-25.0.2_10.1-jdk-noble",
-        "open-25-jdk-noble",
-        "open-jdk-25.0.2_10.1-jdk",
-        "open-25-jdk"
+        "open-jdk-25.0.2_10.1-jdk"
       ],
       "Architectures": {
         "amd64": {
@@ -1498,8 +2467,7 @@
     },
     {
       "Tags": [
-        "open-jdk-25.0.2_10.1-jre-jammy",
-        "open-25-jre-jammy"
+        "open-jdk-25.0.2_10.1-jre-jammy"
       ],
       "Architectures": {
         "amd64": {
@@ -1538,9 +2506,7 @@
     {
       "Tags": [
         "open-jdk-25.0.2_10.1-jre-noble",
-        "open-25-jre-noble",
-        "open-jdk-25.0.2_10.1-jre",
-        "open-25-jre"
+        "open-jdk-25.0.2_10.1-jre"
       ],
       "Architectures": {
         "amd64": {
@@ -1578,8 +2544,7 @@
     },
     {
       "Tags": [
-        "open-26_35-jdk-jammy",
-        "open-26-jdk-jammy"
+        "open-26_35-jdk-jammy"
       ],
       "Architectures": {
         "amd64": {
@@ -1618,9 +2583,7 @@
     {
       "Tags": [
         "open-26_35-jdk-noble",
-        "open-26-jdk-noble",
-        "open-26_35-jdk",
-        "open-26-jdk"
+        "open-26_35-jdk"
       ],
       "Architectures": {
         "amd64": {
@@ -1658,8 +2621,7 @@
     },
     {
       "Tags": [
-        "open-26_35-jre-jammy",
-        "open-26-jre-jammy"
+        "open-26_35-jre-jammy"
       ],
       "Architectures": {
         "amd64": {
@@ -1698,9 +2660,7 @@
     {
       "Tags": [
         "open-26_35-jre-noble",
-        "open-26-jre-noble",
-        "open-26_35-jre",
-        "open-26-jre"
+        "open-26_35-jre"
       ],
       "Architectures": {
         "amd64": {

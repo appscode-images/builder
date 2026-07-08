@@ -1,46 +1,191 @@
 GitRepo: https://github.com/rust-lang/docker-rust.git
 
-Tags: 1-bullseye,1.94-bullseye,1.94.1-bullseye,bullseye
+Tags: 1-bullseye,1.96-bullseye,1.96.1-bullseye,bullseye
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: e40e5306e8f5197fb179b3aa10605f71e6cef670
+Directory: stable/bullseye
+
+Tags: 1-slim-bullseye,1.96-slim-bullseye,1.96.1-slim-bullseye,slim-bullseye
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: e40e5306e8f5197fb179b3aa10605f71e6cef670
+Directory: stable/bullseye/slim
+
+Tags: 1-bookworm,1.96-bookworm,1.96.1-bookworm,bookworm
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+GitCommit: e40e5306e8f5197fb179b3aa10605f71e6cef670
+Directory: stable/bookworm
+
+Tags: 1-slim-bookworm,1.96-slim-bookworm,1.96.1-slim-bookworm,slim-bookworm
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+GitCommit: e40e5306e8f5197fb179b3aa10605f71e6cef670
+Directory: stable/bookworm/slim
+
+Tags: 1-trixie,1.96-trixie,1.96.1-trixie,trixie,1,1.96,1.96.1,latest
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: e40e5306e8f5197fb179b3aa10605f71e6cef670
+Directory: stable/trixie
+
+Tags: 1-slim-trixie,1.96-slim-trixie,1.96.1-slim-trixie,slim-trixie,1-slim,1.96-slim,1.96.1-slim,slim
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: e40e5306e8f5197fb179b3aa10605f71e6cef670
+Directory: stable/trixie/slim
+
+Tags: 1-alpine3.21,1.96-alpine3.21,1.96.1-alpine3.21,alpine3.21
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: e40e5306e8f5197fb179b3aa10605f71e6cef670
+Directory: stable/alpine3.21
+
+Tags: 1-alpine3.22,1.96-alpine3.22,1.96.1-alpine3.22,alpine3.22
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: e40e5306e8f5197fb179b3aa10605f71e6cef670
+Directory: stable/alpine3.22
+
+Tags: 1-alpine3.23,1.96-alpine3.23,1.96.1-alpine3.23,alpine3.23
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: e40e5306e8f5197fb179b3aa10605f71e6cef670
+Directory: stable/alpine3.23
+
+Tags: 1-alpine3.24,1.96-alpine3.24,1.96.1-alpine3.24,alpine3.24,1-alpine,1.96-alpine,1.96.1-alpine,alpine
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: e40e5306e8f5197fb179b3aa10605f71e6cef670
+Directory: stable/alpine3.24
+
+Tags: 1.96.0-bullseye
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 7502a8239b3db41eda6017b17aa50067d140d2a7
+Directory: stable/bullseye
+
+Tags: 1.96.0-slim-bullseye
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: 7502a8239b3db41eda6017b17aa50067d140d2a7
+Directory: stable/bullseye/slim
+
+Tags: 1.96.0-bookworm
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+GitCommit: 7502a8239b3db41eda6017b17aa50067d140d2a7
+Directory: stable/bookworm
+
+Tags: 1.96.0-slim-bookworm
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+GitCommit: 7502a8239b3db41eda6017b17aa50067d140d2a7
+Directory: stable/bookworm/slim
+
+Tags: 1.96.0-trixie,1.96.0
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 7502a8239b3db41eda6017b17aa50067d140d2a7
+Directory: stable/trixie
+
+Tags: 1.96.0-slim-trixie,1.96.0-slim
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 7502a8239b3db41eda6017b17aa50067d140d2a7
+Directory: stable/trixie/slim
+
+Tags: 1.96.0-alpine3.21
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: 7502a8239b3db41eda6017b17aa50067d140d2a7
+Directory: stable/alpine3.21
+
+Tags: 1.96.0-alpine3.22
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: 7502a8239b3db41eda6017b17aa50067d140d2a7
+Directory: stable/alpine3.22
+
+Tags: 1.96.0-alpine3.23
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: 7502a8239b3db41eda6017b17aa50067d140d2a7
+Directory: stable/alpine3.23
+
+Tags: 1.96.0-alpine3.24,1.96.0-alpine
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: 75656a9a1a93c5c8a537af4b9598580f5da9090e
+Directory: stable/alpine3.24
+
+Tags: 1.95-bullseye,1.95.0-bullseye
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: dd106de2954f52f336c3d2c1326ae778c51830f3
+Directory: stable/bullseye
+
+Tags: 1.95-slim-bullseye,1.95.0-slim-bullseye
+Architectures: amd64,arm32v7,arm64v8,i386
+GitCommit: dd106de2954f52f336c3d2c1326ae778c51830f3
+Directory: stable/bullseye/slim
+
+Tags: 1.95-bookworm,1.95.0-bookworm
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+GitCommit: dd106de2954f52f336c3d2c1326ae778c51830f3
+Directory: stable/bookworm
+
+Tags: 1.95-slim-bookworm,1.95.0-slim-bookworm
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
+GitCommit: dd106de2954f52f336c3d2c1326ae778c51830f3
+Directory: stable/bookworm/slim
+
+Tags: 1.95-trixie,1.95.0-trixie,1.95,1.95.0
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: dd106de2954f52f336c3d2c1326ae778c51830f3
+Directory: stable/trixie
+
+Tags: 1.95-slim-trixie,1.95.0-slim-trixie,1.95-slim,1.95.0-slim
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: dd106de2954f52f336c3d2c1326ae778c51830f3
+Directory: stable/trixie/slim
+
+Tags: 1.95-alpine3.21,1.95.0-alpine3.21
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: dd106de2954f52f336c3d2c1326ae778c51830f3
+Directory: stable/alpine3.21
+
+Tags: 1.95-alpine3.22,1.95.0-alpine3.22
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: dd106de2954f52f336c3d2c1326ae778c51830f3
+Directory: stable/alpine3.22
+
+Tags: 1.95-alpine3.23,1.95.0-alpine3.23,1.95-alpine,1.95.0-alpine
+Architectures: amd64,arm64v8,ppc64le
+GitCommit: dd106de2954f52f336c3d2c1326ae778c51830f3
+Directory: stable/alpine3.23
+
+Tags: 1.94-bullseye,1.94.1-bullseye
 Architectures: amd64,arm32v7,arm64v8,i386
 GitCommit: 20c358f05538dc34ab5e2e586bd8f9229c49d51d
 Directory: stable/bullseye
 
-Tags: 1-slim-bullseye,1.94-slim-bullseye,1.94.1-slim-bullseye,slim-bullseye
+Tags: 1.94-slim-bullseye,1.94.1-slim-bullseye
 Architectures: amd64,arm32v7,arm64v8,i386
 GitCommit: 20c358f05538dc34ab5e2e586bd8f9229c49d51d
 Directory: stable/bullseye/slim
 
-Tags: 1-bookworm,1.94-bookworm,1.94.1-bookworm,bookworm
+Tags: 1.94-bookworm,1.94.1-bookworm
 Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 20c358f05538dc34ab5e2e586bd8f9229c49d51d
 Directory: stable/bookworm
 
-Tags: 1-slim-bookworm,1.94-slim-bookworm,1.94.1-slim-bookworm,slim-bookworm
+Tags: 1.94-slim-bookworm,1.94.1-slim-bookworm
 Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,s390x
 GitCommit: 20c358f05538dc34ab5e2e586bd8f9229c49d51d
 Directory: stable/bookworm/slim
 
-Tags: 1-trixie,1.94-trixie,1.94.1-trixie,trixie,1,1.94,1.94.1,latest
+Tags: 1.94-trixie,1.94.1-trixie,1.94,1.94.1
 Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 20c358f05538dc34ab5e2e586bd8f9229c49d51d
 Directory: stable/trixie
 
-Tags: 1-slim-trixie,1.94-slim-trixie,1.94.1-slim-trixie,slim-trixie,1-slim,1.94-slim,1.94.1-slim,slim
+Tags: 1.94-slim-trixie,1.94.1-slim-trixie,1.94-slim,1.94.1-slim
 Architectures: amd64,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 20c358f05538dc34ab5e2e586bd8f9229c49d51d
 Directory: stable/trixie/slim
 
-Tags: 1-alpine3.21,1.94-alpine3.21,1.94.1-alpine3.21,alpine3.21
+Tags: 1.94-alpine3.21,1.94.1-alpine3.21
 Architectures: amd64,arm64v8,ppc64le
 GitCommit: 20c358f05538dc34ab5e2e586bd8f9229c49d51d
 Directory: stable/alpine3.21
 
-Tags: 1-alpine3.22,1.94-alpine3.22,1.94.1-alpine3.22,alpine3.22
+Tags: 1.94-alpine3.22,1.94.1-alpine3.22
 Architectures: amd64,arm64v8,ppc64le
 GitCommit: 20c358f05538dc34ab5e2e586bd8f9229c49d51d
 Directory: stable/alpine3.22
 
-Tags: 1-alpine3.23,1.94-alpine3.23,1.94.1-alpine3.23,alpine3.23,1-alpine,1.94-alpine,1.94.1-alpine,alpine
+Tags: 1.94-alpine3.23,1.94.1-alpine3.23,1.94-alpine,1.94.1-alpine
 Architectures: amd64,arm64v8,ppc64le
 GitCommit: 20c358f05538dc34ab5e2e586bd8f9229c49d51d
 Directory: stable/alpine3.23
