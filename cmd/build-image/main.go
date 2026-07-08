@@ -255,10 +255,6 @@ func Build(sh *shell.Session, libRepoURL, repoURL string, cherrypicks []string, 
 				return err
 			}
 		}
-		err = sh.Command("git", "push", "origin", "HEAD", "-f").Run()
-		if err != nil {
-			return err
-		}
 	} else if libRepoURL == repoURL {
 		// https://stackoverflow.com/a/24084746
 		err = sh.Command("git", "checkout", b.GitCommit).Run()
