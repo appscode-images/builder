@@ -134,22 +134,25 @@ jobs:
   build:
     name: Build
     runs-on: $runner$
+    permissions:
+      packages: write
+      contents: write
     strategy:
       fail-fast: false
       matrix:
         tag: [$tags$]
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
 
     - name: Set up Go
-      uses: actions/setup-go@v5
+      uses: actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff # v5.6.0
       with:
         go-version: '1.25'
 
     - name: Prepare git
       env:
         GITHUB_USER: 1gtm
-        GITHUB_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
+        # GITHUB_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
       run: |
         set -x
         git config --global user.name "1gtm"
@@ -157,20 +160,20 @@ jobs:
         git config --global \
           url."https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com".insteadOf \
           "https://github.com"
-        # git remote set-url origin https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+        git remote set-url origin https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
 
     - name: Set up QEMU
       id: qemu
-      uses: docker/setup-qemu-action@v3
+      uses: docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130 # v3.7.0
       with:
         cache-image: false
 
     - name: Set up Docker Buildx
-      uses: docker/setup-buildx-action@v3
+      uses: docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f # v3.12.0
       with:
         platforms: linux/amd64,linux/arm64
 
-    - uses: imjasonh/setup-crane@v0.1
+    - uses: imjasonh/setup-crane@5146f708a817ea23476677995bf2133943b9be0b # v0.1
 
     - name: Install trivy
       run: |
@@ -184,7 +187,7 @@ jobs:
         sudo apt-get install -y --no-install-recommends trivy
 
     - name: Log in to the GitHub Container registry
-      uses: docker/login-action@v2
+      uses: docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121 # v4.1.0
       with:
         registry: ghcr.io
         username: ${{ github.actor }}
@@ -203,10 +206,10 @@ jobs:
 #    needs: build
 #    if: always()
 #    steps:
-#    - uses: actions/checkout@v4
+#    - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
 #
 #    - name: Set up Go
-#      uses: actions/setup-go@v5
+#      uses: actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff # v5.6.0
 #      with:
 #        go-version: '1.25'
 #
@@ -225,17 +228,17 @@ jobs:
 #
 #    - name: Set up QEMU
 #      id: qemu
-#      uses: docker/setup-qemu-action@v3
+#      uses: docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130 # v3.7.0
 #      with:
 #        cache-image: false
 #
 #    - name: Set up Docker Buildx
-#      uses: docker/setup-buildx-action@v3
+#      uses: docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f # v3.12.0
 #      with:
 #        platforms: linux/amd64,linux/arm64
 #
 #    - name: Log in to the GitHub Container registry
-#      uses: docker/login-action@v2
+#      uses: docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121 # v4.1.0
 #      with:
 #        registry: ghcr.io
 #        username: ${{ github.actor }}
