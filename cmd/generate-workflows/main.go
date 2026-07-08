@@ -149,9 +149,19 @@ jobs:
       with:
         go-version: '1.25'
 
+    - name: Generate LGTM App token
+      id: lgtm-app-token
+      uses: actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3 # v3
+      with:
+        permission-contents: write
+        client-id: ${{ secrets.LGTM_APP_CLIENT_ID }}
+        private-key: ${{ secrets.LGTM_APP_PRIVATE_KEY }}
+        owner: ${{ github.repository_owner }}
+
     - name: Prepare git
       env:
         GITHUB_USER: 1gtm
+        GITHUB_TOKEN: ${{ steps.lgtm-app-token.outputs.token }}
         # GITHUB_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
       run: |
         set -x
