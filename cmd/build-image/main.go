@@ -451,7 +451,6 @@ func GetFullName(s string) (string, error) {
 
 func FindBlock(dir, name, tag string) (string, *api.Block, error) {
 	filename := ""
-	klog.Infoln(tag)
 	suf := strings.Split(tag, "-")[len(strings.Split(tag, "-"))-1]
 	switch suf {
 	case "dhi":
@@ -461,7 +460,6 @@ func FindBlock(dir, name, tag string) (string, *api.Block, error) {
 	default:
 		filename = filepath.Join(dir, "library", name, "app.json")
 	}
-	klog.Infoln(filename)
 	return FindBlockWithGivenFile(filename, tag)
 }
 
