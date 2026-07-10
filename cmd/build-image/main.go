@@ -449,7 +449,21 @@ func GetFullName(s string) (string, error) {
 }
 
 func FindBlock(dir, name, tag string) (string, *api.Block, error) {
-	filename := filepath.Join(dir, "library", name, "app.json")
+	filename := ""
+	suf := strings.Split(tag, "-")[len(strings.Split(tag, "-"))-1]
+	switch suf {
+	case "dhi":
+		filename = filepath.Join(dir, "library", name, "dhi.json")
+	case "ext":
+		filename = filepath.Join(dir, "library", name, "ext.json")
+	default:
+		filename = filepath.Join(dir, "library", name, "app.json")
+	}
+	return FindBlockWithGivenFile(filename, tag)
+}
+
+func FindBlockWithGivenFile(filename, tag string) (string, *api.Block, error) {
+
 	data, err := os.ReadFile(filename)
 	if err != nil {
 		return "", nil, err
@@ -466,5 +480,6 @@ func FindBlock(dir, name, tag string) (string, *api.Block, error) {
 			return h.GitRepo, &b, nil
 		}
 	}
+
 	return h.GitRepo, nil, nil
 }
