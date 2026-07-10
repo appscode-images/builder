@@ -14,6 +14,7 @@ jobs:
     runs-on: ubuntu-24.04
     permissions:
       packages: write
+      contents: write
     steps:
     - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
 
@@ -22,26 +23,18 @@ jobs:
       with:
         go-version: '1.25'
 
-    - name: Generate LGTM App token
-      id: lgtm-app-token
-      uses: actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3 # v3
-      with:
-        permission-contents: write
-        client-id: ${{ secrets.LGTM_APP_CLIENT_ID }}
-        private-key: ${{ secrets.LGTM_APP_PRIVATE_KEY }}
-        owner: ${{ github.repository_owner }}
-
     - name: Prepare git
       env:
-        LGTM_APP_TOKEN: ${{ steps.lgtm-app-token.outputs.token }}
+        GITHUB_USER: 1gtm
+        # GITHUB_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
       run: |
         set -x
-        git config --global user.name "1gtm-app[bot]"
-        git config --global user.email "3686661+1gtm-app[bot]@users.noreply.github.com"
+        git config --global user.name "1gtm"
+        git config --global user.email "1gtm@appscode.com"
         git config --global \
-          url."https://x-access-token:${LGTM_APP_TOKEN}@github.com".insteadOf \
+          url."https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com".insteadOf \
           "https://github.com"
-        git remote set-url origin https://x-access-token:${LGTM_APP_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+        git remote set-url origin https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
 
     - name: Refresh Library
       run: |

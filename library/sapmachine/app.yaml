@@ -20,7 +20,7 @@ Blocks:
       GitFetch: ""
   Directory: dockerfiles/26/ubuntu/24_04/jdk
   File: ""
-  GitCommit: 545bf09c44a881eebd1369138e33b79970825254
+  GitCommit: 1f26335ea973ab72c80825cac4a24dcfbaaefb7f
   Tags:
   - latest
   - ubuntu
@@ -28,8 +28,12 @@ Blocks:
   - jdk-ubuntu
   - "26"
   - 26-ubuntu
+  - 26.0.1
+  - 26.0.1-ubuntu
   - 26-jdk
   - 26-jdk-ubuntu
+  - 26.0.1-jdk
+  - 26.0.1-jdk-ubuntu
   - ubuntu-noble
   - ubuntu-24.04
   - jdk-ubuntu-noble
@@ -38,6 +42,10 @@ Blocks:
   - 26-ubuntu-24.04
   - 26-jdk-ubuntu-noble
   - 26-jdk-ubuntu-24.04
+  - 26.0.1-ubuntu-noble
+  - 26.0.1-ubuntu-24.04
+  - 26.0.1-jdk-ubuntu-noble
+  - 26.0.1-jdk-ubuntu-24.04
 - Architectures:
     amd64:
       Architecture: amd64
@@ -59,16 +67,20 @@ Blocks:
       GitFetch: ""
   Directory: dockerfiles/26/ubuntu/24_04/jdk-headless
   File: ""
-  GitCommit: 545bf09c44a881eebd1369138e33b79970825254
+  GitCommit: 1f26335ea973ab72c80825cac4a24dcfbaaefb7f
   Tags:
   - jdk-headless
   - jdk-headless-ubuntu
   - 26-jdk-headless
   - 26-jdk-headless-ubuntu
+  - 26.0.1-jdk-headless
+  - 26.0.1-jdk-headless-ubuntu
   - jdk-headless-ubuntu-noble
   - jdk-headless-ubuntu-24.04
   - 26-jdk-headless-ubuntu-noble
   - 26-jdk-headless-ubuntu-24.04
+  - 26.0.1-jdk-headless-ubuntu-noble
+  - 26.0.1-jdk-headless-ubuntu-24.04
 - Architectures:
     amd64:
       Architecture: amd64
@@ -90,16 +102,20 @@ Blocks:
       GitFetch: ""
   Directory: dockerfiles/26/ubuntu/24_04/jre
   File: ""
-  GitCommit: 545bf09c44a881eebd1369138e33b79970825254
+  GitCommit: 1f26335ea973ab72c80825cac4a24dcfbaaefb7f
   Tags:
   - jre
   - jre-ubuntu
   - 26-jre
   - 26-jre-ubuntu
+  - 26.0.1-jre
+  - 26.0.1-jre-ubuntu
   - jre-ubuntu-noble
   - jre-ubuntu-24.04
   - 26-jre-ubuntu-noble
   - 26-jre-ubuntu-24.04
+  - 26.0.1-jre-ubuntu-noble
+  - 26.0.1-jre-ubuntu-24.04
 - Architectures:
     amd64:
       Architecture: amd64
@@ -121,16 +137,20 @@ Blocks:
       GitFetch: ""
   Directory: dockerfiles/26/ubuntu/24_04/jre-headless
   File: ""
-  GitCommit: 545bf09c44a881eebd1369138e33b79970825254
+  GitCommit: 1f26335ea973ab72c80825cac4a24dcfbaaefb7f
   Tags:
   - jre-headless
   - jre-headless-ubuntu
   - 26-jre-headless
   - 26-jre-headless-ubuntu
+  - 26.0.1-jre-headless
+  - 26.0.1-jre-headless-ubuntu
   - jre-headless-ubuntu-noble
   - jre-headless-ubuntu-24.04
   - 26-jre-headless-ubuntu-noble
   - 26-jre-headless-ubuntu-24.04
+  - 26.0.1-jre-headless-ubuntu-noble
+  - 26.0.1-jre-headless-ubuntu-24.04
 - Architectures:
     amd64:
       Architecture: amd64
@@ -152,7 +172,7 @@ Blocks:
       GitFetch: ""
   Directory: dockerfiles/26/ubuntu/22_04/jdk
   File: ""
-  GitCommit: 545bf09c44a881eebd1369138e33b79970825254
+  GitCommit: 1f26335ea973ab72c80825cac4a24dcfbaaefb7f
   Tags:
   - ubuntu-jammy
   - ubuntu-22.04
@@ -162,6 +182,10 @@ Blocks:
   - 26-ubuntu-22.04
   - 26-jdk-ubuntu-jammy
   - 26-jdk-ubuntu-22.04
+  - 26.0.1-ubuntu-jammy
+  - 26.0.1-ubuntu-22.04
+  - 26.0.1-jdk-ubuntu-jammy
+  - 26.0.1-jdk-ubuntu-22.04
 - Architectures:
     amd64:
       Architecture: amd64
@@ -183,12 +207,14 @@ Blocks:
       GitFetch: ""
   Directory: dockerfiles/26/ubuntu/22_04/jdk-headless
   File: ""
-  GitCommit: 545bf09c44a881eebd1369138e33b79970825254
+  GitCommit: 1f26335ea973ab72c80825cac4a24dcfbaaefb7f
   Tags:
   - jdk-headless-ubuntu-jammy
   - jdk-headless-ubuntu-22.04
   - 26-jdk-headless-ubuntu-jammy
   - 26-jdk-headless-ubuntu-22.04
+  - 26.0.1-jdk-headless-ubuntu-jammy
+  - 26.0.1-jdk-headless-ubuntu-22.04
 - Architectures:
     amd64:
       Architecture: amd64
@@ -210,12 +236,14 @@ Blocks:
       GitFetch: ""
   Directory: dockerfiles/26/ubuntu/22_04/jre
   File: ""
-  GitCommit: 545bf09c44a881eebd1369138e33b79970825254
+  GitCommit: 1f26335ea973ab72c80825cac4a24dcfbaaefb7f
   Tags:
   - jre-ubuntu-jammy
   - jre-ubuntu-22.04
   - 26-jre-ubuntu-jammy
   - 26-jre-ubuntu-22.04
+  - 26.0.1-jre-ubuntu-jammy
+  - 26.0.1-jre-ubuntu-22.04
 - Architectures:
     amd64:
       Architecture: amd64
@@ -237,12 +265,14 @@ Blocks:
       GitFetch: ""
   Directory: dockerfiles/26/ubuntu/22_04/jre-headless
   File: ""
-  GitCommit: 545bf09c44a881eebd1369138e33b79970825254
+  GitCommit: 1f26335ea973ab72c80825cac4a24dcfbaaefb7f
   Tags:
   - jre-headless-ubuntu-jammy
   - jre-headless-ubuntu-22.04
   - 26-jre-headless-ubuntu-jammy
   - 26-jre-headless-ubuntu-22.04
+  - 26.0.1-jre-headless-ubuntu-jammy
+  - 26.0.1-jre-headless-ubuntu-22.04
 - Architectures:
     amd64:
       Architecture: amd64
@@ -252,16 +282,20 @@ Blocks:
       GitFetch: ""
   Directory: dockerfiles/26/alpine/3_23/jdk
   File: ""
-  GitCommit: 545bf09c44a881eebd1369138e33b79970825254
+  GitCommit: 1f26335ea973ab72c80825cac4a24dcfbaaefb7f
   Tags:
   - alpine
   - jdk-alpine
   - 26-alpine
+  - 26.0.1-alpine
   - 26-jdk-alpine
+  - 26.0.1-jdk-alpine
   - alpine-3.23
   - jdk-alpine-3.23
   - 26-alpine-3.23
   - 26-jdk-alpine-3.23
+  - 26.0.1-alpine-3.23
+  - 26.0.1-jdk-alpine-3.23
 - Architectures:
     amd64:
       Architecture: amd64
@@ -271,12 +305,14 @@ Blocks:
       GitFetch: ""
   Directory: dockerfiles/26/alpine/3_23/jre
   File: ""
-  GitCommit: 545bf09c44a881eebd1369138e33b79970825254
+  GitCommit: 1f26335ea973ab72c80825cac4a24dcfbaaefb7f
   Tags:
   - jre-alpine
   - 26-jre-alpine
+  - 26.0.1-jre-alpine
   - jre-alpine-3.23
   - 26-jre-alpine-3.23
+  - 26.0.1-jre-alpine-3.23
 - Architectures:
     amd64:
       Architecture: amd64
@@ -286,12 +322,14 @@ Blocks:
       GitFetch: ""
   Directory: dockerfiles/26/alpine/3_22/jdk
   File: ""
-  GitCommit: 545bf09c44a881eebd1369138e33b79970825254
+  GitCommit: 1f26335ea973ab72c80825cac4a24dcfbaaefb7f
   Tags:
   - alpine-3.22
   - jdk-alpine-3.22
   - 26-alpine-3.22
   - 26-jdk-alpine-3.22
+  - 26.0.1-alpine-3.22
+  - 26.0.1-jdk-alpine-3.22
 - Architectures:
     amd64:
       Architecture: amd64
@@ -301,10 +339,11 @@ Blocks:
       GitFetch: ""
   Directory: dockerfiles/26/alpine/3_22/jre
   File: ""
-  GitCommit: 545bf09c44a881eebd1369138e33b79970825254
+  GitCommit: 1f26335ea973ab72c80825cac4a24dcfbaaefb7f
   Tags:
   - jre-alpine-3.22
   - 26-jre-alpine-3.22
+  - 26.0.1-jre-alpine-3.22
 - Architectures:
     amd64:
       Architecture: amd64
@@ -314,12 +353,14 @@ Blocks:
       GitFetch: ""
   Directory: dockerfiles/26/alpine/3_21/jdk
   File: ""
-  GitCommit: 545bf09c44a881eebd1369138e33b79970825254
+  GitCommit: 1f26335ea973ab72c80825cac4a24dcfbaaefb7f
   Tags:
   - alpine-3.21
   - jdk-alpine-3.21
   - 26-alpine-3.21
   - 26-jdk-alpine-3.21
+  - 26.0.1-alpine-3.21
+  - 26.0.1-jdk-alpine-3.21
 - Architectures:
     amd64:
       Architecture: amd64
@@ -329,10 +370,1051 @@ Blocks:
       GitFetch: ""
   Directory: dockerfiles/26/alpine/3_21/jre
   File: ""
-  GitCommit: 545bf09c44a881eebd1369138e33b79970825254
+  GitCommit: 1f26335ea973ab72c80825cac4a24dcfbaaefb7f
   Tags:
   - jre-alpine-3.21
   - 26-jre-alpine-3.21
+  - 26.0.1-jre-alpine-3.21
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/25/ubuntu/24_04/jdk
+  File: ""
+  GitCommit: 73134d1d0673ee093633e25170e31605389fb4de
+  Tags:
+  - lts
+  - lts-ubuntu
+  - "25"
+  - 25-ubuntu
+  - 25.0.3
+  - 25.0.3-ubuntu
+  - 25-jdk
+  - 25-jdk-ubuntu
+  - 25.0.3-jdk
+  - 25.0.3-jdk-ubuntu
+  - lts-jdk-ubuntu
+  - lts-ubuntu-noble
+  - lts-ubuntu-24.04
+  - lts-jdk-ubuntu-noble
+  - lts-jdk-ubuntu-24.04
+  - 25-ubuntu-noble
+  - 25-ubuntu-24.04
+  - 25-jdk-ubuntu-noble
+  - 25-jdk-ubuntu-24.04
+  - 25.0.3-ubuntu-noble
+  - 25.0.3-ubuntu-24.04
+  - 25.0.3-jdk-ubuntu-noble
+  - 25.0.3-jdk-ubuntu-24.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/25/ubuntu/24_04/jdk-headless
+  File: ""
+  GitCommit: 73134d1d0673ee093633e25170e31605389fb4de
+  Tags:
+  - 25-jdk-headless
+  - 25-jdk-headless-ubuntu
+  - 25.0.3-jdk-headless
+  - 25.0.3-jdk-headless-ubuntu
+  - lts-jdk-headless-ubuntu
+  - lts-jdk-headless-ubuntu-noble
+  - lts-jdk-headless-ubuntu-24.04
+  - 25-jdk-headless-ubuntu-noble
+  - 25-jdk-headless-ubuntu-24.04
+  - 25.0.3-jdk-headless-ubuntu-noble
+  - 25.0.3-jdk-headless-ubuntu-24.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/25/ubuntu/24_04/jre
+  File: ""
+  GitCommit: 73134d1d0673ee093633e25170e31605389fb4de
+  Tags:
+  - 25-jre
+  - 25-jre-ubuntu
+  - 25.0.3-jre
+  - 25.0.3-jre-ubuntu
+  - lts-jre-ubuntu
+  - lts-jre-ubuntu-noble
+  - lts-jre-ubuntu-24.04
+  - 25-jre-ubuntu-noble
+  - 25-jre-ubuntu-24.04
+  - 25.0.3-jre-ubuntu-noble
+  - 25.0.3-jre-ubuntu-24.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/25/ubuntu/24_04/jre-headless
+  File: ""
+  GitCommit: 73134d1d0673ee093633e25170e31605389fb4de
+  Tags:
+  - 25-jre-headless
+  - 25-jre-headless-ubuntu
+  - 25.0.3-jre-headless
+  - 25.0.3-jre-headless-ubuntu
+  - lts-jre-headless-ubuntu
+  - lts-jre-headless-ubuntu-noble
+  - lts-jre-headless-ubuntu-24.04
+  - 25-jre-headless-ubuntu-noble
+  - 25-jre-headless-ubuntu-24.04
+  - 25.0.3-jre-headless-ubuntu-noble
+  - 25.0.3-jre-headless-ubuntu-24.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/25/ubuntu/22_04/jdk
+  File: ""
+  GitCommit: 73134d1d0673ee093633e25170e31605389fb4de
+  Tags:
+  - lts-ubuntu-jammy
+  - lts-ubuntu-22.04
+  - lts-jdk-ubuntu-jammy
+  - lts-jdk-ubuntu-22.04
+  - 25-ubuntu-jammy
+  - 25-ubuntu-22.04
+  - 25-jdk-ubuntu-jammy
+  - 25-jdk-ubuntu-22.04
+  - 25.0.3-ubuntu-jammy
+  - 25.0.3-ubuntu-22.04
+  - 25.0.3-jdk-ubuntu-jammy
+  - 25.0.3-jdk-ubuntu-22.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/25/ubuntu/22_04/jdk-headless
+  File: ""
+  GitCommit: 73134d1d0673ee093633e25170e31605389fb4de
+  Tags:
+  - lts-jdk-headless-ubuntu-jammy
+  - lts-jdk-headless-ubuntu-22.04
+  - 25-jdk-headless-ubuntu-jammy
+  - 25-jdk-headless-ubuntu-22.04
+  - 25.0.3-jdk-headless-ubuntu-jammy
+  - 25.0.3-jdk-headless-ubuntu-22.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/25/ubuntu/22_04/jre
+  File: ""
+  GitCommit: 73134d1d0673ee093633e25170e31605389fb4de
+  Tags:
+  - lts-jre-ubuntu-jammy
+  - lts-jre-ubuntu-22.04
+  - 25-jre-ubuntu-jammy
+  - 25-jre-ubuntu-22.04
+  - 25.0.3-jre-ubuntu-jammy
+  - 25.0.3-jre-ubuntu-22.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/25/ubuntu/22_04/jre-headless
+  File: ""
+  GitCommit: 73134d1d0673ee093633e25170e31605389fb4de
+  Tags:
+  - lts-jre-headless-ubuntu-jammy
+  - lts-jre-headless-ubuntu-22.04
+  - 25-jre-headless-ubuntu-jammy
+  - 25-jre-headless-ubuntu-22.04
+  - 25.0.3-jre-headless-ubuntu-jammy
+  - 25.0.3-jre-headless-ubuntu-22.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/25/alpine/3_23/jdk
+  File: ""
+  GitCommit: 73134d1d0673ee093633e25170e31605389fb4de
+  Tags:
+  - lts-alpine
+  - 25-alpine
+  - 25.0.3-alpine
+  - lts-jdk-alpine
+  - 25-jdk-alpine
+  - 25.0.3-jdk-alpine
+  - lts-alpine-3.23
+  - lts-jdk-alpine-3.23
+  - 25-alpine-3.23
+  - 25-jdk-alpine-3.23
+  - 25.0.3-alpine-3.23
+  - 25.0.3-jdk-alpine-3.23
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/25/alpine/3_23/jre
+  File: ""
+  GitCommit: 73134d1d0673ee093633e25170e31605389fb4de
+  Tags:
+  - lts-jre-alpine
+  - 25-jre-alpine
+  - 25.0.3-jre-alpine
+  - lts-jre-alpine-3.23
+  - 25-jre-alpine-3.23
+  - 25.0.3-jre-alpine-3.23
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/25/alpine/3_22/jdk
+  File: ""
+  GitCommit: 73134d1d0673ee093633e25170e31605389fb4de
+  Tags:
+  - lts-alpine-3.22
+  - lts-jdk-alpine-3.22
+  - 25-alpine-3.22
+  - 25-jdk-alpine-3.22
+  - 25.0.3-alpine-3.22
+  - 25.0.3-jdk-alpine-3.22
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/25/alpine/3_22/jre
+  File: ""
+  GitCommit: 73134d1d0673ee093633e25170e31605389fb4de
+  Tags:
+  - lts-jre-alpine-3.22
+  - 25-jre-alpine-3.22
+  - 25.0.3-jre-alpine-3.22
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/25/alpine/3_21/jdk
+  File: ""
+  GitCommit: 73134d1d0673ee093633e25170e31605389fb4de
+  Tags:
+  - lts-alpine-3.21
+  - lts-jdk-alpine-3.21
+  - 25-alpine-3.21
+  - 25-jdk-alpine-3.21
+  - 25.0.3-alpine-3.21
+  - 25.0.3-jdk-alpine-3.21
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/25/alpine/3_21/jre
+  File: ""
+  GitCommit: 73134d1d0673ee093633e25170e31605389fb4de
+  Tags:
+  - lts-jre-alpine-3.21
+  - 25-jre-alpine-3.21
+  - 25.0.3-jre-alpine-3.21
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/21/ubuntu/24_04/jdk
+  File: ""
+  GitCommit: b4834e4ac67a83161268945217d1cbfbc4619f65
+  Tags:
+  - "21"
+  - 21-ubuntu
+  - 21.0.11
+  - 21.0.11-ubuntu
+  - 21-jdk
+  - 21-jdk-ubuntu
+  - 21.0.11-jdk
+  - 21.0.11-jdk-ubuntu
+  - 21-ubuntu-noble
+  - 21-ubuntu-24.04
+  - 21-jdk-ubuntu-noble
+  - 21-jdk-ubuntu-24.04
+  - 21.0.11-ubuntu-noble
+  - 21.0.11-ubuntu-24.04
+  - 21.0.11-jdk-ubuntu-noble
+  - 21.0.11-jdk-ubuntu-24.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/21/ubuntu/24_04/jdk-headless
+  File: ""
+  GitCommit: b4834e4ac67a83161268945217d1cbfbc4619f65
+  Tags:
+  - 21-jdk-headless
+  - 21-jdk-headless-ubuntu
+  - 21.0.11-jdk-headless
+  - 21.0.11-jdk-headless-ubuntu
+  - 21-jdk-headless-ubuntu-noble
+  - 21-jdk-headless-ubuntu-24.04
+  - 21.0.11-jdk-headless-ubuntu-noble
+  - 21.0.11-jdk-headless-ubuntu-24.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/21/ubuntu/24_04/jre
+  File: ""
+  GitCommit: b4834e4ac67a83161268945217d1cbfbc4619f65
+  Tags:
+  - 21-jre
+  - 21-jre-ubuntu
+  - 21.0.11-jre
+  - 21.0.11-jre-ubuntu
+  - 21-jre-ubuntu-noble
+  - 21-jre-ubuntu-24.04
+  - 21.0.11-jre-ubuntu-noble
+  - 21.0.11-jre-ubuntu-24.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/21/ubuntu/24_04/jre-headless
+  File: ""
+  GitCommit: b4834e4ac67a83161268945217d1cbfbc4619f65
+  Tags:
+  - 21-jre-headless
+  - 21-jre-headless-ubuntu
+  - 21.0.11-jre-headless
+  - 21.0.11-jre-headless-ubuntu
+  - 21-jre-headless-ubuntu-noble
+  - 21-jre-headless-ubuntu-24.04
+  - 21.0.11-jre-headless-ubuntu-noble
+  - 21.0.11-jre-headless-ubuntu-24.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/21/ubuntu/22_04/jdk
+  File: ""
+  GitCommit: b4834e4ac67a83161268945217d1cbfbc4619f65
+  Tags:
+  - 21-ubuntu-jammy
+  - 21-ubuntu-22.04
+  - 21-jdk-ubuntu-jammy
+  - 21-jdk-ubuntu-22.04
+  - 21.0.11-ubuntu-jammy
+  - 21.0.11-ubuntu-22.04
+  - 21.0.11-jdk-ubuntu-jammy
+  - 21.0.11-jdk-ubuntu-22.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/21/ubuntu/22_04/jdk-headless
+  File: ""
+  GitCommit: b4834e4ac67a83161268945217d1cbfbc4619f65
+  Tags:
+  - 21-jdk-headless-ubuntu-jammy
+  - 21-jdk-headless-ubuntu-22.04
+  - 21.0.11-jdk-headless-ubuntu-jammy
+  - 21.0.11-jdk-headless-ubuntu-22.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/21/ubuntu/22_04/jre
+  File: ""
+  GitCommit: b4834e4ac67a83161268945217d1cbfbc4619f65
+  Tags:
+  - 21-jre-ubuntu-jammy
+  - 21-jre-ubuntu-22.04
+  - 21.0.11-jre-ubuntu-jammy
+  - 21.0.11-jre-ubuntu-22.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/21/ubuntu/22_04/jre-headless
+  File: ""
+  GitCommit: b4834e4ac67a83161268945217d1cbfbc4619f65
+  Tags:
+  - 21-jre-headless-ubuntu-jammy
+  - 21-jre-headless-ubuntu-22.04
+  - 21.0.11-jre-headless-ubuntu-jammy
+  - 21.0.11-jre-headless-ubuntu-22.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/21/alpine/3_23/jdk
+  File: ""
+  GitCommit: b4834e4ac67a83161268945217d1cbfbc4619f65
+  Tags:
+  - 21-alpine
+  - 21.0.11-alpine
+  - 21-jdk-alpine
+  - 21.0.11-jdk-alpine
+  - 21-alpine-3.23
+  - 21-jdk-alpine-3.23
+  - 21.0.11-alpine-3.23
+  - 21.0.11-jdk-alpine-3.23
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/21/alpine/3_23/jre
+  File: ""
+  GitCommit: b4834e4ac67a83161268945217d1cbfbc4619f65
+  Tags:
+  - 21-jre-alpine
+  - 21.0.11-jre-alpine
+  - 21-jre-alpine-3.23
+  - 21.0.11-jre-alpine-3.23
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/21/alpine/3_22/jdk
+  File: ""
+  GitCommit: b4834e4ac67a83161268945217d1cbfbc4619f65
+  Tags:
+  - 21-alpine-3.22
+  - 21-jdk-alpine-3.22
+  - 21.0.11-alpine-3.22
+  - 21.0.11-jdk-alpine-3.22
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/21/alpine/3_22/jre
+  File: ""
+  GitCommit: b4834e4ac67a83161268945217d1cbfbc4619f65
+  Tags:
+  - 21-jre-alpine-3.22
+  - 21.0.11-jre-alpine-3.22
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/21/alpine/3_21/jdk
+  File: ""
+  GitCommit: b4834e4ac67a83161268945217d1cbfbc4619f65
+  Tags:
+  - 21-alpine-3.21
+  - 21-jdk-alpine-3.21
+  - 21.0.11-alpine-3.21
+  - 21.0.11-jdk-alpine-3.21
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/21/alpine/3_21/jre
+  File: ""
+  GitCommit: b4834e4ac67a83161268945217d1cbfbc4619f65
+  Tags:
+  - 21-jre-alpine-3.21
+  - 21.0.11-jre-alpine-3.21
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/17/ubuntu/24_04/jdk
+  File: ""
+  GitCommit: 7ec104476583410abc8a50c8fb1e0851dfee4d36
+  Tags:
+  - "17"
+  - 17-ubuntu
+  - 17.0.19
+  - 17.0.19-ubuntu
+  - 17-jdk
+  - 17-jdk-ubuntu
+  - 17.0.19-jdk
+  - 17.0.19-jdk-ubuntu
+  - 17-ubuntu-noble
+  - 17-ubuntu-24.04
+  - 17-jdk-ubuntu-noble
+  - 17-jdk-ubuntu-24.04
+  - 17.0.19-ubuntu-noble
+  - 17.0.19-ubuntu-24.04
+  - 17.0.19-jdk-ubuntu-noble
+  - 17.0.19-jdk-ubuntu-24.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/17/ubuntu/24_04/jdk-headless
+  File: ""
+  GitCommit: 7ec104476583410abc8a50c8fb1e0851dfee4d36
+  Tags:
+  - 17-jdk-headless
+  - 17-jdk-headless-ubuntu
+  - 17.0.19-jdk-headless
+  - 17.0.19-jdk-headless-ubuntu
+  - 17-jdk-headless-ubuntu-noble
+  - 17-jdk-headless-ubuntu-24.04
+  - 17.0.19-jdk-headless-ubuntu-noble
+  - 17.0.19-jdk-headless-ubuntu-24.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/17/ubuntu/24_04/jre
+  File: ""
+  GitCommit: 7ec104476583410abc8a50c8fb1e0851dfee4d36
+  Tags:
+  - 17-jre
+  - 17-jre-ubuntu
+  - 17.0.19-jre
+  - 17.0.19-jre-ubuntu
+  - 17-jre-ubuntu-noble
+  - 17-jre-ubuntu-24.04
+  - 17.0.19-jre-ubuntu-noble
+  - 17.0.19-jre-ubuntu-24.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/17/ubuntu/24_04/jre-headless
+  File: ""
+  GitCommit: 7ec104476583410abc8a50c8fb1e0851dfee4d36
+  Tags:
+  - 17-jre-headless
+  - 17-jre-headless-ubuntu
+  - 17.0.19-jre-headless
+  - 17.0.19-jre-headless-ubuntu
+  - 17-jre-headless-ubuntu-noble
+  - 17-jre-headless-ubuntu-24.04
+  - 17.0.19-jre-headless-ubuntu-noble
+  - 17.0.19-jre-headless-ubuntu-24.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/17/ubuntu/22_04/jdk
+  File: ""
+  GitCommit: 7ec104476583410abc8a50c8fb1e0851dfee4d36
+  Tags:
+  - 17-ubuntu-jammy
+  - 17-ubuntu-22.04
+  - 17-jdk-ubuntu-jammy
+  - 17-jdk-ubuntu-22.04
+  - 17.0.19-ubuntu-jammy
+  - 17.0.19-ubuntu-22.04
+  - 17.0.19-jdk-ubuntu-jammy
+  - 17.0.19-jdk-ubuntu-22.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/17/ubuntu/22_04/jdk-headless
+  File: ""
+  GitCommit: 7ec104476583410abc8a50c8fb1e0851dfee4d36
+  Tags:
+  - 17-jdk-headless-ubuntu-jammy
+  - 17-jdk-headless-ubuntu-22.04
+  - 17.0.19-jdk-headless-ubuntu-jammy
+  - 17.0.19-jdk-headless-ubuntu-22.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/17/ubuntu/22_04/jre
+  File: ""
+  GitCommit: 7ec104476583410abc8a50c8fb1e0851dfee4d36
+  Tags:
+  - 17-jre-ubuntu-jammy
+  - 17-jre-ubuntu-22.04
+  - 17.0.19-jre-ubuntu-jammy
+  - 17.0.19-jre-ubuntu-22.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/17/ubuntu/22_04/jre-headless
+  File: ""
+  GitCommit: 7ec104476583410abc8a50c8fb1e0851dfee4d36
+  Tags:
+  - 17-jre-headless-ubuntu-jammy
+  - 17-jre-headless-ubuntu-22.04
+  - 17.0.19-jre-headless-ubuntu-jammy
+  - 17.0.19-jre-headless-ubuntu-22.04
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/17/alpine/3_23/jdk
+  File: ""
+  GitCommit: 7ec104476583410abc8a50c8fb1e0851dfee4d36
+  Tags:
+  - 17-alpine
+  - 17.0.19-alpine
+  - 17-jdk-alpine
+  - 17.0.19-jdk-alpine
+  - 17-alpine-3.23
+  - 17-jdk-alpine-3.23
+  - 17.0.19-alpine-3.23
+  - 17.0.19-jdk-alpine-3.23
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/17/alpine/3_23/jre
+  File: ""
+  GitCommit: 7ec104476583410abc8a50c8fb1e0851dfee4d36
+  Tags:
+  - 17-jre-alpine
+  - 17.0.19-jre-alpine
+  - 17-jre-alpine-3.23
+  - 17.0.19-jre-alpine-3.23
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/17/alpine/3_22/jdk
+  File: ""
+  GitCommit: 7ec104476583410abc8a50c8fb1e0851dfee4d36
+  Tags:
+  - 17-alpine-3.22
+  - 17-jdk-alpine-3.22
+  - 17.0.19-alpine-3.22
+  - 17.0.19-jdk-alpine-3.22
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/17/alpine/3_22/jre
+  File: ""
+  GitCommit: 7ec104476583410abc8a50c8fb1e0851dfee4d36
+  Tags:
+  - 17-jre-alpine-3.22
+  - 17.0.19-jre-alpine-3.22
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/17/alpine/3_21/jdk
+  File: ""
+  GitCommit: 7ec104476583410abc8a50c8fb1e0851dfee4d36
+  Tags:
+  - 17-alpine-3.21
+  - 17-jdk-alpine-3.21
+  - 17.0.19-alpine-3.21
+  - 17.0.19-jdk-alpine-3.21
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: dockerfiles/17/alpine/3_21/jre
+  File: ""
+  GitCommit: 7ec104476583410abc8a50c8fb1e0851dfee4d36
+  Tags:
+  - 17-jre-alpine-3.21
+  - 17.0.19-jre-alpine-3.21
 - Architectures:
     amd64:
       Architecture: amd64
@@ -356,25 +1438,10 @@ Blocks:
   File: ""
   GitCommit: 0616770611ff2295ec1f1a2ef2ac7c4c26c964b5
   Tags:
-  - lts
-  - lts-ubuntu
-  - "25"
-  - 25-ubuntu
   - 25.0.2
   - 25.0.2-ubuntu
-  - 25-jdk
-  - 25-jdk-ubuntu
   - 25.0.2-jdk
   - 25.0.2-jdk-ubuntu
-  - lts-jdk-ubuntu
-  - lts-ubuntu-noble
-  - lts-ubuntu-24.04
-  - lts-jdk-ubuntu-noble
-  - lts-jdk-ubuntu-24.04
-  - 25-ubuntu-noble
-  - 25-ubuntu-24.04
-  - 25-jdk-ubuntu-noble
-  - 25-jdk-ubuntu-24.04
   - 25.0.2-ubuntu-noble
   - 25.0.2-ubuntu-24.04
   - 25.0.2-jdk-ubuntu-noble
@@ -402,15 +1469,8 @@ Blocks:
   File: ""
   GitCommit: 0616770611ff2295ec1f1a2ef2ac7c4c26c964b5
   Tags:
-  - 25-jdk-headless
-  - 25-jdk-headless-ubuntu
   - 25.0.2-jdk-headless
   - 25.0.2-jdk-headless-ubuntu
-  - lts-jdk-headless-ubuntu
-  - lts-jdk-headless-ubuntu-noble
-  - lts-jdk-headless-ubuntu-24.04
-  - 25-jdk-headless-ubuntu-noble
-  - 25-jdk-headless-ubuntu-24.04
   - 25.0.2-jdk-headless-ubuntu-noble
   - 25.0.2-jdk-headless-ubuntu-24.04
 - Architectures:
@@ -436,15 +1496,8 @@ Blocks:
   File: ""
   GitCommit: 0616770611ff2295ec1f1a2ef2ac7c4c26c964b5
   Tags:
-  - 25-jre
-  - 25-jre-ubuntu
   - 25.0.2-jre
   - 25.0.2-jre-ubuntu
-  - lts-jre-ubuntu
-  - lts-jre-ubuntu-noble
-  - lts-jre-ubuntu-24.04
-  - 25-jre-ubuntu-noble
-  - 25-jre-ubuntu-24.04
   - 25.0.2-jre-ubuntu-noble
   - 25.0.2-jre-ubuntu-24.04
 - Architectures:
@@ -470,15 +1523,8 @@ Blocks:
   File: ""
   GitCommit: 0616770611ff2295ec1f1a2ef2ac7c4c26c964b5
   Tags:
-  - 25-jre-headless
-  - 25-jre-headless-ubuntu
   - 25.0.2-jre-headless
   - 25.0.2-jre-headless-ubuntu
-  - lts-jre-headless-ubuntu
-  - lts-jre-headless-ubuntu-noble
-  - lts-jre-headless-ubuntu-24.04
-  - 25-jre-headless-ubuntu-noble
-  - 25-jre-headless-ubuntu-24.04
   - 25.0.2-jre-headless-ubuntu-noble
   - 25.0.2-jre-headless-ubuntu-24.04
 - Architectures:
@@ -504,14 +1550,6 @@ Blocks:
   File: ""
   GitCommit: 0616770611ff2295ec1f1a2ef2ac7c4c26c964b5
   Tags:
-  - lts-ubuntu-jammy
-  - lts-ubuntu-22.04
-  - lts-jdk-ubuntu-jammy
-  - lts-jdk-ubuntu-22.04
-  - 25-ubuntu-jammy
-  - 25-ubuntu-22.04
-  - 25-jdk-ubuntu-jammy
-  - 25-jdk-ubuntu-22.04
   - 25.0.2-ubuntu-jammy
   - 25.0.2-ubuntu-22.04
   - 25.0.2-jdk-ubuntu-jammy
@@ -539,10 +1577,6 @@ Blocks:
   File: ""
   GitCommit: 0616770611ff2295ec1f1a2ef2ac7c4c26c964b5
   Tags:
-  - lts-jdk-headless-ubuntu-jammy
-  - lts-jdk-headless-ubuntu-22.04
-  - 25-jdk-headless-ubuntu-jammy
-  - 25-jdk-headless-ubuntu-22.04
   - 25.0.2-jdk-headless-ubuntu-jammy
   - 25.0.2-jdk-headless-ubuntu-22.04
 - Architectures:
@@ -568,10 +1602,6 @@ Blocks:
   File: ""
   GitCommit: 0616770611ff2295ec1f1a2ef2ac7c4c26c964b5
   Tags:
-  - lts-jre-ubuntu-jammy
-  - lts-jre-ubuntu-22.04
-  - 25-jre-ubuntu-jammy
-  - 25-jre-ubuntu-22.04
   - 25.0.2-jre-ubuntu-jammy
   - 25.0.2-jre-ubuntu-22.04
 - Architectures:
@@ -597,10 +1627,6 @@ Blocks:
   File: ""
   GitCommit: 0616770611ff2295ec1f1a2ef2ac7c4c26c964b5
   Tags:
-  - lts-jre-headless-ubuntu-jammy
-  - lts-jre-headless-ubuntu-22.04
-  - 25-jre-headless-ubuntu-jammy
-  - 25-jre-headless-ubuntu-22.04
   - 25.0.2-jre-headless-ubuntu-jammy
   - 25.0.2-jre-headless-ubuntu-22.04
 - Architectures:
@@ -614,16 +1640,8 @@ Blocks:
   File: ""
   GitCommit: 0616770611ff2295ec1f1a2ef2ac7c4c26c964b5
   Tags:
-  - lts-alpine
-  - 25-alpine
   - 25.0.2-alpine
-  - lts-jdk-alpine
-  - 25-jdk-alpine
   - 25.0.2-jdk-alpine
-  - lts-alpine-3.23
-  - lts-jdk-alpine-3.23
-  - 25-alpine-3.23
-  - 25-jdk-alpine-3.23
   - 25.0.2-alpine-3.23
   - 25.0.2-jdk-alpine-3.23
 - Architectures:
@@ -637,11 +1655,7 @@ Blocks:
   File: ""
   GitCommit: 0616770611ff2295ec1f1a2ef2ac7c4c26c964b5
   Tags:
-  - lts-jre-alpine
-  - 25-jre-alpine
   - 25.0.2-jre-alpine
-  - lts-jre-alpine-3.23
-  - 25-jre-alpine-3.23
   - 25.0.2-jre-alpine-3.23
 - Architectures:
     amd64:
@@ -654,10 +1668,6 @@ Blocks:
   File: ""
   GitCommit: 0616770611ff2295ec1f1a2ef2ac7c4c26c964b5
   Tags:
-  - lts-alpine-3.22
-  - lts-jdk-alpine-3.22
-  - 25-alpine-3.22
-  - 25-jdk-alpine-3.22
   - 25.0.2-alpine-3.22
   - 25.0.2-jdk-alpine-3.22
 - Architectures:
@@ -671,8 +1681,6 @@ Blocks:
   File: ""
   GitCommit: 0616770611ff2295ec1f1a2ef2ac7c4c26c964b5
   Tags:
-  - lts-jre-alpine-3.22
-  - 25-jre-alpine-3.22
   - 25.0.2-jre-alpine-3.22
 - Architectures:
     amd64:
@@ -685,10 +1693,6 @@ Blocks:
   File: ""
   GitCommit: 0616770611ff2295ec1f1a2ef2ac7c4c26c964b5
   Tags:
-  - lts-alpine-3.21
-  - lts-jdk-alpine-3.21
-  - 25-alpine-3.21
-  - 25-jdk-alpine-3.21
   - 25.0.2-alpine-3.21
   - 25.0.2-jdk-alpine-3.21
 - Architectures:
@@ -702,8 +1706,6 @@ Blocks:
   File: ""
   GitCommit: 0616770611ff2295ec1f1a2ef2ac7c4c26c964b5
   Tags:
-  - lts-jre-alpine-3.21
-  - 25-jre-alpine-3.21
   - 25.0.2-jre-alpine-3.21
 - Architectures:
     amd64:
@@ -728,18 +1730,10 @@ Blocks:
   File: ""
   GitCommit: 31b8a284b8237cd9afea30116c07160f3c689832
   Tags:
-  - "21"
-  - 21-ubuntu
   - 21.0.10.0.1
   - 21.0.10.0.1-ubuntu
-  - 21-jdk
-  - 21-jdk-ubuntu
   - 21.0.10.0.1-jdk
   - 21.0.10.0.1-jdk-ubuntu
-  - 21-ubuntu-noble
-  - 21-ubuntu-24.04
-  - 21-jdk-ubuntu-noble
-  - 21-jdk-ubuntu-24.04
   - 21.0.10.0.1-ubuntu-noble
   - 21.0.10.0.1-ubuntu-24.04
   - 21.0.10.0.1-jdk-ubuntu-noble
@@ -767,12 +1761,8 @@ Blocks:
   File: ""
   GitCommit: 31b8a284b8237cd9afea30116c07160f3c689832
   Tags:
-  - 21-jdk-headless
-  - 21-jdk-headless-ubuntu
   - 21.0.10.0.1-jdk-headless
   - 21.0.10.0.1-jdk-headless-ubuntu
-  - 21-jdk-headless-ubuntu-noble
-  - 21-jdk-headless-ubuntu-24.04
   - 21.0.10.0.1-jdk-headless-ubuntu-noble
   - 21.0.10.0.1-jdk-headless-ubuntu-24.04
 - Architectures:
@@ -798,12 +1788,8 @@ Blocks:
   File: ""
   GitCommit: 31b8a284b8237cd9afea30116c07160f3c689832
   Tags:
-  - 21-jre
-  - 21-jre-ubuntu
   - 21.0.10.0.1-jre
   - 21.0.10.0.1-jre-ubuntu
-  - 21-jre-ubuntu-noble
-  - 21-jre-ubuntu-24.04
   - 21.0.10.0.1-jre-ubuntu-noble
   - 21.0.10.0.1-jre-ubuntu-24.04
 - Architectures:
@@ -829,12 +1815,8 @@ Blocks:
   File: ""
   GitCommit: 31b8a284b8237cd9afea30116c07160f3c689832
   Tags:
-  - 21-jre-headless
-  - 21-jre-headless-ubuntu
   - 21.0.10.0.1-jre-headless
   - 21.0.10.0.1-jre-headless-ubuntu
-  - 21-jre-headless-ubuntu-noble
-  - 21-jre-headless-ubuntu-24.04
   - 21.0.10.0.1-jre-headless-ubuntu-noble
   - 21.0.10.0.1-jre-headless-ubuntu-24.04
 - Architectures:
@@ -860,10 +1842,6 @@ Blocks:
   File: ""
   GitCommit: 31b8a284b8237cd9afea30116c07160f3c689832
   Tags:
-  - 21-ubuntu-jammy
-  - 21-ubuntu-22.04
-  - 21-jdk-ubuntu-jammy
-  - 21-jdk-ubuntu-22.04
   - 21.0.10.0.1-ubuntu-jammy
   - 21.0.10.0.1-ubuntu-22.04
   - 21.0.10.0.1-jdk-ubuntu-jammy
@@ -891,8 +1869,6 @@ Blocks:
   File: ""
   GitCommit: 31b8a284b8237cd9afea30116c07160f3c689832
   Tags:
-  - 21-jdk-headless-ubuntu-jammy
-  - 21-jdk-headless-ubuntu-22.04
   - 21.0.10.0.1-jdk-headless-ubuntu-jammy
   - 21.0.10.0.1-jdk-headless-ubuntu-22.04
 - Architectures:
@@ -918,8 +1894,6 @@ Blocks:
   File: ""
   GitCommit: 31b8a284b8237cd9afea30116c07160f3c689832
   Tags:
-  - 21-jre-ubuntu-jammy
-  - 21-jre-ubuntu-22.04
   - 21.0.10.0.1-jre-ubuntu-jammy
   - 21.0.10.0.1-jre-ubuntu-22.04
 - Architectures:
@@ -945,8 +1919,6 @@ Blocks:
   File: ""
   GitCommit: 31b8a284b8237cd9afea30116c07160f3c689832
   Tags:
-  - 21-jre-headless-ubuntu-jammy
-  - 21-jre-headless-ubuntu-22.04
   - 21.0.10.0.1-jre-headless-ubuntu-jammy
   - 21.0.10.0.1-jre-headless-ubuntu-22.04
 - Architectures:
@@ -960,12 +1932,8 @@ Blocks:
   File: ""
   GitCommit: 31b8a284b8237cd9afea30116c07160f3c689832
   Tags:
-  - 21-alpine
   - 21.0.10.0.1-alpine
-  - 21-jdk-alpine
   - 21.0.10.0.1-jdk-alpine
-  - 21-alpine-3.23
-  - 21-jdk-alpine-3.23
   - 21.0.10.0.1-alpine-3.23
   - 21.0.10.0.1-jdk-alpine-3.23
 - Architectures:
@@ -979,9 +1947,7 @@ Blocks:
   File: ""
   GitCommit: 31b8a284b8237cd9afea30116c07160f3c689832
   Tags:
-  - 21-jre-alpine
   - 21.0.10.0.1-jre-alpine
-  - 21-jre-alpine-3.23
   - 21.0.10.0.1-jre-alpine-3.23
 - Architectures:
     amd64:
@@ -994,8 +1960,6 @@ Blocks:
   File: ""
   GitCommit: 31b8a284b8237cd9afea30116c07160f3c689832
   Tags:
-  - 21-alpine-3.22
-  - 21-jdk-alpine-3.22
   - 21.0.10.0.1-alpine-3.22
   - 21.0.10.0.1-jdk-alpine-3.22
 - Architectures:
@@ -1009,7 +1973,6 @@ Blocks:
   File: ""
   GitCommit: 31b8a284b8237cd9afea30116c07160f3c689832
   Tags:
-  - 21-jre-alpine-3.22
   - 21.0.10.0.1-jre-alpine-3.22
 - Architectures:
     amd64:
@@ -1022,8 +1985,6 @@ Blocks:
   File: ""
   GitCommit: 31b8a284b8237cd9afea30116c07160f3c689832
   Tags:
-  - 21-alpine-3.21
-  - 21-jdk-alpine-3.21
   - 21.0.10.0.1-alpine-3.21
   - 21.0.10.0.1-jdk-alpine-3.21
 - Architectures:
@@ -1037,7 +1998,6 @@ Blocks:
   File: ""
   GitCommit: 31b8a284b8237cd9afea30116c07160f3c689832
   Tags:
-  - 21-jre-alpine-3.21
   - 21.0.10.0.1-jre-alpine-3.21
 - Architectures:
     amd64:
@@ -1062,18 +2022,10 @@ Blocks:
   File: ""
   GitCommit: c20ee65bae0d54c94024bef202527ca1107149e8
   Tags:
-  - "17"
-  - 17-ubuntu
   - 17.0.18
   - 17.0.18-ubuntu
-  - 17-jdk
-  - 17-jdk-ubuntu
   - 17.0.18-jdk
   - 17.0.18-jdk-ubuntu
-  - 17-ubuntu-noble
-  - 17-ubuntu-24.04
-  - 17-jdk-ubuntu-noble
-  - 17-jdk-ubuntu-24.04
   - 17.0.18-ubuntu-noble
   - 17.0.18-ubuntu-24.04
   - 17.0.18-jdk-ubuntu-noble
@@ -1101,12 +2053,8 @@ Blocks:
   File: ""
   GitCommit: c20ee65bae0d54c94024bef202527ca1107149e8
   Tags:
-  - 17-jdk-headless
-  - 17-jdk-headless-ubuntu
   - 17.0.18-jdk-headless
   - 17.0.18-jdk-headless-ubuntu
-  - 17-jdk-headless-ubuntu-noble
-  - 17-jdk-headless-ubuntu-24.04
   - 17.0.18-jdk-headless-ubuntu-noble
   - 17.0.18-jdk-headless-ubuntu-24.04
 - Architectures:
@@ -1132,12 +2080,8 @@ Blocks:
   File: ""
   GitCommit: c20ee65bae0d54c94024bef202527ca1107149e8
   Tags:
-  - 17-jre
-  - 17-jre-ubuntu
   - 17.0.18-jre
   - 17.0.18-jre-ubuntu
-  - 17-jre-ubuntu-noble
-  - 17-jre-ubuntu-24.04
   - 17.0.18-jre-ubuntu-noble
   - 17.0.18-jre-ubuntu-24.04
 - Architectures:
@@ -1163,12 +2107,8 @@ Blocks:
   File: ""
   GitCommit: c20ee65bae0d54c94024bef202527ca1107149e8
   Tags:
-  - 17-jre-headless
-  - 17-jre-headless-ubuntu
   - 17.0.18-jre-headless
   - 17.0.18-jre-headless-ubuntu
-  - 17-jre-headless-ubuntu-noble
-  - 17-jre-headless-ubuntu-24.04
   - 17.0.18-jre-headless-ubuntu-noble
   - 17.0.18-jre-headless-ubuntu-24.04
 - Architectures:
@@ -1194,10 +2134,6 @@ Blocks:
   File: ""
   GitCommit: c20ee65bae0d54c94024bef202527ca1107149e8
   Tags:
-  - 17-ubuntu-jammy
-  - 17-ubuntu-22.04
-  - 17-jdk-ubuntu-jammy
-  - 17-jdk-ubuntu-22.04
   - 17.0.18-ubuntu-jammy
   - 17.0.18-ubuntu-22.04
   - 17.0.18-jdk-ubuntu-jammy
@@ -1225,8 +2161,6 @@ Blocks:
   File: ""
   GitCommit: c20ee65bae0d54c94024bef202527ca1107149e8
   Tags:
-  - 17-jdk-headless-ubuntu-jammy
-  - 17-jdk-headless-ubuntu-22.04
   - 17.0.18-jdk-headless-ubuntu-jammy
   - 17.0.18-jdk-headless-ubuntu-22.04
 - Architectures:
@@ -1252,8 +2186,6 @@ Blocks:
   File: ""
   GitCommit: c20ee65bae0d54c94024bef202527ca1107149e8
   Tags:
-  - 17-jre-ubuntu-jammy
-  - 17-jre-ubuntu-22.04
   - 17.0.18-jre-ubuntu-jammy
   - 17.0.18-jre-ubuntu-22.04
 - Architectures:
@@ -1279,8 +2211,6 @@ Blocks:
   File: ""
   GitCommit: c20ee65bae0d54c94024bef202527ca1107149e8
   Tags:
-  - 17-jre-headless-ubuntu-jammy
-  - 17-jre-headless-ubuntu-22.04
   - 17.0.18-jre-headless-ubuntu-jammy
   - 17.0.18-jre-headless-ubuntu-22.04
 - Architectures:
@@ -1294,12 +2224,8 @@ Blocks:
   File: ""
   GitCommit: c20ee65bae0d54c94024bef202527ca1107149e8
   Tags:
-  - 17-alpine
   - 17.0.18-alpine
-  - 17-jdk-alpine
   - 17.0.18-jdk-alpine
-  - 17-alpine-3.23
-  - 17-jdk-alpine-3.23
   - 17.0.18-alpine-3.23
   - 17.0.18-jdk-alpine-3.23
 - Architectures:
@@ -1313,9 +2239,7 @@ Blocks:
   File: ""
   GitCommit: c20ee65bae0d54c94024bef202527ca1107149e8
   Tags:
-  - 17-jre-alpine
   - 17.0.18-jre-alpine
-  - 17-jre-alpine-3.23
   - 17.0.18-jre-alpine-3.23
 - Architectures:
     amd64:
@@ -1328,8 +2252,6 @@ Blocks:
   File: ""
   GitCommit: c20ee65bae0d54c94024bef202527ca1107149e8
   Tags:
-  - 17-alpine-3.22
-  - 17-jdk-alpine-3.22
   - 17.0.18-alpine-3.22
   - 17.0.18-jdk-alpine-3.22
 - Architectures:
@@ -1343,7 +2265,6 @@ Blocks:
   File: ""
   GitCommit: c20ee65bae0d54c94024bef202527ca1107149e8
   Tags:
-  - 17-jre-alpine-3.22
   - 17.0.18-jre-alpine-3.22
 - Architectures:
     amd64:
@@ -1356,8 +2277,6 @@ Blocks:
   File: ""
   GitCommit: c20ee65bae0d54c94024bef202527ca1107149e8
   Tags:
-  - 17-alpine-3.21
-  - 17-jdk-alpine-3.21
   - 17.0.18-alpine-3.21
   - 17.0.18-jdk-alpine-3.21
 - Architectures:
@@ -1371,7 +2290,6 @@ Blocks:
   File: ""
   GitCommit: c20ee65bae0d54c94024bef202527ca1107149e8
   Tags:
-  - 17-jre-alpine-3.21
   - 17.0.18-jre-alpine-3.21
 - Architectures:
     amd64:
@@ -12978,6 +13896,48 @@ KnownTags:
   17.0.18-ubuntu-24.04: {}
   17.0.18-ubuntu-jammy: {}
   17.0.18-ubuntu-noble: {}
+  17.0.19: {}
+  17.0.19-alpine: {}
+  17.0.19-alpine-3.21: {}
+  17.0.19-alpine-3.22: {}
+  17.0.19-alpine-3.23: {}
+  17.0.19-jdk: {}
+  17.0.19-jdk-alpine: {}
+  17.0.19-jdk-alpine-3.21: {}
+  17.0.19-jdk-alpine-3.22: {}
+  17.0.19-jdk-alpine-3.23: {}
+  17.0.19-jdk-headless: {}
+  17.0.19-jdk-headless-ubuntu: {}
+  17.0.19-jdk-headless-ubuntu-22.04: {}
+  17.0.19-jdk-headless-ubuntu-24.04: {}
+  17.0.19-jdk-headless-ubuntu-jammy: {}
+  17.0.19-jdk-headless-ubuntu-noble: {}
+  17.0.19-jdk-ubuntu: {}
+  17.0.19-jdk-ubuntu-22.04: {}
+  17.0.19-jdk-ubuntu-24.04: {}
+  17.0.19-jdk-ubuntu-jammy: {}
+  17.0.19-jdk-ubuntu-noble: {}
+  17.0.19-jre: {}
+  17.0.19-jre-alpine: {}
+  17.0.19-jre-alpine-3.21: {}
+  17.0.19-jre-alpine-3.22: {}
+  17.0.19-jre-alpine-3.23: {}
+  17.0.19-jre-headless: {}
+  17.0.19-jre-headless-ubuntu: {}
+  17.0.19-jre-headless-ubuntu-22.04: {}
+  17.0.19-jre-headless-ubuntu-24.04: {}
+  17.0.19-jre-headless-ubuntu-jammy: {}
+  17.0.19-jre-headless-ubuntu-noble: {}
+  17.0.19-jre-ubuntu: {}
+  17.0.19-jre-ubuntu-22.04: {}
+  17.0.19-jre-ubuntu-24.04: {}
+  17.0.19-jre-ubuntu-jammy: {}
+  17.0.19-jre-ubuntu-noble: {}
+  17.0.19-ubuntu: {}
+  17.0.19-ubuntu-22.04: {}
+  17.0.19-ubuntu-24.04: {}
+  17.0.19-ubuntu-jammy: {}
+  17.0.19-ubuntu-noble: {}
   "18": {}
   18.0.1: {}
   18.0.1.1: {}
@@ -13424,6 +14384,48 @@ KnownTags:
   21.0.10.0.1-ubuntu-24.04: {}
   21.0.10.0.1-ubuntu-jammy: {}
   21.0.10.0.1-ubuntu-noble: {}
+  21.0.11: {}
+  21.0.11-alpine: {}
+  21.0.11-alpine-3.21: {}
+  21.0.11-alpine-3.22: {}
+  21.0.11-alpine-3.23: {}
+  21.0.11-jdk: {}
+  21.0.11-jdk-alpine: {}
+  21.0.11-jdk-alpine-3.21: {}
+  21.0.11-jdk-alpine-3.22: {}
+  21.0.11-jdk-alpine-3.23: {}
+  21.0.11-jdk-headless: {}
+  21.0.11-jdk-headless-ubuntu: {}
+  21.0.11-jdk-headless-ubuntu-22.04: {}
+  21.0.11-jdk-headless-ubuntu-24.04: {}
+  21.0.11-jdk-headless-ubuntu-jammy: {}
+  21.0.11-jdk-headless-ubuntu-noble: {}
+  21.0.11-jdk-ubuntu: {}
+  21.0.11-jdk-ubuntu-22.04: {}
+  21.0.11-jdk-ubuntu-24.04: {}
+  21.0.11-jdk-ubuntu-jammy: {}
+  21.0.11-jdk-ubuntu-noble: {}
+  21.0.11-jre: {}
+  21.0.11-jre-alpine: {}
+  21.0.11-jre-alpine-3.21: {}
+  21.0.11-jre-alpine-3.22: {}
+  21.0.11-jre-alpine-3.23: {}
+  21.0.11-jre-headless: {}
+  21.0.11-jre-headless-ubuntu: {}
+  21.0.11-jre-headless-ubuntu-22.04: {}
+  21.0.11-jre-headless-ubuntu-24.04: {}
+  21.0.11-jre-headless-ubuntu-jammy: {}
+  21.0.11-jre-headless-ubuntu-noble: {}
+  21.0.11-jre-ubuntu: {}
+  21.0.11-jre-ubuntu-22.04: {}
+  21.0.11-jre-ubuntu-24.04: {}
+  21.0.11-jre-ubuntu-jammy: {}
+  21.0.11-jre-ubuntu-noble: {}
+  21.0.11-ubuntu: {}
+  21.0.11-ubuntu-22.04: {}
+  21.0.11-ubuntu-24.04: {}
+  21.0.11-ubuntu-jammy: {}
+  21.0.11-ubuntu-noble: {}
   "22": {}
   22-jdk-headless-ubuntu: {}
   22-jdk-headless-ubuntu-20.04: {}
@@ -13904,6 +14906,48 @@ KnownTags:
   25.0.2-ubuntu-24.04: {}
   25.0.2-ubuntu-jammy: {}
   25.0.2-ubuntu-noble: {}
+  25.0.3: {}
+  25.0.3-alpine: {}
+  25.0.3-alpine-3.21: {}
+  25.0.3-alpine-3.22: {}
+  25.0.3-alpine-3.23: {}
+  25.0.3-jdk: {}
+  25.0.3-jdk-alpine: {}
+  25.0.3-jdk-alpine-3.21: {}
+  25.0.3-jdk-alpine-3.22: {}
+  25.0.3-jdk-alpine-3.23: {}
+  25.0.3-jdk-headless: {}
+  25.0.3-jdk-headless-ubuntu: {}
+  25.0.3-jdk-headless-ubuntu-22.04: {}
+  25.0.3-jdk-headless-ubuntu-24.04: {}
+  25.0.3-jdk-headless-ubuntu-jammy: {}
+  25.0.3-jdk-headless-ubuntu-noble: {}
+  25.0.3-jdk-ubuntu: {}
+  25.0.3-jdk-ubuntu-22.04: {}
+  25.0.3-jdk-ubuntu-24.04: {}
+  25.0.3-jdk-ubuntu-jammy: {}
+  25.0.3-jdk-ubuntu-noble: {}
+  25.0.3-jre: {}
+  25.0.3-jre-alpine: {}
+  25.0.3-jre-alpine-3.21: {}
+  25.0.3-jre-alpine-3.22: {}
+  25.0.3-jre-alpine-3.23: {}
+  25.0.3-jre-headless: {}
+  25.0.3-jre-headless-ubuntu: {}
+  25.0.3-jre-headless-ubuntu-22.04: {}
+  25.0.3-jre-headless-ubuntu-24.04: {}
+  25.0.3-jre-headless-ubuntu-jammy: {}
+  25.0.3-jre-headless-ubuntu-noble: {}
+  25.0.3-jre-ubuntu: {}
+  25.0.3-jre-ubuntu-22.04: {}
+  25.0.3-jre-ubuntu-24.04: {}
+  25.0.3-jre-ubuntu-jammy: {}
+  25.0.3-jre-ubuntu-noble: {}
+  25.0.3-ubuntu: {}
+  25.0.3-ubuntu-22.04: {}
+  25.0.3-ubuntu-24.04: {}
+  25.0.3-ubuntu-jammy: {}
+  25.0.3-ubuntu-noble: {}
   "26": {}
   26-alpine: {}
   26-alpine-3.21: {}
@@ -13946,6 +14990,48 @@ KnownTags:
   26-ubuntu-24.04: {}
   26-ubuntu-jammy: {}
   26-ubuntu-noble: {}
+  26.0.1: {}
+  26.0.1-alpine: {}
+  26.0.1-alpine-3.21: {}
+  26.0.1-alpine-3.22: {}
+  26.0.1-alpine-3.23: {}
+  26.0.1-jdk: {}
+  26.0.1-jdk-alpine: {}
+  26.0.1-jdk-alpine-3.21: {}
+  26.0.1-jdk-alpine-3.22: {}
+  26.0.1-jdk-alpine-3.23: {}
+  26.0.1-jdk-headless: {}
+  26.0.1-jdk-headless-ubuntu: {}
+  26.0.1-jdk-headless-ubuntu-22.04: {}
+  26.0.1-jdk-headless-ubuntu-24.04: {}
+  26.0.1-jdk-headless-ubuntu-jammy: {}
+  26.0.1-jdk-headless-ubuntu-noble: {}
+  26.0.1-jdk-ubuntu: {}
+  26.0.1-jdk-ubuntu-22.04: {}
+  26.0.1-jdk-ubuntu-24.04: {}
+  26.0.1-jdk-ubuntu-jammy: {}
+  26.0.1-jdk-ubuntu-noble: {}
+  26.0.1-jre: {}
+  26.0.1-jre-alpine: {}
+  26.0.1-jre-alpine-3.21: {}
+  26.0.1-jre-alpine-3.22: {}
+  26.0.1-jre-alpine-3.23: {}
+  26.0.1-jre-headless: {}
+  26.0.1-jre-headless-ubuntu: {}
+  26.0.1-jre-headless-ubuntu-22.04: {}
+  26.0.1-jre-headless-ubuntu-24.04: {}
+  26.0.1-jre-headless-ubuntu-jammy: {}
+  26.0.1-jre-headless-ubuntu-noble: {}
+  26.0.1-jre-ubuntu: {}
+  26.0.1-jre-ubuntu-22.04: {}
+  26.0.1-jre-ubuntu-24.04: {}
+  26.0.1-jre-ubuntu-jammy: {}
+  26.0.1-jre-ubuntu-noble: {}
+  26.0.1-ubuntu: {}
+  26.0.1-ubuntu-22.04: {}
+  26.0.1-ubuntu-24.04: {}
+  26.0.1-ubuntu-jammy: {}
+  26.0.1-ubuntu-noble: {}
   alpine: {}
   alpine-3.21: {}
   alpine-3.22: {}

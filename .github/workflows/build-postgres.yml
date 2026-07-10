@@ -12,9 +12,10 @@ concurrency:
 jobs:
   build:
     name: Build
-    runs-on: ubuntu-latest # TODO: Change to firecracker
+    runs-on: firecracker
     permissions:
       packages: write
+      contents: write
     strategy:
       fail-fast: false
       matrix:
@@ -38,14 +39,17 @@ jobs:
 
     - name: Prepare git
       env:
-        LGTM_APP_TOKEN: ${{ steps.lgtm-app-token.outputs.token }}
+        GITHUB_USER: 1gtm
+        GITHUB_TOKEN: ${{ steps.lgtm-app-token.outputs.token }}
+        # GITHUB_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
       run: |
         set -x
-        git config --global user.name "1gtm-app[bot]"
-        git config --global user.email "3686661+1gtm-app[bot]@users.noreply.github.com"
+        git config --global user.name "1gtm"
+        git config --global user.email "1gtm@appscode.com"
         git config --global \
-          url."https://x-access-token:${LGTM_APP_TOKEN}@github.com".insteadOf \
+          url."https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com".insteadOf \
           "https://github.com"
+        git remote set-url origin https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
 
     - name: Set up QEMU
       id: qemu
@@ -77,12 +81,7 @@ jobs:
         registry: ghcr.io
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
-    - name: Log in to the DHI registry
-      uses: docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121 # v4.1.0
-      with:
-        registry: dhi.io
-        username: ${{ secrets.DOCKERHUB_USERNAME }}
-        password: ${{ secrets.DOCKERHUB_READONLY_TOKEN }}
+
     # - name: Setup upterm session
     #   uses: lhotari/action-upterm@v1
 
@@ -105,12 +104,12 @@ jobs:
 #
 #    - name: Prepare git
 #      env:
-#        GITHUB_USER: ${{ github.actor }}
-#        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#        GITHUB_USER: 1gtm
+#        GITHUB_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
 #      run: |
 #        set -x
-#        git config --global user.name "${GITHUB_USER}"
-#        git config --global user.email "${GITHUB_USER}@appscode.com"
+#        git config --global user.name "1gtm"
+#        git config --global user.email "1gtm@appscode.com"
 #        git config --global \
 #          url."https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com".insteadOf \
 #          "https://github.com"

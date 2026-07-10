@@ -14,7 +14,7 @@ Blocks:
       GitFetch: ""
   Directory: ros/humble/ubuntu/jammy/ros-core
   File: ""
-  GitCommit: eb5634cf92ba079897e44fb7541d3b78aa6cf717
+  GitCommit: 58af41813ba67f611943c35c551387d652fcdbde
   Tags:
   - humble-ros-core
   - humble-ros-core-jammy
@@ -72,7 +72,7 @@ Blocks:
       GitFetch: ""
   Directory: ros/jazzy/ubuntu/noble/ros-core
   File: ""
-  GitCommit: eb5634cf92ba079897e44fb7541d3b78aa6cf717
+  GitCommit: 58af41813ba67f611943c35c551387d652fcdbde
   Tags:
   - jazzy-ros-core
   - jazzy-ros-core-noble
@@ -96,7 +96,6 @@ Blocks:
   - jazzy-ros-base
   - jazzy-ros-base-noble
   - jazzy
-  - latest
 - Architectures:
     amd64:
       Architecture: amd64
@@ -131,7 +130,7 @@ Blocks:
       GitFetch: ""
   Directory: ros/kilted/ubuntu/noble/ros-core
   File: ""
-  GitCommit: eb5634cf92ba079897e44fb7541d3b78aa6cf717
+  GitCommit: 58af41813ba67f611943c35c551387d652fcdbde
   Tags:
   - kilted-ros-core
   - kilted-ros-core-noble
@@ -174,6 +173,65 @@ Blocks:
   Tags:
   - kilted-perception
   - kilted-perception-noble
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ros/lyrical/ubuntu/resolute/ros-core
+  File: ""
+  GitCommit: 54c9478ffafa47e2e65a90a20ebd5412009a35b0
+  Tags:
+  - lyrical-ros-core
+  - lyrical-ros-core-resolute
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ros/lyrical/ubuntu/resolute/ros-base
+  File: ""
+  GitCommit: 0d65786f3d9bb10d55dc28ccd5b87da204240d1a
+  Tags:
+  - lyrical-ros-base
+  - lyrical-ros-base-resolute
+  - lyrical
+  - latest
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ros/lyrical/ubuntu/resolute/perception
+  File: ""
+  GitCommit: 0d65786f3d9bb10d55dc28ccd5b87da204240d1a
+  Tags:
+  - lyrical-perception
+  - lyrical-perception-resolute
 - Architectures:
     amd64:
       Architecture: amd64
@@ -1776,6 +1834,13 @@ KnownTags:
   lunar-ros-core-stretch: {}
   lunar-ros-core-xenial: {}
   lunar-ros-core-zesty: {}
+  lyrical: {}
+  lyrical-perception: {}
+  lyrical-perception-resolute: {}
+  lyrical-ros-base: {}
+  lyrical-ros-base-resolute: {}
+  lyrical-ros-core: {}
+  lyrical-ros-core-resolute: {}
   melodic: {}
   melodic-perception: {}
   melodic-perception-bionic: {}

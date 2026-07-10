@@ -1,21 +1,41 @@
 GitRepo: https://github.com/varnish/docker-varnish.git
 
-Tags: fresh,9.0.1,9,9.0,latest
+Tags: fresh,latest,9.0.3-1,9.0.3,9.0,9
+Architectures: amd64,arm64v8
+GitCommit: c9eabe6cdbfbf5f5c2ee9959f42d926cbcc234c1
+Directory: fresh/debian
+
+Tags: old,8.0.2-1,8.0.2,8.0,8
+Architectures: amd64,arm64v8
+GitCommit: c9eabe6cdbfbf5f5c2ee9959f42d926cbcc234c1
+Directory: old/debian
+
+Tags: old-alpine,8.0.2-alpine,8.0-alpine,8-alpine
+Architectures: amd64,arm64v8
+GitCommit: c9eabe6cdbfbf5f5c2ee9959f42d926cbcc234c1
+Directory: old/alpine
+
+Tags: stable,6.0.18-1,6.0.18,6.0,6
+Architectures: amd64,arm64v8
+GitCommit: c9eabe6cdbfbf5f5c2ee9959f42d926cbcc234c1
+Directory: stable/debian
+
+Tags: 9.0.1
 Architectures: amd64,arm64v8
 GitCommit: 29c77e93eaf363a1353c3d39ef170ca1dc559f87
 Directory: fresh/debian
 
-Tags: old,8.0.1,8,8.0
+Tags: 8.0.1
 Architectures: amd64,arm64v8
 GitCommit: 86705c07fadc4d579a6104250f958e493b4699a6
 Directory: old/debian
 
-Tags: old-alpine,8.0.1-alpine,8-alpine,8.0-alpine
+Tags: 8.0.1-alpine
 Architectures: amd64,arm64v8
 GitCommit: 86705c07fadc4d579a6104250f958e493b4699a6
 Directory: old/alpine
 
-Tags: stable,6.0.17,6.0
+Tags: 6.0.17
 Architectures: amd64,arm64v8
 GitCommit: e049c0a37dec0db6f81bbab0aba45f8f238bd0f1
 Directory: stable/debian
@@ -360,7 +380,7 @@ Architectures: amd64
 GitCommit: 4cfd65e1d3bd4eb9518d8e7590d9fec1de6a50c4
 Directory: stable/debian
 
-Tags: 6.6.1-1,6
+Tags: 6.6.1-1
 Architectures: amd64
 GitCommit: 4cfd65e1d3bd4eb9518d8e7590d9fec1de6a50c4
 Directory: fresh/debian

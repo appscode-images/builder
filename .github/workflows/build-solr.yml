@@ -15,6 +15,7 @@ jobs:
     runs-on: firecracker
     permissions:
       packages: write
+      contents: write
     strategy:
       fail-fast: false
       matrix:
@@ -38,14 +39,17 @@ jobs:
 
     - name: Prepare git
       env:
-        LGTM_APP_TOKEN: ${{ steps.lgtm-app-token.outputs.token }}
+        GITHUB_USER: 1gtm
+        GITHUB_TOKEN: ${{ steps.lgtm-app-token.outputs.token }}
+        # GITHUB_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
       run: |
         set -x
-        git config --global user.name "1gtm-app[bot]"
-        git config --global user.email "3686661+1gtm-app[bot]@users.noreply.github.com"
+        git config --global user.name "1gtm"
+        git config --global user.email "1gtm@appscode.com"
         git config --global \
-          url."https://x-access-token:${LGTM_APP_TOKEN}@github.com".insteadOf \
+          url."https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com".insteadOf \
           "https://github.com"
+        git remote set-url origin https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
 
     - name: Set up QEMU
       id: qemu
@@ -100,12 +104,12 @@ jobs:
 #
 #    - name: Prepare git
 #      env:
-#        GITHUB_USER: ${{ github.actor }}
-#        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#        GITHUB_USER: 1gtm
+#        GITHUB_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
 #      run: |
 #        set -x
-#        git config --global user.name "${GITHUB_USER}"
-#        git config --global user.email "${GITHUB_USER}@appscode.com"
+#        git config --global user.name "1gtm"
+#        git config --global user.email "1gtm@appscode.com"
 #        git config --global \
 #          url."https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com".insteadOf \
 #          "https://github.com"
