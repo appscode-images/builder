@@ -154,7 +154,6 @@ func main() {
 	if b == nil {
 		panic(fmt.Sprintf("%s app.txt is missing tag %s", *name, *tag))
 	}
-	klog.Infoln(b.String())
 	var repoURL string
 	if strings.Contains(libRepoURL, "github.com/"+api.GH_IMG_REPO_OWNER) {
 		repoURL = libRepoURL
