@@ -1,14 +1,78 @@
 {
   "Name": "mysql-router",
   "GitRepo": "https://github.com/mysql/mysql-docker.git",
+  "KnownTags": {
+    "8.0": {},
+    "8.0.23": {},
+    "8.0.24": {},
+    "8.0.25": {},
+    "8.0.26": {},
+    "8.0.27": {},
+    "8.0.28": {},
+    "8.0.29": {},
+    "8.0.30": {},
+    "8.0.31": {},
+    "8.0.32": {},
+    "8.0.33": {},
+    "8.0.34": {},
+    "8.0.35": {},
+    "8.0.36": {},
+    "8.0.37": {},
+    "8.0.38": {},
+    "8.0.39": {},
+    "8.0.40": {},
+    "8.0.41": {},
+    "8.0.42": {},
+    "8.0.43": {},
+    "8.0.44": {},
+    "8.0.45": {},
+    "8.0.46": {},
+    "8.1": {},
+    "8.1.0": {},
+    "8.2": {},
+    "8.2.0": {},
+    "8.3": {},
+    "8.3.0": {},
+    "8.4": {},
+    "8.4.0": {},
+    "8.4.1": {},
+    "8.4.10": {},
+    "8.4.2": {},
+    "8.4.3": {},
+    "8.4.4": {},
+    "8.4.5": {},
+    "8.4.6": {},
+    "8.4.7": {},
+    "8.4.8": {},
+    "8.4.9": {},
+    "9.0": {},
+    "9.0.0": {},
+    "9.0.1": {},
+    "9.1": {},
+    "9.1.0": {},
+    "9.2": {},
+    "9.2.0": {},
+    "9.3": {},
+    "9.3.0": {},
+    "9.4": {},
+    "9.4.0": {},
+    "9.5": {},
+    "9.5.0": {},
+    "9.6": {},
+    "9.6.0": {},
+    "9.7": {},
+    "9.7.0": {},
+    "9.7.1": {},
+    "latest": {},
+    "lts": {}
+  },
   "Blocks": [
     {
       "Tags": [
-        "9.6.0",
-        "9.6",
-        "9",
-        "innovation",
-        "latest"
+        "9.7.1",
+        "9.7",
+        "latest",
+        "lts"
       ],
       "Architectures": {
         "amd64": {
@@ -26,7 +90,56 @@
           "File": ""
         }
       },
-      "GitCommit": "38b3f67ad8a1edb6cf4aa5f42da9e8eb515019e5",
+      "GitCommit": "dee3b838c0ebd37898c9950b3f3fef71dc0dddd3",
+      "Directory": "mysql-router/9.7",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "9.7.0"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "e05b2d0f42e65cddf52c55ed5fb54f6de8fcf463",
+      "Directory": "mysql-router/9.7",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "9.6.0",
+        "9.6"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7d08104d98e004faf089a88089557eb64538828b",
       "Directory": "mysql-router/9.6",
       "File": ""
     },
@@ -51,7 +164,7 @@
           "File": ""
         }
       },
-      "GitCommit": "38b3f67ad8a1edb6cf4aa5f42da9e8eb515019e5",
+      "GitCommit": "b7887f0798b5d5589a4aa50654f6380b00b40cbf",
       "Directory": "mysql-router/9.5",
       "File": ""
     },
@@ -76,7 +189,7 @@
           "File": ""
         }
       },
-      "GitCommit": "38b3f67ad8a1edb6cf4aa5f42da9e8eb515019e5",
+      "GitCommit": "612b2f3608ea4601f316c3bd79691a4a1bff8fa9",
       "Directory": "mysql-router/9.4",
       "File": ""
     },
@@ -101,7 +214,7 @@
           "File": ""
         }
       },
-      "GitCommit": "38b3f67ad8a1edb6cf4aa5f42da9e8eb515019e5",
+      "GitCommit": "aeebddbcb27d3ef0e378fa5f42f97f3b75ccc0d8",
       "Directory": "mysql-router/9.3",
       "File": ""
     },
@@ -126,7 +239,7 @@
           "File": ""
         }
       },
-      "GitCommit": "38b3f67ad8a1edb6cf4aa5f42da9e8eb515019e5",
+      "GitCommit": "f6cb756c704628497d69dce4c03e042006e13f88",
       "Directory": "mysql-router/9.2",
       "File": ""
     },
@@ -151,7 +264,7 @@
           "File": ""
         }
       },
-      "GitCommit": "38b3f67ad8a1edb6cf4aa5f42da9e8eb515019e5",
+      "GitCommit": "9939a7e85b18ab98f600aaa9bac6a97bc87375b9",
       "Directory": "mysql-router/9.1",
       "File": ""
     },
@@ -176,16 +289,13 @@
           "File": ""
         }
       },
-      "GitCommit": "38b3f67ad8a1edb6cf4aa5f42da9e8eb515019e5",
+      "GitCommit": "e30d830b4df5ad9fe8a5e45f73fc18d515183d41",
       "Directory": "mysql-router/9.0",
       "File": ""
     },
     {
       "Tags": [
-        "8.4.8",
-        "8.4",
-        "8",
-        "lts"
+        "9.0.0"
       ],
       "Architectures": {
         "amd64": {
@@ -203,13 +313,353 @@
           "File": ""
         }
       },
-      "GitCommit": "38b3f67ad8a1edb6cf4aa5f42da9e8eb515019e5",
+      "GitCommit": "e80a40f925561bb0a9b9806fbfd424620990a3d5",
+      "Directory": "mysql-router/9.0",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.4.10",
+        "8.4"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "dee3b838c0ebd37898c9950b3f3fef71dc0dddd3",
       "Directory": "mysql-router/8.4",
       "File": ""
     },
     {
       "Tags": [
-        "8.0.45",
+        "8.4.9"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "e05b2d0f42e65cddf52c55ed5fb54f6de8fcf463",
+      "Directory": "mysql-router/8.4",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.4.8"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7d08104d98e004faf089a88089557eb64538828b",
+      "Directory": "mysql-router/8.4",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.4.7"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "b7887f0798b5d5589a4aa50654f6380b00b40cbf",
+      "Directory": "mysql-router/8.4",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.4.6"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "612b2f3608ea4601f316c3bd79691a4a1bff8fa9",
+      "Directory": "mysql-router/8.4",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.4.5"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "aeebddbcb27d3ef0e378fa5f42f97f3b75ccc0d8",
+      "Directory": "mysql-router/8.4",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.4.4"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f6cb756c704628497d69dce4c03e042006e13f88",
+      "Directory": "mysql-router/8.4",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.4.3"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "9939a7e85b18ab98f600aaa9bac6a97bc87375b9",
+      "Directory": "mysql-router/8.4",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.4.2"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "e30d830b4df5ad9fe8a5e45f73fc18d515183d41",
+      "Directory": "mysql-router/8.4",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.4.1"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "e80a40f925561bb0a9b9806fbfd424620990a3d5",
+      "Directory": "mysql-router/8.4",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.4.0"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0b8ee6bac8d9318b6e0937544eebbb8651961faf",
+      "Directory": "mysql-router/8.4",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.3.0",
+        "8.3"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "ad1ba0d2a26d439a889d68f5ad176b0ffae45423",
+      "Directory": "mysql-router/8.3",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.2.0",
+        "8.2"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "096639a3e43e466c41b9210402cb0912e7470475",
+      "Directory": "mysql-router/8.2",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.1.0",
+        "8.1"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "1bd785908fd004f135109c763fbdc42789c0173d",
+      "Directory": "mysql-router/8.1",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.46",
         "8.0"
       ],
       "Architectures": {
@@ -228,7 +678,559 @@
           "File": ""
         }
       },
-      "GitCommit": "38b3f67ad8a1edb6cf4aa5f42da9e8eb515019e5",
+      "GitCommit": "e05b2d0f42e65cddf52c55ed5fb54f6de8fcf463",
+      "Directory": "mysql-router/8.0",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.45"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "7d08104d98e004faf089a88089557eb64538828b",
+      "Directory": "mysql-router/8.0",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.44"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "b7887f0798b5d5589a4aa50654f6380b00b40cbf",
+      "Directory": "mysql-router/8.0",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.43"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "612b2f3608ea4601f316c3bd79691a4a1bff8fa9",
+      "Directory": "mysql-router/8.0",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.42"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "aeebddbcb27d3ef0e378fa5f42f97f3b75ccc0d8",
+      "Directory": "mysql-router/8.0",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.41"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f6cb756c704628497d69dce4c03e042006e13f88",
+      "Directory": "mysql-router/8.0",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.40"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "9939a7e85b18ab98f600aaa9bac6a97bc87375b9",
+      "Directory": "mysql-router/8.0",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.39"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "e30d830b4df5ad9fe8a5e45f73fc18d515183d41",
+      "Directory": "mysql-router/8.0",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.38"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "e80a40f925561bb0a9b9806fbfd424620990a3d5",
+      "Directory": "mysql-router/8.0",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.37"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "0b8ee6bac8d9318b6e0937544eebbb8651961faf",
+      "Directory": "mysql-router/8.0",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.36"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "ad1ba0d2a26d439a889d68f5ad176b0ffae45423",
+      "Directory": "mysql-router/8.0",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.35"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "6eb9d74ef2d885a6b88518b2e99a3441f5e08162",
+      "Directory": "mysql-router/8.0",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.34"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "1bd785908fd004f135109c763fbdc42789c0173d",
+      "Directory": "mysql-router/8.0",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.33"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "4f52c7f0bd3c49094e062a778ec04e8cf284059b",
+      "Directory": "mysql-router/8.0",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.32"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "54a5c11c2991298ee2bd595a77da087aaaa306c0",
+      "Directory": "mysql-router/8.0",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.31"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "044356f9958bbeb9409265495035431a0e3ab8bb",
+      "Directory": "mysql-router/8.0",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.30"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "c883a708fb86086d421d68f7c8cc02ff87859f8d",
+      "Directory": "mysql-router/8.0",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.29"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "ecb074852bbfbaf5172821bf94752f9eda5b384d",
+      "Directory": "mysql-router/8.0",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.28"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "a6cea818f12f3f630d41d0cd4e5a2703a68b5456",
+      "Directory": "mysql-router/8.0",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.27"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "b560577f1e21665c9617a16332116d0552f302a7",
+      "Directory": "mysql-router/8.0",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.26"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "824a9b857ed208d441fe690c4d0ffe35e4e3baad",
+      "Directory": "mysql-router/8.0",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.25"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "e4da2922ad3c6f77fcd28007a6b98f31c6ee0b47",
+      "Directory": "mysql-router/8.0",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.24"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "79e088372a8b9d5b593573f57a50bd4a41529147",
+      "Directory": "mysql-router/8.0",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.23"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "312bc576494cc6f5fb51d6cb4e4f5d0b934d7d10",
       "Directory": "mysql-router/8.0",
       "File": ""
     }
