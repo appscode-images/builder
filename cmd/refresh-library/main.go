@@ -49,6 +49,13 @@ func main() {
 	err := ProcessGitRepo(apps, true)
 	CheckIfError(err)
 
+	// Not an official image, so it is absent from docker-library/official-images.
+	// Keep it non fatal: an unreachable upstream should not hold back the refresh
+	// of every official image.
+	if err := ProcessMySQLDockerRepo(apps); err != nil {
+		klog.ErrorS(err, "failed to refresh apps from mysql-docker", "repo", MySQLDockerRepo)
+	}
+
 	err = PrintUnifiedHistory(outDir, apps)
 	if err != nil {
 		panic(err)
