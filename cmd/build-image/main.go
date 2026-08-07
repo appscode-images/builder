@@ -456,6 +456,8 @@ func FindBlock(dir, name, tag string) (string, *api.Block, error) {
 		filename = filepath.Join(dir, "library", name, "dhi.json")
 	case "ext":
 		filename = filepath.Join(dir, "library", name, "ext.json")
+	case "percona":
+		filename = filepath.Join(dir, "library", name, "tde.json")
 	default:
 		filename = filepath.Join(dir, "library", name, "app.json")
 	}

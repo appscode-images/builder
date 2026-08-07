@@ -19,7 +19,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        tag: [18.3-alpine, 18.3-bookworm, 18.3-alpine-ext, 18.3-bookworm-ext, 17.9-alpine, 17.9-bookworm, 17.9-alpine-ext, 17.9-bookworm-ext, 17.5-alpine, 17.4-alpine, 17.2-alpine, 16.13-alpine, 16.13-bookworm, 16.13-alpine-ext, 16.13-bookworm-ext, 16.10-alpine, 16.10-bookworm, 16.9-alpine, 16.8-alpine, 16.6-alpine, 16.4-alpine, 16.1-alpine, 15.17-alpine, 15.17-bookworm, 15.13-alpine, 15.12-alpine, 15.10-alpine, 15.8-alpine, 15.5-alpine, 14.22-alpine, 14.22-bookworm, 14.19-alpine, 14.19-bookworm, 14.18-alpine, 14.17-alpine, 14.15-alpine, 14.13-alpine, 14.10-alpine]
+        tag: [18.3-alpine, 18.3-bookworm, 18.3-alpine-ext, 18.3-bookworm-ext, 17.9-alpine, 17.9-bookworm, 17.9-alpine-ext, 17.9-bookworm-ext, 17.9-percona, 17.5-alpine, 17.4-alpine, 17.2-alpine, 16.13-alpine, 16.13-bookworm, 16.13-alpine-ext, 16.13-bookworm-ext, 16.10-alpine, 16.10-bookworm, 16.9-alpine, 16.8-alpine, 16.6-alpine, 16.4-alpine, 16.1-alpine, 15.17-alpine, 15.17-bookworm, 15.13-alpine, 15.12-alpine, 15.10-alpine, 15.8-alpine, 15.5-alpine, 14.22-alpine, 14.22-bookworm, 14.19-alpine, 14.19-bookworm, 14.18-alpine, 14.17-alpine, 14.15-alpine, 14.13-alpine, 14.10-alpine]
     steps:
     - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
 
