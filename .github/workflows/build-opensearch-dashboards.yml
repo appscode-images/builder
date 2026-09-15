@@ -109,7 +109,6 @@ jobs:
 
         ./build-image-multi-arch.sh -v ${{ matrix.tag }} -f $DOCKERFILE -p opensearch-dashboards -a "x64,arm64" -r "ghcr.io/appscode-images/daily/opensearch-dashboards"
         crane cp ghcr.io/appscode-images/daily/opensearch-dashboards:${{ matrix.tag }} ghcr.io/appscode-images/daily/opensearch-dashboards:${{ matrix.tag }}_$(date -u +'%Y%m%d')
-        go run cmd/build-image/main.go --name=opensearch-dashboards --tag=${{ matrix.tag }}
 
 #  report:
 #    name: Report

@@ -110,8 +110,6 @@ jobs:
         ./build-image-multi-arch.sh -v ${{ matrix.tag }} -f $DOCKERFILE -p opensearch -a "x64,arm64" -r "ghcr.io/appscode-images/daily/opensearch"
         crane cp ghcr.io/appscode-images/daily/opensearch:${{ matrix.tag }} ghcr.io/appscode-images/daily/opensearch:${{ matrix.tag }}_$(date -u +'%Y%m%d')
 
-        go run cmd/build-image/main.go --name=opensearch --tag=${{ matrix.tag }}
-
 #  report:
 #    name: Report
 #    runs-on: ubuntu-latest
