@@ -19,8 +19,21 @@ jobs:
       fail-fast: false
       matrix:
         tag: [2.6.1, 2.6.2, 2.6.7, 2.6.9, 2.6.11, 2.6.15, 3.0.0]
+        variant: [""]
+        include:
+          - tag: 2.6.15
+            variant: -gpu
+          - tag: 3.0.0
+            variant: -gpu
     steps:
     - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+
+    # CUDA-based -gpu images are ~2.4GB compressed per arch; the default runner disk is too small for both arches
+    - name: Free disk space
+      if: matrix.variant == '-gpu'
+      run: |
+        sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL
+        df -h /
 
     - name: Set up Go
       uses: actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff # v5.6.0
@@ -97,7 +110,8 @@ jobs:
         docker buildx build \
           --platform linux/amd64,linux/arm64 \
           --build-arg MILVUS_VERSION=${{ matrix.tag }} \
-          --tag ghcr.io/appscode-images/daily/milvus:${{ matrix.tag }}_${DATE_TAG} \
+          --build-arg VARIANT=${{ matrix.variant }} \
+          --tag ghcr.io/appscode-images/daily/milvus:${{ matrix.tag }}${{ matrix.variant }}_${DATE_TAG} \
           --push \
           .
 
@@ -106,7 +120,8 @@ jobs:
           docker buildx build \
             --platform linux/${arch} \
             --build-arg MILVUS_VERSION=${{ matrix.tag }} \
-            --tag ghcr.io/appscode-images/daily/milvus:${{ matrix.tag }}_${DATE_TAG}_linux_${arch} \
+            --build-arg VARIANT=${{ matrix.variant }} \
+            --tag ghcr.io/appscode-images/daily/milvus:${{ matrix.tag }}${{ matrix.variant }}_${DATE_TAG}_linux_${arch} \
             --push \
             .
         done
