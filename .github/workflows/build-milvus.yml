@@ -18,7 +18,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        tag: [2.6.1, 2.6.2, 2.6.7, 2.6.9, 2.6.11, 3.0.0]
+        tag: [2.6.1, 2.6.2, 2.6.7, 2.6.9, 2.6.11, 2.6.15, 3.0.0]
     steps:
     - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
 
@@ -89,10 +89,10 @@ jobs:
         git clone https://github.com/appscode-images/milvus.git
         cd milvus
         git checkout master
-        
+
         # Generate date tag (e.g., 20251205)
         DATE_TAG=$(date -u +'%Y%m%d')
-        
+
         # Build and push MULTI-ARCH image (amd64 + arm64 combined)
         docker buildx build \
           --platform linux/amd64,linux/arm64 \
@@ -100,7 +100,7 @@ jobs:
           --tag ghcr.io/appscode-images/daily/milvus:${{ matrix.tag }}_${DATE_TAG} \
           --push \
           .
-        
+
         # Also build and push individual arch images for compatibility
         for arch in amd64 arm64; do
           docker buildx build \
@@ -183,4 +183,3 @@ jobs:
 #          git pull --rebase -s ours origin master
 #          git push origin HEAD
 #        fi
-
