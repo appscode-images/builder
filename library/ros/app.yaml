@@ -245,11 +245,68 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
+  Directory: ros/rolling/ubuntu/resolute/ros-core
+  File: ""
+  GitCommit: 7cd71a48fe6e5ea7035dad18c7f69236646ac75f
+  Tags:
+  - rolling-ros-core
+  - rolling-ros-core-resolute
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ros/rolling/ubuntu/resolute/ros-base
+  File: ""
+  GitCommit: 7cd71a48fe6e5ea7035dad18c7f69236646ac75f
+  Tags:
+  - rolling-ros-base
+  - rolling-ros-base-resolute
+  - rolling
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: ros/rolling/ubuntu/resolute/perception
+  File: ""
+  GitCommit: 7cd71a48fe6e5ea7035dad18c7f69236646ac75f
+  Tags:
+  - rolling-perception
+  - rolling-perception-resolute
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
   Directory: ros/rolling/ubuntu/noble/ros-core
   File: ""
   GitCommit: 8cf2903c0f8813aacd3042c71d4d2d56d5068ad5
   Tags:
-  - rolling-ros-core
   - rolling-ros-core-noble
 - Architectures:
     amd64:
@@ -268,9 +325,7 @@ Blocks:
   File: ""
   GitCommit: 8cf2903c0f8813aacd3042c71d4d2d56d5068ad5
   Tags:
-  - rolling-ros-base
   - rolling-ros-base-noble
-  - rolling
 - Architectures:
     amd64:
       Architecture: amd64
@@ -288,7 +343,6 @@ Blocks:
   File: ""
   GitCommit: 8cf2903c0f8813aacd3042c71d4d2d56d5068ad5
   Tags:
-  - rolling-perception
   - rolling-perception-noble
 - Architectures:
     amd64:
@@ -1871,14 +1925,17 @@ KnownTags:
   rolling-perception: {}
   rolling-perception-jammy: {}
   rolling-perception-noble: {}
+  rolling-perception-resolute: {}
   rolling-ros-base: {}
   rolling-ros-base-focal: {}
   rolling-ros-base-jammy: {}
   rolling-ros-base-noble: {}
+  rolling-ros-base-resolute: {}
   rolling-ros-core: {}
   rolling-ros-core-focal: {}
   rolling-ros-core-jammy: {}
   rolling-ros-core-noble: {}
+  rolling-ros-core-resolute: {}
   rolling-ros1-bridge: {}
   rolling-ros1-bridge-focal: {}
 Name: ros

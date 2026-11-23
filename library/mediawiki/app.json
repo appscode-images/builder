@@ -297,6 +297,9 @@
     "1.43.1": {},
     "1.43.1-fpm": {},
     "1.43.1-fpm-alpine": {},
+    "1.43.11": {},
+    "1.43.11-fpm": {},
+    "1.43.11-fpm-alpine": {},
     "1.43.3": {},
     "1.43.3-fpm": {},
     "1.43.3-fpm-alpine": {},
@@ -342,12 +345,18 @@
     "1.45.4": {},
     "1.45.4-fpm": {},
     "1.45.4-fpm-alpine": {},
+    "1.45.6": {},
+    "1.45.6-fpm": {},
+    "1.45.6-fpm-alpine": {},
     "1.46": {},
     "1.46-fpm": {},
     "1.46-fpm-alpine": {},
     "1.46.0": {},
     "1.46.0-fpm": {},
     "1.46.0-fpm-alpine": {},
+    "1.46.2": {},
+    "1.46.2-fpm": {},
+    "1.46.2-fpm-alpine": {},
     "latest": {},
     "legacy": {},
     "legacy-fpm": {},
@@ -367,30 +376,30 @@
   "Blocks": [
     {
       "Tags": [
-        "1.46.0",
+        "1.46.2",
         "1.46",
         "latest",
         "stable"
       ],
       "Architectures": null,
-      "GitCommit": "618c79d4d0afb207eb5b0d2b2821944bc653c2b9",
+      "GitCommit": "4e224a65eb00cbe762f6635c5fd72509657fc019",
       "Directory": "1.46/apache",
       "File": ""
     },
     {
       "Tags": [
-        "1.46.0-fpm",
+        "1.46.2-fpm",
         "1.46-fpm",
         "stable-fpm"
       ],
       "Architectures": null,
-      "GitCommit": "618c79d4d0afb207eb5b0d2b2821944bc653c2b9",
+      "GitCommit": "4e224a65eb00cbe762f6635c5fd72509657fc019",
       "Directory": "1.46/fpm",
       "File": ""
     },
     {
       "Tags": [
-        "1.46.0-fpm-alpine",
+        "1.46.2-fpm-alpine",
         "1.46-fpm-alpine",
         "stable-fpm-alpine"
       ],
@@ -438,33 +447,33 @@
           "File": ""
         }
       },
-      "GitCommit": "618c79d4d0afb207eb5b0d2b2821944bc653c2b9",
+      "GitCommit": "4e224a65eb00cbe762f6635c5fd72509657fc019",
       "Directory": "1.46/fpm-alpine",
       "File": ""
     },
     {
       "Tags": [
-        "1.45.4",
+        "1.45.6",
         "1.45"
       ],
       "Architectures": null,
-      "GitCommit": "618c79d4d0afb207eb5b0d2b2821944bc653c2b9",
+      "GitCommit": "4e224a65eb00cbe762f6635c5fd72509657fc019",
       "Directory": "1.45/apache",
       "File": ""
     },
     {
       "Tags": [
-        "1.45.4-fpm",
+        "1.45.6-fpm",
         "1.45-fpm"
       ],
       "Architectures": null,
-      "GitCommit": "618c79d4d0afb207eb5b0d2b2821944bc653c2b9",
+      "GitCommit": "4e224a65eb00cbe762f6635c5fd72509657fc019",
       "Directory": "1.45/fpm",
       "File": ""
     },
     {
       "Tags": [
-        "1.45.4-fpm-alpine",
+        "1.45.6-fpm-alpine",
         "1.45-fpm-alpine"
       ],
       "Architectures": {
@@ -511,8 +520,294 @@
           "File": ""
         }
       },
-      "GitCommit": "618c79d4d0afb207eb5b0d2b2821944bc653c2b9",
+      "GitCommit": "4e224a65eb00cbe762f6635c5fd72509657fc019",
       "Directory": "1.45/fpm-alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.43.11",
+        "1.43",
+        "lts"
+      ],
+      "Architectures": null,
+      "GitCommit": "4e224a65eb00cbe762f6635c5fd72509657fc019",
+      "Directory": "1.43/apache",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.43.11-fpm",
+        "1.43-fpm",
+        "lts-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "4e224a65eb00cbe762f6635c5fd72509657fc019",
+      "Directory": "1.43/fpm",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.43.11-fpm-alpine",
+        "1.43-fpm-alpine",
+        "lts-fpm-alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "4e224a65eb00cbe762f6635c5fd72509657fc019",
+      "Directory": "1.43/fpm-alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.46.0"
+      ],
+      "Architectures": null,
+      "GitCommit": "9001094c3c889d6ea56e71e3b3ccef73d5135feb",
+      "Directory": "1.46/apache",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.46.0-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "9001094c3c889d6ea56e71e3b3ccef73d5135feb",
+      "Directory": "1.46/fpm",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.46.0-fpm-alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "9001094c3c889d6ea56e71e3b3ccef73d5135feb",
+      "Directory": "1.46/fpm-alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.45.4"
+      ],
+      "Architectures": null,
+      "GitCommit": "9001094c3c889d6ea56e71e3b3ccef73d5135feb",
+      "Directory": "1.45/apache",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.45.4-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "9001094c3c889d6ea56e71e3b3ccef73d5135feb",
+      "Directory": "1.45/fpm",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.45.4-fpm-alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "9001094c3c889d6ea56e71e3b3ccef73d5135feb",
+      "Directory": "1.45/fpm-alpine",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.43.9"
+      ],
+      "Architectures": null,
+      "GitCommit": "9001094c3c889d6ea56e71e3b3ccef73d5135feb",
+      "Directory": "1.43/apache",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.43.9-fpm"
+      ],
+      "Architectures": null,
+      "GitCommit": "9001094c3c889d6ea56e71e3b3ccef73d5135feb",
+      "Directory": "1.43/fpm",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "1.43.9-fpm-alpine"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v6": {
+          "Architecture": "arm32v6",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "i386": {
+          "Architecture": "i386",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "ppc64le": {
+          "Architecture": "ppc64le",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "9001094c3c889d6ea56e71e3b3ccef73d5135feb",
+      "Directory": "1.43/fpm-alpine",
       "File": ""
     },
     {
@@ -586,82 +881,6 @@
       },
       "GitCommit": "618c79d4d0afb207eb5b0d2b2821944bc653c2b9",
       "Directory": "1.44/fpm-alpine",
-      "File": ""
-    },
-    {
-      "Tags": [
-        "1.43.9",
-        "1.43",
-        "lts"
-      ],
-      "Architectures": null,
-      "GitCommit": "618c79d4d0afb207eb5b0d2b2821944bc653c2b9",
-      "Directory": "1.43/apache",
-      "File": ""
-    },
-    {
-      "Tags": [
-        "1.43.9-fpm",
-        "1.43-fpm",
-        "lts-fpm"
-      ],
-      "Architectures": null,
-      "GitCommit": "618c79d4d0afb207eb5b0d2b2821944bc653c2b9",
-      "Directory": "1.43/fpm",
-      "File": ""
-    },
-    {
-      "Tags": [
-        "1.43.9-fpm-alpine",
-        "1.43-fpm-alpine",
-        "lts-fpm-alpine"
-      ],
-      "Architectures": {
-        "amd64": {
-          "Architecture": "amd64",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm32v6": {
-          "Architecture": "arm32v6",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm32v7": {
-          "Architecture": "arm32v7",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "arm64v8": {
-          "Architecture": "arm64v8",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "i386": {
-          "Architecture": "i386",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        },
-        "ppc64le": {
-          "Architecture": "ppc64le",
-          "Directory": "",
-          "GitFetch": "",
-          "GitCommit": "",
-          "File": ""
-        }
-      },
-      "GitCommit": "618c79d4d0afb207eb5b0d2b2821944bc653c2b9",
-      "Directory": "1.43/fpm-alpine",
       "File": ""
     },
     {

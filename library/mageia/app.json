@@ -2,6 +2,7 @@
   "Name": "mageia",
   "GitRepo": "https://github.com/juanluisbaptiste/docker-brew-mageia.git",
   "KnownTags": {
+    "10": {},
     "5": {},
     "5.1": {},
     "6": {},
@@ -15,8 +16,39 @@
   "Blocks": [
     {
       "Tags": [
-        "9",
+        "10",
         "latest"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "dist/10/x86_64",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm32v7": {
+          "Architecture": "arm32v7",
+          "Directory": "dist/10/armv7hl",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "dist/10/aarch64",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "04ad05e8a31e18ec2a4a7087bdd54934266493a3",
+      "Directory": "",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "9"
       ],
       "Architectures": {
         "amd64": {
@@ -41,7 +73,7 @@
           "File": ""
         }
       },
-      "GitCommit": "2dcaddf8f7d1cdab109b6c1e6259068acaeb72a9",
+      "GitCommit": "04ad05e8a31e18ec2a4a7087bdd54934266493a3",
       "Directory": "",
       "File": ""
     },
@@ -72,7 +104,7 @@
           "File": ""
         }
       },
-      "GitCommit": "2dcaddf8f7d1cdab109b6c1e6259068acaeb72a9",
+      "GitCommit": "04ad05e8a31e18ec2a4a7087bdd54934266493a3",
       "Directory": "",
       "File": ""
     },

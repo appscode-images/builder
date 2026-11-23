@@ -1,71 +1,456 @@
 GitRepo: https://github.com/nginx/docker-nginx.git
 
-Tags: 1.31.2,mainline,1,1.31,latest,1.31.2-trixie,mainline-trixie,1-trixie,1.31-trixie,trixie
+Tags: 1.31.9,mainline,1,1.31,latest,1.31.9-trixie,mainline-trixie,1-trixie,1.31-trixie,trixie
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
+Directory: mainline/debian
+
+Tags: 1.31.9-perl,mainline-perl,1-perl,1.31-perl,perl,1.31.9-trixie-perl,mainline-trixie-perl,1-trixie-perl,1.31-trixie-perl,trixie-perl
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
+Directory: mainline/debian-perl
+
+Tags: 1.31.9-otel,mainline-otel,1-otel,1.31-otel,otel,1.31.9-trixie-otel,mainline-trixie-otel,1-trixie-otel,1.31-trixie-otel,trixie-otel
+Architectures: amd64,arm64v8
+GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
+Directory: mainline/debian-otel
+
+Tags: 1.31.9-alpine,mainline-alpine,1-alpine,1.31-alpine,alpine,1.31.9-alpine3.24,mainline-alpine3.24,1-alpine3.24,1.31-alpine3.24,alpine3.24
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
+Directory: mainline/alpine
+
+Tags: 1.31.9-alpine-perl,mainline-alpine-perl,1-alpine-perl,1.31-alpine-perl,alpine-perl,1.31.9-alpine3.24-perl,mainline-alpine3.24-perl,1-alpine3.24-perl,1.31-alpine3.24-perl,alpine3.24-perl
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
+Directory: mainline/alpine-perl
+
+Tags: 1.31.9-alpine-slim,mainline-alpine-slim,1-alpine-slim,1.31-alpine-slim,alpine-slim,1.31.9-alpine3.24-slim,mainline-alpine3.24-slim,1-alpine3.24-slim,1.31-alpine3.24-slim,alpine3.24-slim
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
+Directory: mainline/alpine-slim
+
+Tags: 1.31.9-alpine-otel,mainline-alpine-otel,1-alpine-otel,1.31-alpine-otel,alpine-otel,1.31.9-alpine3.24-otel,mainline-alpine3.24-otel,1-alpine3.24-otel,1.31-alpine3.24-otel,alpine3.24-otel
+Architectures: amd64,arm64v8
+GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
+Directory: mainline/alpine-otel
+
+Tags: 1.30.7,stable,1.30,1.30.7-trixie,stable-trixie,1.30-trixie
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
+Directory: stable/debian
+
+Tags: 1.30.7-perl,stable-perl,1.30-perl,1.30.7-trixie-perl,stable-trixie-perl,1.30-trixie-perl
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
+Directory: stable/debian-perl
+
+Tags: 1.30.7-otel,stable-otel,1.30-otel,1.30.7-trixie-otel,stable-trixie-otel,1.30-trixie-otel
+Architectures: amd64,arm64v8
+GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
+Directory: stable/debian-otel
+
+Tags: 1.30.7-alpine,stable-alpine,1.30-alpine,1.30.7-alpine3.24,stable-alpine3.24,1.30-alpine3.24
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
+Directory: stable/alpine
+
+Tags: 1.30.7-alpine-perl,stable-alpine-perl,1.30-alpine-perl,1.30.7-alpine3.24-perl,stable-alpine3.24-perl,1.30-alpine3.24-perl
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
+Directory: stable/alpine-perl
+
+Tags: 1.30.7-alpine-slim,stable-alpine-slim,1.30-alpine-slim,1.30.7-alpine3.24-slim,stable-alpine3.24-slim,1.30-alpine3.24-slim
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
+Directory: stable/alpine-slim
+
+Tags: 1.30.7-alpine-otel,stable-alpine-otel,1.30-alpine-otel,1.30.7-alpine3.24-otel,stable-alpine3.24-otel,1.30-alpine3.24-otel
+Architectures: amd64,arm64v8
+GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
+Directory: stable/alpine-otel
+
+Tags: 1.31.8,1.31.8-trixie
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 6fabb4c960a02a1e576d2789974c45f4cd2aa854
+Directory: mainline/debian
+
+Tags: 1.31.8-perl,1.31.8-trixie-perl
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 6fabb4c960a02a1e576d2789974c45f4cd2aa854
+Directory: mainline/debian-perl
+
+Tags: 1.31.8-otel,1.31.8-trixie-otel
+Architectures: amd64,arm64v8
+GitCommit: 6fabb4c960a02a1e576d2789974c45f4cd2aa854
+Directory: mainline/debian-otel
+
+Tags: 1.31.8-alpine,1.31.8-alpine3.24
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 6fabb4c960a02a1e576d2789974c45f4cd2aa854
+Directory: mainline/alpine
+
+Tags: 1.31.8-alpine-perl,1.31.8-alpine3.24-perl
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 6fabb4c960a02a1e576d2789974c45f4cd2aa854
+Directory: mainline/alpine-perl
+
+Tags: 1.31.8-alpine-slim,1.31.8-alpine3.24-slim
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 6fabb4c960a02a1e576d2789974c45f4cd2aa854
+Directory: mainline/alpine-slim
+
+Tags: 1.31.8-alpine-otel,1.31.8-alpine3.24-otel
+Architectures: amd64,arm64v8
+GitCommit: 6fabb4c960a02a1e576d2789974c45f4cd2aa854
+Directory: mainline/alpine-otel
+
+Tags: 1.30.6,1.30.6-trixie
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 4b9f658be76820b24e4ef4605413a5c08707a512
+Directory: stable/debian
+
+Tags: 1.30.6-perl,1.30.6-trixie-perl
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 4b9f658be76820b24e4ef4605413a5c08707a512
+Directory: stable/debian-perl
+
+Tags: 1.30.6-otel,1.30.6-trixie-otel
+Architectures: amd64,arm64v8
+GitCommit: 4b9f658be76820b24e4ef4605413a5c08707a512
+Directory: stable/debian-otel
+
+Tags: 1.30.6-alpine,1.30.6-alpine3.24
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 4b9f658be76820b24e4ef4605413a5c08707a512
+Directory: stable/alpine
+
+Tags: 1.30.6-alpine-perl,1.30.6-alpine3.24-perl
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 4b9f658be76820b24e4ef4605413a5c08707a512
+Directory: stable/alpine-perl
+
+Tags: 1.30.6-alpine-slim,1.30.6-alpine3.24-slim
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 4b9f658be76820b24e4ef4605413a5c08707a512
+Directory: stable/alpine-slim
+
+Tags: 1.30.6-alpine-otel,1.30.6-alpine3.24-otel
+Architectures: amd64,arm64v8
+GitCommit: 4b9f658be76820b24e4ef4605413a5c08707a512
+Directory: stable/alpine-otel
+
+Tags: 1.31.7,1.31.7-trixie
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 4b9f658be76820b24e4ef4605413a5c08707a512
+Directory: mainline/debian
+
+Tags: 1.31.7-perl,1.31.7-trixie-perl
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 4b9f658be76820b24e4ef4605413a5c08707a512
+Directory: mainline/debian-perl
+
+Tags: 1.31.7-otel,1.31.7-trixie-otel
+Architectures: amd64,arm64v8
+GitCommit: 4b9f658be76820b24e4ef4605413a5c08707a512
+Directory: mainline/debian-otel
+
+Tags: 1.31.7-alpine,1.31.7-alpine3.24
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 4b9f658be76820b24e4ef4605413a5c08707a512
+Directory: mainline/alpine
+
+Tags: 1.31.7-alpine-perl,1.31.7-alpine3.24-perl
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 4b9f658be76820b24e4ef4605413a5c08707a512
+Directory: mainline/alpine-perl
+
+Tags: 1.31.7-alpine-slim,1.31.7-alpine3.24-slim
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 4b9f658be76820b24e4ef4605413a5c08707a512
+Directory: mainline/alpine-slim
+
+Tags: 1.31.7-alpine-otel,1.31.7-alpine3.24-otel
+Architectures: amd64,arm64v8
+GitCommit: 4b9f658be76820b24e4ef4605413a5c08707a512
+Directory: mainline/alpine-otel
+
+Tags: 1.31.6,1.31.6-trixie
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: a16f1329e13e7273c4103f75d863ca625b75109e
+Directory: mainline/debian
+
+Tags: 1.31.6-perl,1.31.6-trixie-perl
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: a16f1329e13e7273c4103f75d863ca625b75109e
+Directory: mainline/debian-perl
+
+Tags: 1.31.6-otel,1.31.6-trixie-otel
+Architectures: amd64,arm64v8
+GitCommit: a16f1329e13e7273c4103f75d863ca625b75109e
+Directory: mainline/debian-otel
+
+Tags: 1.31.6-alpine,1.31.6-alpine3.24
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: a16f1329e13e7273c4103f75d863ca625b75109e
+Directory: mainline/alpine
+
+Tags: 1.31.6-alpine-perl,1.31.6-alpine3.24-perl
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: a16f1329e13e7273c4103f75d863ca625b75109e
+Directory: mainline/alpine-perl
+
+Tags: 1.31.6-alpine-slim,1.31.6-alpine3.24-slim
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: ef5a25a6314e652a2dcfbce6074bef729f4d9639
+Directory: mainline/alpine-slim
+
+Tags: 1.31.6-alpine-otel,1.31.6-alpine3.24-otel
+Architectures: amd64,arm64v8
+GitCommit: a16f1329e13e7273c4103f75d863ca625b75109e
+Directory: mainline/alpine-otel
+
+Tags: 1.30.5,1.30.5-trixie
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: a16f1329e13e7273c4103f75d863ca625b75109e
+Directory: stable/debian
+
+Tags: 1.30.5-perl,1.30.5-trixie-perl
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: a16f1329e13e7273c4103f75d863ca625b75109e
+Directory: stable/debian-perl
+
+Tags: 1.30.5-otel,1.30.5-trixie-otel
+Architectures: amd64,arm64v8
+GitCommit: a16f1329e13e7273c4103f75d863ca625b75109e
+Directory: stable/debian-otel
+
+Tags: 1.30.5-alpine,1.30.5-alpine3.24
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: a16f1329e13e7273c4103f75d863ca625b75109e
+Directory: stable/alpine
+
+Tags: 1.30.5-alpine-perl,1.30.5-alpine3.24-perl
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: a16f1329e13e7273c4103f75d863ca625b75109e
+Directory: stable/alpine-perl
+
+Tags: 1.30.5-alpine-slim,1.30.5-alpine3.24-slim
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: ef5a25a6314e652a2dcfbce6074bef729f4d9639
+Directory: stable/alpine-slim
+
+Tags: 1.30.5-alpine-otel,1.30.5-alpine3.24-otel
+Architectures: amd64,arm64v8
+GitCommit: a16f1329e13e7273c4103f75d863ca625b75109e
+Directory: stable/alpine-otel
+
+Tags: 1.31.5,1.31.5-trixie
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: c5b3ce398e37067d93ab1edf803e9b96a1116092
+Directory: mainline/debian
+
+Tags: 1.31.5-perl,1.31.5-trixie-perl
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: c5b3ce398e37067d93ab1edf803e9b96a1116092
+Directory: mainline/debian-perl
+
+Tags: 1.31.5-otel,1.31.5-trixie-otel
+Architectures: amd64,arm64v8
+GitCommit: c5b3ce398e37067d93ab1edf803e9b96a1116092
+Directory: mainline/debian-otel
+
+Tags: 1.31.5-alpine,1.31.5-alpine3.24
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: c5b3ce398e37067d93ab1edf803e9b96a1116092
+Directory: mainline/alpine
+
+Tags: 1.31.5-alpine-perl,1.31.5-alpine3.24-perl
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: c5b3ce398e37067d93ab1edf803e9b96a1116092
+Directory: mainline/alpine-perl
+
+Tags: 1.31.5-alpine-slim,1.31.5-alpine3.24-slim
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: c5b3ce398e37067d93ab1edf803e9b96a1116092
+Directory: mainline/alpine-slim
+
+Tags: 1.31.5-alpine-otel,1.31.5-alpine3.24-otel
+Architectures: amd64,arm64v8
+GitCommit: c5b3ce398e37067d93ab1edf803e9b96a1116092
+Directory: mainline/alpine-otel
+
+Tags: 1.30.4,1.30.4-trixie
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: c5b3ce398e37067d93ab1edf803e9b96a1116092
+Directory: stable/debian
+
+Tags: 1.30.4-perl,1.30.4-trixie-perl
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: c5b3ce398e37067d93ab1edf803e9b96a1116092
+Directory: stable/debian-perl
+
+Tags: 1.30.4-otel,1.30.4-trixie-otel
+Architectures: amd64,arm64v8
+GitCommit: c5b3ce398e37067d93ab1edf803e9b96a1116092
+Directory: stable/debian-otel
+
+Tags: 1.30.4-alpine,1.30.4-alpine3.24
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: c5b3ce398e37067d93ab1edf803e9b96a1116092
+Directory: stable/alpine
+
+Tags: 1.30.4-alpine-perl,1.30.4-alpine3.24-perl
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: c5b3ce398e37067d93ab1edf803e9b96a1116092
+Directory: stable/alpine-perl
+
+Tags: 1.30.4-alpine-slim,1.30.4-alpine3.24-slim
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: c5b3ce398e37067d93ab1edf803e9b96a1116092
+Directory: stable/alpine-slim
+
+Tags: 1.30.4-alpine-otel,1.30.4-alpine3.24-otel
+Architectures: amd64,arm64v8
+GitCommit: c5b3ce398e37067d93ab1edf803e9b96a1116092
+Directory: stable/alpine-otel
+
+Tags: 1.31.4,1.31.4-trixie
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: b8590bd36b4504b9b847fcf2e98a9111dcae85fa
+Directory: mainline/debian
+
+Tags: 1.31.4-perl,1.31.4-trixie-perl
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: b8590bd36b4504b9b847fcf2e98a9111dcae85fa
+Directory: mainline/debian-perl
+
+Tags: 1.31.4-otel,1.31.4-trixie-otel
+Architectures: amd64,arm64v8
+GitCommit: b8590bd36b4504b9b847fcf2e98a9111dcae85fa
+Directory: mainline/debian-otel
+
+Tags: 1.31.4-alpine,1.31.4-alpine3.24
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: b8590bd36b4504b9b847fcf2e98a9111dcae85fa
+Directory: mainline/alpine
+
+Tags: 1.31.4-alpine-perl,1.31.4-alpine3.24-perl
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: b8590bd36b4504b9b847fcf2e98a9111dcae85fa
+Directory: mainline/alpine-perl
+
+Tags: 1.31.4-alpine-slim,1.31.4-alpine3.24-slim
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: b8590bd36b4504b9b847fcf2e98a9111dcae85fa
+Directory: mainline/alpine-slim
+
+Tags: 1.31.4-alpine-otel,1.31.4-alpine3.24-otel
+Architectures: amd64,arm64v8
+GitCommit: b8590bd36b4504b9b847fcf2e98a9111dcae85fa
+Directory: mainline/alpine-otel
+
+Tags: 1.31.3,1.31.3-trixie
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: ccdab6c99ae2e2fc53a144dc68d6b8f44163adf2
+Directory: mainline/debian
+
+Tags: 1.31.3-perl,1.31.3-trixie-perl
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: ccdab6c99ae2e2fc53a144dc68d6b8f44163adf2
+Directory: mainline/debian-perl
+
+Tags: 1.31.3-otel,1.31.3-trixie-otel
+Architectures: amd64,arm64v8
+GitCommit: ccdab6c99ae2e2fc53a144dc68d6b8f44163adf2
+Directory: mainline/debian-otel
+
+Tags: 1.31.3-alpine,1.31.3-alpine3.24
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: ccdab6c99ae2e2fc53a144dc68d6b8f44163adf2
+Directory: mainline/alpine
+
+Tags: 1.31.3-alpine-perl,1.31.3-alpine3.24-perl
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: ccdab6c99ae2e2fc53a144dc68d6b8f44163adf2
+Directory: mainline/alpine-perl
+
+Tags: 1.31.3-alpine-slim,1.31.3-alpine3.24-slim
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: ccdab6c99ae2e2fc53a144dc68d6b8f44163adf2
+Directory: mainline/alpine-slim
+
+Tags: 1.31.3-alpine-otel,1.31.3-alpine3.24-otel
+Architectures: amd64,arm64v8
+GitCommit: ccdab6c99ae2e2fc53a144dc68d6b8f44163adf2
+Directory: mainline/alpine-otel
+
+Tags: 1.31.2,1.31.2-trixie
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 00348041cc12284266751457dcfc10b15645476a
 Directory: mainline/debian
 
-Tags: 1.31.2-perl,mainline-perl,1-perl,1.31-perl,perl,1.31.2-trixie-perl,mainline-trixie-perl,1-trixie-perl,1.31-trixie-perl,trixie-perl
+Tags: 1.31.2-perl,1.31.2-trixie-perl
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 00348041cc12284266751457dcfc10b15645476a
 Directory: mainline/debian-perl
 
-Tags: 1.31.2-otel,mainline-otel,1-otel,1.31-otel,otel,1.31.2-trixie-otel,mainline-trixie-otel,1-trixie-otel,1.31-trixie-otel,trixie-otel
+Tags: 1.31.2-otel,1.31.2-trixie-otel
 Architectures: amd64,arm64v8
 GitCommit: 00348041cc12284266751457dcfc10b15645476a
 Directory: mainline/debian-otel
 
-Tags: 1.31.2-alpine,mainline-alpine,1-alpine,1.31-alpine,alpine,1.31.2-alpine3.23,mainline-alpine3.23,1-alpine3.23,1.31-alpine3.23,alpine3.23
+Tags: 1.31.2-alpine,1.31.2-alpine3.23,mainline-alpine3.23,1-alpine3.23,1.31-alpine3.23,alpine3.23
 Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 00348041cc12284266751457dcfc10b15645476a
 Directory: mainline/alpine
 
-Tags: 1.31.2-alpine-perl,mainline-alpine-perl,1-alpine-perl,1.31-alpine-perl,alpine-perl,1.31.2-alpine3.23-perl,mainline-alpine3.23-perl,1-alpine3.23-perl,1.31-alpine3.23-perl,alpine3.23-perl
+Tags: 1.31.2-alpine-perl,1.31.2-alpine3.23-perl,mainline-alpine3.23-perl,1-alpine3.23-perl,1.31-alpine3.23-perl,alpine3.23-perl
 Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 00348041cc12284266751457dcfc10b15645476a
 Directory: mainline/alpine-perl
 
-Tags: 1.31.2-alpine-slim,mainline-alpine-slim,1-alpine-slim,1.31-alpine-slim,alpine-slim,1.31.2-alpine3.23-slim,mainline-alpine3.23-slim,1-alpine3.23-slim,1.31-alpine3.23-slim,alpine3.23-slim
+Tags: 1.31.2-alpine-slim,1.31.2-alpine3.23-slim,mainline-alpine3.23-slim,1-alpine3.23-slim,1.31-alpine3.23-slim,alpine3.23-slim
 Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 00348041cc12284266751457dcfc10b15645476a
 Directory: mainline/alpine-slim
 
-Tags: 1.31.2-alpine-otel,mainline-alpine-otel,1-alpine-otel,1.31-alpine-otel,alpine-otel,1.31.2-alpine3.23-otel,mainline-alpine3.23-otel,1-alpine3.23-otel,1.31-alpine3.23-otel,alpine3.23-otel
+Tags: 1.31.2-alpine-otel,1.31.2-alpine3.23-otel,mainline-alpine3.23-otel,1-alpine3.23-otel,1.31-alpine3.23-otel,alpine3.23-otel
 Architectures: amd64,arm64v8
 GitCommit: 00348041cc12284266751457dcfc10b15645476a
 Directory: mainline/alpine-otel
 
-Tags: 1.30.3,stable,1.30,1.30.3-trixie,stable-trixie,1.30-trixie
+Tags: 1.30.3,1.30.3-trixie
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 00348041cc12284266751457dcfc10b15645476a
 Directory: stable/debian
 
-Tags: 1.30.3-perl,stable-perl,1.30-perl,1.30.3-trixie-perl,stable-trixie-perl,1.30-trixie-perl
+Tags: 1.30.3-perl,1.30.3-trixie-perl
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 00348041cc12284266751457dcfc10b15645476a
 Directory: stable/debian-perl
 
-Tags: 1.30.3-otel,stable-otel,1.30-otel,1.30.3-trixie-otel,stable-trixie-otel,1.30-trixie-otel
+Tags: 1.30.3-otel,1.30.3-trixie-otel
 Architectures: amd64,arm64v8
 GitCommit: 00348041cc12284266751457dcfc10b15645476a
 Directory: stable/debian-otel
 
-Tags: 1.30.3-alpine,stable-alpine,1.30-alpine,1.30.3-alpine3.23,stable-alpine3.23,1.30-alpine3.23
+Tags: 1.30.3-alpine,1.30.3-alpine3.23,stable-alpine3.23,1.30-alpine3.23
 Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 00348041cc12284266751457dcfc10b15645476a
 Directory: stable/alpine
 
-Tags: 1.30.3-alpine-perl,stable-alpine-perl,1.30-alpine-perl,1.30.3-alpine3.23-perl,stable-alpine3.23-perl,1.30-alpine3.23-perl
+Tags: 1.30.3-alpine-perl,1.30.3-alpine3.23-perl,stable-alpine3.23-perl,1.30-alpine3.23-perl
 Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 00348041cc12284266751457dcfc10b15645476a
 Directory: stable/alpine-perl
 
-Tags: 1.30.3-alpine-slim,stable-alpine-slim,1.30-alpine-slim,1.30.3-alpine3.23-slim,stable-alpine3.23-slim,1.30-alpine3.23-slim
+Tags: 1.30.3-alpine-slim,1.30.3-alpine3.23-slim,stable-alpine3.23-slim,1.30-alpine3.23-slim
 Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 00348041cc12284266751457dcfc10b15645476a
 Directory: stable/alpine-slim
 
-Tags: 1.30.3-alpine-otel,stable-alpine-otel,1.30-alpine-otel,1.30.3-alpine3.23-otel,stable-alpine3.23-otel,1.30-alpine3.23-otel
+Tags: 1.30.3-alpine-otel,1.30.3-alpine3.23-otel,stable-alpine3.23-otel,1.30-alpine3.23-otel
 Architectures: amd64,arm64v8
 GitCommit: 00348041cc12284266751457dcfc10b15645476a
 Directory: stable/alpine-otel

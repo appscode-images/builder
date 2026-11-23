@@ -1,41 +1,301 @@
 GitRepo: https://github.com/nats-io/nats-docker.git
 
-Tags: 2.14.3-alpine3.22,2.14-alpine3.22,2-alpine3.22,alpine3.22,2.14.3-alpine,2.14-alpine,2-alpine,alpine
+Tags: 2.15.3-alpine3.22,2.15-alpine3.22,2-alpine3.22,alpine3.22,2.15.3-alpine,2.15-alpine,2-alpine,alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: 28d8df6d32abe43a6116bf9e40bbc3cf37ee9f56
+Directory: 2.15.x/alpine3.22
+
+Tags: 2.15.3-scratch,2.15-scratch,2-scratch,scratch,2.15.3-linux,2.15-linux,2-linux,linux,2.15.3,2.15,2,latest
+Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: 28d8df6d32abe43a6116bf9e40bbc3cf37ee9f56
+Directory: 2.15.x/scratch
+
+Tags: 2.15.3-windowsservercore-ltsc2022,2.15-windowsservercore-ltsc2022,2-windowsservercore-ltsc2022,windowsservercore-ltsc2022,2.15.3-windowsservercore,2.15-windowsservercore,2-windowsservercore,windowsservercore
+Architectures: windows-amd64
+GitCommit: 28d8df6d32abe43a6116bf9e40bbc3cf37ee9f56
+Directory: 2.15.x/windowsservercore-ltsc2022
+
+Tags: 2.15.3-nanoserver-ltsc2022,2.15-nanoserver-ltsc2022,2-nanoserver-ltsc2022,nanoserver-ltsc2022,2.15.3-nanoserver,2.15-nanoserver,2-nanoserver,nanoserver
+Architectures: windows-amd64
+GitCommit: 28d8df6d32abe43a6116bf9e40bbc3cf37ee9f56
+Directory: 2.15.x/nanoserver-ltsc2022
+
+Tags: 2.14.10-alpine3.22,2.14-alpine3.22,2.14.10-alpine,2.14-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: 28d8df6d32abe43a6116bf9e40bbc3cf37ee9f56
+Directory: 2.14.x/alpine3.22
+
+Tags: 2.14.10-scratch,2.14-scratch,2.14.10-linux,2.14-linux,2.14.10,2.14
+Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: 28d8df6d32abe43a6116bf9e40bbc3cf37ee9f56
+Directory: 2.14.x/scratch
+
+Tags: 2.14.10-windowsservercore-ltsc2022,2.14-windowsservercore-ltsc2022,2.14.10-windowsservercore,2.14-windowsservercore
+Architectures: windows-amd64
+GitCommit: 28d8df6d32abe43a6116bf9e40bbc3cf37ee9f56
+Directory: 2.14.x/windowsservercore-ltsc2022
+
+Tags: 2.14.10-nanoserver-ltsc2022,2.14-nanoserver-ltsc2022,2.14.10-nanoserver,2.14-nanoserver
+Architectures: windows-amd64
+GitCommit: 28d8df6d32abe43a6116bf9e40bbc3cf37ee9f56
+Directory: 2.14.x/nanoserver-ltsc2022
+
+Tags: 2.15.2-alpine3.22,2.15.2-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: 2027d0acef4a2c603c0324dde7d4f3c4a8bf27c6
+Directory: 2.15.x/alpine3.22
+
+Tags: 2.15.2-scratch,2.15.2-linux,2.15.2
+Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: 2027d0acef4a2c603c0324dde7d4f3c4a8bf27c6
+Directory: 2.15.x/scratch
+
+Tags: 2.15.2-windowsservercore-ltsc2022,2.15.2-windowsservercore
+Architectures: windows-amd64
+GitCommit: 2027d0acef4a2c603c0324dde7d4f3c4a8bf27c6
+Directory: 2.15.x/windowsservercore-ltsc2022
+
+Tags: 2.15.2-nanoserver-ltsc2022,2.15.2-nanoserver
+Architectures: windows-amd64
+GitCommit: 2027d0acef4a2c603c0324dde7d4f3c4a8bf27c6
+Directory: 2.15.x/nanoserver-ltsc2022
+
+Tags: 2.14.9-alpine3.22,2.14.9-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: 2027d0acef4a2c603c0324dde7d4f3c4a8bf27c6
+Directory: 2.14.x/alpine3.22
+
+Tags: 2.14.9-scratch,2.14.9-linux,2.14.9
+Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: 2027d0acef4a2c603c0324dde7d4f3c4a8bf27c6
+Directory: 2.14.x/scratch
+
+Tags: 2.14.9-windowsservercore-ltsc2022,2.14.9-windowsservercore
+Architectures: windows-amd64
+GitCommit: 2027d0acef4a2c603c0324dde7d4f3c4a8bf27c6
+Directory: 2.14.x/windowsservercore-ltsc2022
+
+Tags: 2.14.9-nanoserver-ltsc2022,2.14.9-nanoserver
+Architectures: windows-amd64
+GitCommit: 2027d0acef4a2c603c0324dde7d4f3c4a8bf27c6
+Directory: 2.14.x/nanoserver-ltsc2022
+
+Tags: 2.15.1-alpine3.22,2.15.1-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: 57332cb1aea214fbf8aca7683ffae4c5751c0409
+Directory: 2.15.x/alpine3.22
+
+Tags: 2.15.1-scratch,2.15.1-linux,2.15.1
+Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: 57332cb1aea214fbf8aca7683ffae4c5751c0409
+Directory: 2.15.x/scratch
+
+Tags: 2.15.1-windowsservercore-ltsc2022,2.15.1-windowsservercore
+Architectures: windows-amd64
+GitCommit: 57332cb1aea214fbf8aca7683ffae4c5751c0409
+Directory: 2.15.x/windowsservercore-ltsc2022
+
+Tags: 2.15.1-nanoserver-ltsc2022,2.15.1-nanoserver
+Architectures: windows-amd64
+GitCommit: 57332cb1aea214fbf8aca7683ffae4c5751c0409
+Directory: 2.15.x/nanoserver-ltsc2022
+
+Tags: 2.14.8-alpine3.22,2.14.8-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: 57332cb1aea214fbf8aca7683ffae4c5751c0409
+Directory: 2.14.x/alpine3.22
+
+Tags: 2.14.8-scratch,2.14.8-linux,2.14.8
+Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: 57332cb1aea214fbf8aca7683ffae4c5751c0409
+Directory: 2.14.x/scratch
+
+Tags: 2.14.8-windowsservercore-ltsc2022,2.14.8-windowsservercore
+Architectures: windows-amd64
+GitCommit: 57332cb1aea214fbf8aca7683ffae4c5751c0409
+Directory: 2.14.x/windowsservercore-ltsc2022
+
+Tags: 2.14.8-nanoserver-ltsc2022,2.14.8-nanoserver
+Architectures: windows-amd64
+GitCommit: 57332cb1aea214fbf8aca7683ffae4c5751c0409
+Directory: 2.14.x/nanoserver-ltsc2022
+
+Tags: 2.15.0-alpine3.22,2.15.0-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: 0e72748d3cb553ccdb8c2da7c75ec3b767be51a5
+Directory: 2.15.x/alpine3.22
+
+Tags: 2.15.0-scratch,2.15.0-linux,2.15.0
+Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: 0e72748d3cb553ccdb8c2da7c75ec3b767be51a5
+Directory: 2.15.x/scratch
+
+Tags: 2.15.0-windowsservercore-ltsc2022,2.15.0-windowsservercore
+Architectures: windows-amd64
+GitCommit: 0e72748d3cb553ccdb8c2da7c75ec3b767be51a5
+Directory: 2.15.x/windowsservercore-ltsc2022
+
+Tags: 2.15.0-nanoserver-ltsc2022,2.15.0-nanoserver
+Architectures: windows-amd64
+GitCommit: 0e72748d3cb553ccdb8c2da7c75ec3b767be51a5
+Directory: 2.15.x/nanoserver-ltsc2022
+
+Tags: 2.14.7-alpine3.22,2.14.7-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: 0e72748d3cb553ccdb8c2da7c75ec3b767be51a5
+Directory: 2.14.x/alpine3.22
+
+Tags: 2.14.7-scratch,2.14.7-linux,2.14.7
+Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: 0e72748d3cb553ccdb8c2da7c75ec3b767be51a5
+Directory: 2.14.x/scratch
+
+Tags: 2.14.7-windowsservercore-ltsc2022,2.14.7-windowsservercore
+Architectures: windows-amd64
+GitCommit: 0e72748d3cb553ccdb8c2da7c75ec3b767be51a5
+Directory: 2.14.x/windowsservercore-ltsc2022
+
+Tags: 2.14.7-nanoserver-ltsc2022,2.14.7-nanoserver
+Architectures: windows-amd64
+GitCommit: 0e72748d3cb553ccdb8c2da7c75ec3b767be51a5
+Directory: 2.14.x/nanoserver-ltsc2022
+
+Tags: 2.12.15-alpine3.22,2.12-alpine3.22,2.12.15-alpine,2.12-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: fe222b5f971730561e347c909985808cc3e447ce
+Directory: 2.12.x/alpine3.22
+
+Tags: 2.12.15-scratch,2.12-scratch,2.12.15-linux,2.12-linux,2.12.15,2.12
+Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: fe222b5f971730561e347c909985808cc3e447ce
+Directory: 2.12.x/scratch
+
+Tags: 2.12.15-windowsservercore-ltsc2022,2.12-windowsservercore-ltsc2022,2.12.15-windowsservercore,2.12-windowsservercore
+Architectures: windows-amd64
+GitCommit: fe222b5f971730561e347c909985808cc3e447ce
+Directory: 2.12.x/windowsservercore-ltsc2022
+
+Tags: 2.12.15-nanoserver-ltsc2022,2.12-nanoserver-ltsc2022,2.12.15-nanoserver,2.12-nanoserver
+Architectures: windows-amd64
+GitCommit: fe222b5f971730561e347c909985808cc3e447ce
+Directory: 2.12.x/nanoserver-ltsc2022
+
+Tags: 2.14.6-alpine3.22,2.14.6-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: e55a3d1604e9fcd5b5b988b1ab68948d033a4708
+Directory: 2.14.x/alpine3.22
+
+Tags: 2.14.6-scratch,2.14.6-linux,2.14.6
+Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: e55a3d1604e9fcd5b5b988b1ab68948d033a4708
+Directory: 2.14.x/scratch
+
+Tags: 2.14.6-windowsservercore-ltsc2022,2.14.6-windowsservercore
+Architectures: windows-amd64
+GitCommit: e55a3d1604e9fcd5b5b988b1ab68948d033a4708
+Directory: 2.14.x/windowsservercore-ltsc2022
+
+Tags: 2.14.6-nanoserver-ltsc2022,2.14.6-nanoserver
+Architectures: windows-amd64
+GitCommit: e55a3d1604e9fcd5b5b988b1ab68948d033a4708
+Directory: 2.14.x/nanoserver-ltsc2022
+
+Tags: 2.14.5-alpine3.22,2.14.5-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: aa0caa57b71c01566a100b47b2ed94de6ef6cf80
+Directory: 2.14.x/alpine3.22
+
+Tags: 2.14.5-scratch,2.14.5-linux,2.14.5
+Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: aa0caa57b71c01566a100b47b2ed94de6ef6cf80
+Directory: 2.14.x/scratch
+
+Tags: 2.14.5-windowsservercore-ltsc2022,2.14.5-windowsservercore
+Architectures: windows-amd64
+GitCommit: aa0caa57b71c01566a100b47b2ed94de6ef6cf80
+Directory: 2.14.x/windowsservercore-ltsc2022
+
+Tags: 2.14.5-nanoserver-ltsc2022,2.14.5-nanoserver
+Architectures: windows-amd64
+GitCommit: aa0caa57b71c01566a100b47b2ed94de6ef6cf80
+Directory: 2.14.x/nanoserver-ltsc2022
+
+Tags: 2.14.4-alpine3.22,2.14.4-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: 2240af2a7067772eaa6453e3aa801c2c28657440
+Directory: 2.14.x/alpine3.22
+
+Tags: 2.14.4-scratch,2.14.4-linux,2.14.4
+Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: 2240af2a7067772eaa6453e3aa801c2c28657440
+Directory: 2.14.x/scratch
+
+Tags: 2.14.4-windowsservercore-ltsc2022,2.14.4-windowsservercore
+Architectures: windows-amd64
+GitCommit: 2240af2a7067772eaa6453e3aa801c2c28657440
+Directory: 2.14.x/windowsservercore-ltsc2022
+
+Tags: 2.14.4-nanoserver-ltsc2022,2.14.4-nanoserver
+Architectures: windows-amd64
+GitCommit: 2240af2a7067772eaa6453e3aa801c2c28657440
+Directory: 2.14.x/nanoserver-ltsc2022
+
+Tags: 2.12.14-alpine3.22,2.12.14-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: 2240af2a7067772eaa6453e3aa801c2c28657440
+Directory: 2.12.x/alpine3.22
+
+Tags: 2.12.14-scratch,2.12.14-linux,2.12.14
+Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
+GitCommit: 2240af2a7067772eaa6453e3aa801c2c28657440
+Directory: 2.12.x/scratch
+
+Tags: 2.12.14-windowsservercore-ltsc2022,2.12.14-windowsservercore
+Architectures: windows-amd64
+GitCommit: 2240af2a7067772eaa6453e3aa801c2c28657440
+Directory: 2.12.x/windowsservercore-ltsc2022
+
+Tags: 2.12.14-nanoserver-ltsc2022,2.12.14-nanoserver
+Architectures: windows-amd64
+GitCommit: 2240af2a7067772eaa6453e3aa801c2c28657440
+Directory: 2.12.x/nanoserver-ltsc2022
+
+Tags: 2.14.3-alpine3.22,2.14.3-alpine
 Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: 2382d403fed90db56bd9e4be237ebae56c55c8ff
 Directory: 2.14.x/alpine3.22
 
-Tags: 2.14.3-scratch,2.14-scratch,2-scratch,scratch,2.14.3-linux,2.14-linux,2-linux,linux,2.14.3,2.14,2,latest
+Tags: 2.14.3-scratch,2.14.3-linux,2.14.3
 Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: 2382d403fed90db56bd9e4be237ebae56c55c8ff
 Directory: 2.14.x/scratch
 
-Tags: 2.14.3-windowsservercore-ltsc2022,2.14-windowsservercore-ltsc2022,2-windowsservercore-ltsc2022,windowsservercore-ltsc2022,2.14.3-windowsservercore,2.14-windowsservercore,2-windowsservercore,windowsservercore
+Tags: 2.14.3-windowsservercore-ltsc2022,2.14.3-windowsservercore
 Architectures: windows-amd64
 GitCommit: 2382d403fed90db56bd9e4be237ebae56c55c8ff
 Directory: 2.14.x/windowsservercore-ltsc2022
 
-Tags: 2.14.3-nanoserver-ltsc2022,2.14-nanoserver-ltsc2022,2-nanoserver-ltsc2022,nanoserver-ltsc2022,2.14.3-nanoserver,2.14-nanoserver,2-nanoserver,nanoserver
+Tags: 2.14.3-nanoserver-ltsc2022,2.14.3-nanoserver
 Architectures: windows-amd64
 GitCommit: 2382d403fed90db56bd9e4be237ebae56c55c8ff
 Directory: 2.14.x/nanoserver-ltsc2022
 
-Tags: 2.12.12-alpine3.22,2.12-alpine3.22,2.12.12-alpine,2.12-alpine
+Tags: 2.12.12-alpine3.22,2.12.12-alpine
 Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: 2382d403fed90db56bd9e4be237ebae56c55c8ff
 Directory: 2.12.x/alpine3.22
 
-Tags: 2.12.12-scratch,2.12-scratch,2.12.12-linux,2.12-linux,2.12.12,2.12
+Tags: 2.12.12-scratch,2.12.12-linux,2.12.12
 Architectures: amd64,arm32v6,arm32v7,arm64v8,ppc64le,s390x
 GitCommit: 2382d403fed90db56bd9e4be237ebae56c55c8ff
 Directory: 2.12.x/scratch
 
-Tags: 2.12.12-windowsservercore-ltsc2022,2.12-windowsservercore-ltsc2022,2.12.12-windowsservercore,2.12-windowsservercore
+Tags: 2.12.12-windowsservercore-ltsc2022,2.12.12-windowsservercore
 Architectures: windows-amd64
 GitCommit: 2382d403fed90db56bd9e4be237ebae56c55c8ff
 Directory: 2.12.x/windowsservercore-ltsc2022
 
-Tags: 2.12.12-nanoserver-ltsc2022,2.12-nanoserver-ltsc2022,2.12.12-nanoserver,2.12-nanoserver
+Tags: 2.12.12-nanoserver-ltsc2022,2.12.12-nanoserver
 Architectures: windows-amd64
 GitCommit: 2382d403fed90db56bd9e4be237ebae56c55c8ff
 Directory: 2.12.x/nanoserver-ltsc2022

@@ -20,7 +20,7 @@ Blocks:
       GitFetch: ""
   Directory: develop
   File: ""
-  GitCommit: 345ea3bed15c248f9d27ea78bb74bdd13b52637f
+  GitCommit: a46c1c229a5ebcd304dcc7a75107e5e6fc57c27f
   Tags:
   - develop
 - Architectures:
@@ -44,12 +44,36 @@ Blocks:
       GitFetch: ""
   Directory: "1.10"
   File: ""
-  GitCommit: 4d59ce8afdc7fc78b6e7aa1c88b1cb693b6945da
+  GitCommit: a46c1c229a5ebcd304dcc7a75107e5e6fc57c27f
   Tags:
   - "1.10"
-  - 1.10.1
+  - 1.10.2
   - stable
   - latest
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: "1.10"
+  File: ""
+  GitCommit: 4d59ce8afdc7fc78b6e7aa1c88b1cb693b6945da
+  Tags:
+  - 1.10.1
 - Architectures:
     amd64:
       Architecture: amd64
@@ -470,6 +494,7 @@ KnownTags:
   1.10.0rc1: {}
   1.10.1: {}
   1.10.1rc1: {}
+  1.10.2: {}
   develop: {}
   latest: {}
   stable: {}

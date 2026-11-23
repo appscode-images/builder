@@ -38,14 +38,14 @@ Blocks:
       GitFetch: ""
   Directory: "16"
   File: ""
-  GitCommit: 24fb071be01a0e6241fbbabd59a3dd07d31b80f5
+  GitCommit: 5719f2f1af9000a4129748ce85656c7964b76c31
   Tags:
-  - 16.1.0
-  - "16.1"
+  - 16.2.0
+  - "16.2"
   - "16"
   - latest
-  - 16.1.0-trixie
-  - 16.1-trixie
+  - 16.2.0-trixie
+  - 16.2-trixie
   - 16-trixie
   - trixie
 - Architectures:
@@ -87,7 +87,7 @@ Blocks:
       GitFetch: ""
   Directory: "15"
   File: ""
-  GitCommit: 3b87fe3e286f7aa21ed5d69fd5c39e1b4fb02057
+  GitCommit: 5719f2f1af9000a4129748ce85656c7964b76c31
   Tags:
   - 15.3.0
   - "15.3"
@@ -134,7 +134,7 @@ Blocks:
       GitFetch: ""
   Directory: "14"
   File: ""
-  GitCommit: d0fb67beca5c8248b88c7e5271ab34b4fdb279a0
+  GitCommit: 5719f2f1af9000a4129748ce85656c7964b76c31
   Tags:
   - 14.4.0
   - "14.4"
@@ -149,8 +149,37 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-    arm32v5:
-      Architecture: arm32v5
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: "13"
+  File: ""
+  GitCommit: cf5c03c266c89d12e1760b78b4914ad8b6c1e868
+  Tags:
+  - 13.5.0
+  - "13.5"
+  - "13"
+  - 13.5.0-bookworm
+  - 13.5-bookworm
+  - 13-bookworm
+- Architectures:
+    amd64:
+      Architecture: amd64
       Directory: ""
       File: ""
       GitCommit: ""
@@ -173,22 +202,49 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-    s390x:
-      Architecture: s390x
+  Directory: "12"
+  File: ""
+  GitCommit: 5719f2f1af9000a4129748ce85656c7964b76c31
+  Tags:
+  - 12.5.0
+  - "12.5"
+  - "12"
+  - 12.5.0-bookworm
+  - 12.5-bookworm
+  - 12-bookworm
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
       Directory: ""
       File: ""
       GitCommit: ""
       GitFetch: ""
   Directory: "13"
   File: ""
-  GitCommit: 118c07a8e6467baababb4634b6cfde14a67c24b0
+  GitCommit: 5719f2f1af9000a4129748ce85656c7964b76c31
   Tags:
   - 13.4.0
   - "13.4"
-  - "13"
   - 13.4.0-bookworm
   - 13.4-bookworm
-  - 13-bookworm
 - Architectures:
     amd64:
       Architecture: amd64
@@ -226,16 +282,14 @@ Blocks:
       File: ""
       GitCommit: ""
       GitFetch: ""
-  Directory: "12"
+  Directory: "16"
   File: ""
-  GitCommit: 7070981b23d22d3ca790f87bff26f13f3614dd4c
+  GitCommit: 24fb071be01a0e6241fbbabd59a3dd07d31b80f5
   Tags:
-  - 12.5.0
-  - "12.5"
-  - "12"
-  - 12.5.0-bookworm
-  - 12.5-bookworm
-  - 12-bookworm
+  - 16.1.0
+  - "16.1"
+  - 16.1.0-trixie
+  - 16.1-trixie
 - Architectures:
     amd64:
       Architecture: amd64
@@ -2640,6 +2694,10 @@ KnownTags:
   13.4-bookworm: {}
   13.4.0: {}
   13.4.0-bookworm: {}
+  "13.5": {}
+  13.5-bookworm: {}
+  13.5.0: {}
+  13.5.0-bookworm: {}
   "14": {}
   14-bookworm: {}
   14-trixie: {}
@@ -2684,6 +2742,10 @@ KnownTags:
   16.1-trixie: {}
   16.1.0: {}
   16.1.0-trixie: {}
+  "16.2": {}
+  16.2-trixie: {}
+  16.2.0: {}
+  16.2.0-trixie: {}
   bookworm: {}
   bullseye: {}
   latest: {}

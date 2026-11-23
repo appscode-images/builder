@@ -45,6 +45,7 @@
     "7.6.1": {},
     "7.6.10": {},
     "7.6.11": {},
+    "7.6.12": {},
     "7.6.2": {},
     "7.6.3": {},
     "7.6.4": {},
@@ -55,6 +56,8 @@
     "7.6.9": {},
     "8.0.0": {},
     "8.0.1": {},
+    "8.0.2": {},
+    "8.0.3": {},
     "community": {},
     "community-6.5.0": {},
     "community-6.5.1": {},
@@ -74,6 +77,7 @@
     "community-7.6.2": {},
     "community-8.0.0": {},
     "community-8.0.1": {},
+    "community-8.0.2": {},
     "enterprise": {},
     "enterprise-6.0.1": {},
     "enterprise-6.0.2": {},
@@ -118,6 +122,7 @@
     "enterprise-7.6.1": {},
     "enterprise-7.6.10": {},
     "enterprise-7.6.11": {},
+    "enterprise-7.6.12": {},
     "enterprise-7.6.2": {},
     "enterprise-7.6.3": {},
     "enterprise-7.6.4": {},
@@ -128,14 +133,16 @@
     "enterprise-7.6.9": {},
     "enterprise-8.0.0": {},
     "enterprise-8.0.1": {},
+    "enterprise-8.0.2": {},
+    "enterprise-8.0.3": {},
     "latest": {}
   },
   "Blocks": [
     {
       "Tags": [
-        "8.0.1",
+        "8.0.3",
         "enterprise",
-        "enterprise-8.0.1",
+        "enterprise-8.0.3",
         "latest"
       ],
       "Architectures": {
@@ -154,13 +161,87 @@
           "File": ""
         }
       },
-      "GitCommit": "a1e3a5269fc01014ea8baebb712166cd8ed6e9f3",
-      "Directory": "enterprise/couchbase-server/8.0.1",
+      "GitCommit": "ae41ba51eb0e4a6e520b1bcc9894e245cda10c91",
+      "Directory": "enterprise/couchbase-server/8.0.3",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.2",
+        "enterprise-8.0.2"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "4a3898584da7fcc7e2aff217af4f2b26b1f58bb0",
+      "Directory": "enterprise/couchbase-server/8.0.2",
       "File": ""
     },
     {
       "Tags": [
         "community",
+        "community-8.0.2"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "96cacbbca82c2fc60876825e4b65c1eda40157f7",
+      "Directory": "community/couchbase-server/8.0.2",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "8.0.1",
+        "enterprise-8.0.1"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "fe936161b5fd6aa255c18e212dcf19a2d849d1ec",
+      "Directory": "enterprise/couchbase-server/8.0.1",
+      "File": ""
+    },
+    {
+      "Tags": [
         "community-8.0.1"
       ],
       "Architectures": {
@@ -179,7 +260,7 @@
           "File": ""
         }
       },
-      "GitCommit": "e8a18c84978dcd28d0bce5e634537fa554f4dfee",
+      "GitCommit": "fe936161b5fd6aa255c18e212dcf19a2d849d1ec",
       "Directory": "community/couchbase-server/8.0.1",
       "File": ""
     },
@@ -204,7 +285,7 @@
           "File": ""
         }
       },
-      "GitCommit": "c11b8eac06fe26a16b2e2b17020a965d45d7f329",
+      "GitCommit": "fe936161b5fd6aa255c18e212dcf19a2d849d1ec",
       "Directory": "enterprise/couchbase-server/8.0.0",
       "File": ""
     },
@@ -228,7 +309,7 @@
           "File": ""
         }
       },
-      "GitCommit": "e2600d59a2b84984adeccbe1c0f8b5d926d4b529",
+      "GitCommit": "fe936161b5fd6aa255c18e212dcf19a2d849d1ec",
       "Directory": "community/couchbase-server/8.0.0",
       "File": ""
     },
@@ -253,7 +334,7 @@
           "File": ""
         }
       },
-      "GitCommit": "b18d7484594299cd7fdc11b7e9115c1fa86acc74",
+      "GitCommit": "fe936161b5fd6aa255c18e212dcf19a2d849d1ec",
       "Directory": "enterprise/couchbase-server/7.6.9",
       "File": ""
     },
@@ -278,7 +359,7 @@
           "File": ""
         }
       },
-      "GitCommit": "79e990af7621fa397c0dc12fd08bad6db4f49476",
+      "GitCommit": "fe936161b5fd6aa255c18e212dcf19a2d849d1ec",
       "Directory": "enterprise/couchbase-server/7.6.8",
       "File": ""
     },
@@ -303,7 +384,7 @@
           "File": ""
         }
       },
-      "GitCommit": "a322cc7110124b2581339f52d88bab80fb50016d",
+      "GitCommit": "fe936161b5fd6aa255c18e212dcf19a2d849d1ec",
       "Directory": "enterprise/couchbase-server/7.6.7",
       "File": ""
     },
@@ -328,7 +409,7 @@
           "File": ""
         }
       },
-      "GitCommit": "9ce3cbc835dd4e072943ac7878aa7f87d6b95178",
+      "GitCommit": "da71c32532252d1c46d307ab6271bbccbf6ed337",
       "Directory": "enterprise/couchbase-server/7.6.6",
       "File": ""
     },
@@ -353,7 +434,7 @@
           "File": ""
         }
       },
-      "GitCommit": "ec16abff6f0551ced6c771bd5606a4392379dd31",
+      "GitCommit": "67ca7de49eebfb85d3a9f8b18e2388e497a356a9",
       "Directory": "enterprise/couchbase-server/7.6.5",
       "File": ""
     },
@@ -378,7 +459,7 @@
           "File": ""
         }
       },
-      "GitCommit": "9990e2cfabc94b37607e5666d9ef1eab69a397a6",
+      "GitCommit": "f2113b7f2155e9fa725c98231b6a3a8cbf6af2a1",
       "Directory": "enterprise/couchbase-server/7.6.4",
       "File": ""
     },
@@ -403,7 +484,7 @@
           "File": ""
         }
       },
-      "GitCommit": "553d1baa4aa90fe506e1d7bcdf4daec387a110fe",
+      "GitCommit": "95491092b2ee671ae3e74d7ff24f9b5d58556d9c",
       "Directory": "enterprise/couchbase-server/7.6.3",
       "File": ""
     },
@@ -428,7 +509,7 @@
           "File": ""
         }
       },
-      "GitCommit": "ce13f602d2c95f76835c67a8855d5e73480973a6",
+      "GitCommit": "fe936161b5fd6aa255c18e212dcf19a2d849d1ec",
       "Directory": "enterprise/couchbase-server/7.6.2",
       "File": ""
     },
@@ -452,8 +533,33 @@
           "File": ""
         }
       },
-      "GitCommit": "3f81af158b7f307e42f8c42ceaf7657b2690bfca",
+      "GitCommit": "fe936161b5fd6aa255c18e212dcf19a2d849d1ec",
       "Directory": "community/couchbase-server/7.6.2",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "7.6.12",
+        "enterprise-7.6.12"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "bc0835f537eb9f8f9e5cc7d444300ac19bc7c982",
+      "Directory": "enterprise/couchbase-server/7.6.12",
       "File": ""
     },
     {
@@ -502,7 +608,7 @@
           "File": ""
         }
       },
-      "GitCommit": "0603961e7e5a07d9aa1f4f28224721d9695014e8",
+      "GitCommit": "fe936161b5fd6aa255c18e212dcf19a2d849d1ec",
       "Directory": "enterprise/couchbase-server/7.6.10",
       "File": ""
     },

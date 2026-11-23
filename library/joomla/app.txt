@@ -1,61 +1,391 @@
 GitRepo: https://github.com/joomla-docker/docker-joomla.git
 
-Tags: 6.1.1-php8.3-apache,6.1-php8.3-apache,6-php8.3-apache,php8.3-apache
+Tags: 6.2.0-php8.3-apache,6.2-php8.3-apache,6-php8.3-apache,php8.3-apache
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 327d05a9f11f806acfbd6d86c22d5824fd97dc45
+Directory: images/6.2/stable/php8.3/apache
+
+Tags: 6.2.0-php8.3-apache-dev,6.2-php8.3-apache-dev,6-php8.3-apache-dev,php8.3-apache-dev
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 327d05a9f11f806acfbd6d86c22d5824fd97dc45
+Directory: images/6.2/stable/php8.3/apache-dev
+
+Tags: 6.2.0-php8.3-fpm-alpine,6.2-php8.3-fpm-alpine,6-php8.3-fpm-alpine,php8.3-fpm-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 327d05a9f11f806acfbd6d86c22d5824fd97dc45
+Directory: images/6.2/stable/php8.3/fpm-alpine
+
+Tags: 6.2.0-php8.3-fpm-alpine-dev,6.2-php8.3-fpm-alpine-dev,6-php8.3-fpm-alpine-dev,php8.3-fpm-alpine-dev
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 9206c613f0bb1e07130f036a579f07e1f85757e9
+Directory: images/6.2/stable/php8.3/fpm-alpine-dev
+
+Tags: 6.2.0-php8.3-fpm,6.2-php8.3-fpm,6-php8.3-fpm,php8.3-fpm
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 327d05a9f11f806acfbd6d86c22d5824fd97dc45
+Directory: images/6.2/stable/php8.3/fpm
+
+Tags: 6.2.0-php8.3-fpm-dev,6.2-php8.3-fpm-dev,6-php8.3-fpm-dev,php8.3-fpm-dev
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 327d05a9f11f806acfbd6d86c22d5824fd97dc45
+Directory: images/6.2/stable/php8.3/fpm-dev
+
+Tags: 6.2.0,6.2,6,latest,6.2.0-apache,6.2-apache,6-apache,apache,6.2.0-php8.4,6.2-php8.4,6-php8.4,php8.4,6.2.0-php8.4-apache,6.2-php8.4-apache,6-php8.4-apache,php8.4-apache
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 327d05a9f11f806acfbd6d86c22d5824fd97dc45
+Directory: images/6.2/stable/php8.4/apache
+
+Tags: 6.2.0-dev,6.2-dev,6-dev,6.2.0-apache-dev,6.2-apache-dev,6-apache-dev,apache-dev,6.2.0-php8.4-dev,6.2-php8.4-dev,6-php8.4-dev,php8.4-dev,6.2.0-php8.4-apache-dev,6.2-php8.4-apache-dev,6-php8.4-apache-dev,php8.4-apache-dev
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 327d05a9f11f806acfbd6d86c22d5824fd97dc45
+Directory: images/6.2/stable/php8.4/apache-dev
+
+Tags: 6.2.0-php8.4-fpm-alpine,6.2-php8.4-fpm-alpine,6-php8.4-fpm-alpine,php8.4-fpm-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 327d05a9f11f806acfbd6d86c22d5824fd97dc45
+Directory: images/6.2/stable/php8.4/fpm-alpine
+
+Tags: 6.2.0-php8.4-fpm-alpine-dev,6.2-php8.4-fpm-alpine-dev,6-php8.4-fpm-alpine-dev,php8.4-fpm-alpine-dev
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 9206c613f0bb1e07130f036a579f07e1f85757e9
+Directory: images/6.2/stable/php8.4/fpm-alpine-dev
+
+Tags: 6.2.0-php8.4-fpm,6.2-php8.4-fpm,6-php8.4-fpm,php8.4-fpm
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 327d05a9f11f806acfbd6d86c22d5824fd97dc45
+Directory: images/6.2/stable/php8.4/fpm
+
+Tags: 6.2.0-php8.4-fpm-dev,6.2-php8.4-fpm-dev,6-php8.4-fpm-dev,php8.4-fpm-dev
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 327d05a9f11f806acfbd6d86c22d5824fd97dc45
+Directory: images/6.2/stable/php8.4/fpm-dev
+
+Tags: 6.2.0-php8.5-apache,6.2-php8.5-apache,6-php8.5-apache,php8.5-apache
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 327d05a9f11f806acfbd6d86c22d5824fd97dc45
+Directory: images/6.2/stable/php8.5/apache
+
+Tags: 6.2.0-php8.5-apache-dev,6.2-php8.5-apache-dev,6-php8.5-apache-dev,php8.5-apache-dev
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 327d05a9f11f806acfbd6d86c22d5824fd97dc45
+Directory: images/6.2/stable/php8.5/apache-dev
+
+Tags: 6.2.0-php8.5-fpm-alpine,6.2-php8.5-fpm-alpine,6-php8.5-fpm-alpine,php8.5-fpm-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 327d05a9f11f806acfbd6d86c22d5824fd97dc45
+Directory: images/6.2/stable/php8.5/fpm-alpine
+
+Tags: 6.2.0-php8.5-fpm-alpine-dev,6.2-php8.5-fpm-alpine-dev,6-php8.5-fpm-alpine-dev,php8.5-fpm-alpine-dev
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 9206c613f0bb1e07130f036a579f07e1f85757e9
+Directory: images/6.2/stable/php8.5/fpm-alpine-dev
+
+Tags: 6.2.0-php8.5-fpm,6.2-php8.5-fpm,6-php8.5-fpm,php8.5-fpm
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 327d05a9f11f806acfbd6d86c22d5824fd97dc45
+Directory: images/6.2/stable/php8.5/fpm
+
+Tags: 6.2.0-php8.5-fpm-dev,6.2-php8.5-fpm-dev,6-php8.5-fpm-dev,php8.5-fpm-dev
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 327d05a9f11f806acfbd6d86c22d5824fd97dc45
+Directory: images/6.2/stable/php8.5/fpm-dev
+
+Tags: 5.4.10-php8.2-apache,5.4-php8.2-apache,5-php8.2-apache
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 327d05a9f11f806acfbd6d86c22d5824fd97dc45
+Directory: images/5.4/stable/php8.2/apache
+
+Tags: 5.4.10-php8.2-fpm-alpine,5.4-php8.2-fpm-alpine,5-php8.2-fpm-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 327d05a9f11f806acfbd6d86c22d5824fd97dc45
+Directory: images/5.4/stable/php8.2/fpm-alpine
+
+Tags: 5.4.10-php8.2-fpm,5.4-php8.2-fpm,5-php8.2-fpm
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 327d05a9f11f806acfbd6d86c22d5824fd97dc45
+Directory: images/5.4/stable/php8.2/fpm
+
+Tags: 5.4.10,5.4,5,5.4.10-apache,5.4-apache,5-apache,5.4.10-php8.3,5.4-php8.3,5-php8.3,5.4.10-php8.3-apache,5.4-php8.3-apache,5-php8.3-apache
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 327d05a9f11f806acfbd6d86c22d5824fd97dc45
+Directory: images/5.4/stable/php8.3/apache
+
+Tags: 5.4.10-php8.3-fpm-alpine,5.4-php8.3-fpm-alpine,5-php8.3-fpm-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 327d05a9f11f806acfbd6d86c22d5824fd97dc45
+Directory: images/5.4/stable/php8.3/fpm-alpine
+
+Tags: 5.4.10-php8.3-fpm,5.4-php8.3-fpm,5-php8.3-fpm
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 327d05a9f11f806acfbd6d86c22d5824fd97dc45
+Directory: images/5.4/stable/php8.3/fpm
+
+Tags: 4.4.14,4.4,4,4.4.14-apache,4.4-apache,4-apache,4.4.14-php8.2,4.4-php8.2,4-php8.2,4.4.14-php8.2-apache,4.4-php8.2-apache,4-php8.2-apache
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le
+GitCommit: c46c028c70bdd37a5526d72566cf6c52449b7fad
+Directory: 4.4/php8.2/apache
+
+Tags: 4.4.14-php8.2-fpm-alpine,4.4-php8.2-fpm-alpine,4-php8.2-fpm-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: c46c028c70bdd37a5526d72566cf6c52449b7fad
+Directory: 4.4/php8.2/fpm-alpine
+
+Tags: 4.4.14-php8.2-fpm,4.4-php8.2-fpm,4-php8.2-fpm
+Architectures: amd64,arm32v7,arm64v8,i386,ppc64le
+GitCommit: c46c028c70bdd37a5526d72566cf6c52449b7fad
+Directory: 4.4/php8.2/fpm
+
+Tags: 4.4.13,4.4.13-apache,4.4.13-php8.2,4.4.13-php8.2-apache
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+GitCommit: 2b32f0a2ba4ad99f15c0acd26b2f862c038ff3f5
+Directory: 4.4/php8.2/apache
+
+Tags: 4.4.13-php8.2-fpm-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 2b32f0a2ba4ad99f15c0acd26b2f862c038ff3f5
+Directory: 4.4/php8.2/fpm-alpine
+
+Tags: 4.4.13-php8.2-fpm
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,s390x
+GitCommit: 2b32f0a2ba4ad99f15c0acd26b2f862c038ff3f5
+Directory: 4.4/php8.2/fpm
+
+Tags: 6.1.4-php8.3-apache,6.1-php8.3-apache
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: e6f0582b4490b3b42a3e902af78da0c24bf03ffb
+Directory: 6.1/php8.3/apache
+
+Tags: 6.1.4-php8.3-fpm-alpine,6.1-php8.3-fpm-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: e6f0582b4490b3b42a3e902af78da0c24bf03ffb
+Directory: 6.1/php8.3/fpm-alpine
+
+Tags: 6.1.4-php8.3-fpm,6.1-php8.3-fpm
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: e6f0582b4490b3b42a3e902af78da0c24bf03ffb
+Directory: 6.1/php8.3/fpm
+
+Tags: 6.1.4,6.1,6.1.4-apache,6.1-apache,6.1.4-php8.4,6.1-php8.4,6.1.4-php8.4-apache,6.1-php8.4-apache
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: e6f0582b4490b3b42a3e902af78da0c24bf03ffb
+Directory: 6.1/php8.4/apache
+
+Tags: 6.1.4-php8.4-fpm-alpine,6.1-php8.4-fpm-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: e6f0582b4490b3b42a3e902af78da0c24bf03ffb
+Directory: 6.1/php8.4/fpm-alpine
+
+Tags: 6.1.4-php8.4-fpm,6.1-php8.4-fpm
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: e6f0582b4490b3b42a3e902af78da0c24bf03ffb
+Directory: 6.1/php8.4/fpm
+
+Tags: 5.4.9-php8.2-apache
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: e6f0582b4490b3b42a3e902af78da0c24bf03ffb
+Directory: 5.4/php8.2/apache
+
+Tags: 5.4.9-php8.2-fpm-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: e6f0582b4490b3b42a3e902af78da0c24bf03ffb
+Directory: 5.4/php8.2/fpm-alpine
+
+Tags: 5.4.9-php8.2-fpm
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: e6f0582b4490b3b42a3e902af78da0c24bf03ffb
+Directory: 5.4/php8.2/fpm
+
+Tags: 5.4.9,5.4.9-apache,5.4.9-php8.3,5.4.9-php8.3-apache
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: e6f0582b4490b3b42a3e902af78da0c24bf03ffb
+Directory: 5.4/php8.3/apache
+
+Tags: 5.4.9-php8.3-fpm-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: e6f0582b4490b3b42a3e902af78da0c24bf03ffb
+Directory: 5.4/php8.3/fpm-alpine
+
+Tags: 5.4.9-php8.3-fpm
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: e6f0582b4490b3b42a3e902af78da0c24bf03ffb
+Directory: 5.4/php8.3/fpm
+
+Tags: 6.1.3-php8.3-apache
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: aad6db67f845c3b0c36ed9041a794f4545b58903
+Directory: 6.1/php8.3/apache
+
+Tags: 6.1.3-php8.3-fpm-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: aad6db67f845c3b0c36ed9041a794f4545b58903
+Directory: 6.1/php8.3/fpm-alpine
+
+Tags: 6.1.3-php8.3-fpm
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: aad6db67f845c3b0c36ed9041a794f4545b58903
+Directory: 6.1/php8.3/fpm
+
+Tags: 6.1.3,6.1.3-apache,6.1.3-php8.4,6.1.3-php8.4-apache
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: aad6db67f845c3b0c36ed9041a794f4545b58903
+Directory: 6.1/php8.4/apache
+
+Tags: 6.1.3-php8.4-fpm-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: aad6db67f845c3b0c36ed9041a794f4545b58903
+Directory: 6.1/php8.4/fpm-alpine
+
+Tags: 6.1.3-php8.4-fpm
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: aad6db67f845c3b0c36ed9041a794f4545b58903
+Directory: 6.1/php8.4/fpm
+
+Tags: 5.4.8-php8.2-apache
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: aad6db67f845c3b0c36ed9041a794f4545b58903
+Directory: 5.4/php8.2/apache
+
+Tags: 5.4.8-php8.2-fpm-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: aad6db67f845c3b0c36ed9041a794f4545b58903
+Directory: 5.4/php8.2/fpm-alpine
+
+Tags: 5.4.8-php8.2-fpm
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: aad6db67f845c3b0c36ed9041a794f4545b58903
+Directory: 5.4/php8.2/fpm
+
+Tags: 5.4.8,5.4.8-apache,5.4.8-php8.3,5.4.8-php8.3-apache
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: aad6db67f845c3b0c36ed9041a794f4545b58903
+Directory: 5.4/php8.3/apache
+
+Tags: 5.4.8-php8.3-fpm-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: aad6db67f845c3b0c36ed9041a794f4545b58903
+Directory: 5.4/php8.3/fpm-alpine
+
+Tags: 5.4.8-php8.3-fpm
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: aad6db67f845c3b0c36ed9041a794f4545b58903
+Directory: 5.4/php8.3/fpm
+
+Tags: 6.1.2-php8.3-apache
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 34837c494ae75f15781ac9cf25d5f112ff5c58a3
+Directory: 6.1/php8.3/apache
+
+Tags: 6.1.2-php8.3-fpm-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 34837c494ae75f15781ac9cf25d5f112ff5c58a3
+Directory: 6.1/php8.3/fpm-alpine
+
+Tags: 6.1.2-php8.3-fpm
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 34837c494ae75f15781ac9cf25d5f112ff5c58a3
+Directory: 6.1/php8.3/fpm
+
+Tags: 6.1.2,6.1.2-apache,6.1.2-php8.4,6.1.2-php8.4-apache
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 34837c494ae75f15781ac9cf25d5f112ff5c58a3
+Directory: 6.1/php8.4/apache
+
+Tags: 6.1.2-php8.4-fpm-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 34837c494ae75f15781ac9cf25d5f112ff5c58a3
+Directory: 6.1/php8.4/fpm-alpine
+
+Tags: 6.1.2-php8.4-fpm
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 34837c494ae75f15781ac9cf25d5f112ff5c58a3
+Directory: 6.1/php8.4/fpm
+
+Tags: 5.4.7-php8.2-apache
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 34837c494ae75f15781ac9cf25d5f112ff5c58a3
+Directory: 5.4/php8.2/apache
+
+Tags: 5.4.7-php8.2-fpm-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 34837c494ae75f15781ac9cf25d5f112ff5c58a3
+Directory: 5.4/php8.2/fpm-alpine
+
+Tags: 5.4.7-php8.2-fpm
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 34837c494ae75f15781ac9cf25d5f112ff5c58a3
+Directory: 5.4/php8.2/fpm
+
+Tags: 5.4.7,5.4.7-apache,5.4.7-php8.3,5.4.7-php8.3-apache
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 34837c494ae75f15781ac9cf25d5f112ff5c58a3
+Directory: 5.4/php8.3/apache
+
+Tags: 5.4.7-php8.3-fpm-alpine
+Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 34837c494ae75f15781ac9cf25d5f112ff5c58a3
+Directory: 5.4/php8.3/fpm-alpine
+
+Tags: 5.4.7-php8.3-fpm
+Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
+GitCommit: 34837c494ae75f15781ac9cf25d5f112ff5c58a3
+Directory: 5.4/php8.3/fpm
+
+Tags: 6.1.1-php8.3-apache
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 2b1b5ff00b39583392d82ac03d8f615c06a477a4
 Directory: 6.1/php8.3/apache
 
-Tags: 6.1.1-php8.3-fpm-alpine,6.1-php8.3-fpm-alpine,6-php8.3-fpm-alpine,php8.3-fpm-alpine
+Tags: 6.1.1-php8.3-fpm-alpine
 Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 2b1b5ff00b39583392d82ac03d8f615c06a477a4
 Directory: 6.1/php8.3/fpm-alpine
 
-Tags: 6.1.1-php8.3-fpm,6.1-php8.3-fpm,6-php8.3-fpm,php8.3-fpm
+Tags: 6.1.1-php8.3-fpm
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 2b1b5ff00b39583392d82ac03d8f615c06a477a4
 Directory: 6.1/php8.3/fpm
 
-Tags: 6.1.1,6.1,6,latest,6.1.1-apache,6.1-apache,6-apache,apache,6.1.1-php8.4,6.1-php8.4,6-php8.4,php8.4,6.1.1-php8.4-apache,6.1-php8.4-apache,6-php8.4-apache,php8.4-apache
+Tags: 6.1.1,6.1.1-apache,6.1.1-php8.4,6.1.1-php8.4-apache
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 2b1b5ff00b39583392d82ac03d8f615c06a477a4
 Directory: 6.1/php8.4/apache
 
-Tags: 6.1.1-php8.4-fpm-alpine,6.1-php8.4-fpm-alpine,6-php8.4-fpm-alpine,php8.4-fpm-alpine
+Tags: 6.1.1-php8.4-fpm-alpine
 Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 2b1b5ff00b39583392d82ac03d8f615c06a477a4
 Directory: 6.1/php8.4/fpm-alpine
 
-Tags: 6.1.1-php8.4-fpm,6.1-php8.4-fpm,6-php8.4-fpm,php8.4-fpm
+Tags: 6.1.1-php8.4-fpm
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 2b1b5ff00b39583392d82ac03d8f615c06a477a4
 Directory: 6.1/php8.4/fpm
 
-Tags: 5.4.6-php8.2-apache,5.4-php8.2-apache,5-php8.2-apache
+Tags: 5.4.6-php8.2-apache
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 2b1b5ff00b39583392d82ac03d8f615c06a477a4
 Directory: 5.4/php8.2/apache
 
-Tags: 5.4.6-php8.2-fpm-alpine,5.4-php8.2-fpm-alpine,5-php8.2-fpm-alpine
+Tags: 5.4.6-php8.2-fpm-alpine
 Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 2b1b5ff00b39583392d82ac03d8f615c06a477a4
 Directory: 5.4/php8.2/fpm-alpine
 
-Tags: 5.4.6-php8.2-fpm,5.4-php8.2-fpm,5-php8.2-fpm
+Tags: 5.4.6-php8.2-fpm
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 2b1b5ff00b39583392d82ac03d8f615c06a477a4
 Directory: 5.4/php8.2/fpm
 
-Tags: 5.4.6,5.4,5,5.4.6-apache,5.4-apache,5-apache,5.4.6-php8.3,5.4-php8.3,5-php8.3,5.4.6-php8.3-apache,5.4-php8.3-apache,5-php8.3-apache
+Tags: 5.4.6,5.4.6-apache,5.4.6-php8.3,5.4.6-php8.3-apache
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 2b1b5ff00b39583392d82ac03d8f615c06a477a4
 Directory: 5.4/php8.3/apache
 
-Tags: 5.4.6-php8.3-fpm-alpine,5.4-php8.3-fpm-alpine,5-php8.3-fpm-alpine
+Tags: 5.4.6-php8.3-fpm-alpine
 Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 2b1b5ff00b39583392d82ac03d8f615c06a477a4
 Directory: 5.4/php8.3/fpm-alpine
 
-Tags: 5.4.6-php8.3-fpm,5.4-php8.3-fpm,5-php8.3-fpm
+Tags: 5.4.6-php8.3-fpm
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: 2b1b5ff00b39583392d82ac03d8f615c06a477a4
 Directory: 5.4/php8.3/fpm
@@ -510,21 +840,6 @@ Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: c46c028c70bdd37a5526d72566cf6c52449b7fad
 Directory: 4.4/php8.1/fpm
 
-Tags: 4.4.14,4.4,4,4.4.14-apache,4.4-apache,4-apache,4.4.14-php8.2,4.4-php8.2,4-php8.2,4.4.14-php8.2-apache,4.4-php8.2-apache,4-php8.2-apache
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
-GitCommit: c46c028c70bdd37a5526d72566cf6c52449b7fad
-Directory: 4.4/php8.2/apache
-
-Tags: 4.4.14-php8.2-fpm-alpine,4.4-php8.2-fpm-alpine,4-php8.2-fpm-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
-GitCommit: c46c028c70bdd37a5526d72566cf6c52449b7fad
-Directory: 4.4/php8.2/fpm-alpine
-
-Tags: 4.4.14-php8.2-fpm,4.4-php8.2-fpm,4-php8.2-fpm
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
-GitCommit: c46c028c70bdd37a5526d72566cf6c52449b7fad
-Directory: 4.4/php8.2/fpm
-
 Tags: 6.0.0-beta3,6.0.beta,6.0.0-beta,6.0.0-beta3-apache,6.0.beta-apache,6.0.0-beta-apache,6.0.0-beta3-php8.3,6.0.beta-php8.3,6.0.0-beta-php8.3,6.0.0-beta3-php8.3-apache,6.0.beta-php8.3-apache,6.0.0-beta-php8.3-apache
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
 GitCommit: a935f5b3ee82e646fb4c7826b80703828aa6cc42
@@ -809,21 +1124,6 @@ Tags: 4.4.13-php8.1-fpm
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
 GitCommit: 2b32f0a2ba4ad99f15c0acd26b2f862c038ff3f5
 Directory: 4.4/php8.1/fpm
-
-Tags: 4.4.13,4.4.13-apache,4.4.13-php8.2,4.4.13-php8.2-apache
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
-GitCommit: 2b32f0a2ba4ad99f15c0acd26b2f862c038ff3f5
-Directory: 4.4/php8.2/apache
-
-Tags: 4.4.13-php8.2-fpm-alpine
-Architectures: amd64,arm32v6,arm32v7,arm64v8,i386,ppc64le,riscv64,s390x
-GitCommit: 2b32f0a2ba4ad99f15c0acd26b2f862c038ff3f5
-Directory: 4.4/php8.2/fpm-alpine
-
-Tags: 4.4.13-php8.2-fpm
-Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x
-GitCommit: 2b32f0a2ba4ad99f15c0acd26b2f862c038ff3f5
-Directory: 4.4/php8.2/fpm
 
 Tags: 6.0.0-alpha2,6.0.0-alpha2-apache,6.0.0-alpha2-php8.3,6.0.0-alpha2-php8.3-apache
 Architectures: amd64,arm32v5,arm32v7,arm64v8,i386,mips64le,ppc64le,s390x

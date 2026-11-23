@@ -1,6 +1,6 @@
 {
   "Name": "swift",
-  "GitRepo": "https://github.com/apple/swift-docker.git",
+  "GitRepo": "https://github.com/swiftlang/swift-docker.git",
   "KnownTags": {
     "3": {},
     "3.0": {},
@@ -880,6 +880,101 @@
     "6.3.3-rhel-ubi9-slim": {},
     "6.3.3-slim": {},
     "6.3.3-windowsservercore-ltsc2022": {},
+    "6.4": {},
+    "6.4-amazonlinux2023": {},
+    "6.4-amazonlinux2023-slim": {},
+    "6.4-bookworm": {},
+    "6.4-bookworm-slim": {},
+    "6.4-jammy": {},
+    "6.4-jammy-slim": {},
+    "6.4-noble": {},
+    "6.4-noble-slim": {},
+    "6.4-resolute": {},
+    "6.4-resolute-slim": {},
+    "6.4-rhel-ubi10": {},
+    "6.4-rhel-ubi10-slim": {},
+    "6.4-rhel-ubi9": {},
+    "6.4-rhel-ubi9-slim": {},
+    "6.4-slim": {},
+    "6.4-trixie": {},
+    "6.4-trixie-slim": {},
+    "6.4-windowsservercore-ltsc2022": {},
+    "6.4.0": {},
+    "6.4.0-amazonlinux2023": {},
+    "6.4.0-amazonlinux2023-slim": {},
+    "6.4.0-bookworm": {},
+    "6.4.0-bookworm-slim": {},
+    "6.4.0-jammy": {},
+    "6.4.0-jammy-slim": {},
+    "6.4.0-noble": {},
+    "6.4.0-noble-slim": {},
+    "6.4.0-resolute": {},
+    "6.4.0-resolute-slim": {},
+    "6.4.0-rhel-ubi10": {},
+    "6.4.0-rhel-ubi10-slim": {},
+    "6.4.0-rhel-ubi9": {},
+    "6.4.0-rhel-ubi9-slim": {},
+    "6.4.0-slim": {},
+    "6.4.0-trixie": {},
+    "6.4.0-trixie-slim": {},
+    "6.4.0-windowsservercore-ltsc2022": {},
+    "6.4.1": {},
+    "6.4.1-amazonlinux2023": {},
+    "6.4.1-amazonlinux2023-slim": {},
+    "6.4.1-bookworm": {},
+    "6.4.1-bookworm-slim": {},
+    "6.4.1-jammy": {},
+    "6.4.1-jammy-slim": {},
+    "6.4.1-noble": {},
+    "6.4.1-noble-slim": {},
+    "6.4.1-resolute": {},
+    "6.4.1-resolute-slim": {},
+    "6.4.1-rhel-ubi10": {},
+    "6.4.1-rhel-ubi10-slim": {},
+    "6.4.1-rhel-ubi9": {},
+    "6.4.1-rhel-ubi9-slim": {},
+    "6.4.1-slim": {},
+    "6.4.1-trixie": {},
+    "6.4.1-trixie-slim": {},
+    "6.4.1-windowsservercore-ltsc2022": {},
+    "6.4.2": {},
+    "6.4.2-amazonlinux2023": {},
+    "6.4.2-amazonlinux2023-slim": {},
+    "6.4.2-bookworm": {},
+    "6.4.2-bookworm-slim": {},
+    "6.4.2-jammy": {},
+    "6.4.2-jammy-slim": {},
+    "6.4.2-noble": {},
+    "6.4.2-noble-slim": {},
+    "6.4.2-resolute": {},
+    "6.4.2-resolute-slim": {},
+    "6.4.2-rhel-ubi10": {},
+    "6.4.2-rhel-ubi10-slim": {},
+    "6.4.2-rhel-ubi9": {},
+    "6.4.2-rhel-ubi9-slim": {},
+    "6.4.2-slim": {},
+    "6.4.2-trixie": {},
+    "6.4.2-trixie-slim": {},
+    "6.4.2-windowsservercore-ltsc2022": {},
+    "6.4.3": {},
+    "6.4.3-amazonlinux2023": {},
+    "6.4.3-amazonlinux2023-slim": {},
+    "6.4.3-bookworm": {},
+    "6.4.3-bookworm-slim": {},
+    "6.4.3-jammy": {},
+    "6.4.3-jammy-slim": {},
+    "6.4.3-noble": {},
+    "6.4.3-noble-slim": {},
+    "6.4.3-resolute": {},
+    "6.4.3-resolute-slim": {},
+    "6.4.3-rhel-ubi10": {},
+    "6.4.3-rhel-ubi10-slim": {},
+    "6.4.3-rhel-ubi9": {},
+    "6.4.3-rhel-ubi9-slim": {},
+    "6.4.3-slim": {},
+    "6.4.3-trixie": {},
+    "6.4.3-trixie-slim": {},
+    "6.4.3-windowsservercore-ltsc2022": {},
     "amazonlinux2": {},
     "amazonlinux2-slim": {},
     "amazonlinux2023": {},
@@ -901,9 +996,15 @@
     "mantic": {},
     "noble": {},
     "noble-slim": {},
+    "resolute": {},
+    "resolute-slim": {},
+    "rhel-ubi10": {},
+    "rhel-ubi10-slim": {},
     "rhel-ubi9": {},
     "rhel-ubi9-slim": {},
     "slim": {},
+    "trixie": {},
+    "trixie-slim": {},
     "windowsservercore-ltsc2022": {},
     "xenial": {},
     "xenial-slim": {}
@@ -911,12 +1012,451 @@
   "Blocks": [
     {
       "Tags": [
+        "6.4.3",
+        "6.4",
+        "6.4.3-resolute",
+        "6.4-resolute",
+        "resolute",
+        "latest"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "6c2d114fa4236b67fe50c858ae55d1a775f8224c",
+      "Directory": "6.4/ubuntu/26.04",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.3-slim",
+        "6.4-slim",
+        "6.4.3-resolute-slim",
+        "6.4-resolute-slim",
+        "resolute-slim",
+        "slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "6c2d114fa4236b67fe50c858ae55d1a775f8224c",
+      "Directory": "6.4/ubuntu/26.04/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.3-noble",
+        "6.4-noble",
+        "noble"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "6c2d114fa4236b67fe50c858ae55d1a775f8224c",
+      "Directory": "6.4/ubuntu/24.04",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.3-noble-slim",
+        "6.4-noble-slim",
+        "noble-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "6c2d114fa4236b67fe50c858ae55d1a775f8224c",
+      "Directory": "6.4/ubuntu/24.04/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.3-jammy",
+        "6.4-jammy",
+        "jammy"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "6c2d114fa4236b67fe50c858ae55d1a775f8224c",
+      "Directory": "6.4/ubuntu/22.04",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.3-jammy-slim",
+        "6.4-jammy-slim",
+        "jammy-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "6c2d114fa4236b67fe50c858ae55d1a775f8224c",
+      "Directory": "6.4/ubuntu/22.04/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.3-bookworm",
+        "6.4-bookworm",
+        "bookworm"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "6c2d114fa4236b67fe50c858ae55d1a775f8224c",
+      "Directory": "6.4/debian/12",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.3-bookworm-slim",
+        "6.4-bookworm-slim",
+        "bookworm-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "6c2d114fa4236b67fe50c858ae55d1a775f8224c",
+      "Directory": "6.4/debian/12/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.3-trixie",
+        "6.4-trixie",
+        "trixie"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "6c2d114fa4236b67fe50c858ae55d1a775f8224c",
+      "Directory": "6.4/debian/13",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.3-trixie-slim",
+        "6.4-trixie-slim",
+        "trixie-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "6c2d114fa4236b67fe50c858ae55d1a775f8224c",
+      "Directory": "6.4/debian/13/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.3-amazonlinux2023",
+        "6.4-amazonlinux2023",
+        "amazonlinux2023"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "6c2d114fa4236b67fe50c858ae55d1a775f8224c",
+      "Directory": "6.4/amazonlinux/2023",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.3-amazonlinux2023-slim",
+        "6.4-amazonlinux2023-slim",
+        "amazonlinux2023-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "6c2d114fa4236b67fe50c858ae55d1a775f8224c",
+      "Directory": "6.4/amazonlinux/2023/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.3-rhel-ubi9",
+        "6.4-rhel-ubi9",
+        "rhel-ubi9"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "6c2d114fa4236b67fe50c858ae55d1a775f8224c",
+      "Directory": "6.4/rhel-ubi/9",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.3-rhel-ubi9-slim",
+        "6.4-rhel-ubi9-slim",
+        "rhel-ubi9-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "6c2d114fa4236b67fe50c858ae55d1a775f8224c",
+      "Directory": "6.4/rhel-ubi/9/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.3-rhel-ubi10",
+        "6.4-rhel-ubi10",
+        "rhel-ubi10"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "6c2d114fa4236b67fe50c858ae55d1a775f8224c",
+      "Directory": "6.4/rhel-ubi/10",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.3-rhel-ubi10-slim",
+        "6.4-rhel-ubi10-slim",
+        "rhel-ubi10-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "6c2d114fa4236b67fe50c858ae55d1a775f8224c",
+      "Directory": "6.4/rhel-ubi/10/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.3-windowsservercore-ltsc2022",
+        "6.4-windowsservercore-ltsc2022",
+        "windowsservercore-ltsc2022"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "6c2d114fa4236b67fe50c858ae55d1a775f8224c",
+      "Directory": "6.4/windows/LTSC2022",
+      "File": ""
+    },
+    {
+      "Tags": [
         "6.3.3",
         "6.3",
         "6.3.3-noble",
-        "6.3-noble",
-        "noble",
-        "latest"
+        "6.3-noble"
       ],
       "Architectures": {
         "amd64": {
@@ -943,9 +1483,7 @@
         "6.3.3-slim",
         "6.3-slim",
         "6.3.3-noble-slim",
-        "6.3-noble-slim",
-        "noble-slim",
-        "slim"
+        "6.3-noble-slim"
       ],
       "Architectures": {
         "amd64": {
@@ -970,8 +1508,7 @@
     {
       "Tags": [
         "6.3.3-jammy",
-        "6.3-jammy",
-        "jammy"
+        "6.3-jammy"
       ],
       "Architectures": {
         "amd64": {
@@ -996,8 +1533,7 @@
     {
       "Tags": [
         "6.3.3-jammy-slim",
-        "6.3-jammy-slim",
-        "jammy-slim"
+        "6.3-jammy-slim"
       ],
       "Architectures": {
         "amd64": {
@@ -1022,8 +1558,7 @@
     {
       "Tags": [
         "6.3.3-bookworm",
-        "6.3-bookworm",
-        "bookworm"
+        "6.3-bookworm"
       ],
       "Architectures": {
         "amd64": {
@@ -1048,8 +1583,7 @@
     {
       "Tags": [
         "6.3.3-bookworm-slim",
-        "6.3-bookworm-slim",
-        "bookworm-slim"
+        "6.3-bookworm-slim"
       ],
       "Architectures": {
         "amd64": {
@@ -1074,8 +1608,7 @@
     {
       "Tags": [
         "6.3.3-amazonlinux2",
-        "6.3-amazonlinux2",
-        "amazonlinux2"
+        "6.3-amazonlinux2"
       ],
       "Architectures": {
         "amd64": {
@@ -1100,8 +1633,7 @@
     {
       "Tags": [
         "6.3.3-amazonlinux2-slim",
-        "6.3-amazonlinux2-slim",
-        "amazonlinux2-slim"
+        "6.3-amazonlinux2-slim"
       ],
       "Architectures": {
         "amd64": {
@@ -1126,8 +1658,7 @@
     {
       "Tags": [
         "6.3.3-amazonlinux2023",
-        "6.3-amazonlinux2023",
-        "amazonlinux2023"
+        "6.3-amazonlinux2023"
       ],
       "Architectures": {
         "amd64": {
@@ -1152,8 +1683,7 @@
     {
       "Tags": [
         "6.3.3-amazonlinux2023-slim",
-        "6.3-amazonlinux2023-slim",
-        "amazonlinux2023-slim"
+        "6.3-amazonlinux2023-slim"
       ],
       "Architectures": {
         "amd64": {
@@ -1178,8 +1708,7 @@
     {
       "Tags": [
         "6.3.3-rhel-ubi9",
-        "6.3-rhel-ubi9",
-        "rhel-ubi9"
+        "6.3-rhel-ubi9"
       ],
       "Architectures": {
         "amd64": {
@@ -1204,8 +1733,7 @@
     {
       "Tags": [
         "6.3.3-rhel-ubi9-slim",
-        "6.3-rhel-ubi9-slim",
-        "rhel-ubi9-slim"
+        "6.3-rhel-ubi9-slim"
       ],
       "Architectures": {
         "amd64": {
@@ -1230,8 +1758,7 @@
     {
       "Tags": [
         "6.3.3-windowsservercore-ltsc2022",
-        "6.3-windowsservercore-ltsc2022",
-        "windowsservercore-ltsc2022"
+        "6.3-windowsservercore-ltsc2022"
       ],
       "Architectures": {
         "windows-amd64": {
@@ -2010,6 +2537,1263 @@
       },
       "GitCommit": "f44060cdf224436060d2df98a5c3f63f2600de63",
       "Directory": "6.0/windows/LTSC2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.2",
+        "6.4.2-resolute"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f1964adb5a506e07687912baa939f330bd9e59ea",
+      "Directory": "6.4/ubuntu/26.04",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.2-slim",
+        "6.4.2-resolute-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f1964adb5a506e07687912baa939f330bd9e59ea",
+      "Directory": "6.4/ubuntu/26.04/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.2-noble"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f1964adb5a506e07687912baa939f330bd9e59ea",
+      "Directory": "6.4/ubuntu/24.04",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.2-noble-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f1964adb5a506e07687912baa939f330bd9e59ea",
+      "Directory": "6.4/ubuntu/24.04/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.2-jammy"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f1964adb5a506e07687912baa939f330bd9e59ea",
+      "Directory": "6.4/ubuntu/22.04",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.2-jammy-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f1964adb5a506e07687912baa939f330bd9e59ea",
+      "Directory": "6.4/ubuntu/22.04/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.2-bookworm"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f1964adb5a506e07687912baa939f330bd9e59ea",
+      "Directory": "6.4/debian/12",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.2-bookworm-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f1964adb5a506e07687912baa939f330bd9e59ea",
+      "Directory": "6.4/debian/12/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.2-trixie"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f1964adb5a506e07687912baa939f330bd9e59ea",
+      "Directory": "6.4/debian/13",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.2-trixie-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f1964adb5a506e07687912baa939f330bd9e59ea",
+      "Directory": "6.4/debian/13/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.2-amazonlinux2023"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f1964adb5a506e07687912baa939f330bd9e59ea",
+      "Directory": "6.4/amazonlinux/2023",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.2-amazonlinux2023-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f1964adb5a506e07687912baa939f330bd9e59ea",
+      "Directory": "6.4/amazonlinux/2023/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.2-rhel-ubi9"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f1964adb5a506e07687912baa939f330bd9e59ea",
+      "Directory": "6.4/rhel-ubi/9",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.2-rhel-ubi9-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f1964adb5a506e07687912baa939f330bd9e59ea",
+      "Directory": "6.4/rhel-ubi/9/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.2-rhel-ubi10"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f1964adb5a506e07687912baa939f330bd9e59ea",
+      "Directory": "6.4/rhel-ubi/10",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.2-rhel-ubi10-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f1964adb5a506e07687912baa939f330bd9e59ea",
+      "Directory": "6.4/rhel-ubi/10/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.2-windowsservercore-ltsc2022"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "f1964adb5a506e07687912baa939f330bd9e59ea",
+      "Directory": "6.4/windows/LTSC2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.1",
+        "6.4.1-resolute"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "4d1b80b6b384193e7a914e8fd0ad9674f18c69e4",
+      "Directory": "6.4/ubuntu/26.04",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.1-slim",
+        "6.4.1-resolute-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "4d1b80b6b384193e7a914e8fd0ad9674f18c69e4",
+      "Directory": "6.4/ubuntu/26.04/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.1-noble"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "4d1b80b6b384193e7a914e8fd0ad9674f18c69e4",
+      "Directory": "6.4/ubuntu/24.04",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.1-noble-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "4d1b80b6b384193e7a914e8fd0ad9674f18c69e4",
+      "Directory": "6.4/ubuntu/24.04/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.1-jammy"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "4d1b80b6b384193e7a914e8fd0ad9674f18c69e4",
+      "Directory": "6.4/ubuntu/22.04",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.1-jammy-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "4d1b80b6b384193e7a914e8fd0ad9674f18c69e4",
+      "Directory": "6.4/ubuntu/22.04/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.1-bookworm"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "4d1b80b6b384193e7a914e8fd0ad9674f18c69e4",
+      "Directory": "6.4/debian/12",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.1-bookworm-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "4d1b80b6b384193e7a914e8fd0ad9674f18c69e4",
+      "Directory": "6.4/debian/12/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.1-trixie"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "4d1b80b6b384193e7a914e8fd0ad9674f18c69e4",
+      "Directory": "6.4/debian/13",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.1-trixie-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "4d1b80b6b384193e7a914e8fd0ad9674f18c69e4",
+      "Directory": "6.4/debian/13/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.1-amazonlinux2023"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "4d1b80b6b384193e7a914e8fd0ad9674f18c69e4",
+      "Directory": "6.4/amazonlinux/2023",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.1-amazonlinux2023-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "4d1b80b6b384193e7a914e8fd0ad9674f18c69e4",
+      "Directory": "6.4/amazonlinux/2023/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.1-rhel-ubi9"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "4d1b80b6b384193e7a914e8fd0ad9674f18c69e4",
+      "Directory": "6.4/rhel-ubi/9",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.1-rhel-ubi9-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "4d1b80b6b384193e7a914e8fd0ad9674f18c69e4",
+      "Directory": "6.4/rhel-ubi/9/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.1-rhel-ubi10"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "4d1b80b6b384193e7a914e8fd0ad9674f18c69e4",
+      "Directory": "6.4/rhel-ubi/10",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.1-rhel-ubi10-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "4d1b80b6b384193e7a914e8fd0ad9674f18c69e4",
+      "Directory": "6.4/rhel-ubi/10/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.1-windowsservercore-ltsc2022"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "4d1b80b6b384193e7a914e8fd0ad9674f18c69e4",
+      "Directory": "6.4/windows/LTSC2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.0",
+        "6.4.0-resolute"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "05cabac38fcc83366bacea62a73a05b09f29a671",
+      "Directory": "6.4/ubuntu/26.04",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.0-slim",
+        "6.4.0-resolute-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "05cabac38fcc83366bacea62a73a05b09f29a671",
+      "Directory": "6.4/ubuntu/26.04/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.0-noble"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "05cabac38fcc83366bacea62a73a05b09f29a671",
+      "Directory": "6.4/ubuntu/24.04",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.0-noble-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "05cabac38fcc83366bacea62a73a05b09f29a671",
+      "Directory": "6.4/ubuntu/24.04/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.0-jammy"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "05cabac38fcc83366bacea62a73a05b09f29a671",
+      "Directory": "6.4/ubuntu/22.04",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.0-jammy-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "05cabac38fcc83366bacea62a73a05b09f29a671",
+      "Directory": "6.4/ubuntu/22.04/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.0-bookworm"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "05cabac38fcc83366bacea62a73a05b09f29a671",
+      "Directory": "6.4/debian/12",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.0-bookworm-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "05cabac38fcc83366bacea62a73a05b09f29a671",
+      "Directory": "6.4/debian/12/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.0-trixie"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "05cabac38fcc83366bacea62a73a05b09f29a671",
+      "Directory": "6.4/debian/13",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.0-trixie-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "05cabac38fcc83366bacea62a73a05b09f29a671",
+      "Directory": "6.4/debian/13/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.0-amazonlinux2023"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "05cabac38fcc83366bacea62a73a05b09f29a671",
+      "Directory": "6.4/amazonlinux/2023",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.0-amazonlinux2023-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "05cabac38fcc83366bacea62a73a05b09f29a671",
+      "Directory": "6.4/amazonlinux/2023/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.0-rhel-ubi9"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "05cabac38fcc83366bacea62a73a05b09f29a671",
+      "Directory": "6.4/rhel-ubi/9",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.0-rhel-ubi9-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "05cabac38fcc83366bacea62a73a05b09f29a671",
+      "Directory": "6.4/rhel-ubi/9/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.0-rhel-ubi10"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "05cabac38fcc83366bacea62a73a05b09f29a671",
+      "Directory": "6.4/rhel-ubi/10",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.0-rhel-ubi10-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "05cabac38fcc83366bacea62a73a05b09f29a671",
+      "Directory": "6.4/rhel-ubi/10/slim",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "6.4.0-windowsservercore-ltsc2022"
+      ],
+      "Architectures": {
+        "windows-amd64": {
+          "Architecture": "windows-amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "ba4e5d500791c2c6c288dba3ce73f90331798b6e",
+      "Directory": "6.4/windows/LTSC2022",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "amazonlinux2"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "8d5f628fceb89091841e9408c5eeeac66f658eee",
+      "Directory": "6.3/amazonlinux/2",
+      "File": ""
+    },
+    {
+      "Tags": [
+        "amazonlinux2-slim"
+      ],
+      "Architectures": {
+        "amd64": {
+          "Architecture": "amd64",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        },
+        "arm64v8": {
+          "Architecture": "arm64v8",
+          "Directory": "",
+          "GitFetch": "",
+          "GitCommit": "",
+          "File": ""
+        }
+      },
+      "GitCommit": "8d5f628fceb89091841e9408c5eeeac66f658eee",
+      "Directory": "6.3/amazonlinux/2/slim",
       "File": ""
     },
     {
