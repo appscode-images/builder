@@ -17,6 +17,9 @@ jobs:
       contents: write
     steps:
     - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+      with:
+        # checkout's persisted GITHUB_TOKEN extraheader would override the PAT set in "Prepare git"
+        persist-credentials: false
 
     - name: Set up Go
       uses: actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff # v5.6.0
@@ -26,7 +29,7 @@ jobs:
     - name: Prepare git
       env:
         GITHUB_USER: 1gtm
-        # GITHUB_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
       run: |
         set -x
         git config --global user.name "1gtm"
