@@ -50,12 +50,12 @@ Blocks:
       GitFetch: ""
   Directory: "6"
   File: ""
-  GitCommit: 6d83dde54e9e8a76c9e003eb494e296808a2a627
+  GitCommit: c7030156876cd2e939b6ae3e9cca95faea0d28eb
   Tags:
-  - 6.3.0
+  - 6.3.1
   - "6"
   - latest
-  - 6.3.0-standalone
+  - 6.3.1-standalone
   - 6-standalone
   - standalone
 - Architectures:
@@ -109,9 +109,9 @@ Blocks:
       GitFetch: ""
   Directory: 6/fastcgi
   File: ""
-  GitCommit: 6d83dde54e9e8a76c9e003eb494e296808a2a627
+  GitCommit: c7030156876cd2e939b6ae3e9cca95faea0d28eb
   Tags:
-  - 6.3.0-fastcgi
+  - 6.3.1-fastcgi
   - 6-fastcgi
   - fastcgi
 - Architectures:
@@ -226,6 +226,115 @@ Blocks:
   Tags:
   - 5.5.1-fastcgi
   - 5-fastcgi
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: "6"
+  File: ""
+  GitCommit: 6d83dde54e9e8a76c9e003eb494e296808a2a627
+  Tags:
+  - 6.3.0
+  - 6.3.0-standalone
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: 6/fastcgi
+  File: ""
+  GitCommit: 6d83dde54e9e8a76c9e003eb494e296808a2a627
+  Tags:
+  - 6.3.0-fastcgi
 - Architectures:
     amd64:
       Architecture: amd64
@@ -3966,6 +4075,9 @@ KnownTags:
   6.3.0: {}
   6.3.0-fastcgi: {}
   6.3.0-standalone: {}
+  6.3.1: {}
+  6.3.1-fastcgi: {}
+  6.3.1-standalone: {}
   fastcgi: {}
   latest: {}
   standalone: {}

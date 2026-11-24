@@ -50,10 +50,16 @@ Blocks:
       GitFetch: ""
   Directory: debian
   File: ""
-  GitCommit: 5bca56cf1973c2df353564ee7f5038fd5bc27c09
+  GitCommit: e41cf8112292226a063b81737c5478952488da76
   Tags:
-  - 8.12-rc3
-  - 8.12-rc3-trixie
+  - 8.12.0
+  - "8.12"
+  - "8"
+  - 8.12.0-trixie
+  - 8.12-trixie
+  - 8-trixie
+  - latest
+  - trixie
 - Architectures:
     amd64:
       Architecture: amd64
@@ -105,10 +111,16 @@ Blocks:
       GitFetch: ""
   Directory: alpine
   File: ""
-  GitCommit: 5bca56cf1973c2df353564ee7f5038fd5bc27c09
+  GitCommit: e41cf8112292226a063b81737c5478952488da76
   Tags:
-  - 8.12-rc3-alpine
-  - 8.12-rc3-alpine3.23
+  - 8.12.0-alpine
+  - 8.12-alpine
+  - 8-alpine
+  - 8.12.0-alpine3.23
+  - 8.12-alpine3.23
+  - 8-alpine3.23
+  - alpine
+  - alpine3.23
 - Architectures:
     amd64:
       Architecture: amd64
@@ -164,12 +176,8 @@ Blocks:
   Tags:
   - 8.10.3
   - "8.10"
-  - "8"
   - 8.10.3-trixie
   - 8.10-trixie
-  - 8-trixie
-  - latest
-  - trixie
 - Architectures:
     amd64:
       Architecture: amd64
@@ -225,12 +233,8 @@ Blocks:
   Tags:
   - 8.10.3-alpine
   - 8.10-alpine
-  - 8-alpine
   - 8.10.3-alpine3.23
   - 8.10-alpine3.23
-  - 8-alpine3.23
-  - alpine
-  - alpine3.23
 - Architectures:
     amd64:
       Architecture: amd64
@@ -969,6 +973,116 @@ Blocks:
   - 6.2.24-alpine3.22
   - 6.2-alpine3.22
   - 6-alpine3.22
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: debian
+  File: ""
+  GitCommit: 5bca56cf1973c2df353564ee7f5038fd5bc27c09
+  Tags:
+  - 8.12-rc3
+  - 8.12-rc3-trixie
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: alpine
+  File: ""
+  GitCommit: 5bca56cf1973c2df353564ee7f5038fd5bc27c09
+  Tags:
+  - 8.12-rc3-alpine
+  - 8.12-rc3-alpine3.23
 - Architectures:
     amd64:
       Architecture: amd64
@@ -25616,6 +25730,9 @@ KnownTags:
   8.10.3-alpine: {}
   8.10.3-alpine3.23: {}
   8.10.3-trixie: {}
+  "8.12": {}
+  8.12-alpine: {}
+  8.12-alpine3.23: {}
   8.12-rc2: {}
   8.12-rc2-alpine: {}
   8.12-rc2-alpine3.23: {}
@@ -25624,6 +25741,11 @@ KnownTags:
   8.12-rc3-alpine: {}
   8.12-rc3-alpine3.23: {}
   8.12-rc3-trixie: {}
+  8.12-trixie: {}
+  8.12.0: {}
+  8.12.0-alpine: {}
+  8.12.0-alpine3.23: {}
+  8.12.0-trixie: {}
   32bit: {}
   32bit-buster: {}
   32bit-stretch: {}

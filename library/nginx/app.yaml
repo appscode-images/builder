@@ -50,14 +50,14 @@ Blocks:
       GitFetch: ""
   Directory: mainline/debian
   File: ""
-  GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
+  GitCommit: d6e8ee84e5fa87b7279a3a25b0b6de7d55c24f3e
   Tags:
-  - 1.31.9
+  - 1.31.10
   - mainline
   - "1"
   - "1.31"
   - latest
-  - 1.31.9-trixie
+  - 1.31.10-trixie
   - mainline-trixie
   - 1-trixie
   - 1.31-trixie
@@ -113,14 +113,14 @@ Blocks:
       GitFetch: ""
   Directory: mainline/debian-perl
   File: ""
-  GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
+  GitCommit: d6e8ee84e5fa87b7279a3a25b0b6de7d55c24f3e
   Tags:
-  - 1.31.9-perl
+  - 1.31.10-perl
   - mainline-perl
   - 1-perl
   - 1.31-perl
   - perl
-  - 1.31.9-trixie-perl
+  - 1.31.10-trixie-perl
   - mainline-trixie-perl
   - 1-trixie-perl
   - 1.31-trixie-perl
@@ -140,14 +140,14 @@ Blocks:
       GitFetch: ""
   Directory: mainline/debian-otel
   File: ""
-  GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
+  GitCommit: d6e8ee84e5fa87b7279a3a25b0b6de7d55c24f3e
   Tags:
-  - 1.31.9-otel
+  - 1.31.10-otel
   - mainline-otel
   - 1-otel
   - 1.31-otel
   - otel
-  - 1.31.9-trixie-otel
+  - 1.31.10-trixie-otel
   - mainline-trixie-otel
   - 1-trixie-otel
   - 1.31-trixie-otel
@@ -203,14 +203,14 @@ Blocks:
       GitFetch: ""
   Directory: mainline/alpine
   File: ""
-  GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
+  GitCommit: d6e8ee84e5fa87b7279a3a25b0b6de7d55c24f3e
   Tags:
-  - 1.31.9-alpine
+  - 1.31.10-alpine
   - mainline-alpine
   - 1-alpine
   - 1.31-alpine
   - alpine
-  - 1.31.9-alpine3.24
+  - 1.31.10-alpine3.24
   - mainline-alpine3.24
   - 1-alpine3.24
   - 1.31-alpine3.24
@@ -266,14 +266,14 @@ Blocks:
       GitFetch: ""
   Directory: mainline/alpine-perl
   File: ""
-  GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
+  GitCommit: d6e8ee84e5fa87b7279a3a25b0b6de7d55c24f3e
   Tags:
-  - 1.31.9-alpine-perl
+  - 1.31.10-alpine-perl
   - mainline-alpine-perl
   - 1-alpine-perl
   - 1.31-alpine-perl
   - alpine-perl
-  - 1.31.9-alpine3.24-perl
+  - 1.31.10-alpine3.24-perl
   - mainline-alpine3.24-perl
   - 1-alpine3.24-perl
   - 1.31-alpine3.24-perl
@@ -329,14 +329,14 @@ Blocks:
       GitFetch: ""
   Directory: mainline/alpine-slim
   File: ""
-  GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
+  GitCommit: d6e8ee84e5fa87b7279a3a25b0b6de7d55c24f3e
   Tags:
-  - 1.31.9-alpine-slim
+  - 1.31.10-alpine-slim
   - mainline-alpine-slim
   - 1-alpine-slim
   - 1.31-alpine-slim
   - alpine-slim
-  - 1.31.9-alpine3.24-slim
+  - 1.31.10-alpine3.24-slim
   - mainline-alpine3.24-slim
   - 1-alpine3.24-slim
   - 1.31-alpine3.24-slim
@@ -356,14 +356,14 @@ Blocks:
       GitFetch: ""
   Directory: mainline/alpine-otel
   File: ""
-  GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
+  GitCommit: d6e8ee84e5fa87b7279a3a25b0b6de7d55c24f3e
   Tags:
-  - 1.31.9-alpine-otel
+  - 1.31.10-alpine-otel
   - mainline-alpine-otel
   - 1-alpine-otel
   - 1.31-alpine-otel
   - alpine-otel
-  - 1.31.9-alpine3.24-otel
+  - 1.31.10-alpine3.24-otel
   - mainline-alpine3.24-otel
   - 1-alpine3.24-otel
   - 1.31-alpine3.24-otel
@@ -419,14 +419,664 @@ Blocks:
       GitFetch: ""
   Directory: stable/debian
   File: ""
+  GitCommit: d6e8ee84e5fa87b7279a3a25b0b6de7d55c24f3e
+  Tags:
+  - 1.30.8
+  - stable
+  - "1.30"
+  - 1.30.8-trixie
+  - stable-trixie
+  - 1.30-trixie
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: stable/debian-perl
+  File: ""
+  GitCommit: d6e8ee84e5fa87b7279a3a25b0b6de7d55c24f3e
+  Tags:
+  - 1.30.8-perl
+  - stable-perl
+  - 1.30-perl
+  - 1.30.8-trixie-perl
+  - stable-trixie-perl
+  - 1.30-trixie-perl
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: stable/debian-otel
+  File: ""
+  GitCommit: d6e8ee84e5fa87b7279a3a25b0b6de7d55c24f3e
+  Tags:
+  - 1.30.8-otel
+  - stable-otel
+  - 1.30-otel
+  - 1.30.8-trixie-otel
+  - stable-trixie-otel
+  - 1.30-trixie-otel
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: stable/alpine
+  File: ""
+  GitCommit: d6e8ee84e5fa87b7279a3a25b0b6de7d55c24f3e
+  Tags:
+  - 1.30.8-alpine
+  - stable-alpine
+  - 1.30-alpine
+  - 1.30.8-alpine3.24
+  - stable-alpine3.24
+  - 1.30-alpine3.24
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: stable/alpine-perl
+  File: ""
+  GitCommit: d6e8ee84e5fa87b7279a3a25b0b6de7d55c24f3e
+  Tags:
+  - 1.30.8-alpine-perl
+  - stable-alpine-perl
+  - 1.30-alpine-perl
+  - 1.30.8-alpine3.24-perl
+  - stable-alpine3.24-perl
+  - 1.30-alpine3.24-perl
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: stable/alpine-slim
+  File: ""
+  GitCommit: d6e8ee84e5fa87b7279a3a25b0b6de7d55c24f3e
+  Tags:
+  - 1.30.8-alpine-slim
+  - stable-alpine-slim
+  - 1.30-alpine-slim
+  - 1.30.8-alpine3.24-slim
+  - stable-alpine3.24-slim
+  - 1.30-alpine3.24-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: stable/alpine-otel
+  File: ""
+  GitCommit: d6e8ee84e5fa87b7279a3a25b0b6de7d55c24f3e
+  Tags:
+  - 1.30.8-alpine-otel
+  - stable-alpine-otel
+  - 1.30-alpine-otel
+  - 1.30.8-alpine3.24-otel
+  - stable-alpine3.24-otel
+  - 1.30-alpine3.24-otel
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: mainline/debian
+  File: ""
+  GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
+  Tags:
+  - 1.31.9
+  - 1.31.9-trixie
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: mainline/debian-perl
+  File: ""
+  GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
+  Tags:
+  - 1.31.9-perl
+  - 1.31.9-trixie-perl
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: mainline/debian-otel
+  File: ""
+  GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
+  Tags:
+  - 1.31.9-otel
+  - 1.31.9-trixie-otel
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: mainline/alpine
+  File: ""
+  GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
+  Tags:
+  - 1.31.9-alpine
+  - 1.31.9-alpine3.24
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: mainline/alpine-perl
+  File: ""
+  GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
+  Tags:
+  - 1.31.9-alpine-perl
+  - 1.31.9-alpine3.24-perl
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v6:
+      Architecture: arm32v6
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: mainline/alpine-slim
+  File: ""
+  GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
+  Tags:
+  - 1.31.9-alpine-slim
+  - 1.31.9-alpine3.24-slim
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: mainline/alpine-otel
+  File: ""
+  GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
+  Tags:
+  - 1.31.9-alpine-otel
+  - 1.31.9-alpine3.24-otel
+- Architectures:
+    amd64:
+      Architecture: amd64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v5:
+      Architecture: arm32v5
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm32v7:
+      Architecture: arm32v7
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    arm64v8:
+      Architecture: arm64v8
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    i386:
+      Architecture: i386
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    ppc64le:
+      Architecture: ppc64le
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    riscv64:
+      Architecture: riscv64
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+    s390x:
+      Architecture: s390x
+      Directory: ""
+      File: ""
+      GitCommit: ""
+      GitFetch: ""
+  Directory: stable/debian
+  File: ""
   GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
   Tags:
   - 1.30.7
-  - stable
-  - "1.30"
   - 1.30.7-trixie
-  - stable-trixie
-  - 1.30-trixie
 - Architectures:
     amd64:
       Architecture: amd64
@@ -481,11 +1131,7 @@ Blocks:
   GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
   Tags:
   - 1.30.7-perl
-  - stable-perl
-  - 1.30-perl
   - 1.30.7-trixie-perl
-  - stable-trixie-perl
-  - 1.30-trixie-perl
 - Architectures:
     amd64:
       Architecture: amd64
@@ -504,11 +1150,7 @@ Blocks:
   GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
   Tags:
   - 1.30.7-otel
-  - stable-otel
-  - 1.30-otel
   - 1.30.7-trixie-otel
-  - stable-trixie-otel
-  - 1.30-trixie-otel
 - Architectures:
     amd64:
       Architecture: amd64
@@ -563,11 +1205,7 @@ Blocks:
   GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
   Tags:
   - 1.30.7-alpine
-  - stable-alpine
-  - 1.30-alpine
   - 1.30.7-alpine3.24
-  - stable-alpine3.24
-  - 1.30-alpine3.24
 - Architectures:
     amd64:
       Architecture: amd64
@@ -622,11 +1260,7 @@ Blocks:
   GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
   Tags:
   - 1.30.7-alpine-perl
-  - stable-alpine-perl
-  - 1.30-alpine-perl
   - 1.30.7-alpine3.24-perl
-  - stable-alpine3.24-perl
-  - 1.30-alpine3.24-perl
 - Architectures:
     amd64:
       Architecture: amd64
@@ -681,11 +1315,7 @@ Blocks:
   GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
   Tags:
   - 1.30.7-alpine-slim
-  - stable-alpine-slim
-  - 1.30-alpine-slim
   - 1.30.7-alpine3.24-slim
-  - stable-alpine3.24-slim
-  - 1.30-alpine3.24-slim
 - Architectures:
     amd64:
       Architecture: amd64
@@ -704,11 +1334,7 @@ Blocks:
   GitCommit: a2a986d19aac4a79a330e6e0b5171aae4e521926
   Tags:
   - 1.30.7-alpine-otel
-  - stable-alpine-otel
-  - 1.30-alpine-otel
   - 1.30.7-alpine3.24-otel
-  - stable-alpine3.24-otel
-  - 1.30-alpine3.24-otel
 - Architectures:
     amd64:
       Architecture: amd64
@@ -28354,6 +28980,20 @@ KnownTags:
   1.30.7-trixie: {}
   1.30.7-trixie-otel: {}
   1.30.7-trixie-perl: {}
+  1.30.8: {}
+  1.30.8-alpine: {}
+  1.30.8-alpine-otel: {}
+  1.30.8-alpine-perl: {}
+  1.30.8-alpine-slim: {}
+  1.30.8-alpine3.24: {}
+  1.30.8-alpine3.24-otel: {}
+  1.30.8-alpine3.24-perl: {}
+  1.30.8-alpine3.24-slim: {}
+  1.30.8-otel: {}
+  1.30.8-perl: {}
+  1.30.8-trixie: {}
+  1.30.8-trixie-otel: {}
+  1.30.8-trixie-perl: {}
   "1.31": {}
   1.31-alpine: {}
   1.31-alpine-otel: {}
@@ -28512,6 +29152,20 @@ KnownTags:
   1.31.9-trixie: {}
   1.31.9-trixie-otel: {}
   1.31.9-trixie-perl: {}
+  1.31.10: {}
+  1.31.10-alpine: {}
+  1.31.10-alpine-otel: {}
+  1.31.10-alpine-perl: {}
+  1.31.10-alpine-slim: {}
+  1.31.10-alpine3.24: {}
+  1.31.10-alpine3.24-otel: {}
+  1.31.10-alpine3.24-perl: {}
+  1.31.10-alpine3.24-slim: {}
+  1.31.10-otel: {}
+  1.31.10-perl: {}
+  1.31.10-trixie: {}
+  1.31.10-trixie-otel: {}
+  1.31.10-trixie-perl: {}
   alpine: {}
   alpine-otel: {}
   alpine-perl: {}
